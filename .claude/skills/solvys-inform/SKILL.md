@@ -40,7 +40,8 @@ git log --oneline main..HEAD  # If on a feature branch
 ### Available Tools
 - List available slash commands (check `.claude/commands/` and `.claude/skills/`)
 - List configured hooks (check `.claude/settings.json` or `.claude/settings.local.json`)
-- List MCP servers if configured
+- List MCP servers if configured (read `.mcp.json`)
+- If `claude-peers` MCP is registered, call out the four tools it exposes (`list_peers`, `send_message`, `set_summary`, `check_messages`) and note that the receiving agent should `set_summary` on startup so other live windows can see what it's doing
 
 ### Environment
 - Build commands (from `package.json` scripts)
@@ -125,6 +126,8 @@ If `$ARGUMENTS` specifies a file path, write the briefing to that path so the ap
 
 ### For handoff between PIC agents:
 Save to `~/.openclaw/workspace/memory/handoffs/{date}-{from}-{to}.md` if the OpenClaw workspace exists. Otherwise, output to chat.
+
+If both the outgoing and incoming agents are live Claude Code windows AND `claude-peers` MCP is registered, also `send_message` a one-liner to the receiving peer pointing at the briefing path/chat -- file/chat is canonical, the message is a nudge so they read it now rather than on next poll.
 
 ## Rules
 

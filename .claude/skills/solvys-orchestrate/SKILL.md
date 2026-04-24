@@ -65,6 +65,17 @@ Acceptance Criteria: [How to verify this track is done]
 - Utility/shared files get their own mini-track or go to the unification pass
 - Each track must be self-contained enough to run without seeing other tracks' changes
 
+### Live Backchannel (Claude Peers)
+
+If the project has the `claude-peers` MCP server registered (check `.mcp.json` for a `claude-peers` entry), every parallel track Claude already has these tools: `list_peers`, `send_message`, `set_summary`, `check_messages`. Use this layer for live coordination -- it does NOT replace File Ownership / Excluded Files declarations, which remain authoritative.
+
+In every brief you generate, include a **Coordination** section instructing the track Claude to:
+1. Call `set_summary` on startup with: `T{N} -- {Title} -- files: {comma-separated owned paths}`
+2. Call `list_peers` before any cross-cutting change to confirm no other live track is mid-edit on the same file
+3. Use `send_message` to ask another track Claude a quick question rather than blocking on the orchestrator
+
+If `claude-peers` is NOT registered, omit the Coordination section -- do not invent a fallback.
+
 ## Phase 3 -- Brief Generation
 
 Exit plan mode. For each track, produce a standalone markdown briefing file.
@@ -98,6 +109,12 @@ Exit plan mode. For each track, produce a standalone markdown briefing file.
 ## Acceptance Criteria
 - [ ] {Criterion 1}
 - [ ] {Criterion 2}
+
+## Coordination (only if claude-peers MCP is registered)
+On startup:
+1. `set_summary` with: `T{N} -- {Title} -- files: {owned paths}`
+2. `list_peers` -- confirm no other live track owns any file you're about to touch
+3. If a peer is mid-edit on a shared/adjacent file, `send_message` first; do NOT race
 
 ## Validation Commands
 ```bash
