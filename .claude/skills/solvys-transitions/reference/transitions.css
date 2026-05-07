@@ -1,0 +1,401 @@
+/* ============================================================
+   Solvys Transitions
+   Adapted from transitions.dev (Jakub Antalik, MIT) for Solvys.
+   - All tokens namespaced under --t-* on :root
+   - Motion blur during animation only -- never a glass surface
+   - prefers-reduced-motion guard on every transition
+   ============================================================ */
+
+:root {
+  /* -- p1: Notification badge ------------------------------- */
+  --t-badge-slide-dur: 260ms;
+  --t-badge-pop-dur: 500ms;
+  --t-badge-pop-close-dur: 180ms;
+  --t-badge-fade-dur: 400ms;
+  --t-badge-fade-close-dur: 180ms;
+  --t-badge-blur: 2px;
+  --t-badge-offset-x: -8.2px;
+  --t-badge-offset-y: 12.4px;
+  --t-badge-slide-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-badge-pop-ease: cubic-bezier(0.34, 1.36, 0.64, 1);
+  --t-badge-close-ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* -- p2: Menu dropdown ------------------------------------ */
+  --t-dropdown-open-dur: 250ms;
+  --t-dropdown-close-dur: 150ms;
+  --t-dropdown-pre-scale: 0.97;
+  --t-dropdown-closing-scale: 0.99;
+  --t-dropdown-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* -- p3: Panel reveal ------------------------------------- */
+  --t-panel-open-dur: 400ms;
+  --t-panel-close-dur: 350ms;
+  --t-panel-translate-y: 16px;
+  --t-panel-blur: 2px;
+  --t-panel-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* -- p4: Card resize -------------------------------------- */
+  --t-resize-dur: 300ms;
+  --t-resize-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* -- p5: Icon swap ---------------------------------------- */
+  --t-icon-swap-dur: 200ms;
+  --t-icon-swap-blur: 2px;
+  --t-icon-swap-start-scale: 0.25;
+  --t-icon-swap-ease: ease-in-out;
+
+  /* -- p6: Text states swap --------------------------------- */
+  --t-text-swap-dur: 200ms;
+  --t-text-swap-translate-y: 8px;
+  --t-text-swap-blur: 2px;
+  --t-text-swap-ease: ease-out;
+
+  /* -- p7: Modal -------------------------------------------- */
+  --t-modal-open-dur: 300ms;
+  --t-modal-close-dur: 150ms;
+  --t-modal-scale: 0.95;
+  --t-modal-scale-close: 0.96;
+  --t-modal-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* -- p8: Page slide --------------------------------------- */
+  --t-page-slide-dur: 200ms;
+  --t-page-fade-dur: 200ms;
+  --t-page-slide-distance: 8px;
+  --t-page-blur: 3px;
+  --t-page-stagger: 0ms;
+  --t-page-exit-enabled: 1;
+  --t-page-slide-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-page-fade-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* -- p9: Number pop-in ------------------------------------ */
+  --t-digit-dur: 500ms;
+  --t-digit-distance: 8px;
+  --t-digit-stagger: 70ms;
+  --t-digit-blur: 2px;
+  --t-digit-ease: cubic-bezier(0.34, 1.45, 0.64, 1);
+  --t-digit-dir-x: 0;
+  --t-digit-dir-y: 1;
+}
+
+/* ============================================================
+   1. Notification badge
+   <button style="position: relative">
+     <span class="t-badge" data-open="false">
+       <span class="t-badge-dot">1</span>
+     </span>
+   </button>
+   ============================================================ */
+
+@keyframes t-badge-slide-in {
+  from { transform: translate(var(--t-badge-offset-x), var(--t-badge-offset-y)); }
+  to   { transform: translate(0, 0); }
+}
+
+.t-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  pointer-events: none;
+  will-change: transform;
+}
+.t-badge[data-open="true"] {
+  animation: t-badge-slide-in var(--t-badge-slide-dur) var(--t-badge-slide-ease);
+}
+
+.t-badge-dot {
+  display: block;
+  transform-origin: center;
+  transform: scale(1);
+  opacity: 1;
+  filter: blur(0);
+  transition:
+    transform var(--t-badge-pop-dur)  var(--t-badge-pop-ease),
+    opacity   var(--t-badge-fade-dur) var(--t-badge-pop-ease),
+    filter    var(--t-badge-pop-dur)  var(--t-badge-pop-ease);
+  will-change: transform, opacity, filter;
+}
+.t-badge[data-open="false"] .t-badge-dot {
+  transform: scale(0);
+  opacity: 0;
+  filter: blur(var(--t-badge-blur));
+  transition:
+    transform var(--t-badge-pop-close-dur)  var(--t-badge-close-ease),
+    opacity   var(--t-badge-fade-close-dur) var(--t-badge-close-ease),
+    filter    var(--t-badge-pop-close-dur)  var(--t-badge-close-ease);
+}
+
+/* ============================================================
+   2. Menu dropdown
+   <div class="t-dropdown" data-origin="top-right"> ... </div>
+   - Add `.is-open` to show.
+   - On close, swap `.is-open` for `.is-closing`, then remove
+     `.is-closing` after --t-dropdown-close-dur.
+   ============================================================ */
+
+.t-dropdown {
+  transform-origin: top left;
+  transform: scale(var(--t-dropdown-pre-scale));
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform var(--t-dropdown-open-dur) var(--t-dropdown-ease),
+    opacity   var(--t-dropdown-open-dur) var(--t-dropdown-ease);
+  will-change: transform, opacity;
+}
+.t-dropdown[data-origin="top-right"]     { transform-origin: top right; }
+.t-dropdown[data-origin="top-center"]    { transform-origin: top center; }
+.t-dropdown[data-origin="bottom-left"]   { transform-origin: bottom left; }
+.t-dropdown[data-origin="bottom-center"] { transform-origin: bottom center; }
+.t-dropdown[data-origin="bottom-right"]  { transform-origin: bottom right; }
+
+.t-dropdown.is-open {
+  transform: scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+.t-dropdown.is-closing {
+  transform: scale(var(--t-dropdown-closing-scale));
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform var(--t-dropdown-close-dur) var(--t-dropdown-ease),
+    opacity   var(--t-dropdown-close-dur) var(--t-dropdown-ease);
+}
+
+/* ============================================================
+   3. Panel reveal
+   <div class="t-panel-slide" data-open="false"> ... </div>
+   ============================================================ */
+
+.t-panel-slide {
+  transform: translateY(var(--t-panel-translate-y));
+  opacity: 0;
+  filter: blur(var(--t-panel-blur));
+  pointer-events: none;
+  transition:
+    transform var(--t-panel-close-dur) var(--t-panel-ease),
+    opacity   var(--t-panel-close-dur) var(--t-panel-ease),
+    filter    var(--t-panel-close-dur) var(--t-panel-ease);
+  will-change: transform, opacity, filter;
+}
+.t-panel-slide[data-open="true"] {
+  transform: translateY(0);
+  opacity: 1;
+  filter: blur(0);
+  pointer-events: auto;
+  transition:
+    transform var(--t-panel-open-dur) var(--t-panel-ease),
+    opacity   var(--t-panel-open-dur) var(--t-panel-ease),
+    filter    var(--t-panel-open-dur) var(--t-panel-ease);
+}
+
+/* ============================================================
+   4. Card resize
+   <div class="t-resize"> ... </div>
+   ============================================================ */
+
+.t-resize {
+  transition:
+    width  var(--t-resize-dur) var(--t-resize-ease),
+    height var(--t-resize-dur) var(--t-resize-ease);
+  will-change: width, height;
+}
+
+/* ============================================================
+   5. Icon swap
+   <div class="t-icon-swap" data-state="a">
+     <span class="t-icon" data-icon="a">...</span>
+     <span class="t-icon" data-icon="b">...</span>
+   </div>
+   ============================================================ */
+
+.t-icon-swap {
+  position: relative;
+  display: inline-grid;
+}
+.t-icon-swap .t-icon {
+  grid-area: 1 / 1;
+  transition:
+    opacity   var(--t-icon-swap-dur) var(--t-icon-swap-ease),
+    filter    var(--t-icon-swap-dur) var(--t-icon-swap-ease),
+    transform var(--t-icon-swap-dur) var(--t-icon-swap-ease);
+  will-change: opacity, filter, transform;
+}
+.t-icon-swap[data-state="a"] .t-icon[data-icon="a"],
+.t-icon-swap[data-state="b"] .t-icon[data-icon="b"] {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+}
+.t-icon-swap[data-state="a"] .t-icon[data-icon="b"],
+.t-icon-swap[data-state="b"] .t-icon[data-icon="a"] {
+  opacity: 0;
+  filter: blur(var(--t-icon-swap-blur));
+  transform: scale(var(--t-icon-swap-start-scale));
+}
+
+/* ============================================================
+   6. Text states swap
+   <span class="t-text-swap">Processing...</span>
+   1. Add `.is-exit`  -> old text slides up + blurs + fades.
+   2. After --t-text-swap-dur: change textContent, add `.is-enter-start`.
+   3. Force reflow, remove `.is-enter-start` so the new text
+      animates back to 0 with the default transition.
+   ============================================================ */
+
+.t-text-swap {
+  display: inline-block;
+  transform: translateY(0);
+  filter: blur(0);
+  opacity: 1;
+  transition:
+    transform var(--t-text-swap-dur) var(--t-text-swap-ease),
+    filter    var(--t-text-swap-dur) var(--t-text-swap-ease),
+    opacity   var(--t-text-swap-dur) var(--t-text-swap-ease);
+  will-change: transform, filter, opacity;
+}
+.t-text-swap.is-exit {
+  transform: translateY(calc(var(--t-text-swap-translate-y) * -1));
+  filter: blur(var(--t-text-swap-blur));
+  opacity: 0;
+}
+.t-text-swap.is-enter-start {
+  transform: translateY(var(--t-text-swap-translate-y));
+  filter: blur(var(--t-text-swap-blur));
+  opacity: 0;
+  transition: none;
+}
+
+/* ============================================================
+   7. Modal
+   <div class="t-modal" role="dialog"> ... </div>
+   ============================================================ */
+
+.t-modal {
+  transform-origin: center;
+  transform: scale(var(--t-modal-scale));
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform var(--t-modal-open-dur) var(--t-modal-ease),
+    opacity   var(--t-modal-open-dur) var(--t-modal-ease);
+  will-change: transform, opacity;
+}
+.t-modal.is-open {
+  transform: scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+.t-modal.is-closing {
+  transform: scale(var(--t-modal-scale-close));
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform var(--t-modal-close-dur) var(--t-modal-ease),
+    opacity   var(--t-modal-close-dur) var(--t-modal-ease);
+}
+
+/* ============================================================
+   8. Page slide
+   <div class="t-page-slide" data-page="1">
+     <section class="t-page" data-page-id="1"> ... </section>
+     <section class="t-page" data-page-id="2"> ... </section>
+   </div>
+   ============================================================ */
+
+.t-page-slide {
+  position: relative;
+}
+.t-page-slide .t-page[data-page-id="1"] {
+  --t-page-from-x: calc(var(--t-page-slide-distance) * -1);
+}
+.t-page-slide .t-page[data-page-id="2"] {
+  --t-page-from-x: var(--t-page-slide-distance);
+}
+.t-page-slide .t-page {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(calc(var(--t-page-from-x, 0px) * var(--t-page-exit-enabled)));
+  filter: blur(calc(var(--t-page-blur) * var(--t-page-exit-enabled)));
+  transition:
+    opacity   var(--t-page-fade-dur)  var(--t-page-fade-ease),
+    transform var(--t-page-slide-dur) var(--t-page-slide-ease),
+    filter    var(--t-page-slide-dur) var(--t-page-slide-ease);
+  will-change: opacity, transform, filter;
+}
+.t-page-slide[data-page="1"] .t-page[data-page-id="1"],
+.t-page-slide[data-page="2"] .t-page[data-page-id="2"] {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+  filter: blur(0);
+  transition-delay: var(--t-page-stagger);
+}
+
+/* ============================================================
+   9. Number pop-in
+   <span class="t-digit-group is-animating">
+     <span class="t-digit">1</span>
+     <span class="t-digit" data-stagger="1">.</span>
+     <span class="t-digit" data-stagger="2">3</span>
+   </span>
+   Replay: drop .is-animating, force reflow, re-add it.
+   ============================================================ */
+
+@keyframes t-digit-pop-in {
+  0% {
+    transform: translate(
+      calc(var(--t-digit-distance) * var(--t-digit-dir-x)),
+      calc(var(--t-digit-distance) * var(--t-digit-dir-y))
+    );
+    opacity: 0;
+    filter: blur(var(--t-digit-blur));
+  }
+  100% { transform: translate(0, 0); opacity: 1; filter: blur(0); }
+}
+
+.t-digit-group {
+  display: inline-flex;
+  align-items: baseline;
+}
+.t-digit {
+  display: inline-block;
+  will-change: transform, opacity, filter;
+}
+.t-digit-group.is-animating .t-digit {
+  animation: t-digit-pop-in var(--t-digit-dur) var(--t-digit-ease) both;
+}
+.t-digit-group.is-animating .t-digit[data-stagger="1"] {
+  animation-delay: var(--t-digit-stagger);
+}
+.t-digit-group.is-animating .t-digit[data-stagger="2"] {
+  animation-delay: calc(var(--t-digit-stagger) * 2);
+}
+.t-digit-group.is-animating .t-digit[data-stagger="3"] {
+  animation-delay: calc(var(--t-digit-stagger) * 3);
+}
+.t-digit-group.is-animating .t-digit[data-stagger="4"] {
+  animation-delay: calc(var(--t-digit-stagger) * 4);
+}
+
+/* ============================================================
+   prefers-reduced-motion guard
+   ============================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .t-badge,
+  .t-badge-dot,
+  .t-dropdown,
+  .t-panel-slide,
+  .t-resize,
+  .t-icon-swap .t-icon,
+  .t-text-swap,
+  .t-modal,
+  .t-page-slide .t-page,
+  .t-digit-group .t-digit {
+    animation: none !important;
+    transition: none !important;
+  }
+}

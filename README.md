@@ -17,11 +17,14 @@ Clone this repo and copy `.claude/skills/` into your project's `.claude/` direct
 | Skill | Invoke | Purpose |
 |-------|--------|---------|
 | Orchestrate | `/solvys-orchestrate` | Multi-track sprint planning with parallel agent briefings |
+| Brief | `/solvys-brief` | Single-agent sprint brief planner with design + development flow |
+| Plane | `/solvys-plane` | Plane project management -- issues, cycles, modules, sprint tracking |
 | Audit | `/solvys-audit` | Pre-flight checks, debugging, environment audit, security scan |
 | Inform | `/solvys-inform` | Brief an AI agent on project context and recent changes |
 | Deploy | `/solvys-deploy` | Pre-flight, deploy release, test, fix-and-redeploy cycle |
 | Beta | `/solvys-beta` | Local build, test, and DMG publish to desktop |
 | Feels | `/solvys-feels` | Visual architecture -- Solvys Gold palette, flat design, industrial warmth |
+| Transitions | `/solvys-transitions` | 9 paste-ready CSS transitions tuned for Solvys |
 
 ## Solvys Feels -- Design System
 
