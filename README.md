@@ -1,6 +1,6 @@
 # Solvys Skills Suite
 
-A Claude Code skills suite for design, development, orchestration, and deployment -- built by Solvys Technologies.
+A Claude Code/Codex skills suite for design, development, orchestration, and deployment -- built by Solvys Technologies.
 
 ## Install
 
