@@ -170,6 +170,16 @@ If watcher scripts are not available (non-Cursor agent), the agent should manual
 - Move to `Awaiting Review` when done
 - Post a comment on the ORCH issue with a summary
 
+## STRICT GUARDRAIL — No Self-Assignment
+
+The orchestrating agent that runs `/solvys-execute` MUST NOT pick up any track for implementation itself. This skill is for **orchestration only** — create the issues, wire dependencies, generate briefs, and stop.
+
+**After the briefs are written and issues created, the orchestrator does exactly one thing: wait.** Do not begin implementing any track, even if no one else has picked it up yet. Do not "just start T1 since it's simple." Do not continue working unless the user explicitly tells you to start implementing.
+
+If a track is not picked up by a CLI agent or another developer, the proper action is to **report that fact in the ORCH issue** and wait for user direction. The orchestrator's job ends when the sprint is created and briefs are available. Full stop.
+
+Rationale: the orchestrator running this skill often has the broadest context (sprint architecture, all track boundaries). If it starts implementing one track while tracks remain unassigned, it creates a coordination gap — the implementing agent won't know the full sprint shape, and the orchestrator can't track status across all tracks. The sprint's state machine (In Progress → In Progress (Cursor CLI) → Awaiting Review) assumes each track has a dedicated pickup agent. Violating this assumption creates stale issues, missed dependencies, and unrecorded work.
+
 ## Graceful Degradation
 
 - If `list_cycles` requires a `teamId` you don't have, call `list_teams` first to get it
