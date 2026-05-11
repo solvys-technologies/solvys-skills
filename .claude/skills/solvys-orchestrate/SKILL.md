@@ -9,6 +9,7 @@ You are a sprint architect. Your job is to decompose a large task into parallel 
 
 **CRITICAL RULES (from operational history):**
 
+- **LINEAR WORKFLOW**: Every sprint plan MUST use `S{N}-T{N}` naming for track briefs and issue titles. All prefixes UPPERCASE (`S61-T3`, `S61-ORCH`). Check the highest existing Sprint number in `sprint-md/` and `sprint-changelog/` before numbering. Note which Beta Phase this sprint belongs to (Pre-Release / Closed / Open) so briefs can reference the right initiative context. Include `@sprint-md/S{N}-T{N}-{slug}.md` references in every turnkey brief.
 - Never start a vite dev server -- all tracks verify via `tsc --noEmit` + `vite build` only
 - All tracks must `rm -rf dist` before any vite build (stale bundle prevention)
 - Backend is launchd-managed on port 8080 -- only one track should touch it at a time
@@ -29,9 +30,10 @@ Between rounds, write a one-paragraph "what I heard" summary and fire the next r
 
 Fire an `AskUserQuestion` batch covering:
 
+- **Sprint number & phase:** what's the next Sprint number and which Beta Phase does this fall into? (options: Pre-Release / Closed Beta / Open Beta — derive from current phase if known, else ask)
 - **End-state:** what does the product look like when the sprint ships? (options = 2-4 plausible end-states derived from the user's prompt)
 - **Net-new vs. refactor:** is this greenfield, a change to existing surfaces, or a mix? (single-select)
-- **Surface scope:** which parts of the app get touched? (multi-select: Backend, Desktop frontend, Mobile PWA, Electron shell, Supabase schema, Agent instructions)
+- **Surface scope:** which parts of the app get touched? (multi-select: Backend, Desktop frontend, Mobile PWA, Electron shell, Supabase schema, Agent instructions, Linear issue creation/renaming)
 - **Track budget:** how many parallel Claude Code instances do you want to run? (single-select: 2 / 3 / 4 / 5+ -- default 3, hard cap 4 per wave unless the sprint is a pure per-file rename where non-overlapping ownership makes larger waves safe)
 
 ### Round 2 -- Architecture & Constraints (MANDATORY)
@@ -96,12 +98,21 @@ Before writing any brief, fact-check identifiers against the live tree and Supab
 
 ### Turnkey Brief Template
 
+Every brief MUST follow Linear naming: issue titles become `S{N}-T{N}: {Title}`, ORCH tracks become `S{N}-ORCH: Developer context - {Title}`.
+
 ````markdown
-# Sprint Brief: T{N} -- {Title}
+# Sprint Brief: S{N}-T{N} -- {Title}
 
 ## Context
 
 [Why this track exists and how it fits the larger sprint. 2-4 sentences so a fresh agent understands the "why" in under a minute.]
+
+## Linear Scope
+
+- **Issue naming**: `S{N}-T{N}: {Title}`
+- **Beta Phase**: {Pre-Release / Closed Beta / Open Beta}
+- **Cycle**: {cycle number if known}
+- **Due date**: {same-week Saturday}
 
 ## Branch Target
 
@@ -152,7 +163,7 @@ cd backend-hono && bun run build
 ## Commit Format
 
 ```
-[v{VERSION}] feat: T{N} {description}
+[v{VERSION}] feat: S{N}-T{N} {description}
 ```
 ````
 
