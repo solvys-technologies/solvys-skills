@@ -43,10 +43,60 @@ git log --oneline main..HEAD  # If on a feature branch
 - List MCP servers if configured (read `.mcp.json`)
 - If `claude-peers` MCP is registered, call out the four tools it exposes (`list_peers`, `send_message`, `set_summary`, `check_messages`) and note that the receiving agent should `set_summary` on startup so other live windows can see what it's doing
 
+### Architectural Guidance
+- Summarize current Solvys engineering doctrine: small vertical slices, diagnosis loop, service boundaries, Zod at boundaries, validation gates, changelog discipline.
+- Summarize current Solvys design doctrine: Solvys Gold, warm near-black, frosted-glass surfaces over Kanban cards, no gradients, no emojis, no AI sparkles, no generic shadows.
+- Call out TP-vetoed references or deprecated product names so incoming agents do not use them as influence sources.
+
+### Operational Protocol and Tool Updates
+- Inspect recent changelog entries, sprint briefs, agent instruction files, and tool/skill changes for new operational protocols.
+- If new routes, scripts, skills, Linear rules, release rules, learning loops, approval flows, or orchestration conventions exist, include them in the briefing as first-class operating instructions.
+- In Fintheon, check `backend-hono/src/services/ai/agent-instructions/`, `backend-hono/src/routes/`, `backend-hono/package.json`, `scripts/`, `sprint-md/`, and `src/lib/changelog.ts` for newly available tools and protocols.
+- Specifically call out agent learning tools when present: `POST /api/agent/learning`, `GET /api/agent/learning/summary?days=7`, automatic post-analysis learning sessions, and `bun run memory:obsidian`.
+- Include Linear/ORCH operating rules when present: uppercase sprint prefixes, every Linear issue references `@sprint-md/...`, ORCH tickets are planning/runbook items, and implementation tickets stay open until repo evidence plus validation support closure.
+
 ### Environment
 - Build commands (from `package.json` scripts)
 - Deploy targets (Vercel, Workers, local DMG)
 - Required environment variables (from `.env.example`)
+
+## Phase 1.25 -- Embedded Agent Instruction Sync
+
+When briefing embedded Fintheon agents, do not stop at a chat summary. Ensure the agent-facing instruction source is updated when new tools or protocols should persist across future sessions:
+
+- Shared behavior for all agents belongs in `backend-hono/src/services/ai/agent-instructions/index.ts` or shared belief/instruction modules.
+- Harper/CAO-specific operating rules belong in `backend-hono/src/services/ai/agent-instructions/harper-extra.md`.
+- Role-specific rules belong in the matching `oracle-extra.md`, `feucht-extra.md`, `consul-extra.md`, or `herald-extra.md`.
+- Add a changelog entry in `src/lib/changelog.ts` for any persistent instruction update.
+- Validate with `cd backend-hono && bun run build` after touching backend instruction assembly.
+- Never embed secrets, private credentials, or machine-specific tokens into agent instructions.
+
+The briefing must state what was updated, which agents now receive it, and which command or endpoint they should use.
+
+## Phase 1.5 -- Mintlify Documentation Sync
+
+Before assembling the briefing, check whether the current app/codebase has Mintlify docs:
+
+```bash
+find . -maxdepth 3 \( -name "docs.json" -o -name "mint.json" \)
+```
+
+If Mintlify docs exist, update them when the current work changes any of the following:
+
+- A user-facing feature, workflow, screen, command, or API route
+- An integration such as Slack, Linear, MCP, Supabase, Vercel, GitHub, or a market-data connector
+- Setup, update, release, or troubleshooting steps
+- Product naming, positioning, status language, or known limitations
+- Linear-tracked work that should be represented in an external roadmap or "in development" page
+
+Documentation update rules:
+
+- Keep Mintlify navigation current in `docs.json` or `mint.json`.
+- Use external-facing language: describe what is available, what is in internal preview, what is in development, and what is only planned.
+- Never describe a Todo/unstarted Linear issue as shipped. Use "in development", "planned", or "intended to" framing.
+- Never publish secrets, private tokens, customer data, or machine-specific local credentials.
+- If the repo has a status-language or roadmap page, update it for unfinished Linear issues that affect public expectations.
+- If the docs source is not present locally but the project has live Mintlify docs, call that out in the briefing and list the exact docs pages that should be updated.
 
 ## Phase 2 -- Briefing Assembly
 
@@ -95,6 +145,9 @@ Branch: {current branch} (main: {commits ahead/behind})
 |---------|---------|
 | {/command} | {what it does} |
 
+## Tools and Operational Protocol Updates
+{New routes, scripts, skills, MCP tools, Linear/ORCH rules, release rules, approval flows, learning loops, and agent-facing instruction updates. Include exact commands/endpoints and who should use them.}
+
 ## Build and Deploy
 ```bash
 # Build
@@ -112,6 +165,12 @@ Branch: {current branch} (main: {commits ahead/behind})
 
 ## How to Work Here
 {3-5 bullet points on conventions: commit format, changelog protocol, file size limits, naming patterns}
+
+## Architectural Guidance
+{Short summary of engineering and design doctrine, approved-reference-as-thinking-only rules, deprecated names, and vetoed references.}
+
+## Docs Sync
+{State whether Mintlify docs were found, what pages were updated or should be updated, and any unfinished Linear issues that require external-facing "in development" framing.}
 
 --- End Briefing ---
 ```
