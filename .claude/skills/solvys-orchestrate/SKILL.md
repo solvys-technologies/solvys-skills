@@ -266,13 +266,29 @@ Output the orchestration plan as a numbered wave sequence with @-mentions to the
 ### Session Memory Flush
 
 At the end of each good orchestration session, include a concise memory-flush
-note for the user or memory updater. It must capture:
+note for the user or memory updater. Before writing that note, run a Linear
+taxonomy audit and clean up anything in the sprint scope that is missing
+organization:
+
+- active issue count and whether any active issues are missing cycle, project,
+  initiative reference, labels, assignee, delegate, or ownership notes;
+- cycle names and phase mapping, especially Beta Pre-Release / Closed / Open;
+- project initiative links, or explicit issue-description initiative references
+  when Linear will not accept another project-initiative relation;
+- assignment/delegation split between TP, Shashank, Codex Cloud, and local
+  Solvys Agent;
+- issue descriptions contain `@sprint-md/...` references, cloud pickup blocks
+  when relevant, and a `## Linear Organization` block when taxonomy would
+  otherwise be hidden.
+
+Then capture:
 
 - sprint number and branch;
 - Linear cycle, project, initiative, and phase;
 - owner split between TP, Shashank, Codex Cloud, and/or local Solvys Agent;
 - issue range and wave order;
 - whether the branch was pushed for cloud delegation;
+- Linear taxonomy audit result and any cleanup performed;
 - any new operating rule learned.
 
 If the user explicitly asks to flush memory, write the note under
