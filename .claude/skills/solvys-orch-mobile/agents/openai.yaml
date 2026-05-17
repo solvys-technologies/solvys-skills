@@ -1,0 +1,7 @@
+interface:
+  display_name: "Solvys Orch Mobile"
+  short_description: "Prepare Linear sprints for Codex Cloud"
+  default_prompt: "Use $solvys-orch-mobile to create cloud-ready sprint briefs, Linear tickets, and a pushed branch for native Linear Codex delegation."
+
+policy:
+  allow_implicit_invocation: true
