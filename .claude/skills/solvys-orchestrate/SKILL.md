@@ -41,6 +41,8 @@ Fire an `AskUserQuestion` batch covering:
 Fire a second `AskUserQuestion` batch covering:
 
 - **Branch strategy:** shared branch vs. per-track branches? (single-select)
+- **Linear home:** which Linear cycle, project, and initiative own this sprint? If discoverable from Linear, present the concrete candidates and recommend the active beta cycle/project/initiative.
+- **Owner split:** which tracks belong to TP, which belong to Shashank, and which are agent-only implementation tracks? Default: TP owns ORCH/product acceptance/unification validation; Shashank owns human-dev implementation tracks; Codex/Claude agents own explicitly delegated implementation tracks.
 - **Ownership conflicts:** which existing agent-owned files must stay off-limits? Start from `src/lib/changelog.ts` recent entries and list the top 2-3 candidates.
 - **Breakage tolerance:** what must NOT regress? (multi-select: CAO chat, RiskFlow feed, MDB/ADB/PMDB/TWT briefs, Sanctum, Mobile PWA, Desktop install flow, Supabase RLS)
 - **Unification owner:** does the orchestrator Claude merge, or does a dedicated unification track? (single-select)
@@ -72,6 +74,8 @@ Scope: [What this track builds/changes]
 File Ownership: [Exact file paths this track may modify]
 Excluded Files: [Files explicitly off-limits to this track]
 Dependencies: [Which tracks must complete before this one starts]
+Assigned Owner: [TP / Shashank / Codex Cloud / local Solvys Agent / other named developer]
+Linear Home: [team, cycle, project, initiative]
 Complexity: [Low / Medium / High]
 Estimated Changes: [Number of files, rough line count]
 Acceptance Criteria: [How to verify this track is done]
@@ -111,8 +115,11 @@ Every brief MUST follow Linear naming: issue titles become `S{N}-T{N}: {Title}`,
 
 - **Issue naming**: `S{N}-T{N}: {Title}`
 - **Beta Phase**: {Pre-Release / Closed Beta / Open Beta}
+- **Linear Project**: {project name/id or "not available"}
+- **Linear Initiative**: {initiative name/id or "not available"}
 - **Cycle**: {cycle number if known}
 - **Due date**: {same-week Saturday}
+- **Assigned owner**: {TP / Shashank / Codex Cloud / local Solvys Agent / other named developer}
 
 ## Branch Target
 
@@ -169,6 +176,57 @@ cd backend-hono && bun run build
 
 Save each brief to `sprint-md/S{SPRINT}-T{N}-{slug}.md` at the CURRENT workspace root. The orchestration doc goes to `sprint-md/S{SPRINT}-ORCHESTRATION.md`.
 
+### Linear Taxonomy and Assignment Matrix (MANDATORY)
+
+Before creating or updating Linear issues, fill out the sprint's Linear home:
+
+- **Team**: usually `Solvys` for Fintheon unless repo evidence says otherwise.
+- **Cycle**: choose the active or requested cycle; if multiple are plausible,
+  present concrete cycle numbers/dates and recommend one.
+- **Project**: attach the sprint to the correct Linear project when available.
+- **Initiative**: attach or reference the correct beta initiative. If the
+  workspace does not support project status updates, use initiative status
+  updates or issue descriptions instead of retrying unsupported project updates.
+- **Phase**: Pre-Release, Closed Beta, or Open Beta.
+
+Every ORCH and track issue must include:
+
+- `@sprint-md/...` brief reference.
+- Cycle assignment.
+- Project assignment when Linear exposes one.
+- Initiative assignment or explicit initiative reference in the description when
+  the API cannot set it directly.
+- Assigned owner: `TP`, `Shashank`, `Codex Cloud`, `local Solvys Agent`, or the
+  specific named developer TP chose.
+
+Default owner split unless TP says otherwise:
+
+- **TP**: ORCH/runbook ownership, product decisions, validator acceptance, and
+  final completion authority.
+- **Shashank**: human developer tracks, ambiguous product/architecture tracks,
+  and work TP explicitly wants off-agent.
+- **Codex Cloud**: implementation tracks prepared for native Linear delegation
+  from mobile.
+- **Local Solvys Agent**: implementation tracks started through the local watcher
+  by moving issues to `In Progress (Solvys Agent)`.
+- **Unification**: assign to the validator owner TP selected; default to TP as
+  acceptance owner and Codex/local agent as execution owner only when explicitly
+  delegated.
+
+Add an `## Assignment Matrix` section to the orchestration doc:
+
+```markdown
+| Issue | Brief | Owner | Execution path | Cycle | Project | Initiative |
+| --- | --- | --- | --- | --- | --- | --- |
+| S{N}-ORCH | @sprint-md/... | TP | planning/runbook | Cycle X | Project | Initiative |
+| S{N}-T1 | @sprint-md/... | Shashank | human dev | Cycle X | Project | Initiative |
+| S{N}-T2 | @sprint-md/... | Codex Cloud | Linear delegate | Cycle X | Project | Initiative |
+```
+
+Do not leave owner, cycle, project, or initiative as implicit chat context. If a
+field cannot be set in Linear, write `not set in Linear API` in the brief and
+include the intended value in the issue description.
+
 **Sprint-md folder rules:**
 
 - `sprint-md/` lives at the TOP LEVEL of whatever repo we are working in -- never inside `docs/`, never inside a sub-app folder.
@@ -204,6 +262,22 @@ Output the orchestration plan as a numbered wave sequence with @-mentions to the
 
 **Wave 1** does X and Y in parallel.
 **Wave 2** merges everything and validates.
+
+### Session Memory Flush
+
+At the end of each good orchestration session, include a concise memory-flush
+note for the user or memory updater. It must capture:
+
+- sprint number and branch;
+- Linear cycle, project, initiative, and phase;
+- owner split between TP, Shashank, Codex Cloud, and/or local Solvys Agent;
+- issue range and wave order;
+- whether the branch was pushed for cloud delegation;
+- any new operating rule learned.
+
+If the user explicitly asks to flush memory, write the note under
+`~/.codex/memories/extensions/ad_hoc/notes/` as a small timestamped markdown
+file. Do not edit the canonical memory files directly.
 
 ### Unification Pass
 
