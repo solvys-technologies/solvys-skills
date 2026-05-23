@@ -33,9 +33,9 @@ Queries to run:
 1. list_teams → find the relevant team (e.g., "Solvys")
 2. list_issue_statuses(team: "{team}") → find these status IDs:
    - "Backlog" or "Todo" (for new issues)
-   - "In Progress" (for active work)
-   - "In Progress (Cursor CLI)" (for agent-claimed work)
+   - "In Progress (Solvys Agent)" (for local Codex CLI pickup)
    - "Awaiting Review" (for completion)
+   - "Done" or "Completed" (for accepted work)
 3. list_cycles(teamId: "{teamId}") → find the target cycle
 4. list_initiatives → find the target initiative
 5. list_issue_labels(team: "{team}") → find relevant labels (e.g., "sprint", "bug", "feature")
@@ -108,6 +108,7 @@ After all issues exist, wire block/dependency relationships:
 - If one track blocks another, use `save_issue` with `blocks: ["LIN-XXX"]` on the blocking issue
 - Use `blockedBy: ["LIN-XXX"]` on the blocked issue
 - The ORCH issue should relate to all tracks via `relatedTo`
+- The final unification issue is blocked by every implementation issue and must not be optional.
 
 ### Phase 4 — Initiative Status Update (Debrief Marker)
 
@@ -159,16 +160,34 @@ Save all briefs to `sprint-md/S{SPRINT}-ORCHESTRATION.md` at the repo root.
 
 When an agent picks up one of these issues:
 
-1. **Watcher scripts** (if available) detect `In Progress` → auto-move to `In Progress (Cursor CLI)`
+1. **Watcher scripts** (if available) detect `In Progress (Solvys Agent)` and launch Codex CLI locally.
 2. Agent reads the issue + @-referenced brief
 3. Agent implements in vertical slices
 4. Agent posts an Initiative Status Update as debrief
 5. Agent moves to `Awaiting Review`
 
 If watcher scripts are not available (non-Cursor agent), the agent should manually:
-- Move the issue to `In Progress (Cursor CLI)` on pickup
+- Move the issue to `In Progress (Solvys Agent)` on pickup
 - Move to `Awaiting Review` when done
 - Post a comment on the ORCH issue with a summary
+
+### Validator Chain — Last Track Automation
+
+The validator/orchestrator must watch the track set after every track completion.
+When the last non-unification implementation track reaches `Awaiting Review`,
+`Done`, or an explicitly accepted equivalent:
+
+1. Verify every implementation track has a completion comment and passing validation evidence.
+2. Move the final unification issue to `In Progress (Solvys Agent)` without waiting for another user command.
+3. Comment on ORCH that unification has started and list the predecessor issue identifiers.
+4. Do not mark implementation tracks `Done` yet; they remain reviewable until unification passes.
+
+When the unification issue finishes and the validator accepts it:
+
+1. Confirm the unification track reconciled all track outputs, ran the full validation gate, and posted results.
+2. Move every reviewed implementation track plus the unification track to `Done` or the team's completed state.
+3. Post one final ORCH/initiative status update that the sprint is unified and accepted.
+4. Immediately invoke `/solvys-deploy` for the same repo/branch. This validator-chain invocation is pre-authorized by the sprint state machine; do not ask for a second deploy confirmation unless pre-flight fails or the user explicitly disabled auto-deploy for the sprint.
 
 ## STRICT GUARDRAIL — No Self-Assignment
 
@@ -178,7 +197,7 @@ The orchestrating agent that runs `/solvys-execute` MUST NOT pick up any track f
 
 If a track is not picked up by a CLI agent or another developer, the proper action is to **report that fact in the ORCH issue** and wait for user direction. The orchestrator's job ends when the sprint is created and briefs are available. Full stop.
 
-Rationale: the orchestrator running this skill often has the broadest context (sprint architecture, all track boundaries). If it starts implementing one track while tracks remain unassigned, it creates a coordination gap — the implementing agent won't know the full sprint shape, and the orchestrator can't track status across all tracks. The sprint's state machine (In Progress → In Progress (Cursor CLI) → Awaiting Review) assumes each track has a dedicated pickup agent. Violating this assumption creates stale issues, missed dependencies, and unrecorded work.
+Rationale: the orchestrator running this skill often has the broadest context (sprint architecture, all track boundaries). If it starts implementing one track while tracks remain unassigned, it creates a coordination gap — the implementing agent won't know the full sprint shape, and the orchestrator can't track status across all tracks. The sprint's state machine (`In Progress (Solvys Agent)` → `Awaiting Review` → validator acceptance) assumes each track has a dedicated pickup agent. Violating this assumption creates stale issues, missed dependencies, and unrecorded work.
 
 ## Graceful Degradation
 

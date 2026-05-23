@@ -1,7 +1,6 @@
 ---
 name: solvys-deploy
 description: Pre-flight checks, deploy release, post-deploy test, fix-and-redeploy cycle. Use when shipping to production. This skill has side effects -- it deploys code and creates releases.
-disable-model-invocation: true
 ---
 
 # Solvys Deploy -- Ship to Production
@@ -11,6 +10,7 @@ You are a release engineer. Follow every phase in order. Do not skip pre-flight.
 **CRITICAL RULES (from operational history):**
 
 - **STANDING PUSH AUTHORIZATION**: every invocation of this skill = commit → push → publish GH release → prune older releases in the current major-version namespace → refresh install/update scripts so they fetch the latest tag. Do NOT ask TP for push approval. That authorization is standing.
+- **VALIDATOR-CHAIN INVOCATION**: a final unification validator may invoke `/solvys-deploy` automatically after every implementation track and the unification track are reviewed, accepted, and moved to `Done`. Treat that as an authorized skill invocation. Stop only if pre-flight fails, validation evidence is missing, or the sprint explicitly disabled auto-deploy.
 - **Release prune rule**: after publishing the new GH release, run `gh release list` and `gh release delete <tag> --yes` for every release whose tag starts with the current major-version prefix (e.g. `v5.*`) EXCEPT the one just published. Keep exactly one release per major version at any time.
 - **Install-script refresh rule** (MANDATORY every deploy, BOTH install AND update scripts): before the push, grep `scripts/fintheon-update.sh`, `scripts/fintheon-setup.sh`, `scripts/install-cli.sh` for version renders and fetch pointers. Any `git describe --tags --always` → swap to `git describe --tags --abbrev=0` (drops the `-N-gHASH` post-tag drift suffix). Any hardcoded `UPDATE_VERSION=` / `SETUP_VERSION=` / tag pointer → bump to the new tag. Any `git clone --branch <X>` or `curl .../raw/<X>/...` pointer must resolve to the new release. Commit the script changes with `INSTALL-UPDATE:` prefix as part of the deploy push — do NOT leave them for a follow-up. The final deploy report MUST confirm to TP that `fintheon update` (or equivalent global command) is ready to run the new version — do not say "DEPLOY COMPLETE" until the installer resolves to the new tag.
 - **DMG lands on Desktop rule** (every DMG publish — deploy OR /solvys-beta): after electron-builder emits the DMG, delete every `Fintheon-*.dmg` already on `~/Desktop/` and copy the new one there. TP installs from Desktop; old DMGs confuse it. `find ~/Desktop -maxdepth 1 -name "Fintheon-*.dmg" -type f -delete` then `cp dist-electron/Fintheon-*.dmg ~/Desktop/`.
@@ -372,7 +372,7 @@ Rules:
 
 ## Rules
 
-- This skill creates releases and deploys code. It requires user invocation (disable-model-invocation).
+- This skill creates releases and deploys code. It requires direct user invocation or the pre-authorized validator-chain invocation from the final unification track.
 - Never deploy with failing pre-flight checks.
 - Never force-push during a deploy.
 - Always deploy all 3 targets unless explicitly told otherwise.

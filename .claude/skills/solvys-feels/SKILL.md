@@ -47,6 +47,45 @@ These patterns are NEVER acceptable in Solvys applications:
 | Skeleton loading screens | Use `[LOADING...]` text indicators |
 | Toast popups | Use inline status text: `[SAVED]`, `[ERROR: ...]` |
 | Parallax, scroll-jacking, bounce easing | Disruptive motion |
+| Full-row chat composer strips | Composer chrome must not obscure content outside the input/drawer footprint |
+| Popup-positioned chat drawers | Attach, tools, skills, connectors, mentions, and queues must be actual connected drawers |
+| Drawer-sized popups/modals | Popups and modals are separate surface types; never use drawer geometry |
+
+## Chat Composer & Drawer Rules
+
+Chat composers are repo-owned system surfaces, not page-owned styling projects.
+
+### Allowed Variants
+- **Full** -- primary CAO/main chat, NarrativeFlow/NF-Workspace, and page-level chat.
+- **Compact** -- sidebar chat, mobile/sidebar chat, floating chat, rails, widgets, and embedded chat.
+- No third composer variant. Domain behavior must be passed through slots/props while preserving shared chrome, spacing, drawer geometry, and interaction behavior.
+
+### Drawer Geometry
+- Drawers are centered over or under the chat input bar and visually connected to it.
+- Drawer width is exactly `92%` of the rendered composer/input width.
+- The input bar decides max width; drawers do not size from the viewport or arbitrary card widths.
+- A drawer must touch/fuse with the input edge: no visual gap, no detached card, no popover placement.
+- Re-clicking the active icon closes the drawer. Opening a different drawer closes the current drawer.
+
+### Popups vs Drawers
+- **Drawers:** Attach, Skills+Connectors, mentions, active work/queue, context pickers.
+- **Popups/modals:** provider selector, full-size image preview, command palette, tool approvals.
+- Popups/modals may share color/material tokens with drawers, but must never use drawer placement, drawer sizing, or drawer connection rules.
+
+### Composer Kill List
+- Kill full-width black strips behind chat composers.
+- Kill row-wide fades/backdrops/masks that obscure text outside the actual input or drawer rectangle.
+- Kill popup-positioned Attach panels.
+- Kill popup-positioned Skills+Connectors panels.
+- Kill drawer surfaces that float with a visual gap from the input bar.
+- Kill drawer widths based on viewport or arbitrary card widths instead of `92%` of rendered composer width.
+- Kill icon triggers that only open and cannot close on second click.
+- Kill multiple local chat input shells pretending to be the same composer.
+- Kill NarrativeFlow-specific composer chrome that diverges from the repo-owned composer.
+- Kill compact sidebars accidentally rendering full composer controls.
+- Kill popups/modals using drawer geometry.
+- Kill hidden/empty toolbar slots rendering as visible labels like `{providerSlot}`.
+- Kill composer wrappers that capture, dim, blur, or mask scroll content outside the composer/drawer footprint.
 
 ## Color System
 
@@ -173,6 +212,15 @@ Always 1px. Never thicker. Never solid accent color at full opacity for borders 
 - No toast notifications, no popups, no snackbars
 - Status text in monospace, uppercase, muted opacity
 
+### Solvys Icon & Loader Bank
+- Before changing icons or loaders in any Solvys app, check `reference/solvys-icon-loader-bank.md`.
+- Treat the bank as the default across Solvys apps unless the user explicitly revises it.
+- Prefer bundled/local line icons through the app's icon facade. Do not add remote icon runtimes or paid icon dependencies by default.
+- Icons stay line-only, 1.5-2px stroke, flat, and theme-colored.
+- Loaders come from the approved circular dot-matrix loader bank and follow the user's primary theme token.
+- Loading/saving states should resolve to a borderless green check with a fade success sequence when the state completes.
+- App-wide Zen mode should turn eligible buttons into icon-only controls while preserving hover tooltip, title, and aria labels.
+
 ## CSS Custom Properties
 
 When building for Solvys applications, use these CSS custom property names:
@@ -207,3 +255,4 @@ For detailed token tables, font definitions, and theme presets:
 - `reference/font-kit.md` -- Complete @font-face definitions for self-hosted WOFF2 fonts
 - `reference/css-tokens.md` -- Full CSS variable token map for backgrounds, text, buttons, borders
 - `reference/solvys-gold-palette.md` -- Deep-dive on the Solvys Gold/Stone color system
+- `reference/solvys-icon-loader-bank.md` -- Cross-app icon, spinner, loader, success, and Zen-mode rules

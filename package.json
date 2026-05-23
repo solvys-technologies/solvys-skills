@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "solvys-skills",
+  "version": "1.10.0",
+  "scripts": {
+    "build": "echo 'OK — no build step needed for skills repo'"
+  }
+}
