@@ -4,21 +4,28 @@
 
 Select where work runs before creating a checkout, worktree, dependency store,
 build cache, recording, or generated asset. The lane decision protects the Mac
-without turning every task into remote work.
+while keeping planning local and implementation Cloud-first.
 
 ## Lane Order
 
-1. **Backend-only:** prefer Codex Cloud when the branch and turnkey brief are
-   pushed and the task does not need local secrets, hardware, installed-app
-   proof, or uncommitted local state.
-2. **Frontend-only or frontend plus backend:** prefer external-local under
-   `/Volumes/Ext.`. These tracks need the local design, Wonder, source,
-   browser, and port 7777 verification loop.
-3. **Internal-local:** use only for small short-lived work when the internal
-   volume is healthy and projected peak growth stays under 2 GB.
+1. **Cloud implementation:** default for every non-flagship implementation
+   track once the exact base/checkpoint ref and turnkey pickup block exist.
+2. **Fintheon external-local:** the current flagship exception for frontend or
+   combined source-integrated work that needs Wonder/source transfer, port 7777,
+   Mac/hardware behavior, deployment review, or installed-app verification.
+3. **Cloud Fintheon compute:** allowed for backend-only deterministic or
+   parallel compute from a pushed branch/ref and turnkey brief.
+4. **Internal-local:** planning, executive, and marketing work only by default;
+   implementation requires an enumerated exception, a healthy capacity gate,
+   and projected peak growth under 2 GB.
 
-Cloud is a backend pressure-release lane. It is not the default for frontend or
-combined product sprints while the external volume has capacity.
+Local implementation opens only for dirty super-sprint custody, Wonder/source
+transfer, port 7777 or named-sandbox proof, Mac/hardware behavior, deployment
+review, or installed-app verification. Record the reason, capacity/proof gates,
+owner, protected zones, return path, and closure condition.
+
+Backend-only and frontend plus backend are task shapes, not automatic local
+lanes; the Cloud-first and Fintheon exception rules above decide custody.
 
 ## Capacity Gates
 
@@ -91,6 +98,10 @@ Each track or tranche records:
 - Proof rung:
 - Exit condition:
 - Closure state: active | cooling | archive-eligible | protected
+- Task-owned checkpoint ref: refs/sprints/S###/P#
+- Date integration branch: YYYY-MM-DD
+- Secrets manifest: variable names only
+- Task/worktree/checkpoint/artifact/transcript/DMG/process/RAM budgets:
 ```
 
 At a tranche boundary:
@@ -105,6 +116,25 @@ At a tranche boundary:
 6. Do not manually delete any worktree that has been opened. The conversation
    sweep and Codex-managed retention own natural removal after the task is
    archived.
+
+## Recovery And Restore Contract
+
+- Maintain encrypted local-plus-cloud backup manifests for personal or unique
+  state.
+- Record source identity, encryption state, object/byte counts, hashes,
+  readback, restore target, result, timestamp, and verifier.
+- An upload is incomplete until a bounded restore and readback pass.
+- Run restore drills on non-production targets.
+- Before destructive reconstruction, personal/unique-state readback must pass.
+  A mismatch or missing manifest stops the action.
+
+## Resource Budgets
+
+Every tranche declares limits for active task count/age, worktrees, retained
+checkpoints, artifacts, transcripts, DMGs/build outputs, concurrent processes,
+peak RAM, and sustained memory pressure. A breach blocks new work until a
+receipt-backed review resolves capacity. Opened worktree removal remains owned
+by task archival and Codex-managed retention.
 
 ## Ten-Day Conversation Sweep
 

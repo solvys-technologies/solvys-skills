@@ -5,6 +5,18 @@ description: Linear-native multi-track sprint orchestration. Use when an agent w
 
 # Solvys Execute — Linear-Native Sprint Orchestration
 
+## Refresh System Dispatch
+
+Read `/solvys-cao/references/refresh-system.md`. This skill consumes an accepted
+multi-track plan; it does not invent a second plan or self-assign
+implementation. The primary sprint identity is `S### - concise context`.
+
+The exact command `Implement this plan` freezes the accepted revision and
+dispatches every implementation-eligible track to a task-owned Cloud worktree
+by default. Each track must contain a complete turnkey Cloud Pickup block before
+pickup. `main` is protected; the only human-facing integration branch is
+`YYYY-MM-DD`; checkpoint custody uses `refs/sprints/S###/P#`.
+
 ## Solvys Ponytail Chain
 
 - After reading repo truth and tracing the real flow, run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
@@ -50,12 +62,16 @@ source-transfer authorization, and ends with source-integrated port 7777 proof.
 
 Read the CAO `storage-and-execution-lanes.md` before pickup:
 
-- Backend-only tracks may use Codex Cloud after the branch and brief are pushed.
-- Frontend-only and frontend-plus-backend tracks use external-local by default.
+- Non-flagship implementation tracks use Cloud by default.
+- Fintheon remains the current flagship external-custody exception; its
+  backend-only deterministic/parallel compute may offload from an exact pushed
+  ref and brief.
 - Internal-local requires a healthy capacity gate and a projected peak under
   2 GB.
-- Refuse pickup when the exact path or Cloud branch, capacity reservation,
-  owner, protected zones, exit condition, or closure state is missing.
+- Refuse pickup when the exact Cloud worktree or authorized local exception,
+  base, date branch, task-owned checkpoint ref, capacity/resource budget,
+  owner, dependencies, protected zones, name-only secrets manifest, proof
+  gates, return path, exit condition, or closure state is missing.
 
 ## Protocol
 
@@ -70,9 +86,8 @@ Before creating anything, gather context from the user:
 5. **Cycle**: which Linear cycle does this belong to? (If unknown, look it up via `list_cycles`)
 6. **Initiative**: which Linear initiative owns this sprint? (Look up via `list_initiatives` if needed)
 7. **Greenfield frontend gate**: if a track creates a new frontend/project, has `/solvys-discovery` run and does a `refero-design` reference lock exist, or should a blocking discovery/reference-lock issue be created first?
-8. **Execution lane**: which tracks are backend-only Cloud, which are
-   external-local frontend/combined, and what exact path, reservation, and exit
-   condition owns each one?
+8. **Execution lane**: confirm Cloud dispatch for every eligible track and
+   record any exact Refresh System local exception with its capacity/proof gate.
 9. **Wonder target**: which file/page/artboard owns each frontend proposal, or
    why is Wonder not applicable?
 
@@ -104,7 +119,7 @@ For each track T{N}, create one Linear issue:
 ```yaml
 Action: save_issue
 Arguments:
-  title: "S{SPRINT}-T{N}: {Track description}"
+  title: "S{SPRINT} - {Concise context} / T{N} - {Track description}"
   description: |
     ## Problem And Solution
     - **Original Problem**: {the user-visible problem}
@@ -136,12 +151,29 @@ Arguments:
     frontend files.}
 
     ## Execution And Storage Lane
-    - **Execution lane**: {Cloud backend-only / external-local / internal-local}
+    - **Execution lane**: {Cloud default / explicit local exception}
     - **Workspace path or Cloud branch**: {exact value}
     - **Estimated peak storage**: {value}
     - **Capacity reservation**: {value}
     - **Exit condition**: {value}
     - **Closure state**: active
+
+    ## Cloud Pickup
+    - **Sprint identity**: S{SPRINT} - {concise context}
+    - **Accepted plan revision**: {exact identity}
+    - **Repository**: {owner/repo}
+    - **Base commit**: {sha}
+    - **Date integration branch**: {YYYY-MM-DD}
+    - **Task-owned checkpoint ref**: refs/sprints/S{SPRINT}/P#
+    - **Worktree mode**: detached
+    - **Owner**: {owner}
+    - **Protected zones**: {zones}
+    - **Dependencies**: {ids}
+    - **Secrets manifest (names only)**: {names or none}
+    - **Proof gates**: {gates}
+    - **Return path**: {handoff target}
+    - **Capacity and resource budget**: {budgets}
+    - **Closure condition**: {condition}
 
     ## @ Constituent
     @sprint-md/S{SPRINT}-T{N}-{slug}.md (brief to be created locally before pickup)
@@ -159,7 +191,7 @@ Arguments:
 For the ORCH (developer context) track:
 
 ```yaml
-title: "S{SPRINT}-ORCH: Developer context - {Sprint name}"
+title: "S{SPRINT} - {Concise context} / ORCH"
 description: |
   ## Sprint Architecture
   {one-paragraph sprint overview}
@@ -209,7 +241,9 @@ Arguments:
 For each track, also generate a `sprint-md/S{SPRINT}-T{N}-{slug}.md` file in the repo. This uses the existing `solvys-orchestrate` turnkey brief template structure. Each brief must include the `@sprint-md/` path that was referenced in the Linear issue description.
 
 ```markdown
-# Sprint Brief: S{SPRINT}-T{N} -- {Title}
+# S{SPRINT} - {Concise context}
+
+## Track T{N} - {Title}
 
 ## Problem And Solution
 - **Original Problem**: {the user-visible problem}
@@ -236,12 +270,29 @@ For each track, also generate a `sprint-md/S{SPRINT}-T{N}-{slug}.md` file in the
   accepted decision, source-transfer authorization, and port 7777 proof}
 
 ## Execution And Storage Lane
-- **Execution lane**: {Cloud backend-only / external-local / internal-local}
+- **Execution lane**: {Cloud default / explicit local exception}
 - **Workspace path or Cloud branch**: {exact value}
 - **Estimated peak storage**: {value}
 - **Capacity reservation**: {value}
 - **Exit condition**: {value}
 - **Closure state**: active
+
+## Cloud Pickup
+- **Sprint identity**: S{SPRINT} - {concise context}
+- **Accepted plan revision**: {exact identity}
+- **Repository**: {owner/repo}
+- **Base commit**: {sha}
+- **Date integration branch**: {YYYY-MM-DD}
+- **Task-owned checkpoint ref**: refs/sprints/S{SPRINT}/P#
+- **Worktree mode**: detached
+- **Owner**: {owner}
+- **Protected zones**: {zones}
+- **Dependencies**: {ids}
+- **Secrets manifest (names only)**: {names or none}
+- **Proof gates**: {gates}
+- **Return path**: {handoff target}
+- **Capacity and resource budget**: {budgets}
+- **Closure condition**: {condition}
 
 ## Acceptance Criteria
 - {criterion list}
@@ -285,7 +336,15 @@ When the unification issue finishes and the validator accepts it:
 1. Confirm the unification track reconciled all track outputs, ran the full validation gate, and posted results.
 2. Move every reviewed implementation track plus the unification track to `Done` or the team's completed state.
 3. Post one final ORCH/initiative status update that the sprint is unified and accepted.
-4. Immediately invoke `/solvys-deploy` for the same repo/branch. This validator-chain invocation is pre-authorized by the sprint state machine; do not ask for a second deploy confirmation unless pre-flight fails or the user explicitly disabled auto-deploy for the sprint.
+4. Prepare the daily integration receipt. Do not merge or deploy until CI passes
+   and the required human verification and explicit authority are recorded.
+
+Blacksmith may autonomously patch only deterministic, bounded, reversible
+low-risk work with exact rollback and bounded tests. Migrations, destructive
+writes, auth/authorization, billing, credentials, infrastructure, broad
+routing, security controls, irreversible integrations, release/install
+behavior, and protected surfaces always require human verification before merge
+or deploy.
 
 ## STRICT GUARDRAIL — No Self-Assignment
 

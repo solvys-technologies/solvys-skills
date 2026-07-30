@@ -5,6 +5,19 @@ description: Multi-track orchestration planner for parallel agent sessions. Use 
 
 # Solvys Orchestrate -- Multi-Track Sprint Planner
 
+## Refresh System Contract
+
+Plan mode auto-selects this skill for multi-track, parallel, long-running, or
+super-sprint work; TP does not need to name it. The task title and primary plan
+artifact use `S### - concise context`. Track IDs remain subordinate.
+
+Planning stays in the local control plane and never self-assigns
+implementation. `Implement this plan` freezes the accepted plan revision and
+dispatches every implementation-eligible track to a registered task-owned Cloud
+worktree by default. Recovery refs use the exact
+`refs/sprints/S###/P#` shape. Read
+`/solvys-cao/references/refresh-system.md`.
+
 ## Solvys Ponytail Chain
 
 - After reading repo truth and tracing the real flow, run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
@@ -39,16 +52,22 @@ You are a sprint architect. Your job is to decompose a large task into parallel 
 
 - **SOLVYS CODING-AGENT PROMPT**: For Solvys product work, load `SOLVYS_AGENT_SYSTEM_PROMPT.md` from the Solvys-skills repo or installed copy. For any frontend/UI track, load suite root `Design.md` immediately before planning and re-check the plan against it before implementation. Every track brief must include the contract: repo truth first, preserve dirty state, whole-product understanding, narrow execution, stable UI canon, highest-reality proof, direct done/not-done status, and runtime-neutral skills distribution.
 - **GREENFIELD FRONTEND REFERO GATE**: For any new Solvys project or greenfield frontend track, require `/solvys-discovery` and the `refero-design` skill before any frontend files are touched. Every affected track brief must cite the discovery artifact and Refero reference lock. If `refero-design` is missing, install it with `npx skills add https://github.com/referodesign/refero_skill`.
-- **LINEAR WORKFLOW**: Every sprint plan MUST use `S{N}-T{N}` naming for track briefs and issue titles. All prefixes UPPERCASE (`S61-T3`, `S61-ORCH`). Check the highest existing Sprint number in `sprint-md/` and `sprint-changelog/` before numbering. Note which Beta Phase this sprint belongs to (Pre-Release / Closed / Open) so briefs can reference the right initiative context. Include `@sprint-md/S{N}-T{N}-{slug}.md` references in every turnkey brief.
+- **LINEAR WORKFLOW**: Every task title begins with the searchable sprint
+  identity: `S{N} - {Concise context} / T{N} - {Track title}` or
+  `S{N} - {Concise context} / ORCH`. Filesystem-safe brief paths may retain
+  `S{N}-T{N}-{slug}.md`. Check the highest existing Sprint number in
+  `sprint-md/` and `sprint-changelog/` before numbering. Note which Beta Phase
+  owns the sprint and include each `@sprint-md/...` path in its turnkey brief.
 - Never start a vite dev server -- all tracks verify via `tsc --noEmit` + `vite build` only
 - All tracks must `rm -rf dist` before any vite build (stale bundle prevention)
 - Backend is launchd-managed on port 8080 -- only one track should touch it at a time
 - Deploy track (if included) must hit all 3 targets: backend (Fly.io), desktop (Vercel), mobile (Vercel)
 - Check `src/lib/changelog.ts` before finalizing track ownership -- recent entries are intentional
-- **EXECUTION LANE GATE**: Read the CAO
-  `storage-and-execution-lanes.md` before defining tracks. Backend-only tracks
-  may use Cloud after their branch and brief are pushed. Frontend-only and
-  frontend-plus-backend tracks stay local and prefer `/Volumes/Ext.`.
+- **EXECUTION LANE GATE**: Read the CAO Refresh System and
+  `storage-and-execution-lanes.md`. Non-flagship implementation defaults to
+  Cloud. Fintheon remains the current flagship external-custody exception and
+  may offload backend-only deterministic/parallel compute from a pushed ref and
+  turnkey brief.
 - **WONDER FRONTEND SANDBOX**: New frontend changes use Wonder when applicable
   before source implementation. Keep the agent-owned artboard isolated from
   concurrent human changes, require TP's source-transfer authorization, then
@@ -81,7 +100,9 @@ Fire an `AskUserQuestion` batch covering:
 
 Fire a second `AskUserQuestion` batch covering:
 
-- **Branch strategy:** shared branch vs. per-track branches? (single-select)
+- **Integration receipt:** verify the date-only `YYYY-MM-DD` branch and assign
+  exact `refs/sprints/S{N}/P#` checkpoint refs. Do not offer contextual branch
+  choices.
 - **Execution lane:** backend-only Cloud vs. external-local frontend/combined,
   plus workspace path, peak storage estimate, capacity reservation, and exit
   condition for each track.
@@ -121,7 +142,9 @@ Excluded Files: [Files explicitly off-limits to this track]
 Dependencies: [Which tracks must complete before this one starts]
 Assigned Owner: [TP / Shashank / Codex Cloud / local Solvys Agent / other named developer]
 Execution Lane: [Cloud backend-only / external-local / internal-local]
-Workspace Path Or Cloud Branch: [exact path or pushed branch]
+Workspace Path Or Cloud Branch: [exact Cloud worktree or explicit local exception]
+Task-Owned Checkpoint Ref: [refs/sprints/S{N}/P#]
+Date Integration Branch: [YYYY-MM-DD]
 Estimated Peak Storage: [bytes or GiB]
 Capacity Reservation: [free before / projected free after]
 Exit Condition: [merge, handoff, proof, or explicit cancellation]
@@ -153,10 +176,14 @@ Before writing any brief, fact-check identifiers against the live tree and Supab
 
 ### Turnkey Brief Template
 
-Every brief MUST follow Linear naming: issue titles become `S{N}-T{N}: {Title}`, ORCH tracks become `S{N}-ORCH: Developer context - {Title}`.
+Every brief MUST preserve searchable identity. Issue titles become
+`S{N} - {Concise context} / T{N} - {Title}` and ORCH becomes
+`S{N} - {Concise context} / ORCH`.
 
 ````markdown
-# Sprint Brief: S{N}-T{N} -- {Title}
+# S{N} - {Concise context}
+
+## Track T{N} - {Title}
 
 ## Problem And Solution
 
@@ -180,7 +207,7 @@ Every brief MUST follow Linear naming: issue titles become `S{N}-T{N}: {Title}`,
 
 ## Linear Scope
 
-- **Issue naming**: `S{N}-T{N}: {Title}`
+- **Issue naming**: `S{N} - {Concise context} / T{N} - {Title}`
 - **Beta Phase**: {Pre-Release / Closed Beta / Open Beta}
 - **Linear Project**: {project name/id or "not available"}
 - **Linear Initiative**: {initiative name/id or "not available"}
@@ -190,7 +217,27 @@ Every brief MUST follow Linear naming: issue titles become `S{N}-T{N}: {Title}`,
 
 ## Branch Target
 
-`{branch-name}`
+`{YYYY-MM-DD}`
+
+`main` is protected and never a development lane.
+
+## Cloud Pickup
+
+- **Sprint identity**: `S{N} - {Concise context}`
+- **Accepted plan revision**:
+- **Repository**:
+- **Base commit**:
+- **Date integration branch**: `{YYYY-MM-DD}`
+- **Task-owned checkpoint ref**: `refs/sprints/S{N}/P#`
+- **Worktree mode**: detached
+- **Owner**:
+- **Protected zones**:
+- **Dependencies**:
+- **Secrets manifest (names only)**:
+- **Proof gates**:
+- **Return path**:
+- **Capacity and resource budget**:
+- **Closure condition**:
 
 ## Scope -- Included
 
@@ -211,7 +258,7 @@ Every brief MUST follow Linear naming: issue titles become `S{N}-T{N}: {Title}`,
 
 ## Execution And Storage Lane
 
-- **Execution lane**: Cloud backend-only | external-local | internal-local
+- **Execution lane**: Cloud default | explicit local exception
 - **Workspace path or Cloud branch**:
 - **Estimated peak storage**:
 - **Capacity reservation**:
@@ -272,11 +319,20 @@ cd backend-hono && bun run build
 ## Commit Format
 
 ```
-[v{VERSION}] feat: S{N}-T{N} {description}
+S{N} - {concise context} / T{N}
+
+Outcome: ...
+Principal areas: ...
+Proof: ...
+Protected zones: ...
+Remaining blocker: ...
 ```
 ````
 
 Save each brief to `sprint-md/S{SPRINT}-T{N}-{slug}.md` at the CURRENT workspace root. The orchestration doc goes to `sprint-md/S{SPRINT}-ORCHESTRATION.md`.
+The orchestration document's first heading is
+`# S{SPRINT} - {Concise context}`; the path is only the filesystem-safe
+representation.
 
 ### Linear Taxonomy and Assignment Matrix (MANDATORY)
 
@@ -321,9 +377,9 @@ Add an `## Assignment Matrix` section to the orchestration doc:
 ```markdown
 | Issue | Brief | Owner | Execution path | Cycle | Project | Initiative |
 | --- | --- | --- | --- | --- | --- | --- |
-| S{N}-ORCH | @sprint-md/... | TP | planning/runbook | Cycle X | Project | Initiative |
-| S{N}-T1 | @sprint-md/... | Shashank | human dev | Cycle X | Project | Initiative |
-| S{N}-T2 | @sprint-md/... | Codex Cloud | Linear delegate | Cycle X | Project | Initiative |
+| S{N} - context / ORCH | @sprint-md/... | TP | planning/runbook | Cycle X | Project | Initiative |
+| S{N} - context / T1 | @sprint-md/... | Shashank | human dev | Cycle X | Project | Initiative |
+| S{N} - context / T2 | @sprint-md/... | Codex Cloud | Linear delegate | Cycle X | Project | Initiative |
 ```
 
 Do not leave owner, cycle, project, or initiative as implicit chat context. If a
@@ -423,8 +479,13 @@ State which approach you chose and why.
 - Never include `npx vite` or dev server commands in track briefs.
 - Every track records its execution lane, workspace path or Cloud branch,
   capacity reservation, exit condition, and closure state.
-- Cloud defaults to backend-only work. Frontend-only and
-  frontend-plus-backend tracks stay local and prefer `/Volumes/Ext.`.
+- Non-flagship implementation defaults to Cloud. Local opens only for the
+  Refresh System exception list. Fintheon remains the flagship external-custody
+  exception.
+- `main` is protected; the only human integration branch is `YYYY-MM-DD`.
+  Parallel work uses registered detached worktrees or task-owned checkpoint
+  refs. Do not create feature, recovery, product, incident, bug, prose, agent,
+  runtime, or other contextual branches.
 - New frontend tracks use Wonder when applicable before source transfer and
   must pass port 7777 after integration. Concurrent human Wonder edits remain
   outside the agent lane unless TP explicitly selects them.
@@ -442,7 +503,7 @@ When the Plane MCP server is available (check `~/.mcp.json` or project `.mcp.jso
 
 ### During Brief Generation
 - After writing each track brief to `sprint-md/`, create a corresponding Plane issue:
-  - Title: `S{N}-T{N} {track title}`
+  - Title: `S{N} - {concise context} / T{N} - {track title}`
   - Description: summary from the brief's Context section
   - State: `Backlog` or `Todo`
   - Labels: `sprint`, `track`, `t{N}`, backend/frontend/infra as appropriate

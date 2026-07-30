@@ -5,6 +5,22 @@ description: Single-agent sprint brief planner with design and development flow.
 
 # Solvys Brief -- Single-Agent Sprint Planner
 
+## Refresh System Contract
+
+Plan mode auto-selects this skill for one bounded, single-owner sprint; TP does
+not need to name it. The task title and primary plan heading use
+`S### - concise context`.
+
+Planning is a local control-plane activity and does not implement. When TP says
+`Implement this plan`, freeze the accepted plan revision and dispatch the
+implementation to a task-owned Cloud worktree by default. The only local
+implementation exceptions are the explicit Refresh System lanes, and each
+requires a reason, capacity/proof gates, protected zones, and return path.
+
+Read `/solvys-cao/references/refresh-system.md`. `main` is never the target.
+The human integration branch is date-only `YYYY-MM-DD`; recovery uses an exact
+`refs/sprints/S###/P#` checkpoint ref.
+
 ## Solvys Ponytail Chain
 
 - After reading repo truth and tracing the real flow, run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
@@ -44,10 +60,10 @@ Use `/solvys-orchestrate` when work is big enough to need 2+ agents running in p
 - Backend is launchd-managed on port 8080 -- restart after backend changes
 - Check `src/lib/changelog.ts` before finalizing scope -- recent entries are intentional
 - Obey the Solvys design system: Fintheon app is the primary product-UI personality; source-backed Liquid Glass is allowed only with a professionally shipped/source-backed example, but decorative gradients/glow/blur, emojis, Kanban borders, generic box-shadows, decorative button borders/backplates, instant new surfaces, and pointed square borders are not. Accent = `#c79f4a`.
-- Read the CAO `storage-and-execution-lanes.md` before choosing a workspace.
-  Backend-only work may use Cloud when its branch and brief are pushed.
-  Frontend-only and frontend-plus-backend work stay local, preferring
-  `/Volumes/Ext.` for the workspace.
+- Read the CAO Refresh System and `storage-and-execution-lanes.md` before
+  choosing a workspace. Non-flagship implementation defaults to Cloud.
+  Fintheon remains the flagship external-custody exception; backend-only
+  deterministic/parallel work may offload from an exact pushed ref and brief.
 - For new frontend changes, use Wonder as the provisional collaborative sandbox
   when applicable. Do not transfer the accepted design into source until TP
   authorizes it. Port 7777 remains the source-integrated verification rung.
@@ -149,7 +165,7 @@ Lay out implementation as an ordered sequence. Single agent, so order matters mo
 
 Default order:
 
-1. **Execution lane** -- Cloud backend-only, external-local frontend or combined, internal-local only when healthy and small
+1. **Execution lane** -- task-owned Cloud worktree by default; record any explicit local exception and its capacity/proof gate
 2. **Data layer first** -- migrations, types, Zod schemas
 3. **Service layer** -- pure functions, no framework coupling
 4. **API layer** -- Hono routes, validation at boundary, early-return error handling
@@ -169,7 +185,7 @@ Exit plan mode. Produce ONE standalone markdown briefing file.
 ### Brief File Template
 
 ````markdown
-# Sprint Brief: S{N} -- {Title} (single-agent)
+# S{N} - {Concise context}
 
 ## Problem And Solution
 
@@ -193,11 +209,31 @@ Exit plan mode. Produce ONE standalone markdown briefing file.
 
 ## Branch Target
 
-`{branch-name}`
+`{YYYY-MM-DD}`
+
+`main` is protected and never a development lane.
+
+## Cloud Pickup
+
+- **Sprint identity**: `S{N} - {Concise context}`
+- **Accepted plan revision**:
+- **Repository**:
+- **Base commit**:
+- **Date integration branch**: `{YYYY-MM-DD}`
+- **Task-owned checkpoint ref**: `refs/sprints/S{N}/P#`
+- **Worktree mode**: detached
+- **Owner**:
+- **Protected zones**:
+- **Dependencies**:
+- **Secrets manifest (names only)**:
+- **Proof gates**:
+- **Return path**:
+- **Capacity and resource budget**:
+- **Closure condition**:
 
 ## Execution And Storage Lane
 
-- **Execution lane**: Cloud backend-only | external-local | internal-local
+- **Execution lane**: Cloud default | explicit local exception
 - **Workspace path or Cloud branch**:
 - **Estimated peak storage**:
 - **Capacity reservation**:
@@ -300,7 +336,13 @@ curl -s http://localhost:8080/api/{endpoint} | head -c 200
 ## Commit Format
 
 ```
-[v{VERSION}] feat: S{N} {description}
+S{N} - {concise context}
+
+Outcome: ...
+Principal areas: ...
+Proof: ...
+Protected zones: ...
+Remaining blocker: ...
 ```
 ````
 
@@ -333,6 +375,8 @@ This brief adds per-user pinning to the RiskFlow feed so Herald surfaces can be 
 
 - Never skip Phase 1. Incomplete discovery leads to scope drift mid-build.
 - Never produce more than ONE brief from this skill. If the work needs parallel tracks, pivot to `/solvys-orchestrate` instead and tell the user.
+- Freeze the accepted plan on `Implement this plan`; do not silently expand or
+  reinterpret it during dispatch.
 - Always include both a Design Pass (Phase 2) and a Development Flow (Phase 3) in the brief. Skipping design is what produces UI that breaks the Solvys aesthetic.
 - Always write to `sprint-md/` at workspace root, never to `docs/sprint-briefs/`.
 - Check `src/lib/changelog.ts` (or project equivalent) for recent changes before finalizing scope -- recent intentional changes must be preserved.
@@ -341,8 +385,12 @@ This brief adds per-user pinning to the RiskFlow feed so Herald surfaces can be 
 - Every brief must record the execution lane, workspace path or Cloud branch,
   peak storage estimate, capacity reservation, exit condition, and closure
   state.
-- Frontend-only and frontend-plus-backend briefs default to external-local.
-  Backend-only briefs may use Cloud after the branch and brief are pushed.
+- Non-flagship implementation defaults to Cloud. Local opens only for the
+  Refresh System exception list. Fintheon remains the current flagship
+  external-custody exception.
+- Every implementation brief includes the complete Cloud Pickup block, exact
+  task-owned checkpoint ref, date branch, name-only secrets manifest, resource
+  budgets, proof gates, return path, and closure condition.
 - Every applicable frontend brief carries the Wonder sandbox, explicit
   source-transfer, concurrent-human-change boundary, and port 7777 proof.
 

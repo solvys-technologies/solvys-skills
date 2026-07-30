@@ -22,6 +22,14 @@ blanket dependency installs, migrations, or replacing a proven product-owned
 surface. It requires an explicit, installation-first decision before work
 starts.
 
+Wonder remains provisional co-design truth. TP selects source transfer. Port
+7777 or the explicitly named sandbox is source-integrated truth. Installed and
+copied-source provenance plus protected zones are mandatory.
+
+For policy-only work, record all four foundation sources as `not applicable`.
+Do not invent, copy, or install UI dependencies merely to satisfy the intake
+format.
+
 ## Selection Rules
 
 1. Reuse repo-owned primitives and installed dependencies first.

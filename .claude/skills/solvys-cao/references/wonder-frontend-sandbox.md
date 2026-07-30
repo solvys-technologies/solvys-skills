@@ -6,7 +6,8 @@ Wonder is the lightweight collaborative frontend sandbox for new frontend
 changes. It sits between design intent and source implementation so TP and the
 agent can shape the same surface before production code is changed.
 
-Wonder is provisional design truth. Port 7777 is source-integrated product truth.
+Wonder is provisional design truth. Port 7777 or the explicitly named sandbox
+is source-integrated product truth.
 
 ## Required Sequence
 

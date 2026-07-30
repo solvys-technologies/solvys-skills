@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "effectiveDate": "2026-07-29",
   "timezone": "America/New_York",
   "inventorySurface": "current_codex_task_only",
@@ -28,10 +28,85 @@
     "runtimeLogs": "~/Library/Logs/{Product}"
   },
   "executionLanes": {
-    "backendOnly": "cloud_when_pushed_and_eligible",
-    "frontendOnly": "external_local",
-    "frontendPlusBackend": "external_local",
-    "internalLocal": "small_only_when_healthy"
+    "defaultImplementation": "cloud_task_owned_worktree",
+    "nonFlagshipImplementation": "cloud",
+    "fintheonFlagship": "external_local_source_custody",
+    "fintheonBackendCompute": "cloud_when_exact_ref_and_turnkey_brief_are_pushed",
+    "localExceptions": [
+      "planning_executive_marketing",
+      "dirty_super_sprint_custody",
+      "wonder_or_source_transfer",
+      "port_7777_or_named_sandbox_proof",
+      "mac_or_hardware_behavior",
+      "deployment_review",
+      "installed_app_verification"
+    ],
+    "internalLocal": "exception_only_when_healthy_and_bounded"
+  },
+  "branchAndRefContract": {
+    "mainProtected": true,
+    "humanIntegrationBranchPattern": "^\\d{4}-\\d{2}-\\d{2}$",
+    "taskCheckpointRefPattern": "^refs/sprints/S\\d{3,}/P\\d+$",
+    "forceRewriteAcceptedHistory": false,
+    "dailyPrMergeMethod": "squash",
+    "deleteDateBranchRequiresAuthorization": true
+  },
+  "backupContract": {
+    "encryptedLocalManifestRequired": true,
+    "encryptedCloudManifestRequired": true,
+    "restoreReadbackRequired": true,
+    "uploadedIsComplete": false,
+    "personalUniqueStateReadbackBeforeDestructiveReconstruction": true,
+    "restoreDrillTarget": "bounded_non_production"
+  },
+  "resourceBudgets": {
+    "requiredCategories": [
+      "tasks",
+      "worktrees",
+      "checkpoints",
+      "artifacts",
+      "transcripts",
+      "dmgs",
+      "processes",
+      "ram"
+    ],
+    "blockNewWorkOnBreach": true,
+    "openedWorktreeRemovalOwner": "task_archival_and_codex_managed_retention"
+  },
+  "secretManifest": {
+    "valuesAllowed": false,
+    "namesOnly": true,
+    "excludedClassesWithoutExactAuthority": [
+      "production",
+      "unrelated_client",
+      "personal",
+      "signing",
+      "machine_wide"
+    ]
+  },
+  "riskContract": {
+    "blacksmithRequires": [
+      "deterministic",
+      "bounded",
+      "reversible",
+      "exact_tested_rollback",
+      "bounded_tests",
+      "no_protected_surface"
+    ],
+    "humanVerificationBeforeMergeOrDeploy": [
+      "migrations",
+      "destructive_writes",
+      "authentication",
+      "authorization",
+      "billing",
+      "secrets_or_provider_credentials",
+      "infrastructure",
+      "broad_routing",
+      "security_controls",
+      "irreversible_integrations",
+      "release_or_install_behavior",
+      "protected_surface_changes"
+    ]
   },
   "approvedActions": {
     "inventory": true,

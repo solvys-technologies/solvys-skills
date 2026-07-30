@@ -51,6 +51,10 @@ Route it according to scope:
 - Current fact or preference -> memory extension note.
 - Temporary status -> daily context ledger, never canon.
 
+An explicit TP correction uses the first condition immediately. Promote the
+direct correction and its causal evidence to the smallest durable layer future
+agents load; recurrence is not required.
+
 ## The Solvys Standard
 
 Build as if a ten-person award-winning team reviewed the work, but keep the operating path as simple as the problem permits. Craft does not require bureaucracy; it requires explicit ownership, sharp choices, and proof.

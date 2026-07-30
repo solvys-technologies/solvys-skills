@@ -1,9 +1,49 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-07-29T13:25:56-04:00",
   "canonicalCodebasesRoot": "/Volumes/Ext./Codebases",
   "managedWorktreeRoot": "/Volumes/Ext./CodexWorktrees/managed",
   "entries": [
+    {
+      "id": "S166",
+      "title": "S166 - Solvys Refresh System",
+      "repository": "solvys-skills",
+      "executionLane": "cloud",
+      "workspacePathOrCloudBranch": "2026-07-29",
+      "branch": "2026-07-29",
+      "base": "383e4d78e185d012b0d177abfcb329818c56568f",
+      "checkpointRef": "refs/sprints/S166/P1",
+      "estimatedPeakBytes": 250000000,
+      "capacityReservation": "Cloud worktree only; no Mac capacity consumed.",
+      "resourceBudgets": {
+        "tasks": 1,
+        "worktrees": 1,
+        "checkpoints": 3,
+        "artifacts": "policy and validation artifacts only",
+        "transcripts": 1,
+        "dmgs": 0,
+        "processes": 4,
+        "ram": "bounded by Cloud task"
+      },
+      "owner": "S166 Cloud implementation task",
+      "protectedZones": [
+        "main",
+        "existing refs and history",
+        "credentials and secret values",
+        "deployment release and install surfaces",
+        "unrelated client and product state"
+      ],
+      "proofRung": "source",
+      "exitCondition": "Push the date branch and exact S166 checkpoint refs, return the exact receipt, and leave the worktree clean.",
+      "closureState": "active",
+      "automationTaskIds": [],
+      "references": [
+        "Base preservation ref refs/sprints/S166/P0.",
+        "Policy-only task; Design impact not applicable."
+      ],
+      "secretsManifestNames": [],
+      "sanitationPaths": []
+    },
     {
       "id": "S162-T1",
       "repository": "fintheon",
@@ -56,12 +96,25 @@
     }
   ],
   "entrySchema": {
-    "id": "S###-T# or named tranche",
+    "id": "S### or S###-T#",
+    "title": "S### - concise context",
     "repository": "repository name",
-    "executionLane": "cloud-backend-only | external-local | internal-local",
+    "executionLane": "cloud | external-local | internal-local",
     "workspacePathOrCloudBranch": "exact path or pushed branch",
+    "base": "exact base commit SHA",
+    "checkpointRef": "refs/sprints/S###/P#",
     "estimatedPeakBytes": 0,
     "capacityReservation": "free before and projected free after",
+    "resourceBudgets": {
+      "tasks": 1,
+      "worktrees": 1,
+      "checkpoints": 1,
+      "artifacts": "bounded value",
+      "transcripts": 1,
+      "dmgs": 0,
+      "processes": 1,
+      "ram": "bounded value"
+    },
     "owner": "named human or agent task",
     "protectedZones": [],
     "proofRung": "planned | source | build | wonder | port-7777 | live | installed",
@@ -69,6 +122,7 @@
     "closureState": "active | cooling | archive-eligible | protected",
     "automationTaskIds": [],
     "references": [],
+    "secretsManifestNames": [],
     "sanitationPaths": []
   }
 }

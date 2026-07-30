@@ -30,7 +30,7 @@ Do not reorder these steps because a familiar implementation is visible.
 1. **Name the original problem.** State what is painful or impossible for the user, who experiences it, and what observable change would resolve it. Do not begin with a feature name.
 2. **Name the solution.** Use one concrete solution name and an outcome-owned objective: `Deliver {solution} so {user} can {outcome}; ownership includes behavior, controls, design, validation, and handoff.`
 3. **Load the truth pack.** Read current user instructions, relevant memory, repo status, repo instructions, active briefs/issues, package scripts, current source, current runtime/deploy state, and rendered proof when applicable. Preserve dirty work.
-4. **Select the execution and storage lane.** Read [storage-and-execution-lanes.md](references/storage-and-execution-lanes.md) before creating a checkout, worktree, dependency store, build, or tranche. Backend-only work prefers Cloud when its branch and brief are pushed. Frontend-only and frontend-plus-backend work prefer external-local under `/Volumes/Ext.`. Internal-local is reserved for small work while the capacity gate is healthy.
+4. **Select the execution and storage lane.** Read [refresh-system.md](references/refresh-system.md) and [storage-and-execution-lanes.md](references/storage-and-execution-lanes.md) before creating a checkout, worktree, dependency store, build, or tranche. Planning remains the local control plane and implementation defaults to a registered Cloud worktree. Local opens only for the enumerated planning, custody, source-transfer, hardware, proof, deployment-review, or installed-app exceptions. Fintheon remains the flagship external-custody exception.
 5. **Establish the Installation Foundation.** Before writing an implementation plan, component sketch, or code, record the disposition of the required library foundation in this order: **BeUI** as the primary interaction/component source; the **Vercel UI library** as secondary; **Bklit** as the primary eligible data-visualization source; and **EvilCharts** as secondary. For each, record `installed`, `already installed`, `planned`, or `not applicable`, along with provenance, target seam, owner, protected zones, and why it earns or does not earn use. Install the eligible foundation before implementation when the current product needs it. Do not blindly add packages to backend-only or already-proven surfaces; a deliberate `not applicable` decision is still required.
 6. **Retrieve the best precedent.** Search the strongest accepted Solvys work and the closest relevant failure. Do not average all past work together or copy the nearest example merely because it is easy to find.
 7. **Model the system.** Translate TP's metaphor into explicit correspondences, locate where the analogy breaks, trace inputs, state, transformations, outputs, ownership, and proof. A metaphor is a debugging instrument, not decorative language.
@@ -39,16 +39,16 @@ Do not reorder these steps because a familiar implementation is visible.
 10. **Assign ownership and protected zones.** Record the owner for each surface or contract and the behavior that must remain native. A library can own presentation without owning product state, data cadence, security, routing, or domain semantics.
 11. **Design before styling.** For visible work, follow the design sequence below before implementation. For non-visual work, state `Design impact: not applicable`.
 12. **Execute by shared seam.** Fix the earliest common cause that resolves sibling paths. Keep one agent or track responsible for end-to-end closure unless true independence makes parallelism safer.
-13. **Prove at the highest reality.** Wonder proves a provisional design direction. A typecheck proves types. A build proves bundling. Port 7777 proves the source-integrated local product. A live endpoint proves deployment. An installed application proves installation. Never substitute a lower rung for the requested outcome.
+13. **Prove at the highest reality.** Wonder proves a provisional design direction. A typecheck proves types. A build proves bundling. Port 7777 or the named sandbox proves the source-integrated product. A live endpoint proves deployment. An installed application proves installation. Never substitute a lower rung for the requested outcome.
 14. **Promote the learning.** Route durable facts to memory, universal design lessons to shared canon, product-specific rules to repo canon, repeatable procedures to a skill, and temporary state to the daily ledger. Use [daily-context-contract.md](references/daily-context-contract.md).
 
 ## Device Capacity And External Storage
 
-Canonical codebases and heavy local work belong under `/Volumes/Ext.` once its
-mount, read/write state, and free capacity are verified. Backend-only work may
-use Cloud when its branch and brief are pushed. Frontend-only and
-frontend-plus-backend work stay local so Wonder, source, browser, and port 7777
-can participate in one verification loop.
+Planning may remain local. Implementation defaults to Cloud under the Refresh
+System. Fintheon remains the current flagship external-custody project so its
+frontend/source loop may stay under `/Volumes/Ext.` after capacity proof.
+Backend-only deterministic or parallel Fintheon compute may use Cloud when an
+exact pushed ref and turnkey brief exist.
 
 The external volume is a finite shared build resource. Keep at least 20 percent
 free, estimate the peak footprint before a large clone, install, image build, or
@@ -63,6 +63,36 @@ for capacity thresholds, workspace roots, the tranche registry, the ten-day
 conversation sweep, the thirty-day transcript sweep, and Terra's authority.
 Opened worktrees are never manually deleted; task archival and Codex-managed
 retention own natural removal.
+
+## Refresh Dispatch And Integration
+
+Plan mode auto-selects `solvys-brief` for one bounded single-owner sprint and
+`solvys-orchestrate` for multi-track, parallel, long-running, or super-sprint
+work. TP does not need to name the skill. Every task title and primary plan
+artifact uses `S### - concise context`.
+
+`Implement this plan` freezes the accepted revision and dispatches every
+implementation-eligible track to a task-owned Cloud worktree by default. Each
+track carries the exact base, `refs/sprints/S###/P#` checkpoint ref, date-only
+integration branch, owner, dependencies, protected zones, name-only secrets
+manifest, proof gates, budgets, return path, and closure condition.
+
+`main` stays clean, protected, deployable, and outside development. The only
+human-facing integration branch is `YYYY-MM-DD`. A daily integrator assembles
+accepted checkpoints there; CI gates the daily backend PR; squash occurs at the
+PR boundary. Merge, deploy, and date-branch deletion remain human-authorized.
+
+Blacksmith may own only deterministic, bounded, reversible low-risk patches
+with exact rollback and bounded tests. Any migration, destructive write, auth,
+authorization, billing, credential, infrastructure, broad-routing, security,
+irreversible integration, release/install, or protected-surface change removes
+eligibility and requires human verification before merge or deploy.
+
+Every checkpoint returns the exact receipt defined in
+[refresh-system.md](references/refresh-system.md). Backup completion requires
+encrypted local-plus-cloud manifests and restore proof; upload alone is not
+completion. Resource budgets cover tasks, worktrees, checkpoints, artifacts,
+transcripts, DMGs, processes, and RAM.
 
 ## Design Sequence
 
@@ -142,6 +172,7 @@ Use honest state language:
 - For every substantial invocation, read [mission-doctrine.md](references/mission-doctrine.md), [decision-authority.md](references/decision-authority.md), and [voice-and-respect.md](references/voice-and-respect.md).
 - For every build or implementation-planning invocation, read [official-stack.md](references/official-stack.md) and complete the Installation Foundation before planning or code. For narrower stack or dependency work, do the same.
 - For every implementation, orchestration, or tranche invocation, read [storage-and-execution-lanes.md](references/storage-and-execution-lanes.md).
+- For every plan, implementation, orchestration, integration, recovery, sanitation, or tranche invocation, read [refresh-system.md](references/refresh-system.md).
 - For every frontend invocation, read [wonder-frontend-sandbox.md](references/wonder-frontend-sandbox.md).
 - For Fintheon or cross-project precedent, read [fintheon-pain-eureka-ledger.md](references/fintheon-pain-eureka-ledger.md) and recover exact evidence from [fintheon-checkpoint-index.md](references/fintheon-checkpoint-index.md).
 - For client work, read [client-partitions.md](references/client-partitions.md).

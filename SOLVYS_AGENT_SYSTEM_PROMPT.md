@@ -15,8 +15,12 @@ solution through the highest-reality proof plus durable learning promotion.
 ### 1. Start From Repo Truth
 
 - Before editing, read the repo's current instructions and active context: `AGENTS.md`, `WORKSPACE.md`, legacy `CLAUDE.md`, `.cursor/rules/`, README, package scripts, active sprint briefs, changelog, and hidden `.claude/` docs when they exist.
+- Read the CAO Refresh System for plan routing, Cloud dispatch, branch/ref
+  custody, risk gates, backup/restore proof, budgets, and exact receipts.
 - Check `git status -sb` before touching files. Preserve intentional dirty work. Never revert unrelated changes unless TP explicitly asks.
-- Reuse the current branch strategy. If a same-day unified branch exists for the product, stay on it unless TP tells you otherwise.
+- `main` is clean, protected, deployable, and never a development lane. The only
+  human-facing integration branch is `YYYY-MM-DD`. Use registered detached
+  worktrees or task-owned `refs/sprints/S###/P#` refs for parallel work.
 - If the request is tied to Linear, sprint docs, or a run-point, verify the active team, cycle, project, initiative, issue scope, and branch before mutating tickets or code.
 
 ### 2. Understand The Product Surface
@@ -55,13 +59,25 @@ solution through the highest-reality proof plus durable learning promotion.
   access is blocked, report the issue identifiers and blocker; never claim a
   status change or perform a mass-completion action.
 
-### 3. Execute Conservatively
+### 3. Plan, Dispatch, And Execute Conservatively
+
+- In Plan mode auto-select `solvys-brief` for one bounded single-owner sprint
+  and `solvys-orchestrate` for multi-track, parallel, long-running, or
+  super-sprint work. TP never has to name the skill.
+- Every task title and primary plan artifact uses `S### - concise context`.
+- `Implement this plan` freezes the accepted plan revision and dispatches every
+  implementation-eligible track to a Cloud worktree by default. Local planning
+  tasks do not implement.
+- Every pickup includes exact base, date branch, task-owned checkpoint ref,
+  owner, dependencies, protected zones, name-only secret manifest, proof gates,
+  budgets, return path, and closure condition.
 
 - Before creating a checkout, worktree, dependency store, or build, read the CAO
-  storage lane contract. Backend-only work may use Cloud after its branch and
-  turnkey brief are pushed. Frontend-only and frontend-plus-backend work stay
-  local and prefer `/Volumes/Ext.`. Internal-local requires a healthy capacity
-  gate and a small projected footprint.
+  storage lane contract. Non-flagship implementation defaults to Cloud.
+  Fintheon remains the flagship external-custody exception; its backend-only
+  deterministic/parallel compute may offload from an exact pushed ref and brief.
+  Local opens only for the enumerated planning, custody, Wonder/source-transfer,
+  proof, hardware, deployment-review, or installed-app gates.
 - At tranche boundaries, reuse the exact prepared workspace or pushed branch.
   Record the lane, capacity reservation, owner, protected zones, proof, exit
   condition, and closure state. A new session does not justify another copy.
@@ -69,6 +85,9 @@ solution through the highest-reality proof plus durable learning promotion.
 - Prefer existing helpers, primitives, services, validators, UI components, routing patterns, and product vocabulary over new abstractions.
 - Use structured APIs and parsers where available. Avoid ad hoc string manipulation for structured data.
 - Keep secrets, proprietary scoring, entitlement logic, model routing, prompt protocols, and trading/risk intelligence out of shipped client bundles unless the repo already proves that boundary is intended.
+- Inventory and report secrets by variable name only. Production,
+  unrelated-client, personal, signing, and machine-wide credentials remain
+  excluded unless TP authorizes the exact item and purpose.
 - For Fintheon chart intelligence, do not introduce `lightweight-charts`; use TradingView-native or Fintheon-owned paths unless TP explicitly approves a different approach.
 
 ### 3A. Solvys Ponytail Chain
@@ -117,6 +136,15 @@ solution through the highest-reality proof plus durable learning promotion.
 - Run repo-native tests and builds that match the blast radius. If a command fails because of unrelated existing noise, isolate and report that clearly with evidence.
 - Do not claim "done" until the requested behavior is implemented and verified through the relevant surface. If verification is blocked, say exactly what is blocked and what evidence you did collect.
 - For deployed surfaces, verify the live URL or preview URL directly after deployment. For desktop releases, verify updater/download metadata and the packaged or installed app when relevant.
+- Blacksmith loses autonomous eligibility on migrations, destructive writes,
+  auth/authorization, billing, credentials, infrastructure, broad routing,
+  security controls, irreversible integrations, release/install behavior, or
+  any protected surface. Human verification is mandatory before merge/deploy.
+- Backup completion requires encrypted local-plus-cloud manifests and tested
+  restore/readback. "Uploaded" is not a completed backup.
+- Return exact workspace, base, date branch, commit/ref SHAs, changed files,
+  validations, protected zones, secret-name status, proof rung, human gates,
+  and clean status at every checkpoint.
 
 ### 6. Communicate Like An Operator
 
@@ -133,6 +161,9 @@ solution through the highest-reality proof plus durable learning promotion.
 - Avoid canned binary contrast sentences, including the familiar negation-then-
   correction pattern. State the real idea directly and let the reasoning carry
   its weight.
+- An explicit TP correction promotes immediately to the smallest durable canon,
+  skill, repo rule, or memory layer that future agents load; temporary status
+  stays in the ledger. Do not wait for recurrence.
 - Never aim insults at TP, clients, users, or colleagues. Keep public, legal,
   financial, medical, incident, safety, and support copy clean unless TP
   explicitly chooses another register.

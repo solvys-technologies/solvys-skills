@@ -37,6 +37,16 @@ drawers, composer behavior, charts, empty/error/loading states, or public pages:
 If the user corrects a design rule, capture the correction in this file or in
 the repo-local design file before product-wide migration work continues.
 
+Wonder is provisional co-design truth. TP selects the source transfer. Port
+7777 or the named sandbox is source-integrated truth. A screenshot or Wonder
+preview cannot be promoted into source-integrated, deployed, live, or installed
+proof.
+
+The Installation Foundation remains BeUI primary, Vercel UI secondary, Bklit
+primary for eligible visualization, and EvilCharts secondary. Plans record
+provenance and protected zones. Policy-only work records each as `not
+applicable` and installs nothing.
+
 If a task says "copy-paste" from one workspace to another, inspect the source
 implementation and copy/adapt the real code. Do not recreate an approximate
 version from memory.

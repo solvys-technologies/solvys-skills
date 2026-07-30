@@ -5,6 +5,18 @@ description: Use when setting up or auditing a Solvys project where an orchestra
 
 # Solvys Run Point
 
+## Refresh System Contract
+
+Read `/solvys-cao/references/refresh-system.md`. The run-point keeps planning as
+the local control plane and dispatches implementation to Cloud by default.
+Every project/sprint uses searchable identity `S### - concise context`, a
+date-only `YYYY-MM-DD` integration branch, and exact task-owned
+`refs/sprints/S###/P#` checkpoints.
+
+`Implement this plan` freezes the accepted plan revision. The run-point
+dispatches the frozen tracks and may not reinterpret scope or let a planning
+task self-assign implementation.
+
 ## Solvys Ponytail Chain
 
 - After reading repo truth and tracing the real flow, run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
@@ -33,7 +45,10 @@ description: Use when setting up or auditing a Solvys project where an orchestra
 
 ## Execution, Storage, Conversation, And Wonder Contract
 
-- Read `/solvys-cao` and its `storage-and-execution-lanes.md` reference before configuring an automation. Backend-only automations may use a Cloud VM after pushed source exists; frontend-only and frontend-plus-backend automations stay local and prefer `/Volumes/Ext.`.
+- Read `/solvys-cao`, `refresh-system.md`, and
+  `storage-and-execution-lanes.md` before configuring an automation.
+  Non-flagship implementation defaults to Cloud. Fintheon remains the flagship
+  external-custody exception.
 - One sprint tranche keeps one registered workspace across task/session changes. Record its path, peak-storage estimate, reservation, protected zone, proof target, exit condition, and closure receipt. Never manually delete an opened worktree.
 - At ten days, refresh an automation-bound task into its canonical automation task, retarget the automation, and pin that canonical task before archiving any predecessor. A non-automation task becomes archive-eligible only after explicit memory flush and reference checks.
 - Frontend work uses Wonder as provisional design truth when representable. Preserve and disregard unrelated concurrent human edits, require TP's explicit source-transfer choice, then prove the selected implementation on port 7777.
@@ -52,12 +67,12 @@ Default execution contract:
 - The automation takes on **two full sprints per day** until the job is complete.
 - A sprint is the unit of work. Do not recast the project into smaller terminology that makes the agent think one subtask is enough.
 - The runner must not stop after one sprint if a second safe sprint can be implemented, verified, or concretely blocked in the same run.
-- Automation branches must be version-namespaced for every project. Never use an agent, runtime, or tool-name branch prefix.
-- Branch format: `v<major>.<minor>.<patch>/<project-slug>-<sprint-pair-or-work>`.
-- Determine the version from the app or repo version first (`package.json`, app manifest, release metadata, then latest semver git tag). If no version exists, start at `v1.0.1`.
-- Weekly version roll: the first automation branch for a new calendar week rolls the minor segment forward, producing `vX.1.X` style namespaces from the active app version.
-- Monthly version roll: the first automation branch for a new calendar month rolls the major segment forward, producing `v2.X.X` style namespaces from the active app version.
-- Within the same month/week namespace, increment the patch only when needed to avoid colliding with an existing pushed branch.
+- The only human-facing integration branch is `YYYY-MM-DD`. Automation must not
+  create version, feature, recovery, product, incident, prose, agent, runtime,
+  or other contextual branches.
+- Parallel automation work uses registered detached Cloud worktrees or exact
+  task-owned checkpoint refs. The daily integrator assembles accepted
+  checkpoints onto the date branch.
 - For any new Solvys project with frontend work, the run-point plan must reference `/solvys-discovery` and the `refero-design` skill before any frontend files are touched. `refero-design` is the required research/reference-lock gate installed from `https://github.com/referodesign/refero_skill`; if it is missing, install it with `npx skills add https://github.com/referodesign/refero_skill`.
 - Milestone 1 cannot be considered a fully functional PRD for a greenfield frontend until it includes the `refero-design` reference lock, Solvys `Design.md` reconciliation, and `/solvys-feels` UI canon reconciliation.
 - The project plan uses exactly these top-level milestone gates by default:
@@ -105,8 +120,8 @@ If a project has existing milestone names, preserve local names only when they m
    - Include project root, Linear workspace/team/project, active milestone, execution method, smoke-test commands, design/UI audit requirement, and human assignment rule.
    - The automation prompt must say it takes on two full sprints per day until completion.
    - The automation prompt must state that for new-project frontend work, `/solvys-discovery` and `refero-design` must be completed before touching frontend files, writing CSS, generating UI, or treating a visual direction as implementation-ready.
-   - The automation prompt must require version-namespaced daily branches using `v<major>.<minor>.<patch>/<project-slug>-<sprints-or-work>` and must forbid agent-name prefixes globally.
-   - The automation prompt must define version source precedence, default `v1.0.1`, weekly minor roll, monthly major roll, and patch collision handling.
+   - The automation prompt must require the date-only integration branch,
+     task-owned checkpoint refs, and registered detached Cloud worktrees.
    - The automation prompt must name the three default milestone gates and the first active milestone.
    - The automation prompt must tell the runner not to stop after one sprint unless the second sprint is concretely blocked.
    - First run should be dry-run or supervised unless the user explicitly approves unsupervised live execution.
@@ -145,7 +160,12 @@ The milestone map must include:
 
 - Do not create sprint-by-sprint human review loops when the user asked for milestone gates.
 - Do not plan a run-point automation that only executes one sprint per day when two safe sprints can be attempted.
-- Do not create automation branches with agent, runtime, worker, or tool-name prefixes.
+- Do not create automation branches with feature, recovery, product, incident,
+  bug-description, prose, agent, runtime, worker, or tool-name prefixes.
+- Require a complete Cloud Pickup block before every implementation dispatch:
+  accepted revision, repository, base, date branch, checkpoint ref, detached
+  worktree mode, owner, protected zones, dependencies, name-only secrets manifest, proof
+  gates, return path, budgets, and closure condition.
 - Do not bury full-app human-practical testing inside implementation acceptance criteria; make it its own sprint work inside Milestone 2.
 - Do not use smaller work-unit terminology in automation prompts when it would make the runner think one subtask is enough.
 - Do not perform live outreach, production CRM writes, paid/manual source use, legal/compliance claims, or destructive repo operations without explicit approval.

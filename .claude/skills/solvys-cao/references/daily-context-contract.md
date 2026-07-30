@@ -8,6 +8,8 @@ The daily sync preserves the context that becomes invaluable between sessions: r
 
 - Git checkpoints and dirty state for Solvys/client repos changed since the previous run.
 - Current branch, worktree, release, live, and installed truth where relevant.
+- Date-only integration branch, task-owned checkpoint refs, exact base/commit
+  SHAs, and clean closure receipts.
 - Codex rollout summaries and prior-day user corrections.
 - Automation definitions, latest-run memory, and control-room health.
 - Internal and external capacity state, execution-lane reservations, the
@@ -46,6 +48,8 @@ Write one dated ledger with these sections:
 - Update shared `Design.md` automatically only for an explicit TP correction or a lesson proven across at least two shipped/rendered surfaces. Otherwise create a proposed design change in the ledger.
 - Update repo-local canon for product-specific rules with current source proof.
 - Update a skill when sequence, role, or validation behavior must recur. Do not turn temporary status into a skill.
+- Promote an explicit TP correction immediately to the smallest durable layer
+  future agents load. Do not wait for recurrence when the correction is direct.
 - Never rewrite canonical memory files directly; use the configured ad-hoc memory-note path.
 - Preserve dirty work and do not commit, deploy, publish, complete issues, delete storage, or rotate secrets during the sync.
 - Keep the daily storage inventory and action receipt inside the Terra Codex
@@ -65,3 +69,8 @@ The run fails visibly when:
 - A tranche has no execution lane, capacity reservation, workspace path or
   Cloud branch, owner, exit condition, and closure state.
 - A Wonder preview is reported as source-integrated or port 7777 proof.
+- A backup is reported complete from upload alone without encrypted
+  local-plus-cloud manifests and restore/readback proof.
+- A checkpoint omits workspace, base, date branch, commit/ref SHAs, changed
+  files, validation, protected zones, name-only secrets status, proof rung,
+  human gates, or exact clean status.

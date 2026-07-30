@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "valid": {
+    "taskTitles": [
+      "S166 - Solvys Refresh System",
+      "S207 - daily backend integration"
+    ],
+    "dateBranches": [
+      "2026-07-29",
+      "2027-01-03"
+    ],
+    "checkpointRefs": [
+      "refs/sprints/S166/P1",
+      "refs/sprints/S207/P12"
+    ]
+  },
+  "invalid": {
+    "taskTitles": [
+      "S166: Solvys Refresh System",
+      "Solvys Refresh System",
+      "S166-T1: policy"
+    ],
+    "branches": [
+      "main",
+      "2026-7-29",
+      "2026-13-40",
+      "feature/refresh",
+      "recovery/s166",
+      "agent/policy",
+      "sprint/S166"
+    ],
+    "checkpointRefs": [
+      "refs/heads/S166/P1",
+      "refs/sprints/s166/P1",
+      "refs/sprints/S166/checkpoint"
+    ]
+  },
+  "routing": [
+    {
+      "shape": "bounded-single-owner",
+      "skill": "solvys-brief"
+    },
+    {
+      "shape": "multi-track",
+      "skill": "solvys-orchestrate"
+    },
+    {
+      "shape": "parallel",
+      "skill": "solvys-orchestrate"
+    },
+    {
+      "shape": "long-running",
+      "skill": "solvys-orchestrate"
+    },
+    {
+      "shape": "super-sprint",
+      "skill": "solvys-orchestrate"
+    }
+  ],
+  "blacksmith": {
+    "eligible": [
+      "deterministic-bounded-reversible-patch"
+    ],
+    "ineligible": [
+      "migration",
+      "destructive-write",
+      "authentication",
+      "authorization",
+      "billing",
+      "secret-or-provider-credential",
+      "infrastructure",
+      "broad-routing",
+      "security-control",
+      "irreversible-integration",
+      "release-or-install",
+      "protected-surface"
+    ]
+  }
+}
