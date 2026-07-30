@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "effectiveDate": "2026-07-29",
+  "timezone": "America/New_York",
+  "inventorySurface": "current_codex_task_only",
+  "observationModeThrough": "2026-08-01T23:59:59-04:00",
+  "actionModeStarts": "2026-08-02T00:00:00-04:00",
+  "internalThresholds": {
+    "healthyMinFreeBytes": 40000000000,
+    "healthyMinFreePercent": 15,
+    "yellowBelowFreeBytes": 40000000000,
+    "yellowBelowFreePercent": 15,
+    "redBelowFreeBytes": 20000000000,
+    "redBelowFreePercent": 10,
+    "criticalBelowFreeBytes": 10000000000,
+    "criticalBelowFreePercent": 5
+  },
+  "externalMinFreePercent": 20,
+  "conversationSweepDays": 10,
+  "transcriptInactivityDays": 30,
+  "cacheMinimumAgeDays": 30,
+  "workspaceRoots": {
+    "codebases": "/Volumes/Ext./Codebases",
+    "managedWorktrees": "/Volumes/Ext./CodexWorktrees/managed",
+    "explicitWorktrees": "/Volumes/Ext./CodexWorktrees",
+    "storageOps": "/Volumes/Ext./SolvysOps/storage",
+    "runtimeBundles": "~/Library/Application Support/{Product}/runtime",
+    "runtimeLogs": "~/Library/Logs/{Product}"
+  },
+  "executionLanes": {
+    "backendOnly": "cloud_when_pushed_and_eligible",
+    "frontendOnly": "external_local",
+    "frontendPlusBackend": "external_local",
+    "internalLocal": "small_only_when_healthy"
+  },
+  "approvedActions": {
+    "inventory": true,
+    "conversationCandidateReport": true,
+    "automationTargetProtection": true,
+    "cacheSanitationAfterObservation": true,
+    "externalArchiveSanitationAfterObservation": true,
+    "transcriptColdStoragePilot": true,
+    "manualWorktreeDeletion": false,
+    "codexHomeMigration": false
+  },
+  "sanitationRules": {
+    "registeredTaskTemp": {
+      "enabledAfterObservation": true,
+      "rootSource": "tranche-registry.entries[].sanitationPaths",
+      "minimumAgeDays": 30,
+      "requirements": [
+        "exact path is registered",
+        "owning tranche is archive-eligible",
+        "no active process or task reference",
+        "regular files only",
+        "post-delete absence check"
+      ]
+    },
+    "externalQuarantine": {
+      "enabledAfterObservation": true,
+      "root": "/Volumes/Ext./SolvysOps/storage/quarantine",
+      "minimumAgeDays": 30,
+      "requirements": [
+        "entry is not marked partial or authoritative rollback",
+        "source and destination checksums or Git identity are recorded",
+        "no active process, task, tranche, automation, or legal reference",
+        "exact candidate is reported before action",
+        "post-delete absence and free-space checks"
+      ]
+    },
+    "transcriptArchive": {
+      "enabledAfterObservation": true,
+      "root": "/Volumes/Ext./SolvysOps/storage/transcript-archive",
+      "minimumArchiveAgeDays": 90,
+      "requirements": [
+        "thirty-day source inactivity and non-reference gate previously passed",
+        "archive manifest and SHA-256 exist",
+        "decompression and readback proof passed",
+        "no active task, automation, goal, legal, client, or memory reference",
+        "exact candidate is reported before action",
+        "post-delete absence and free-space checks"
+      ]
+    },
+    "generatedImages": {
+      "enabledAfterObservation": false,
+      "root": "~/.codex/generated_images",
+      "mode": "candidate-report-only",
+      "reason": "No durable mapping currently proves which assets have been exported or remain task-referenced."
+    }
+  },
+  "hardDenyRoots": [
+    "~/.codex/sessions",
+    "~/.codex/archived_sessions",
+    "~/.codex/memories",
+    "~/.codex/skills",
+    "~/.codex/auth.json",
+    "~/.codex/*.sqlite*",
+    "~/Library/Application Support",
+    "~/Library/Keychains",
+    "/System",
+    "/private/var/vm"
+  ],
+  "taskLifecycle": {
+    "flushTrigger": "flush memory",
+    "memoryNotesMax": 1,
+    "archiveSelfAfterVerifiedFlush": true
+  }
+}

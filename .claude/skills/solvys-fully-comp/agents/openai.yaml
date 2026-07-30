@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Fully Comp"
+  short_description: "Competitive systems benchmark"
+  default_prompt: "Use $solvys-fully-comp to benchmark a Solvys product against Anthropic and Codex and turn the gaps into improvements."

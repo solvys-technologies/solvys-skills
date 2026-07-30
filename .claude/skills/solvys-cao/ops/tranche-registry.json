@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-29T13:25:56-04:00",
+  "canonicalCodebasesRoot": "/Volumes/Ext./Codebases",
+  "managedWorktreeRoot": "/Volumes/Ext./CodexWorktrees/managed",
+  "entries": [
+    {
+      "id": "S162-T1",
+      "repository": "fintheon",
+      "executionLane": "external-local",
+      "workspacePathOrCloudBranch": "/Volumes/Ext./CodexWorktrees/fintheon-s162-tranche-1",
+      "branch": "codex/s162-tranche-1-t0",
+      "checkpoint": "6812df4fdae6644b76ffc7dfd2d15d57e01db1c7",
+      "estimatedPeakBytes": 0,
+      "capacityReservation": "External volume must remain at least 20 percent free.",
+      "owner": "Codex task 019fade9-f58a-7493-9dd2-c90beb07c630",
+      "protectedZones": [
+        "opened registered worktree",
+        "accepted Tranche 1 checkpoint"
+      ],
+      "proofRung": "source",
+      "exitCondition": "Fresh Tranche 2 task explicitly reuses this registered worktree or the lane is closed through the natural task sweep.",
+      "closureState": "protected",
+      "automationTaskIds": [],
+      "references": [
+        "Cutover completed; compatibility path resolves to /Volumes/Ext./Codebases.",
+        "Do not create another checkout."
+      ],
+      "sanitationPaths": []
+    },
+    {
+      "id": "S165",
+      "repository": "fintheon",
+      "executionLane": "external-local",
+      "workspacePathOrCloudBranch": "/Volumes/Ext./Codebases/fintheon",
+      "branch": "sprint/S165",
+      "checkpoint": "a6f41825222a12c067f6af59d77227ebf04e562c",
+      "estimatedPeakBytes": 0,
+      "capacityReservation": "External volume must remain at least 20 percent free.",
+      "owner": "Codex task 019fabd4-5f9f-7c93-a36d-206df7b7cd96",
+      "protectedZones": [
+        "canonical external checkout",
+        "Fintheon deployed runtime source"
+      ],
+      "proofRung": "source",
+      "exitCondition": "Sprint handoff or explicit closure after runtime and product evidence gates.",
+      "closureState": "active",
+      "automationTaskIds": [
+        "Fintheon Executive Planning Desk task 019f9ec9-0984-7302-9935-f67b1fac5044"
+      ],
+      "references": [
+        "Saved project local-b1bda717e0427d11284a1d1c89bcbdfd resolves externally through the compatibility symlink.",
+        "Planning Desk independently verified clean external re-entry."
+      ],
+      "sanitationPaths": []
+    }
+  ],
+  "entrySchema": {
+    "id": "S###-T# or named tranche",
+    "repository": "repository name",
+    "executionLane": "cloud-backend-only | external-local | internal-local",
+    "workspacePathOrCloudBranch": "exact path or pushed branch",
+    "estimatedPeakBytes": 0,
+    "capacityReservation": "free before and projected free after",
+    "owner": "named human or agent task",
+    "protectedZones": [],
+    "proofRung": "planned | source | build | wonder | port-7777 | live | installed",
+    "exitCondition": "merge, evidence, handoff, or cancellation",
+    "closureState": "active | cooling | archive-eligible | protected",
+    "automationTaskIds": [],
+    "references": [],
+    "sanitationPaths": []
+  }
+}

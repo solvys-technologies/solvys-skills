@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Designer Planning"
+  short_description: "Plan Solvys websites and apps before frontend work"
+  default_prompt: "Use $solvys-designer-planning to build a PRD, reference lock, design guardrails, and implementation plan before frontend work."

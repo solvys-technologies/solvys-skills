@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Fully YOP"
+  short_description: "Competitor-inspired build planning"
+  default_prompt: "Use $solvys-fully-yop to find same-level competitors, extract feature inspiration, and plan a Solvys-native build."

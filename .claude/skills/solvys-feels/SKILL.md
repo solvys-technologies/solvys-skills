@@ -1,12 +1,47 @@
 ---
 name: solvys-feels
-description: Visual architecture for Solvys applications. Combines impeccable.style (flat colors, OKLCH, tinted neutrals) with Nothing Design (monochrome canvas, industrial warmth, typographic hierarchy). Use for any UI work -- new components, styling changes, theme adjustments, visual reviews, or when generating frontend code.
+description: Visual architecture for Solvys applications. Use for any UI work, design-system update, tech-stack choice, styling change, visual review, or frontend generation. Fintheon current app is the primary product-UI personality; Fintheon product page, solvys.io, pricedinresearch.io, SSFitness, Solvys-1 Renters, and impeccable.style provide source registers and stack constraints.
 version: 0.1.0
 ---
 
 # Solvys Feels -- Visual Architecture
 
+## Solvys Ponytail Chain
+
+- After reading repo truth and tracing the real flow, run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
+- Keep OSS-first pragmatic: adopt OSS only when license, maintenance, security, runtime fit, and integration cost beat owning custom code.
+- For backend bugs, grep sibling callers and fix the root shared seam once; a tiny patch in the wrong path is still wrong.
+- Never skip validation, auth/security, data-loss handling, accessibility, calibration knobs, explicit requirements, or proof.
+- Non-trivial logic leaves the smallest runnable check or product proof that would catch a regression.
+
+
 You are a design systems engineer. Every UI decision you make must pass through these filters. This is not optional -- these rules override your default aesthetic instincts.
+
+## Mandatory Design.md Gate
+
+For any greenfield or new-project frontend, run `/solvys-discovery` and the
+`refero-design` skill before using this skill to plan or generate frontend code.
+`refero-design` must produce a reference lock and decision ledger first. If it is
+missing, install it with `npx skills add https://github.com/referodesign/refero_skill`.
+
+For any frontend/UI task, load the Solvys-skills suite root `Design.md`
+immediately before planning. After drafting the plan, verify it against
+`Design.md` again before implementation. If this compatibility skill has been
+copied without the suite root, use the installed/source suite copy of
+`Design.md` or stop and state that the gate file is missing.
+
+## Source Canon
+
+Before making UI or stack decisions, identify the register and source:
+
+- **Product UI default:** Fintheon current app. Use its rails, drawers, composer behavior, buttons, icon bank, font discipline, dense panels, tokens, and operational hierarchy as the primary UI personality.
+- **Public product page:** `pricedinresearch.io/fintheon`. Use its liquid-glass cards, data-rain atmosphere, product mockups, Poppins + Source Serif + Doto register, and direct trader/product stakes.
+- **Parent studio/research:** `solvys.io` and `pricedinresearch.io`. Use sparse black space, real city/capital imagery, Almarai + Instrument Serif, gold microcopy, large cream type, and "before consensus" confidence.
+- **Process refresh:** `impeccable.style`. Use PRODUCT.md, DESIGN.md, document/extract/live/detect, and brand-vs-product register ideas to keep this suite current.
+- **Resident ops:** Solvys-1 Renters. Use its Next/Expo monorepo stack, building-operations language, beige/green and dark grey/green themes, Clerk, tRPC, Drizzle/Postgres, and glass primitives.
+- **Fitness/public PWA:** SSFitness at `stryvsocietyfit.com`. Use its Next/OpenNext/Cloudflare + Clerk website stack, image-led dark/gold public conversion pattern, and mobile/PWA polish.
+
+For the full source hierarchy and tech-stack allowlist, load `reference/source-canon.md`. For practical UI rules, load `reference/design-guidelines.md`.
 
 ## Core Identity
 
@@ -24,7 +59,7 @@ Precise but not cold. Technical but not clinical. Monochrome canvas with a singl
 2. **Structure is ornament.** The grid, the data, the hierarchy ARE the design. No decorative elements.
 3. **Monochrome is the canvas.** Color is an event, not a default. The gold accent is a signal, not a fill.
 4. **Type does the heavy lifting.** Scale, weight, and spacing create hierarchy. Not color, not icons, not borders.
-5. **Flat is final.** No depth simulation. No shadows, no gradients, no blur. Layers are distinguished by opacity and tone.
+5. **Source-backed material only.** Product chrome is mostly flat layers, thin borders, opacity, rulers, and type. Liquid glass, image overlays, and soft depth are allowed only when inherited from the source canon and used functionally.
 
 ## Absolute Bans
 
@@ -32,9 +67,9 @@ These patterns are NEVER acceptable in Solvys applications:
 
 | Banned Pattern | Why |
 |---------------|-----|
-| Gradients (`bg-gradient-*`, `linear-gradient`, `radial-gradient`) | Violates flat design principle |
-| Shadows (`shadow-*`, `drop-shadow`, `box-shadow`) | Simulates depth we reject |
-| Blur (`blur-*`, `backdrop-blur`, `filter: blur`) | Glass morphism is banned |
+| Decorative gradients (`bg-gradient-*`, `linear-gradient`, `radial-gradient`) | Banned unless they are source-backed image overlays, fades, or liquid-glass edges |
+| Generic shadows (`shadow-*`, decorative `drop-shadow`) | Banned in product chrome; use only source-backed glass/material depth |
+| Blur as decoration (`blur-*`, unfocused blobs, bokeh) | Banned; functional liquid glass is allowed through source-owned primitives |
 | Emojis in UI chrome | Unprofessional, inconsistent cross-platform |
 | AI sparkles / glitter / aurora effects | Immediate "AI slop" signal |
 | Colored icons / filled icons | Line icons only, stroke-width 1.5-2px |
@@ -47,6 +82,52 @@ These patterns are NEVER acceptable in Solvys applications:
 | Skeleton loading screens | Use `[LOADING...]` text indicators |
 | Toast popups | Use inline status text: `[SAVED]`, `[ERROR: ...]` |
 | Parallax, scroll-jacking, bounce easing | Disruptive motion |
+| Full-row chat composer strips | Composer chrome must not obscure content outside the input/drawer footprint |
+| Popup-positioned chat drawers | Attach, tools, skills, connectors, mentions, and queues must be actual connected drawers |
+| Drawer-sized popups/modals | Popups and modals are separate surface types; never use drawer geometry |
+| Decorative button borders / button backplates | Buttons are commands, not tiny cards; use primary fills or approved soft-glow states only |
+| Recreating requested copy-paste UI | If TP asked to copy-paste from another workspace, inspect and adapt the real source code |
+| Duplicate/developer-facing UI text | Product UI renders user-facing previews, not implementation narration |
+| Raw source strings in UI | Data must be converted to proper user-facing capitalization before rendering |
+| Instant new popups, rails, drawers, modals, sheets, or surfaces | New UI surfaces must transition in and out |
+| Pointed square borders, triangular corner flags, sharp outline ornaments | Solvys corners are softened or truly round, never pointed |
+| Homemade Liquid Glass | Liquid Glass requires a professionally shipped/source-backed example and repo-owned treatment |
+
+## Chat Composer & Drawer Rules
+
+Chat composers are repo-owned system surfaces, not page-owned styling projects.
+
+### Allowed Variants
+- **Full** -- primary CAO/main chat, NarrativeFlow/NF-Workspace, and page-level chat.
+- **Compact** -- sidebar chat, mobile/sidebar chat, floating chat, rails, widgets, and embedded chat.
+- No third composer variant. Domain behavior must be passed through slots/props while preserving shared chrome, spacing, drawer geometry, and interaction behavior.
+
+### Drawer Geometry
+- Drawers are centered over or under the chat input bar and visually connected to it.
+- Drawer width is exactly `92%` of the rendered composer/input width.
+- The input bar decides max width; drawers do not size from the viewport or arbitrary card widths.
+- A drawer must touch/fuse with the input edge: no visual gap, no detached card, no popover placement.
+- Re-clicking the active icon closes the drawer. Opening a different drawer closes the current drawer.
+
+### Popups vs Drawers
+- **Drawers:** Attach, Skills+Connectors, mentions, active work/queue, context pickers.
+- **Popups/modals:** provider selector, full-size image preview, command palette, tool approvals.
+- Popups/modals may share color/material tokens with drawers, but must never use drawer placement, drawer sizing, or drawer connection rules.
+
+### Composer Kill List
+- Kill full-width black strips behind chat composers.
+- Kill row-wide fades/backdrops/masks that obscure text outside the actual input or drawer rectangle.
+- Kill popup-positioned Attach panels.
+- Kill popup-positioned Skills+Connectors panels.
+- Kill drawer surfaces that float with a visual gap from the input bar.
+- Kill drawer widths based on viewport or arbitrary card widths instead of `92%` of rendered composer width.
+- Kill icon triggers that only open and cannot close on second click.
+- Kill multiple local chat input shells pretending to be the same composer.
+- Kill NarrativeFlow-specific composer chrome that diverges from the repo-owned composer.
+- Kill compact sidebars accidentally rendering full composer controls.
+- Kill popups/modals using drawer geometry.
+- Kill hidden/empty toolbar slots rendering as visible labels like `{providerSlot}`.
+- Kill composer wrappers that capture, dim, blur, or mask scroll content outside the composer/drawer footprint.
 
 ## Color System
 
@@ -146,6 +227,7 @@ Always 1px. Never thicker. Never solid accent color at full opacity for borders 
 - No bounce on anything except card entrances
 - No spring physics, no parallax, no scroll-jacking
 - Respect `prefers-reduced-motion` -- disable all non-essential animation
+- Public websites may use cinematic image/video motion only when the source surface already does and the first viewport remains readable.
 
 ## Component Patterns
 
@@ -154,13 +236,22 @@ Always 1px. Never thicker. Never solid accent color at full opacity for borders 
 - Border: 1px `rgba(199, 159, 74, 0.10)`
 - Border-radius: 4-8px maximum
 - Padding: 16-24px
-- No shadow. No hover glow. Hover = border opacity increase to 0.20.
+- Product UI: no generic shadow or glow. Hover = border opacity increase to 0.20.
+- Public product pages may use source-backed liquid-glass cards with larger radii when matching Fintheon product page, Solvys-1 glass primitives, or SSFitness public CTAs.
 
 ### Buttons
 - Primary: `#c79f4a` background, `#050402` text
 - Secondary: `rgba(199, 159, 74, 0.12)` background, `#f0ead6` text
 - Danger: `#dc2626` background, `#ffffff` text
-- No rounded-full. Use 4px border-radius.
+- Product UI default: 4-10px radius, icon-first controls, lucide/local line icons, and labels only where command clarity needs them.
+- Toolbar/icon buttons default to borderless, transparent controls. Do not add hover border boxes or background plates unless the control is a primary action or an approved soft glow state.
+- Product UI button corners must be softened or truly circular. Do not use sharp 90-degree button boxes or pointed border ornaments.
+- Public-site CTAs may use rounded pills when matching Solvys, Priced In, Fintheon product page, or SSFitness.
+
+### Surface Motion
+- Every newly introduced popup, rail, drawer, modal, sheet, or panel must have enter and exit motion.
+- Prefer opacity and transform transitions, using local primitives or `/solvys-transitions`.
+- Do not add instant-appearing detached UI. If the surface appears, disappears, expands, collapses, or attaches to a control, the motion is part of the feature.
 
 ### Inputs
 - Background: transparent or Layer 1
@@ -172,6 +263,15 @@ Always 1px. Never thicker. Never solid accent color at full opacity for borders 
 - Use inline text: `[SAVED]`, `[ERROR: reason]`, `[LOADING...]`
 - No toast notifications, no popups, no snackbars
 - Status text in monospace, uppercase, muted opacity
+
+### Solvys Icon & Loader Bank
+- Before changing icons or loaders in any Solvys app, check `reference/solvys-icon-loader-bank.md`.
+- Treat the bank as the default across Solvys apps unless the user explicitly revises it.
+- Prefer bundled/local line icons through the app's icon facade. Do not add remote icon runtimes or paid icon dependencies by default.
+- Icons stay line-only, 1.5-2px stroke, flat, and theme-colored.
+- Loaders come from the approved circular dot-matrix loader bank and follow the user's primary theme token.
+- Loading/saving states should resolve to a borderless green check with a fade success sequence when the state completes.
+- App-wide Zen mode should turn eligible buttons into icon-only controls while preserving hover tooltip, title, and aria labels.
 
 ## CSS Custom Properties
 
@@ -203,7 +303,11 @@ If yes, that is the problem. Go back and subtract. Real design has opinion and r
 ## Reference Files
 
 For detailed token tables, font definitions, and theme presets:
+- `../../../Design.md` -- mandatory frontend gate, Fintheon design tendencies, bans, source-first reuse, and three-pass rule
+- `reference/source-canon.md` -- source hierarchy, visual registers, tech-stack allowlist, and Impeccable refresh loop
+- `reference/design-guidelines.md` -- practical UI register rules, liquid-glass rules, typography, and acceptance checklist
 - `reference/solvys-themes.md` -- All 9 production theme presets with complete color values
 - `reference/font-kit.md` -- Complete @font-face definitions for self-hosted WOFF2 fonts
 - `reference/css-tokens.md` -- Full CSS variable token map for backgrounds, text, buttons, borders
 - `reference/solvys-gold-palette.md` -- Deep-dive on the Solvys Gold/Stone color system
+- `reference/solvys-icon-loader-bank.md` -- Cross-app icon, spinner, loader, success, and Zen-mode rules

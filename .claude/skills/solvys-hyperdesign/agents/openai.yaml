@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Hyperdesign"
+  short_description: "Hyperagent design workflows, Solvys-native"
+  default_prompt: "Use $solvys-hyperdesign to turn this product idea into a Solvys-native brand, layout, data, campaign, or motion artifact."
