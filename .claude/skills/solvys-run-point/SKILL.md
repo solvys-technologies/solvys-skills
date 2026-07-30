@@ -17,7 +17,9 @@ root `refs/sprints/S###/P#` preservation/sprint checkpoints or
 `Implement this plan` freezes the accepted plan revision. The run-point
 dispatches the frozen tracks and may not reinterpret scope or let a planning
 task self-assign implementation. The originating planning task cannot
-implement, and a missing or incomplete Cloud Pickup block fails dispatch.
+implement, and a missing or incomplete Cloud Pickup block fails dispatch. The
+command must create or assign the task-owned Cloud worktree and return its
+pickup receipt; a local target or mere Cloud recommendation is not dispatch.
 
 ## Solvys Ponytail Chain
 

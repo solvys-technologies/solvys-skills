@@ -108,6 +108,7 @@ REQUIRED_PHRASES = {
         "Exact Checkpoint Receipt",
         "coherent CI/deployment",
         "Worktree mode: detached",
+        "A Cloud recommendation alone is not",
     ],
 }
 
@@ -163,6 +164,10 @@ def validate_implement_dispatch(
     target = case.get("implementationTarget")
     if target == origin:
         errors.append("implementation_target_is_originating_planning_task")
+    if target != "cloud-worktree":
+        errors.append("implementation_target_is_not_cloud_worktree")
+    if case.get("dispatchResult") != "cloud-worktree-dispatched":
+        errors.append("cloud_dispatch_not_executed")
 
     pickup = case.get("cloudPickup")
     if not isinstance(pickup, dict):
@@ -469,6 +474,8 @@ def main() -> int:
         invalid_ids = {case["id"] for case in dispatch["invalidDispatches"]}
         if invalid_ids != {
             "originating-planning-task-cannot-implement",
+            "local-implementation-target-rejected",
+            "cloud-recommendation-is-not-dispatch",
             "accepted-plan-missing-cloud-pickup",
             "accepted-plan-incomplete-cloud-pickup",
         }:

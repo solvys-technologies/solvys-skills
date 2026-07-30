@@ -79,7 +79,9 @@ track carries the exact base, root preservation/sprint-level
 dependencies, protected zones, name-only secrets manifest, proof gates,
 budgets, return path, and closure condition. The originating planning task may
 never become the implementation target, and an accepted plan with a missing or
-incomplete Cloud Pickup block fails dispatch.
+incomplete Cloud Pickup block fails dispatch. Dispatch must create or assign
+the task-owned Cloud worktree and return its pickup receipt; a local target or
+mere Cloud recommendation fails `Implement this plan`.
 
 `main` stays clean, protected, deployable, and outside development. The only
 human-facing integration branch is `YYYY-MM-DD`. A daily integrator assembles

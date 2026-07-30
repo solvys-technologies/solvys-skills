@@ -17,7 +17,9 @@ implementation to a task-owned Cloud worktree by default. The only local
 implementation exceptions are the explicit Refresh System lanes, and each
 requires a reason, capacity/proof gates, protected zones, and return path.
 The originating planning task cannot implement. A missing or incomplete Cloud
-Pickup block fails dispatch.
+Pickup block fails dispatch. The command must create or assign the task-owned
+Cloud worktree and return its pickup receipt; a local target or mere Cloud
+recommendation is not dispatch.
 
 Read `/solvys-cao/references/refresh-system.md`. `main` is never the target.
 The human integration branch is date-only `YYYY-MM-DD`; recovery uses an exact

@@ -107,6 +107,7 @@
         "command": "Implement this plan",
         "originatingTask": "planning-task",
         "implementationTarget": "cloud-worktree",
+        "dispatchResult": "cloud-worktree-dispatched",
         "cloudPickup": {
           "Sprint identity": "S166 - Solvys Refresh System",
           "Accepted plan revision": "plan-sha-1",
@@ -137,6 +138,7 @@
         "command": "Implement this plan",
         "originatingTask": "planning-task",
         "implementationTarget": "planning-task",
+        "dispatchResult": "cloud-worktree-dispatched",
         "cloudPickup": {
           "Sprint identity": "S166 - Solvys Refresh System",
           "Accepted plan revision": "plan-sha-1",
@@ -159,7 +161,70 @@
           "Closure condition": "clean checkpoint receipt"
         },
         "expectedErrors": [
-          "implementation_target_is_originating_planning_task"
+          "implementation_target_is_originating_planning_task",
+          "implementation_target_is_not_cloud_worktree"
+        ]
+      },
+      {
+        "id": "local-implementation-target-rejected",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "implementationTarget": "local-implementation-task",
+        "dispatchResult": "cloud-worktree-dispatched",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Repository": "solvys-technologies/solvys-skills",
+          "Base commit": "383e4d78e185d012b0d177abfcb329818c56568f",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Worktree mode": "detached",
+          "Owner": "S166-T1 Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt"
+        },
+        "expectedErrors": [
+          "implementation_target_is_not_cloud_worktree"
+        ]
+      },
+      {
+        "id": "cloud-recommendation-is-not-dispatch",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "implementationTarget": "cloud-worktree",
+        "dispatchResult": "cloud-recommended",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Repository": "solvys-technologies/solvys-skills",
+          "Base commit": "383e4d78e185d012b0d177abfcb329818c56568f",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Worktree mode": "detached",
+          "Owner": "S166-T1 Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt"
+        },
+        "expectedErrors": [
+          "cloud_dispatch_not_executed"
         ]
       },
       {
@@ -167,6 +232,7 @@
         "command": "Implement this plan",
         "originatingTask": "planning-task",
         "implementationTarget": "cloud-worktree",
+        "dispatchResult": "cloud-worktree-dispatched",
         "expectedErrors": [
           "cloud_pickup_missing"
         ]
@@ -176,6 +242,7 @@
         "command": "Implement this plan",
         "originatingTask": "planning-task",
         "implementationTarget": "cloud-worktree",
+        "dispatchResult": "cloud-worktree-dispatched",
         "cloudPickup": {
           "Sprint identity": "S166 - Solvys Refresh System",
           "Accepted plan revision": "plan-sha-1",

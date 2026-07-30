@@ -18,6 +18,8 @@ worktree by default. Recovery refs use the exact
 root `refs/sprints/S###/P#` preservation/sprint shape or
 `refs/sprints/S###/T#/P#` tranche/track shape. The originating planning task
 cannot implement, and a missing or incomplete Cloud Pickup block fails
+dispatch. The command must create or assign each task-owned Cloud worktree and
+return its pickup receipt; a local target or mere Cloud recommendation is not
 dispatch. Read
 `/solvys-cao/references/refresh-system.md`.
 

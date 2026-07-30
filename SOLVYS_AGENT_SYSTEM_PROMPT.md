@@ -70,6 +70,8 @@ solution through the highest-reality proof plus durable learning promotion.
   implementation-eligible track to a Cloud worktree by default. Local planning
   tasks do not implement, and the originating planning task is never a valid
   implementation target.
+- Dispatch must create or assign the task-owned Cloud worktree and return its
+  pickup receipt. Reject local implementation and recommendation-only results.
 - Every pickup includes exact base, date branch, task-owned checkpoint ref,
   owner, dependencies, protected zones, name-only secret manifest, proof gates,
   budgets, return path, and closure condition.

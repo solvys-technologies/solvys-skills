@@ -34,7 +34,9 @@ The exact command `Implement this plan` freezes the accepted plan revision. Do
 not silently reinterpret scope after freeze. Dispatch every implementation-
 eligible track to a task-owned Cloud worktree by default. A local planning track
 may coordinate or review, but may not absorb implementation merely because it
-already has context.
+already has context. Dispatch means creating or assigning the task-owned Cloud
+worktree and returning its pickup receipt. A Cloud recommendation alone is not
+dispatch. An implementation target outside a Cloud worktree fails the command.
 
 ## Turnkey Cloud Pickup
 

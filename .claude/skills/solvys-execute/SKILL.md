@@ -18,7 +18,9 @@ pickup. `main` is protected; the only human-facing integration branch is
 `YYYY-MM-DD`; checkpoint custody uses root
 `refs/sprints/S###/P#` preservation/sprint refs or
 `refs/sprints/S###/T#/P#` tranche/track refs. The originating planning task is
-never a valid implementation target.
+never a valid implementation target. The command must create or assign each
+task-owned Cloud worktree and return its pickup receipt; reject local targets
+and recommendation-only results.
 
 ## Solvys Ponytail Chain
 
