@@ -101,11 +101,25 @@
     }
   },
   "backupContract": {
+    "custodyClassificationRequiredBeforeBackup": true,
+    "soundLibrariesDefaultCustody": "ext_in_place",
+    "sensitivePersonalMusicDefaultCustody": "designated_flash_after_exact_readback",
+    "solvysCodeDefaultCustody": "remote_git_and_pushed_sprint_checkpoint_refs",
+    "boundedCodePreservationExceptions": [
+      "unpushed_commits",
+      "dirty_overlays",
+      "unique_non_git_artifacts"
+    ],
+    "readableExternalVolumeTriggersBulkBackup": false,
+    "readOnlyExternalVolumeAuthorizesRepairEraseOrMigration": false,
+    "cloudBackupRequiresExplicitBoundedAssetSet": true,
+    "selectedAssetSetMayExpandByImplication": false,
     "encryptedLocalManifestRequired": true,
     "encryptedCloudManifestRequired": true,
     "restoreReadbackRequired": true,
     "uploadedIsComplete": false,
-    "personalUniqueStateReadbackBeforeDestructiveReconstruction": true,
+    "affectedUniqueStateAtCustodyTargetBeforeAuthorizedDestruction": true,
+    "noDestructiveActionCreatesBackupPrerequisite": false,
     "restoreDrillTarget": "bounded_non_production"
   },
   "resourceBudgets": {

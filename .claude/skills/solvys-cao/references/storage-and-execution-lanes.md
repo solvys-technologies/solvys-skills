@@ -142,14 +142,23 @@ At a tranche boundary:
 
 ## Recovery And Restore Contract
 
-- Maintain encrypted local-plus-cloud backup manifests for personal or unique
-  state.
+- Classify custody before backup. Sound packs and sound libraries remain on
+  `/Volumes/Ext.`; TP-selected sensitive personal music remains on the
+  designated flash drive after exact readback; Solvys code uses remote Git plus
+  pushed Sprint checkpoint refs, with bounded preservation only for unpushed
+  commits, dirty overlays, and unique non-Git artifacts.
+- A readable external volume is not a bulk-recovery trigger. Read-only closes
+  writes; it does not authorize a full-volume copy, repair, erase, or migration.
+- Create an encrypted Cloud backup only for the exact bounded asset set TP
+  explicitly selects. Never expand that authority to sound libraries, entire
+  repositories, reproducible checkouts, or the whole external volume.
 - Record source identity, encryption state, object/byte counts, hashes,
   readback, restore target, result, timestamp, and verifier.
 - An upload is incomplete until a bounded restore and readback pass.
 - Run restore drills on non-production targets.
-- Before destructive reconstruction, personal/unique-state readback must pass.
-  A mismatch or missing manifest stops the action.
+- Before an explicitly authorized destructive action, prove the custody target
+  for only the affected unique state. If no destructive action is authorized,
+  no bulk-backup gate exists.
 
 ## Resource Budgets
 

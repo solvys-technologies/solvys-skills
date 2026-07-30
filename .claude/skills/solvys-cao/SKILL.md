@@ -50,6 +50,17 @@ frontend/source loop may stay under `/Volumes/Ext.` after capacity proof.
 Backend-only deterministic or parallel Fintheon compute may use Cloud when an
 exact pushed ref and turnkey brief exist.
 
+Custody classification happens before backup planning. Sound packs and sound
+libraries stay on `/Volumes/Ext.` by default. Sensitive personal music selected
+by TP, including Fire Your Producer or Artist material, FLPs, chops, named MP3
+source samples, and its folder-name inventory, stays on the designated flash
+drive after exact readback. Solvys repositories rely on remote Git plus pushed
+Sprint checkpoint refs; preserve only unpushed commits, dirty overlays, and
+unique non-Git artifacts as bounded exceptions. Never create a full-volume,
+full-repository, or bulk-media Cloud backup merely because Ext is mounted
+read-only or previously reported a filesystem fault. Readable Ext remains the
+source of truth until TP separately authorizes a move, repair, or erase.
+
 The external volume is a finite shared build resource. Keep at least 20 percent
 free, estimate the peak footprint before a large clone, install, image build, or
 bulk copy, and serialize disk-intensive builds, Docker recovery, media work,
@@ -105,10 +116,12 @@ or high-risk change removes eligibility and hard-stops before merge, deployment,
 or date-branch deletion pending human verification.
 
 Every checkpoint returns the exact receipt defined in
-[refresh-system.md](references/refresh-system.md). Backup completion requires
-encrypted local-plus-cloud manifests and restore proof; upload alone is not
-completion. Resource budgets cover tasks, worktrees, checkpoints, artifacts,
-transcripts, DMGs, processes, and RAM.
+[refresh-system.md](references/refresh-system.md). When TP explicitly selects a
+bounded asset set for Cloud backup, completion requires encrypted manifests and
+restore proof; upload alone is not completion. This rule never expands the
+selected set or turns an accessible external volume into a bulk-backup gate.
+Resource budgets cover tasks, worktrees, checkpoints, artifacts, transcripts,
+DMGs, processes, and RAM.
 
 ## Design Sequence
 

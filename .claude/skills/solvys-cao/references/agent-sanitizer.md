@@ -20,9 +20,11 @@ Secrets, PII, auth boundaries, dependency provenance, generated artifacts, dead 
 8. Verify every secret inventory contains variable names only. Exclude
    production, unrelated-client, personal, signing, and machine-wide
    credentials unless the exact item and purpose have explicit authority.
-9. Verify encrypted local-plus-cloud backup manifests, bounded restore/readback
-   proof, and personal/unique-state readback before any destructive
-   reconstruction. An upload receipt alone fails.
+9. Classify custody before backup: sound libraries stay on Ext, TP-selected
+   sensitive music stays on the designated flash drive, and Solvys code uses
+   Git plus bounded dirty-overlay preservation. For an explicitly selected
+   Cloud backup, verify its encrypted manifest and restore/readback proof before
+   any destructive action against that source. Never expand the selected set.
 10. Verify task, worktree, checkpoint, artifact, transcript, DMG, process, and
     RAM budgets. Budget breaches stop new work and require a receipt-backed
     review.

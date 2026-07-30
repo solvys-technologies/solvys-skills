@@ -76,6 +76,10 @@ Read the CAO `storage-and-execution-lanes.md` before pickup:
   ref and brief.
 - Internal-local requires a healthy capacity gate and a projected peak under
   2 GB.
+- Sound libraries stay on Ext, TP-selected sensitive music stays on the
+  designated flash drive, and code custody uses Git plus bounded dirty-overlay
+  preservation. A readable Ext volume never implies a bulk backup, repair,
+  erase, or migration.
 - Refuse repository pickup unless a repository-backed Codex Cloud environment
   supplies exact environment ID/label, repository slug and attachment proof,
   requested base/ref availability, detached checkout proof, authenticated Git

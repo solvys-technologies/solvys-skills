@@ -61,6 +61,9 @@ REQUIRED_PHRASES = {
         "repository-backed Codex Cloud",
         "projectless ChatGPT Work",
         "authenticated Git",
+        "Custody classification happens before backup planning",
+        "Sound packs and sound",
+        "Never create a full-volume",
     ],
     "references/decision-authority.md": ["Answer For Yourself", "Clarify", "Shoot Down"],
     "references/official-stack.md": [
@@ -86,6 +89,9 @@ REQUIRED_PHRASES = {
         "Cloud implementation",
         "Recovery And Restore Contract",
         "Resource Budgets",
+        "Classify custody before backup",
+        "A readable external volume is not a bulk-recovery trigger",
+        "Create an encrypted Cloud backup only for the exact bounded asset set",
     ],
     "references/wonder-frontend-sandbox.md": [
         "Wonder is provisional design truth",
@@ -117,6 +123,18 @@ REQUIRED_PHRASES = {
         "repository-backed Codex Cloud",
         "projectless ChatGPT Work",
         "Authenticated Git publication route",
+        "Custody classification precedes backup work",
+        "read-only external volume does not trigger",
+        "exact bounded asset set TP explicitly selects",
+    ],
+    "references/daily-context-contract.md": [
+        "bounded TP-selected Cloud backup",
+        "volume is incorrectly treated as authority for a bulk backup",
+    ],
+    "references/agent-sanitizer.md": [
+        "Classify custody before backup",
+        "sound libraries stay on Ext",
+        "Never expand the selected set",
     ],
 }
 
@@ -138,6 +156,42 @@ OPERATIONAL_REQUIRED = [
     "repository-backed Codex Cloud",
     "projectless ChatGPT Work",
 ]
+
+OPERATIONAL_CUSTODY_REQUIRED = {
+    "solvys-brief": [
+        "Custody boundary",
+        "sound libraries stay on Ext",
+        "do not invent a bulk backup",
+    ],
+    "solvys-orchestrate": [
+        "Custody Boundary",
+        "exact user-selected backup set",
+    ],
+    "solvys-execute": [
+        "Sound libraries stay on Ext",
+        "A readable Ext volume never implies a bulk backup",
+    ],
+    "solvys-run-point": [
+        "Preserve the machine custody split",
+        "not a full-volume backup",
+    ],
+}
+
+CODE_PRESERVATION_EXCEPTIONS = {
+    "unpushed_commits",
+    "dirty_overlays",
+    "unique_non_git_artifacts",
+}
+
+EXT_FORBIDDEN_INFERRED_ACTIONS = {
+    "full_volume_backup",
+    "full_repository_backup",
+    "bulk_media_backup",
+    "repair",
+    "erase",
+    "migration",
+    "substitute_checkout",
+}
 
 DEFAULT_RESOURCE_CEILINGS = {
     "concurrentLocalImplementationTasks": 1,
@@ -442,6 +496,58 @@ def validate_date_branch_lifecycle(
     return errors
 
 
+def validate_custody_case(case: dict[str, object]) -> list[str]:
+    """Return stable errors for one storage-custody fixture."""
+    errors: list[str] = []
+    asset_class = case.get("assetClass")
+    custody_target = case.get("custodyTarget")
+    requested_actions = case.get("requestedActions", [])
+    actions = set(requested_actions) if isinstance(requested_actions, list) else set()
+
+    if asset_class == "sound_libraries" and custody_target != "ext_in_place":
+        errors.append("sound_libraries_must_remain_on_ext")
+    if asset_class == "sensitive_personal_music":
+        if custody_target != "designated_flash_after_exact_readback":
+            errors.append("sensitive_personal_music_must_use_designated_flash")
+        if case.get("exactReadbackPassed") is not True:
+            errors.append("sensitive_personal_music_exact_readback_required")
+    if asset_class == "solvys_code":
+        if custody_target != "remote_git_and_pushed_sprint_checkpoint_refs":
+            errors.append("solvys_code_must_use_remote_git_and_checkpoint_refs")
+        preservation = case.get("preservationExceptions", [])
+        if not isinstance(preservation, list) or set(preservation) != CODE_PRESERVATION_EXCEPTIONS:
+            errors.append("solvys_code_preservation_exceptions_must_be_bounded")
+
+    if (
+        case.get("externalVolumeState") in {"readable", "read_only", "readable_read_only"}
+        and actions & EXT_FORBIDDEN_INFERRED_ACTIONS
+    ):
+        errors.append("readable_or_read_only_ext_does_not_authorize_requested_action")
+
+    if "cloud_backup" in actions:
+        if case.get("explicitBoundedAssetSet") is not True:
+            errors.append("cloud_backup_requires_explicit_bounded_asset_set")
+        if case.get("selectedAssetSetExpandedByImplication") is True:
+            errors.append("selected_asset_set_expanded_by_implication")
+        if case.get("explicitBoundedAssetSet") is True:
+            if case.get("encryptedManifest") is not True:
+                errors.append("bounded_cloud_backup_missing_encrypted_manifest")
+            if case.get("restoreReadback") is not True:
+                errors.append("bounded_cloud_backup_missing_restore_readback")
+
+    if (
+        case.get("destructiveActionAuthorized") is True
+        and case.get("affectedUniqueStateAtCustodyTarget") is not True
+    ):
+        errors.append("affected_unique_state_not_at_custody_target")
+    if (
+        case.get("destructiveActionAuthorized") is not True
+        and case.get("backupPrerequisiteCreated") is True
+    ):
+        errors.append("no_destructive_action_cannot_create_backup_prerequisite")
+    return errors
+
+
 def main() -> int:
     errors: list[str] = []
     for relative in REQUIRED:
@@ -468,6 +574,9 @@ def main() -> int:
         for phrase in OPERATIONAL_REQUIRED:
             if phrase not in text:
                 errors.append(f"{name}: missing Refresh phrase {phrase!r}")
+        for phrase in OPERATIONAL_CUSTODY_REQUIRED[name]:
+            if phrase not in text:
+                errors.append(f"{name}: missing custody phrase {phrase!r}")
         if name in {"solvys-brief", "solvys-orchestrate", "solvys-execute"}:
             for field in (
                 "Accepted plan revision",
@@ -500,6 +609,19 @@ def main() -> int:
         ):
             if stale_title in text:
                 errors.append(f"{name}: stale non-searchable task title {stale_title!r}")
+
+    prompt_path = SUITE_ROOT.parent.parent / "SOLVYS_AGENT_SYSTEM_PROMPT.md"
+    if not prompt_path.is_file():
+        errors.append("missing shared prompt: SOLVYS_AGENT_SYSTEM_PROMPT.md")
+    else:
+        prompt_text = prompt_path.read_text(encoding="utf-8")
+        for phrase in (
+            "Classify custody before backup planning",
+            "readable or read-only external volume does not authorize",
+            "exact bounded asset set TP explicitly selects",
+        ):
+            if phrase not in prompt_text:
+                errors.append(f"shared prompt: missing custody phrase {phrase!r}")
 
     run_point = OPERATIONAL_SKILLS["solvys-run-point"]
     if run_point.is_file():
@@ -585,8 +707,33 @@ def main() -> int:
         }:
             errors.append("storage policy: date-branch lifecycle drifted")
         backup = policy["backupContract"]
-        if backup["uploadedIsComplete"] is not False or backup["restoreReadbackRequired"] is not True:
-            errors.append("storage policy: upload must not count without restore/readback")
+        if backup != {
+            "custodyClassificationRequiredBeforeBackup": True,
+            "soundLibrariesDefaultCustody": "ext_in_place",
+            "sensitivePersonalMusicDefaultCustody": (
+                "designated_flash_after_exact_readback"
+            ),
+            "solvysCodeDefaultCustody": (
+                "remote_git_and_pushed_sprint_checkpoint_refs"
+            ),
+            "boundedCodePreservationExceptions": [
+                "unpushed_commits",
+                "dirty_overlays",
+                "unique_non_git_artifacts",
+            ],
+            "readableExternalVolumeTriggersBulkBackup": False,
+            "readOnlyExternalVolumeAuthorizesRepairEraseOrMigration": False,
+            "cloudBackupRequiresExplicitBoundedAssetSet": True,
+            "selectedAssetSetMayExpandByImplication": False,
+            "encryptedLocalManifestRequired": True,
+            "encryptedCloudManifestRequired": True,
+            "restoreReadbackRequired": True,
+            "uploadedIsComplete": False,
+            "affectedUniqueStateAtCustodyTargetBeforeAuthorizedDestruction": True,
+            "noDestructiveActionCreatesBackupPrerequisite": False,
+            "restoreDrillTarget": "bounded_non_production",
+        }:
+            errors.append("storage policy: bounded custody contract drifted")
         secrets = policy["secretManifest"]
         if secrets["valuesAllowed"] is not False or secrets["namesOnly"] is not True:
             errors.append("storage policy: secret manifests must contain names only")
@@ -923,6 +1070,36 @@ def main() -> int:
                         f"expected {expected!r}, got {actual!r}"
                     )
 
+        custody = fixtures["custodyContract"]
+        if set(custody["requiredCodePreservationExceptions"]) != CODE_PRESERVATION_EXCEPTIONS:
+            errors.append("refresh fixture: bounded code preservation exceptions drifted")
+        if {case["id"] for case in custody["validCases"]} != {
+            "sound-libraries-remain-on-ext",
+            "selected-sensitive-music-on-designated-flash",
+            "solvys-code-uses-git-and-bounded-exceptions",
+            "explicit-bounded-cloud-backup-with-restore-proof",
+            "authorized-destruction-after-affected-state-custody",
+            "no-destruction-does-not-manufacture-backup-prerequisite",
+        }:
+            errors.append("refresh fixture: valid custody case inventory drifted")
+        if {case["id"] for case in custody["invalidCases"]} != {
+            "readable-read-only-ext-cannot-authorize-bulk-or-destructive-actions",
+            "unspecified-cloud-asset-set-is-rejected",
+            "selected-cloud-asset-set-cannot-expand-by-implication",
+            "bounded-cloud-backup-needs-manifest-and-readback",
+            "authorized-destruction-needs-affected-state-custody",
+            "no-destruction-cannot-create-backup-prerequisite",
+        }:
+            errors.append("refresh fixture: invalid custody case inventory drifted")
+        for case in custody["validCases"] + custody["invalidCases"]:
+            actual = validate_custody_case(case)
+            expected = case["expectedErrors"]
+            if actual != expected:
+                errors.append(
+                    f"refresh fixture: custody case {case['id']!r} "
+                    f"expected {expected!r}, got {actual!r}"
+                )
+
         dispatch = fixtures["implementThisPlan"]
         required_pickup_fields = dispatch["requiredCloudPickupFields"]
         required_return_fields = dispatch["requiredCloudReturnReceiptFields"]
@@ -1113,6 +1290,11 @@ def main() -> int:
             '"nonFlagshipImplementation": "cloud"',
             "implementation_target_is_not_cloud_worktree",
             "cloud-worktree-dispatched",
+            "Backups use encrypted local-plus-cloud manifests.",
+            "Maintain encrypted local-plus-cloud backup manifests",
+            "Before destructive reconstruction, personal/unique-state readback",
+            "Before destructive reconstruction, prove personal and unique-state readback",
+            '"personalUniqueStateReadbackBeforeDestructiveReconstruction"',
         )
         for path in binding_paths:
             text = path.read_text(encoding="utf-8")

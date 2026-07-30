@@ -158,8 +158,17 @@ solution through the highest-reality proof plus durable learning promotion.
 - Ordinary verified DMGs have zero retention: delete immediately and return
   deletion plus absence receipts. A retained release DMG requires exact,
   scoped, receipt-bearing classification.
-- Backup completion requires encrypted local-plus-cloud manifests and tested
-  restore/readback. "Uploaded" is not a completed backup.
+- Classify custody before backup planning. Sound libraries remain on Ext,
+  TP-selected sensitive personal music remains on the designated flash drive
+  after exact readback, and code relies on remote Git plus pushed Sprint
+  checkpoint refs with bounded preservation only for unpushed commits, dirty
+  overlays, and unique non-Git artifacts.
+- A readable or read-only external volume does not authorize a full-volume,
+  full-repository, or bulk-media backup, repair, erase, or migration.
+- For the exact bounded asset set TP explicitly selects for Cloud backup,
+  completion requires an encrypted manifest and tested restore/readback.
+  "Uploaded" is not a completed backup, and the selected set never expands by
+  implication.
 - Return exact workspace, base, date branch, commit/ref SHAs, changed files,
   validations, protected zones, secret-name status, proof rung, human gates,
   and clean status at every checkpoint.

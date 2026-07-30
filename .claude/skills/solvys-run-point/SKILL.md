@@ -57,6 +57,10 @@ recommendation is not dispatch.
   `storage-and-execution-lanes.md` before configuring an automation.
   Non-flagship implementation defaults to Cloud. Fintheon remains the flagship
   external-custody exception.
+- Preserve the machine custody split: sound libraries stay on Ext,
+  TP-selected sensitive music stays on the designated flash drive, and code
+  uses remote Git plus bounded dirty-overlay preservation. A readable Ext
+  volume is not a full-volume backup, repair, erase, or migration trigger.
 - One sprint tranche keeps one registered workspace across task/session changes. Record its path, peak-storage estimate, reservation, protected zone, proof target, exit condition, and closure receipt. Never manually delete an opened worktree.
 - At ten days, refresh an automation-bound task into its canonical automation task, retarget the automation, and pin that canonical task before archiving any predecessor. A non-automation task becomes archive-eligible only after explicit memory flush and reference checks.
 - Frontend work uses Wonder as provisional design truth when representable. Preserve and disregard unrelated concurrent human edits, require TP's explicit source-transfer choice, then prove the selected implementation on port 7777.

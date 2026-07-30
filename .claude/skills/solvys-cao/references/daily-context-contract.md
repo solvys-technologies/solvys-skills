@@ -69,8 +69,10 @@ The run fails visibly when:
 - A tranche has no execution lane, capacity reservation, workspace path or
   Cloud branch, owner, exit condition, and closure state.
 - A Wonder preview is reported as source-integrated or port 7777 proof.
-- A backup is reported complete from upload alone without encrypted
-  local-plus-cloud manifests and restore/readback proof.
+- A bounded TP-selected Cloud backup is reported complete from upload alone
+  without an encrypted manifest and restore/readback proof, or a readable Ext
+  volume is incorrectly treated as authority for a bulk backup, repair, erase,
+  or migration.
 - A checkpoint omits workspace, base, date branch, commit/ref SHAs, changed
   files, validation, protected zones, name-only secrets status, proof rung,
   human gates, or exact clean status.

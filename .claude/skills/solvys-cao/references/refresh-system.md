@@ -173,14 +173,24 @@ changes outside every category complete the receipt-gated autonomous lifecycle.
 
 ## Backup, Restore, And Unique-State Gates
 
-- Backups use encrypted local-plus-cloud manifests.
+- Custody classification precedes backup work: sound packs and sound libraries
+  stay on `/Volumes/Ext.`; TP-selected sensitive personal music stays on the
+  designated flash drive; Solvys repositories use remote Git and pushed Sprint
+  checkpoint refs, with bounded preservation for unpushed commits, dirty
+  overlays, and unique non-Git artifacts only.
+- A readable or read-only external volume does not trigger a full-volume,
+  full-repository, or bulk-media backup. It also does not authorize repair,
+  erase, migration, or duplicate checkout creation.
+- Only the exact bounded asset set TP explicitly selects for Cloud backup uses
+  an encrypted manifest.
 - A backup receipt records source identity, manifest identity, encryption
   state, object count, byte count, hashes, readback, restore target, restore
   result, timestamp, and verifier.
 - "Uploaded" is never backup completion. Completion requires restore proof.
 - Run scheduled restore drills against bounded non-production targets.
-- Before destructive reconstruction, prove personal and unique-state readback.
-  If readback is missing or mismatched, stop.
+- Before an explicitly authorized destructive reconstruction, prove the
+  affected unique state reached its selected custody target. Without a
+  destructive action, this gate cannot manufacture a bulk backup project.
 - Preserve dirty-state provenance, task artifacts, transcripts, and checkpoint
   refs until their retention and human gates pass.
 

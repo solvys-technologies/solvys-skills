@@ -1288,6 +1288,160 @@
       }
     ]
   },
+  "custodyContract": {
+    "requiredCodePreservationExceptions": [
+      "unpushed_commits",
+      "dirty_overlays",
+      "unique_non_git_artifacts"
+    ],
+    "validCases": [
+      {
+        "id": "sound-libraries-remain-on-ext",
+        "assetClass": "sound_libraries",
+        "custodyTarget": "ext_in_place",
+        "requestedActions": [],
+        "expectedErrors": []
+      },
+      {
+        "id": "selected-sensitive-music-on-designated-flash",
+        "assetClass": "sensitive_personal_music",
+        "custodyTarget": "designated_flash_after_exact_readback",
+        "exactReadbackPassed": true,
+        "requestedActions": [],
+        "expectedErrors": []
+      },
+      {
+        "id": "solvys-code-uses-git-and-bounded-exceptions",
+        "assetClass": "solvys_code",
+        "custodyTarget": "remote_git_and_pushed_sprint_checkpoint_refs",
+        "preservationExceptions": [
+          "unpushed_commits",
+          "dirty_overlays",
+          "unique_non_git_artifacts"
+        ],
+        "requestedActions": [],
+        "expectedErrors": []
+      },
+      {
+        "id": "explicit-bounded-cloud-backup-with-restore-proof",
+        "assetClass": "bounded_cloud_backup",
+        "requestedActions": [
+          "cloud_backup"
+        ],
+        "explicitBoundedAssetSet": true,
+        "selectedAssetSetExpandedByImplication": false,
+        "encryptedManifest": true,
+        "restoreReadback": true,
+        "expectedErrors": []
+      },
+      {
+        "id": "authorized-destruction-after-affected-state-custody",
+        "assetClass": "unique_state",
+        "requestedActions": [
+          "destructive_reconstruction"
+        ],
+        "destructiveActionAuthorized": true,
+        "affectedUniqueStateAtCustodyTarget": true,
+        "backupPrerequisiteCreated": false,
+        "expectedErrors": []
+      },
+      {
+        "id": "no-destruction-does-not-manufacture-backup-prerequisite",
+        "assetClass": "unique_state",
+        "requestedActions": [],
+        "destructiveActionAuthorized": false,
+        "affectedUniqueStateAtCustodyTarget": false,
+        "backupPrerequisiteCreated": false,
+        "expectedErrors": []
+      }
+    ],
+    "invalidCases": [
+      {
+        "id": "readable-read-only-ext-cannot-authorize-bulk-or-destructive-actions",
+        "assetClass": "external_volume",
+        "externalVolumeState": "readable_read_only",
+        "requestedActions": [
+          "full_volume_backup",
+          "full_repository_backup",
+          "bulk_media_backup",
+          "repair",
+          "erase",
+          "migration",
+          "substitute_checkout"
+        ],
+        "expectedErrors": [
+          "readable_or_read_only_ext_does_not_authorize_requested_action"
+        ]
+      },
+      {
+        "id": "unspecified-cloud-asset-set-is-rejected",
+        "assetClass": "bounded_cloud_backup",
+        "requestedActions": [
+          "cloud_backup"
+        ],
+        "explicitBoundedAssetSet": false,
+        "selectedAssetSetExpandedByImplication": false,
+        "encryptedManifest": true,
+        "restoreReadback": true,
+        "expectedErrors": [
+          "cloud_backup_requires_explicit_bounded_asset_set"
+        ]
+      },
+      {
+        "id": "selected-cloud-asset-set-cannot-expand-by-implication",
+        "assetClass": "bounded_cloud_backup",
+        "requestedActions": [
+          "cloud_backup"
+        ],
+        "explicitBoundedAssetSet": true,
+        "selectedAssetSetExpandedByImplication": true,
+        "encryptedManifest": true,
+        "restoreReadback": true,
+        "expectedErrors": [
+          "selected_asset_set_expanded_by_implication"
+        ]
+      },
+      {
+        "id": "bounded-cloud-backup-needs-manifest-and-readback",
+        "assetClass": "bounded_cloud_backup",
+        "requestedActions": [
+          "cloud_backup"
+        ],
+        "explicitBoundedAssetSet": true,
+        "selectedAssetSetExpandedByImplication": false,
+        "encryptedManifest": false,
+        "restoreReadback": false,
+        "expectedErrors": [
+          "bounded_cloud_backup_missing_encrypted_manifest",
+          "bounded_cloud_backup_missing_restore_readback"
+        ]
+      },
+      {
+        "id": "authorized-destruction-needs-affected-state-custody",
+        "assetClass": "unique_state",
+        "requestedActions": [
+          "destructive_reconstruction"
+        ],
+        "destructiveActionAuthorized": true,
+        "affectedUniqueStateAtCustodyTarget": false,
+        "backupPrerequisiteCreated": false,
+        "expectedErrors": [
+          "affected_unique_state_not_at_custody_target"
+        ]
+      },
+      {
+        "id": "no-destruction-cannot-create-backup-prerequisite",
+        "assetClass": "unique_state",
+        "requestedActions": [],
+        "destructiveActionAuthorized": false,
+        "affectedUniqueStateAtCustodyTarget": false,
+        "backupPrerequisiteCreated": true,
+        "expectedErrors": [
+          "no_destructive_action_cannot_create_backup_prerequisite"
+        ]
+      }
+    ]
+  },
   "cloudSecretHandling": {
     "requiredExcludedCategoryCount": 6,
     "requiredExcludedCategories": [

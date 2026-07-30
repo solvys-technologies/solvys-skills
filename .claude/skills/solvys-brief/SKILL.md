@@ -174,15 +174,16 @@ Lay out implementation as an ordered sequence. Single agent, so order matters mo
 Default order:
 
 1. **Execution lane** -- task-owned Cloud worktree by default; record any explicit local exception and its capacity/proof gate
-2. **Data layer first** -- migrations, types, Zod schemas
-3. **Service layer** -- pure functions, no framework coupling
-4. **API layer** -- Hono routes, validation at boundary, early-return error handling
-5. **Frontend gate** -- confirm design canon, discovery/reference evidence, and Wonder applicability before touching frontend files
-6. **Wonder sandbox** -- build and review the provisional frontend direction; keep human-owned concurrent changes outside the agent lane
-7. **Source transfer** -- after TP authorization, implement the accepted design in product-owned source
-8. **Frontend data hooks and UI** -- queries, mutations, state, components, screens, interactions
-9. **Validation** -- tsc, build, curl, Playwright, then port 7777 for source-integrated frontend proof
-10. **Changelog + repo-native comment conventions** -- per project rules
+2. **Custody boundary** -- sound libraries stay on Ext, TP-selected sensitive music stays on the designated flash drive, and code uses Git plus bounded dirty-overlay preservation; do not invent a bulk backup
+3. **Data layer first** -- migrations, types, Zod schemas
+4. **Service layer** -- pure functions, no framework coupling
+5. **API layer** -- Hono routes, validation at boundary, early-return error handling
+6. **Frontend gate** -- confirm design canon, discovery/reference evidence, and Wonder applicability before touching frontend files
+7. **Wonder sandbox** -- build and review the provisional frontend direction; keep human-owned concurrent changes outside the agent lane
+8. **Source transfer** -- after TP authorization, implement the accepted design in product-owned source
+9. **Frontend data hooks and UI** -- queries, mutations, state, components, screens, interactions
+10. **Validation** -- tsc, build, curl, Playwright, then port 7777 for source-integrated frontend proof
+11. **Changelog + repo-native comment conventions** -- per project rules
 
 Deviate from this order only with a stated reason in the brief.
 
