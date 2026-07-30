@@ -15,7 +15,10 @@ The exact command `Implement this plan` freezes the accepted revision and
 dispatches every implementation-eligible track to a task-owned Cloud worktree
 by default. Each track must contain a complete turnkey Cloud Pickup block before
 pickup. `main` is protected; the only human-facing integration branch is
-`YYYY-MM-DD`; checkpoint custody uses `refs/sprints/S###/P#`.
+`YYYY-MM-DD`; checkpoint custody uses root
+`refs/sprints/S###/P#` preservation/sprint refs or
+`refs/sprints/S###/T#/P#` tranche/track refs. The originating planning task is
+never a valid implementation target.
 
 ## Solvys Ponytail Chain
 
@@ -164,7 +167,7 @@ Arguments:
     - **Repository**: {owner/repo}
     - **Base commit**: {sha}
     - **Date integration branch**: {YYYY-MM-DD}
-    - **Task-owned checkpoint ref**: refs/sprints/S{SPRINT}/P#
+    - **Task-owned checkpoint ref**: refs/sprints/S{SPRINT}/T{N}/P#
     - **Worktree mode**: detached
     - **Owner**: {owner}
     - **Protected zones**: {zones}
@@ -172,7 +175,7 @@ Arguments:
     - **Secrets manifest (names only)**: {names or none}
     - **Proof gates**: {gates}
     - **Return path**: {handoff target}
-    - **Capacity and resource budget**: {budgets}
+    - **Capacity and resource budget**: default ceilings | recorded sprint override
     - **Closure condition**: {condition}
 
     ## @ Constituent
@@ -283,7 +286,7 @@ For each track, also generate a `sprint-md/S{SPRINT}-T{N}-{slug}.md` file in the
 - **Repository**: {owner/repo}
 - **Base commit**: {sha}
 - **Date integration branch**: {YYYY-MM-DD}
-- **Task-owned checkpoint ref**: refs/sprints/S{SPRINT}/P#
+- **Task-owned checkpoint ref**: refs/sprints/S{SPRINT}/T{N}/P#
 - **Worktree mode**: detached
 - **Owner**: {owner}
 - **Protected zones**: {zones}
@@ -291,7 +294,7 @@ For each track, also generate a `sprint-md/S{SPRINT}-T{N}-{slug}.md` file in the
 - **Secrets manifest (names only)**: {names or none}
 - **Proof gates**: {gates}
 - **Return path**: {handoff target}
-- **Capacity and resource budget**: {budgets}
+- **Capacity and resource budget**: default ceilings | recorded sprint override
 - **Closure condition**: {condition}
 
 ## Acceptance Criteria
@@ -336,8 +339,10 @@ When the unification issue finishes and the validator accepts it:
 1. Confirm the unification track reconciled all track outputs, ran the full validation gate, and posted results.
 2. Move every reviewed implementation track plus the unification track to `Done` or the team's completed state.
 3. Post one final ORCH/initiative status update that the sprint is unified and accepted.
-4. Prepare the daily integration receipt. Do not merge or deploy until CI passes
-   and the required human verification and explicit authority are recorded.
+4. Prepare the daily integration receipt. Routine accepted backend changes
+   outside the named risk categories squash through the date PR and deploy when
+   required CI is green without a separate human authorization. Risk-category
+   work waits for recorded human verification before merge or deploy.
 
 Blacksmith may autonomously patch only deterministic, bounded, reversible
 low-risk work with exact rollback and bounded tests. Migrations, destructive

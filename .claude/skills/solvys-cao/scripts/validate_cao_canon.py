@@ -57,6 +57,7 @@ REQUIRED_PHRASES = {
         "S### - concise context",
         "Implement this plan",
         "refs/sprints/S###/P#",
+        "refs/sprints/S###/T#/P#",
     ],
     "references/decision-authority.md": ["Answer For Yourself", "Clarify", "Shoot Down"],
     "references/official-stack.md": [
@@ -94,6 +95,7 @@ REQUIRED_PHRASES = {
         "Turnkey Cloud Pickup",
         "S### - concise context",
         "refs/sprints/S###/P#",
+        "refs/sprints/S###/T#/P#",
         "YYYY-MM-DD",
         "main",
         "Blacksmith",
@@ -122,8 +124,55 @@ OPERATIONAL_REQUIRED = [
     "Implement this plan",
     "YYYY-MM-DD",
     "refs/sprints/S###/P#",
+    "refs/sprints/S###/T#/P#",
     "main",
 ]
+
+DEFAULT_RESOURCE_CEILINGS = {
+    "concurrentLocalImplementationTasks": 1,
+    "taskOwnedProcessesPerTask": {
+        "preview": 1,
+        "browser": 1,
+        "server": 2,
+        "total": 4,
+    },
+    "peakRamPercent": 75,
+    "sustainedRamPercent": 65,
+    "sustainedRamMinutes": 5,
+    "dmgsPerProductSprint": 1,
+    "dmgLifetimeHoursAfterVerification": 24,
+    "artifactBytesPerTask": 2_000_000_000,
+    "artifactBytesPerSprint": 10_000_000_000,
+    "checkpointsPerTrack": 3,
+    "checkpointsPerSprint": 12,
+    "worktreesPerTrack": 1,
+    "worktreesPerSprint": 4,
+    "activeTranscriptsPerTask": 1,
+}
+
+
+def validate_implement_dispatch(
+    case: dict[str, object], required_fields: list[str]
+) -> list[str]:
+    """Return stable error codes for one accepted-plan dispatch fixture."""
+    errors: list[str] = []
+    if case.get("command") != "Implement this plan":
+        errors.append("command_is_not_implement_this_plan")
+
+    origin = case.get("originatingTask")
+    target = case.get("implementationTarget")
+    if target == origin:
+        errors.append("implementation_target_is_originating_planning_task")
+
+    pickup = case.get("cloudPickup")
+    if not isinstance(pickup, dict):
+        errors.append("cloud_pickup_missing")
+        return errors
+
+    for field in required_fields:
+        if field not in pickup or pickup[field] in (None, ""):
+            errors.append(f"cloud_pickup_missing_field:{field}")
+    return errors
 
 
 def main() -> int:
@@ -203,6 +252,11 @@ def main() -> int:
             errors.append("storage policy: daily PR must squash at the boundary")
         if branch_contract["forceRewriteAcceptedHistory"] is not False:
             errors.append("storage policy: accepted history must not be force rewritten")
+        if (
+            branch_contract["taskCheckpointRefPattern"]
+            != r"^refs/sprints/S\d{3,}(?:/T[1-9]\d*)?/P\d+$"
+        ):
+            errors.append("storage policy: root/track checkpoint ref pattern drifted")
         backup = policy["backupContract"]
         if backup["uploadedIsComplete"] is not False or backup["restoreReadbackRequired"] is not True:
             errors.append("storage policy: upload must not count without restore/readback")
@@ -222,6 +276,13 @@ def main() -> int:
         }:
             errors.append("storage policy: resource budget categories drifted")
         risk = policy["riskContract"]
+        routine_backend = risk["routineAcceptedBackend"]
+        if routine_backend != {
+            "squashThroughDatePullRequest": True,
+            "deployWhenRequiredCiIsGreen": True,
+            "separateHumanMergeOrDeployAuthorization": False,
+        }:
+            errors.append("storage policy: routine backend green-CI flow drifted")
         if set(risk["humanVerificationBeforeMergeOrDeploy"]) != {
             "migrations",
             "destructive_writes",
@@ -237,6 +298,34 @@ def main() -> int:
             "protected_surface_changes",
         }:
             errors.append("storage policy: human-risk gate categories drifted")
+        if policy["resourceBudgets"].get("defaultCeilings") != DEFAULT_RESOURCE_CEILINGS:
+            errors.append("storage policy: enforceable default resource ceilings drifted")
+        required_override_fields = {
+            "reason",
+            "owner",
+            "approver",
+            "startsAt",
+            "endsAt",
+            "replacementCeiling",
+            "cleanupReturnCondition",
+        }
+        if set(policy["resourceBudgets"].get("overrideRequiredFields", [])) != required_override_fields:
+            errors.append("storage policy: sprint override receipt fields drifted")
+        required_breach_actions = {
+            "stop_new_launches",
+            "inventory_exact_task_owned_resources",
+            "gracefully_stop_task_owned_processes_oldest_first",
+            "verify_pid_exit",
+            "archive_finished_tasks_and_transcripts_through_owner",
+            "retain_current_and_rollback_checkpoints",
+            "mark_superseded_refs_for_control_plane_retention",
+            "use_recoverable_cleanup_for_verified_expired_dmgs_and_reproducible_artifacts",
+            "resume_only_below_ceiling_or_with_active_recorded_override",
+        }
+        if set(policy["resourceBudgets"].get("breachActions", [])) != required_breach_actions:
+            errors.append("storage policy: resource breach stop/cleanup behavior drifted")
+        if policy["resourceBudgets"].get("neverKillUnrelatedOrSystemProcesses") is not True:
+            errors.append("storage policy: unrelated/system processes must stay protected")
         for name in ("registeredTaskTemp", "externalQuarantine", "transcriptArchive"):
             if name not in rules:
                 errors.append(f"storage policy: missing sanitation rule {name!r}")
@@ -267,10 +356,27 @@ def main() -> int:
                 errors.append("tranche registry: S166 searchable identity drifted")
             if s166.get("branch") != "2026-07-29":
                 errors.append("tranche registry: S166 date branch drifted")
-            if s166.get("checkpointRef") != "refs/sprints/S166/P1":
+            if s166.get("checkpointRef") != "refs/sprints/S166/T1/P1":
                 errors.append("tranche registry: S166 checkpoint ref drifted")
             if s166.get("secretsManifestNames") != []:
                 errors.append("tranche registry: S166 secret manifest must remain name-only/empty")
+            s166_budgets = s166.get("resourceBudgets", {})
+            for key in (
+                "worktreesPerTrack",
+                "worktreesPerSprint",
+                "checkpointsPerTrack",
+                "checkpointsPerSprint",
+                "artifactBytesPerTask",
+                "artifactBytesPerSprint",
+                "activeTranscriptsPerTask",
+                "taskOwnedProcessesPerTask",
+                "peakRamPercent",
+                "sustainedRamPercent",
+                "sustainedRamMinutes",
+                "override",
+            ):
+                if key not in s166_budgets:
+                    errors.append(f"tranche registry: S166 missing resource budget {key!r}")
     except (OSError, KeyError, TypeError, json.JSONDecodeError) as exc:
         errors.append(f"tranche registry: invalid machine-readable boundary: {exc}")
 
@@ -279,7 +385,9 @@ def main() -> int:
         fixtures = json.loads(fixture_path.read_text(encoding="utf-8"))
         title_re = re.compile(r"^S\d{3,} - [A-Za-z0-9][A-Za-z0-9 .()/_-]*$")
         date_branch_re = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-        checkpoint_re = re.compile(r"^refs/sprints/S\d{3,}/P\d+$")
+        checkpoint_re = re.compile(
+            r"^refs/sprints/S\d{3,}(?:/T[1-9]\d*)?/P\d+$"
+        )
         for title in fixtures["valid"]["taskTitles"]:
             if not title_re.fullmatch(title):
                 errors.append(f"refresh fixture: valid title rejected {title!r}")
@@ -308,6 +416,11 @@ def main() -> int:
         for ref in fixtures["invalid"]["checkpointRefs"]:
             if checkpoint_re.fullmatch(ref):
                 errors.append(f"refresh fixture: invalid checkpoint accepted {ref!r}")
+        valid_refs = fixtures["valid"]["checkpointRefs"]
+        if not any("/T" not in ref for ref in valid_refs):
+            errors.append("refresh fixture: missing valid root preservation ref")
+        if not any("/T" in ref for ref in valid_refs):
+            errors.append("refresh fixture: missing valid tranche/track ref")
         routing = {item["shape"]: item["skill"] for item in fixtures["routing"]}
         if routing.get("bounded-single-owner") != "solvys-brief":
             errors.append("refresh fixture: single-owner route must select solvys-brief")
@@ -331,6 +444,74 @@ def main() -> int:
         }
         if risky != required_risky:
             errors.append("refresh fixture: Blacksmith protected/risky surfaces drifted")
+
+        dispatch = fixtures["implementThisPlan"]
+        required_pickup_fields = dispatch["requiredCloudPickupFields"]
+        expected_pickup_fields = {
+            "Sprint identity",
+            "Accepted plan revision",
+            "Repository",
+            "Base commit",
+            "Date integration branch",
+            "Task-owned checkpoint ref",
+            "Worktree mode",
+            "Owner",
+            "Protected zones",
+            "Dependencies",
+            "Secrets manifest (names only)",
+            "Proof gates",
+            "Return path",
+            "Capacity and resource budget",
+            "Closure condition",
+        }
+        if set(required_pickup_fields) != expected_pickup_fields:
+            errors.append("refresh fixture: complete Cloud Pickup field contract drifted")
+        invalid_ids = {case["id"] for case in dispatch["invalidDispatches"]}
+        if invalid_ids != {
+            "originating-planning-task-cannot-implement",
+            "accepted-plan-missing-cloud-pickup",
+            "accepted-plan-incomplete-cloud-pickup",
+        }:
+            errors.append("refresh fixture: dispatch negative-case inventory drifted")
+        for case in dispatch["validDispatches"]:
+            actual = validate_implement_dispatch(case, required_pickup_fields)
+            expected = case["expectedErrors"]
+            if actual != expected:
+                errors.append(
+                    f"refresh fixture: valid dispatch {case['id']!r} "
+                    f"expected {expected!r}, got {actual!r}"
+                )
+        for case in dispatch["invalidDispatches"]:
+            actual = validate_implement_dispatch(case, required_pickup_fields)
+            expected = case["expectedErrors"]
+            if actual != expected:
+                errors.append(
+                    f"refresh fixture: invalid dispatch {case['id']!r} "
+                    f"expected {expected!r}, got {actual!r}"
+                )
+
+        binding_paths = [
+            ROOT / "SKILL.md",
+            ROOT / "references/refresh-system.md",
+            OPERATIONAL_SKILLS["solvys-brief"],
+            OPERATIONAL_SKILLS["solvys-orchestrate"],
+            OPERATIONAL_SKILLS["solvys-execute"],
+            OPERATIONAL_SKILLS["solvys-run-point"],
+            SUITE_ROOT.parent.parent / "SOLVYS_AGENT_SYSTEM_PROMPT.md",
+        ]
+        stale_rules = (
+            "deployment remains separately human-authorized",
+            "Merge, deploy, and date-branch deletion remain human-authorized",
+            "checkpoint custody uses `refs/sprints/S###/P#`",
+        )
+        for path in binding_paths:
+            text = path.read_text(encoding="utf-8")
+            for stale_rule in stale_rules:
+                if stale_rule in text:
+                    errors.append(
+                        f"{path.relative_to(SUITE_ROOT.parent.parent)}: "
+                        f"contains stale Refresh rule {stale_rule!r}"
+                    )
     except (OSError, KeyError, TypeError, json.JSONDecodeError) as exc:
         errors.append(f"refresh fixtures: invalid machine-readable boundary: {exc}")
 

@@ -47,7 +47,7 @@ Every implementation-eligible plan or track includes:
 - Repository:
 - Base commit:
 - Date integration branch: YYYY-MM-DD
-- Task-owned checkpoint ref: refs/sprints/S###/P#
+- Task-owned checkpoint ref: refs/sprints/S###/P# | refs/sprints/S###/T#/P#
 - Worktree mode: detached
 - Owner:
 - Protected zones:
@@ -55,7 +55,7 @@ Every implementation-eligible plan or track includes:
 - Secrets manifest (names only):
 - Proof gates:
 - Return path:
-- Capacity and resource budget:
+- Capacity and resource budget: default ceilings | recorded sprint override
 - Closure condition:
 ```
 
@@ -90,14 +90,21 @@ branch or task-owned checkpoint ref with a turnkey brief.
 - The only human-facing integration branch name is `YYYY-MM-DD`.
 - Do not create feature, recovery, product, incident, bug-description, prose,
   agent, runtime, or other contextual branches.
-- Parallel work uses registered detached worktrees or exact task-owned refs such
-  as `refs/sprints/S166/P1`.
+- Root preservation or sprint-level checkpoints use
+  `refs/sprints/S###/P#`, for example `refs/sprints/S166/P0`. Tranche or track
+  checkpoints use `refs/sprints/S###/T#/P#`, for example
+  `refs/sprints/S166/T1/P1`.
+- Parallel work uses registered detached worktrees and exact task-owned track
+  checkpoint refs.
 - The daily integrator assembles accepted checkpoints onto the date branch.
 - The daily backend aggregation PR is CI-gated and squashes at the PR boundary.
 - The accepted daily backend aggregation produces one coherent CI/deployment
-  receipt; deployment remains separately human-authorized.
-- Merge and date-branch deletion require authorization. Accepted history is
-  never force-rewritten for cosmetic cleanup.
+  receipt.
+- Routine accepted backend changes outside the named human-risk categories
+  squash through the date PR and deploy when required CI is green. They do not
+  require a separate human merge or deployment authorization.
+- Human authorization is still required to delete the date branch. Accepted
+  history is never force-rewritten for cosmetic cleanup.
 - Preserve all existing refs, dirty-state provenance, and recoverable unique
   state.
 - Repository closure requires exact `git status --short --branch` evidence and
@@ -118,9 +125,10 @@ writes, authentication, authorization, billing, secrets or provider
 credentials, infrastructure, broad routing, security controls, irreversible
 integrations, release/install behavior, or any declared protected surface.
 
-Those categories require mandatory human verification before merge or deploy.
-Automation may prepare evidence, but it may not convert preparation into
-authorization.
+Only those categories require mandatory human verification before merge or
+deploy. Automation may prepare their evidence, but it may not convert
+preparation into authorization. Routine accepted backend changes outside those
+categories continue through green CI without an extra human gate.
 
 ## Backup, Restore, And Unique-State Gates
 
@@ -137,18 +145,42 @@ authorization.
 
 ## Resource Budgets
 
-Every sprint or tranche records explicit budgets for:
+These default ceilings apply unless the accepted sprint records an explicit
+override with reason, owner, approver, start/end time, replacement ceiling, and
+cleanup/return condition:
 
-- active tasks and task age;
-- worktrees and retained checkpoints;
-- artifacts and transcript storage;
-- DMG/build artifacts;
-- concurrent processes;
-- peak RAM and sustained memory pressure.
+| Resource | Default ceiling |
+| --- | --- |
+| Concurrent local implementation tasks | 1 |
+| Task-owned preview processes | 1 per task |
+| Task-owned browser processes | 1 per task |
+| Task-owned server processes | 2 per task |
+| Total task-owned preview/browser/server processes | 4 per task |
+| Peak RAM pressure | 75 percent |
+| Sustained RAM pressure | 65 percent for 5 minutes |
+| DMGs | 1 per product/sprint, maximum lifetime 24 hours after verification |
+| Reproducible artifacts | 2 GB per task and 10 GB per sprint |
+| Retained checkpoints | 3 per track and 12 per sprint |
+| Active worktrees | 1 per track and 4 per sprint |
+| Active transcripts | 1 per task; retention follows the transcript sweep |
 
-Budget breaches stop new work and trigger a receipt-backed review. Task archival
-and Codex-managed retention own opened-worktree removal; agents never manually
-delete an opened worktree.
+At or above a ceiling:
+
+1. stop new task, worktree, preview, browser, server, build, and artifact
+   launches;
+2. inventory the exact task-owned PIDs, paths, refs, sizes, and owners;
+3. gracefully stop task-owned preview/browser/server processes, oldest first,
+   and verify PID exit; never kill unrelated or system processes;
+4. close or archive finished tasks and transcripts through their owning
+   lifecycle;
+5. allow Codex-managed retention to remove opened worktrees; never manually
+   delete one;
+6. retain current and rollback checkpoints, and mark superseded refs for
+   control-plane retention rather than deleting them;
+7. after verification and a receipt, move expired task-owned DMGs and
+   reproducible artifacts through the approved recoverable cleanup lane;
+8. resume only after the measured state is below the ceiling or a recorded
+   sprint override is active.
 
 ## Frontend Truth And Foundation
 

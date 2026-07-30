@@ -8,7 +8,8 @@ scheduled Codex task.
 - `tranche-registry.json` records execution lanes and workspace lifecycle.
 - `../scripts/storage_inventory.py` performs read-only bounded measurement.
 - `../scripts/fixtures/refresh-contract.json` carries positive and negative
-  routing, identity, branch/ref, and Blacksmith validation cases.
+  routing, identity, root/track branch-ref, Blacksmith, originating-planning-
+  task rejection, and complete Cloud Pickup validation cases.
 
 Sanitation roots are closed by default. Terra may act only on an exact path
 derived from an enabled `sanitationRules` entry or an explicit

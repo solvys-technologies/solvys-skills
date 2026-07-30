@@ -20,7 +20,8 @@ solution through the highest-reality proof plus durable learning promotion.
 - Check `git status -sb` before touching files. Preserve intentional dirty work. Never revert unrelated changes unless TP explicitly asks.
 - `main` is clean, protected, deployable, and never a development lane. The only
   human-facing integration branch is `YYYY-MM-DD`. Use registered detached
-  worktrees or task-owned `refs/sprints/S###/P#` refs for parallel work.
+  worktrees plus root `refs/sprints/S###/P#` preservation/sprint refs or
+  `refs/sprints/S###/T#/P#` tranche/track refs for parallel work.
 - If the request is tied to Linear, sprint docs, or a run-point, verify the active team, cycle, project, initiative, issue scope, and branch before mutating tickets or code.
 
 ### 2. Understand The Product Surface
@@ -67,10 +68,13 @@ solution through the highest-reality proof plus durable learning promotion.
 - Every task title and primary plan artifact uses `S### - concise context`.
 - `Implement this plan` freezes the accepted plan revision and dispatches every
   implementation-eligible track to a Cloud worktree by default. Local planning
-  tasks do not implement.
+  tasks do not implement, and the originating planning task is never a valid
+  implementation target.
 - Every pickup includes exact base, date branch, task-owned checkpoint ref,
   owner, dependencies, protected zones, name-only secret manifest, proof gates,
   budgets, return path, and closure condition.
+- Refuse dispatch when the Cloud Pickup block is missing or any required field
+  is empty.
 
 - Before creating a checkout, worktree, dependency store, or build, read the CAO
   storage lane contract. Non-flagship implementation defaults to Cloud.
@@ -140,6 +144,9 @@ solution through the highest-reality proof plus durable learning promotion.
   auth/authorization, billing, credentials, infrastructure, broad routing,
   security controls, irreversible integrations, release/install behavior, or
   any protected surface. Human verification is mandatory before merge/deploy.
+- Routine accepted backend changes outside those named categories squash
+  through the date PR and deploy when required CI is green without a separate
+  human merge or deployment authorization.
 - Backup completion requires encrypted local-plus-cloud manifests and tested
   restore/readback. "Uploaded" is not a completed backup.
 - Return exact workspace, base, date branch, commit/ref SHAs, changed files,

@@ -16,10 +16,13 @@ Planning is a local control-plane activity and does not implement. When TP says
 implementation to a task-owned Cloud worktree by default. The only local
 implementation exceptions are the explicit Refresh System lanes, and each
 requires a reason, capacity/proof gates, protected zones, and return path.
+The originating planning task cannot implement. A missing or incomplete Cloud
+Pickup block fails dispatch.
 
 Read `/solvys-cao/references/refresh-system.md`. `main` is never the target.
 The human integration branch is date-only `YYYY-MM-DD`; recovery uses an exact
-`refs/sprints/S###/P#` checkpoint ref.
+root `refs/sprints/S###/P#` preservation/sprint ref or
+`refs/sprints/S###/T#/P#` tranche/track ref.
 
 ## Solvys Ponytail Chain
 
@@ -220,7 +223,7 @@ Exit plan mode. Produce ONE standalone markdown briefing file.
 - **Repository**:
 - **Base commit**:
 - **Date integration branch**: `{YYYY-MM-DD}`
-- **Task-owned checkpoint ref**: `refs/sprints/S{N}/P#`
+- **Task-owned checkpoint ref**: `refs/sprints/S{N}/T1/P#`
 - **Worktree mode**: detached
 - **Owner**:
 - **Protected zones**:
@@ -228,7 +231,7 @@ Exit plan mode. Produce ONE standalone markdown briefing file.
 - **Secrets manifest (names only)**:
 - **Proof gates**:
 - **Return path**:
-- **Capacity and resource budget**:
+- **Capacity and resource budget**: default ceilings | recorded sprint override
 - **Closure condition**:
 
 ## Execution And Storage Lane

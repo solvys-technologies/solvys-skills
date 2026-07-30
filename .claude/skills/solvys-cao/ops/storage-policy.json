@@ -46,7 +46,7 @@
   "branchAndRefContract": {
     "mainProtected": true,
     "humanIntegrationBranchPattern": "^\\d{4}-\\d{2}-\\d{2}$",
-    "taskCheckpointRefPattern": "^refs/sprints/S\\d{3,}/P\\d+$",
+    "taskCheckpointRefPattern": "^refs/sprints/S\\d{3,}(?:/T[1-9]\\d*)?/P\\d+$",
     "forceRewriteAcceptedHistory": false,
     "dailyPrMergeMethod": "squash",
     "deleteDateBranchRequiresAuthorization": true
@@ -71,6 +71,48 @@
       "ram"
     ],
     "blockNewWorkOnBreach": true,
+    "defaultCeilings": {
+      "concurrentLocalImplementationTasks": 1,
+      "taskOwnedProcessesPerTask": {
+        "preview": 1,
+        "browser": 1,
+        "server": 2,
+        "total": 4
+      },
+      "peakRamPercent": 75,
+      "sustainedRamPercent": 65,
+      "sustainedRamMinutes": 5,
+      "dmgsPerProductSprint": 1,
+      "dmgLifetimeHoursAfterVerification": 24,
+      "artifactBytesPerTask": 2000000000,
+      "artifactBytesPerSprint": 10000000000,
+      "checkpointsPerTrack": 3,
+      "checkpointsPerSprint": 12,
+      "worktreesPerTrack": 1,
+      "worktreesPerSprint": 4,
+      "activeTranscriptsPerTask": 1
+    },
+    "overrideRequiredFields": [
+      "reason",
+      "owner",
+      "approver",
+      "startsAt",
+      "endsAt",
+      "replacementCeiling",
+      "cleanupReturnCondition"
+    ],
+    "breachActions": [
+      "stop_new_launches",
+      "inventory_exact_task_owned_resources",
+      "gracefully_stop_task_owned_processes_oldest_first",
+      "verify_pid_exit",
+      "archive_finished_tasks_and_transcripts_through_owner",
+      "retain_current_and_rollback_checkpoints",
+      "mark_superseded_refs_for_control_plane_retention",
+      "use_recoverable_cleanup_for_verified_expired_dmgs_and_reproducible_artifacts",
+      "resume_only_below_ceiling_or_with_active_recorded_override"
+    ],
+    "neverKillUnrelatedOrSystemProcesses": true,
     "openedWorktreeRemovalOwner": "task_archival_and_codex_managed_retention"
   },
   "secretManifest": {
@@ -93,6 +135,11 @@
       "bounded_tests",
       "no_protected_surface"
     ],
+    "routineAcceptedBackend": {
+      "squashThroughDatePullRequest": true,
+      "deployWhenRequiredCiIsGreen": true,
+      "separateHumanMergeOrDeployAuthorization": false
+    },
     "humanVerificationBeforeMergeOrDeploy": [
       "migrations",
       "destructive_writes",

@@ -98,7 +98,8 @@ Each track or tranche records:
 - Proof rung:
 - Exit condition:
 - Closure state: active | cooling | archive-eligible | protected
-- Task-owned checkpoint ref: refs/sprints/S###/P#
+- Root preservation/sprint ref: refs/sprints/S###/P#
+- Tranche/track checkpoint ref: refs/sprints/S###/T#/P#
 - Date integration branch: YYYY-MM-DD
 - Secrets manifest: variable names only
 - Task/worktree/checkpoint/artifact/transcript/DMG/process/RAM budgets:
@@ -130,11 +131,21 @@ At a tranche boundary:
 
 ## Resource Budgets
 
-Every tranche declares limits for active task count/age, worktrees, retained
-checkpoints, artifacts, transcripts, DMGs/build outputs, concurrent processes,
-peak RAM, and sustained memory pressure. A breach blocks new work until a
-receipt-backed review resolves capacity. Opened worktree removal remains owned
-by task archival and Codex-managed retention.
+Use the enforceable defaults in `refresh-system.md`: one concurrent local
+implementation task; at most one preview, one browser, two servers, and four
+total task-owned processes per task; RAM ceilings of 75 percent peak and 65
+percent sustained for five minutes; one DMG per product/sprint for at most 24
+hours after verification; artifacts capped at 2 GB per task and 10 GB per
+sprint; three checkpoints per track and twelve per sprint; one worktree per
+track and four per sprint; and one active transcript per task.
+
+At a ceiling, stop new launches, inventory exact task-owned resources,
+gracefully stop task-owned processes oldest-first, verify PID exit, and use the
+owning archival, control-plane retention, or recoverable cleanup lane. Never
+kill unrelated/system processes or manually delete an opened worktree.
+
+An override is valid only when the accepted sprint records reason, owner,
+approver, start/end time, replacement ceiling, and cleanup/return condition.
 
 ## Ten-Day Conversation Sweep
 

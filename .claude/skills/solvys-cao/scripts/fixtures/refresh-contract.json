@@ -10,8 +10,10 @@
       "2027-01-03"
     ],
     "checkpointRefs": [
-      "refs/sprints/S166/P1",
-      "refs/sprints/S207/P12"
+      "refs/sprints/S166/P0",
+      "refs/sprints/S207/P12",
+      "refs/sprints/S166/T1/P1",
+      "refs/sprints/S207/T12/P3"
     ]
   },
   "invalid": {
@@ -32,7 +34,12 @@
     "checkpointRefs": [
       "refs/heads/S166/P1",
       "refs/sprints/s166/P1",
-      "refs/sprints/S166/checkpoint"
+      "refs/sprints/S166/checkpoint",
+      "refs/sprints/S166/T0/P1",
+      "refs/sprints/S166/T1",
+      "refs/sprints/S166/T1/P",
+      "refs/sprints/S166/T1/T2/P1",
+      "refs/sprints/S166/track-1/P1"
     ]
   },
   "routing": [
@@ -74,6 +81,125 @@
       "irreversible-integration",
       "release-or-install",
       "protected-surface"
+    ]
+  },
+  "implementThisPlan": {
+    "requiredCloudPickupFields": [
+      "Sprint identity",
+      "Accepted plan revision",
+      "Repository",
+      "Base commit",
+      "Date integration branch",
+      "Task-owned checkpoint ref",
+      "Worktree mode",
+      "Owner",
+      "Protected zones",
+      "Dependencies",
+      "Secrets manifest (names only)",
+      "Proof gates",
+      "Return path",
+      "Capacity and resource budget",
+      "Closure condition"
+    ],
+    "validDispatches": [
+      {
+        "id": "cloud-track-with-complete-pickup",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "implementationTarget": "cloud-worktree",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Repository": "solvys-technologies/solvys-skills",
+          "Base commit": "383e4d78e185d012b0d177abfcb329818c56568f",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Worktree mode": "detached",
+          "Owner": "S166-T1 Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt"
+        },
+        "expectedErrors": []
+      }
+    ],
+    "invalidDispatches": [
+      {
+        "id": "originating-planning-task-cannot-implement",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "implementationTarget": "planning-task",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Repository": "solvys-technologies/solvys-skills",
+          "Base commit": "383e4d78e185d012b0d177abfcb329818c56568f",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Worktree mode": "detached",
+          "Owner": "S166-T1 Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt"
+        },
+        "expectedErrors": [
+          "implementation_target_is_originating_planning_task"
+        ]
+      },
+      {
+        "id": "accepted-plan-missing-cloud-pickup",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "implementationTarget": "cloud-worktree",
+        "expectedErrors": [
+          "cloud_pickup_missing"
+        ]
+      },
+      {
+        "id": "accepted-plan-incomplete-cloud-pickup",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "implementationTarget": "cloud-worktree",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Repository": "solvys-technologies/solvys-skills",
+          "Base commit": "383e4d78e185d012b0d177abfcb329818c56568f",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Worktree mode": "detached",
+          "Owner": "S166-T1 Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt"
+        },
+        "expectedErrors": [
+          "cloud_pickup_missing_field:Return path"
+        ]
+      }
     ]
   }
 }

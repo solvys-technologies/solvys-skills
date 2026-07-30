@@ -73,14 +73,20 @@ artifact uses `S### - concise context`.
 
 `Implement this plan` freezes the accepted revision and dispatches every
 implementation-eligible track to a task-owned Cloud worktree by default. Each
-track carries the exact base, `refs/sprints/S###/P#` checkpoint ref, date-only
-integration branch, owner, dependencies, protected zones, name-only secrets
-manifest, proof gates, budgets, return path, and closure condition.
+track carries the exact base, root preservation/sprint-level
+`refs/sprints/S###/P#` or tranche/track
+`refs/sprints/S###/T#/P#` checkpoint ref, date-only integration branch, owner,
+dependencies, protected zones, name-only secrets manifest, proof gates,
+budgets, return path, and closure condition. The originating planning task may
+never become the implementation target, and an accepted plan with a missing or
+incomplete Cloud Pickup block fails dispatch.
 
 `main` stays clean, protected, deployable, and outside development. The only
 human-facing integration branch is `YYYY-MM-DD`. A daily integrator assembles
 accepted checkpoints there; CI gates the daily backend PR; squash occurs at the
-PR boundary. Merge, deploy, and date-branch deletion remain human-authorized.
+PR boundary. Routine accepted backend changes outside the named risk categories
+deploy through green CI without separate human merge/deploy authorization.
+Date-branch deletion remains human-authorized.
 
 Blacksmith may own only deterministic, bounded, reversible low-risk patches
 with exact rollback and bounded tests. Any migration, destructive write, auth,

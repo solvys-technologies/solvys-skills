@@ -15,7 +15,10 @@ Planning stays in the local control plane and never self-assigns
 implementation. `Implement this plan` freezes the accepted plan revision and
 dispatches every implementation-eligible track to a registered task-owned Cloud
 worktree by default. Recovery refs use the exact
-`refs/sprints/S###/P#` shape. Read
+root `refs/sprints/S###/P#` preservation/sprint shape or
+`refs/sprints/S###/T#/P#` tranche/track shape. The originating planning task
+cannot implement, and a missing or incomplete Cloud Pickup block fails
+dispatch. Read
 `/solvys-cao/references/refresh-system.md`.
 
 ## Solvys Ponytail Chain
@@ -101,8 +104,8 @@ Fire an `AskUserQuestion` batch covering:
 Fire a second `AskUserQuestion` batch covering:
 
 - **Integration receipt:** verify the date-only `YYYY-MM-DD` branch and assign
-  exact `refs/sprints/S{N}/P#` checkpoint refs. Do not offer contextual branch
-  choices.
+  exact root `refs/sprints/S{N}/P#` preservation refs and
+  `refs/sprints/S{N}/T{N}/P#` track refs. Do not offer contextual branch choices.
 - **Execution lane:** backend-only Cloud vs. external-local frontend/combined,
   plus workspace path, peak storage estimate, capacity reservation, and exit
   condition for each track.
@@ -143,7 +146,7 @@ Dependencies: [Which tracks must complete before this one starts]
 Assigned Owner: [TP / Shashank / Codex Cloud / local Solvys Agent / other named developer]
 Execution Lane: [Cloud backend-only / external-local / internal-local]
 Workspace Path Or Cloud Branch: [exact Cloud worktree or explicit local exception]
-Task-Owned Checkpoint Ref: [refs/sprints/S{N}/P#]
+Task-Owned Checkpoint Ref: [refs/sprints/S{N}/T{N}/P#]
 Date Integration Branch: [YYYY-MM-DD]
 Estimated Peak Storage: [bytes or GiB]
 Capacity Reservation: [free before / projected free after]
@@ -228,7 +231,7 @@ Every brief MUST preserve searchable identity. Issue titles become
 - **Repository**:
 - **Base commit**:
 - **Date integration branch**: `{YYYY-MM-DD}`
-- **Task-owned checkpoint ref**: `refs/sprints/S{N}/P#`
+- **Task-owned checkpoint ref**: `refs/sprints/S{N}/T{N}/P#`
 - **Worktree mode**: detached
 - **Owner**:
 - **Protected zones**:
@@ -236,7 +239,7 @@ Every brief MUST preserve searchable identity. Issue titles become
 - **Secrets manifest (names only)**:
 - **Proof gates**:
 - **Return path**:
-- **Capacity and resource budget**:
+- **Capacity and resource budget**: default ceilings | recorded sprint override
 - **Closure condition**:
 
 ## Scope -- Included

@@ -11,11 +11,13 @@ Read `/solvys-cao/references/refresh-system.md`. The run-point keeps planning as
 the local control plane and dispatches implementation to Cloud by default.
 Every project/sprint uses searchable identity `S### - concise context`, a
 date-only `YYYY-MM-DD` integration branch, and exact task-owned
-`refs/sprints/S###/P#` checkpoints.
+root `refs/sprints/S###/P#` preservation/sprint checkpoints or
+`refs/sprints/S###/T#/P#` tranche/track checkpoints.
 
 `Implement this plan` freezes the accepted plan revision. The run-point
 dispatches the frozen tracks and may not reinterpret scope or let a planning
-task self-assign implementation.
+task self-assign implementation. The originating planning task cannot
+implement, and a missing or incomplete Cloud Pickup block fails dispatch.
 
 ## Solvys Ponytail Chain
 
