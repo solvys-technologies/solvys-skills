@@ -58,6 +58,9 @@ REQUIRED_PHRASES = {
         "Implement this plan",
         "refs/sprints/S###/P#",
         "refs/sprints/S###/T#/P#",
+        "repository-backed Codex Cloud",
+        "projectless ChatGPT Work",
+        "authenticated Git",
     ],
     "references/decision-authority.md": ["Answer For Yourself", "Clarify", "Shoot Down"],
     "references/official-stack.md": [
@@ -111,6 +114,9 @@ REQUIRED_PHRASES = {
         "A Cloud recommendation alone is not",
         "automatic date-branch deletion",
         "0 hours after verification",
+        "repository-backed Codex Cloud",
+        "projectless ChatGPT Work",
+        "Authenticated Git publication route",
     ],
 }
 
@@ -129,6 +135,8 @@ OPERATIONAL_REQUIRED = [
     "refs/sprints/S###/P#",
     "refs/sprints/S###/T#/P#",
     "main",
+    "repository-backed Codex Cloud",
+    "projectless ChatGPT Work",
 ]
 
 DEFAULT_RESOURCE_CEILINGS = {
@@ -188,9 +196,48 @@ RETAINED_RELEASE_DMG_FIELDS = [
     "classificationReceipt",
 ]
 
+FORBIDDEN_BULK_SECRET_CATEGORIES = {
+    "production",
+    "trading",
+    "authentication",
+    "database",
+    "provider_admin",
+    "destructive",
+}
+
+
+def resolve_fixture_block(
+    case: dict[str, object],
+    direct_key: str,
+    template_key: str,
+    templates: dict[str, dict[str, object]],
+    omit_key: str | None = None,
+) -> dict[str, object] | None:
+    """Resolve a direct or named fixture block and apply top-level omissions."""
+    direct = case.get(direct_key)
+    if isinstance(direct, dict):
+        block = dict(direct)
+    else:
+        template_name = case.get(template_key)
+        template = templates.get(template_name) if isinstance(template_name, str) else None
+        if not isinstance(template, dict):
+            return None
+        block = dict(template)
+    if omit_key:
+        omitted = case.get(omit_key, [])
+        if isinstance(omitted, list):
+            for field in omitted:
+                if isinstance(field, str):
+                    block.pop(field, None)
+    return block
+
 
 def validate_implement_dispatch(
-    case: dict[str, object], required_fields: list[str]
+    case: dict[str, object],
+    required_fields: list[str],
+    required_return_fields: list[str],
+    pickup_templates: dict[str, dict[str, object]],
+    return_receipt_templates: dict[str, dict[str, object]],
 ) -> list[str]:
     """Return stable error codes for one accepted-plan dispatch fixture."""
     errors: list[str] = []
@@ -201,19 +248,100 @@ def validate_implement_dispatch(
     target = case.get("implementationTarget")
     if target == origin:
         errors.append("implementation_target_is_originating_planning_task")
-    if target != "cloud-worktree":
-        errors.append("implementation_target_is_not_cloud_worktree")
-    if case.get("dispatchResult") != "cloud-worktree-dispatched":
-        errors.append("cloud_dispatch_not_executed")
 
-    pickup = case.get("cloudPickup")
-    if not isinstance(pickup, dict):
+    repository_signals = case.get("repositoryWorkSignals", [])
+    repository_work = (
+        bool(repository_signals)
+        or bool(case.get("cloudPickupTemplate"))
+        or target == "repository-backed-codex-cloud-worktree"
+    )
+    if not repository_work:
+        if target != "projectless-chatgpt-work":
+            errors.append("non_repository_work_target_is_not_projectless_chatgpt_work")
+        if case.get("dispatchResult") != "non-repository-task-dispatched":
+            errors.append("non_repository_work_dispatch_not_executed")
+        if not case.get("standaloneArtifactReceipt"):
+            errors.append("standalone_artifact_receipt_missing")
+        return errors
+
+    if target != "repository-backed-codex-cloud-worktree":
+        errors.append("implementation_target_is_not_repository_backed_codex_cloud")
+    if case.get("dispatchResult") != "repository-worktree-dispatched":
+        errors.append("repository_work_dispatch_not_executed")
+
+    pickup = resolve_fixture_block(
+        case,
+        "cloudPickup",
+        "cloudPickupTemplate",
+        pickup_templates,
+        "omitPickupFields",
+    )
+    if pickup is None:
         errors.append("cloud_pickup_missing")
         return errors
 
     for field in required_fields:
         if field not in pickup or pickup[field] in (None, ""):
             errors.append(f"cloud_pickup_missing_field:{field}")
+
+    if pickup.get("Environment type") != "repository-backed-codex-cloud":
+        errors.append("cloud_pickup_environment_is_not_repository_backed_codex_cloud")
+    if pickup.get("Environment type") == "projectless-chatgpt-work":
+        errors.append("projectless_chatgpt_work_cannot_implement_repository_work")
+    if (
+        pickup.get("Repository attachment proof") == "structured-connector-read-only"
+        and (
+            pickup.get("Checkout proof") in (None, "none", "unavailable")
+            or pickup.get("Authenticated Git publication route") in (None, "none")
+        )
+    ):
+        errors.append("connector_read_without_git_transport_is_preflight_only")
+
+    return_receipt = resolve_fixture_block(
+        case,
+        "cloudReturnReceipt",
+        "cloudReturnReceiptTemplate",
+        return_receipt_templates,
+        "omitReturnReceiptFields",
+    )
+    if return_receipt is None:
+        errors.append("cloud_return_receipt_missing")
+        return errors
+    for field in required_return_fields:
+        if field not in return_receipt or return_receipt[field] in (None, ""):
+            errors.append(f"cloud_return_receipt_missing_field:{field}")
+    if return_receipt.get("Environment type") != "repository-backed-codex-cloud":
+        errors.append(
+            "cloud_return_receipt_environment_is_not_repository_backed_codex_cloud"
+        )
+    return errors
+
+
+def validate_cloud_secret_case(
+    case: dict[str, object], forbidden_bulk_categories: set[str]
+) -> list[str]:
+    """Return stable errors for one Cloud secret-handling fixture."""
+    errors: list[str] = []
+    if case.get("secretValuesPresent") is True:
+        errors.append("secret_values_forbidden_in_plan_or_receipt")
+    if case.get("secretNames") and case.get("encryptedCloudEnvironment") is not True:
+        errors.append("task_secret_requires_encrypted_cloud_environment")
+    if case.get("secretNames") and case.get("setupPhaseOnly") is not True:
+        errors.append("cloud_environment_secret_must_be_setup_phase_only")
+    if case.get("runtimeMaterialized") is True:
+        if case.get("reviewedSetupScript") is not True:
+            errors.append("runtime_secret_requires_reviewed_setup_script")
+        if case.get("leastPrivilegeRuntimeFile") is not True:
+            errors.append("runtime_secret_file_must_be_least_privilege")
+    if case.get("publicBuildConfiguration") != "environment_variables":
+        errors.append("public_build_configuration_must_use_environment_variables")
+    bulk_categories = case.get("bulkCopyCategories", [])
+    if isinstance(bulk_categories, list) and set(bulk_categories) & forbidden_bulk_categories:
+        errors.append("bulk_copy_forbidden_secret_categories")
+    if case.get("excludedNamesOrCategoriesRecorded") is not True:
+        errors.append("excluded_secret_names_or_categories_not_recorded")
+    if case.get("purposeSpecificAuthorizationGatesRecorded") is not True:
+        errors.append("purpose_specific_authorization_gates_not_recorded")
     return errors
 
 
@@ -309,11 +437,21 @@ def main() -> int:
         if name in {"solvys-brief", "solvys-orchestrate", "solvys-execute"}:
             for field in (
                 "Accepted plan revision",
+                "Environment ID",
+                "Environment label",
+                "Repository slug",
+                "Repository attachment proof",
                 "Base commit",
+                "Requested base/ref availability proof",
+                "Checkout mode",
+                "Checkout proof",
+                "Authenticated Git publication route",
                 "Task-owned checkpoint ref",
                 "Protected zones",
                 "Dependencies",
                 "Secrets manifest (names only)",
+                "Excluded secret names/categories",
+                "Purpose-specific authorization gates",
                 "Proof gates",
                 "Return path",
                 "Capacity and resource budget",
@@ -350,6 +488,39 @@ def main() -> int:
             errors.append("storage policy: manual worktree deletion must stay disabled")
         if policy["approvedActions"]["codexHomeMigration"] is not False:
             errors.append("storage policy: CODEX_HOME migration must stay disabled")
+        execution_lanes = policy["executionLanes"]
+        if (
+            execution_lanes["defaultImplementation"]
+            != "repository_backed_codex_cloud_task_owned_worktree"
+            or execution_lanes["nonFlagshipImplementation"]
+            != "repository_backed_codex_cloud"
+        ):
+            errors.append("storage policy: repository implementation Cloud lane drifted")
+        if policy.get("cloudImplementationContract") != {
+            "repositoryWorkTarget": "repository_backed_codex_cloud",
+            "requiredPickupFieldCount": 25,
+            "requiredReturnReceiptFieldCount": 13,
+            "projectlessChatgptWorkAllowedFor": [
+                "non_repository_research",
+                "analysis",
+                "standalone_artifacts",
+            ],
+            "repositoryWorkSignals": [
+                "changes_repository_files",
+                "creates_commits_refs_or_pull_requests",
+                "runs_source_ci",
+                "promises_worktree",
+            ],
+            "requiredProofs": [
+                "environment_id_and_label",
+                "repository_slug_and_attachment",
+                "requested_base_or_ref_available",
+                "detached_checkout",
+                "authenticated_git_publication_route",
+            ],
+            "connectorReadWithoutCheckoutOrPublicationTransport": "preflight_only",
+        }:
+            errors.append("storage policy: repository-backed Codex Cloud contract drifted")
         branch_contract = policy["branchAndRefContract"]
         if branch_contract["mainProtected"] is not True:
             errors.append("storage policy: main must stay protected")
@@ -379,6 +550,19 @@ def main() -> int:
         secrets = policy["secretManifest"]
         if secrets["valuesAllowed"] is not False or secrets["namesOnly"] is not True:
             errors.append("storage policy: secret manifests must contain names only")
+        if (
+            secrets.get("encryptedCloudEnvironmentSecrets")
+            != "exact_task_required_setup_values_only"
+            or secrets.get("setupPhaseOnly") is not True
+            or secrets.get("runtimeMaterializationRequiresReviewedSetupScript") is not True
+            or secrets.get("runtimeFileMustBeLeastPrivilege") is not True
+            or secrets.get("publicBuildConfiguration") != "environment_variables"
+            or secrets.get("recordExcludedNamesOrCategories") is not True
+            or secrets.get("purposeSpecificAuthorizationRequired") is not True
+            or set(secrets.get("bulkCopyForbiddenCategories", []))
+            != FORBIDDEN_BULK_SECRET_CATEGORIES
+        ):
+            errors.append("storage policy: Cloud secret handling contract drifted")
         required_budgets = set(policy["resourceBudgets"]["requiredCategories"])
         if required_budgets != {
             "tasks",
@@ -473,6 +657,24 @@ def main() -> int:
         else:
             if s166.get("title") != "S166 - Solvys Refresh System":
                 errors.append("tranche registry: S166 searchable identity drifted")
+            if s166.get("repository") != "solvys-technologies/solvys-skills":
+                errors.append("tranche registry: S166 repository slug drifted")
+            if s166.get("executionLane") != "repository-backed-codex-cloud":
+                errors.append("tranche registry: S166 Cloud environment lane drifted")
+            for key in (
+                "environmentType",
+                "environmentId",
+                "environmentLabel",
+                "repositoryAttachmentProof",
+                "requestedBaseRefAvailabilityProof",
+                "checkoutMode",
+                "checkoutProof",
+                "authenticatedGitPublicationRoute",
+                "excludedSecretNamesOrCategories",
+                "purposeSpecificAuthorizationGates",
+            ):
+                if key not in s166:
+                    errors.append(f"tranche registry: S166 missing Cloud identity {key!r}")
             if s166.get("branch") != "2026-07-29":
                 errors.append("tranche registry: S166 date branch drifted")
             if s166.get("checkpointRef") != "refs/sprints/S166/T1/P1":
@@ -502,6 +704,21 @@ def main() -> int:
                 errors.append("tranche registry: S166 verified DMG lifetime must be zero")
             if s166_budgets.get("retainedReleaseDmgException") is not None:
                 errors.append("tranche registry: S166 has no retained release DMG exception")
+        schema = registry.get("entrySchema", {})
+        for key in (
+            "environmentType",
+            "environmentId",
+            "environmentLabel",
+            "repositoryAttachmentProof",
+            "requestedBaseRefAvailabilityProof",
+            "checkoutMode",
+            "checkoutProof",
+            "authenticatedGitPublicationRoute",
+            "excludedSecretNamesOrCategories",
+            "purposeSpecificAuthorizationGates",
+        ):
+            if key not in schema:
+                errors.append(f"tranche registry: entry schema missing {key!r}")
     except (OSError, KeyError, TypeError, json.JSONDecodeError) as exc:
         errors.append(f"tranche registry: invalid machine-readable boundary: {exc}")
 
@@ -653,18 +870,29 @@ def main() -> int:
 
         dispatch = fixtures["implementThisPlan"]
         required_pickup_fields = dispatch["requiredCloudPickupFields"]
+        required_return_fields = dispatch["requiredCloudReturnReceiptFields"]
         expected_pickup_fields = {
             "Sprint identity",
             "Accepted plan revision",
-            "Repository",
+            "Environment type",
+            "Environment ID",
+            "Environment label",
+            "Repository slug",
+            "Repository attachment proof",
             "Base commit",
+            "Requested base/ref availability proof",
             "Date integration branch",
             "Task-owned checkpoint ref",
+            "Checkout mode",
             "Worktree mode",
+            "Checkout proof",
+            "Authenticated Git publication route",
             "Owner",
             "Protected zones",
             "Dependencies",
             "Secrets manifest (names only)",
+            "Excluded secret names/categories",
+            "Purpose-specific authorization gates",
             "Proof gates",
             "Return path",
             "Capacity and resource budget",
@@ -672,6 +900,40 @@ def main() -> int:
         }
         if set(required_pickup_fields) != expected_pickup_fields:
             errors.append("refresh fixture: complete Cloud Pickup field contract drifted")
+        expected_return_fields = {
+            "Environment type",
+            "Environment ID",
+            "Environment label",
+            "Repository slug",
+            "Repository attachment proof",
+            "Base commit",
+            "Requested base/ref availability proof",
+            "Checkout mode",
+            "Checkout proof",
+            "Authenticated Git publication route",
+            "Secrets manifest (names only)",
+            "Excluded secret names/categories",
+            "Purpose-specific authorization gates",
+        }
+        if set(required_return_fields) != expected_return_fields:
+            errors.append("refresh fixture: Cloud return receipt field contract drifted")
+        if (
+            dispatch["requiredCloudPickupFieldCount"] != len(required_pickup_fields)
+            or dispatch["requiredCloudPickupFieldCount"] != 25
+        ):
+            errors.append("refresh fixture: Cloud Pickup numeric field count drifted")
+        if (
+            dispatch["requiredCloudReturnReceiptFieldCount"] != len(required_return_fields)
+            or dispatch["requiredCloudReturnReceiptFieldCount"] != 13
+        ):
+            errors.append("refresh fixture: Cloud return receipt numeric field count drifted")
+        if set(dispatch["repositoryWorkSignals"]) != {
+            "changes_repository_files",
+            "creates_commits_refs_or_pull_requests",
+            "runs_source_ci",
+            "promises_worktree",
+        }:
+            errors.append("refresh fixture: repository-work signal inventory drifted")
         invalid_ids = {case["id"] for case in dispatch["invalidDispatches"]}
         if invalid_ids != {
             "originating-planning-task-cannot-implement",
@@ -679,10 +941,24 @@ def main() -> int:
             "cloud-recommendation-is-not-dispatch",
             "accepted-plan-missing-cloud-pickup",
             "accepted-plan-incomplete-cloud-pickup",
+            "pickup-missing-environment-and-git-identity",
+            "s162-projectless-connector-read-only-cannot-implement",
+            "repository-dispatch-missing-return-receipt",
         }:
             errors.append("refresh fixture: dispatch negative-case inventory drifted")
+        if {case["id"] for case in dispatch["validDispatches"]} != {
+            "repository-backed-codex-cloud-with-complete-pickup",
+            "projectless-chatgpt-work-nonrepository-analysis",
+        }:
+            errors.append("refresh fixture: valid Cloud target inventory drifted")
         for case in dispatch["validDispatches"]:
-            actual = validate_implement_dispatch(case, required_pickup_fields)
+            actual = validate_implement_dispatch(
+                case,
+                required_pickup_fields,
+                required_return_fields,
+                dispatch["pickupTemplates"],
+                dispatch["returnReceiptTemplates"],
+            )
             expected = case["expectedErrors"]
             if actual != expected:
                 errors.append(
@@ -690,11 +966,47 @@ def main() -> int:
                     f"expected {expected!r}, got {actual!r}"
                 )
         for case in dispatch["invalidDispatches"]:
-            actual = validate_implement_dispatch(case, required_pickup_fields)
+            actual = validate_implement_dispatch(
+                case,
+                required_pickup_fields,
+                required_return_fields,
+                dispatch["pickupTemplates"],
+                dispatch["returnReceiptTemplates"],
+            )
             expected = case["expectedErrors"]
             if actual != expected:
                 errors.append(
                     f"refresh fixture: invalid dispatch {case['id']!r} "
+                    f"expected {expected!r}, got {actual!r}"
+                )
+
+        secret_fixtures = fixtures["cloudSecretHandling"]
+        if secret_fixtures["requiredExcludedCategoryCount"] != 6:
+            errors.append("refresh fixture: excluded secret category count drifted")
+        if (
+            set(secret_fixtures["requiredExcludedCategories"])
+            != FORBIDDEN_BULK_SECRET_CATEGORIES
+        ):
+            errors.append("refresh fixture: forbidden bulk secret categories drifted")
+        if {case["id"] for case in secret_fixtures["validCases"]} != {
+            "name-only-setup-secret-with-public-env-config",
+            "reviewed-least-privilege-runtime-file",
+        }:
+            errors.append("refresh fixture: valid Cloud secret cases drifted")
+        if {case["id"] for case in secret_fixtures["invalidCases"]} != {
+            "secret-value-in-plan-or-receipt",
+            "bulk-copy-protected-credentials",
+            "runtime-secret-without-reviewed-setup-script",
+        }:
+            errors.append("refresh fixture: invalid Cloud secret cases drifted")
+        for case in secret_fixtures["validCases"] + secret_fixtures["invalidCases"]:
+            actual = validate_cloud_secret_case(
+                case, FORBIDDEN_BULK_SECRET_CATEGORIES
+            )
+            expected = case["expectedErrors"]
+            if actual != expected:
+                errors.append(
+                    f"refresh fixture: Cloud secret case {case['id']!r} "
                     f"expected {expected!r}, got {actual!r}"
                 )
 
@@ -721,6 +1033,10 @@ def main() -> int:
             '"deleteDateBranchRequiresAuthorization"',
             '"humanVerificationBeforeMergeOrDeploy"',
             '"separateHumanMergeOrDeployAuthorization"',
+            '"defaultImplementation": "cloud_task_owned_worktree"',
+            '"nonFlagshipImplementation": "cloud"',
+            "implementation_target_is_not_cloud_worktree",
+            "cloud-worktree-dispatched",
         )
         for path in binding_paths:
             text = path.read_text(encoding="utf-8")

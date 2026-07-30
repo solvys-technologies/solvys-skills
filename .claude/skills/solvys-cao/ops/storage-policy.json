@@ -28,8 +28,8 @@
     "runtimeLogs": "~/Library/Logs/{Product}"
   },
   "executionLanes": {
-    "defaultImplementation": "cloud_task_owned_worktree",
-    "nonFlagshipImplementation": "cloud",
+    "defaultImplementation": "repository_backed_codex_cloud_task_owned_worktree",
+    "nonFlagshipImplementation": "repository_backed_codex_cloud",
     "fintheonFlagship": "external_local_source_custody",
     "fintheonBackendCompute": "cloud_when_exact_ref_and_turnkey_brief_are_pushed",
     "localExceptions": [
@@ -42,6 +42,30 @@
       "installed_app_verification"
     ],
     "internalLocal": "exception_only_when_healthy_and_bounded"
+  },
+  "cloudImplementationContract": {
+    "repositoryWorkTarget": "repository_backed_codex_cloud",
+    "requiredPickupFieldCount": 25,
+    "requiredReturnReceiptFieldCount": 13,
+    "projectlessChatgptWorkAllowedFor": [
+      "non_repository_research",
+      "analysis",
+      "standalone_artifacts"
+    ],
+    "repositoryWorkSignals": [
+      "changes_repository_files",
+      "creates_commits_refs_or_pull_requests",
+      "runs_source_ci",
+      "promises_worktree"
+    ],
+    "requiredProofs": [
+      "environment_id_and_label",
+      "repository_slug_and_attachment",
+      "requested_base_or_ref_available",
+      "detached_checkout",
+      "authenticated_git_publication_route"
+    ],
+    "connectorReadWithoutCheckoutOrPublicationTransport": "preflight_only"
   },
   "branchAndRefContract": {
     "mainProtected": true,
@@ -154,6 +178,21 @@
   "secretManifest": {
     "valuesAllowed": false,
     "namesOnly": true,
+    "encryptedCloudEnvironmentSecrets": "exact_task_required_setup_values_only",
+    "setupPhaseOnly": true,
+    "runtimeMaterializationRequiresReviewedSetupScript": true,
+    "runtimeFileMustBeLeastPrivilege": true,
+    "publicBuildConfiguration": "environment_variables",
+    "recordExcludedNamesOrCategories": true,
+    "purposeSpecificAuthorizationRequired": true,
+    "bulkCopyForbiddenCategories": [
+      "production",
+      "trading",
+      "authentication",
+      "database",
+      "provider_admin",
+      "destructive"
+    ],
     "excludedClassesWithoutExactAuthority": [
       "production",
       "unrelated_client",

@@ -13,13 +13,16 @@ not need to name it. The task title and primary plan heading use
 
 Planning is a local control-plane activity and does not implement. When TP says
 `Implement this plan`, freeze the accepted plan revision and dispatch the
-implementation to a task-owned Cloud worktree by default. The only local
+implementation to a task-owned repository-backed Codex Cloud
+environment/worktree by default. A projectless ChatGPT Work VM is not a repository
+implementation target. The only local
 implementation exceptions are the explicit Refresh System lanes, and each
 requires a reason, capacity/proof gates, protected zones, and return path.
 The originating planning task cannot implement. A missing or incomplete Cloud
 Pickup block fails dispatch. The command must create or assign the task-owned
 Cloud worktree and return its pickup receipt; a local target or mere Cloud
-recommendation is not dispatch.
+recommendation is not dispatch. Connector read access without authenticated Git
+checkout/publication transport is preflight-only.
 
 Read `/solvys-cao/references/refresh-system.md`. `main` is never the target.
 The human integration branch is date-only `YYYY-MM-DD`; recovery uses an exact
@@ -222,15 +225,25 @@ Exit plan mode. Produce ONE standalone markdown briefing file.
 
 - **Sprint identity**: `S{N} - {Concise context}`
 - **Accepted plan revision**:
-- **Repository**:
+- **Environment type**: repository-backed Codex Cloud
+- **Environment ID**:
+- **Environment label**:
+- **Repository slug**:
+- **Repository attachment proof**:
 - **Base commit**:
+- **Requested base/ref availability proof**:
 - **Date integration branch**: `{YYYY-MM-DD}`
 - **Task-owned checkpoint ref**: `refs/sprints/S{N}/T1/P#`
+- **Checkout mode**: detached task-owned worktree
 - **Worktree mode**: detached
+- **Checkout proof**:
+- **Authenticated Git publication route**:
 - **Owner**:
 - **Protected zones**:
 - **Dependencies**:
 - **Secrets manifest (names only)**:
+- **Excluded secret names/categories**:
+- **Purpose-specific authorization gates**:
 - **Proof gates**:
 - **Return path**:
 - **Capacity and resource budget**: default ceilings | recorded sprint override
@@ -393,9 +406,11 @@ This brief adds per-user pinning to the RiskFlow feed so Herald surfaces can be 
 - Non-flagship implementation defaults to Cloud. Local opens only for the
   Refresh System exception list. Fintheon remains the current flagship
   external-custody exception.
-- Every implementation brief includes the complete Cloud Pickup block, exact
-  task-owned checkpoint ref, date branch, name-only secrets manifest, resource
-  budgets, proof gates, return path, and closure condition.
+- Every repository implementation brief includes the complete repository-backed
+  Codex Cloud Pickup block, exact environment identity, attachment/checkout/Git
+  transport proof, task-owned checkpoint ref, date branch, name-only secrets
+  manifest, excluded categories and purpose gates, resource budgets, proof
+  gates, return path, and closure condition.
 - Every applicable frontend brief carries the Wonder sandbox, explicit
   source-transfer, concurrent-human-change boundary, and port 7777 proof.
 

@@ -13,14 +13,17 @@ artifact use `S### - concise context`. Track IDs remain subordinate.
 
 Planning stays in the local control plane and never self-assigns
 implementation. `Implement this plan` freezes the accepted plan revision and
-dispatches every implementation-eligible track to a registered task-owned Cloud
-worktree by default. Recovery refs use the exact
+dispatches every repository implementation-eligible track to a registered
+task-owned, repository-backed Codex Cloud environment/worktree by default. A
+projectless ChatGPT Work VM and connector-only repository read access are
+preflight-only. Recovery refs use the exact
 root `refs/sprints/S###/P#` preservation/sprint shape or
 `refs/sprints/S###/T#/P#` tranche/track shape. The originating planning task
 cannot implement, and a missing or incomplete Cloud Pickup block fails
 dispatch. The command must create or assign each task-owned Cloud worktree and
-return its pickup receipt; a local target or mere Cloud recommendation is not
-dispatch. Read
+return its environment, checkout, and authenticated Git transport receipt; a
+local target, projectless target, or mere Cloud recommendation is not dispatch.
+Read
 `/solvys-cao/references/refresh-system.md`.
 
 ## Solvys Ponytail Chain
@@ -146,7 +149,12 @@ File Ownership: [Exact file paths this track may modify]
 Excluded Files: [Files explicitly off-limits to this track]
 Dependencies: [Which tracks must complete before this one starts]
 Assigned Owner: [TP / Shashank / Codex Cloud / local Solvys Agent / other named developer]
-Execution Lane: [Cloud backend-only / external-local / internal-local]
+Execution Lane: [repository-backed Codex Cloud / external-local / internal-local]
+Environment ID And Label: [exact values]
+Repository Attachment Proof: [exact repository slug and attachment evidence]
+Requested Base/Ref Availability Proof: [exact evidence]
+Checkout Mode And Proof: [detached task-owned worktree and exact evidence]
+Authenticated Git Publication Route: [exact managed Git transport]
 Workspace Path Or Cloud Branch: [exact Cloud worktree or explicit local exception]
 Task-Owned Checkpoint Ref: [refs/sprints/S{N}/T{N}/P#]
 Date Integration Branch: [YYYY-MM-DD]
@@ -230,15 +238,25 @@ Every brief MUST preserve searchable identity. Issue titles become
 
 - **Sprint identity**: `S{N} - {Concise context}`
 - **Accepted plan revision**:
-- **Repository**:
+- **Environment type**: repository-backed Codex Cloud
+- **Environment ID**:
+- **Environment label**:
+- **Repository slug**:
+- **Repository attachment proof**:
 - **Base commit**:
+- **Requested base/ref availability proof**:
 - **Date integration branch**: `{YYYY-MM-DD}`
 - **Task-owned checkpoint ref**: `refs/sprints/S{N}/T{N}/P#`
+- **Checkout mode**: detached task-owned worktree
 - **Worktree mode**: detached
+- **Checkout proof**:
+- **Authenticated Git publication route**:
 - **Owner**:
 - **Protected zones**:
 - **Dependencies**:
 - **Secrets manifest (names only)**:
+- **Excluded secret names/categories**:
+- **Purpose-specific authorization gates**:
 - **Proof gates**:
 - **Return path**:
 - **Capacity and resource budget**: default ceilings | recorded sprint override

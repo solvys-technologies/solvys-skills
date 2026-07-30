@@ -36,7 +36,9 @@ eligible track to a task-owned Cloud worktree by default. A local planning track
 may coordinate or review, but may not absorb implementation merely because it
 already has context. Dispatch means creating or assigning the task-owned Cloud
 worktree and returning its pickup receipt. A Cloud recommendation alone is not
-dispatch. An implementation target outside a Cloud worktree fails the command.
+dispatch. Repository implementation requires a repository-backed Codex Cloud
+environment/worktree; a projectless ChatGPT Work VM is not an implementation
+target.
 
 ## Turnkey Cloud Pickup
 
@@ -46,27 +48,60 @@ Every implementation-eligible plan or track includes:
 ## Cloud Pickup
 - Sprint identity: S### - concise context
 - Accepted plan revision:
-- Repository:
+- Environment type: repository-backed Codex Cloud
+- Environment ID:
+- Environment label:
+- Repository slug:
+- Repository attachment proof:
 - Base commit:
+- Requested base/ref availability proof:
 - Date integration branch: YYYY-MM-DD
 - Task-owned checkpoint ref: refs/sprints/S###/P# | refs/sprints/S###/T#/P#
+- Checkout mode: detached task-owned worktree
 - Worktree mode: detached
+- Checkout proof:
+- Authenticated Git publication route:
 - Owner:
 - Protected zones:
 - Dependencies:
 - Secrets manifest (names only):
+- Excluded secret names/categories:
+- Purpose-specific authorization gates:
 - Proof gates:
 - Return path:
 - Capacity and resource budget: default ceilings | recorded sprint override
 - Closure condition:
 ```
 
-The checkpoint ref is exact and recovery-owned. Never put a secret value in a
-pickup block, handoff, commit, issue, fixture, or receipt.
+The return receipt repeats environment ID and label, repository slug, exact
+base, repository attachment proof, checkout mode/proof, authenticated Git
+publication route, name-only secret manifest, excluded secret names/categories,
+and purpose-specific authorization gates. The checkpoint ref is exact and
+recovery-owned.
+
+Preflight must prove that the environment itself has the repository attached,
+the requested base/ref is available, detached checkout/worktree creation works,
+and an authenticated Git publication route can push the promised commit, ref,
+or branch. A structured connector that can read repository metadata or an exact
+SHA but cannot provide checkout and publication transport is preflight-only.
+
+Projectless ChatGPT Work may perform non-repository research, analysis, or
+standalone artifact creation. It fails as an implementation target when the
+plan changes repository files, creates commits/refs/PRs, runs source CI, or
+promises a worktree.
+
+Never put a secret value in a pickup block, handoff, commit, issue, fixture, or
+receipt. Plans and receipts inventory variable names only. Use encrypted Cloud
+environment secrets only for exact task-required values during setup. A value
+may persist to runtime only when a reviewed setup script materializes a
+least-privilege runtime file. Keep public/build configuration in environment
+variables. Never bulk-copy production, trading, auth, database, provider-admin,
+or destructive credentials merely because an environment exists; record
+excluded names/categories and purpose-specific authorization gates.
 
 ## Execution Lanes
 
-All non-flagship implementation lanes default to Cloud.
+All non-flagship implementation lanes default to repository-backed Codex Cloud.
 
 Local opens only for an explicitly recorded need:
 

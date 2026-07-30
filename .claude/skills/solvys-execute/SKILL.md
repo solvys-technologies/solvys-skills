@@ -12,15 +12,18 @@ multi-track plan; it does not invent a second plan or self-assign
 implementation. The primary sprint identity is `S### - concise context`.
 
 The exact command `Implement this plan` freezes the accepted revision and
-dispatches every implementation-eligible track to a task-owned Cloud worktree
-by default. Each track must contain a complete turnkey Cloud Pickup block before
-pickup. `main` is protected; the only human-facing integration branch is
-`YYYY-MM-DD`; checkpoint custody uses root
+dispatches every repository implementation-eligible track to a task-owned,
+repository-backed Codex Cloud environment/worktree by default. Projectless
+ChatGPT Work is not a source lane. Each track must contain a complete turnkey
+Cloud Pickup block before pickup. `main` is protected; the only human-facing
+integration branch is `YYYY-MM-DD`; checkpoint custody uses root
 `refs/sprints/S###/P#` preservation/sprint refs or
 `refs/sprints/S###/T#/P#` tranche/track refs. The originating planning task is
 never a valid implementation target. The command must create or assign each
 task-owned Cloud worktree and return its pickup receipt; reject local targets
-and recommendation-only results.
+and recommendation-only results. Reject projectless ChatGPT Work and
+connector-read-only preflight when repository files, source CI, commits, refs,
+PRs, or a worktree are promised.
 
 ## Solvys Ponytail Chain
 
@@ -73,10 +76,13 @@ Read the CAO `storage-and-execution-lanes.md` before pickup:
   ref and brief.
 - Internal-local requires a healthy capacity gate and a projected peak under
   2 GB.
-- Refuse pickup when the exact Cloud worktree or authorized local exception,
-  base, date branch, task-owned checkpoint ref, capacity/resource budget,
-  owner, dependencies, protected zones, name-only secrets manifest, proof
-  gates, return path, exit condition, or closure state is missing.
+- Refuse repository pickup unless a repository-backed Codex Cloud environment
+  supplies exact environment ID/label, repository slug and attachment proof,
+  requested base/ref availability, detached checkout proof, authenticated Git
+  publication route, date branch, task-owned checkpoint ref, capacity/resource
+  budget, owner, dependencies, protected zones, name-only secrets manifest,
+  excluded names/categories, purpose-specific authorization gates, proof gates,
+  return path, exit condition, and closure state.
 
 ## Protocol
 
@@ -166,15 +172,25 @@ Arguments:
     ## Cloud Pickup
     - **Sprint identity**: S{SPRINT} - {concise context}
     - **Accepted plan revision**: {exact identity}
-    - **Repository**: {owner/repo}
+    - **Environment type**: repository-backed Codex Cloud
+    - **Environment ID**: {exact id}
+    - **Environment label**: {exact label}
+    - **Repository slug**: {owner/repo}
+    - **Repository attachment proof**: {exact proof}
     - **Base commit**: {sha}
+    - **Requested base/ref availability proof**: {exact proof}
     - **Date integration branch**: {YYYY-MM-DD}
     - **Task-owned checkpoint ref**: refs/sprints/S{SPRINT}/T{N}/P#
+    - **Checkout mode**: detached task-owned worktree
     - **Worktree mode**: detached
+    - **Checkout proof**: {exact proof}
+    - **Authenticated Git publication route**: {exact route}
     - **Owner**: {owner}
     - **Protected zones**: {zones}
     - **Dependencies**: {ids}
     - **Secrets manifest (names only)**: {names or none}
+    - **Excluded secret names/categories**: {names/categories}
+    - **Purpose-specific authorization gates**: {gates or none}
     - **Proof gates**: {gates}
     - **Return path**: {handoff target}
     - **Capacity and resource budget**: default ceilings | recorded sprint override
@@ -285,15 +301,25 @@ For each track, also generate a `sprint-md/S{SPRINT}-T{N}-{slug}.md` file in the
 ## Cloud Pickup
 - **Sprint identity**: S{SPRINT} - {concise context}
 - **Accepted plan revision**: {exact identity}
-- **Repository**: {owner/repo}
+- **Environment type**: repository-backed Codex Cloud
+- **Environment ID**: {exact id}
+- **Environment label**: {exact label}
+- **Repository slug**: {owner/repo}
+- **Repository attachment proof**: {exact proof}
 - **Base commit**: {sha}
+- **Requested base/ref availability proof**: {exact proof}
 - **Date integration branch**: {YYYY-MM-DD}
 - **Task-owned checkpoint ref**: refs/sprints/S{SPRINT}/T{N}/P#
+- **Checkout mode**: detached task-owned worktree
 - **Worktree mode**: detached
+- **Checkout proof**: {exact proof}
+- **Authenticated Git publication route**: {exact route}
 - **Owner**: {owner}
 - **Protected zones**: {zones}
 - **Dependencies**: {ids}
 - **Secrets manifest (names only)**: {names or none}
+- **Excluded secret names/categories**: {names/categories}
+- **Purpose-specific authorization gates**: {gates or none}
 - **Proof gates**: {gates}
 - **Return path**: {handoff target}
 - **Capacity and resource budget**: default ceilings | recorded sprint override

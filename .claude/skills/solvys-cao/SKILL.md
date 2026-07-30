@@ -30,7 +30,7 @@ Do not reorder these steps because a familiar implementation is visible.
 1. **Name the original problem.** State what is painful or impossible for the user, who experiences it, and what observable change would resolve it. Do not begin with a feature name.
 2. **Name the solution.** Use one concrete solution name and an outcome-owned objective: `Deliver {solution} so {user} can {outcome}; ownership includes behavior, controls, design, validation, and handoff.`
 3. **Load the truth pack.** Read current user instructions, relevant memory, repo status, repo instructions, active briefs/issues, package scripts, current source, current runtime/deploy state, and rendered proof when applicable. Preserve dirty work.
-4. **Select the execution and storage lane.** Read [refresh-system.md](references/refresh-system.md) and [storage-and-execution-lanes.md](references/storage-and-execution-lanes.md) before creating a checkout, worktree, dependency store, build, or tranche. Planning remains the local control plane and implementation defaults to a registered Cloud worktree. Local opens only for the enumerated planning, custody, source-transfer, hardware, proof, deployment-review, or installed-app exceptions. Fintheon remains the flagship external-custody exception.
+4. **Select the execution and storage lane.** Read [refresh-system.md](references/refresh-system.md) and [storage-and-execution-lanes.md](references/storage-and-execution-lanes.md) before creating a checkout, worktree, dependency store, build, or tranche. Planning remains the local control plane and repository implementation defaults to a registered repository-backed Codex Cloud environment/worktree. Projectless ChatGPT Work is research/artifact-only. Local opens only for the enumerated planning, custody, source-transfer, hardware, proof, deployment-review, or installed-app exceptions. Fintheon remains the flagship external-custody exception.
 5. **Establish the Installation Foundation.** Before writing an implementation plan, component sketch, or code, record the disposition of the required library foundation in this order: **BeUI** as the primary interaction/component source; the **Vercel UI library** as secondary; **Bklit** as the primary eligible data-visualization source; and **EvilCharts** as secondary. For each, record `installed`, `already installed`, `planned`, or `not applicable`, along with provenance, target seam, owner, protected zones, and why it earns or does not earn use. Install the eligible foundation before implementation when the current product needs it. Do not blindly add packages to backend-only or already-proven surfaces; a deliberate `not applicable` decision is still required.
 6. **Retrieve the best precedent.** Search the strongest accepted Solvys work and the closest relevant failure. Do not average all past work together or copy the nearest example merely because it is easy to find.
 7. **Model the system.** Translate TP's metaphor into explicit correspondences, locate where the analogy breaks, trace inputs, state, transformations, outputs, ownership, and proof. A metaphor is a debugging instrument, not decorative language.
@@ -72,16 +72,22 @@ work. TP does not need to name the skill. Every task title and primary plan
 artifact uses `S### - concise context`.
 
 `Implement this plan` freezes the accepted revision and dispatches every
-implementation-eligible track to a task-owned Cloud worktree by default. Each
-track carries the exact base, root preservation/sprint-level
+repository implementation-eligible track to a task-owned, repository-backed
+Codex Cloud environment/worktree by default. Each track carries environment ID
+and label, repository slug and attachment proof, requested base/ref
+availability, checkout mode/proof, authenticated Git publication route, exact
+base, root preservation/sprint-level
 `refs/sprints/S###/P#` or tranche/track
 `refs/sprints/S###/T#/P#` checkpoint ref, date-only integration branch, owner,
 dependencies, protected zones, name-only secrets manifest, proof gates,
-budgets, return path, and closure condition. The originating planning task may
-never become the implementation target, and an accepted plan with a missing or
+excluded names/categories, purpose-specific authorization gates, budgets,
+return path, and closure condition. The originating planning task may never
+become the implementation target, and an accepted plan with a missing or
 incomplete Cloud Pickup block fails dispatch. Dispatch must create or assign
-the task-owned Cloud worktree and return its pickup receipt; a local target or
-mere Cloud recommendation fails `Implement this plan`.
+the task-owned repository-backed worktree and return its exact environment and
+Git transport receipt; a local target, projectless ChatGPT Work target,
+read-only connector preflight, or mere Cloud recommendation fails
+`Implement this plan`.
 
 `main` stays clean, protected, deployable, and outside development. The only
 human-facing integration branch is `YYYY-MM-DD`. A daily integrator assembles

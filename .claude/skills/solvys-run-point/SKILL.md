@@ -8,7 +8,9 @@ description: Use when setting up or auditing a Solvys project where an orchestra
 ## Refresh System Contract
 
 Read `/solvys-cao/references/refresh-system.md`. The run-point keeps planning as
-the local control plane and dispatches implementation to Cloud by default.
+the local control plane and dispatches repository implementation only to a
+repository-backed Codex Cloud environment/worktree by default. A projectless ChatGPT Work
+VM remains non-repository research/artifact-only.
 Every project/sprint uses searchable identity `S### - concise context`, a
 date-only `YYYY-MM-DD` integration branch, and exact task-owned
 root `refs/sprints/S###/P#` preservation/sprint checkpoints or
@@ -19,7 +21,9 @@ dispatches the frozen tracks and may not reinterpret scope or let a planning
 task self-assign implementation. The originating planning task cannot
 implement, and a missing or incomplete Cloud Pickup block fails dispatch. The
 command must create or assign the task-owned Cloud worktree and return its
-pickup receipt; a local target or mere Cloud recommendation is not dispatch.
+environment, checkout, and authenticated Git publication receipt; a local
+target, projectless target, connector-read-only preflight, or mere Cloud
+recommendation is not dispatch.
 
 ## Solvys Ponytail Chain
 
@@ -167,9 +171,12 @@ The milestone map must include:
 - Do not create automation branches with feature, recovery, product, incident,
   bug-description, prose, agent, runtime, worker, or tool-name prefixes.
 - Require a complete Cloud Pickup block before every implementation dispatch:
-  accepted revision, repository, base, date branch, checkpoint ref, detached
-  worktree mode, owner, protected zones, dependencies, name-only secrets manifest, proof
-  gates, return path, budgets, and closure condition.
+  accepted revision, environment ID/label, repository slug and attachment
+  proof, requested base/ref availability, detached checkout mode/proof,
+  authenticated Git publication route, date branch, checkpoint ref, owner,
+  protected zones, dependencies, name-only secrets manifest, excluded
+  names/categories, purpose-specific authorization gates, proof gates, return
+  path, budgets, and closure condition.
 - Do not bury full-app human-practical testing inside implementation acceptance criteria; make it its own sprint work inside Milestone 2.
 - Do not use smaller work-unit terminology in automation prompts when it would make the runner think one subtask is enough.
 - Do not perform live outreach, production CRM writes, paid/manual source use, legal/compliance claims, or destructive repo operations without explicit approval.

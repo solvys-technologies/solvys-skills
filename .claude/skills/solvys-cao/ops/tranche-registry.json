@@ -7,8 +7,16 @@
     {
       "id": "S166",
       "title": "S166 - Solvys Refresh System",
-      "repository": "solvys-skills",
-      "executionLane": "cloud",
+      "repository": "solvys-technologies/solvys-skills",
+      "executionLane": "repository-backed-codex-cloud",
+      "environmentType": "repository-backed-codex-cloud",
+      "environmentId": "workspace:/workspace/scratch/e3e450690093/solvys-skills",
+      "environmentLabel": "S166 repository-attached Cloud workspace",
+      "repositoryAttachmentProof": "Git worktree with origin https://github.com/solvys-technologies/solvys-skills.git",
+      "requestedBaseRefAvailabilityProof": "refs/sprints/S166/P0 resolved to 383e4d78e185d012b0d177abfcb329818c56568f",
+      "checkoutMode": "existing date-branch Cloud worktree",
+      "checkoutProof": "2026-07-29 checked out with exact clean status",
+      "authenticatedGitPublicationRoute": "authenticated GitHub Git Data fast-forward to origin/2026-07-29",
       "workspacePathOrCloudBranch": "2026-07-29",
       "branch": "2026-07-29",
       "base": "383e4d78e185d012b0d177abfcb329818c56568f",
@@ -55,6 +63,15 @@
         "Policy-only task; Design impact not applicable."
       ],
       "secretsManifestNames": [],
+      "excludedSecretNamesOrCategories": [
+        "production",
+        "trading",
+        "authentication",
+        "database",
+        "provider_admin",
+        "destructive"
+      ],
+      "purposeSpecificAuthorizationGates": [],
       "sanitationPaths": []
     },
     {
@@ -112,7 +129,15 @@
     "id": "S### or S###-T#",
     "title": "S### - concise context",
     "repository": "repository name",
-    "executionLane": "cloud | external-local | internal-local",
+    "executionLane": "repository-backed-codex-cloud | external-local | internal-local",
+    "environmentType": "repository-backed-codex-cloud for repository implementation",
+    "environmentId": "exact Cloud environment identifier",
+    "environmentLabel": "exact human-readable Cloud environment label",
+    "repositoryAttachmentProof": "exact repository slug and attachment evidence",
+    "requestedBaseRefAvailabilityProof": "exact base/ref resolution evidence",
+    "checkoutMode": "detached task-owned worktree or recorded approved exception",
+    "checkoutProof": "exact HEAD/worktree/status evidence",
+    "authenticatedGitPublicationRoute": "exact authenticated Git remote and route",
     "workspacePathOrCloudBranch": "exact path or pushed branch",
     "base": "exact base commit SHA",
     "checkpointRef": "refs/sprints/S###/P# | refs/sprints/S###/T#/P#",
@@ -149,6 +174,8 @@
     "automationTaskIds": [],
     "references": [],
     "secretsManifestNames": [],
+    "excludedSecretNamesOrCategories": [],
+    "purposeSpecificAuthorizationGates": [],
     "sanitationPaths": []
   }
 }

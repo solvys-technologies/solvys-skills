@@ -84,12 +84,32 @@ If external execution fails because of removable-volume or launch-service
 permissions, restore the live service first, then create this deployment seam.
 Do not force the source checkout back onto the internal disk.
 
+## Repository-Backed Codex Cloud
+
+Repository implementation runs only in a repository-backed Codex Cloud
+environment/worktree. Before dispatch, record the exact environment ID and
+label, repository slug and attachment proof, requested base/ref availability,
+detached checkout mode and proof, and authenticated Git publication route.
+Repeat them in the return receipt.
+
+Projectless ChatGPT Work is limited to non-repository research, analysis, and
+standalone artifacts. Repository read access through a structured connector
+does not prove checkout or publication transport. If the environment cannot
+check out the requested repository/base and publish through authenticated Git,
+classify it as preflight-only and stop before source changes, CI, commits, refs,
+PRs, or worktree claims.
+
 ## Tranche Contract
 
 Each track or tranche records:
 
 ```markdown
-- Execution lane: Cloud backend-only | external-local | internal-local
+- Execution lane: repository-backed Codex Cloud | external-local | internal-local
+- Environment ID and label:
+- Repository slug and attachment proof:
+- Requested base/ref availability proof:
+- Checkout mode and proof:
+- Authenticated Git publication route:
 - Workspace path or Cloud branch:
 - Estimated peak storage:
 - Capacity reservation:
@@ -102,6 +122,8 @@ Each track or tranche records:
 - Tranche/track checkpoint ref: refs/sprints/S###/T#/P#
 - Date integration branch: YYYY-MM-DD
 - Secrets manifest: variable names only
+- Excluded secret names/categories:
+- Purpose-specific authorization gates:
 - Task/worktree/checkpoint/artifact/transcript/DMG/process/RAM budgets:
 ```
 

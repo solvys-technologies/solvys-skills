@@ -67,19 +67,23 @@ solution through the highest-reality proof plus durable learning promotion.
   super-sprint work. TP never has to name the skill.
 - Every task title and primary plan artifact uses `S### - concise context`.
 - `Implement this plan` freezes the accepted plan revision and dispatches every
-  implementation-eligible track to a Cloud worktree by default. Local planning
-  tasks do not implement, and the originating planning task is never a valid
-  implementation target.
-- Dispatch must create or assign the task-owned Cloud worktree and return its
-  pickup receipt. Reject local implementation and recommendation-only results.
-- Every pickup includes exact base, date branch, task-owned checkpoint ref,
-  owner, dependencies, protected zones, name-only secret manifest, proof gates,
-  budgets, return path, and closure condition.
+  repository implementation-eligible track to a repository-backed Codex Cloud
+  environment/worktree. Local planning and projectless ChatGPT Work do not
+  implement repository changes.
+- Dispatch must return exact environment ID/label, repository slug/attachment,
+  requested base/ref availability, detached checkout proof, and authenticated
+  Git publication route. Reject local, projectless, connector-read-only, and
+  recommendation-only results.
+- Every pickup includes those environment proofs plus date branch, task-owned
+  checkpoint ref, owner, dependencies, protected zones, name-only secret
+  manifest, excluded names/categories, purpose authorization gates, proof
+  gates, budgets, return path, and closure condition.
 - Refuse dispatch when the Cloud Pickup block is missing or any required field
   is empty.
 
 - Before creating a checkout, worktree, dependency store, or build, read the CAO
-  storage lane contract. Non-flagship implementation defaults to Cloud.
+  storage lane contract. Non-flagship repository implementation defaults to
+  repository-backed Codex Cloud.
   Fintheon remains the flagship external-custody exception; its backend-only
   deterministic/parallel compute may offload from an exact pushed ref and brief.
   Local opens only for the enumerated planning, custody, Wonder/source-transfer,
@@ -159,6 +163,10 @@ solution through the highest-reality proof plus durable learning promotion.
 - Return exact workspace, base, date branch, commit/ref SHAs, changed files,
   validations, protected zones, secret-name status, proof rung, human gates,
   and clean status at every checkpoint.
+- Plans and receipts contain secret names only. Use encrypted Cloud environment
+  secrets only for exact setup needs; runtime materialization requires a
+  reviewed least-privilege setup script. Never bulk-copy production, trading,
+  auth, database, provider-admin, or destructive credentials.
 
 ### 6. Communicate Like An Operator
 
