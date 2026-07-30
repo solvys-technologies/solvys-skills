@@ -145,10 +145,15 @@ solution through the highest-reality proof plus durable learning promotion.
 - Blacksmith loses autonomous eligibility on migrations, destructive writes,
   auth/authorization, billing, credentials, infrastructure, broad routing,
   security controls, irreversible integrations, release/install behavior, or
-  any protected surface. Human verification is mandatory before merge/deploy.
+  any protected or other damaging/high-risk surface. Human verification is
+  mandatory before merge, deployment, or date-branch deletion.
 - Routine accepted backend changes outside those named categories squash
-  through the date PR and deploy when required CI is green without a separate
-  human merge or deployment authorization.
+  through the date PR after green CI, deploy, pass postcheck, prove clean main,
+  and only then automatically delete the date branch. Every stage requires its
+  receipt; no separate human authorization applies.
+- Ordinary verified DMGs have zero retention: delete immediately and return
+  deletion plus absence receipts. A retained release DMG requires exact,
+  scoped, receipt-bearing classification.
 - Backup completion requires encrypted local-plus-cloud manifests and tested
   restore/readback. "Uploaded" is not a completed backup.
 - Return exact workspace, base, date branch, commit/ref SHAs, changed files,

@@ -342,16 +342,18 @@ When the unification issue finishes and the validator accepts it:
 2. Move every reviewed implementation track plus the unification track to `Done` or the team's completed state.
 3. Post one final ORCH/initiative status update that the sprint is unified and accepted.
 4. Prepare the daily integration receipt. Routine accepted backend changes
-   outside the named risk categories squash through the date PR and deploy when
-   required CI is green without a separate human authorization. Risk-category
-   work waits for recorded human verification before merge or deploy.
+   outside the named risk categories autonomously advance through green CI,
+   daily PR squash merge, deployment, postcheck, clean-main proof, and only
+   then automatic date-branch deletion. Every stage requires its receipt.
+   Risk-category work hard-stops before merge, deployment, and deletion pending
+   recorded human verification.
 
 Blacksmith may autonomously patch only deterministic, bounded, reversible
 low-risk work with exact rollback and bounded tests. Migrations, destructive
 writes, auth/authorization, billing, credentials, infrastructure, broad
 routing, security controls, irreversible integrations, release/install
-behavior, and protected surfaces always require human verification before merge
-or deploy.
+behavior, protected surfaces, and other damaging/high-risk boundaries always
+require human verification before merge, deployment, or date-branch deletion.
 
 ## STRICT GUARDRAIL — No Self-Assignment
 

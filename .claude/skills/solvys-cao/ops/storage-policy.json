@@ -49,7 +49,23 @@
     "taskCheckpointRefPattern": "^refs/sprints/S\\d{3,}(?:/T[1-9]\\d*)?/P\\d+$",
     "forceRewriteAcceptedHistory": false,
     "dailyPrMergeMethod": "squash",
-    "deleteDateBranchRequiresAuthorization": true
+    "dateBranchLifecycle": {
+      "routineLowRiskAutomatic": true,
+      "requiredReceiptOrder": [
+        "green_ci_receipt",
+        "daily_pr_squash_merge_receipt",
+        "deployment_receipt",
+        "postcheck_receipt",
+        "clean_main_receipt",
+        "date_branch_deletion_absence_receipt"
+      ],
+      "deleteOnlyAfterAllPriorReceipts": true,
+      "humanRiskStopsBefore": [
+        "daily_pr_squash_merge",
+        "deployment",
+        "date_branch_deletion"
+      ]
+    }
   },
   "backupContract": {
     "encryptedLocalManifestRequired": true,
@@ -83,7 +99,7 @@
       "sustainedRamPercent": 65,
       "sustainedRamMinutes": 5,
       "dmgsPerProductSprint": 1,
-      "dmgLifetimeHoursAfterVerification": 24,
+      "dmgLifetimeHoursAfterVerification": 0,
       "artifactBytesPerTask": 2000000000,
       "artifactBytesPerSprint": 10000000000,
       "checkpointsPerTrack": 3,
@@ -91,6 +107,25 @@
       "worktreesPerTrack": 1,
       "worktreesPerSprint": 4,
       "activeTranscriptsPerTask": 1
+    },
+    "verifiedDmgContract": {
+      "ordinaryAction": "delete_immediately_after_verification",
+      "ordinaryRequiredReceipts": [
+        "deletion_receipt",
+        "absence_receipt"
+      ],
+      "retainedReleaseException": {
+        "classification": "retained_release_artifact",
+        "requiredFields": [
+          "exactDmgPath",
+          "sha256",
+          "releaseIdentity",
+          "scope",
+          "owner",
+          "retentionEndsAt",
+          "classificationReceipt"
+        ]
+      }
     },
     "overrideRequiredFields": [
       "reason",
@@ -109,7 +144,8 @@
       "archive_finished_tasks_and_transcripts_through_owner",
       "retain_current_and_rollback_checkpoints",
       "mark_superseded_refs_for_control_plane_retention",
-      "use_recoverable_cleanup_for_verified_expired_dmgs_and_reproducible_artifacts",
+      "delete_verified_ordinary_dmgs_immediately_and_record_absence",
+      "use_recoverable_cleanup_for_reproducible_artifacts",
       "resume_only_below_ceiling_or_with_active_recorded_override"
     ],
     "neverKillUnrelatedOrSystemProcesses": true,
@@ -138,9 +174,12 @@
     "routineAcceptedBackend": {
       "squashThroughDatePullRequest": true,
       "deployWhenRequiredCiIsGreen": true,
-      "separateHumanMergeOrDeployAuthorization": false
+      "postcheckRequired": true,
+      "cleanMainProofRequired": true,
+      "automaticDateBranchDeletionAfterAllReceipts": true,
+      "separateHumanMergeDeployOrDeletionAuthorization": false
     },
-    "humanVerificationBeforeMergeOrDeploy": [
+    "humanVerificationBeforeMergeDeployOrDateBranchDeletion": [
       "migrations",
       "destructive_writes",
       "authentication",
@@ -152,7 +191,8 @@
       "security_controls",
       "irreversible_integrations",
       "release_or_install_behavior",
-      "protected_surface_changes"
+      "protected_surface_changes",
+      "other_damaging_or_high_risk_boundary"
     ]
   },
   "approvedActions": {

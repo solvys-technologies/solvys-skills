@@ -80,8 +80,165 @@
       "security-control",
       "irreversible-integration",
       "release-or-install",
-      "protected-surface"
+      "protected-surface",
+      "other-damaging-or-high-risk-boundary"
     ]
+  },
+  "dmgLifecycle": {
+    "defaultLifetimeCases": [
+      {
+        "id": "zero-hours-after-verification",
+        "dmgLifetimeHoursAfterVerification": 0,
+        "expectedErrors": []
+      },
+      {
+        "id": "nonzero-default-rejected",
+        "dmgLifetimeHoursAfterVerification": 24,
+        "expectedErrors": [
+          "dmg_default_lifetime_must_be_zero"
+        ]
+      }
+    ],
+    "artifactCases": [
+      {
+        "id": "ordinary-verified-dmg-deleted-with-proof",
+        "verified": true,
+        "classification": "ordinary",
+        "state": "deleted",
+        "deletionReceipt": "receipt:dmg-delete:S166",
+        "absenceReceipt": "receipt:dmg-absent:S166",
+        "expectedErrors": []
+      },
+      {
+        "id": "explicit-retained-release-artifact",
+        "verified": true,
+        "classification": "retained_release_artifact",
+        "state": "retained",
+        "exactDmgPath": "/release/S166/Solvys.dmg",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "releaseIdentity": "S166-release-candidate",
+        "scope": "S166 macOS release verification only",
+        "owner": "release steward",
+        "retentionEndsAt": "2026-07-30T00:00:00-04:00",
+        "classificationReceipt": "receipt:retained-release-dmg:S166",
+        "expectedErrors": []
+      },
+      {
+        "id": "ordinary-verified-dmg-not-deleted",
+        "verified": true,
+        "classification": "ordinary",
+        "state": "retained",
+        "deletionReceipt": "receipt:dmg-delete:S166",
+        "absenceReceipt": "receipt:dmg-absent:S166",
+        "expectedErrors": [
+          "ordinary_verified_dmg_not_deleted_immediately"
+        ]
+      },
+      {
+        "id": "ordinary-deletion-without-proof",
+        "verified": true,
+        "classification": "ordinary",
+        "state": "deleted",
+        "expectedErrors": [
+          "ordinary_verified_dmg_missing_deletion_receipt",
+          "ordinary_verified_dmg_missing_absence_receipt"
+        ]
+      },
+      {
+        "id": "retained-release-exception-missing-scope-and-receipt",
+        "verified": true,
+        "classification": "retained_release_artifact",
+        "state": "retained",
+        "exactDmgPath": "/release/S166/Solvys.dmg",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "releaseIdentity": "S166-release-candidate",
+        "owner": "release steward",
+        "retentionEndsAt": "2026-07-30T00:00:00-04:00",
+        "expectedErrors": [
+          "retained_release_dmg_missing_field:scope",
+          "retained_release_dmg_missing_field:classificationReceipt"
+        ]
+      }
+    ]
+  },
+  "dateBranchLifecycle": {
+    "requiredRoutineReceiptOrder": [
+      "green_ci_receipt",
+      "daily_pr_squash_merge_receipt",
+      "deployment_receipt",
+      "postcheck_receipt",
+      "clean_main_receipt",
+      "date_branch_deletion_absence_receipt"
+    ],
+    "validCases": [
+      {
+        "id": "routine-low-risk-full-autonomous-lifecycle",
+        "riskCategory": null,
+        "result": "date_branch_deleted",
+        "receipts": [
+          "green_ci_receipt",
+          "daily_pr_squash_merge_receipt",
+          "deployment_receipt",
+          "postcheck_receipt",
+          "clean_main_receipt",
+          "date_branch_deletion_absence_receipt"
+        ],
+        "expectedErrors": []
+      },
+      {
+        "id": "human-risk-after-verification",
+        "riskCategory": "migrations",
+        "humanVerificationReceipt": "receipt:human-verification:S166",
+        "result": "date_branch_deleted",
+        "receipts": [
+          "green_ci_receipt",
+          "daily_pr_squash_merge_receipt",
+          "deployment_receipt",
+          "postcheck_receipt",
+          "clean_main_receipt",
+          "date_branch_deletion_absence_receipt"
+        ],
+        "expectedErrors": []
+      }
+    ],
+    "invalidCases": [
+      {
+        "id": "routine-date-branch-deletion-before-postcheck-and-clean-main",
+        "riskCategory": null,
+        "result": "date_branch_deleted",
+        "receipts": [
+          "green_ci_receipt",
+          "daily_pr_squash_merge_receipt",
+          "deployment_receipt",
+          "date_branch_deletion_absence_receipt"
+        ],
+        "expectedErrors": [
+          "date_branch_deletion_before_full_low_risk_lifecycle"
+        ]
+      }
+    ],
+    "humanRiskMatrix": {
+      "categories": [
+        "migrations",
+        "destructive_writes",
+        "authentication",
+        "authorization",
+        "billing",
+        "secrets_or_provider_credentials",
+        "infrastructure",
+        "broad_routing",
+        "security_controls",
+        "irreversible_integrations",
+        "release_or_install_behavior",
+        "protected_surface_changes",
+        "other_damaging_or_high_risk_boundary"
+      ],
+      "attemptedStages": [
+        "daily_pr_squash_merge",
+        "deployment",
+        "date_branch_deletion"
+      ]
+    }
   },
   "implementThisPlan": {
     "requiredCloudPickupFields": [

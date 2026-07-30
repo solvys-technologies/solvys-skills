@@ -87,14 +87,16 @@ mere Cloud recommendation fails `Implement this plan`.
 human-facing integration branch is `YYYY-MM-DD`. A daily integrator assembles
 accepted checkpoints there; CI gates the daily backend PR; squash occurs at the
 PR boundary. Routine accepted backend changes outside the named risk categories
-deploy through green CI without separate human merge/deploy authorization.
-Date-branch deletion remains human-authorized.
+autonomously advance through green CI, daily PR squash merge, deployment,
+postcheck, clean-main proof, and only then automatic date-branch deletion. Each
+stage requires its receipt; no blanket human authorization applies.
 
 Blacksmith may own only deterministic, bounded, reversible low-risk patches
 with exact rollback and bounded tests. Any migration, destructive write, auth,
 authorization, billing, credential, infrastructure, broad-routing, security,
-irreversible integration, release/install, or protected-surface change removes
-eligibility and requires human verification before merge or deploy.
+irreversible integration, release/install, protected-surface, or other damaging
+or high-risk change removes eligibility and hard-stops before merge, deployment,
+or date-branch deletion pending human verification.
 
 Every checkpoint returns the exact receipt defined in
 [refresh-system.md](references/refresh-system.md). Backup completion requires

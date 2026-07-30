@@ -109,6 +109,8 @@ REQUIRED_PHRASES = {
         "coherent CI/deployment",
         "Worktree mode: detached",
         "A Cloud recommendation alone is not",
+        "automatic date-branch deletion",
+        "0 hours after verification",
     ],
 }
 
@@ -141,7 +143,7 @@ DEFAULT_RESOURCE_CEILINGS = {
     "sustainedRamPercent": 65,
     "sustainedRamMinutes": 5,
     "dmgsPerProductSprint": 1,
-    "dmgLifetimeHoursAfterVerification": 24,
+    "dmgLifetimeHoursAfterVerification": 0,
     "artifactBytesPerTask": 2_000_000_000,
     "artifactBytesPerSprint": 10_000_000_000,
     "checkpointsPerTrack": 3,
@@ -150,6 +152,41 @@ DEFAULT_RESOURCE_CEILINGS = {
     "worktreesPerSprint": 4,
     "activeTranscriptsPerTask": 1,
 }
+
+ROUTINE_DATE_BRANCH_RECEIPTS = [
+    "green_ci_receipt",
+    "daily_pr_squash_merge_receipt",
+    "deployment_receipt",
+    "postcheck_receipt",
+    "clean_main_receipt",
+    "date_branch_deletion_absence_receipt",
+]
+
+HUMAN_RISK_CATEGORIES = {
+    "migrations",
+    "destructive_writes",
+    "authentication",
+    "authorization",
+    "billing",
+    "secrets_or_provider_credentials",
+    "infrastructure",
+    "broad_routing",
+    "security_controls",
+    "irreversible_integrations",
+    "release_or_install_behavior",
+    "protected_surface_changes",
+    "other_damaging_or_high_risk_boundary",
+}
+
+RETAINED_RELEASE_DMG_FIELDS = [
+    "exactDmgPath",
+    "sha256",
+    "releaseIdentity",
+    "scope",
+    "owner",
+    "retentionEndsAt",
+    "classificationReceipt",
+]
 
 
 def validate_implement_dispatch(
@@ -177,6 +214,69 @@ def validate_implement_dispatch(
     for field in required_fields:
         if field not in pickup or pickup[field] in (None, ""):
             errors.append(f"cloud_pickup_missing_field:{field}")
+    return errors
+
+
+def validate_dmg_lifecycle(case: dict[str, object]) -> list[str]:
+    """Return stable error codes for one DMG lifecycle fixture."""
+    errors: list[str] = []
+    if "dmgLifetimeHoursAfterVerification" in case:
+        if case["dmgLifetimeHoursAfterVerification"] != 0:
+            errors.append("dmg_default_lifetime_must_be_zero")
+        return errors
+
+    if case.get("verified") is not True:
+        return errors
+    classification = case.get("classification")
+    if classification == "ordinary":
+        if case.get("state") != "deleted":
+            errors.append("ordinary_verified_dmg_not_deleted_immediately")
+        if not case.get("deletionReceipt"):
+            errors.append("ordinary_verified_dmg_missing_deletion_receipt")
+        if not case.get("absenceReceipt"):
+            errors.append("ordinary_verified_dmg_missing_absence_receipt")
+    elif classification == "retained_release_artifact":
+        for field in RETAINED_RELEASE_DMG_FIELDS:
+            if not case.get(field):
+                errors.append(f"retained_release_dmg_missing_field:{field}")
+    else:
+        errors.append("verified_dmg_missing_explicit_classification")
+    return errors
+
+
+def validate_date_branch_lifecycle(
+    case: dict[str, object],
+    required_receipts: list[str],
+    human_risk_categories: set[str],
+) -> list[str]:
+    """Return stable errors for one date-branch lifecycle fixture."""
+    errors: list[str] = []
+    receipts = case.get("receipts", [])
+    if case.get("result") == "date_branch_deleted" and receipts != required_receipts:
+        errors.append("date_branch_deletion_before_full_low_risk_lifecycle")
+
+    risk_category = case.get("riskCategory")
+    attempted_stages: list[object] = []
+    if case.get("attemptedStage"):
+        attempted_stages.append(case["attemptedStage"])
+    else:
+        receipt_stages = {
+            "daily_pr_squash_merge_receipt": "daily_pr_squash_merge",
+            "deployment_receipt": "deployment",
+            "date_branch_deletion_absence_receipt": "date_branch_deletion",
+        }
+        for receipt, stage in receipt_stages.items():
+            if receipt in receipts:
+                attempted_stages.append(stage)
+    if (
+        isinstance(risk_category, str)
+        and risk_category in human_risk_categories
+        and not case.get("humanVerificationReceipt")
+    ):
+        for attempted_stage in attempted_stages:
+            errors.append(
+                f"human_verification_required_before:{attempted_stage}:{risk_category}"
+            )
     return errors
 
 
@@ -262,6 +362,17 @@ def main() -> int:
             != r"^refs/sprints/S\d{3,}(?:/T[1-9]\d*)?/P\d+$"
         ):
             errors.append("storage policy: root/track checkpoint ref pattern drifted")
+        if branch_contract.get("dateBranchLifecycle") != {
+            "routineLowRiskAutomatic": True,
+            "requiredReceiptOrder": ROUTINE_DATE_BRANCH_RECEIPTS,
+            "deleteOnlyAfterAllPriorReceipts": True,
+            "humanRiskStopsBefore": [
+                "daily_pr_squash_merge",
+                "deployment",
+                "date_branch_deletion",
+            ],
+        }:
+            errors.append("storage policy: date-branch lifecycle drifted")
         backup = policy["backupContract"]
         if backup["uploadedIsComplete"] is not False or backup["restoreReadbackRequired"] is not True:
             errors.append("storage policy: upload must not count without restore/readback")
@@ -285,23 +396,16 @@ def main() -> int:
         if routine_backend != {
             "squashThroughDatePullRequest": True,
             "deployWhenRequiredCiIsGreen": True,
-            "separateHumanMergeOrDeployAuthorization": False,
+            "postcheckRequired": True,
+            "cleanMainProofRequired": True,
+            "automaticDateBranchDeletionAfterAllReceipts": True,
+            "separateHumanMergeDeployOrDeletionAuthorization": False,
         }:
-            errors.append("storage policy: routine backend green-CI flow drifted")
-        if set(risk["humanVerificationBeforeMergeOrDeploy"]) != {
-            "migrations",
-            "destructive_writes",
-            "authentication",
-            "authorization",
-            "billing",
-            "secrets_or_provider_credentials",
-            "infrastructure",
-            "broad_routing",
-            "security_controls",
-            "irreversible_integrations",
-            "release_or_install_behavior",
-            "protected_surface_changes",
-        }:
+            errors.append("storage policy: autonomous routine backend lifecycle drifted")
+        if (
+            set(risk["humanVerificationBeforeMergeDeployOrDateBranchDeletion"])
+            != HUMAN_RISK_CATEGORIES
+        ):
             errors.append("storage policy: human-risk gate categories drifted")
         if policy["resourceBudgets"].get("defaultCeilings") != DEFAULT_RESOURCE_CEILINGS:
             errors.append("storage policy: enforceable default resource ceilings drifted")
@@ -324,13 +428,23 @@ def main() -> int:
             "archive_finished_tasks_and_transcripts_through_owner",
             "retain_current_and_rollback_checkpoints",
             "mark_superseded_refs_for_control_plane_retention",
-            "use_recoverable_cleanup_for_verified_expired_dmgs_and_reproducible_artifacts",
+            "delete_verified_ordinary_dmgs_immediately_and_record_absence",
+            "use_recoverable_cleanup_for_reproducible_artifacts",
             "resume_only_below_ceiling_or_with_active_recorded_override",
         }
         if set(policy["resourceBudgets"].get("breachActions", [])) != required_breach_actions:
             errors.append("storage policy: resource breach stop/cleanup behavior drifted")
         if policy["resourceBudgets"].get("neverKillUnrelatedOrSystemProcesses") is not True:
             errors.append("storage policy: unrelated/system processes must stay protected")
+        if policy["resourceBudgets"].get("verifiedDmgContract") != {
+            "ordinaryAction": "delete_immediately_after_verification",
+            "ordinaryRequiredReceipts": ["deletion_receipt", "absence_receipt"],
+            "retainedReleaseException": {
+                "classification": "retained_release_artifact",
+                "requiredFields": RETAINED_RELEASE_DMG_FIELDS,
+            },
+        }:
+            errors.append("storage policy: verified DMG lifecycle drifted")
         for name in ("registeredTaskTemp", "externalQuarantine", "transcriptArchive"):
             if name not in rules:
                 errors.append(f"storage policy: missing sanitation rule {name!r}")
@@ -378,10 +492,16 @@ def main() -> int:
                 "peakRamPercent",
                 "sustainedRamPercent",
                 "sustainedRamMinutes",
+                "dmgLifetimeHoursAfterVerification",
+                "retainedReleaseDmgException",
                 "override",
             ):
                 if key not in s166_budgets:
                     errors.append(f"tranche registry: S166 missing resource budget {key!r}")
+            if s166_budgets.get("dmgLifetimeHoursAfterVerification") != 0:
+                errors.append("tranche registry: S166 verified DMG lifetime must be zero")
+            if s166_budgets.get("retainedReleaseDmgException") is not None:
+                errors.append("tranche registry: S166 has no retained release DMG exception")
     except (OSError, KeyError, TypeError, json.JSONDecodeError) as exc:
         errors.append(f"tranche registry: invalid machine-readable boundary: {exc}")
 
@@ -446,9 +566,90 @@ def main() -> int:
             "irreversible-integration",
             "release-or-install",
             "protected-surface",
+            "other-damaging-or-high-risk-boundary",
         }
         if risky != required_risky:
             errors.append("refresh fixture: Blacksmith protected/risky surfaces drifted")
+
+        dmg = fixtures["dmgLifecycle"]
+        expected_dmg_default_ids = {
+            "zero-hours-after-verification",
+            "nonzero-default-rejected",
+        }
+        if {case["id"] for case in dmg["defaultLifetimeCases"]} != expected_dmg_default_ids:
+            errors.append("refresh fixture: DMG default lifetime cases drifted")
+        expected_dmg_artifact_ids = {
+            "ordinary-verified-dmg-deleted-with-proof",
+            "explicit-retained-release-artifact",
+            "ordinary-verified-dmg-not-deleted",
+            "ordinary-deletion-without-proof",
+            "retained-release-exception-missing-scope-and-receipt",
+        }
+        if {case["id"] for case in dmg["artifactCases"]} != expected_dmg_artifact_ids:
+            errors.append("refresh fixture: DMG artifact lifecycle cases drifted")
+        for case in dmg["defaultLifetimeCases"] + dmg["artifactCases"]:
+            actual = validate_dmg_lifecycle(case)
+            expected = case["expectedErrors"]
+            if actual != expected:
+                errors.append(
+                    f"refresh fixture: DMG case {case['id']!r} "
+                    f"expected {expected!r}, got {actual!r}"
+                )
+
+        lifecycle = fixtures["dateBranchLifecycle"]
+        required_lifecycle_receipts = lifecycle["requiredRoutineReceiptOrder"]
+        if required_lifecycle_receipts != ROUTINE_DATE_BRANCH_RECEIPTS:
+            errors.append("refresh fixture: routine date-branch receipt order drifted")
+        if {case["id"] for case in lifecycle["validCases"]} != {
+            "routine-low-risk-full-autonomous-lifecycle",
+            "human-risk-after-verification",
+        }:
+            errors.append("refresh fixture: valid date-branch lifecycle cases drifted")
+        if {case["id"] for case in lifecycle["invalidCases"]} != {
+            "routine-date-branch-deletion-before-postcheck-and-clean-main",
+        }:
+            errors.append("refresh fixture: invalid date-branch lifecycle cases drifted")
+        for case in lifecycle["validCases"] + lifecycle["invalidCases"]:
+            actual = validate_date_branch_lifecycle(
+                case,
+                required_lifecycle_receipts,
+                HUMAN_RISK_CATEGORIES,
+            )
+            expected = case["expectedErrors"]
+            if actual != expected:
+                errors.append(
+                    f"refresh fixture: date-branch case {case['id']!r} "
+                    f"expected {expected!r}, got {actual!r}"
+                )
+        risk_matrix = lifecycle["humanRiskMatrix"]
+        if set(risk_matrix["categories"]) != HUMAN_RISK_CATEGORIES:
+            errors.append("refresh fixture: human-risk lifecycle matrix drifted")
+        expected_risk_stages = {
+            "daily_pr_squash_merge",
+            "deployment",
+            "date_branch_deletion",
+        }
+        if set(risk_matrix["attemptedStages"]) != expected_risk_stages:
+            errors.append("refresh fixture: human-risk stop stages drifted")
+        for category in risk_matrix["categories"]:
+            for stage in risk_matrix["attemptedStages"]:
+                case = {
+                    "riskCategory": category,
+                    "attemptedStage": stage,
+                }
+                actual = validate_date_branch_lifecycle(
+                    case,
+                    required_lifecycle_receipts,
+                    HUMAN_RISK_CATEGORIES,
+                )
+                expected = [
+                    f"human_verification_required_before:{stage}:{category}"
+                ]
+                if actual != expected:
+                    errors.append(
+                        f"refresh fixture: human-risk case {category!r}/{stage!r} "
+                        f"expected {expected!r}, got {actual!r}"
+                    )
 
         dispatch = fixtures["implementThisPlan"]
         required_pickup_fields = dispatch["requiredCloudPickupFields"]
@@ -500,6 +701,9 @@ def main() -> int:
         binding_paths = [
             ROOT / "SKILL.md",
             ROOT / "references/refresh-system.md",
+            ROOT / "references/storage-and-execution-lanes.md",
+            ROOT / "ops/storage-policy.json",
+            ROOT / "ops/tranche-registry.json",
             OPERATIONAL_SKILLS["solvys-brief"],
             OPERATIONAL_SKILLS["solvys-orchestrate"],
             OPERATIONAL_SKILLS["solvys-execute"],
@@ -510,6 +714,13 @@ def main() -> int:
             "deployment remains separately human-authorized",
             "Merge, deploy, and date-branch deletion remain human-authorized",
             "checkpoint custody uses `refs/sprints/S###/P#`",
+            "Date-branch deletion remains human-authorized",
+            "maximum lifetime 24 hours after verification",
+            "for at most 24\nhours after verification",
+            '"dmgLifetimeHoursAfterVerification": 24',
+            '"deleteDateBranchRequiresAuthorization"',
+            '"humanVerificationBeforeMergeOrDeploy"',
+            '"separateHumanMergeOrDeployAuthorization"',
         )
         for path in binding_paths:
             text = path.read_text(encoding="utf-8")

@@ -103,10 +103,13 @@ branch or task-owned checkpoint ref with a turnkey brief.
 - The accepted daily backend aggregation produces one coherent CI/deployment
   receipt.
 - Routine accepted backend changes outside the named human-risk categories
-  squash through the date PR and deploy when required CI is green. They do not
-  require a separate human merge or deployment authorization.
-- Human authorization is still required to delete the date branch. Accepted
-  history is never force-rewritten for cosmetic cleanup.
+  autonomously complete this ordered lifecycle: green CI receipt, daily PR
+  squash-merge receipt, deployment receipt, postcheck receipt, clean-main
+  proof, then automatic date-branch deletion with a deletion/absence receipt.
+  Date-branch deletion is forbidden until every earlier receipt passes. No
+  separate human merge, deployment, or deletion authorization applies to this
+  routine low-risk lane.
+- Accepted history is never force-rewritten for cosmetic cleanup.
 - Preserve all existing refs, dirty-state provenance, and recoverable unique
   state.
 - Repository closure requires exact `git status --short --branch` evidence and
@@ -125,12 +128,13 @@ Blacksmith may autonomously apply a low-risk patch only when all are true:
 Blacksmith eligibility is lost when a change touches migrations, destructive
 writes, authentication, authorization, billing, secrets or provider
 credentials, infrastructure, broad routing, security controls, irreversible
-integrations, release/install behavior, or any declared protected surface.
+integrations, release/install behavior, any declared protected surface, or any
+other damaging or high-risk boundary.
 
-Only those categories require mandatory human verification before merge or
-deploy. Automation may prepare their evidence, but it may not convert
-preparation into authorization. Routine accepted backend changes outside those
-categories continue through green CI without an extra human gate.
+Those categories hard-stop before merge, deployment, and date-branch deletion
+pending mandatory human verification. Automation may prepare their evidence,
+but it may not convert preparation into authorization. Routine accepted backend
+changes outside every category complete the receipt-gated autonomous lifecycle.
 
 ## Backup, Restore, And Unique-State Gates
 
@@ -160,7 +164,7 @@ cleanup/return condition:
 | Total task-owned preview/browser/server processes | 4 per task |
 | Peak RAM pressure | 75 percent |
 | Sustained RAM pressure | 65 percent for 5 minutes |
-| DMGs | 1 per product/sprint, maximum lifetime 24 hours after verification |
+| DMGs | 1 per product/sprint; 0 hours after verification |
 | Reproducible artifacts | 2 GB per task and 10 GB per sprint |
 | Retained checkpoints | 3 per track and 12 per sprint |
 | Active worktrees | 1 per track and 4 per sprint |
@@ -179,9 +183,12 @@ At or above a ceiling:
    delete one;
 6. retain current and rollback checkpoints, and mark superseded refs for
    control-plane retention rather than deleting them;
-7. after verification and a receipt, move expired task-owned DMGs and
-   reproducible artifacts through the approved recoverable cleanup lane;
-8. resume only after the measured state is below the ceiling or a recorded
+7. immediately delete every ordinary verified DMG and return both deletion and
+   absence receipts; retain one only when that exact DMG is explicitly
+   classified as a retained release artifact with path, SHA-256, release
+   identity, scope, owner, retention end, and classification receipt;
+8. move reproducible artifacts through the approved recoverable cleanup lane;
+9. resume only after the measured state is below the ceiling or a recorded
    sprint override is active.
 
 ## Frontend Truth And Foundation

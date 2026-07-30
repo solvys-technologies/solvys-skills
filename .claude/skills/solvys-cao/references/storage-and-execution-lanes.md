@@ -134,10 +134,15 @@ At a tranche boundary:
 Use the enforceable defaults in `refresh-system.md`: one concurrent local
 implementation task; at most one preview, one browser, two servers, and four
 total task-owned processes per task; RAM ceilings of 75 percent peak and 65
-percent sustained for five minutes; one DMG per product/sprint for at most 24
-hours after verification; artifacts capped at 2 GB per task and 10 GB per
-sprint; three checkpoints per track and twelve per sprint; one worktree per
-track and four per sprint; and one active transcript per task.
+percent sustained for five minutes; one DMG per product/sprint and zero hours
+of ordinary retention after verification; artifacts capped at 2 GB per task
+and 10 GB per sprint; three checkpoints per track and twelve per sprint; one
+worktree per track and four per sprint; and one active transcript per task.
+
+Immediately delete an ordinary verified DMG and return deletion plus absence
+receipts. Retention is allowed only for the exact DMG explicitly classified as
+a retained release artifact, with scoped ownership, hash, release identity,
+retention end, and classification receipt.
 
 At a ceiling, stop new launches, inventory exact task-owned resources,
 gracefully stop task-owned processes oldest-first, verify PID exit, and use the

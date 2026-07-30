@@ -25,7 +25,8 @@
         "artifactBytesPerSprint": 10000000000,
         "activeTranscriptsPerTask": 1,
         "dmgsPerProductSprint": 0,
-        "dmgLifetimeHoursAfterVerification": 24,
+        "dmgLifetimeHoursAfterVerification": 0,
+        "retainedReleaseDmgException": null,
         "taskOwnedProcessesPerTask": {
           "preview": 0,
           "browser": 0,
@@ -127,7 +128,8 @@
       "artifactBytesPerSprint": 10000000000,
       "activeTranscriptsPerTask": 1,
       "dmgsPerProductSprint": 1,
-      "dmgLifetimeHoursAfterVerification": 24,
+      "dmgLifetimeHoursAfterVerification": 0,
+      "retainedReleaseDmgException": "null or exactDmgPath/sha256/releaseIdentity/scope/owner/retentionEndsAt/classificationReceipt",
       "taskOwnedProcessesPerTask": {
         "preview": 1,
         "browser": 1,
