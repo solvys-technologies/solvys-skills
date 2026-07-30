@@ -288,6 +288,30 @@ def validate_implement_dispatch(
         errors.append("cloud_pickup_environment_is_not_repository_backed_codex_cloud")
     if pickup.get("Environment type") == "projectless-chatgpt-work":
         errors.append("projectless_chatgpt_work_cannot_implement_repository_work")
+    environment_id = pickup.get("Environment ID")
+    if not isinstance(environment_id, str) or not re.fullmatch(r"[0-9a-f]{32}", environment_id):
+        errors.append("cloud_pickup_environment_id_is_not_real_opaque_id")
+    elif (
+        environment_id.startswith("workspace:")
+        or "/workspace/scratch/" in environment_id
+        or environment_id.startswith("codex-cloud-env-")
+    ):
+        errors.append("cloud_pickup_environment_id_is_forbidden_identity_shape")
+    repository = pickup.get("Repository slug")
+    label = pickup.get("Environment label")
+    workspace = pickup.get("Managed workspace path")
+    if label != repository:
+        errors.append("cloud_pickup_environment_label_repository_mismatch")
+    if isinstance(repository, str) and workspace != f"/workspace/{repository.rsplit('/', 1)[-1]}":
+        errors.append("cloud_pickup_workspace_repository_mismatch")
+    requested_base = pickup.get("Requested base/ref")
+    checked_out_head = pickup.get("Exact checked-out HEAD")
+    if requested_base == "main" or pickup.get("Implementation lane") == "main":
+        errors.append("main_cannot_be_implementation_lane")
+    if pickup.get("Base commit") != requested_base or checked_out_head != requested_base:
+        errors.append("cloud_pickup_base_head_mismatch")
+    if pickup.get("Clean-start proof") != "status=clean":
+        errors.append("cloud_pickup_clean_start_not_proven")
     if (
         pickup.get("Repository attachment proof") == "structured-connector-read-only"
         and (
@@ -314,6 +338,16 @@ def validate_implement_dispatch(
         errors.append(
             "cloud_return_receipt_environment_is_not_repository_backed_codex_cloud"
         )
+    consistency_fields = (
+        "Environment type", "Environment ID", "Environment label",
+        "Repository slug", "Managed workspace path", "Base commit",
+        "Requested base/ref", "Exact checked-out HEAD", "Clean-start proof",
+        "Checkout mode", "Authenticated Git publication route",
+        "Return branch", "Task identity", "Task-owned checkpoint ref",
+    )
+    for field in consistency_fields:
+        if pickup.get(field) != return_receipt.get(field):
+            errors.append(f"cloud_pickup_return_mismatch:{field}")
     return errors
 
 
@@ -498,8 +532,8 @@ def main() -> int:
             errors.append("storage policy: repository implementation Cloud lane drifted")
         if policy.get("cloudImplementationContract") != {
             "repositoryWorkTarget": "repository_backed_codex_cloud",
-            "requiredPickupFieldCount": 25,
-            "requiredReturnReceiptFieldCount": 13,
+            "requiredPickupFieldCount": 32,
+            "requiredReturnReceiptFieldCount": 20,
             "projectlessChatgptWorkAllowedFor": [
                 "non_repository_research",
                 "analysis",
@@ -512,13 +546,19 @@ def main() -> int:
                 "promises_worktree",
             ],
             "requiredProofs": [
-                "environment_id_and_label",
-                "repository_slug_and_attachment",
-                "requested_base_or_ref_available",
+                "real_opaque_environment_id_and_separate_label",
+                "repository_slug_attachment_and_managed_workspace",
+                "requested_base_ref_exact_head_and_clean_start",
                 "detached_checkout",
                 "authenticated_git_publication_route",
+                "matching_pickup_return_branch_task_and_checkpoint",
             ],
             "connectorReadWithoutCheckoutOrPublicationTransport": "preflight_only",
+            "forbiddenEnvironmentIdShapes": [
+                "path", "workspace:", "/workspace/scratch/", "codex-cloud-env-*",
+            ],
+            "pickupReturnIdentityMustMatch": True,
+            "mainImplementationLaneAllowed": False,
         }:
             errors.append("storage policy: repository-backed Codex Cloud contract drifted")
         branch_contract = policy["branchAndRefContract"]
@@ -661,6 +701,21 @@ def main() -> int:
                 errors.append("tranche registry: S166 repository slug drifted")
             if s166.get("executionLane") != "repository-backed-codex-cloud":
                 errors.append("tranche registry: S166 Cloud environment lane drifted")
+            exact_identity = {
+                "environmentId": "6a6acebaf9a48191a587ae19c6cafd52",
+                "environmentLabel": "solvys-technologies/solvys-skills",
+                "repository": "solvys-technologies/solvys-skills",
+                "workspacePathOrCloudBranch": "/workspace/solvys-skills",
+                "requestedBase": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+                "exactCheckedOutHead": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+                "cleanStartProof": "status=clean",
+                "checkoutMode": "detached",
+                "returnBranch": "2026-07-29",
+                "taskIdentity": "S166/T1",
+            }
+            for key, expected_value in exact_identity.items():
+                if s166.get(key) != expected_value:
+                    errors.append(f"tranche registry: S166 truthful identity drifted for {key}")
             for key in (
                 "environmentType",
                 "environmentId",
@@ -878,8 +933,12 @@ def main() -> int:
             "Environment ID",
             "Environment label",
             "Repository slug",
+            "Managed workspace path",
             "Repository attachment proof",
             "Base commit",
+            "Requested base/ref",
+            "Exact checked-out HEAD",
+            "Clean-start proof",
             "Requested base/ref availability proof",
             "Date integration branch",
             "Task-owned checkpoint ref",
@@ -897,6 +956,9 @@ def main() -> int:
             "Return path",
             "Capacity and resource budget",
             "Closure condition",
+            "Implementation lane",
+            "Return branch",
+            "Task identity",
         }
         if set(required_pickup_fields) != expected_pickup_fields:
             errors.append("refresh fixture: complete Cloud Pickup field contract drifted")
@@ -905,8 +967,12 @@ def main() -> int:
             "Environment ID",
             "Environment label",
             "Repository slug",
+            "Managed workspace path",
             "Repository attachment proof",
             "Base commit",
+            "Requested base/ref",
+            "Exact checked-out HEAD",
+            "Clean-start proof",
             "Requested base/ref availability proof",
             "Checkout mode",
             "Checkout proof",
@@ -914,17 +980,20 @@ def main() -> int:
             "Secrets manifest (names only)",
             "Excluded secret names/categories",
             "Purpose-specific authorization gates",
+            "Return branch",
+            "Task identity",
+            "Task-owned checkpoint ref",
         }
         if set(required_return_fields) != expected_return_fields:
             errors.append("refresh fixture: Cloud return receipt field contract drifted")
         if (
             dispatch["requiredCloudPickupFieldCount"] != len(required_pickup_fields)
-            or dispatch["requiredCloudPickupFieldCount"] != 25
+            or dispatch["requiredCloudPickupFieldCount"] != 32
         ):
             errors.append("refresh fixture: Cloud Pickup numeric field count drifted")
         if (
             dispatch["requiredCloudReturnReceiptFieldCount"] != len(required_return_fields)
-            or dispatch["requiredCloudReturnReceiptFieldCount"] != 13
+            or dispatch["requiredCloudReturnReceiptFieldCount"] != 20
         ):
             errors.append("refresh fixture: Cloud return receipt numeric field count drifted")
         if set(dispatch["repositoryWorkSignals"]) != {
@@ -944,6 +1013,13 @@ def main() -> int:
             "pickup-missing-environment-and-git-identity",
             "s162-projectless-connector-read-only-cannot-implement",
             "repository-dispatch-missing-return-receipt",
+            "s166-projectless-false-registry-shape",
+            "synthetic-cloud-environment-id",
+            "mismatched-repository-label-workspace",
+            "mismatched-base-and-head",
+            "mismatched-checkpoint-publication-return",
+            "main-named-as-implementation-lane",
+            "dirty-cloud-pickup",
         }:
             errors.append("refresh fixture: dispatch negative-case inventory drifted")
         if {case["id"] for case in dispatch["validDispatches"]} != {

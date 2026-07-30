@@ -241,8 +241,8 @@
     }
   },
   "implementThisPlan": {
-    "requiredCloudPickupFieldCount": 25,
-    "requiredCloudReturnReceiptFieldCount": 13,
+    "requiredCloudPickupFieldCount": 32,
+    "requiredCloudReturnReceiptFieldCount": 20,
     "requiredCloudPickupFields": [
       "Sprint identity",
       "Accepted plan revision",
@@ -268,7 +268,14 @@
       "Proof gates",
       "Return path",
       "Capacity and resource budget",
-      "Closure condition"
+      "Closure condition",
+      "Managed workspace path",
+      "Requested base/ref",
+      "Exact checked-out HEAD",
+      "Clean-start proof",
+      "Implementation lane",
+      "Return branch",
+      "Task identity"
     ],
     "requiredCloudReturnReceiptFields": [
       "Environment type",
@@ -283,7 +290,14 @@
       "Authenticated Git publication route",
       "Secrets manifest (names only)",
       "Excluded secret names/categories",
-      "Purpose-specific authorization gates"
+      "Purpose-specific authorization gates",
+      "Managed workspace path",
+      "Requested base/ref",
+      "Exact checked-out HEAD",
+      "Clean-start proof",
+      "Return branch",
+      "Task identity",
+      "Task-owned checkpoint ref"
     ],
     "repositoryWorkSignals": [
       "changes_repository_files",
@@ -296,18 +310,18 @@
         "Sprint identity": "S166 - Solvys Refresh System",
         "Accepted plan revision": "plan-sha-1",
         "Environment type": "repository-backed-codex-cloud",
-        "Environment ID": "codex-cloud-env-solvys-skills",
-        "Environment label": "solvys-skills repository environment",
+        "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+        "Environment label": "solvys-technologies/solvys-skills",
         "Repository slug": "solvys-technologies/solvys-skills",
         "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
-        "Base commit": "383e4d78e185d012b0d177abfcb329818c56568f",
-        "Requested base/ref availability proof": "refs/sprints/S166/P0=383e4d78e185d012b0d177abfcb329818c56568f",
+        "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
         "Date integration branch": "2026-07-29",
         "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
-        "Checkout mode": "detached-task-owned-worktree",
+        "Checkout mode": "detached",
         "Worktree mode": "detached",
-        "Checkout proof": "HEAD=383e4d78e185d012b0d177abfcb329818c56568f;status=clean",
-        "Authenticated Git publication route": "managed-git:origin",
+        "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+        "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
         "Owner": "S166-T1 Codex Cloud task",
         "Protected zones": [
           "main"
@@ -328,7 +342,14 @@
         ],
         "Return path": "date integrator",
         "Capacity and resource budget": "default ceilings",
-        "Closure condition": "clean checkpoint receipt"
+        "Closure condition": "clean checkpoint receipt",
+        "Managed workspace path": "/workspace/solvys-skills",
+        "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Clean-start proof": "status=clean",
+        "Implementation lane": "detached-task-checkout",
+        "Return branch": "2026-07-29",
+        "Task identity": "S166/T1"
       },
       "s162ProjectlessConnectorReadOnly": {
         "Sprint identity": "S162 - Cloud Reconstruction",
@@ -367,20 +388,28 @@
         "Return path": "blocked preflight",
         "Capacity and resource budget": "default ceilings",
         "Closure condition": "no repository mutation"
-      }
-    },
-    "returnReceiptTemplates": {
-      "validRepositoryBackedCodexCloud": {
+      },
+      "s166ProjectlessFalseRegistry": {
+        "Sprint identity": "S166 - Solvys Refresh System",
+        "Accepted plan revision": "plan-sha-1",
         "Environment type": "repository-backed-codex-cloud",
-        "Environment ID": "codex-cloud-env-solvys-skills",
-        "Environment label": "solvys-skills repository environment",
+        "Environment ID": "workspace:/workspace/scratch/e3e450690093/solvys-skills",
+        "Environment label": "S166 repository-attached Cloud workspace",
         "Repository slug": "solvys-technologies/solvys-skills",
         "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
-        "Base commit": "383e4d78e185d012b0d177abfcb329818c56568f",
-        "Requested base/ref availability proof": "refs/sprints/S166/P0=383e4d78e185d012b0d177abfcb329818c56568f",
-        "Checkout mode": "detached-task-owned-worktree",
-        "Checkout proof": "HEAD=383e4d78e185d012b0d177abfcb329818c56568f;status=clean",
-        "Authenticated Git publication route": "managed-git:origin",
+        "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Date integration branch": "2026-07-29",
+        "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+        "Checkout mode": "detached",
+        "Worktree mode": "detached",
+        "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+        "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+        "Owner": "S166-T1 Codex Cloud task",
+        "Protected zones": [
+          "main"
+        ],
+        "Dependencies": [],
         "Secrets manifest (names only)": [],
         "Excluded secret names/categories": [
           "production",
@@ -390,7 +419,51 @@
           "provider_admin",
           "destructive"
         ],
-        "Purpose-specific authorization gates": []
+        "Purpose-specific authorization gates": [],
+        "Proof gates": [
+          "validator"
+        ],
+        "Return path": "date integrator",
+        "Capacity and resource budget": "default ceilings",
+        "Closure condition": "clean checkpoint receipt",
+        "Managed workspace path": "/workspace/solvys-skills",
+        "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Clean-start proof": "status=clean",
+        "Implementation lane": "detached-task-checkout",
+        "Return branch": "2026-07-29",
+        "Task identity": "S166/T1"
+      }
+    },
+    "returnReceiptTemplates": {
+      "validRepositoryBackedCodexCloud": {
+        "Environment type": "repository-backed-codex-cloud",
+        "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+        "Environment label": "solvys-technologies/solvys-skills",
+        "Repository slug": "solvys-technologies/solvys-skills",
+        "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+        "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Checkout mode": "detached",
+        "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+        "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+        "Secrets manifest (names only)": [],
+        "Excluded secret names/categories": [
+          "production",
+          "trading",
+          "authentication",
+          "database",
+          "provider_admin",
+          "destructive"
+        ],
+        "Purpose-specific authorization gates": [],
+        "Managed workspace path": "/workspace/solvys-skills",
+        "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+        "Clean-start proof": "status=clean",
+        "Return branch": "2026-07-29",
+        "Task identity": "S166/T1",
+        "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1"
       },
       "s162ProjectlessConnectorReadOnly": {
         "Environment type": "projectless-chatgpt-work",
@@ -529,7 +602,14 @@
           "cloud_pickup_missing_field:Repository slug",
           "cloud_pickup_missing_field:Base commit",
           "cloud_pickup_missing_field:Checkout proof",
-          "cloud_pickup_missing_field:Authenticated Git publication route"
+          "cloud_pickup_missing_field:Authenticated Git publication route",
+          "cloud_pickup_environment_id_is_not_real_opaque_id",
+          "cloud_pickup_base_head_mismatch",
+          "cloud_pickup_return_mismatch:Environment ID",
+          "cloud_pickup_return_mismatch:Environment label",
+          "cloud_pickup_return_mismatch:Repository slug",
+          "cloud_pickup_return_mismatch:Base commit",
+          "cloud_pickup_return_mismatch:Authenticated Git publication route"
         ]
       },
       {
@@ -549,10 +629,30 @@
         "expectedErrors": [
           "implementation_target_is_not_repository_backed_codex_cloud",
           "repository_work_dispatch_not_executed",
+          "cloud_pickup_missing_field:Managed workspace path",
+          "cloud_pickup_missing_field:Requested base/ref",
+          "cloud_pickup_missing_field:Exact checked-out HEAD",
+          "cloud_pickup_missing_field:Clean-start proof",
+          "cloud_pickup_missing_field:Implementation lane",
+          "cloud_pickup_missing_field:Return branch",
+          "cloud_pickup_missing_field:Task identity",
           "cloud_pickup_environment_is_not_repository_backed_codex_cloud",
           "projectless_chatgpt_work_cannot_implement_repository_work",
+          "cloud_pickup_environment_id_is_not_real_opaque_id",
+          "cloud_pickup_environment_label_repository_mismatch",
+          "cloud_pickup_workspace_repository_mismatch",
+          "cloud_pickup_base_head_mismatch",
+          "cloud_pickup_clean_start_not_proven",
           "connector_read_without_git_transport_is_preflight_only",
-          "cloud_return_receipt_environment_is_not_repository_backed_codex_cloud"
+          "cloud_return_receipt_missing_field:Managed workspace path",
+          "cloud_return_receipt_missing_field:Requested base/ref",
+          "cloud_return_receipt_missing_field:Exact checked-out HEAD",
+          "cloud_return_receipt_missing_field:Clean-start proof",
+          "cloud_return_receipt_missing_field:Return branch",
+          "cloud_return_receipt_missing_field:Task identity",
+          "cloud_return_receipt_missing_field:Task-owned checkpoint ref",
+          "cloud_return_receipt_environment_is_not_repository_backed_codex_cloud",
+          "cloud_pickup_return_mismatch:Task-owned checkpoint ref"
         ]
       },
       {
@@ -564,6 +664,626 @@
         "cloudPickupTemplate": "validRepositoryBackedCodexCloud",
         "expectedErrors": [
           "cloud_return_receipt_missing"
+        ]
+      },
+      {
+        "id": "s166-projectless-false-registry-shape",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "repositoryWorkSignals": [
+          "changes_repository_files"
+        ],
+        "implementationTarget": "repository-backed-codex-cloud-worktree",
+        "dispatchResult": "repository-worktree-dispatched",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "workspace:/workspace/scratch/e3e450690093/solvys-skills",
+          "Environment label": "S166 repository-attached Cloud workspace",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Checkout mode": "detached",
+          "Worktree mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Owner": "S166-T1 Codex Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt",
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Implementation lane": "detached-task-checkout",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1"
+        },
+        "cloudReturnReceipt": {
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Checkout mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1"
+        },
+        "expectedErrors": [
+          "cloud_pickup_environment_id_is_not_real_opaque_id",
+          "cloud_pickup_environment_label_repository_mismatch",
+          "cloud_pickup_return_mismatch:Environment ID",
+          "cloud_pickup_return_mismatch:Environment label"
+        ]
+      },
+      {
+        "id": "synthetic-cloud-environment-id",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "repositoryWorkSignals": [
+          "changes_repository_files"
+        ],
+        "implementationTarget": "repository-backed-codex-cloud-worktree",
+        "dispatchResult": "repository-worktree-dispatched",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "codex-cloud-env-solvys-skills",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Checkout mode": "detached",
+          "Worktree mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Owner": "S166-T1 Codex Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt",
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Implementation lane": "detached-task-checkout",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1"
+        },
+        "cloudReturnReceipt": {
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Checkout mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1"
+        },
+        "expectedErrors": [
+          "cloud_pickup_environment_id_is_not_real_opaque_id",
+          "cloud_pickup_return_mismatch:Environment ID"
+        ]
+      },
+      {
+        "id": "mismatched-repository-label-workspace",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "repositoryWorkSignals": [
+          "changes_repository_files"
+        ],
+        "implementationTarget": "repository-backed-codex-cloud-worktree",
+        "dispatchResult": "repository-worktree-dispatched",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "wrong/repo",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Checkout mode": "detached",
+          "Worktree mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Owner": "S166-T1 Codex Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt",
+          "Managed workspace path": "/workspace/scratch/wrong",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Implementation lane": "detached-task-checkout",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1"
+        },
+        "cloudReturnReceipt": {
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Checkout mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1"
+        },
+        "expectedErrors": [
+          "cloud_pickup_environment_label_repository_mismatch",
+          "cloud_pickup_workspace_repository_mismatch",
+          "cloud_pickup_return_mismatch:Environment label",
+          "cloud_pickup_return_mismatch:Managed workspace path"
+        ]
+      },
+      {
+        "id": "mismatched-base-and-head",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "repositoryWorkSignals": [
+          "changes_repository_files"
+        ],
+        "implementationTarget": "repository-backed-codex-cloud-worktree",
+        "dispatchResult": "repository-worktree-dispatched",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Checkout mode": "detached",
+          "Worktree mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Owner": "S166-T1 Codex Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt",
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "205f21c70140fe1c3237c0c847168fdc143a310d",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Implementation lane": "detached-task-checkout",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1"
+        },
+        "cloudReturnReceipt": {
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Checkout mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1"
+        },
+        "expectedErrors": [
+          "cloud_pickup_base_head_mismatch",
+          "cloud_pickup_return_mismatch:Requested base/ref"
+        ]
+      },
+      {
+        "id": "mismatched-checkpoint-publication-return",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "repositoryWorkSignals": [
+          "changes_repository_files"
+        ],
+        "implementationTarget": "repository-backed-codex-cloud-worktree",
+        "dispatchResult": "repository-worktree-dispatched",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P2",
+          "Checkout mode": "detached",
+          "Worktree mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "other-route",
+          "Owner": "S166-T1 Codex Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt",
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Implementation lane": "detached-task-checkout",
+          "Return branch": "2026-07-30",
+          "Task identity": "S166/T1"
+        },
+        "cloudReturnReceipt": {
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Checkout mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1"
+        },
+        "expectedErrors": [
+          "cloud_pickup_return_mismatch:Authenticated Git publication route",
+          "cloud_pickup_return_mismatch:Return branch",
+          "cloud_pickup_return_mismatch:Task-owned checkpoint ref"
+        ]
+      },
+      {
+        "id": "main-named-as-implementation-lane",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "repositoryWorkSignals": [
+          "changes_repository_files"
+        ],
+        "implementationTarget": "repository-backed-codex-cloud-worktree",
+        "dispatchResult": "repository-worktree-dispatched",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Checkout mode": "detached",
+          "Worktree mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Owner": "S166-T1 Codex Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt",
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Implementation lane": "main",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1"
+        },
+        "cloudReturnReceipt": {
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Checkout mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1"
+        },
+        "expectedErrors": [
+          "main_cannot_be_implementation_lane"
+        ]
+      },
+      {
+        "id": "dirty-cloud-pickup",
+        "command": "Implement this plan",
+        "originatingTask": "planning-task",
+        "repositoryWorkSignals": [
+          "changes_repository_files"
+        ],
+        "implementationTarget": "repository-backed-codex-cloud-worktree",
+        "dispatchResult": "repository-worktree-dispatched",
+        "cloudPickup": {
+          "Sprint identity": "S166 - Solvys Refresh System",
+          "Accepted plan revision": "plan-sha-1",
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Date integration branch": "2026-07-29",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1",
+          "Checkout mode": "detached",
+          "Worktree mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Owner": "S166-T1 Codex Cloud task",
+          "Protected zones": [
+            "main"
+          ],
+          "Dependencies": [],
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Proof gates": [
+            "validator"
+          ],
+          "Return path": "date integrator",
+          "Capacity and resource budget": "default ceilings",
+          "Closure condition": "clean checkpoint receipt",
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=dirty",
+          "Implementation lane": "detached-task-checkout",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1"
+        },
+        "cloudReturnReceipt": {
+          "Environment type": "repository-backed-codex-cloud",
+          "Environment ID": "6a6acebaf9a48191a587ae19c6cafd52",
+          "Environment label": "solvys-technologies/solvys-skills",
+          "Repository slug": "solvys-technologies/solvys-skills",
+          "Repository attachment proof": "attached:solvys-technologies/solvys-skills",
+          "Base commit": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Requested base/ref availability proof": "commit:5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Checkout mode": "detached",
+          "Checkout proof": "HEAD=5cd99fad0f044093d62da4cbd7ae5c2460425bb9;status=clean",
+          "Authenticated Git publication route": "control-plane-non-force:2026-07-29",
+          "Secrets manifest (names only)": [],
+          "Excluded secret names/categories": [
+            "production",
+            "trading",
+            "authentication",
+            "database",
+            "provider_admin",
+            "destructive"
+          ],
+          "Purpose-specific authorization gates": [],
+          "Managed workspace path": "/workspace/solvys-skills",
+          "Requested base/ref": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Exact checked-out HEAD": "5cd99fad0f044093d62da4cbd7ae5c2460425bb9",
+          "Clean-start proof": "status=clean",
+          "Return branch": "2026-07-29",
+          "Task identity": "S166/T1",
+          "Task-owned checkpoint ref": "refs/sprints/S166/T1/P1"
+        },
+        "expectedErrors": [
+          "cloud_pickup_clean_start_not_proven",
+          "cloud_pickup_return_mismatch:Clean-start proof"
         ]
       }
     ]

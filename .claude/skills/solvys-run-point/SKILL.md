@@ -182,3 +182,15 @@ The milestone map must include:
 - Do not perform live outreach, production CRM writes, paid/manual source use, legal/compliance claims, or destructive repo operations without explicit approval.
 - Do not duplicate Linear projects, milestones, automations, or issues when an appropriate active object already exists.
 - Keep docs, Linear, automation prompts, and briefs consistent so the daily runner can operate without rediscovering basic project rules.
+
+### Repository-backed Cloud identity invariant
+
+For repository mutation, require the same actual repository-backed Codex Cloud
+identity and repository attachment at pickup and return. Use a real opaque
+32-character lowercase hexadecimal environment ID plus a separate readable
+label; reject paths, `workspace:` and `/workspace/scratch/` identities, and
+synthetic `codex-cloud-env-*` values. Cross-check repository slug, managed
+workspace, requested base/ref, exact checked-out HEAD, clean-start proof,
+detached checkout mode, publication route, return branch, task identity, and
+checkpoint ref. Never call `main` the implementation lane. Projectless ChatGPT
+Work and connector-only preflight are research/standalone-artifact lanes only.

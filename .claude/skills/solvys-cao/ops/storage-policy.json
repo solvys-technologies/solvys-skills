@@ -45,8 +45,8 @@
   },
   "cloudImplementationContract": {
     "repositoryWorkTarget": "repository_backed_codex_cloud",
-    "requiredPickupFieldCount": 25,
-    "requiredReturnReceiptFieldCount": 13,
+    "requiredPickupFieldCount": 32,
+    "requiredReturnReceiptFieldCount": 20,
     "projectlessChatgptWorkAllowedFor": [
       "non_repository_research",
       "analysis",
@@ -59,13 +59,22 @@
       "promises_worktree"
     ],
     "requiredProofs": [
-      "environment_id_and_label",
-      "repository_slug_and_attachment",
-      "requested_base_or_ref_available",
+      "real_opaque_environment_id_and_separate_label",
+      "repository_slug_attachment_and_managed_workspace",
+      "requested_base_ref_exact_head_and_clean_start",
       "detached_checkout",
-      "authenticated_git_publication_route"
+      "authenticated_git_publication_route",
+      "matching_pickup_return_branch_task_and_checkpoint"
     ],
-    "connectorReadWithoutCheckoutOrPublicationTransport": "preflight_only"
+    "connectorReadWithoutCheckoutOrPublicationTransport": "preflight_only",
+    "forbiddenEnvironmentIdShapes": [
+      "path",
+      "workspace:",
+      "/workspace/scratch/",
+      "codex-cloud-env-*"
+    ],
+    "pickupReturnIdentityMustMatch": true,
+    "mainImplementationLaneAllowed": false
   },
   "branchAndRefContract": {
     "mainProtected": true,

@@ -198,3 +198,15 @@ solution through the highest-reality proof plus durable learning promotion.
 - The canonical CAO doctrine lives in `.claude/skills/solvys-cao/`. Global
   runtime installation should point to that source rather than drift as an
   independent copy.
+
+### Repository-backed Cloud identity invariant
+
+For repository mutation, require the same actual repository-backed Codex Cloud
+identity and repository attachment at pickup and return. Use a real opaque
+32-character lowercase hexadecimal environment ID plus a separate readable
+label; reject paths, `workspace:` and `/workspace/scratch/` identities, and
+synthetic `codex-cloud-env-*` values. Cross-check repository slug, managed
+workspace, requested base/ref, exact checked-out HEAD, clean-start proof,
+detached checkout mode, publication route, return branch, task identity, and
+checkpoint ref. Never call `main` the implementation lane. Projectless ChatGPT
+Work and connector-only preflight are research/standalone-artifact lanes only.

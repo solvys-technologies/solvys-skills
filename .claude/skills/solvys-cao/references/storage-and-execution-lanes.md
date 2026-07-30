@@ -223,3 +223,11 @@ reasoning.
   post the final confirmation, then archive the current Codex task as the final
   action.
 - Never flush or self-archive without the explicit prompt.
+
+Repository-backed identity is structural, not a nonempty-string claim. The
+opaque Cloud environment ID must not be a path, a `workspace:` value, a scratch
+workspace, or a synthetic `codex-cloud-env-*` label. Keep a separate readable
+label and cross-check pickup against return for repository, managed workspace,
+requested base/ref, exact HEAD, clean start, checkout mode, publication route,
+return branch, task, and checkpoint. Projectless and connector-only lanes may
+produce research/standalone artifacts but may not mutate a repository.

@@ -542,3 +542,15 @@ When the Plane MCP server is available (check `~/.mcp.json` or project `.mcp.jso
 - If Plane MCP is unavailable, skip all Plane operations silently
 - Never block brief generation on Plane availability
 - All sprint data lives in `sprint-md/` as primary source of truth; Plane is a mirror
+
+### Repository-backed Cloud identity invariant
+
+For repository mutation, require the same actual repository-backed Codex Cloud
+identity and repository attachment at pickup and return. Use a real opaque
+32-character lowercase hexadecimal environment ID plus a separate readable
+label; reject paths, `workspace:` and `/workspace/scratch/` identities, and
+synthetic `codex-cloud-env-*` values. Cross-check repository slug, managed
+workspace, requested base/ref, exact checked-out HEAD, clean-start proof,
+detached checkout mode, publication route, return branch, task identity, and
+checkpoint ref. Never call `main` the implementation lane. Projectless ChatGPT
+Work and connector-only preflight are research/standalone-artifact lanes only.

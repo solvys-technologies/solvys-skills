@@ -273,3 +273,17 @@ Every checkpoint and final handoff returns:
 Commit bodies state outcome, principal areas, proof, protected zones, and the
 remaining blocker. Do not claim PR, merge, deployment, live, release, or
 installed proof that did not occur.
+
+### Repository-backed identity correction
+
+Repository mutation is authorized only when pickup and return identify the same
+actual repository-backed Codex Cloud environment and repository attachment.
+Record a 32-character lowercase hexadecimal opaque environment ID separately
+from its human-readable environment label. Reject path IDs, `workspace:` IDs,
+IDs containing `/workspace/scratch/`, and synthetic `codex-cloud-env-*` labels.
+Both receipts must cross-match environment type/ID/label, repository slug,
+managed workspace, requested base/ref, exact checked-out HEAD, clean-start
+status, detached checkout mode, publication route, return branch, task identity,
+and checkpoint ref. `main` is protected and can never be named as the
+implementation lane. Projectless ChatGPT Work and connector-only access remain
+valid for research or standalone artifacts only, never repository mutation.

@@ -401,3 +401,15 @@ Rationale: the orchestrator running this skill often has the broadest context (s
 ## Cross-Reference
 
 This skill is the Linear-native counterpart of `solvys-orchestrate`. The two share the same naming conventions, Beta Phase structure, and state machine. `solvys-orchestrate` handles the full Cursor workflow (plan mode, brief generation, wave execution). `solvys-linear-orchestrate` handles the Linear side: issue creation, cycle assignment, dependency wiring, and status updates. Use together for full coverage.
+
+### Repository-backed Cloud identity invariant
+
+For repository mutation, require the same actual repository-backed Codex Cloud
+identity and repository attachment at pickup and return. Use a real opaque
+32-character lowercase hexadecimal environment ID plus a separate readable
+label; reject paths, `workspace:` and `/workspace/scratch/` identities, and
+synthetic `codex-cloud-env-*` values. Cross-check repository slug, managed
+workspace, requested base/ref, exact checked-out HEAD, clean-start proof,
+detached checkout mode, publication route, return branch, task identity, and
+checkpoint ref. Never call `main` the implementation lane. Projectless ChatGPT
+Work and connector-only preflight are research/standalone-artifact lanes only.
