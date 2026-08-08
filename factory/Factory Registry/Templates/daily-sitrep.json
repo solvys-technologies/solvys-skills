@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "date": null,
+  "timezone": "America/New_York",
+  "sprintId": "S###",
+  "currentOutcome": "",
+  "acceptedCheckpoints": [],
+  "working": [],
+  "failedOrMissing": [],
+  "humanGates": [],
+  "memoryAndCapacity": null,
+  "nextAction": ""
+}

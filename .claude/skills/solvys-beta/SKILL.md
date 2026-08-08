@@ -1,8 +1,9 @@
 ---
 name: solvys-beta
 description: Local build, test, and DMG publish to desktop. Like solvys-deploy but ends with a DMG on the desktop instead of a release. Use for local testing before committing to a production deploy.
-version: 0.1.0
-disable-model-invocation: true
+metadata:
+  version: "0.1.0"
+  disable-model-invocation: true
 ---
 
 # Solvys Beta -- Local Build and DMG Publish

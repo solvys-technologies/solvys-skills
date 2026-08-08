@@ -1,7 +1,8 @@
 ---
 name: solvys-feels
 description: Visual architecture for Solvys applications. Combines impeccable.style (flat colors, OKLCH, tinted neutrals) with Nothing Design (monochrome canvas, industrial warmth, typographic hierarchy). Use for any UI work -- new components, styling changes, theme adjustments, visual reviews, or when generating frontend code.
-version: 0.1.0
+metadata:
+  version: "0.1.0"
 ---
 
 # Solvys Feels -- Visual Architecture

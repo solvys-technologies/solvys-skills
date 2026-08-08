@@ -1,0 +1,386 @@
+{
+  "version": 3,
+  "effectiveDate": "2026-08-06",
+  "timezone": "America/New_York",
+  "inventorySurface": "current_codex_task_only",
+  "observationModeThrough": "2026-08-01T23:59:59-04:00",
+  "actionModeStarts": "2026-08-02T00:00:00-04:00",
+  "authority": {
+    "localControlRoot": "/Users/tifos/.codex",
+    "writableSkillsSource": "/Users/tifos/Documents/Solvys/Codebase Cabinet/solvys-skills",
+    "globalSkillsCompatibilityLink": "/Users/tifos/.codex/tools/solvys-skills",
+    "extMode": "restored_writable_recovery_only",
+    "extAllowedActions": [
+      "bounded_inventory",
+      "dedicated_authorized_recovery"
+    ],
+    "extForbiddenActions": [
+      "working_directory",
+      "worktree",
+      "cache",
+      "dependency_store",
+      "build",
+      "runtime",
+      "preview_server",
+      "browser_test",
+      "unmount",
+      "repair",
+      "erase",
+      "bulk_migration"
+    ]
+  },
+  "internalThresholds": {
+    "healthyMinFreeBytes": 40000000000,
+    "healthyMinFreePercent": 15,
+    "yellowBelowFreeBytes": 40000000000,
+    "yellowBelowFreePercent": 15,
+    "redBelowFreeBytes": 20000000000,
+    "redBelowFreePercent": 10,
+    "criticalBelowFreeBytes": 10000000000,
+    "criticalBelowFreePercent": 5
+  },
+  "externalMinFreePercent": 20,
+  "conversationSweepDays": 10,
+  "transcriptInactivityDays": 30,
+  "cacheMinimumAgeDays": 30,
+  "workspaceRoots": {
+    "codebases": "/Users/tifos/.codex/worktrees/managed",
+    "managedWorktrees": "/Users/tifos/.codex/worktrees/managed",
+    "explicitWorktrees": "/Users/tifos/.codex/worktrees",
+    "storageOps": "/Users/tifos/.codex/storage-ops",
+    "runtimeBundles": "~/Library/Application Support/{Product}/runtime",
+    "runtimeLogs": "~/Library/Logs/{Product}"
+  },
+  "executionLanes": {
+    "defaultImplementation": "repository_backed_codex_cloud_task_owned_worktree",
+    "nonFlagshipImplementation": "repository_backed_codex_cloud",
+    "fintheonFlagship": "repository_backed_codex_cloud_with_chatgpt_site_review",
+    "fintheonBackendCompute": "cloud_when_exact_ref_and_turnkey_brief_are_pushed",
+    "frontendSandbox": "project_owned_chatgpt_site",
+    "localhostProofAllowed": false,
+    "extExecutionAllowed": false,
+    "localExceptions": [
+      "planning_executive_marketing",
+      "dirty_super_sprint_custody",
+      "explicit_legacy_source_transfer",
+      "mac_or_hardware_behavior",
+      "deployment_review",
+      "installed_app_verification"
+    ],
+    "internalLocal": "exception_only_when_healthy_and_bounded",
+    "internalLocalAtCriticalCapacity": "blocked"
+  },
+  "chatgptSiteReview": {
+    "requiredForFrontendSandbox": true,
+    "uniqueSitePerProjectSandbox": true,
+    "siteIsImplementationCheckAndHumanReviewSurface": true,
+    "localhostOrPort7777IsAcceptanceProof": false,
+    "automaticHumanReviewWhenVisualOrContentReviewIsNeeded": true,
+    "reviewTool": "human-review",
+    "browser": "codex_in_app_browser",
+    "maxActiveSitesPerTask": 1,
+    "proofsRemainSeparate": [
+      "source",
+      "site",
+      "deployed",
+      "live",
+      "installed"
+    ]
+  },
+  "cloudImplementationContract": {
+    "repositoryWorkTarget": "repository_backed_codex_cloud",
+    "requiredPickupFieldCount": 32,
+    "requiredReturnReceiptFieldCount": 20,
+    "projectlessChatgptWorkAllowedFor": [
+      "non_repository_research",
+      "analysis",
+      "standalone_artifacts"
+    ],
+    "repositoryWorkSignals": [
+      "changes_repository_files",
+      "creates_commits_refs_or_pull_requests",
+      "runs_source_ci",
+      "promises_worktree"
+    ],
+    "requiredProofs": [
+      "real_opaque_environment_id_and_separate_label",
+      "repository_slug_attachment_and_managed_workspace",
+      "requested_base_ref_exact_head_and_clean_start",
+      "detached_checkout",
+      "authenticated_git_publication_route",
+      "matching_pickup_return_branch_task_and_checkpoint"
+    ],
+    "connectorReadWithoutCheckoutOrPublicationTransport": "preflight_only",
+    "forbiddenEnvironmentIdShapes": [
+      "path",
+      "workspace:",
+      "/workspace/scratch/",
+      "codex-cloud-env-*"
+    ],
+    "pickupReturnIdentityMustMatch": true,
+    "mainImplementationLaneAllowed": false
+  },
+  "branchAndRefContract": {
+    "mainProtected": true,
+    "humanIntegrationBranchPattern": "^\\d{4}-\\d{2}-\\d{2}$",
+    "taskCheckpointRefPattern": "^refs/sprints/S\\d{3,}(?:/T[1-9]\\d*)?/P\\d+$",
+    "forceRewriteAcceptedHistory": false,
+    "dailyPrMergeMethod": "squash",
+    "dateBranchLifecycle": {
+      "routineLowRiskAutomatic": true,
+      "requiredReceiptOrder": [
+        "green_ci_receipt",
+        "daily_pr_squash_merge_receipt",
+        "deployment_receipt",
+        "postcheck_receipt",
+        "clean_main_receipt",
+        "date_branch_deletion_absence_receipt"
+      ],
+      "deleteOnlyAfterAllPriorReceipts": true,
+      "humanRiskStopsBefore": [
+        "daily_pr_squash_merge",
+        "deployment",
+        "date_branch_deletion"
+      ]
+    }
+  },
+  "backupContract": {
+    "custodyClassificationRequiredBeforeBackup": true,
+    "soundLibrariesDefaultCustody": "ext_recovery_only_pending_explicit_transfer",
+    "sensitivePersonalMusicDefaultCustody": "designated_flash_after_exact_readback",
+    "solvysCodeDefaultCustody": "remote_git_and_pushed_sprint_checkpoint_refs",
+    "boundedCodePreservationExceptions": [
+      "unpushed_commits",
+      "dirty_overlays",
+      "unique_non_git_artifacts"
+    ],
+    "readableExternalVolumeTriggersBulkBackup": false,
+    "readOnlyExternalVolumeAuthorizesRepairEraseOrMigration": false,
+    "cloudBackupRequiresExplicitBoundedAssetSet": true,
+    "selectedAssetSetMayExpandByImplication": false,
+    "encryptedLocalManifestRequired": true,
+    "encryptedCloudManifestRequired": true,
+    "restoreReadbackRequired": true,
+    "uploadedIsComplete": false,
+    "affectedUniqueStateAtCustodyTargetBeforeAuthorizedDestruction": true,
+    "noDestructiveActionCreatesBackupPrerequisite": false,
+    "restoreDrillTarget": "bounded_non_production"
+  },
+  "resourceBudgets": {
+    "requiredCategories": [
+      "tasks",
+      "worktrees",
+      "checkpoints",
+      "artifacts",
+      "transcripts",
+      "dmgs",
+      "processes",
+      "ram",
+      "cpu",
+      "gpu",
+      "chatgpt_sites"
+    ],
+    "blockNewWorkOnBreach": true,
+    "defaultCeilings": {
+      "concurrentLocalImplementationTasks": 1,
+      "concurrentLocalImplementationTasksAtCriticalCapacity": 0,
+      "taskOwnedProcessesPerTask": {
+        "preview": 0,
+        "browser": 1,
+        "server": 0,
+        "transport": 1,
+        "total": 2
+      },
+      "peakRamPercent": 65,
+      "sustainedRamPercent": 55,
+      "sustainedRamMinutes": 5,
+      "taskOwnedCpuPercent": 60,
+      "taskOwnedCpuSustainedMinutes": 3,
+      "windowServerGpuProxyPercent": 25,
+      "chatgptSitePerTask": 1,
+      "dmgsPerProductSprint": 1,
+      "dmgLifetimeHoursAfterVerification": 0,
+      "artifactBytesPerTask": 2000000000,
+      "artifactBytesPerSprint": 10000000000,
+      "checkpointsPerTrack": 3,
+      "checkpointsPerSprint": 12,
+      "worktreesPerTrack": 1,
+      "worktreesPerSprint": 4,
+      "activeTranscriptsPerTask": 1
+    },
+    "verifiedDmgContract": {
+      "ordinaryAction": "delete_immediately_after_verification",
+      "ordinaryRequiredReceipts": [
+        "deletion_receipt",
+        "absence_receipt"
+      ],
+      "retainedReleaseException": {
+        "classification": "retained_release_artifact",
+        "requiredFields": [
+          "exactDmgPath",
+          "sha256",
+          "releaseIdentity",
+          "scope",
+          "owner",
+          "retentionEndsAt",
+          "classificationReceipt"
+        ]
+      }
+    },
+    "overrideRequiredFields": [
+      "reason",
+      "owner",
+      "approver",
+      "startsAt",
+      "endsAt",
+      "replacementCeiling",
+      "cleanupReturnCondition"
+    ],
+    "breachActions": [
+      "stop_new_launches",
+      "inventory_exact_task_owned_resources",
+      "gracefully_stop_task_owned_processes_oldest_first",
+      "verify_pid_exit",
+      "archive_finished_tasks_and_transcripts_through_owner",
+      "retain_current_and_rollback_checkpoints",
+      "mark_superseded_refs_for_control_plane_retention",
+      "delete_verified_ordinary_dmgs_immediately_and_record_absence",
+      "use_recoverable_cleanup_for_reproducible_artifacts",
+      "resume_only_below_ceiling_or_with_active_recorded_override"
+    ],
+    "neverKillUnrelatedOrSystemProcesses": true,
+    "openedWorktreeRemovalOwner": "task_archival_and_codex_managed_retention"
+  },
+  "secretManifest": {
+    "valuesAllowed": false,
+    "namesOnly": true,
+    "encryptedCloudEnvironmentSecrets": "exact_task_required_setup_values_only",
+    "setupPhaseOnly": true,
+    "runtimeMaterializationRequiresReviewedSetupScript": true,
+    "runtimeFileMustBeLeastPrivilege": true,
+    "publicBuildConfiguration": "environment_variables",
+    "recordExcludedNamesOrCategories": true,
+    "purposeSpecificAuthorizationRequired": true,
+    "bulkCopyForbiddenCategories": [
+      "production",
+      "trading",
+      "authentication",
+      "database",
+      "provider_admin",
+      "destructive"
+    ],
+    "excludedClassesWithoutExactAuthority": [
+      "production",
+      "unrelated_client",
+      "personal",
+      "signing",
+      "machine_wide"
+    ]
+  },
+  "riskContract": {
+    "blacksmithRequires": [
+      "deterministic",
+      "bounded",
+      "reversible",
+      "exact_tested_rollback",
+      "bounded_tests",
+      "no_protected_surface"
+    ],
+    "routineAcceptedBackend": {
+      "squashThroughDatePullRequest": true,
+      "deployWhenRequiredCiIsGreen": true,
+      "postcheckRequired": true,
+      "cleanMainProofRequired": true,
+      "automaticDateBranchDeletionAfterAllReceipts": true,
+      "separateHumanMergeDeployOrDeletionAuthorization": false
+    },
+    "humanVerificationBeforeMergeDeployOrDateBranchDeletion": [
+      "migrations",
+      "destructive_writes",
+      "authentication",
+      "authorization",
+      "billing",
+      "secrets_or_provider_credentials",
+      "infrastructure",
+      "broad_routing",
+      "security_controls",
+      "irreversible_integrations",
+      "release_or_install_behavior",
+      "protected_surface_changes",
+      "other_damaging_or_high_risk_boundary"
+    ]
+  },
+  "approvedActions": {
+    "inventory": true,
+    "conversationCandidateReport": true,
+    "automationTargetProtection": true,
+    "cacheSanitationAfterObservation": true,
+    "externalArchiveSanitationAfterObservation": false,
+    "transcriptColdStoragePilot": true,
+    "manualWorktreeDeletion": false,
+    "codexHomeMigration": false
+  },
+  "sanitationRules": {
+    "registeredTaskTemp": {
+      "enabledAfterObservation": true,
+      "rootSource": "tranche-registry.entries[].sanitationPaths",
+      "minimumAgeDays": 30,
+      "requirements": [
+        "exact path is registered",
+        "owning tranche is archive-eligible",
+        "no active process or task reference",
+        "regular files only",
+        "post-delete absence check"
+      ]
+    },
+    "externalQuarantine": {
+      "enabledAfterObservation": false,
+      "root": "/Users/tifos/.codex/storage-ops/quarantine",
+      "minimumAgeDays": 30,
+      "requirements": [
+        "entry is not marked partial or authoritative rollback",
+        "source and destination checksums or Git identity are recorded",
+        "no active process, task, tranche, automation, or legal reference",
+        "exact candidate is reported before action",
+        "post-delete absence and free-space checks"
+      ]
+    },
+    "transcriptArchive": {
+      "enabledAfterObservation": false,
+      "root": "/Users/tifos/.codex/storage-ops/transcript-archive",
+      "minimumArchiveAgeDays": 90,
+      "requirements": [
+        "thirty-day source inactivity and non-reference gate previously passed",
+        "archive manifest and SHA-256 exist",
+        "decompression and readback proof passed",
+        "no active task, automation, goal, legal, client, or memory reference",
+        "exact candidate is reported before action",
+        "post-delete absence and free-space checks"
+      ]
+    },
+    "generatedImages": {
+      "enabledAfterObservation": false,
+      "root": "~/.codex/generated_images",
+      "mode": "candidate-report-only",
+      "reason": "No durable mapping currently proves which assets have been exported or remain task-referenced."
+    }
+  },
+  "hardDenyRoots": [
+    "~/.codex/sessions",
+    "~/.codex/archived_sessions",
+    "~/.codex/memories",
+    "~/.codex/skills",
+    "~/.codex/auth.json",
+    "~/.codex/*.sqlite*",
+    "/Volumes/Ext.",
+    "~/Library/Application Support",
+    "~/Library/Keychains",
+    "/System",
+    "/private/var/vm"
+  ],
+  "taskLifecycle": {
+    "flushTrigger": "flush memory",
+    "memoryNotesMax": 1,
+    "archiveSelfAfterVerifiedFlush": true
+  }
+}

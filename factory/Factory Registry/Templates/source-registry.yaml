@@ -1,0 +1,18 @@
+version: 1
+projectId: replace-me
+sources:
+  - id: repository
+    type: git
+    authorityFor: accepted code and code-bound contracts
+    location: replace-me
+    secretBearing: false
+  - id: paste
+    type: paste-pinboard
+    authorityFor: credentials and approved project context
+    location: paste-reference-only
+    secretBearing: true
+  - id: linear
+    type: issue-tracker
+    authorityFor: issue and sprint status
+    location: replace-me
+    secretBearing: false

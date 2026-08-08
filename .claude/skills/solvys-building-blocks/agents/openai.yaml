@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Building Blocks"
+  short_description: "Reuse approved references before inventing anew"
+  default_prompt: "Use $solvys-building-blocks to find and vet the strongest approved building blocks for this decision."

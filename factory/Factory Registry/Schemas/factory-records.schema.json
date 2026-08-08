@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://solvys.io/schemas/factory-records.schema.json",
+  "title": "Solvys Factory Record",
+  "type": "object",
+  "required": ["version"],
+  "properties": {
+    "version": { "const": 1 },
+    "projectId": { "type": "string", "minLength": 1 },
+    "sprintId": { "type": "string", "pattern": "^S[0-9]{3,}$" },
+    "status": {
+      "enum": [
+        "planned",
+        "approved",
+        "installed",
+        "configured",
+        "wired",
+        "tested",
+        "provider-verified",
+        "deployed",
+        "human-accepted",
+        "failed",
+        "stale",
+        "paused-for-factory-cutover"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

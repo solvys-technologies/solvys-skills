@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Factory"
+  short_description: "Orient and operate every Solvys project safely"
+  default_prompt: "Use $solvys-factory to orient this task, verify custody, select the correct operating lane, and produce the required entrance receipt."

@@ -4,24 +4,73 @@ A Claude Code/Codex skills suite for design, development, orchestration, and dep
 
 ## Install
 
-**Automatic:**
+The canonical installer links the suite into Codex, shared agents, and Claude-compatible skill roots, registers the Factory source, preserves replaced paths in a timestamped backup, and runs the mandatory first-install orientation.
+
 ```bash
-npx skills add solvys-technologies/solvys-skills
+gh repo clone solvys-technologies/solvys-skills "$HOME/Solvys/solvys-skills" && "$HOME/Solvys/solvys-skills/scripts/install.sh"
 ```
 
-**Manual:**
-Clone this repo and copy `.claude/skills/` into your project's `.claude/` directory.
+The orientation records role, company, main project, working lane, account labels, required macOS applications, provider CLIs, Mac Mini access, Wonder access, Paste access, and ChatGPT Sites team-review access. It never collects passwords, MFA codes, API tokens, or secret values.
+
+## Solvys Factory
+
+This repository is the turnkey Solvys Factory suite. It contains:
+
+- The Solvys Operations Handbook
+- PL, PM, DEV, and CAO operating signs
+- The Stack Interview contract and fluid/dynamic stack rules
+- Welcome Mat and project-manifest templates
+- Architecture Canvas, provider-resource, control-inventory, Sprint Unit, work-window, sitrep, comrade-care, and custody records
+- The mandatory `$solvys-factory` skill
+- A safe global installer and orientation handoff generator
+
+The canonical local source can live anywhere. The installer registers it at `~/.codex/tools/solvys-skills` and links each managed skill into the supported global skill roots.
+
+Live client records stay in protected local Cabinet custody. The public suite
+ships schemas, templates, and operating rules, while the installer creates
+`~/.config/solvys-factory/projects`, `registry`, and `receipts` for each team
+member's local operating state.
+
+## Operating Authority
+
+The writable local suite source on this Mac is `/Users/tifos/Documents/Solvys/Codebase Cabinet/solvys-skills`.
+`/Users/tifos/.codex/tools/solvys-skills` is its global compatibility link.
+Installed Codex, Claude Code, and shared-agent paths link to that source.
+`/Volumes/Ext.` is a restored writable recovery asset. It remains outside the
+skills source, worktree, cache, build, preview, and review lanes.
+
+Every frontend sandbox owns a project ChatGPT Site. Use its URL in the Codex
+in-app browser for implementation checks. When visual or content review is
+needed, create a Site-derived local HTML artifact and open it with
+`human-review` automatically, then apply feedback to source and refresh the
+Site. Wonder is the proposal source for new frontend changes and must hold the
+diff before Site deployment. Existing Builder and Plasmic artifacts are
+protected legacy inputs unless TP explicitly selects a source transfer.
+
+Every Site prototype must be a 1:1 runnable representation of the accepted
+source or product specification at the requested scope. Match copy, geometry,
+data meaning, routes, controls, states, responsive behavior, accessibility,
+and interaction feedback. Reject placeholder or fake product behavior. Record
+the source-to-Site path, route/state map, real-control checklist, viewports,
+fixture provenance, and Site interaction receipt before acceptance.
 
 ## Skills
 
 | Skill | Invoke | Purpose |
 |-------|--------|---------|
+| CAO | `/solvys-cao` | Universal operating doctrine for authority, Cloud execution, Site review, safety, and proof |
+| Factory | `/solvys-factory` | Mandatory orientation, Welcome Mat entrance, operating lanes, architecture maps, proof, and handoff |
 | Orchestrate | `/solvys-orchestrate` | Multi-track sprint planning with parallel agent briefings |
 | Audit | `/solvys-audit` | Pre-flight checks, debugging, environment audit, security scan |
 | Inform | `/solvys-inform` | Brief an AI agent on project context and recent changes |
 | Deploy | `/solvys-deploy` | Pre-flight, deploy release, test, fix-and-redeploy cycle |
 | Beta | `/solvys-beta` | Local build, test, and DMG publish to desktop |
 | Feels | `/solvys-feels` | Visual architecture -- Solvys Gold palette, flat design, industrial warmth |
+| Kirby Interface Inventory | `/solvys-kirby` (`Solvys-admiration-report`) | Reverse-engineer an authorized live benchmark into evidence-backed tokens, components, states, layout, motion, and a PL0 contract |
+| Prototype | `/solvys-prototype` | Build an Alpha prototype only from a validated Interface Inventory and accepted PL0 contract |
+| Communication Style | `communication-style-protocol` | Universal direct, high-trust communication protocol with the No AI Slop overlay |
+| No AI Slop | `/no-ai-slop` | Remove AI writing patterns while preserving the writer's voice |
+| Human Review | `/human-review` | Direct text edits and anchored comments on the Site-derived local review artifact |
 
 ## Solvys Feels -- Design System
 

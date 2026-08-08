@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Parallel Sessions"
+  short_description: "Luna sessions and Cloud task routing"
+  default_prompt: "Use parallel Codex sessions for planning and review, then use repository-backed Cloud Tasks for implementation and return exact receipts to local integration."

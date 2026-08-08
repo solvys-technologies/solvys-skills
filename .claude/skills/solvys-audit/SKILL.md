@@ -1,7 +1,8 @@
 ---
 name: solvys-audit
 description: Single-agent audit, debug, and pre-flight checks. Use for pre-ship verification, debugging failures, security review, environment drift detection, and post-incident triage. Invoke with an error message to enter debug mode.
-version: 0.1.0
+metadata:
+  version: "0.1.0"
 ---
 
 # Solvys Audit -- Pre-flight, Debug, and Security Scan

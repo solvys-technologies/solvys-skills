@@ -1,0 +1,25 @@
+version: 1
+projectId: replace-me
+displayName: Replace Me
+projectType: internal-or-external
+operationsState: paused-for-factory-cutover
+repository:
+  owner: replace-me
+  name: replace-me
+  defaultBranch: main
+  acceptedMainSha: unknown
+paths:
+  cabinet: replace-me
+  local: unknown
+  cloud: unknown
+accounts:
+  github: nicharacci
+  projectGoogleIdentity: paste-reference-only
+authorities:
+  issues: Linear
+  frontendProposal: Wonder
+  frontendProof: ChatGPT Site
+  documentation: Mintlify
+proof:
+  requiredRung: human-accepted
+protectedZones: []

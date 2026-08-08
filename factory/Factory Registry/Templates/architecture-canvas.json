@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "projectId": "replace-me",
+  "updatedAt": null,
+  "nodes": [],
+  "edges": [],
+  "statusVocabulary": [
+    "planned",
+    "approved",
+    "installed",
+    "configured",
+    "wired",
+    "tested",
+    "provider-verified",
+    "deployed",
+    "human-accepted",
+    "failed",
+    "stale"
+  ]
+}

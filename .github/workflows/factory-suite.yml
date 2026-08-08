@@ -1,0 +1,30 @@
+name: Factory suite
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Validate Factory suite
+        env:
+          CODEX_SKILL_VALIDATOR: /nonexistent/quick_validate.py
+        run: ./scripts/validate-suite.sh
+      - name: Validate shell syntax
+        run: bash -n scripts/install.sh scripts/validate-suite.sh
+      - name: Validate JSON
+        run: find . -type f -name '*.json' -print0 | xargs -0 -n1 python3 -m json.tool >/dev/null
+      - name: Check patch whitespace
+        run: git diff --check HEAD^

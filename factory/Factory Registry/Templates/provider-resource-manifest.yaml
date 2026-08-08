@@ -1,0 +1,6 @@
+version: 1
+projectId: replace-me
+resources: []
+# Each resource records provider, account, environment, resource type, resource ID,
+# owner, expected role, linked controls, status, required proof, current proof,
+# rollback owner, exit plan, and a secret-name-only manifest.

@@ -1,0 +1,6 @@
+version: 1
+operationsState: template
+commonPrompt: ./welcome-mat-rollover-prompt.md
+tasks: []
+localRecord: ~/.config/solvys-factory/registry/task-cutover-registry.yaml
+recommencementRule: Do not send rollover prompts or restart paused product operations until the required cue and entrance receipt exist.
