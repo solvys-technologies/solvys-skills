@@ -18,6 +18,10 @@ fi
 python3 -m py_compile \
   "$repo_root/scripts/configure_global_agents.py" \
   "$repo_root/scripts/validate-skills.py" \
-  "$repo_root/.claude/skills/solvys-factory/scripts/orient.py"
+  "$repo_root/.claude/skills/solvys-factory/scripts/orient.py" \
+  "$repo_root/.claude/skills/solvys-build-kit/scripts/load_build_kit.py" \
+  "$repo_root/.claude/skills/solvys-build-kit/scripts/validate_build_kit.py"
+
+python3 "$repo_root/.claude/skills/solvys-build-kit/scripts/validate_build_kit.py"
 
 echo "Solvys Factory suite validation passed."

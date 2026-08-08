@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kit": "solvys-build-kit",
+  "version": "1.0.0",
+  "runtime": {
+    "required": {"react": ">=18"},
+    "optional": {"@xyflow/react": "Use through a project-owned adapter for large architecture graphs."}
+  },
+  "coreFiles": ["src/contracts.ts", "src/solvys-build-kit.css"],
+  "components": [
+    {"id": "state-gate", "export": "StateGate", "file": "src/components/StateGate.tsx"},
+    {"id": "decision-card", "export": "DecisionCard", "file": "src/components/DecisionCard.tsx"},
+    {"id": "outputs-sources-rail", "export": "OutputsSourcesRail", "file": "src/components/OutputsSourcesRail.tsx"},
+    {"id": "workbench-drawer", "export": "WorkbenchDrawer", "file": "src/components/WorkbenchDrawer.tsx"},
+    {"id": "control-inventory", "export": "ControlInventory", "file": "src/components/ControlInventory.tsx"},
+    {"id": "architecture-map", "export": "ArchitectureMap", "file": "src/components/ArchitectureMap.tsx"}
+  ],
+  "presets": {
+    "foundation": ["state-gate", "control-inventory"],
+    "interview": ["state-gate", "decision-card", "outputs-sources-rail", "workbench-drawer"],
+    "architecture": ["state-gate", "control-inventory", "architecture-map"],
+    "all": ["state-gate", "decision-card", "outputs-sources-rail", "workbench-drawer", "control-inventory", "architecture-map"]
+  }
+}

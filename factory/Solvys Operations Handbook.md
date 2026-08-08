@@ -67,7 +67,7 @@ Define the original problem, outcome-owned solution, client identity, decision o
 
 ### PL1: Approved foundation
 
-Inspect repository truth, run the Stack Interview Wizard, search Paste, select the fluid and dynamic stack, verify OSS and approved UI libraries, and install eligible foundations first.
+Inspect repository truth, run the Stack Interview Wizard, search Paste, select the fluid and dynamic stack, verify OSS and approved UI libraries, and install eligible foundations first. Load the accepted Solvys Build Kit preset when the project needs shared interview, architecture, control-inventory, state, rail, or workbench assemblies. Record its version, destination, product-owned seams, and proof receipt.
 
 All proven Solvys architecture is eligible precedent. Prefer a verified working seam for a simple job before creating another version of it.
 

@@ -22,6 +22,7 @@ This repository is the turnkey Solvys Factory suite. It contains:
 - Welcome Mat and project-manifest templates
 - Architecture Canvas, provider-resource, control-inventory, Sprint Unit, work-window, sitrep, comrade-care, and custody records
 - The mandatory `$solvys-factory` skill
+- The loadable `$solvys-build-kit` React assembly bank, presets, provenance receipt, and validator
 - A safe global installer and orientation handoff generator
 
 The canonical local source can live anywhere. The installer registers it at `~/.codex/tools/solvys-skills` and links each managed skill into the supported global skill roots.
@@ -60,6 +61,7 @@ fixture provenance, and Site interaction receipt before acceptance.
 |-------|--------|---------|
 | CAO | `/solvys-cao` | Universal operating doctrine for authority, Cloud execution, Site review, safety, and proof |
 | Factory | `/solvys-factory` | Mandatory orientation, Welcome Mat entrance, operating lanes, architecture maps, proof, and handoff |
+| Build Kit | `/solvys-build-kit` | Load runnable Solvys interview, architecture, control-inventory, state, rail, and workbench assemblies into a React project |
 | Orchestrate | `/solvys-orchestrate` | Multi-track sprint planning with parallel agent briefings |
 | Audit | `/solvys-audit` | Pre-flight checks, debugging, environment audit, security scan |
 | Inform | `/solvys-inform` | Brief an AI agent on project context and recent changes |

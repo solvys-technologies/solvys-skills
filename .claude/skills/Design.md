@@ -63,6 +63,12 @@ nothing.
 Do not design a generic component or block until the approved hierarchy has been
 searched and found not to fit. Record the no-fit exception before custom work.
 
+The Solvys Build Kit is the runnable assembly layer for shared interview,
+architecture, control-inventory, state, rail, and workbench surfaces. Load it
+through `$solvys-build-kit` after the Installation Foundation decision. It can
+compose approved library bodies, but it never owns product identity, data,
+permissions, routes, provider state, persistence, or acceptance.
+
 If a task says "copy-paste" from one workspace to another, inspect the source
 implementation and copy/adapt the real code. Do not recreate an approximate
 version from memory.
