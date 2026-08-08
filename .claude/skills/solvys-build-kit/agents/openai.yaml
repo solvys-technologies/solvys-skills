@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Build Kit"
+  short_description: "Load approved Solvys UI assemblies into projects"
+  default_prompt: "Use $solvys-build-kit to load the approved Solvys UI assemblies and provenance records into this project."
