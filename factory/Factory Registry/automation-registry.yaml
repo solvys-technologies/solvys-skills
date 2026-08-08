@@ -1,0 +1,24 @@
+version: 1
+timezone: America/New_York
+canonical:
+  dailyStorageRunner:
+    schedule: daily 02:15
+    model: Luna Max
+    observedState: unconfigured
+  activeSprintRollover:
+    schedule: daily 07:00
+    scope: active Sprint Units only
+    initialMessage: daily sprint sitrep
+    observedState: unconfigured
+  existingChatRefresh:
+    schedule: Sunday 06:00
+    action: refresh and pin active Existing Chat automations
+    observedState: unconfigured
+  weeklyFactoryReview:
+    schedule: Sunday 07:00
+    action: publish Factory sitrep and process review
+    observedState: unconfigured
+refreshHook: Prompt Daily Storage Runner to sweep development memory and capacity after each task refresh.
+localRecord: ~/.config/solvys-factory/registry/automation-registry.yaml
+recommencementRule: Do not activate a paused product automation until its Welcome Mat entrance passes and TP gives any required cue.
+

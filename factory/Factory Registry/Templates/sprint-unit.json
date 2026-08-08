@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "sprintId": "S###",
+  "title": "S### - concise context",
+  "projectId": "replace-me",
+  "originalProblem": "",
+  "solution": "",
+  "headThreadId": null,
+  "headModel": "Sol High",
+  "implementationDefaultModel": "Luna Max",
+  "heavyImplementationModel": "Terra Extra High",
+  "fullAccessRequired": true,
+  "baseRef": null,
+  "baseSha": null,
+  "checkpointRefs": [],
+  "protectedZones": [],
+  "dependencies": [],
+  "proofGates": [],
+  "closureCondition": "",
+  "operationsState": "paused-for-factory-cutover"
+}
+

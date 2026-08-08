@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "sprintId": "S###",
+  "threadId": "replace-me",
+  "windowNumber": 1,
+  "startedAt": null,
+  "checkpointDueAtMinutes": 90,
+  "hardStopAtMinutes": 120,
+  "checkpoint": null,
+  "rolloverPrompt": null,
+  "fullAccessVerifiedForContinuation": false
+}
+

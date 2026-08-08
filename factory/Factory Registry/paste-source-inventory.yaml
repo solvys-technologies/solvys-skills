@@ -1,0 +1,13 @@
+version: 1
+inventoryState: unconfigured
+approvedCategories:
+  - project credentials and context
+  - controlled prompts and Welcome Mats
+  - UI libraries and BeUI Pro access
+  - OSS foundations and North Star repositories
+  - web and app interface references
+  - automation and design research
+  - PM document references
+secretPolicy: Record folder names, purpose, owner, counts, and successful-use receipts. Never copy secret values into Factory records or the public suite.
+localRecord: ~/.config/solvys-factory/registry/paste-source-inventory.yaml
+

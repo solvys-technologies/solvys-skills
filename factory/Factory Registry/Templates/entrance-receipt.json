@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "projectId": "replace-me",
+  "threadId": "replace-me",
+  "enteredAt": null,
+  "lane": "DEV",
+  "welcomeMatRead": false,
+  "signRead": false,
+  "repository": null,
+  "baseRef": null,
+  "sha": null,
+  "localPath": null,
+  "cloudEnvironment": null,
+  "sshRoute": null,
+  "providerEnvironment": null,
+  "dirtyState": null,
+  "dirtyStateOwner": null,
+  "protectedZones": [],
+  "requiredProofRung": null,
+  "operationsAuthorized": false
+}
+

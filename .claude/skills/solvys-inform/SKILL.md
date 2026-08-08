@@ -1,7 +1,8 @@
 ---
 name: solvys-inform
 description: Brief an AI agent on project context, recent changes, available tools, and how to work within the codebase. Use when onboarding a new agent instance, handing off between agents, or resuming after a long break.
-version: 0.1.0
+metadata:
+  version: "0.1.0"
 ---
 
 # Solvys Inform -- Agent Briefing Generator

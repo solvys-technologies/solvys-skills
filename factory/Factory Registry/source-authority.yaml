@@ -1,0 +1,17 @@
+version: 1
+authorities:
+  acceptedCode: GitHub main
+  activeImplementation: Cloud task checkpoint ref
+  operatingDecision: Codebase Cabinet
+  issueTracking: Linear
+  plannedIssueTracking: Solvys-2 with OpenProject
+  frontendProposal: Wonder
+  frontendProof: ChatGPT Site
+  providerTruth: authenticated provider console or CLI
+  secretTruth: Paste or approved credential store
+  publishedDocumentation: Mintlify
+  codeContract: repository
+  largeAcceptedEvidence: Google Drive Solvys Custody
+  teamReceipt: project Slack workspace
+conflictPolicy: Mark the conflict red, preserve custody, and verify the owning authority.
+

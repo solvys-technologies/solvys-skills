@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Admiration Report"
+  short_description: "Extract a live UI into an evidence-backed inventory"
+  default_prompt: "Use $solvys-kirby to reverse-engineer this authorized benchmark into a complete Interface Inventory and PL0 design contract."

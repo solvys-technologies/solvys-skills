@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys CAO"
+  short_description: "Run Solvys work with doctrine and proof"
+  default_prompt: "Use $solvys-cao to identify the real problem, choose the Solvys operating sequence, and carry the solution through evidence-gated completion."

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "projectId": "replace-me",
+  "sprintId": "S###",
+  "driveItemId": null,
+  "custodyPath": "Solvys Custody/<Project>/S###/<Lane>",
+  "owner": null,
+  "purpose": "",
+  "sha256": null,
+  "repositoryRecord": null,
+  "status": "planned",
+  "containsSecrets": false,
+  "containsCode": false
+}
+

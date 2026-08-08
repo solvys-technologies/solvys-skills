@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "projectId": "replace-me",
+  "controls": [],
+  "requiredFields": [
+    "controlId",
+    "label",
+    "surface",
+    "route",
+    "state",
+    "wonderSource",
+    "siteRoute",
+    "clientEvent",
+    "apiRoute",
+    "backendHandler",
+    "permissionGate",
+    "providerResources",
+    "userFeedback",
+    "failureStates",
+    "linearIssue",
+    "requiredProofRung",
+    "currentProofRung",
+    "status",
+    "owner"
+  ]
+}
+

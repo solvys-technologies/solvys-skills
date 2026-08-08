@@ -1,0 +1,31 @@
+{
+  "version": 4,
+  "updatedAt": null,
+  "authorityState": "local_factory_instance_required",
+  "localRegistryDefault": "~/.config/solvys-factory/registry/tranche-registry.json",
+  "entries": [],
+  "entrySchema": {
+    "id": "S### or S###-T#",
+    "title": "S### - concise context",
+    "repository": "repository name",
+    "executionLane": "repository-backed-codex-cloud | internal-control | ext-recovery",
+    "environmentType": "repository-backed-codex-cloud for repository implementation",
+    "environmentId": "exact Cloud environment identifier",
+    "environmentLabel": "exact human-readable Cloud environment label",
+    "repositoryAttachmentProof": "exact repository slug and attachment evidence",
+    "requestedBaseRefAvailabilityProof": "exact base or ref resolution evidence",
+    "checkoutMode": "detached task-owned worktree or recorded approved exception",
+    "checkoutProof": "exact HEAD, worktree, and status evidence",
+    "authenticatedGitPublicationRoute": "exact authenticated Git remote and route",
+    "workspacePathOrCloudBranch": "exact protected path or pushed branch",
+    "base": "exact base commit SHA",
+    "checkpointRef": "refs/sprints/S###/P# or refs/sprints/S###/T#/P#",
+    "owner": "named human or visible task",
+    "closureState": "active | cooling | archive-eligible | protected",
+    "sanitationPaths": [],
+    "resourceBudgets": {},
+    "secretsManifestNames": [],
+    "excludedSecretNamesOrCategories": [],
+    "purposeSpecificAuthorizationGates": []
+  }
+}

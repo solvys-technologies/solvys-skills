@@ -1,0 +1,51 @@
+version: 1
+name: Solvys fluid and dynamic stack
+decisionAuthority: Stack Interview Wizard
+defaults:
+  apiFoundation:
+    fluid: Cloudflare or Vercel web routes with Fly.io for persistent workers
+    dynamic: Hono gateway with FastAPI workers
+  customerIntegrations:
+    fluid: Supabase Auth, direct provider adapters, signed webhooks, and Cloudflare Access for internal surfaces
+    dynamic: Authentik or Keycloak for enterprise identity
+  tenancy:
+    fluid: Supabase Postgres with tenant_id, row-level security, scoped storage, and tenant-aware jobs
+    dynamic: dedicated database and keys per customer
+  securityCompliance:
+    fluid: TLS, encrypted storage, managed secrets, PII classification, audit events, and a project compliance gate
+    dynamic: project-specific SOC 2, GDPR, HIPAA, retention, key, and audit controls
+  rag:
+    fluid: Supabase Storage or R2, pgvector, row-level permission filtering, and citation identifiers
+    dynamic: Docling, pgvector, and OpenFGA
+  deployment:
+    fluid: Cloudflare or Vercel web, Fly.io workers, Supabase data, and GitHub Actions
+    dynamic: OpenTofu and repeatable customer environments
+  observability:
+    fluid: provider telemetry, Sentry, and PostHog
+    dynamic: OpenTelemetry, Sentry, and PostHog
+  incidents:
+    fluid: provider rollback, feature control, Linear incident record, and Slack receipt
+    dynamic: OpenFeature, Unleash, provider rollback, and incident ledger
+  documentation:
+    fluid: Mintlify, generated OpenAPI, Mermaid, and repository runbooks
+    dynamic: Docusaurus only for an approved separate versioned portal
+  requirements:
+    fluid: Linear with Solvys-2 PRDs and Stack Interview records; OpenProject is the migration target
+    dynamic: client-mandated systems with recorded synchronization
+  adoption:
+    fluid: PostHog and governed product events
+    dynamic: PostHog, Metabase, and a governed event catalog
+  portfolio:
+    fluid: Mintlify case-study templates and Solvys-2 widgets
+    dynamic: Docusaurus, MDX, and versioned rich guides
+exceptionRecord:
+  required:
+    - original need
+    - license
+    - security
+    - support
+    - migration
+    - exit plan
+    - operating cost
+    - owner
+
