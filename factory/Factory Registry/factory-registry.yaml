@@ -10,4 +10,3 @@ secretAuthority: Paste or an approved credential store
 projectRecordsDefault: ~/.config/solvys-factory/projects
 projects: []
 projectRegistrationRule: Copy the project templates into protected local custody. Do not commit live client or provider identifiers to the public suite.
-

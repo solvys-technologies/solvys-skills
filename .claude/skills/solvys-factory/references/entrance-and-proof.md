@@ -52,4 +52,3 @@ Record control label, surface, route, state, Wonder node, Site route, client eve
 Use `Paste project folder -> project Google identity -> Codex in-app browser -> project Chrome profile fallback -> local CLI or credential store -> TP MFA approval`.
 
 Continue safe work while TP handles the final MFA action.
-

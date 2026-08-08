@@ -21,4 +21,3 @@ canonical:
 refreshHook: Prompt Daily Storage Runner to sweep development memory and capacity after each task refresh.
 localRecord: ~/.config/solvys-factory/registry/automation-registry.yaml
 recommencementRule: Do not activate a paused product automation until its Welcome Mat entrance passes and TP gives any required cue.
-

@@ -15,4 +15,3 @@ Keep skill bodies concise. Put detailed Factory policy in `factory/Solvys Operat
 Validate every skill with the skill-creator validator. Test the installer in an isolated target home before publication.
 
 Use the daily `YYYY-MM-DD` integration branch, an `S### - concise context` PR title, green checks, and a squash merge into clean `main`.
-

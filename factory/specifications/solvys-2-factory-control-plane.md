@@ -73,4 +73,3 @@ Map each control from Wonder and ChatGPT Site through client event, API, backend
 - The project ChatGPT Site remains the runnable feature and human-review surface.
 - Linear remains the issue authority until the OpenProject migration gate passes.
 - Mintlify remains the publication layer.
-

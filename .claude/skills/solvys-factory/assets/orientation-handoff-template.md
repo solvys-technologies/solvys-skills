@@ -41,4 +41,3 @@ Missing tools, applications, and access:
 3. Show me the Codebase Cabinet, project Welcome Mat, Stack Interview, Linear authority, Wonder proposal flow, ChatGPT Site proof flow, and 120-minute rollover rule.
 4. Confirm that secrets stay in Paste or the approved credential store.
 5. Produce my accepted orientation receipt before project work begins.
-

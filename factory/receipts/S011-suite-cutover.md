@@ -35,4 +35,3 @@ state stay in each team's protected local Factory instance.
 - Client/provider state stays in protected local Cabinet custody.
 - Replaced global skill paths remain recoverable in timestamped installer
   backups.
-

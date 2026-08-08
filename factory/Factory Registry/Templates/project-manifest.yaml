@@ -23,4 +23,3 @@ authorities:
 proof:
   requiredRung: human-accepted
 protectedZones: []
-

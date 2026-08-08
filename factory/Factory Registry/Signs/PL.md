@@ -6,4 +6,3 @@
 4. **PL3: Backend dyno proof.** Provision the real engine resources and prove load, failure, auth, queues, storage, tenancy, retries, observability, and rollback.
 5. **PL4: Chassis integration.** Build Wonder proposals against accepted contracts and prove each control in the project ChatGPT Site through its backend and provider path.
 6. **PL5: Release and handoff.** Deploy the accepted checkpoint, prove the live target, update Cabinet, repository, Mintlify, Linear, canvases, and Slack, then close cleanly.
-

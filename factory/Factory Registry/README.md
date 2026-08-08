@@ -23,4 +23,3 @@ The registry records pointers and receipts. It does not duplicate secrets or pro
 Use `planned`, `approved`, `installed`, `configured`, `wired`, `tested`, `provider-verified`, `deployed`, `human-accepted`, `failed`, or `stale`.
 
 Use `paused-for-factory-cutover` for product sessions that must wait for TP's recommencement cue.
-

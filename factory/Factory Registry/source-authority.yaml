@@ -14,4 +14,3 @@ authorities:
   largeAcceptedEvidence: Google Drive Solvys Custody
   teamReceipt: project Slack workspace
 conflictPolicy: Mark the conflict red, preserve custody, and verify the owning authority.
-

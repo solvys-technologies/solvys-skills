@@ -11,4 +11,3 @@
 - Keep each proof rung separate.
 - Stop at 120 minutes and post the grounded rollover prompt.
 - Do not recommence a paused product session until TP gives the cue.
-

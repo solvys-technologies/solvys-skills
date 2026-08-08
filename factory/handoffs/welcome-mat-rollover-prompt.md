@@ -14,4 +14,3 @@ Read `$solvys-factory` and walk back through the project Welcome Mat before you 
 10. Prompt the Daily Storage Runner to perform the protected development-floor memory and capacity sweep after the refresh.
 
 Use `collaborative` for multi-person sprint work. Do not insert stale developer names.
-

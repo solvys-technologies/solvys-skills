@@ -46,4 +46,3 @@ Read the project Welcome Mat, assigned PL, PM, DEV, or CAO sign, project manifes
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

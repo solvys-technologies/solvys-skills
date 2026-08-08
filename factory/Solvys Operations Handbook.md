@@ -274,4 +274,3 @@ Before closure:
 - Close task-owned processes.
 - Record protected and quarantined state.
 - Return the exact next action.
-

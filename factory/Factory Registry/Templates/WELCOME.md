@@ -25,4 +25,3 @@ Current operation state: `<state>`
 - Required proof rung
 
 Create `entrance-receipt.json` before substantive work. Do not resume from an old task summary alone.
-

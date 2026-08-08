@@ -70,4 +70,3 @@ Do not recommence a task that TP explicitly paused for a Factory entrance until 
 ## Full Handbook
 
 Read the canonical Handbook at `factory/Solvys Operations Handbook.md` in the `solvys-skills` repository when policy detail is needed. The installer registers the repository at `~/.codex/tools/solvys-skills`.
-
