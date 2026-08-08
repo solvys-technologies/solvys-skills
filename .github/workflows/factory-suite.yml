@@ -3,9 +3,7 @@ name: Factory suite
 on:
   pull_request:
   push:
-    branches:
-      - main
-      - "20??-??-??"
+  workflow_dispatch:
 
 permissions:
   contents: read
