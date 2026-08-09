@@ -27,6 +27,7 @@ The Factory exists because a passing test cannot prove that a product works. A f
 - **Infraction ledger:** the per-project record of repeated operational failures, their evidence, counts, owners, and repairs.
 - **Paste custody:** the project-specific Paste folder is the password authority. When a skill uses Paste MCP, the Paste app and MCP connection stay open through the task and handoff. Agents never close it or terminate its sync process because TP relies on its iCloud sync for fluid work. They do not ask TP to type or reveal a password that Paste already stores.
 - **Welcome Mat substitution:** when a project has no literal `WELCOME.md`, its registered `AGENTS.md`, `CLAUDE.md`, `README.md`, `SETUP.md`, `WORKSPACE.md`, `PRODUCT.md`, and `DESIGN.md` files can form the onboarding composite. Record the exact files used.
+- **Handoff registry authority:** discover projects through `Factory Instance/Factory Registry/factory-registry.yaml`, then read active status and rollover instructions from `Factory Instance/handoffs/task-cutover-registry.yaml`. The cutover registry is the active-status authority during a recommencement. Resolve its `commonPrompt` relative to that file. Do not rely on a chat message or a second registry copy.
 - **Shared skill custody:** the Codebase Cabinet Solvys-skills suite is the only editable shared skill source. Install it in the agent home or expose it through a symlink; do not copy or commit shared skill bodies into a product repository.
 
 ## Source authority
