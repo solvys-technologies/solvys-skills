@@ -51,6 +51,15 @@ canonical source as the only editable copy.
 
 If an old path conflicts with the Factory registry, preserve the old custody and use the registered authority.
 
+The Factory Registry is the discovery index. When it declares
+`handoffRegistry` or `activeStatusAuthority`, resolve those paths from the
+registry file and read them before resuming any existing task. During an active
+cutover, the pointed cutover registry owns the live status and rollover prompt;
+the project record and chat are supporting evidence. If two registries disagree,
+record the mismatch, use the declared active-status authority, and repair the
+stale copy before sending work onward. Never treat a missing relative prompt
+path as a reason to restart the task when the declared authority can be fixed.
+
 ## Lane selection
 
 - **PL:** Define outcome and authority, approve foundations, complete contracts, prove the backend dyno, integrate the frontend chassis, and close release handoff.
