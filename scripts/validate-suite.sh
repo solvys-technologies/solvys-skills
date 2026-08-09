@@ -7,6 +7,8 @@ validator="${CODEX_SKILL_VALIDATOR:-$HOME/.codex/skills/.system/skill-creator/sc
 python3 -m json.tool "$repo_root/factory/Factory Registry/Schemas/factory-records.schema.json" >/dev/null
 python3 -m json.tool "$repo_root/factory/Factory Registry/Schemas/infraction-ledger.schema.json" >/dev/null
 python3 -m json.tool "$repo_root/factory/Factory Registry/Templates/infraction-ledger.json" >/dev/null
+test -f "$repo_root/factory/Factory Registry/Templates/skill-proposal.md"
+test -f "$repo_root/factory/Factory Registry/Templates/breakthrough-record.md"
 
 if [[ -f "$validator" ]]; then
   for skill_dir in "$repo_root"/.claude/skills/*; do

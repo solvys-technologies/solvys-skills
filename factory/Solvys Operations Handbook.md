@@ -225,13 +225,40 @@ Use separate proof rungs:
 
 A receipt names the exact rung. A lower rung cannot mark a higher rung complete.
 
+## Skill extraction trigger
+
+The directive `skill that` is a case-insensitive write trigger. It turns a
+roadblock into a reusable skill record and a validated guardrail. The active
+owner writes `Skills/Proposals/<date>-<slug>.md` in the protected project
+Cabinet using `factory/Factory Registry/Templates/skill-proposal.md`, searches
+the existing suite and approved Paste sources, then patches the smallest fitting
+skill or creates a new one under the `skill-creator` rules. A new skill uses the
+`init_skill.py` path before its `SKILL.md` is edited. The proposal records the
+mechanism, failed guardrail, reusable procedure, do and do-not rules, proof test,
+owner, protected zones, and next gate. It contains no secrets or raw client
+session data.
+
 ## Breakthrough records
 
-The exact user direction `update the C-Cab with this Breakthrough` creates a
-durable project record. The active owner writes one concise, non-sensitive
-Cabinet entry with the trigger, observed mechanism, proof rung, protected zones,
-external-write result, and next gate. The next authorized Sprint Unit or receipt
-update links that entry. A blocked attempt never becomes an acceptance mark.
+The exact direction `Update the C-Cab with that Breakthrough` is a durable
+learning write trigger. The active owner writes
+`Breakthroughs/<date>-<slug>.md` in the protected project Cabinet using
+`factory/Factory Registry/Templates/breakthrough-record.md`, reads it back, and
+routes the lesson to the smallest layer that prevents recurrence:
+
+- universal process: Handbook, agent prompt, or Factory sign;
+- repeatable workflow: existing skill or a new validated skill;
+- project-specific behavior: Welcome Mat, manifest, Architecture Canvas, Design
+  canon, or repository instructions;
+- temporary state: infraction ledger, Sprint Unit, or receipt;
+- explicit Codex-memory promotion: one concise ad-hoc note under
+  `/Users/tifos/.codex/memories/extensions/ad_hoc/notes/`.
+
+Record the trigger, mechanism, failed guardrail, prevention rule, proof and
+readback, protected zones, owner, changed records, and next gate. Link the entry
+from the active Sprint Unit or latest receipt. Keep secrets, browser session
+data, transcript dumps, and unnecessary client identity out of the record. A
+blocked write remains pending evidence and cannot mark acceptance.
 
 For authenticated provider surfaces, a semantic DOM or accessibility probe can
 miss the visible application shell. When that probe conflicts with the

@@ -218,6 +218,21 @@ solution through the highest-reality proof plus durable learning promotion.
   create one automation per infraction. Keep developer names and secret values
   out of ledgers, prompts, receipts, and Slack updates.
 
+### 5B. Skill Extraction And Breakthrough Protocol
+
+- The directive `skill that` is a write trigger. Capture the roadblock in a
+  protected `Skills/Proposals/<date>-<slug>.md`, search existing skills and
+  approved sources, then patch the smallest fitting `SKILL.md` or create a new
+  validated skill under the `skill-creator` rules. Run `init_skill.py` before
+  creating a new skill folder. Link its proof to the active Sprint Unit or
+  receipt. Do not include secrets, session data, or unnecessary client identity.
+- The directive `Update the C-Cab with that Breakthrough` is a durable-learning
+  write trigger. Write and read back a concise `Breakthroughs/<date>-<slug>.md`,
+  then promote the lesson to the smallest layer that prevents recurrence:
+  Factory rule, skill, project or repo canon, or an explicit ad-hoc Codex memory
+  note. Keep temporary status in the infraction ledger, Sprint Unit, or receipt.
+- A blocked write remains pending evidence. It never becomes an acceptance mark.
+
 ### 6. Communicate Like An Operator
 
 - Give direct status. If TP asks "Done?", answer done/not done first.

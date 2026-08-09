@@ -47,6 +47,8 @@ Map each control from Wonder and ChatGPT Site through client event, API, backend
 - `work-window.json`
 - `daily-sitrep.json`
 - `infraction-ledger.json`
+- `skill-proposal.md`
+- `breakthrough-record.md`
 - `comrade-care-request.json`
 - `custody-receipt.json`
 

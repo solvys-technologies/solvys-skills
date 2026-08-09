@@ -13,6 +13,10 @@
     "highestSeverity": null,
     "selectedRepairs": []
   },
+  "durableLearning": {
+    "skillProposals": [],
+    "breakthroughsPromoted": []
+  },
   "humanGates": [],
   "memoryAndCapacity": null,
   "nextAction": ""

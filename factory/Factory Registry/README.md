@@ -33,3 +33,7 @@ Record an event with `python3 scripts/record_infraction.py`; build the daily
 ranked repair queue with `python3 scripts/sweep_infractions.py`. Both commands
 write or read only the ledger paths you provide or the configured Factory
 project root.
+
+Triggered durable records use `Templates/skill-proposal.md` for `skill that`
+roadblocks and `Templates/breakthrough-record.md` for C-Cab promotions. Link
+both records from the active Sprint Unit or latest receipt.

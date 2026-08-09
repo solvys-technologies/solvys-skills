@@ -12,7 +12,8 @@ Read `$solvys-factory` and walk back through the project Welcome Mat before you 
 8. Preserve current custody. Do not reset, delete, force-push, deploy, or change provider state during the entrance pass.
 9. After TP has given the explicit recommencement cue, resume only the accepted existing scope.
 10. If the same no-progress action repeats, stop that action, record or increment the infraction with `scripts/record_infraction.py`, assign an owner, and repair the earliest shared cause before trying again.
-11. Prepare a grounded checkpoint at 90 minutes and stop with a rollover prompt at 120 minutes.
-12. Prompt the Daily Storage Runner to perform the protected development-floor memory and capacity sweep after the refresh.
+11. Confirm every `skill that` or `Update the C-Cab with that Breakthrough` trigger from the work window has a written record, readback, and linked proof.
+12. Prepare a grounded checkpoint at 90 minutes and stop with a rollover prompt at 120 minutes.
+13. Prompt the Daily Storage Runner to perform the protected development-floor memory and capacity sweep after the refresh.
 
 Use `collaborative` for multi-person sprint work. Do not insert stale developer names.

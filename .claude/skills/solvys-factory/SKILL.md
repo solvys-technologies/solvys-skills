@@ -92,13 +92,48 @@ Use `python3 scripts/sweep_infractions.py` to build the read-only ranked repair
 queue for that sitrep. It reports invalid ledgers as explicit evidence instead
 of hiding them.
 
+## Skill extraction trigger
+
+The directive `skill that` is a case-insensitive write trigger for turning a
+roadblock into a reusable skill. Do not answer with advice only:
+
+1. Write `Skills/Proposals/<date>-<slug>.md` in the protected project Cabinet
+   with `factory/Factory Registry/Templates/skill-proposal.md`. Use the local
+   Factory proposal location when the project is unknown.
+2. Search the current skill suite, installed skill links, and approved Paste
+   sources for an existing fit.
+3. Patch the smallest existing `SKILL.md` when a fit exists. Create a new
+   skill only when the roadblock is a repeatable workflow. Run the
+   `skill-creator` `init_skill.py` path for a new skill, then follow its
+   frontmatter, resources, validation, and context-budget rules.
+4. Prove the guardrail with a focused check, link the proposal to the Sprint
+   Unit or receipt, and keep client detail and secrets out of the reusable skill.
+
+If a global install or an irreversible source change needs human review, leave
+the validated proposal and exact review gate in the Cabinet. Keep the repair
+moving in the current lane.
+
 ## Breakthrough records
 
-When TP says `update the C-Cab with this Breakthrough`, create one concise,
-non-sensitive record in the active project's Cabinet before closure. Record the
-trigger, observed mechanism, affected proof rung, protected zones, write result,
-and exact next gate. Link it from the active Sprint Unit or latest receipt at the
-next authorized record update.
+The directive `Update the C-Cab with that Breakthrough` is a durable-learning
+write trigger. Create `Breakthroughs/<date>-<slug>.md` in the active project
+Cabinet with `factory/Factory Registry/Templates/breakthrough-record.md`, read
+it back, and route the lesson to the smallest layer that prevents recurrence:
+
+- universal operating rule: Factory Handbook and agent-facing prompt or sign;
+- repeatable agent workflow: an existing skill or a new validated skill;
+- project-specific implementation rule: project Welcome Mat, manifest,
+  Architecture Canvas, Design canon, or repository instructions;
+- temporary state: infraction ledger, Sprint Unit, or receipt only;
+- Codex memory: one concise ad-hoc note in
+  `/Users/tifos/.codex/memories/extensions/ad_hoc/notes/` when this directive
+  explicitly requests memory promotion.
+
+Record the mechanism, why the old guardrail failed, the prevention rule, changed
+files or records, proof and readback, protected zones, owner, and next gate. Do
+not dump the transcript, secrets, browser session data, or stale client detail.
+Link the record from the active Sprint Unit or latest receipt. A blocked write is
+recorded as pending evidence and never presented as an acceptance mark.
 
 When a semantic or accessibility probe conflicts with an authorized visible
 provider UI, do not infer login, sender, target, or delivery state from the

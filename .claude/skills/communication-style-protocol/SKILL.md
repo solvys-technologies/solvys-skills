@@ -138,3 +138,18 @@ values in the record.
 This file is the single source of truth for communication style. It includes the
 global No AI Slop overlay. Update it only when the underlying pragmatics or
 observed user patterns materially change.
+
+## Skill and Breakthrough triggers
+
+When TP uses the directive `skill that`, record the roadblock as a reusable skill
+proposal before continuing. Search for an existing skill, patch the smallest
+fitting `SKILL.md` or create a new validated skill under the `skill-creator`
+rules, and link the proof to the active Sprint Unit or receipt. Keep the proposal
+abstract and free of secrets, session data, and unnecessary client identity.
+
+When TP uses `Update the C-Cab with that Breakthrough`, write and read back a
+concise Cabinet breakthrough record, then promote the lesson to the smallest
+durable layer that prevents recurrence: Factory rule, skill, repo canon,
+project record, or an explicit ad-hoc Codex memory note. Do not leave the lesson
+only in chat history. Keep temporary status in the ledger and link the durable
+record from the active Sprint Unit or latest receipt.
