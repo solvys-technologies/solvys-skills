@@ -16,11 +16,15 @@ as live Wonder evidence.
 
 Before any read that can lead to a write:
 
-1. Complete the Solvys Factory entrance. Read the project `WELCOME.md`, assigned
-   sign, manifest, active sprint, latest receipt, protected zones, and Paste
-   references. If Paste MCP is used, keep the Paste app and MCP connection open
-   through the task and handoff; never close it or terminate its sync process.
-   Record an `entrance-receipt.json` before substantive work.
+1. Complete the Solvys Factory entrance. Read the project `WELCOME.md` when it
+   exists. If it does not exist, read the documented onboarding composite:
+   `AGENTS.md`, `CLAUDE.md`, `README.md`, `SETUP.md`, `WORKSPACE.md`,
+   `PRODUCT.md`, and `DESIGN.md` when present. Record that substitution in the
+   entrance receipt; do not turn a missing literal file into a blocker. Read the
+   assigned sign, manifest, active sprint, latest receipt, protected zones, and
+   Paste references. If Paste MCP is used, keep the Paste app and MCP connection
+   open through the task and handoff; never close it or terminate its sync
+   process. Record an `entrance-receipt.json` before substantive work.
 2. Confirm the target file, branch, page, artboard, current revision, account,
    and requested scope. Read the live target before changing it.
 3. Confirm whether the task is read-only or authorizes a Wonder mutation. Keep
@@ -41,12 +45,30 @@ branch, page and artboard IDs, source revision, proof rung, protected zones,
 secret names only, next action, expiry, and evidence links. A chat message is
 transport; the handoff record is durable state.
 
+## Keep skill custody separate from product custody
+
+The installed Solvys suite is the shared source of truth. A skill being absent
+from the current callable list does not authorize copying its body into the
+product repository. First inspect `/Users/tifos/.codex/skills`, the configured
+agent skill roots, and the canonical C-Cab suite. Use an installed source or a
+project-local symlink when the host requires a project path. Never create or
+commit a second shared-skill mirror inside the product repo.
+
+If a task already created untracked shared-skill copies, stop before design
+work, record the clean starting status, and move only those task-owned copies
+to a recoverable Factory receipt backup. Preserve pre-existing project-specific
+skills and list every moved path. Do not hide the resulting diff or call the
+repository clean until the ownership record and status readback agree.
+
 ## Restore Wonder access safely
 
 Use the native Wonder connector first. Before saying it is unavailable, query
-the active and deferred tool inventory for a Wonder connector. If no connector
-is available, a browser-only visual check may continue when authorized, but
-authenticated connector readback and all Wonder mutations remain `BLOCKED`.
+the active and deferred tool inventory for a Wonder connector. The
+`solvys-wonder` skill and the native Wonder connector are separate things: a
+missing connector does not mean the skill is missing, and a reachable URL does
+not prove an authenticated connector. If no connector is available, a
+browser-only visual check may continue when authorized, but authenticated
+connector readback and all Wonder mutations remain `BLOCKED`.
 When no browser is named, use the Codex in-app browser. Use Chrome only when
 the user explicitly selects or authorizes it. Never substitute direct HTTP,
 guessed OAuth calls, a local mock, or a screenshot for the connector's live
@@ -90,6 +112,14 @@ never applies to Paste: if Paste MCP was used, keep the Paste app and MCP
 connection open so TP's iCloud sync remains available. Preserve the user's
 existing tabs and keep the authenticated canvas open when it is the connector's
 required context.
+
+Do not loop on the same stale `401` or invalid-refresh result. Record the
+connector state once, inspect the approved browser path, and perform one
+authorized re-entry attempt. If the connector is still absent or the consent
+screen is not available, return the exact gate and continue only with source
+visible inventory work. Never ask another session to send a raw Wonder token;
+use the registered handoff record and non-secret file, page, branch, and
+revision identifiers instead.
 
 ## Inventory the live canvas
 
