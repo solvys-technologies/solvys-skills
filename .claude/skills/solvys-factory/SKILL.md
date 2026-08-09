@@ -88,6 +88,17 @@ Keep these rungs separate:
 
 Mark a node green only when it reaches the sprint's declared rung. Mark the earliest missing or failed dependency red.
 
+### Exact-copy fidelity gate
+
+For a `1:1`, `exact copy`, or production-parity objective, compare the accepted
+source or Wonder canvas with the ChatGPT Site at the same viewport, route, and
+state before publication or acceptance. Check palette, density, geometry,
+shell, labels, controls, and visible content. Token alignment is an input, not
+proof. Mark a mismatch `DIVERGED` and owner-gated or unreachable Site evidence
+`BLOCKED`. Do not delete or replace the current Site to bypass the gate. A
+private candidate requires explicit authorization and stays unaccepted until a
+`MATCHED` comparison receipt exists.
+
 ## Infraction trigger and daily repair
 
 The exact phrase `infraction committed` is a write trigger. When an agent uses
