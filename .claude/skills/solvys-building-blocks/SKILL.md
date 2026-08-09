@@ -83,6 +83,15 @@ Use Paste Pinboards as the fast retrieval layer for approved references:
 - `OSS Technology Building Blocks`
 - `UI Library Building Blocks`
 
+### Paste MCP custody
+
+When a skill uses Paste MCP or opens a Paste folder or pinboard, keep the Paste
+app and MCP connection open for the entire task and handoff. Never close it,
+sign out, or terminate its sync process as cleanup; doing so can interrupt the
+iCloud sync that TP relies on for fluid work. Leave the exact project folder or
+pinboard available when the task ends. Record item titles, references, and
+secret names only; never record secret values.
+
 Paste is an approval ledger, not a web-scrape bucket. Add an item only when TP
 explicitly approves it or when a Solvys task reaches accepted rendered or
 implementation proof. Keep the canonical URL, give it a readable title, and use

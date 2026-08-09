@@ -44,6 +44,14 @@
 | Published docs | Mintlify |
 | Large evidence | Optional Google Drive Solvys Custody |
 
+### Paste MCP custody
+
+When an active skill uses Paste MCP or opens a Paste folder or pinboard, keep
+the Paste app and MCP connection open through the task and handoff. Never close
+it, sign out, or terminate its sync process as cleanup; this can interrupt the
+iCloud sync that TP relies on. Leave the exact project folder or pinboard open
+at closeout and record references only, never secret values.
+
 ## Control inventory fields
 
 Record control label, surface, route, state, Wonder node, Site route, client event, API route, backend handler, permission gate, provider resources, state change, user feedback, failure states, Linear issue, owner, required proof rung, current proof rung, and status.

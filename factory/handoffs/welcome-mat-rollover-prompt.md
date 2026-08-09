@@ -6,7 +6,7 @@ Read `$solvys-factory` and walk back through the project Welcome Mat before you 
 2. Read the project manifest, source registry, active sprint, and latest accepted receipt.
 3. Read the project `infraction-ledger.json`. Report its open count, highest severity, recurring fingerprints, and any `deathLoop: true` entry in the entrance receipt.
 4. Verify repository owner, base ref, SHA, local and Cloud paths, SSH route, provider account, environment, dirty-state owner, protected zones, and required proof rung.
-5. Search the project Paste pinboard and approved Building Block pinboards. Keep secret values out of the prompt and receipts.
+5. Search the project Paste pinboard and approved Building Block pinboards. If Paste MCP is used, keep the Paste app and MCP connection open through the task and handoff; never close it or terminate its sync process. Keep secret values out of the prompt and receipts.
 6. Produce `entrance-receipt.json` before product changes.
 7. State the original problem, outcome-owned solution, current proof rung, earliest red dependency, top infraction repair, and next action.
 8. Preserve current custody. Do not reset, delete, force-push, deploy, or change provider state during the entrance pass.

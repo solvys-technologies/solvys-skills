@@ -38,6 +38,7 @@ Before project work, require `~/.config/solvys-factory/orientation.yaml`. If it 
 
 Read the project Welcome Mat, assigned PL, PM, DEV, or CAO sign, project manifest, active sprint, and latest receipt. Verify repository, SHA, paths, Cloud, SSH, providers, accounts, dirty ownership, protected zones, and proof rung. Do not resume a TP-paused project task until TP gives the cue.
 For Google Sign-In that requires a project password, use regular Chrome. Do not enter the password in Chrome Dev. After Google authentication, use the authorized target session and select Continue and Allow access when shown.
+When any skill uses Paste MCP or opens a Paste folder or pinboard, keep the Paste app and MCP connection open through the task and handoff. Never close it, sign out, or terminate its sync process because TP relies on the iCloud sync.
 {END}"""
 
     current = args.agents_file.read_text(encoding="utf-8") if args.agents_file.exists() else ""

@@ -19,7 +19,8 @@ Before opening a login page:
 
 1. Load `$solvys-factory` and complete the project entrance. Read `WELCOME.md`,
    the assigned lane sign, project manifest, active Sprint Unit, latest receipt,
-   and the relevant Paste project folder.
+   and the relevant Paste project folder. If Paste MCP is used, keep the Paste
+   app and MCP connection open; never close it or terminate its sync process.
 2. Identify the exact provider, project, account label, target URL or CLI, and
    requested action. Record the secret names or Paste references only.
 3. Check whether another active task owns the provider tab or MCP connection.
@@ -32,8 +33,9 @@ Before opening a login page:
 Use this order unless the project Welcome Mat declares a narrower route:
 
 1. Search Paste by the project codebase, repo, or workspace title. Use the
-   stored credential through the approved surface. Never print or copy its
-   value into a prompt, source file, shell history, or receipt.
+   stored credential through the approved surface. Keep Paste open for the
+   entire task and handoff. Never print or copy the credential value into a
+   prompt, source file, shell history, or receipt.
 2. When Google Sign-In requires the project password, use regular Chrome. Do
    not enter the project password in Chrome Dev. Google's security warning is a
    browser-profile mismatch, not a reason to abandon the sign-in.
@@ -126,4 +128,6 @@ tokens, cookies, QR contents, MFA codes, and browser storage out of the record.
 
 Leave the authorized tab and editor target open when another active task needs
 it. Update the task handoff with the exact target and next action. If the
-provider state is unchanged, produce no repetitive user-facing update.
+provider state is unchanged, produce no repetitive user-facing update. If Paste
+MCP was used, leave the Paste app and MCP connection open at closeout so iCloud
+sync remains available to TP and the next task.

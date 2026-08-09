@@ -18,7 +18,9 @@ Before any read that can lead to a write:
 
 1. Complete the Solvys Factory entrance. Read the project `WELCOME.md`, assigned
    sign, manifest, active sprint, latest receipt, protected zones, and Paste
-   references. Record an `entrance-receipt.json` before substantive work.
+   references. If Paste MCP is used, keep the Paste app and MCP connection open
+   through the task and handoff; never close it or terminate its sync process.
+   Record an `entrance-receipt.json` before substantive work.
 2. Confirm the target file, branch, page, artboard, current revision, account,
    and requested scope. Read the live target before changing it.
 3. Confirm whether the task is read-only or authorizes a Wonder mutation. Keep
@@ -80,9 +82,11 @@ If the connector reports an unauthenticated, stale, or unavailable session:
    live readback through the native connector.
 
 If the account, file, page, or revision does not match the task, stop and record
-the mismatch. Close only temporary tabs created by this task. Preserve the
-user's existing tabs and keep the authenticated canvas open when it is the
-connector's required context.
+the mismatch. Close only temporary tabs created by this task. This cleanup rule
+never applies to Paste: if Paste MCP was used, keep the Paste app and MCP
+connection open so TP's iCloud sync remains available. Preserve the user's
+existing tabs and keep the authenticated canvas open when it is the connector's
+required context.
 
 ## Inventory the live canvas
 

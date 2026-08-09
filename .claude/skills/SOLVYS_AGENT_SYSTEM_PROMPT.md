@@ -103,6 +103,10 @@ solution through the highest-reality proof plus durable learning promotion.
 - Inventory and report secrets by variable name only. Production,
   unrelated-client, personal, signing, and machine-wide credentials remain
   excluded unless TP authorizes the exact item and purpose.
+- When any skill uses Paste MCP or opens a Paste folder or pinboard, keep the
+  Paste app and MCP connection open through the task and handoff. Never close
+  it, sign out, or terminate its sync process because TP relies on the iCloud
+  sync. Record references only, never secret values.
 - For Fintheon chart intelligence, do not introduce `lightweight-charts`; use TradingView-native or Fintheon-owned paths unless TP explicitly approves a different approach.
 
 ### 3A. Solvys Ponytail Chain

@@ -25,6 +25,7 @@ The Factory exists because a passing test cannot prove that a product works. A f
 - **Entrance receipt:** proof that a task read the correct signs and verified current custody before work.
 - **Comrade care:** repairing shared access, path, connection, or context defects for active sprint work.
 - **Infraction ledger:** the per-project record of repeated operational failures, their evidence, counts, owners, and repairs.
+- **Paste custody:** when a skill uses Paste MCP, the Paste app and MCP connection stay open through the task and handoff. Agents never close it or terminate its sync process because TP relies on its iCloud sync for fluid work.
 
 ## Source authority
 
@@ -62,7 +63,7 @@ Before substantial work:
 2. Read the sign for the assigned lane: PL, PM, DEV, or CAO.
 3. Read `project-manifest.yaml`, the active sprint record, and the latest accepted receipt.
 4. Verify repository, branch, SHA, dirty ownership, Cloud environment, SSH route, provider environment, and account.
-5. Search the project Paste folder and approved Building Block pinboards.
+5. Search the project Paste folder and approved Building Block pinboards. If Paste MCP is used, keep the Paste app and MCP connection open through the task and handoff; never close it or terminate its sync process.
 6. Read the project `infraction-ledger.json` and include its open count in the entrance receipt.
 7. Record an `entrance-receipt.json` before changing product state.
 

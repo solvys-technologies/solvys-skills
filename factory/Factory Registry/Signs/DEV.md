@@ -2,6 +2,9 @@
 
 - Verify repo, branch, SHA, paths, Cloud, SSH, providers, accounts, and dirty ownership.
 - Search Paste and approved sources. Gather and install first.
+- **Paste custody.** If DEV work uses Paste MCP, keep the Paste app and MCP
+  connection open through the task and handoff. Never close it or terminate its
+  sync process.
 - Build backend contracts and provider resources before dependent frontend completion.
 - Build Wonder proposals in parallel and test the runnable result in the project ChatGPT Site.
 - Record which button does what.

@@ -6,6 +6,9 @@
 - Assign ownership and protected zones.
 - Use green and red architecture maps.
 - Recover from ordinary operational friction.
+- **Paste custody.** When CAO work uses Paste MCP, keep the Paste app and MCP
+  connection open through the task and handoff. Never close it or terminate its
+  sync process.
 - **Sign-in recovery gate.** Invoke `$solvys-sign-in` before classifying auth as
   a blocker. Use it to reconcile browser, account, provider, and MCP ownership,
   select the correct regular-Chrome Google route, and verify the final proof.
