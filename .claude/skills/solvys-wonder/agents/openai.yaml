@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Wonder"
+  short_description: "Recover Wonder access and transfer verified designs."
+  default_prompt: "Use $solvys-wonder to recover Wonder access, inventory the live canvas, and prepare a verified source-transfer receipt."
