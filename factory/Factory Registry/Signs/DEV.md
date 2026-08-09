@@ -5,10 +5,13 @@
 - **Paste custody.** If DEV work uses Paste MCP, keep the Paste app and MCP
   connection open through the task and handoff. Never close it or terminate its
   sync process.
-- Project passwords live in the project-specific Paste folder. Use that
-  password in regular Chrome when Google requests it; never ask TP to type or
-  reveal a password that Paste already stores. Prefer SMS/text verification;
-  use Google's Tap Yes or Tap the number prompt when text is unavailable.
+- Open Paste, search the exact project name, and open the project folder from
+  the search suggestion. Use the matching `Primary Project Password` or
+  `Secondary Project Password` item inside that folder. Do not search guessed
+  labels such as `CRED Gmail Password`. Copy the selected password only into
+  regular Chrome when Google requests it; never ask TP to type or reveal a
+  password that Paste already stores. Prefer SMS/text verification; use
+  Google's Tap Yes or Tap the number prompt when text is unavailable.
 - If a project has no literal `WELCOME.md`, read its documented onboarding
   composite and record the substitution. Keep shared Solvys skills in the
   installed suite; use a symlink for project discovery and never copy or commit

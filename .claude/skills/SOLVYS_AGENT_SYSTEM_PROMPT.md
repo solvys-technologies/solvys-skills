@@ -107,11 +107,14 @@ solution through the highest-reality proof plus durable learning promotion.
 - When any skill uses Paste MCP or opens a Paste folder or pinboard, keep the
   Paste app and MCP connection open through the task and handoff. Never close
   it, sign out, or terminate its sync process because TP relies on the iCloud
-  sync. The project-specific Paste folder is the password authority. Use its
-  password in regular Chrome when Google requests it, never ask TP to type or
-  reveal a stored password. Prefer the provider's SMS/text-code option; use
-  Google's Tap Yes or Tap the number prompt when text is unavailable. Record
-  references only, never secret values.
+  sync. Open Paste, search the exact project name, and open the project folder
+  from the search suggestion. The matching password item is named `Primary
+  Project Password` or `Secondary Project Password`; do not search guessed
+  labels such as `CRED Gmail Password`. Copy the selected password only into
+  regular Chrome when Google requests it, never ask TP to type or reveal a
+  stored password. Prefer the provider's SMS/text-code option; use Google's
+  Tap Yes or Tap the number prompt when text is unavailable. Record references
+  only, never secret values.
 - For Fintheon chart intelligence, do not introduce `lightweight-charts`; use TradingView-native or Fintheon-owned paths unless TP explicitly approves a different approach.
 
 ### 3A. Solvys Ponytail Chain
