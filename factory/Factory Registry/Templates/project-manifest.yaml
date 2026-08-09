@@ -18,6 +18,7 @@ accounts:
 authorities:
   issues: Linear
   frontendProposal: Wonder
+  uiAssemblySource: Solvys Build Kit
   frontendProof: ChatGPT Site
   documentation: Mintlify
 proof:

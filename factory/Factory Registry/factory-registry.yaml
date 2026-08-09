@@ -4,6 +4,7 @@ handbook: ../Solvys Operations Handbook.md
 issueAuthority: Linear
 plannedIssueAuthority: Solvys-2/OpenProject after migration acceptance
 frontendProposalAuthority: Wonder
+uiAssemblySource: Solvys Build Kit
 frontendTestAuthority: ChatGPT Site
 documentationPublicationAuthority: Mintlify
 secretAuthority: Paste or an approved credential store

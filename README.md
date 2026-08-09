@@ -47,6 +47,10 @@ needed, create a Site-derived local HTML artifact and open it with
 Site. Wonder is the proposal source for new frontend changes and must hold the
 diff before Site deployment. Existing Builder and Plasmic artifacts are
 protected legacy inputs unless TP explicitly selects a source transfer.
+Shared interactive assemblies come from the source-copied Solvys Build Kit.
+The Factory ships no runtime dependency on a visual editor or design canvas;
+legacy exports stay outside the suite until TP records an explicit source
+transfer.
 
 Every Site prototype must be a 1:1 runnable representation of the accepted
 source or product specification at the requested scope. Match copy, geometry,

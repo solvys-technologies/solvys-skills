@@ -36,6 +36,7 @@ Use the source that owns each fact:
 | Operating decisions | Project Codebase Cabinet |
 | Issues and sprint status | Linear until the accepted Solvys-2/OpenProject migration |
 | Frontend proposal | Wonder |
+| Shared UI assembly source | Solvys Build Kit |
 | Runnable frontend proof | Project ChatGPT Site |
 | Provider state | Authenticated provider console or CLI |
 | Secrets | Paste or approved credential store |
@@ -45,6 +46,12 @@ Use the source that owns each fact:
 | Team receipt | Project Slack workspace |
 
 When sources disagree, do not average them. Mark the conflict red, preserve all custody, and verify the authority that owns the fact.
+
+The Solvys Build Kit is the shared UI assembly source. Load its source-copied
+presets when a project needs the Interview, Architecture Canvas, control
+inventory, state, Outputs & Sources rail, or workbench assemblies. Keep retired
+visual-editor exports outside the Factory source until TP records a deliberate
+source transfer with provenance and proof requirements.
 
 ## The Factory entrance
 
