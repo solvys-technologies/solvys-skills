@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://solvys.io/schemas/infraction-ledger.schema.json",
+  "title": "Solvys Factory Infraction Ledger",
+  "type": "object",
+  "required": ["version", "projectId", "updatedAt", "entries"],
+  "properties": {
+    "version": { "const": 1 },
+    "projectId": { "type": "string", "minLength": 1 },
+    "updatedAt": { "type": ["string", "null"] },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "event": {
+      "type": "object",
+      "required": ["eventId", "occurredAt", "sourceType", "sourceId", "description", "evidence"],
+      "properties": {
+        "eventId": { "type": "string", "minLength": 1 },
+        "occurredAt": { "type": "string", "minLength": 1 },
+        "sourceType": { "type": "string", "minLength": 1 },
+        "sourceId": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "evidence": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "entry": {
+      "type": "object",
+      "required": [
+        "id",
+        "fingerprint",
+        "title",
+        "category",
+        "severity",
+        "count",
+        "status",
+        "deathLoop",
+        "firstSeenAt",
+        "lastSeenAt",
+        "owner",
+        "nextAction",
+        "events"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "fingerprint": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "category": {
+          "enum": [
+            "automation-death-loop",
+            "auth",
+            "handoff",
+            "proof",
+            "provider",
+            "storage",
+            "scope",
+            "communication",
+            "security",
+            "other"
+          ]
+        },
+        "severity": { "enum": ["low", "medium", "high", "critical"] },
+        "count": { "type": "integer", "minimum": 1 },
+        "status": { "enum": ["open", "in-progress", "resolved", "accepted-risk"] },
+        "deathLoop": { "type": "boolean" },
+        "firstSeenAt": { "type": "string", "minLength": 1 },
+        "lastSeenAt": { "type": "string", "minLength": 1 },
+        "owner": { "type": "string", "minLength": 1 },
+        "nextAction": { "type": "string", "minLength": 1 },
+        "resolution": { "type": ["string", "null"] },
+        "events": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/event" },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

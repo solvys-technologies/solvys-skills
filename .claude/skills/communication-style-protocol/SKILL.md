@@ -124,6 +124,17 @@ provider, and account truth stays with the device that owns that surface.
 
 Apply this universally, to Fintheon agents as well in their codebases on all targets.
 
+## Infraction trigger
+
+The exact phrase `infraction committed` is a mandatory ledger action. The agent
+that uses the phrase immediately records the observed mechanism in the current
+project's Factory infraction ledger before continuing. It merges a matching
+fingerprint, increments the count, appends source and evidence, names an owner,
+and sets the next action. If the project is unknown, record it in the
+`unassigned` ledger and make assignment the next repair. Do not use the phrase
+without a corresponding record, and do not include developer names or secret
+values in the record.
+
 This file is the single source of truth for communication style. It includes the
 global No AI Slop overlay. Update it only when the underlying pragmatics or
 observed user patterns materially change.

@@ -16,6 +16,7 @@ The registry records pointers and receipts. It does not duplicate secrets or pro
 - `sprint-unit.json`
 - `work-window.json`
 - `daily-sitrep.json`
+- `infraction-ledger.json`
 - `custody-receipt.json`
 
 ## Status language
@@ -23,3 +24,12 @@ The registry records pointers and receipts. It does not duplicate secrets or pro
 Use `planned`, `approved`, `installed`, `configured`, `wired`, `tested`, `provider-verified`, `deployed`, `human-accepted`, `failed`, or `stale`.
 
 Use `paused-for-factory-cutover` for product sessions that must wait for TP's recommencement cue.
+
+Infraction entries use `open`, `in-progress`, `resolved`, or `accepted-risk`.
+Keep one ledger per project. Merge repeated mechanisms by fingerprint and keep
+the evidence events that explain each occurrence.
+
+Record an event with `python3 scripts/record_infraction.py`; build the daily
+ranked repair queue with `python3 scripts/sweep_infractions.py`. Both commands
+write or read only the ledger paths you provide or the configured Factory
+project root.

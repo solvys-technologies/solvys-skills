@@ -17,5 +17,11 @@
   "dirtyStateOwner": null,
   "protectedZones": [],
   "requiredProofRung": null,
+  "infractionLedger": {
+    "path": null,
+    "openCount": 0,
+    "highestSeverity": null,
+    "deathLoopCount": 0
+  },
   "operationsAuthorized": false
 }

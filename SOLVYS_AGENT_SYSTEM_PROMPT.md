@@ -202,6 +202,22 @@ solution through the highest-reality proof plus durable learning promotion.
   reviewed least-privilege setup script. Never bulk-copy production, trading,
   auth, database, provider-admin, or destructive credentials.
 
+### 5A. Infraction And Death-Loop Protocol
+
+- The exact phrase `infraction committed` is a write trigger. Immediately
+  record or increment the current project's `infraction-ledger.json` before
+  continuing. Use `scripts/record_infraction.py`, keep the mechanism and impact
+  concrete, attach the task or automation ID and evidence, assign an owner, and
+  set a next action.
+- Merge the same mechanism by fingerprint. Use
+  `category: automation-death-loop` and `--death-loop` when an action repeats
+  without new evidence or progress. Stop the repeated action in the same work
+  window until its earliest shared cause has a repair owner.
+- The daily 7:00 AM sitrep reviews every registered project ledger, fixes the
+  earliest recurring cause, and records a resolution or human gate. Do not
+  create one automation per infraction. Keep developer names and secret values
+  out of ledgers, prompts, receipts, and Slack updates.
+
 ### 6. Communicate Like An Operator
 
 - Give direct status. If TP asks "Done?", answer done/not done first.

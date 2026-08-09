@@ -25,6 +25,7 @@
 - `sprint-unit.json`
 - `work-window.json`
 - `daily-sitrep.json`
+- `infraction-ledger.json`
 - `comrade-care-request.json`
 - `custody-receipt.json`
 

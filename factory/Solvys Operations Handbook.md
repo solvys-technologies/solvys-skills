@@ -24,6 +24,7 @@ The Factory exists because a passing test cannot prove that a product works. A f
 - **Sprint Unit:** one visible orchestration task plus its visible implementation tasks.
 - **Entrance receipt:** proof that a task read the correct signs and verified current custody before work.
 - **Comrade care:** repairing shared access, path, connection, or context defects for active sprint work.
+- **Infraction ledger:** the per-project record of repeated operational failures, their evidence, counts, owners, and repairs.
 
 ## Source authority
 
@@ -62,7 +63,8 @@ Before substantial work:
 3. Read `project-manifest.yaml`, the active sprint record, and the latest accepted receipt.
 4. Verify repository, branch, SHA, dirty ownership, Cloud environment, SSH route, provider environment, and account.
 5. Search the project Paste folder and approved Building Block pinboards.
-6. Record an `entrance-receipt.json` before changing product state.
+6. Read the project `infraction-ledger.json` and include its open count in the entrance receipt.
+7. Record an `entrance-receipt.json` before changing product state.
 
 Do not restart product implementation from a stale chat summary. Walk back through the entrance.
 
@@ -148,6 +150,29 @@ The CAO maintains the cross-project priority map, dependencies, cost, ownership,
 Ordinary operational friction triggers recovery work. Escalation begins when a choice changes client identity, cost, rights, secrets, destructive state, billing, or irreversible provider behavior.
 
 The CAO uses visible green and red node maps. Green means the node reached its declared proof rung. Red names the earliest failed or missing dependency.
+
+## Infractions and death-loop repair
+
+The exact phrase `infraction committed` is an operational write trigger. The
+agent that uses it records the infraction immediately in the active project's
+`infraction-ledger.json` with a short mechanism title, category, severity,
+evidence, source task or automation, owner, and next action. The bundled
+`scripts/record_infraction.py` merges a matching fingerprint and increments its
+count. It never stores secret values or developer names.
+
+Use `category: automation-death-loop` and `--death-loop` when an automation or
+agent repeats the same action without new evidence or progress. The second
+repeat in one work window is a stop signal. Stop the repeated action, preserve
+the current evidence, fix the earliest shared cause, and record the repair
+before retrying.
+
+The 7:00 AM daily sitrep includes every registered project's open ledger. The
+CAO reviews recurring and high-severity entries first, assigns one owner and
+one next action, links the repair receipt, and closes or escalates the entry.
+An unchanged entry produces no user-facing update. It remains in the ledger
+until its status changes or a human gate is recorded.
+Use `python3 scripts/sweep_infractions.py` to build the ranked read-only repair
+queue, and treat any invalid ledger in its output as a control-plane defect.
 
 ## Stack Interview contract
 

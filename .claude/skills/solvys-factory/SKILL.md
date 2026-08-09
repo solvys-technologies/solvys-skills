@@ -57,6 +57,41 @@ Keep these rungs separate:
 
 Mark a node green only when it reaches the sprint's declared rung. Mark the earliest missing or failed dependency red.
 
+## Infraction trigger and daily repair
+
+The exact phrase `infraction committed` is a write trigger. When an agent uses
+that phrase, it must immediately record the mechanism in the current project's
+`infraction-ledger.json` before continuing. Use the bundled recorder:
+
+```bash
+python3 scripts/record_infraction.py \
+  --project-id <project-slug> \
+  --ledger <project-cabinet>/infraction-ledger.json \
+  --title "<short mechanism>" \
+  --category <category> \
+  --description "<observed mechanism and impact>" \
+  --source-type task --source-id <thread-or-automation-id> \
+  --evidence <receipt-or-log-path>
+```
+
+The recorder merges the same fingerprint, increments its count, appends the
+event, and keeps the highest severity. Use `--death-loop` when the same action
+repeats without new evidence or progress. If the project is unknown, use
+`--project-id unassigned` and the local Factory ledger, then make project
+assignment the next repair. Never write an infraction without its mechanism,
+source, evidence, owner, and next action. Do not name or blame a developer.
+
+The daily 7:00 AM sitrep reads every registered project ledger, prioritizes
+open `deathLoop`, critical, and recurring entries, fixes the earliest shared
+cause, assigns the repair owner, and records the result or human gate. A second
+infraction in the same work window stops the repeated action until the shared
+cause is repaired. The sweep updates the ledger and daily sitrep; it does not
+spawn one automation per infraction.
+
+Use `python3 scripts/sweep_infractions.py` to build the read-only ranked repair
+queue for that sitrep. It reports invalid ledgers as explicit evidence instead
+of hiding them.
+
 ## Breakthrough records
 
 When TP says `update the C-Cab with this Breakthrough`, create one concise,
