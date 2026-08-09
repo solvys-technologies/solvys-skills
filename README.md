@@ -65,6 +65,7 @@ fixture provenance, and Site interaction receipt before acceptance.
 |-------|--------|---------|
 | CAO | `/solvys-cao` | Universal operating doctrine for authority, Cloud execution, Site review, safety, and proof |
 | Factory | `/solvys-factory` | Mandatory orientation, Welcome Mat entrance, operating lanes, architecture maps, proof, and handoff |
+| Sign-In | `/solvys-sign-in` | Complete authorized Google, provider, CLI, MFA, QR, and Wonder sign-ins without dead loops |
 | Build Kit | `/solvys-build-kit` | Load runnable Solvys interview, architecture, control-inventory, state, rail, and workbench assemblies into a React project |
 | Orchestrate | `/solvys-orchestrate` | Multi-track sprint planning with parallel agent briefings |
 | Audit | `/solvys-audit` | Pre-flight checks, debugging, environment audit, security scan |

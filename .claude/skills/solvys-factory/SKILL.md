@@ -5,6 +5,9 @@ description: Operate the Solvys Factory for project orientation, PL and PM plann
 
 # Solvys Factory
 
+Read the project Welcome Mat and read your assigned PL, PM, DEV, or CAO lane
+sign before planning, tools, authentication, or code.
+
 Use the Factory as the entrance and operating map for Solvys work. Keep this skill short in context. Load the full Handbook only when the task needs policy detail.
 
 ## First-install orientation gate

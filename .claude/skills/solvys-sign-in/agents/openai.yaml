@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Sign-In"
+  short_description: "Complete authorized sign-ins without dead loops"
+  default_prompt: "Use $solvys-sign-in to complete the authorized project sign-in and return a proof receipt."

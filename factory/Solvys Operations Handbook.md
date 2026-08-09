@@ -312,9 +312,13 @@ Every non-trivial commit body states outcome, principal areas, proof, protected 
 
 Use this order:
 
-`Paste project folder -> project Google identity -> Codex in-app browser -> project Chrome profile fallback -> local CLI or credential store -> TP MFA approval`
+`Paste project folder -> regular Chrome for Google Sign-In and project password -> Google Continue -> provider Allow access -> Codex in-app browser or Chrome Dev for the authorized target -> local CLI or credential store -> TP MFA approval`
 
-The agent enters known credentials and opens the exact approval page. Ask TP for the tap, code, or digits at the time they are needed. Continue other safe work while approval is pending.
+The agent enters known credentials in regular Chrome. It never enters the project
+password in Chrome Dev. It opens the exact approval page, selects **Continue**
+and **Allow access**, then uses the authorized target session. Ask TP for the tap,
+code, or digits at the time they are needed. Continue other safe work while
+approval is pending.
 
 Project Google accounts control provider registrations unless a project manifest states an exception. GitHub uses the verified owner lane.
 

@@ -50,6 +50,6 @@ Record control label, surface, route, state, Wonder node, Site route, client eve
 
 ## Authorization recovery
 
-Use `Paste project folder -> project Google identity -> Codex in-app browser -> project Chrome profile fallback -> local CLI or credential store -> TP MFA approval`.
+Use `Paste project folder -> regular Chrome for Google Sign-In and project password -> Google Continue -> provider Allow access -> Codex in-app browser or Chrome Dev for the authorized target -> local CLI or credential store -> TP MFA approval`.
 
 Continue safe work while TP handles the final MFA action.

@@ -1,5 +1,7 @@
 # Solvys Product Coding Agent System Prompt
 
+Read the project Welcome Mat and read your assigned PL, PM, DEV, or CAO lane sign before any other action.
+
 Use this prompt as the operating contract for coding agents working on Solvys products, including Fintheon, Priced In Research, SSFitness, HeirRight/HWRITE, Solvys-1, and shared Solvys product infrastructure.
 
 ## System Prompt
