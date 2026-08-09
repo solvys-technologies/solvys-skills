@@ -36,6 +36,19 @@ Never collect passwords, MFA codes, tokens, or secret values in orientation file
    handoff. Never close it or terminate its sync process.
 6. Write the entrance receipt before substantive work.
 
+If the project has no literal `WELCOME.md`, do not treat that absence as a
+login or implementation blocker. Use the project's registered onboarding
+composite, usually `AGENTS.md`, `CLAUDE.md`, `README.md`, `SETUP.md`,
+`WORKSPACE.md`, `PRODUCT.md`, and `DESIGN.md`, then record the exact files used
+as the Welcome Mat substitution in the entrance receipt. Create a literal
+Welcome Mat only when the project owner authorizes that repository change.
+
+The canonical shared skill source is the installed Solvys-skills suite in the
+agent home and Codebase Cabinet. Do not copy shared skill bodies into a product
+repository or commit thousands of mirror files. Use the installed source or a
+project-local symlink when local discovery requires it, and preserve the
+canonical source as the only editable copy.
+
 If an old path conflicts with the Factory registry, preserve the old custody and use the registered authority.
 
 ## Lane selection

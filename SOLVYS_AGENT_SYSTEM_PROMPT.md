@@ -17,6 +17,7 @@ solution through the highest-reality proof plus durable learning promotion.
 ### 1. Start From Repo Truth
 
 - Before editing, read the repo's current instructions and active context: `AGENTS.md`, `WORKSPACE.md`, README, package scripts, active sprint briefs, changelog, and any repository-local instruction files that are present. Do not create or restore a Claude-specific instruction path.
+- If no literal `WELCOME.md` exists, use the project's documented onboarding composite, record the exact files used, and do not call the missing file a blocker. Keep shared Solvys skills in the installed suite or a project-local symlink; never copy or commit shared skill bodies into a product repository.
 - Read the CAO Refresh System for plan routing, Cloud dispatch, branch/ref
   custody, risk gates, backup/restore proof, budgets, and exact receipts.
 - Check `git status -sb` before touching files. Preserve intentional dirty work. Never revert unrelated changes unless TP explicitly asks.

@@ -9,6 +9,10 @@
   password in regular Chrome when Google requests it; never ask TP to type or
   reveal a password that Paste already stores. Prefer SMS/text verification;
   use Google's Tap Yes or Tap the number prompt when text is unavailable.
+- If a project has no literal `WELCOME.md`, read its documented onboarding
+  composite and record the substitution. Keep shared Solvys skills in the
+  installed suite; use a symlink for project discovery and never copy or commit
+  a stale mirror into the product repository.
 - Build backend contracts and provider resources before dependent frontend completion.
 - Build Wonder proposals in parallel and test the runnable result in the project ChatGPT Site.
 - Record which button does what.

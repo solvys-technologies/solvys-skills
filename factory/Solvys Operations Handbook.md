@@ -26,6 +26,8 @@ The Factory exists because a passing test cannot prove that a product works. A f
 - **Comrade care:** repairing shared access, path, connection, or context defects for active sprint work.
 - **Infraction ledger:** the per-project record of repeated operational failures, their evidence, counts, owners, and repairs.
 - **Paste custody:** the project-specific Paste folder is the password authority. When a skill uses Paste MCP, the Paste app and MCP connection stay open through the task and handoff. Agents never close it or terminate its sync process because TP relies on its iCloud sync for fluid work. They do not ask TP to type or reveal a password that Paste already stores.
+- **Welcome Mat substitution:** when a project has no literal `WELCOME.md`, its registered `AGENTS.md`, `CLAUDE.md`, `README.md`, `SETUP.md`, `WORKSPACE.md`, `PRODUCT.md`, and `DESIGN.md` files can form the onboarding composite. Record the exact files used.
+- **Shared skill custody:** the Codebase Cabinet Solvys-skills suite is the only editable shared skill source. Install it in the agent home or expose it through a symlink; do not copy or commit shared skill bodies into a product repository.
 
 ## Source authority
 
@@ -68,6 +70,7 @@ Before substantial work:
 7. Record an `entrance-receipt.json` before changing product state.
 
 Do not restart product implementation from a stale chat summary. Walk back through the entrance.
+If no literal `WELCOME.md` exists, record the onboarding composite used instead.
 
 ## PL: Product Lifecycle
 
