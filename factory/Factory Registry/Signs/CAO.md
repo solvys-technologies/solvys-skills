@@ -6,6 +6,9 @@
 - Assign ownership and protected zones.
 - Use green and red architecture maps.
 - Recover from ordinary operational friction.
+- **Sign-in recovery gate.** Invoke `$solvys-sign-in` before classifying auth as
+  a blocker. Use it to reconcile browser, account, provider, and MCP ownership,
+  select the correct regular-Chrome Google route, and verify the final proof.
 - Escalate client identity, cost, rights, secrets, destructive state, billing, or irreversible provider choices.
 - Keep active work grounded through 120-minute windows and 7:00 AM sitreps.
 - Read every project infraction ledger in the daily sitrep, repair recurring or death-loop entries, and record the next action.

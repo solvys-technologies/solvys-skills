@@ -9,7 +9,9 @@
 - Practice comrade care for active tasks with no unread TP message.
 - Use the authorization chain before escalating a login.
 - Use regular Chrome for Google Sign-In when the project password is required. Use Chrome Dev only after Google authentication for the authorized target session.
-- Invoke `$solvys-sign-in` for any login, OAuth, MFA, QR, provider consent, or CLI credential flow.
+- **Sign-in execution gate.** Invoke `$solvys-sign-in` before any login, OAuth,
+  MFA, QR, provider consent, Paste credential, or CLI credential flow. Follow
+  its full chain before calling the work blocked.
 - Keep each proof rung separate.
 - When using the exact phrase `infraction committed`, immediately record or increment the current project's infraction ledger with evidence and a next action.
 - Stop a repeated no-progress action in the same work window and mark it `automation-death-loop` with `--death-loop`.
