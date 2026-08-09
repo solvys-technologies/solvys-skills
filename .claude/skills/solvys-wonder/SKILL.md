@@ -80,11 +80,14 @@ If the connector reports an unauthenticated, stale, or unavailable session:
    or gives task-specific authorization for the Wonder OAuth flow. Follow that
    skill's browser-selection and Node-backed control rules; do not invent a
    named-session API or switch browser families silently.
-2. When Google Sign-In requires a project password, retrieve it from the
-   project-specific Paste folder and use regular Chrome. Do not enter that
-   password in Chrome Dev or ask TP to type it. Open `https://app.wonder.so/`
-   or the exact task-owned file/page URL in regular Chrome and select
-   **Continue with Google**.
+2. When Google Sign-In requires a project password, open Paste and search for
+   the exact project name. Select the project folder from the search suggestion,
+   open it, and use the matching item titled `Primary Project Password` or
+   `Secondary Project Password`. Do not search for guessed labels such as
+   `CRED Gmail Password`. Copy the password only into regular Chrome. Do not
+   enter it in Chrome Dev or ask TP to type it. Open `https://app.wonder.so/` or
+   the exact task-owned file/page URL in regular Chrome and select **Continue
+   with Google**.
 3. Verify the visible account before granting access. For the Solvys development
    lane, `sam@solvys.io` is valid only when the project manifest or current user
    instruction authorizes it. Select **Continue** on Google's confirmation step,

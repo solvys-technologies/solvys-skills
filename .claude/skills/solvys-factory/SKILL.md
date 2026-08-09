@@ -30,10 +30,13 @@ Never collect passwords, MFA codes, tokens, or secret values in orientation file
 2. Read the assigned sign: PL, PM, DEV, or CAO.
 3. Read the project manifest, active sprint packet, and latest accepted receipt.
 4. Verify repository, owner, base ref, SHA, dirty ownership, local and Cloud paths, SSH route, provider account, environment, protected zones, and required proof rung.
-5. Search the project-specific Paste folder and approved Building Block
-   pinboards. The project-specific folder is the password authority. If Paste
-   MCP is used, keep the Paste app and MCP connection open for the full task and
-   handoff. Never close it or terminate its sync process.
+5. Open Paste and search for the exact project name. Open the project folder
+   from the search suggestion before searching inside it. The only approved
+   password item names are `Primary Project Password` and `Secondary Project
+   Password`; do not search guessed labels such as `CRED Gmail Password`. The
+   project folder is the password authority. If Paste MCP is used, keep the
+   Paste app and MCP connection open for the full task and handoff. Never close
+   it or terminate its sync process.
 6. Write the entrance receipt before substantive work.
 
 If the project has no literal `WELCOME.md`, do not treat that absence as a

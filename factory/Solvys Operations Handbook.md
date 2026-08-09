@@ -25,7 +25,7 @@ The Factory exists because a passing test cannot prove that a product works. A f
 - **Entrance receipt:** proof that a task read the correct signs and verified current custody before work.
 - **Comrade care:** repairing shared access, path, connection, or context defects for active sprint work.
 - **Infraction ledger:** the per-project record of repeated operational failures, their evidence, counts, owners, and repairs.
-- **Paste custody:** the project-specific Paste folder is the password authority. When a skill uses Paste MCP, the Paste app and MCP connection stay open through the task and handoff. Agents never close it or terminate its sync process because TP relies on its iCloud sync for fluid work. They do not ask TP to type or reveal a password that Paste already stores.
+- **Paste custody:** open Paste, search the exact project name, open the project folder from the search suggestion, then use the matching `Primary Project Password` or `Secondary Project Password` item. Do not search guessed labels such as `CRED Gmail Password`. The project-specific Paste folder is the password authority. When a skill uses Paste MCP, the Paste app and MCP connection stay open through the task and handoff. Agents never close it or terminate its sync process because TP relies on its iCloud sync for fluid work. They do not ask TP to type or reveal a password that Paste already stores.
 - **Welcome Mat substitution:** when a project has no literal `WELCOME.md`, its registered `AGENTS.md`, `CLAUDE.md`, `README.md`, `SETUP.md`, `WORKSPACE.md`, `PRODUCT.md`, and `DESIGN.md` files can form the onboarding composite. Record the exact files used.
 - **Handoff registry authority:** discover projects through `Factory Instance/Factory Registry/factory-registry.yaml`, then read active status and rollover instructions from `Factory Instance/handoffs/task-cutover-registry.yaml`. The cutover registry is the active-status authority during a recommencement. Resolve its `commonPrompt` relative to that file. Do not rely on a chat message or a second registry copy.
 - **Shared skill custody:** the Codebase Cabinet Solvys-skills suite is the only editable shared skill source. Install it in the agent home or expose it through a symlink; do not copy or commit shared skill bodies into a product repository.
@@ -66,7 +66,7 @@ Before substantial work:
 2. Read the sign for the assigned lane: PL, PM, DEV, or CAO.
 3. Read `project-manifest.yaml`, the active sprint record, and the latest accepted receipt.
 4. Verify repository, branch, SHA, dirty ownership, Cloud environment, SSH route, provider environment, and account.
-5. Search the project-specific Paste folder and approved Building Block pinboards. Treat it as the project password authority. If Paste MCP is used, keep the Paste app and MCP connection open through the task and handoff; never close it or terminate its sync process.
+5. Open Paste, search the exact project name, open the project folder from the search suggestion, then use the matching `Primary Project Password` or `Secondary Project Password` item. Do not search guessed labels such as `CRED Gmail Password`. Treat that folder as the project password authority. If Paste MCP is used, keep the Paste app and MCP connection open through the task and handoff; never close it or terminate its sync process.
 6. Read the project `infraction-ledger.json` and include its open count in the entrance receipt.
 7. Record an `entrance-receipt.json` before changing product state.
 
