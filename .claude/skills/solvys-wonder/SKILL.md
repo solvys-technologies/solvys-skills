@@ -162,6 +162,22 @@ python3 <solvys-kirby>/scripts/validate_interface_inventory.py <report-root>
 If the Wonder evidence board or live capture is inaccessible, mark the report
 `BLOCKED`; do not replace it with local screenshots.
 
+## Exact-copy source-to-Site gate
+
+When the objective says `1:1`, `exact copy`, or production-surface parity,
+token alignment is only an implementation input. Before publishing or accepting
+the Site, capture Wonder and the Site at the same viewport, route, and state,
+then compare palette, density, geometry, shell, labels, controls, and visible
+content. A mismatch is `DIVERGED`; an owner-gated or unreachable Site is
+`BLOCKED`. Neither state can be reported as a matched candidate or used as
+runtime proof.
+
+An explicitly authorized new Site may be created as a private candidate, but it
+must keep the existing Site intact, carry a candidate label, and remain outside
+acceptance until the comparison receipt says `MATCHED`. Never delete or replace
+the current Site to escape a fidelity mismatch. Return the exact mismatch list
+and the next proof gate instead of polishing around it.
+
 ## Transfer accepted source to ChatGPT Site
 
 Do not start a Site implementation until the Interface Inventory passes and

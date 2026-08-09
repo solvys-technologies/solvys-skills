@@ -153,6 +153,14 @@ solution through the highest-reality proof plus durable learning promotion.
   substitutes. Record the source-to-Site path, route/state map, control
   checklist, desktop/mobile viewports, fixture provenance, and Site interaction
   receipt before Site acceptance or deployment.
+- For a `1:1`, `exact copy`, or production-parity objective, compare Wonder or
+  the accepted source with the Site at the same viewport, route, and state
+  before publishing or accepting a version. Check palette, density, geometry,
+  shell, labels, controls, and visible content. Token alignment alone is not
+  proof. Mark a mismatch `DIVERGED` and an owner-gated or unreachable Site
+  `BLOCKED`. Do not publish, delete, or replace the current Site to bypass the
+  gate. A private candidate needs explicit authorization, a candidate label,
+  and a `MATCHED` comparison receipt before acceptance.
 - Visible product UI stability matters. Preserve approved geometry, exact copy, tokens, icon mappings, and interaction states unless TP asks for a redesign.
 - For any new Solvys project or greenfield frontend, record the approved UI
   library sources and the user-owned theme boundary before touching frontend

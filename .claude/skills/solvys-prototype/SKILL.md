@@ -134,6 +134,15 @@ content review is needed, create the Site-derived local HTML artifact and open
 it with `human-review`, then apply accepted feedback to source and republish
 the Site. Keep source, Site, deployed, and installed proof separate.
 
+For an exact-copy or 1:1 objective, compare Wonder/source and the Site at the
+same viewport, route, and state before publishing or accepting a version. Check
+palette, density, geometry, shell, labels, controls, and visible content. A
+token-aligned candidate is still `DIVERGED` until this comparison is `MATCHED`.
+If the Site is owner-gated or unreachable, mark runtime proof `BLOCKED` and do
+not publish a replacement to work around the missing evidence. A new private
+candidate requires explicit authorization and must leave the current Site
+intact until human acceptance.
+
 Run a final comparison for:
 
 - token and font values;
