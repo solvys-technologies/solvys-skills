@@ -5,6 +5,10 @@
 - **Paste custody.** If DEV work uses Paste MCP, keep the Paste app and MCP
   connection open through the task and handoff. Never close it or terminate its
   sync process.
+- Project passwords live in the project-specific Paste folder. Use that
+  password in regular Chrome when Google requests it; never ask TP to type or
+  reveal a password that Paste already stores. Prefer SMS/text verification;
+  use Google's Tap Yes or Tap the number prompt when text is unavailable.
 - Build backend contracts and provider resources before dependent frontend completion.
 - Build Wonder proposals in parallel and test the runnable result in the project ChatGPT Site.
 - Record which button does what.

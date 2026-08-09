@@ -58,9 +58,11 @@ If the connector reports an unauthenticated, stale, or unavailable session:
    or gives task-specific authorization for the Wonder OAuth flow. Follow that
    skill's browser-selection and Node-backed control rules; do not invent a
    named-session API or switch browser families silently.
-2. When Google Sign-In requires a project password, use regular Chrome. Do not
-   enter that password in Chrome Dev. Open `https://app.wonder.so/` or the exact
-   task-owned file/page URL in regular Chrome and select **Continue with Google**.
+2. When Google Sign-In requires a project password, retrieve it from the
+   project-specific Paste folder and use regular Chrome. Do not enter that
+   password in Chrome Dev or ask TP to type it. Open `https://app.wonder.so/`
+   or the exact task-owned file/page URL in regular Chrome and select
+   **Continue with Google**.
 3. Verify the visible account before granting access. For the Solvys development
    lane, `sam@solvys.io` is valid only when the project manifest or current user
    instruction authorizes it. Select **Continue** on Google's confirmation step,
@@ -68,9 +70,10 @@ If the connector reports an unauthenticated, stale, or unavailable session:
 4. After Google authentication completes, use the same regular Chrome session or
    hand it to the authorized Chrome development profile when the Wonder editor
    requires that profile. If Google asks for a device approval, MFA code,
-   password, CAPTCHA, or policy
-   decision, leave the exact page open and ask the user to complete or provide
-   the required approval. Do not bypass the challenge, request a password, or
+   password, CAPTCHA, or policy decision, prefer SMS/text verification when it is
+   offered; otherwise trigger Google's **Tap Yes** or **Tap the number** prompt.
+   Leave the exact page open and ask the user only to complete or provide the
+   required live approval. Do not bypass the challenge, request a password, or
    claim that authentication succeeded before visual and connector proof.
 5. Do not save OAuth refresh tokens, browser cookies, MFA codes, or session
    secrets in Paste. Search an approved Paste item for an already-authorized
