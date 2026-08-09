@@ -193,6 +193,21 @@ Use separate proof rungs:
 
 A receipt names the exact rung. A lower rung cannot mark a higher rung complete.
 
+## Breakthrough records
+
+The exact user direction `update the C-Cab with this Breakthrough` creates a
+durable project record. The active owner writes one concise, non-sensitive
+Cabinet entry with the trigger, observed mechanism, proof rung, protected zones,
+external-write result, and next gate. The next authorized Sprint Unit or receipt
+update links that entry. A blocked attempt never becomes an acceptance mark.
+
+For authenticated provider surfaces, a semantic DOM or accessibility probe can
+miss the visible application shell. When that probe conflicts with the
+authorized visible UI, preserve the tab and perform the smallest scoped visual
+check before classifying provider state. Record only the required label match or
+mismatch. Do not inspect browser storage, cookies, session data, group
+membership, credentials, or unrelated visible content.
+
 ## Sprint Units and model lanes
 
 - Sol High owns Sprint Unit orchestration, architecture, dependency control, and acceptance.

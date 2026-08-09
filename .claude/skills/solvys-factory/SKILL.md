@@ -57,6 +57,20 @@ Keep these rungs separate:
 
 Mark a node green only when it reaches the sprint's declared rung. Mark the earliest missing or failed dependency red.
 
+## Breakthrough records
+
+When TP says `update the C-Cab with this Breakthrough`, create one concise,
+non-sensitive record in the active project's Cabinet before closure. Record the
+trigger, observed mechanism, affected proof rung, protected zones, write result,
+and exact next gate. Link it from the active Sprint Unit or latest receipt at the
+next authorized record update.
+
+When a semantic or accessibility probe conflicts with an authorized visible
+provider UI, do not infer login, sender, target, or delivery state from the
+probe alone. Preserve the existing tab. Use the smallest authorized visual
+check, record only the required labels or mismatch, and keep browser storage,
+session data, membership, and credentials outside the record.
+
 ## Work windows and handoff
 
 - Prepare a grounded checkpoint at 90 minutes.
