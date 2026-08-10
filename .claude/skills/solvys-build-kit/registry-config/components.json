@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/registry-install.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "registries": {
+    "@beui": "https://beui.dev/r/{name}.json",
+    "@beui-pro": {
+      "url": "https://pro.beui.dev/r/{name}.json",
+      "headers": {
+        "Authorization": "Bearer ${BEUI_PRO_TOKEN}"
+      }
+    },
+    "@evilcharts": "https://evilcharts.com/r/{name}.json?raw=1",
+    "@aceternity": "https://ui.aceternity.com/registry/{name}.json",
+    "@mapcn": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/{name}.json"
+  }
+}

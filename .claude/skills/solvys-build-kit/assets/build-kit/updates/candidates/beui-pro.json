@@ -1,0 +1,5397 @@
+{
+  "items": [
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:studio-background",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "studio-background",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/studio-background.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:animated-dropdown",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "animated-dropdown",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/animated-dropdown.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:flip-card",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "flip-card",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/flip-card.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "@headlessui/react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:flip-card-modal",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "flip-card-modal",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/flip-card-modal.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:animated-step-form",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "animated-step-form",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/animated-step-form.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:step-form-stack",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "step-form-stack",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/step-form-stack.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:step-form-inline",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "step-form-inline",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/step-form-inline.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:step-form-onboarding",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "step-form-onboarding",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/step-form-onboarding.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:empty-state-archive",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "empty-state-archive",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/empty-state-archive.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:empty-state-search",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "empty-state-search",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/empty-state-search.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:empty-state-inbox",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "empty-state-inbox",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/empty-state-inbox.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:empty-state-board",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "empty-state-board",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/empty-state-board.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "@headlessui/react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:agent-chat-input",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "agent-chat-input",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/agent-chat-input.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:agent-chat-credits",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "agent-chat-credits",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/agent-chat-credits.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:morphic-tooltip",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "morphic-tooltip",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/morphic-tooltip.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:morphic-card-modal",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "morphic-card-modal",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/morphic-card-modal.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:hero-ai-marketplace",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "hero-ai-marketplace",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shared-layout-bg",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/hero-ai-marketplace.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "@paper-design/shaders-react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:hero-signal-aurora",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "hero-signal-aurora",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shared-layout-bg"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/hero-signal-aurora.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:hero-workflow-split",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "hero-workflow-split",
+      "registryDependencies": [
+        "@beui/button-stateful",
+        "@beui/number-ticker"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/hero-workflow-split.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:hero-agent-centered",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "hero-agent-centered",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/hero-agent-centered.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:hero-code-demo",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "hero-code-demo",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/hero-code-demo.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:hero-centered-demo",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "hero-centered-demo",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/hero-centered-demo.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "id": "beui-pro:hero-split-demo",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "hero-split-demo",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/hero-split-demo.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:pricing-aurora-duo",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "pricing-aurora-duo",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/pricing-aurora-duo.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:pricing-aurora-flow",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "pricing-aurora-flow",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/pricing-aurora-flow.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:pricing-visual-plans",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "pricing-visual-plans",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/pricing-visual-plans.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:pricing-command-deck",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "pricing-command-deck",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/pricing-command-deck.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:pricing-ledger",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "pricing-ledger",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/range-slider"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/pricing-ledger.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:pricing-upgrade-panel",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "pricing-upgrade-panel",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/pricing-upgrade-panel.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:pricing-usage-slider",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "pricing-usage-slider",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/range-slider",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/pricing-usage-slider.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:pricing",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "pricing",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/pricing.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:footer-spotlight",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "footer-spotlight",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/footer-spotlight.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:footer-mega",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "footer-mega",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/footer-mega.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:footer-cta",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "footer-cta",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/footer-cta.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:features-showcase",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "features-showcase",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/features-showcase.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:features-list",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "features-list",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/features-list.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:features-steps",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "features-steps",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/features-steps.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:features-bento",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "features-bento",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/features-bento.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:features-tabs",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "features-tabs",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/features-tabs.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:features-stage-tabs",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "features-stage-tabs",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/features-stage-tabs.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:content-metrics-gallery",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "content-metrics-gallery",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/content-metrics-gallery.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:content-capability-showcase",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "content-capability-showcase",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/content-capability-showcase.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:content-value-grid",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "content-value-grid",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/content-value-grid.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:content-engagement-sequence",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "content-engagement-sequence",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/content-engagement-sequence.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:trust-compliance-marks",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "trust-compliance-marks",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/trust-compliance-marks.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:trust-security-safeguards",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "trust-security-safeguards",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/trust-security-safeguards.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:trust-reliability-summary",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "trust-reliability-summary",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/trust-reliability-summary.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "border-beam",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:announcement-gradient-marquee",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "announcement-gradient-marquee",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/announcement-gradient-marquee.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:announcement-shader-launch",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "announcement-shader-launch",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/chromatic-text-reveal",
+        "@beui/shader-background"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/announcement-shader-launch.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:announcement-rotating-ribbon",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "announcement-rotating-ribbon",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/announcement-rotating-ribbon.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:announcement-stacked-cards",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "announcement-stacked-cards",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/announcement-stacked-cards.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:use-cases-story-collage",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "use-cases-story-collage",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/use-cases-story-collage.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:use-cases-role-stories",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "use-cases-role-stories",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/use-cases-role-stories.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:use-cases-outcome-stories",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "use-cases-outcome-stories",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/use-cases-outcome-stories.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:use-cases-scenario-rail",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "use-cases-scenario-rail",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/use-cases-scenario-rail.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:use-cases-shader-spotlight",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "use-cases-shader-spotlight",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/use-cases-shader-spotlight.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:how-it-works-centered-cards",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "how-it-works-centered-cards",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/how-it-works-centered-cards.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:how-it-works-process-grid",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "how-it-works-process-grid",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/how-it-works-process-grid.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:how-it-works-story-stack",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "how-it-works-story-stack",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/how-it-works-story-stack.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:how-it-works-walkthrough",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "how-it-works-walkthrough",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/how-it-works-walkthrough.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:how-it-works-card-deck",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "how-it-works-card-deck",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/how-it-works-card-deck.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:logo-cloud-marquee",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "logo-cloud-marquee",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/logo-cloud-marquee.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:logo-cloud-grid",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "logo-cloud-grid",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/logo-cloud-grid.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:logo-cloud-columns",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "logo-cloud-columns",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/logo-cloud-columns.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:logo-cloud-carousel",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "logo-cloud-carousel",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/logo-cloud-carousel.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [],
+      "id": "beui-pro:data-table",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "data-table",
+      "registryDependencies": [
+        "@beui/table"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/data-table.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:data-table-pagination",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "data-table-pagination",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/table"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/data-table-pagination.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:data-table-operations",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "data-table-operations",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/table",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/data-table-operations.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:data-table-directory",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "data-table-directory",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/table",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/data-table-directory.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:data-table-portfolio",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "data-table-portfolio",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/table",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/data-table-portfolio.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:data-table-sla",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "data-table-sla",
+      "registryDependencies": [
+        "@beui/animated-badge",
+        "@beui/button-base",
+        "@beui/table"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/data-table-sla.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:stats-feature-outcomes",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "stats-feature-outcomes",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/stats-feature-outcomes.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:stats-impact-dashboard",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "stats-impact-dashboard",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/stats-impact-dashboard.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:stats-telemetry",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "stats-telemetry",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/stats-telemetry.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:stats-band",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "stats-band",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/stats-band.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:stats-cards",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "stats-cards",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/stats-cards.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:stats-outcome-index",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "stats-outcome-index",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/stats-outcome-index.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:testimonials-marquee",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "testimonials-marquee",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/testimonials-marquee.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:testimonials-spotlight",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "testimonials-spotlight",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/testimonials-spotlight.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:testimonials-grid",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "testimonials-grid",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/testimonials-grid.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:testimonials-archive",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "testimonials-archive",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/testimonials-archive.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:testimonials-vertical",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "testimonials-vertical",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/testimonials-vertical.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:image-gallery-vertical",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "image-gallery-vertical",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/image-gallery-vertical.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:image-gallery-morphing-mosaic",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "image-gallery-morphing-mosaic",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/image-gallery-morphing-mosaic.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:image-gallery-focus-rail",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "image-gallery-focus-rail",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/image-gallery-focus-rail.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:navbar-morph",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "navbar-morph",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/navbar-morph.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:navbar-feature-morph",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "navbar-feature-morph",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/navbar-feature-morph.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:navbar-expand",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "navbar-expand",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/navbar-expand.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:navbar-simple",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "navbar-simple",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/navbar-simple.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:newsletter-editorial",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "newsletter-editorial",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/newsletter-editorial.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:newsletter-inline",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "newsletter-inline",
+      "registryDependencies": [
+        "@beui/button-stateful",
+        "@beui/number-ticker",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/newsletter-inline.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:newsletter-card",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "newsletter-card",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/newsletter-card.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:contact-routing",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "contact-routing",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/contact-routing.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:contact-split",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "contact-split",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/contact-split.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:contact-cards",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "contact-cards",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/contact-cards.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "@headlessui/react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:integrations-directory",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "integrations-directory",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/integrations-directory.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "@headlessui/react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:integrations-editorial",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "integrations-editorial",
+      "registryDependencies": [
+        "@beui/animated-badge",
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/integrations-editorial.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "@headlessui/react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:integrations-orbit",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "integrations-orbit",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/integrations-orbit.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:integrations-ledger",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "integrations-ledger",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/integrations-ledger.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "@react-three/fiber",
+        "@react-three/postprocessing",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "postprocessing",
+        "tailwind-merge",
+        "three"
+      ],
+      "id": "beui-pro:feature-comparison",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "feature-comparison",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/feature-comparison.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:auth-split",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "auth-split",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/auth-split.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:auth-centered",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "auth-centered",
+      "registryDependencies": [
+        "@beui/button-stateful",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/auth-centered.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:auth-otp",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "auth-otp",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/auth-otp.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "dotted-map",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:auth-atlas",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "auth-atlas",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/auth-atlas.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "dotted-map",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:auth-atlas-split",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "auth-atlas-split",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/auth-atlas-split.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:onboarding-steps",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "onboarding-steps",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/onboarding-steps.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:onboarding-split",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "onboarding-split",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/onboarding-split.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:onboarding-modal",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "onboarding-modal",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/onboarding-modal.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:about-story",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "about-story",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/about-story.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:about-timeline",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "about-timeline",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/about-timeline.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:careers-board",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "careers-board",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/careers-board.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:careers-culture",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "careers-culture",
+      "registryDependencies": [
+        "@beui/bouncy-accordion",
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/careers-culture.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:changelog-sidebar",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "changelog-sidebar",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/changelog-sidebar.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:changelog-ledger",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "changelog-ledger",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/changelog-ledger.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:changelog-simple",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "changelog-simple",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/changelog-simple.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:blog-index",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "blog-index",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/blog-index.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:blog-rounded-index",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "blog-rounded-index",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/blog-rounded-index.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:blog-article",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "blog-article",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/blog-article.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:not-found-falling-blocks",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "not-found-falling-blocks",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/not-found-falling-blocks.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:not-found-flip-panels",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "not-found-flip-panels",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/not-found-flip-panels.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:not-found-elastic",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "not-found-elastic",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/not-found-elastic.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:not-found-echo",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "not-found-echo",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/not-found-echo.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:not-found-spotlight",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "not-found-spotlight",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/not-found-spotlight.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:not-found-sliced",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "not-found-sliced",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/not-found-sliced.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:not-found-editorial",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "not-found-editorial",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/not-found-editorial.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:not-found-terminal",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "not-found-terminal",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/not-found-terminal.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:not-found-wayfinder",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "not-found-wayfinder",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/not-found-wayfinder.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:team-panels",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "team-panels",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/team-panels.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:team-spotlight",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "team-spotlight",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/team-spotlight.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:team-grid",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "team-grid",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/team-grid.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:team-marquee",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "team-marquee",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/team-marquee.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:faq-split",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "faq-split",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/faq-split.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:faq-search",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "faq-search",
+      "registryDependencies": [
+        "@beui/bouncy-accordion",
+        "@beui/tabs"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/faq-search.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:faq-stacked",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "faq-stacked",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/faq-stacked.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:cta-proof-orbit",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "cta-proof-orbit",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/cta-proof-orbit.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:cta-shade-panel",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "cta-shade-panel",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/cta-shade-panel.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:cta-glow",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "cta-glow",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/cta-glow.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:cta-terminal",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "cta-terminal",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/cta-terminal.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:cta-faq",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "cta-faq",
+      "registryDependencies": [
+        "@beui/bouncy-accordion",
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/cta-faq.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:cta-split",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "cta-split",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/cta-split.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-token"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui-pro:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui-pro:cta-poster",
+      "kind": "block",
+      "license": "beUI Pro license token",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://pro.beui.dev/components/installation",
+      "name": "cta-poster",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui-pro",
+      "sourcePath": "https://pro.beui.dev/r/cta-poster.json",
+      "sourceRevision": "catalog-7f681563da718788",
+      "sourceType": "registry:block"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": "beui-pro",
+  "sourceRevision": "catalog-7f681563da718788",
+  "sourceUrl": "https://pro.beui.dev/",
+  "status": "candidate"
+}

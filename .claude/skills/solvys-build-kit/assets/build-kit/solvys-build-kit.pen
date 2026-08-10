@@ -1,0 +1,1784 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Solvys Build Kit | Design System",
+      "clip": true,
+      "width": 2600,
+      "height": 4300,
+      "fill": "$canvas",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "RBH5C",
+          "x": 120,
+          "y": 96,
+          "name": "Kit Header",
+          "metadata": {
+            "type": "kit-section",
+            "section": "identity"
+          },
+          "width": 2360,
+          "height": 260,
+          "fill": "$surface",
+          "cornerRadius": 24,
+          "gap": 40,
+          "padding": 36,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "jhlTT",
+              "name": "Header Copy",
+              "width": 1500,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GRAOE",
+                  "name": "Kit Eyebrow",
+                  "fill": "$ink",
+                  "content": "SOLVYS / BUILD KIT / 2.0.0",
+                  "fontFamily": "$body",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "aQHqX",
+                  "name": "Kit Title",
+                  "fill": "$ink",
+                  "content": "A shared system for real work.",
+                  "fontFamily": "$display",
+                  "fontSize": 46,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "NUGgV",
+                  "name": "Kit Subtitle",
+                  "fill": "$ink",
+                  "content": "Reusable interface shells, chart contracts, and Pen.dev components with source lineage built in.",
+                  "fontFamily": "$body",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "O9QFp5",
+              "name": "Kit Metadata",
+              "metadata": {
+                "type": "provenance",
+                "source": "solvys-skills",
+                "designSurface": "Pen.dev",
+                "channel": "green-only-auto-promote"
+              },
+              "width": 580,
+              "fill": "$soft",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "U3Cpne",
+                  "name": "Metadata Label",
+                  "fill": "$ink",
+                  "content": "UPDATE CHANNEL",
+                  "fontFamily": "$data",
+                  "fontSize": 11,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "krbMi",
+                  "name": "Metadata Value",
+                  "fill": "$ink",
+                  "content": "Green-only auto-promote",
+                  "fontFamily": "$body",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "aClDt",
+                  "name": "Metadata Detail",
+                  "fill": "$ink",
+                  "content": "Breaking or uncertain blocks stay quarantined.",
+                  "fontFamily": "$body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t9dMj",
+          "x": 120,
+          "y": 420,
+          "name": "Foundation / Tokens",
+          "metadata": {
+            "type": "kit-section",
+            "section": "foundations"
+          },
+          "width": 2360,
+          "height": 720,
+          "fill": "$raised",
+          "cornerRadius": 20,
+          "layout": "vertical",
+          "gap": 22,
+          "padding": 30,
+          "children": [
+            {
+              "type": "text",
+              "id": "g9Pjm",
+              "name": "Foundation Title",
+              "fill": "$ink",
+              "content": "FOUNDATIONS / TOKEN ROLES",
+              "fontFamily": "$data",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "s9uDU",
+              "name": "Foundation Lead",
+              "fill": "$ink",
+              "content": "Tone, type, spacing, and state semantics stay named so projects can adapt them without losing the system.",
+              "fontFamily": "$body",
+              "fontSize": 23,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "LLPxw",
+              "name": "Color Roles",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zLdNd",
+                  "name": "Canvas Token",
+                  "metadata": {
+                    "type": "token-swatch",
+                    "token": "canvas",
+                    "value": "#050402"
+                  },
+                  "width": 252,
+                  "height": 92,
+                  "fill": "#050402",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eVxZ2",
+                      "name": "Canvas Token Label",
+                      "fill": "$ink",
+                      "content": "canvas",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hF6CI",
+                      "name": "Canvas Token Value",
+                      "fill": "$ink",
+                      "content": "#050402",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CKd3u",
+                  "name": "Surface Token",
+                  "metadata": {
+                    "type": "token-swatch",
+                    "token": "surface",
+                    "value": "#100E0A"
+                  },
+                  "width": 252,
+                  "height": 92,
+                  "fill": "#100E0A",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EoFPa",
+                      "name": "Surface Token Label",
+                      "fill": "$ink",
+                      "content": "surface",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "roiti",
+                      "name": "Surface Token Value",
+                      "fill": "$ink",
+                      "content": "#100E0A",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M41EV",
+                  "name": "Raised Token",
+                  "metadata": {
+                    "type": "token-swatch",
+                    "token": "raised",
+                    "value": "#18150F"
+                  },
+                  "width": 252,
+                  "height": 92,
+                  "fill": "#18150F",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "If4nw",
+                      "name": "Raised Token Label",
+                      "fill": "$ink",
+                      "content": "raised",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ph8V1",
+                      "name": "Raised Token Value",
+                      "fill": "$ink",
+                      "content": "#18150F",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e7bQYr",
+                  "name": "Accent Token",
+                  "metadata": {
+                    "type": "token-swatch",
+                    "token": "accent",
+                    "value": "#C79F4A"
+                  },
+                  "width": 252,
+                  "height": 92,
+                  "fill": "#C79F4A",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UaDdp",
+                      "name": "Accent Token Label",
+                      "fill": "$canvas",
+                      "content": "accent",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IPe09",
+                      "name": "Accent Token Value",
+                      "fill": "$canvas",
+                      "content": "#C79F4A",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IBj77",
+                  "name": "Good Token",
+                  "metadata": {
+                    "type": "token-swatch",
+                    "token": "good",
+                    "value": "#93B27F"
+                  },
+                  "width": 252,
+                  "height": 92,
+                  "fill": "#93B27F",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PuCU7",
+                      "name": "Good Token Label",
+                      "fill": "$canvas",
+                      "content": "good",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GYfQr",
+                      "name": "Good Token Value",
+                      "fill": "$canvas",
+                      "content": "#93B27F",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "u8kxjP",
+                  "name": "Warn Token",
+                  "metadata": {
+                    "type": "token-swatch",
+                    "token": "warn",
+                    "value": "#D2A565"
+                  },
+                  "width": 252,
+                  "height": 92,
+                  "fill": "#D2A565",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "u8Xdq",
+                      "name": "Warn Token Label",
+                      "fill": "$canvas",
+                      "content": "warn",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Amurx",
+                      "name": "Warn Token Value",
+                      "fill": "$canvas",
+                      "content": "#D2A565",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T8tlkH",
+                  "name": "Danger Token",
+                  "metadata": {
+                    "type": "token-swatch",
+                    "token": "danger",
+                    "value": "#C87968"
+                  },
+                  "width": 252,
+                  "height": 92,
+                  "fill": "#C87968",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Psf7U",
+                      "name": "Danger Token Label",
+                      "fill": "$canvas",
+                      "content": "danger",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "N99fXJ",
+                      "name": "Danger Token Value",
+                      "fill": "$canvas",
+                      "content": "#C87968",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bHYkJ",
+                  "name": "Info Token",
+                  "metadata": {
+                    "type": "token-swatch",
+                    "token": "info",
+                    "value": "#93A9B8"
+                  },
+                  "width": 252,
+                  "height": 92,
+                  "fill": "#93A9B8",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sUI6v",
+                      "name": "Info Token Label",
+                      "fill": "$canvas",
+                      "content": "info",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oryUG",
+                      "name": "Info Token Value",
+                      "fill": "$canvas",
+                      "content": "#93A9B8",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DyeqS",
+              "name": "Type and Rhythm",
+              "width": "fill_container",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Hjbxm",
+                  "name": "Type Roles",
+                  "width": 800,
+                  "height": 138,
+                  "fill": "$surface",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LJ1MW",
+                      "name": "Type Display",
+                      "fill": "$ink",
+                      "content": "Doto / 46 / display",
+                      "fontFamily": "$display",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dBy5r",
+                      "name": "Type Body",
+                      "fill": "$ink",
+                      "content": "Space Grotesk / 14-18 / interface",
+                      "fontFamily": "$body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KYalo",
+                      "name": "Type Data",
+                      "fill": "$ink",
+                      "content": "Space Mono / 12-14 / values",
+                      "fontFamily": "$data",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M6o5t",
+                  "name": "Spacing Roles",
+                  "width": 800,
+                  "height": 138,
+                  "fill": "$surface",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FZdO7",
+                      "name": "Rhythm Title",
+                      "fill": "$ink",
+                      "content": "8px rhythm",
+                      "fontFamily": "$body",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NAjL2",
+                      "name": "Rhythm Samples",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "UlWOQ",
+                          "name": "Space 1",
+                          "width": 8,
+                          "height": 8,
+                          "fill": "$accent",
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "iwa0q",
+                          "name": "Space 2",
+                          "width": 16,
+                          "height": 8,
+                          "fill": "$accent",
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wfSDv",
+                          "name": "Space 3",
+                          "width": 24,
+                          "height": 8,
+                          "fill": "$accent",
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ow8He",
+                          "name": "Space 4",
+                          "width": 32,
+                          "height": 8,
+                          "fill": "$accent",
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ww8YP",
+                          "name": "Space 6",
+                          "width": 48,
+                          "height": 8,
+                          "fill": "$accent",
+                          "cornerRadius": 4
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qrHX2",
+                  "name": "State Semantics",
+                  "metadata": {
+                    "type": "state-contract",
+                    "states": [
+                      "working",
+                      "warning",
+                      "blocked",
+                      "unknown"
+                    ]
+                  },
+                  "width": 800,
+                  "height": 138,
+                  "fill": "$surface",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ftBuc",
+                      "name": "State Title",
+                      "fill": "$ink",
+                      "content": "working  /  warning  /  blocked  /  unknown",
+                      "fontFamily": "$body",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o7Jc3O",
+                      "name": "State Detail",
+                      "fill": "$ink",
+                      "content": "Every state has visible copy, focus behavior, reduced-motion behavior, and a product-owned action.",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lAvEz",
+          "x": 120,
+          "y": 1200,
+          "name": "Components / Approved Blocks",
+          "metadata": {
+            "type": "kit-section",
+            "section": "components",
+            "approvedHierarchy": [
+              "BeUI Pro",
+              "BeUI",
+              "Motionary.dev",
+              "ascertainty UI",
+              "Bklit",
+              "EvilCharts"
+            ]
+          },
+          "width": 2360,
+          "height": 1600,
+          "fill": "$surface",
+          "cornerRadius": 20,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "X2nm2",
+              "x": 0,
+              "y": 0,
+              "name": "Components Label",
+              "fill": "$ink",
+              "content": "COMPONENTS / APPROVED BLOCKS",
+              "fontFamily": "$data",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "nbqcZ",
+              "x": 0,
+              "y": 0,
+              "name": "Components Lead",
+              "fill": "$ink",
+              "content": "Each block has a contract, a source lineage, and a visible state.",
+              "fontFamily": "$body",
+              "fontSize": 23,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "B8Cwc",
+              "x": 40,
+              "y": 120,
+              "name": "Solvys / Action / Primary",
+              "reusable": true,
+              "metadata": {
+                "type": "solvys-block",
+                "contractId": "action.primary",
+                "source": "beui-pro|beui",
+                "sourceRevision": "pending",
+                "license": "pending",
+                "status": "candidate"
+              },
+              "width": 300,
+              "height": 58,
+              "fill": "$accent",
+              "cornerRadius": 12,
+              "gap": 10,
+              "padding": [
+                12,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "w2iG82",
+                  "name": "Primary Action Icon",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "arrow-up-right",
+                  "library": "lucide",
+                  "fill": "$canvas"
+                },
+                {
+                  "type": "text",
+                  "id": "UFvkX",
+                  "name": "Primary Action Label",
+                  "fill": "$canvas",
+                  "content": "Continue",
+                  "fontFamily": "$body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "bNnS2",
+              "x": 0,
+              "y": 0,
+              "name": "Primary Caption",
+              "fill": "$ink",
+              "content": "PRIMARY / COMMAND",
+              "fontFamily": "$data",
+              "fontSize": 11,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "xnmnJ",
+              "x": 420,
+              "y": 120,
+              "name": "Solvys / Action / Icon",
+              "reusable": true,
+              "metadata": {
+                "type": "solvys-block",
+                "contractId": "action.icon",
+                "source": "beui-pro|beui",
+                "sourceRevision": "pending",
+                "license": "pending",
+                "status": "candidate"
+              },
+              "width": 48,
+              "height": 48,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "n28P6i",
+                  "x": 16,
+                  "y": 16,
+                  "name": "Icon Action Mark",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "sliders-horizontal",
+                  "library": "lucide",
+                  "fill": "$accent"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "MtLx8",
+              "x": 0,
+              "y": 0,
+              "name": "Icon Caption",
+              "fill": "$ink",
+              "content": "ICON-FIRST / BARE",
+              "fontFamily": "$data",
+              "fontSize": 11,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "cF29O",
+              "x": 40,
+              "y": 330,
+              "name": "Solvys / State / Gate",
+              "reusable": true,
+              "metadata": {
+                "type": "solvys-block",
+                "contractId": "state.gate",
+                "source": "solvys-owned",
+                "sourceRevision": "2.0.0",
+                "license": "internal",
+                "states": [
+                  "working",
+                  "warning",
+                  "blocked",
+                  "unknown",
+                  "ready"
+                ],
+                "status": "candidate"
+              },
+              "width": 460,
+              "height": 220,
+              "fill": "$raised",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jhvMZ",
+                  "name": "Gate Header",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "zlAm0",
+                      "name": "Gate Status Mark",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "circle-check",
+                      "library": "lucide",
+                      "fill": "$good"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z8oXCA",
+                      "name": "Gate Title",
+                      "fill": "$ink",
+                      "content": "Ready to continue",
+                      "fontFamily": "$body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "f8JROv",
+                  "name": "Gate Detail",
+                  "fill": "$ink",
+                  "content": "Every boundary tells the user what happened and what action is available.",
+                  "fontFamily": "$body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "OxElQ",
+                  "name": "Gate Action Row",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pmUCy",
+                      "name": "Gate State",
+                      "fill": "$ink",
+                      "content": "READY",
+                      "fontFamily": "$data",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "D7eVrL",
+                      "name": "Gate Action",
+                      "fill": "$ink",
+                      "content": "Review source",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "f0fvmh",
+              "x": 580,
+              "y": 330,
+              "name": "Solvys / Interview / Decision Card",
+              "reusable": true,
+              "metadata": {
+                "type": "solvys-block",
+                "contractId": "interview.decision-card",
+                "source": "solvys-owned",
+                "sourceRevision": "2.0.0",
+                "license": "internal",
+                "states": [
+                  "collapsed",
+                  "expanded",
+                  "selected"
+                ],
+                "status": "candidate"
+              },
+              "width": 460,
+              "height": 270,
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TV880",
+                  "name": "Decision Eyebrow",
+                  "fill": "$ink",
+                  "content": "DECISION 01",
+                  "fontFamily": "$data",
+                  "fontSize": 11,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "nE8Ef",
+                  "name": "Decision Title",
+                  "fill": "$ink",
+                  "content": "Which surface owns the state?",
+                  "fontFamily": "$body",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "U5q1i",
+                  "name": "Decision Choice",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "mbs4Y",
+                      "name": "Decision Mark",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "circle-dot",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cAkTM",
+                      "name": "Decision Choice Text",
+                      "fill": "$ink",
+                      "content": "The source-owned shell",
+                      "fontFamily": "$body",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "kz541",
+                  "name": "Decision Detail",
+                  "fill": "$ink",
+                  "content": "Selection, evidence, and source status remain visible when the card expands.",
+                  "fontFamily": "$body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "edNSz",
+              "x": 1120,
+              "y": 330,
+              "name": "Solvys / Output / Sources Rail",
+              "reusable": true,
+              "metadata": {
+                "type": "solvys-block",
+                "contractId": "outputs.sources-rail",
+                "source": "solvys-owned",
+                "sourceRevision": "2.0.0",
+                "license": "internal",
+                "states": [
+                  "current",
+                  "complete",
+                  "pending"
+                ],
+                "status": "candidate"
+              },
+              "width": 520,
+              "height": 270,
+              "fill": "$raised",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pwbYw",
+                  "name": "Rail Title",
+                  "fill": "$ink",
+                  "content": "OUTPUTS / SOURCES",
+                  "fontFamily": "$data",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "jTTiO",
+                  "name": "Rail Step 01",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "r8deP",
+                      "name": "Rail Step Number 01",
+                      "fill": "$faint",
+                      "content": "01",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fkhs6",
+                      "name": "Rail Step Label 01",
+                      "fill": "$ink",
+                      "content": "Brief",
+                      "fontFamily": "$body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "d3of6",
+                      "name": "Rail Step State 01",
+                      "fill": "$ink",
+                      "content": "COMPLETE",
+                      "fontFamily": "$data",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BS0Y2",
+                  "name": "Rail Step 02",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z85Pbi",
+                      "name": "Rail Step Number 02",
+                      "fill": "$accent",
+                      "content": "02",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cfvSl",
+                      "name": "Rail Step Label 02",
+                      "fill": "$ink",
+                      "content": "Architecture",
+                      "fontFamily": "$body",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fgJkG",
+                      "name": "Rail Step State 02",
+                      "fill": "$ink",
+                      "content": "CURRENT",
+                      "fontFamily": "$data",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VD3Lt",
+                  "name": "Rail Step 03",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HG2zb",
+                      "name": "Rail Step Number 03",
+                      "fill": "$faint",
+                      "content": "03",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ltB8X",
+                      "name": "Rail Step Label 03",
+                      "fill": "$ink",
+                      "content": "Site proof",
+                      "fontFamily": "$body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tB4EY",
+                      "name": "Rail Step State 03",
+                      "fill": "$ink",
+                      "content": "PENDING",
+                      "fontFamily": "$data",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OEem0",
+              "x": 1720,
+              "y": 330,
+              "name": "Solvys / Workbench / Drawer",
+              "reusable": true,
+              "metadata": {
+                "type": "solvys-block",
+                "contractId": "workbench.drawer",
+                "source": "motionary.dev|ascertainty-ui",
+                "sourceRevision": "pending",
+                "license": "pending",
+                "states": [
+                  "closed",
+                  "open",
+                  "busy"
+                ],
+                "status": "candidate"
+              },
+              "width": 580,
+              "height": 270,
+              "fill": "$soft",
+              "cornerRadius": 18,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "obTG7",
+                  "name": "Drawer Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f8jJX",
+                      "name": "Drawer Title",
+                      "fill": "$ink",
+                      "content": "Workbench",
+                      "fontFamily": "$body",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "B3Jpol",
+                      "name": "Drawer Close",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "panel-right-close",
+                      "library": "lucide",
+                      "fill": "$muted"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "hhggM",
+                  "name": "Drawer Detail",
+                  "fill": "$ink",
+                  "content": "A surface stays attached to the control that opened it.",
+                  "fontFamily": "$body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Q3Hb3X",
+                  "name": "Drawer Controls",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hrDgM",
+                      "name": "Drawer Control Source",
+                      "width": 150,
+                      "height": 38,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pfbMe",
+                          "name": "Drawer Control Label Source",
+                          "fill": "$ink",
+                          "content": "Source",
+                          "fontFamily": "$body",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uH3n9",
+                      "name": "Drawer Control State",
+                      "width": 150,
+                      "height": 38,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UZ0Ec",
+                          "name": "Drawer Control Label State",
+                          "fill": "$ink",
+                          "content": "State",
+                          "fontFamily": "$body",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l9jRO",
+                      "name": "Drawer Control Notes",
+                      "width": 150,
+                      "height": 38,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Lw12B",
+                          "name": "Drawer Control Label Notes",
+                          "fill": "$ink",
+                          "content": "Notes",
+                          "fontFamily": "$body",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jc9bI",
+              "x": 40,
+              "y": 820,
+              "name": "Solvys / Chart / Bklit Bar Panel",
+              "reusable": true,
+              "metadata": {
+                "type": "solvys-block",
+                "contractId": "chart.bar-panel",
+                "source": "bklit|evilcharts",
+                "sourceRevision": "pending",
+                "license": "pending",
+                "states": [
+                  "loading",
+                  "empty",
+                  "ready",
+                  "error"
+                ],
+                "status": "candidate"
+              },
+              "width": 760,
+              "height": 500,
+              "fill": "$surface",
+              "cornerRadius": 18,
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qvnJh",
+                  "name": "Chart Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lQD5C",
+                      "name": "Chart Title Group",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Dbgyj",
+                          "name": "Chart Title",
+                          "fill": "$ink",
+                          "content": "Signal volume",
+                          "fontFamily": "$body",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TYQCm",
+                          "name": "Chart Subtitle",
+                          "fill": "$ink",
+                          "content": "Bklit / EvilCharts adapter",
+                          "fontFamily": "$data",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "FAARQ",
+                      "name": "Chart Range",
+                      "fill": "$ink",
+                      "content": "7D",
+                      "fontFamily": "$data",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kaqch",
+                  "name": "Chart Bars",
+                  "width": "fill_container",
+                  "height": 220,
+                  "gap": 24,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ufob7",
+                      "name": "Bar M72",
+                      "height": 220,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "p2soIB",
+                          "name": "Bar Value M72",
+                          "metadata": {
+                            "type": "chart-mark",
+                            "series": "signal-volume"
+                          },
+                          "width": 44,
+                          "height": 72,
+                          "fill": "$accent",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z9j5rV",
+                          "name": "Bar Label M",
+                          "fill": "$ink",
+                          "content": "M",
+                          "fontFamily": "$data",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SnZtc",
+                      "name": "Bar T128",
+                      "height": 220,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FPidl",
+                          "name": "Bar Value T128",
+                          "metadata": {
+                            "type": "chart-mark",
+                            "series": "signal-volume"
+                          },
+                          "width": 44,
+                          "height": 128,
+                          "fill": "$accent",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "WmQP9",
+                          "name": "Bar Label T",
+                          "fill": "$ink",
+                          "content": "T",
+                          "fontFamily": "$data",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "z20zrJ",
+                      "name": "Bar W98",
+                      "height": 220,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "D7cM8A",
+                          "name": "Bar Value W98",
+                          "metadata": {
+                            "type": "chart-mark",
+                            "series": "signal-volume"
+                          },
+                          "width": 44,
+                          "height": 98,
+                          "fill": "$accent",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "HJsQ0",
+                          "name": "Bar Label W",
+                          "fill": "$ink",
+                          "content": "W",
+                          "fontFamily": "$data",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gPHrg",
+                      "name": "Bar T164",
+                      "height": 220,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "b8nuL",
+                          "name": "Bar Value T164",
+                          "metadata": {
+                            "type": "chart-mark",
+                            "series": "signal-volume"
+                          },
+                          "width": 44,
+                          "height": 164,
+                          "fill": "$accent",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "a797Hw",
+                          "name": "Bar Label T",
+                          "fill": "$ink",
+                          "content": "T",
+                          "fontFamily": "$data",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "glv5W",
+                      "name": "Bar F112",
+                      "height": 220,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tN0ed",
+                          "name": "Bar Value F112",
+                          "metadata": {
+                            "type": "chart-mark",
+                            "series": "signal-volume"
+                          },
+                          "width": 44,
+                          "height": 112,
+                          "fill": "$accent",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "WT1oZ",
+                          "name": "Bar Label F",
+                          "fill": "$ink",
+                          "content": "F",
+                          "fontFamily": "$data",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MiIJu",
+                      "name": "Bar S184",
+                      "height": 220,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CD2eN",
+                          "name": "Bar Value S184",
+                          "metadata": {
+                            "type": "chart-mark",
+                            "series": "signal-volume"
+                          },
+                          "width": 44,
+                          "height": 184,
+                          "fill": "$accent",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "KTy6P",
+                          "name": "Bar Label S",
+                          "fill": "$ink",
+                          "content": "S",
+                          "fontFamily": "$data",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EirLF",
+                      "name": "Bar S146",
+                      "height": 220,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "U2cSMK",
+                          "name": "Bar Value S146",
+                          "metadata": {
+                            "type": "chart-mark",
+                            "series": "signal-volume"
+                          },
+                          "width": 44,
+                          "height": 146,
+                          "fill": "$accent",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "Zs5El",
+                          "name": "Bar Label S",
+                          "fill": "$ink",
+                          "content": "S",
+                          "fontFamily": "$data",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kXvkP",
+                  "name": "Chart Footer",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ja478",
+                      "name": "Chart Summary",
+                      "fill": "$ink",
+                      "content": "Peak 184 / median 128",
+                      "fontFamily": "$body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "B3FLGv",
+                      "name": "Chart State",
+                      "fill": "$ink",
+                      "content": "READY",
+                      "fontFamily": "$data",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "canvas": {
+      "type": "color",
+      "value": "#050402"
+    },
+    "surface": {
+      "type": "color",
+      "value": "#100E0A"
+    },
+    "raised": {
+      "type": "color",
+      "value": "#18150F"
+    },
+    "soft": {
+      "type": "color",
+      "value": "#221D14"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#F0EAD6"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#B3AA97"
+    },
+    "faint": {
+      "type": "color",
+      "value": "#7D7465"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#C79F4A"
+    },
+    "good": {
+      "type": "color",
+      "value": "#93B27F"
+    },
+    "warn": {
+      "type": "color",
+      "value": "#D2A565"
+    },
+    "danger": {
+      "type": "color",
+      "value": "#C87968"
+    },
+    "info": {
+      "type": "color",
+      "value": "#93A9B8"
+    },
+    "border": {
+      "type": "color",
+      "value": "#3A3327"
+    },
+    "focus": {
+      "type": "color",
+      "value": "#E8C87B"
+    },
+    "display": {
+      "type": "string",
+      "value": "Doto"
+    },
+    "body": {
+      "type": "string",
+      "value": "Space Grotesk"
+    },
+    "data": {
+      "type": "string",
+      "value": "Space Mono"
+    },
+    "unit": {
+      "type": "number",
+      "value": 8
+    },
+    "radius": {
+      "type": "number",
+      "value": 12
+    }
+  },
+  "fileToken": "243ec3f7-5993-4b55-a8cb-093008ab6598"
+}

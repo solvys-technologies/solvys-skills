@@ -7,6 +7,8 @@ buildKit:
   version: ""
   preset: ""
   sourceCommit: ""
+  penFile: ""
+  penSourceStatus: candidate
   targetRepository: ""
   targetCommit: ""
   destination: ""
@@ -16,6 +18,11 @@ approvedFoundation:
   primaryComponents: {source: "", revision: "", license: "", status: not_applicable}
   motion: {source: "", revision: "", license: "", status: not_applicable}
   visualization: {source: "", revision: "", license: "", status: not_applicable}
+  chartAdapter: {source: "", revision: "", license: "", status: not_applicable}
+upstreamSync:
+  discovery: pending
+  candidateCatalog: pending
+  autoPromotionPolicy: green_only
 protectedZones: []
 replacedOwners: []
 proof:

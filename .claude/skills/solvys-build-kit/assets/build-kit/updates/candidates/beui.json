@@ -1,0 +1,3667 @@
+{
+  "items": [
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:tilt-card",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "tilt-card",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/tilt-card.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:button-base",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "button-base",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/button-base.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:button-stateful",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "button-stateful",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/button-stateful.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:button-magnetic",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "button-magnetic",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/button-magnetic.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:hold-action-button",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "hold-action-button",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/hold-action-button.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:slide-action-button",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "slide-action-button",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/slide-action-button.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "id": "beui:marquee",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "marquee",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/marquee.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:tabs",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "tabs",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/tabs.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:switch",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "switch",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/switch.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:input",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "input",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/input.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:select",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "select",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/select.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:select-morph",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "select-morph",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/select-morph.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:checkbox",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "checkbox",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/checkbox.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:radio",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "radio",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/radio.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:bottom-sheet",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "bottom-sheet",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/bottom-sheet.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:pull-to-refresh",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "pull-to-refresh",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/pull-to-refresh.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:shared-layout-bg",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "shared-layout-bg",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/shared-layout-bg.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:bounce-sidebar",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "bounce-sidebar",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/bounce-sidebar.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:animated-sidebar",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "animated-sidebar",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/animated-sidebar.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:preview-rail",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "preview-rail",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/preview-rail.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:dock",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "dock",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/dock.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:tooltip",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "tooltip",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/tooltip.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:context-menu",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "context-menu",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/context-menu.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:popover",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "popover",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/popover.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:popover-morph",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "popover-morph",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/popover-morph.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:morphing-modal",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "morphing-modal",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/morphing-modal.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:center-morph-modal",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "center-morph-modal",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/center-morph-modal.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:chromatic-text-reveal",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "chromatic-text-reveal",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/chromatic-text-reveal.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:text-reveal",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "text-reveal",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/text-reveal.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "id": "beui:text-shimmer",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "text-shimmer",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/text-shimmer.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:text-cascade",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "text-cascade",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/text-cascade.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:number-ticker",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "number-ticker",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/number-ticker.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:animated-number",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "animated-number",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/animated-number.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:animated-badge",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "animated-badge",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/animated-badge.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:action-swap-cascade",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "action-swap-cascade",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/action-swap-cascade.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:action-swap-blur",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "action-swap-blur",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/action-swap-blur.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:action-swap-roll",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "action-swap-roll",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/action-swap-roll.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:animated-toast-stack",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "animated-toast-stack",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/animated-toast-stack.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "next-themes",
+        "tailwind-merge"
+      ],
+      "id": "beui:theme-toggle",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "theme-toggle",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/theme-toggle.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:bouncy-accordion",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "bouncy-accordion",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/bouncy-accordion.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:drawer",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "drawer",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/drawer.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "lenis",
+        "motion"
+      ],
+      "id": "beui:smooth-scroll",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "smooth-scroll",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/smooth-scroll.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lenis",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:scroll-progress",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "scroll-progress",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/scroll-progress.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:parallax",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "parallax",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/parallax.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lenis",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:scroll-to",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "scroll-to",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/scroll-to.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:scroll-reveal",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "scroll-reveal",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/scroll-reveal.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:range-slider",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "range-slider",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/range-slider.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:range-slider-fluid",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "range-slider-fluid",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/range-slider-fluid.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:range-slider-wave",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "range-slider-wave",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/range-slider-wave.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:range-slider-bubble",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "range-slider-bubble",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/range-slider-bubble.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:range-slider-ruler",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "range-slider-ruler",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/range-slider-ruler.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:wheel-picker",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "wheel-picker",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/wheel-picker.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "@tanstack/react-virtual",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:table",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "table",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/table.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "@tanstack/react-virtual",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:table-editable",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "table-editable",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/table-editable.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "@tanstack/react-virtual",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:table-async",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "table-async",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/table-async.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "@paper-design/shaders-react",
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:shader-background",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "shader-background",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/shader-background.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:cylinder-carousel",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "cylinder-carousel",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/cylinder-carousel.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:loader",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "loader",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/loader.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:message-bubble",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "message-bubble",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/message-bubble.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:message",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "message",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/message.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:message-scroller",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "message-scroller",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/message-scroller.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:prompt-input",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "prompt-input",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/prompt-input.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:todo-list",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "todo-list",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/todo-list.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "id": "beui:code-block",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "code-block",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/code-block.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:approval-card",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "approval-card",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/approval-card.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "id": "beui:file-diff",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "file-diff",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/file-diff.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "id": "beui:tool-result",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "tool-result",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/tool-result.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:streaming-response",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "streaming-response",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/streaming-response.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:image-generation",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "image-generation",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/image-generation.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "id": "beui:tool-approval",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "tool-approval",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/tool-approval.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:citations",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "citations",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/citations.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:agent-activity",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "agent-activity",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/agent-activity.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:reasoning-text",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "reasoning-text",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/reasoning-text.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "id": "beui:thinking-shimmer",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "thinking-shimmer",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/thinking-shimmer.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:agent-progress",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "agent-progress",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/agent-progress.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:ai-sidebar",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "ai-sidebar",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/ai-sidebar.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "id": "beui:chat-app",
+      "kind": "component",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "chat-app",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/chat-app.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:component"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "@tanstack/react-virtual",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:infinite-masonry",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "infinite-masonry",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/infinite-masonry.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:notification-stack",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "notification-stack",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/notification-stack.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:knockout-wheel",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "knockout-wheel",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/knockout-wheel.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:knockout-bracket",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "knockout-bracket",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/knockout-bracket.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:availability-scheduler",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "availability-scheduler",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/availability-scheduler.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:swap",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "swap",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/swap.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:dynamic-island",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "dynamic-island",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/dynamic-island.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:command-palette",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "command-palette",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/command-palette.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:expandable-action-bar",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "expandable-action-bar",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/expandable-action-bar.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:overflow-actions",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "overflow-actions",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/overflow-actions.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:expandable-tabs",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "expandable-tabs",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/expandable-tabs.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:morphing-tabs",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "morphing-tabs",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/morphing-tabs.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:swipeable-list",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "swipeable-list",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/swipeable-list.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:attachment-upload",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "attachment-upload",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/attachment-upload.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:file-upload",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "file-upload",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/file-upload.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:prediction-market",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "prediction-market",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/prediction-market.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:wallet-card",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "wallet-card",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/wallet-card.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:otp-input",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "otp-input",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/otp-input.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:signup-form",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "signup-form",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/signup-form.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:bloom-menu",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "bloom-menu",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/bloom-menu.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:feedback-widget",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "feedback-widget",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/feedback-widget.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:not-found-glitch",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "not-found-glitch",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/not-found-glitch.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:not-found-magnetic",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "not-found-magnetic",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/not-found-magnetic.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:not-found-spotlight",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "not-found-spotlight",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/not-found-spotlight.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:not-found-stacked",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "not-found-stacked",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/not-found-stacked.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    },
+    {
+      "compatibility": {
+        "checks": [
+          "registry-schema",
+          "source-files",
+          "dependency-inventory",
+          "license-source"
+        ],
+        "kit": "solvys-build-kit",
+        "status": "compatible"
+      },
+      "contractId": "beui:registry-component",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "id": "beui:not-found-terminal",
+      "kind": "block",
+      "license": "MIT",
+      "licensePolicy": "verify-per-block",
+      "licenseUrl": "https://github.com/starc007/ui-components/blob/main/LICENSE",
+      "name": "not-found-terminal",
+      "registryDependencies": [],
+      "sourceChecks": {
+        "dependenciesInstalled": true,
+        "licensePolicyResolved": true,
+        "registrySchema": true,
+        "sourceFilesPresent": true
+      },
+      "sourceId": "beui",
+      "sourcePath": "https://beui.dev/r/not-found-terminal.json",
+      "sourceRevision": "catalog-ba26ba517b5b6767",
+      "sourceType": "registry:block"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": "beui",
+  "sourceRevision": "catalog-ba26ba517b5b6767",
+  "sourceUrl": "https://beui.dev/",
+  "status": "candidate"
+}

@@ -5,7 +5,7 @@ description: Load the approved Solvys React assembly kit, component contracts, s
 
 # Solvys Build Kit
 
-Load reusable source assemblies without turning the kit into a product identity. The kit owns accessible interaction shells and record shapes. The project owns data, permissions, routes, copy, palette, typography, provider state, and acceptance.
+Load reusable source assemblies without turning the kit into a product identity. The kit owns accessible interaction shells, record shapes, chart contracts, and the canonical Pen.dev library file. The project owns data, permissions, routes, copy, palette, typography, provider state, and acceptance.
 
 ## Load sequence
 
@@ -29,11 +29,40 @@ Load reusable source assemblies without turning the kit into a product identity.
 8. Apply project tokens and approved library bodies through local adapters. Preserve every source revision and license in the project source registry.
 9. Test every control, state, viewport, keyboard path, and reduced-motion path in the project ChatGPT Site. Record the receipt in the Cabinet.
 
+## Upstream sync
+
+The approved upstream set lives in `assets/build-kit/library-sources.json`. The asset package also carries the installed runtime dependencies and source snapshots for the supplied library list. BeUI, BeUI Pro, and EvilCharts use scheduled discovery and green-only promotion. TanStack Charts is installed at the pinned version recorded in the manifest and changes only through a manifest update. The remaining installable sources are available through their recorded npm, CLI, GitHub registry, or source-registry adapters, with automatic updates disabled.
+
+Refresh the installed source layer with:
+
+```bash
+python3 scripts/install_library_sources.py --apply
+```
+
+The installer records public registry snapshots and package inventory under `assets/build-kit/installed-registries/`. It reads `BEUI_PRO_TOKEN` only from the current process, so the private catalog can be fetched from the Paste-held credential bridge locally or from the workflow secret in CI. It never writes the token to a file, receipt, lockfile, or log. Bakai Lab and the X post remain visual references. Grainient remains a commercial, license-gated asset source.
+
+Run a discovery receipt with:
+
+```bash
+python3 scripts/sync_build_kit.py --apply
+```
+
+The sync writes source revisions and candidate catalogs under `assets/build-kit/updates/`. It never changes product data, routes, permissions, tokens, or copy. A new upstream block enters the candidate catalog automatically when its source catalog is available. Breaking, uncertain, unlicensed, or identity-changing blocks remain quarantined until their contract is known.
+
+Promote only validated additive records into the kit catalog:
+
+```bash
+python3 scripts/promote_build_kit.py --apply --strict
+```
+
+Promotion requires a source-scoped ID, explicit license, compatible Solvys contract, source path, and an unchanged existing revision. The workflow keeps changed or incomplete records in `assets/build-kit/updates/quarantine.json`.
+
 ## Presets
 
 - `foundation`: state boundaries and the control inventory.
 - `interview`: expandable decision cards, Outputs and Sources rail, workbench drawer, and state boundaries.
 - `architecture`: status node map, control inventory, and state boundaries.
+- `charting`: state boundaries and the TanStack Chart panel adapter.
 - `all`: every current assembly.
 
 Read [component-catalog.md](references/component-catalog.md) before selecting a preset. Read [adoption-contract.md](references/adoption-contract.md) before replacing an existing project component or loading the kit into a mature repository.
@@ -43,7 +72,8 @@ Read [component-catalog.md](references/component-catalog.md) before selecting a 
 - Use one component owner for each concern.
 - Keep content visible by default. Motion can clarify state changes but cannot gate content.
 - Keep the kit source-copied and project-owned after load. Do not add a runtime dependency on this repository.
-- Do not auto-edit `package.json`, install packages, choose visual identity, or create product data.
+- Do not let the product loader auto-edit a target project's `package.json`, choose visual identity, or create product data. The Build Kit's own asset package is intentionally installed and versioned here so the source layer can be tested before project adoption.
+- Do not persist a private Paste credential. The scheduled job reads public default catalog URLs and the configured private catalog secret; it records `awaiting-source` when the private bridge is absent.
 - Do not call a dry load, copied source, local preview, or passing typecheck accepted UI proof.
 - A no-fit exception must name the searched source, reason, owner, maintenance cost, protected zones, and proof gate.
 
