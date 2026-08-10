@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-variant-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1631,
+      "path": "src/registry/examples/echarts/ex-gradient-variant-echarts-bar-chart.tsx",
+      "sha256": "0ecc02c807613372e3964cfcd54a3bfe9f3c89e748932422d3cc81bb1bc184fc",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-stacked-type-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1597,
+      "path": "src/registry/examples/echarts/ex-stacked-type-echarts-bar-chart.tsx",
+      "sha256": "b190f20f483aa162e10b16018a7981fe690bcad0973018016ced7a1da7d31ec0",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-stacked-type-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-radial-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-radial-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1370,
+      "path": "src/registry/examples/recharts/ex-radial-chart.tsx",
+      "sha256": "48260556f64c09fd975bbece296c028ea1ef7c85273ad4402e34a0b3bc824e13",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-radial-chart.json?raw=1",
+  "type": "registry:block"
+}

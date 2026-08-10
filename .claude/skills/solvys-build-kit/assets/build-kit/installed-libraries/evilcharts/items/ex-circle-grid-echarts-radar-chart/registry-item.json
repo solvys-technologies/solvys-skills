@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-circle-grid-echarts-radar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-radar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1531,
+      "path": "src/registry/examples/echarts/ex-circle-grid-echarts-radar-chart.tsx",
+      "sha256": "b90fd2a06c2a285c9703a92c053df6804d7a7dc4825459a57d5ceb59372e7ea2",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-circle-grid-echarts-radar-chart.json?raw=1",
+  "type": "registry:block"
+}

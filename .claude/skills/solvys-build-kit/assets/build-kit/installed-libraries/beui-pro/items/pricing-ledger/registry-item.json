@@ -1,0 +1,43 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A sharp, zero-radius pricing calculator where plan, billing period, and team size update a line-item estimate and animated total in real time.",
+  "name": "pricing-ledger",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/number-ticker",
+    "@beui/range-slider"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 14051,
+      "path": "components/premium/pricing/pricing-ledger.tsx",
+      "sha256": "b4ce7460eca66830b9a5b2adda9acbfdce8df48a9eaa4760b379230daf6a6c26",
+      "target": "@components/premium/pricing/pricing-ledger.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/pricing-ledger.json",
+  "title": "Pricing ledger",
+  "type": "registry:block"
+}

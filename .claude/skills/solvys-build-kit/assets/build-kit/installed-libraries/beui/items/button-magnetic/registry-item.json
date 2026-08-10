@@ -1,0 +1,59 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Button composed with the Magnetic wrapper for cursor-attracted pull.",
+  "name": "button-magnetic",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 737,
+      "path": "components/motion/button/magnetic.tsx",
+      "sha256": "371c75beeed8bae17831eeee13d50c5872771c5b870fe190cbd03758fbe15434",
+      "target": "@components/motion/button/magnetic.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1446,
+      "path": "components/motion/magnetic.tsx",
+      "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+      "target": "@components/motion/magnetic.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5274,
+      "path": "components/motion/button/base.tsx",
+      "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+      "target": "@components/motion/button/base.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/button-magnetic.json",
+  "title": "Button Magnetic Button",
+  "type": "registry:component"
+}

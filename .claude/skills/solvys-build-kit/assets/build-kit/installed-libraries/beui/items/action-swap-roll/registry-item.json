@@ -1,0 +1,45 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "The next text or icon rolls in from below with blur.",
+  "name": "action-swap-roll",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 972,
+      "path": "components/motion/action-swap-roll.tsx",
+      "sha256": "c24ce68e09bca371b39e28277aa440b285eb0d4377077be582acbede47c32bc7",
+      "target": "@components/motion/action-swap-roll.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10329,
+      "path": "components/motion/action-swap.tsx",
+      "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+      "target": "@components/motion/action-swap.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/action-swap-roll.json",
+  "title": "Action Swap Roll",
+  "type": "registry:component"
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Pill, segment or underline tabs with a spring layoutId indicator.",
+  "name": "tabs",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 5599,
+      "path": "components/motion/tabs.tsx",
+      "sha256": "f3c925e274b16140d27f52f1a5568133c624f795cf20909a3510fbdc337a27ca",
+      "target": "@components/motion/tabs.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/tabs.json",
+  "title": "Tabs",
+  "type": "registry:component"
+}

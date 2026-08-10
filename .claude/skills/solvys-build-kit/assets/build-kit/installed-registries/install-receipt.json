@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T19:23:58.039800+00:00",
+  "generatedAt": "2026-08-10T20:24:27.600633+00:00",
   "kit": "solvys-build-kit",
   "schemaVersion": 1,
   "secretPolicy": "private credentials are process-only and never written to snapshots or receipts",
@@ -84,7 +84,14 @@
       }
     },
     "beui": {
-      "autoUpdate": true,
+      "autoUpdate": false,
+      "fullSource": {
+        "fileCount": 529,
+        "itemCount": 103,
+        "mode": "full-registry-source",
+        "path": "installed-libraries/beui",
+        "status": "installed"
+      },
       "mode": "registry-catalog",
       "snapshot": {
         "bytes": 92064,
@@ -94,8 +101,15 @@
       }
     },
     "beui-pro": {
-      "autoUpdate": true,
+      "autoUpdate": false,
       "credentialEnv": "BEUI_PRO_TOKEN",
+      "fullSource": {
+        "fileCount": 642,
+        "itemCount": 141,
+        "mode": "full-registry-source",
+        "path": "installed-libraries/beui-pro",
+        "status": "installed"
+      },
       "mode": "private-registry-catalog",
       "snapshot": {
         "bytes": 131183,
@@ -105,7 +119,14 @@
       }
     },
     "evilcharts": {
-      "autoUpdate": true,
+      "autoUpdate": false,
+      "fullSource": {
+        "fileCount": 271,
+        "itemCount": 271,
+        "mode": "full-registry-source",
+        "path": "installed-libraries/evilcharts",
+        "status": "installed"
+      },
       "mode": "registry-catalog",
       "snapshot": {
         "bytes": 104361,
@@ -254,6 +275,13 @@
         "status": "installed-via-npm",
         "url": "https://orbs.jakubantalik.com/"
       }
+    },
+    "tanstack-charts": {
+      "autoUpdate": false,
+      "mode": "pinned-npm-package",
+      "package": "@tanstack/charts",
+      "sourceUrl": "https://tanstack.com/charts/latest",
+      "version": "0.9.0"
     }
   }
 }

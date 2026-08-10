@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-dashed-stroke-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1980,
+      "path": "src/registry/examples/echarts/ex-dashed-stroke-echarts-area-chart.tsx",
+      "sha256": "1a2b2196820e258915c5e34a713091396e0b455797a04d3d234785b32960f502",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A theme-aware AI marketplace hero with a compact responsive navbar, rising spectrum floor, staged headline reveal, rotating prompt composer, specialist shortcuts, and a functional matching state.",
+  "name": "hero-ai-marketplace",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/shared-layout-bg",
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3110,
+      "path": "components/premium/hero-sections/hero-ai-marketplace.tsx",
+      "sha256": "28ee3859a5af6596cf6b3a6e304bacb15c0378b73b39e9349c3003e05ee989a9",
+      "target": "@components/premium/hero-sections/hero-ai-marketplace.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7602,
+      "path": "components/premium/hero-sections/marketplace-composer.tsx",
+      "sha256": "357fdebe57e1cf73ed9ab3c175536d508657f6a6a02922929a46891b7bf53790",
+      "target": "@components/premium/hero-sections/marketplace-composer.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2604,
+      "path": "components/premium/hero-sections/marketplace-gradient-floor.tsx",
+      "sha256": "0ebe83c12fd3e17947f0fa55c06645e704664d5b08f26cdbafeae685bd9c282e",
+      "target": "@components/premium/hero-sections/marketplace-gradient-floor.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 8168,
+      "path": "components/premium/hero-sections/marketplace-nav.tsx",
+      "sha256": "443b6f3ffad508aea4b199f9671d64a3c79ca91c0b8b69081808ca2146d33b6a",
+      "target": "@components/premium/hero-sections/marketplace-nav.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 616,
+      "path": "lib/hooks/use-dark-theme.ts",
+      "sha256": "5a0d4688c8c6af9edcdc12bf2cda40c1403af9c85b27b67d7ed140dfeea624dc",
+      "target": "@lib/hooks/use-dark-theme.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/hero-ai-marketplace.json",
+  "title": "AI marketplace",
+  "type": "registry:block"
+}

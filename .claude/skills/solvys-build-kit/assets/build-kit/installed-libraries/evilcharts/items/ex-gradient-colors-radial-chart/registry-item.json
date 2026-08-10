@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-colors-radial-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-radial-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1864,
+      "path": "src/registry/examples/recharts/ex-gradient-colors-radial-chart.tsx",
+      "sha256": "731fca81289db0aad47baeb78e255a5dad8641738b9ebba078b5004ff8e3f5a9",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-radial-chart.json?raw=1",
+  "type": "registry:block"
+}

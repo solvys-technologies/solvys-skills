@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion"
+  ],
+  "description": "Composed chart component combining bar and line charts",
+  "name": "recharts-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart",
+    "@evilcharts/recharts-tooltip",
+    "@evilcharts/recharts-legend",
+    "@evilcharts/recharts-dot",
+    "@evilcharts/recharts-brush",
+    "@evilcharts/recharts-background"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 50646,
+      "path": "src/registry/charts/recharts-composed-chart.tsx",
+      "sha256": "a33dc68ab96eaa2ab2d72925a47f0ee936b579e56c1427a6a30e4bf9d1ba4cc4",
+      "target": "components/evilcharts/charts/recharts-composed-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-composed-chart.json?raw=1",
+  "type": "registry:component"
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Two infinite rows of member chips scrolling in opposite directions, pausing on hover.",
+  "name": "team-marquee",
+  "registryDependencies": [
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7027,
+      "path": "components/premium/team/team-marquee.tsx",
+      "sha256": "70a7ffc9a88fea8a7e6674d09efe9ae2a9197a03783b98899a1efe4c8f66cc25",
+      "target": "@components/premium/team/team-marquee.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/team-marquee.json",
+  "title": "Team marquee",
+  "type": "registry:block"
+}

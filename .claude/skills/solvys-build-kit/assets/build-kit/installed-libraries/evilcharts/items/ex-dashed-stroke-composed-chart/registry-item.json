@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-dashed-stroke-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1680,
+      "path": "src/registry/examples/recharts/ex-dashed-stroke-composed-chart.tsx",
+      "sha256": "2ebc83d9dd92a68d377877a3f9a903ff879da546b17fc040ba04c81fb5af722f",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

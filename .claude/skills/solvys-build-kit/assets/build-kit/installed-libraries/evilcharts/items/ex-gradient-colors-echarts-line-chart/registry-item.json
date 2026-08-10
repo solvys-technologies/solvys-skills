@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-colors-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1914,
+      "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-line-chart.tsx",
+      "sha256": "15d6d0c67d8965c411f7e1f5eadc30108c7a99114252c0342a7f8d8bca75ba7b",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

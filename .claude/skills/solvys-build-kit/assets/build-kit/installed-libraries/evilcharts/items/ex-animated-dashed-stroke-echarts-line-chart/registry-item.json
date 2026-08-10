@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-animated-dashed-stroke-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1863,
+      "path": "src/registry/examples/echarts/ex-animated-dashed-stroke-echarts-line-chart.tsx",
+      "sha256": "64decd0a66e75c68f9b07a0877ef9d31b246c445d72c5f16980c834fef9806a8",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-solid-area-variant-area-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1915,
+      "path": "src/registry/examples/recharts/ex-solid-area-variant-area-chart.tsx",
+      "sha256": "38c264c2765d3c5a0b7e4552064c1c445e01768d9db2cfa3ef0fc9b0b85d6806",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-solid-area-variant-area-chart.json?raw=1",
+  "type": "registry:block"
+}

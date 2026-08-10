@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-solid-area-variant-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1912,
+      "path": "src/registry/examples/echarts/ex-solid-area-variant-echarts-area-chart.tsx",
+      "sha256": "a6d492364b5448789a47d2566697616044fee6272660081067503d16335cff69",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-solid-area-variant-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

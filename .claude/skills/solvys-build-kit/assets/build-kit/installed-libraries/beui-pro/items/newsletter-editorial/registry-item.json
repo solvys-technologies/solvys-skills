@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A sharp two-column signup with an animated newspaper-style issue sheet, article reveals, and a form that morphs into a stamped confirmation.",
+  "name": "newsletter-editorial",
+  "registryDependencies": [
+    "@beui/button-stateful"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10098,
+      "path": "components/premium/newsletter/newsletter-editorial.tsx",
+      "sha256": "70bcaf172e7e03dffd72410d87fbaecedb4af8587e7de952a7420037990eedc4",
+      "target": "@components/premium/newsletter/newsletter-editorial.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/newsletter-editorial.json",
+  "title": "Editorial dispatch",
+  "type": "registry:block"
+}

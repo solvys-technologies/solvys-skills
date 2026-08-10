@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-hover-highlight-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1862,
+      "path": "src/registry/examples/echarts/ex-hover-highlight-echarts-area-chart.tsx",
+      "sha256": "c3db00f7a34d28f81bd130bfbc8b0248fde7b0dfe4bacaf29dab6f2fe354888c",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

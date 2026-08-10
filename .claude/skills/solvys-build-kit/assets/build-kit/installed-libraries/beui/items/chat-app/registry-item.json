@@ -1,0 +1,334 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "shiki",
+    "tailwind-merge"
+  ],
+  "description": "A complete agent conversation workspace composing navigation, messages, streaming, planning, approvals, tools, code, diffs, generated media, sources, and prompt input.",
+  "name": "chat-app",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 753,
+      "path": "components/agents/chat-app.tsx",
+      "sha256": "8c21af669d3dbeefcacb940bcea6ea7af833fc8675b42de9e647490d48d3b5d6",
+      "target": "@components/agents/chat-app.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 8622,
+      "path": "components/agents/agent-activity/index.tsx",
+      "sha256": "2c13cd4308d1e074d37bc0da652048d1e7e5c4ffbbbe456241a5ec3f3df7c26b",
+      "target": "@components/agents/agent-activity/index.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 26986,
+      "path": "components/agents/ai-sidebar.tsx",
+      "sha256": "150b6657ccd6bd11abb768c29c46cb9df877485ecdd4d5b29bed94f15c8b9031",
+      "target": "@components/agents/ai-sidebar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 14950,
+      "path": "components/agents/approval-card/index.tsx",
+      "sha256": "891271d51d3c886b9d3506f7a691fbb4816a7d134a4c353f9f50151ee444e07f",
+      "target": "@components/agents/approval-card/index.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6179,
+      "path": "components/agents/code-block.tsx",
+      "sha256": "e9a78b96684e4dd2d89962416620e4ec78d71f41f2b06ed864f8001183a8d570",
+      "target": "@components/agents/code-block.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 9351,
+      "path": "components/agents/file-diff.tsx",
+      "sha256": "d9370595a4ac323e76da5e7821ce9db3b1323d0c57ad60393310cb7b9584e498",
+      "target": "@components/agents/file-diff.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 12396,
+      "path": "components/agents/image-generation.tsx",
+      "sha256": "74d41a03a8850018bd8b37fb66c34a7ee00dffdc1331b2d7926b55c7d744e8d2",
+      "target": "@components/agents/image-generation.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 663,
+      "path": "components/agents/loading-states/thinking-shimmer.tsx",
+      "sha256": "14b4c62bfa0c672d630cd135397a3f462306fa0be978a17eee93b3a62e0867fc",
+      "target": "@components/agents/loading-states/thinking-shimmer.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6949,
+      "path": "components/agents/message.tsx",
+      "sha256": "5d720de45af7cb47bd42ed8c2349377567853acb0b05be75d7eadf65941143c3",
+      "target": "@components/agents/message.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10133,
+      "path": "components/agents/message-bubble.tsx",
+      "sha256": "1c0617a6091f37898dff2c0c75a76334f6242def01a4625c326cdd1145e48d3c",
+      "target": "@components/agents/message-bubble.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 15945,
+      "path": "components/agents/message-scroller.tsx",
+      "sha256": "b3641ccf8e2fee75306b800b0bdbc45eaae0e67ae79a9885c0bd2abe16f256a6",
+      "target": "@components/agents/message-scroller.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10733,
+      "path": "components/agents/prompt-input.tsx",
+      "sha256": "ef53d93b9cb73905175365fc9add2792876737dc21ef01a76fbae8cd37c9dc4d",
+      "target": "@components/agents/prompt-input.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 9101,
+      "path": "components/agents/streaming-response.tsx",
+      "sha256": "6323523fd175f531b7df0e394cb90eb47b25dfbb2277fb643ff2eb550ad20750",
+      "target": "@components/agents/streaming-response.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 12638,
+      "path": "components/agents/todo-list.tsx",
+      "sha256": "b2e46b481f1966202ad152c77e06099d2fabc6598b05795ea2a5b2f5ee81c7ed",
+      "target": "@components/agents/todo-list.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 8666,
+      "path": "components/agents/tool-approval.tsx",
+      "sha256": "266345e940fd19f1443b0e7d10ba7bde320ebbd2b64fe5f85c59d96f4d0c7c5c",
+      "target": "@components/agents/tool-approval.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10021,
+      "path": "components/agents/tool-result.tsx",
+      "sha256": "0139a53f9573a1c1bfbbcc54a64eba332cbdbf29ad527d0adc69c07819e970cb",
+      "target": "@components/agents/tool-result.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 30775,
+      "path": "components/motion/animated-sidebar.tsx",
+      "sha256": "78663bff9c68bb863c7ac1410ca26267523c87d7ea365e49f760b42db85103a7",
+      "target": "@components/motion/animated-sidebar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 7751,
+      "path": "components/agents/agent-activity/activity-row.tsx",
+      "sha256": "81eca79e4a921ab1862ff930a4177ba9098bb9f83b7356196cc1094dca2fa511",
+      "target": "@components/agents/agent-activity/activity-row.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2529,
+      "path": "components/agents/agent-activity/types.ts",
+      "sha256": "3f47a360b58da4943d5eb9cb756af9be4526445963bf095afa56f60012414821",
+      "target": "@components/agents/agent-activity/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1353,
+      "path": "components/agents/agent-disclosure.tsx",
+      "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+      "target": "@components/agents/agent-disclosure.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 8706,
+      "path": "components/motion/popover-morph.tsx",
+      "sha256": "ea30a042cf2f3bc31c20600a91bbc0a74790d73b7a91766e0fa34075b629f28d",
+      "target": "@components/motion/popover-morph.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1323,
+      "path": "components/agents/approval-card/types.ts",
+      "sha256": "98565fa313cc754fcfd5fb5073bf3192129e8cd30dfde3cf89b5bae269484a7f",
+      "target": "@components/agents/approval-card/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 930,
+      "path": "components/motion/action-swap-roll.tsx",
+      "sha256": "271933ba92771ecb6ae5a7769d70cea3953e3c919ad51c324ee6290ce890a35f",
+      "target": "@components/motion/action-swap-roll.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 354,
+      "path": "components/motion/button/index.tsx",
+      "sha256": "b8d49238c0ae62972a38961d43be11655440090229074aead8dc613a6256321a",
+      "target": "@components/motion/button/index.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4006,
+      "path": "components/motion/checkbox.tsx",
+      "sha256": "a1699740e6db8455026138f595d9e03b99ec81fc2606b36d9dfc20024c84bf03",
+      "target": "@components/motion/checkbox.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6312,
+      "path": "components/motion/input.tsx",
+      "sha256": "27f6298c4b4c4b55de361fe500749d5abbfd4aaf3cd3816517b3a4c5a2a238fb",
+      "target": "@components/motion/input.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3877,
+      "path": "components/motion/radio.tsx",
+      "sha256": "95dfea97e4a83f2a986f7f30440be2df883b8d353f69fc7b9b30f5636ca9140f",
+      "target": "@components/motion/radio.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4170,
+      "path": "components/agents/agent-code.tsx",
+      "sha256": "22edfd4b2dbef2f61c5a629ad2f0d0b63dab3ec77c085ef05ea839c88c8a6c4f",
+      "target": "@components/agents/agent-code.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 739,
+      "path": "components/motion/text-shimmer.tsx",
+      "sha256": "a8ae8ca2966009a4c9d14085985cb2e571af1b5c75e8e64cb1f4dd99f3fb3236",
+      "target": "@components/motion/text-shimmer.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 189,
+      "path": "components/agents/message-context.tsx",
+      "sha256": "ae4f2fd5459abcc15535f78b56f2d156cb6e066d4ecc2db3f09e2f9d1f734933",
+      "target": "@components/agents/message-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10872,
+      "path": "components/motion/preview-rail.tsx",
+      "sha256": "8aa9b7f1e23cf26d421556994f6e2c3ed87c9efc322d956ccadcc98151813396",
+      "target": "@components/motion/preview-rail.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 12821,
+      "path": "components/motion/select.tsx",
+      "sha256": "7a21cd4fd90b9cb1695f392672fd1ab33d9d660f7086ddcbb68da05e1cf41ff8",
+      "target": "@components/motion/select.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7902,
+      "path": "components/agents/citations.tsx",
+      "sha256": "91ab69d3e210c2885cd894b57a7196fe799021ddde677f4b778458056e8f02ba",
+      "target": "@components/agents/citations.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4479,
+      "path": "components/motion/shared-layout-bg.tsx",
+      "sha256": "e6355b3b408d8cbe7855f61ca502d945eaeef867cbd9cfc070685aece079b9f6",
+      "target": "@components/motion/shared-layout-bg.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2223,
+      "path": "components/motion/popover-position.ts",
+      "sha256": "a31a9dc602243c3966aa1043cfd41dec5c13df1a52c847e745c88cbf00cb1f2e",
+      "target": "@components/motion/popover-position.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10329,
+      "path": "components/motion/action-swap.tsx",
+      "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+      "target": "@components/motion/action-swap.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5274,
+      "path": "components/motion/button/base.tsx",
+      "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+      "target": "@components/motion/button/base.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 700,
+      "path": "components/motion/button/magnetic.tsx",
+      "sha256": "864dc7db0cda2d8ee9bff7127706c546632d00f554595c9ce1816e283acb2a1f",
+      "target": "@components/motion/button/magnetic.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6983,
+      "path": "components/motion/button/stateful.tsx",
+      "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+      "target": "@components/motion/button/stateful.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 538,
+      "path": "lib/text-shimmer.ts",
+      "sha256": "02fca8d4ae0c0c593eb2253e56c141c1731912861fbf20a0a0b728af38a6c0b9",
+      "target": "@lib/text-shimmer.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 216,
+      "path": "lib/favicon.ts",
+      "sha256": "ffdf23b912e14c58113ca7b4749230ffe2f15594fa21811efa338f05683bce27",
+      "target": "@lib/favicon.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 1446,
+      "path": "components/motion/magnetic.tsx",
+      "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+      "target": "@components/motion/magnetic.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/chat-app.json",
+  "title": "Chat App",
+  "type": "registry:component"
+}

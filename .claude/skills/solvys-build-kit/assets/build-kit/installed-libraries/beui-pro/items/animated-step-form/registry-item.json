@@ -1,0 +1,55 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "One clear question at a time with configurable text and choice steps, animated progress, directional navigation, validation, and completion feedback.",
+  "name": "animated-step-form",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9980,
+      "path": "components/premium/step-form/animated-step-form.tsx",
+      "sha256": "e02e3ebaed599a7028042d572c19b5a0b0c603e58720d8754e0d86dc1ff0c9fd",
+      "target": "@components/premium/step-form/animated-step-form.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4288,
+      "path": "components/premium/step-form/step-field.tsx",
+      "sha256": "b389c2dd8e9a7b6a5844779bb7115fe0864ea0966dca8e9e55316a81740f5b9a",
+      "target": "@components/premium/step-form/step-field.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 797,
+      "path": "components/premium/step-form/types.ts",
+      "sha256": "12914f4fde29c27415611e1a29eb339ccb0e39a996ed121007c4510e05ea64f4",
+      "target": "@components/premium/step-form/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/animated-step-form.json",
+  "title": "Focused step form",
+  "type": "registry:block"
+}

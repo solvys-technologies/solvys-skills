@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts"
+  ],
+  "description": "Bar chart where each bar is composed of stacked 10x10px squares",
+  "name": "grid-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5393,
+      "path": "src/registry/blocks/recharts/b-grid-bar-chart.tsx",
+      "sha256": "f06b17b55d0d571207d4a41f938e04e35c78f5a39587efebc836157455b825c7",
+      "target": "components/evilcharts/blocks/grid-bar-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/grid-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-colors-bump-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2012,
+      "path": "src/registry/examples/echarts/ex-gradient-colors-bump-echarts-area-chart.tsx",
+      "sha256": "b8dc6891d73d9211a101e985cc2f05342641aa0128c63ebae09d52529ada94cc",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bump-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

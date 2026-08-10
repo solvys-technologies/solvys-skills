@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "iOS-style island pill that morphs between live activity views with bouncy shell resize and blur crossfades.",
+  "name": "dynamic-island",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 6675,
+      "path": "components/motion/dynamic-island.tsx",
+      "sha256": "b1bd2b4d30b76a850d594a8a4a230909fbc33c3467e0364e85f49263a3732ebd",
+      "target": "@components/motion/dynamic-island.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/dynamic-island.json",
+  "title": "Dynamic Island",
+  "type": "registry:block"
+}

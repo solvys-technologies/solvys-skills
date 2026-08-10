@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A focused conversational surface with visual tones, independent alignment, grouped messages, expandable content, and interactive link or button support.",
+  "name": "message-bubble",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 10139,
+      "path": "components/agents/message-bubble.tsx",
+      "sha256": "357d1b3b6ba1752c6d3e9b1ff076b0c39ed9724f6b4723aefc667c9dbd968c2b",
+      "target": "@components/agents/message-bubble.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 189,
+      "path": "components/agents/message-context.tsx",
+      "sha256": "ae4f2fd5459abcc15535f78b56f2d156cb6e066d4ecc2db3f09e2f9d1f734933",
+      "target": "@components/agents/message-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/message-bubble.json",
+  "title": "Message Bubble",
+  "type": "registry:component"
+}

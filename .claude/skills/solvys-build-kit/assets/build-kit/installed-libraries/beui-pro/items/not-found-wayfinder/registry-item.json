@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A warm, playful 404 page with a route-drawing map illustration, animated waypoints, and a clear path back home.",
+  "name": "not-found-wayfinder",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6642,
+      "path": "components/premium/not-found-pages/not-found-wayfinder.tsx",
+      "sha256": "bfe0ea90a986cdffdf896681a03b6adc4d446cbdfe7c4a49a6d1a44137de89c0",
+      "target": "@components/premium/not-found-pages/not-found-wayfinder.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 606,
+      "path": "components/premium/not-found-pages/use-page-stage.ts",
+      "sha256": "ceeed9125f7756f735808dc9e1607a89a477c238f8e3552fe1133a0215fe531f",
+      "target": "@components/premium/not-found-pages/use-page-stage.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/not-found-wayfinder.json",
+  "title": "Wayfinder",
+  "type": "registry:block"
+}

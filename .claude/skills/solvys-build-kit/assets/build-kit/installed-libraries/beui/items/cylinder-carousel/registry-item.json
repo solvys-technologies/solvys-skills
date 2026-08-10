@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A carousel whose items line the inside of a cylinder, receding into the center and growing toward the edges. Drag, scroll or arrow-key to roll it, with a springy glide and snap. Reduced-motion drops the glide.",
+  "name": "cylinder-carousel",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 14344,
+      "path": "components/motion/cylinder-carousel.tsx",
+      "sha256": "ce1f0f31046ce9dd182d71f5a12510df184e394b8e9ae296148a975780edfa93",
+      "target": "@components/motion/cylinder-carousel.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/cylinder-carousel.json",
+  "title": "Cylinder Carousel",
+  "type": "registry:component"
+}

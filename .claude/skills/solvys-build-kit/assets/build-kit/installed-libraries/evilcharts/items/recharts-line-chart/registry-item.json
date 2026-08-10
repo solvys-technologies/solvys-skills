@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion"
+  ],
+  "description": "Line chart component",
+  "name": "recharts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart",
+    "@evilcharts/recharts-tooltip",
+    "@evilcharts/recharts-legend",
+    "@evilcharts/recharts-dot",
+    "@evilcharts/recharts-brush",
+    "@evilcharts/recharts-background"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 34966,
+      "path": "src/registry/charts/recharts-line-chart.tsx",
+      "sha256": "3ca0c71d6ea928f8f3ff4f43810e444bbd72b521a4cd67d4cae27ef66f86794a",
+      "target": "components/evilcharts/charts/recharts-line-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-line-chart.json?raw=1",
+  "type": "registry:component"
+}

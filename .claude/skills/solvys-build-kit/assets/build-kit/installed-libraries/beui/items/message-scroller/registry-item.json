@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A reader-aware conversation viewport that follows streamed output at the live edge and releases control when the reader moves away.",
+  "name": "message-scroller",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 15953,
+      "path": "components/agents/message-scroller.tsx",
+      "sha256": "178039dfd4bac27e3e272709d9ec34b8d056ecaf0f2de947c9b09451293d5f79",
+      "target": "@components/agents/message-scroller.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10872,
+      "path": "components/motion/preview-rail.tsx",
+      "sha256": "8aa9b7f1e23cf26d421556994f6e2c3ed87c9efc322d956ccadcc98151813396",
+      "target": "@components/motion/preview-rail.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/message-scroller.json",
+  "title": "Message Scroller",
+  "type": "registry:component"
+}

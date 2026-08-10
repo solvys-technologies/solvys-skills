@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A compact no-results state with a roaming search lens and separating result lines.",
+  "name": "empty-state-search",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4527,
+      "path": "components/premium/empty-states/empty-state-search.tsx",
+      "sha256": "d062e40010a2077f3b0f68b622fe3f1c0405a0c10193ad7b925639cc76a5323e",
+      "target": "@components/premium/empty-states/empty-state-search.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 612,
+      "path": "components/premium/empty-states/use-empty-state-stage.ts",
+      "sha256": "9476ef5ba7b176bf60ebca2fe4554f6a077ce6ae354d1475f43be07e3876ec83",
+      "target": "@components/premium/empty-states/use-empty-state-stage.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/empty-state-search.json",
+  "title": "Search lens",
+  "type": "registry:block"
+}

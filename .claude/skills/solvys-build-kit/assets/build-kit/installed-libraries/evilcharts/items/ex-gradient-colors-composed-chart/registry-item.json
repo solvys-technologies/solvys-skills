@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-colors-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1822,
+      "path": "src/registry/examples/recharts/ex-gradient-colors-composed-chart.tsx",
+      "sha256": "c8ad1599b7a00f1af7912d0ea1254010830189f950e4292646c108899837d86b",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

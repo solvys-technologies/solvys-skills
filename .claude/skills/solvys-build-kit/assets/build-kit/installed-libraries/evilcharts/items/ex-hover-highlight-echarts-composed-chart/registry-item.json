@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-hover-highlight-echarts-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1689,
+      "path": "src/registry/examples/echarts/ex-hover-highlight-echarts-composed-chart.tsx",
+      "sha256": "959846f28c79c795e693f5f979e6157786ae730373ef7215f88a9397a53728c2",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-echarts-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Composable conversation primitives for message rows, grouped bubbles, avatars, metadata, live markers, and a mount-only trailing-edge pop-up for newly sent rows.",
+  "name": "message",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 6948,
+      "path": "components/agents/message.tsx",
+      "sha256": "d0515c5065e8d0db0cb871e8321a7b48d3f7cfe893bd10d9848acdd07488d490",
+      "target": "@components/agents/message.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10094,
+      "path": "components/agents/message-bubble.tsx",
+      "sha256": "1071e6e9cc8bf81c8e5ba67c98e650e2e7a194ff06d8e5164423850c5f597f54",
+      "target": "@components/agents/message-bubble.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 189,
+      "path": "components/agents/message-context.tsx",
+      "sha256": "ae4f2fd5459abcc15535f78b56f2d156cb6e066d4ecc2db3f09e2f9d1f734933",
+      "target": "@components/agents/message-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 15906,
+      "path": "components/agents/message-scroller.tsx",
+      "sha256": "bf6105eecd904be5022d75e9c66be9d3bdb4d439b9097db3b422d9ed5edab0e0",
+      "target": "@components/agents/message-scroller.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 10872,
+      "path": "components/motion/preview-rail.tsx",
+      "sha256": "8aa9b7f1e23cf26d421556994f6e2c3ed87c9efc322d956ccadcc98151813396",
+      "target": "@components/motion/preview-rail.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/message.json",
+  "title": "Message",
+  "type": "registry:component"
+}

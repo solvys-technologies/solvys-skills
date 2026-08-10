@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A split panel with contact channels, team avatars, and a response-time badge beside a stateful form with segmented topic chips and a success morph.",
+  "name": "contact-split",
+  "registryDependencies": [
+    "@beui/button-stateful"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 13295,
+      "path": "components/premium/contact/contact-split.tsx",
+      "sha256": "9394428f7e59686f8feac1edf2493da6e2c9899ab688ae9ebb3ace07142e1f50",
+      "target": "@components/premium/contact/contact-split.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/contact-split.json",
+  "title": "Contact split",
+  "type": "registry:block"
+}

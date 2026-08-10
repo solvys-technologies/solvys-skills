@@ -1,0 +1,194 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "@headlessui/react",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A feature-rich agent composer with model selection, reasoning, skills, attachments, queued messages, and streaming stop state.",
+  "name": "agent-chat-input",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 11517,
+      "path": "components/premium/agent-chat-input/agent-chat-input.tsx",
+      "sha256": "8b220ac7727a1c86513648df98a3c1933470b9b2124d216453d4ddd5605ac804",
+      "target": "@components/premium/agent-chat-input/agent-chat-input.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3418,
+      "path": "components/premium/agent-chat-input/attachments.tsx",
+      "sha256": "bdd4a52805fdefe09d2e4ddf1bf3ea419b738677c1f46fec02c67129ea2ac8fd",
+      "target": "@components/premium/agent-chat-input/attachments.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10468,
+      "path": "components/premium/agent-chat-input/composer.tsx",
+      "sha256": "acdcfa9be1a255f1aa730d7ef3bd715f0274d744fe0ec636eac7bfa99118f202",
+      "target": "@components/premium/agent-chat-input/composer.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1913,
+      "path": "components/premium/agent-chat-input/constants.ts",
+      "sha256": "b67ead277c2827a0224f0b8e2c9b552a076bd195dac43390b6619d5e7c6b513c",
+      "target": "@components/premium/agent-chat-input/constants.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1205,
+      "path": "components/premium/agent-chat-input/hooks.ts",
+      "sha256": "bd67246181f876c1ed38dcb8c99fac842e763eafdb5fef8ea3239d2b3fa63afa",
+      "target": "@components/premium/agent-chat-input/hooks.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2234,
+      "path": "components/premium/agent-chat-input/preview-dialog.tsx",
+      "sha256": "96909601d191f58fddd839ec4f6be70fa35c07587203ea82322c369ebe8841ee",
+      "target": "@components/premium/agent-chat-input/preview-dialog.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5508,
+      "path": "components/premium/agent-chat-input/queue.tsx",
+      "sha256": "b5f4e08d45a8d053bae517f7b0dfd2b98aa4f91ec19a8dd55395ca2e35a5ac2f",
+      "target": "@components/premium/agent-chat-input/queue.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3814,
+      "path": "components/premium/agent-chat-input/skills.tsx",
+      "sha256": "bd006655752a7787384a440a4cede497c5270aa3a5891a0a79413289bf03b95f",
+      "target": "@components/premium/agent-chat-input/skills.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 13763,
+      "path": "components/premium/agent-chat-input/toolbar.tsx",
+      "sha256": "c5be6c66dac411e4b49b74f873b293746f24a9197bae145bba419bc2603a1859",
+      "target": "@components/premium/agent-chat-input/toolbar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3512,
+      "path": "components/premium/agent-chat-input/tray.tsx",
+      "sha256": "6fb5f4395d23179259662932d28f4ccd7d5c331f12906cb6e9fd93e5cfa8c6d0",
+      "target": "@components/premium/agent-chat-input/tray.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2772,
+      "path": "components/premium/agent-chat-input/types.ts",
+      "sha256": "289024cc6f69041c5ba2bd4a10a90f1ff3cd1d668c625fa04f4c979371564e3b",
+      "target": "@components/premium/agent-chat-input/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1080,
+      "path": "components/premium/agent-chat-input/use-attachment-preview-urls.ts",
+      "sha256": "5dd4498ea4faea736f2c183eb97470f8335fc927dde9855f5e59150065dca7fe",
+      "target": "@components/premium/agent-chat-input/use-attachment-preview-urls.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1995,
+      "path": "components/premium/agent-chat-input/use-skill-command.ts",
+      "sha256": "01079e121667f4384bc314d86555b7b285b1cf0b49449751c6f084af3f0cb862",
+      "target": "@components/premium/agent-chat-input/use-skill-command.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 969,
+      "path": "components/premium/agent-chat-input/attachment-utils.tsx",
+      "sha256": "9b2c9f4c3e34fbfe72642370d186e51cef020c7b0a004cc4727bfefcf2ddc1f6",
+      "target": "@components/premium/agent-chat-input/attachment-utils.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 93,
+      "path": "components/premium/image-hover-preview/index.ts",
+      "sha256": "1a2f3180986a07ee4522c0bc5f2e173af7d0f0e3d7caa753c273ff450577fe5c",
+      "target": "@components/premium/image-hover-preview/index.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 177,
+      "path": "components/premium/morphic-tooltip/index.ts",
+      "sha256": "7dfc721f2522191f29d6885aa936fa504121cef5d393295c0b6ccfc95a22c35f",
+      "target": "@components/premium/morphic-tooltip/index.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 923,
+      "path": "components/premium/agent-chat-input/toolbar-button.tsx",
+      "sha256": "6fa3e8cb6cb0422f4b61313b11bbc1376bad81b5bf99cf2d169a81b1e826d21d",
+      "target": "@components/premium/agent-chat-input/toolbar-button.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 470,
+      "path": "components/premium/dropdown/index.ts",
+      "sha256": "10fbf47214c2b5606d81f58a8be8d71b3ee0b8bfdb7640240884d4a6a31c5a49",
+      "target": "@components/premium/dropdown/index.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 53,
+      "path": "components/premium/switch/index.ts",
+      "sha256": "2554664969b9d3adb26341131d95858b41c7748d803874729fd4a2a9b8fa0506",
+      "target": "@components/premium/switch/index.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4306,
+      "path": "components/premium/image-hover-preview/image-hover-preview.tsx",
+      "sha256": "82b9f517d58eaf7d4e947cf6db73a20743f892c4cb15d17c5486267c932bde17",
+      "target": "@components/premium/image-hover-preview/image-hover-preview.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 20607,
+      "path": "components/premium/morphic-tooltip/morphic-tooltip.tsx",
+      "sha256": "b3ebb68e33d0dc67d1e62e5be37c2b18bf25828175c18816e7fae318835bc14c",
+      "target": "@components/premium/morphic-tooltip/morphic-tooltip.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 12694,
+      "path": "components/premium/dropdown/dropdown.tsx",
+      "sha256": "462556ff784b2a9bc6cbbb292e710ddc412d43b0c1cc9ac35cb106bb48567b3d",
+      "target": "@components/premium/dropdown/dropdown.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5004,
+      "path": "components/premium/switch/switch.tsx",
+      "sha256": "34333d4668788caa3b2504365b6d48cef48a2b07241e2b3bbe5640d5c1585c02",
+      "target": "@components/premium/switch/switch.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/agent-chat-input.json",
+  "title": "Studio composer",
+  "type": "registry:block"
+}

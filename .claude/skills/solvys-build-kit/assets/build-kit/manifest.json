@@ -20,9 +20,9 @@
   },
   "coreFiles": ["src/contracts.ts", "src/chart-contracts.ts", "src/solvys-build-kit.css"],
   "approvedLibraries": [
-    {"id":"beui","role":"primary interface and motion blocks","autoUpdate":true,"promotion":"green-only"},
-    {"id":"beui-pro","role":"private premium interface and motion blocks","autoUpdate":true,"promotion":"green-only"},
-    {"id":"evilcharts","role":"primary design-first chart blocks","autoUpdate":true,"promotion":"green-only"},
+    {"id":"beui","role":"primary interface and motion blocks","autoUpdate":false,"promotion":"manual-snapshot"},
+    {"id":"beui-pro","role":"private premium interface and motion blocks","autoUpdate":false,"promotion":"manual-snapshot"},
+    {"id":"evilcharts","role":"primary design-first chart blocks","autoUpdate":false,"promotion":"manual-snapshot"},
     {"id":"tanstack-charts","role":"installed typed chart grammar and React adapter","autoUpdate":false,"promotion":"manifest-controlled"}
   ],
   "installedLibraries": [
@@ -51,10 +51,10 @@
     "all": ["state-gate", "decision-card", "outputs-sources-rail", "workbench-drawer", "control-inventory", "architecture-map", "tanstack-chart-panel"]
   },
   "updatePolicy": {
-    "scheduledDiscovery": "nightly",
-    "autoPromotion": "compatible additive registry records with green source schema, file, dependency, license, and contract checks",
+    "scheduledDiscovery": "disabled",
+    "autoPromotion": "disabled; replace the full source snapshot only on an explicit install",
     "productAdoption": "source-copied after project-owned Site, keyboard, reduced-motion, and human review",
     "quarantine": "breaking, uncertain, unlicensed, or product-identity-changing blocks",
-    "productSync": "source-copied and project-owned after load"
+    "productSync": "source-snapshot and project-owned after load"
   }
 }

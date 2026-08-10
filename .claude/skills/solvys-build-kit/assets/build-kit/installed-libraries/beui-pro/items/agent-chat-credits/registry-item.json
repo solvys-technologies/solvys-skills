@@ -1,0 +1,151 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A compact credits-aware composer with morphing slash-command skills, image and file attachments, web search, and animated send or stop state.",
+  "name": "agent-chat-credits",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 8390,
+      "path": "components/premium/agent-chat-input/agent-chat-credits.tsx",
+      "sha256": "9e150a2835a5297c8299fcd818b2e382d6eb7c7bc41d727461b74b92a10629b5",
+      "target": "@components/premium/agent-chat-input/agent-chat-credits.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10468,
+      "path": "components/premium/agent-chat-input/composer.tsx",
+      "sha256": "acdcfa9be1a255f1aa730d7ef3bd715f0274d744fe0ec636eac7bfa99118f202",
+      "target": "@components/premium/agent-chat-input/composer.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1913,
+      "path": "components/premium/agent-chat-input/constants.ts",
+      "sha256": "b67ead277c2827a0224f0b8e2c9b552a076bd195dac43390b6619d5e7c6b513c",
+      "target": "@components/premium/agent-chat-input/constants.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4195,
+      "path": "components/premium/agent-chat-input/credits-attachment-tray.tsx",
+      "sha256": "06333a57b90bbe31b25b8da862e01f0006b684db7d58659707730fb35f1e1b0a",
+      "target": "@components/premium/agent-chat-input/credits-attachment-tray.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2552,
+      "path": "components/premium/agent-chat-input/credits-image-preview.tsx",
+      "sha256": "49e820bcb0aa4b68300cdcd578aaa1fd186d267476b61c69afab8aed766a493d",
+      "target": "@components/premium/agent-chat-input/credits-image-preview.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3510,
+      "path": "components/premium/agent-chat-input/credits-toolbar.tsx",
+      "sha256": "ec22d9ea9b558207e87d7d6de046f9664abcc3805e96e6107e62a5b4b3720dd3",
+      "target": "@components/premium/agent-chat-input/credits-toolbar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5398,
+      "path": "components/premium/agent-chat-input/credits-top-layer.tsx",
+      "sha256": "879f59ac8d43ae7dc3774e2edf9088732183350738272003d7c8340869171490",
+      "target": "@components/premium/agent-chat-input/credits-top-layer.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1205,
+      "path": "components/premium/agent-chat-input/hooks.ts",
+      "sha256": "bd67246181f876c1ed38dcb8c99fac842e763eafdb5fef8ea3239d2b3fa63afa",
+      "target": "@components/premium/agent-chat-input/hooks.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2772,
+      "path": "components/premium/agent-chat-input/types.ts",
+      "sha256": "289024cc6f69041c5ba2bd4a10a90f1ff3cd1d668c625fa04f4c979371564e3b",
+      "target": "@components/premium/agent-chat-input/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1080,
+      "path": "components/premium/agent-chat-input/use-attachment-preview-urls.ts",
+      "sha256": "5dd4498ea4faea736f2c183eb97470f8335fc927dde9855f5e59150065dca7fe",
+      "target": "@components/premium/agent-chat-input/use-attachment-preview-urls.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1995,
+      "path": "components/premium/agent-chat-input/use-skill-command.ts",
+      "sha256": "01079e121667f4384bc314d86555b7b285b1cf0b49449751c6f084af3f0cb862",
+      "target": "@components/premium/agent-chat-input/use-skill-command.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 969,
+      "path": "components/premium/agent-chat-input/attachment-utils.tsx",
+      "sha256": "9b2c9f4c3e34fbfe72642370d186e51cef020c7b0a004cc4727bfefcf2ddc1f6",
+      "target": "@components/premium/agent-chat-input/attachment-utils.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 3211,
+      "path": "components/premium/agent-chat-input/credits-model-selector.tsx",
+      "sha256": "b718c639da7a9bffb517e200a02889201472b9860bf7facfd0db0d83f0af4698",
+      "target": "@components/premium/agent-chat-input/credits-model-selector.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1644,
+      "path": "components/premium/agent-chat-input/credits-search-toggle.tsx",
+      "sha256": "9597b94e8ed7f24c129272ad021281ce4d0409a78067a05f524cbfef0f9df811",
+      "target": "@components/premium/agent-chat-input/credits-search-toggle.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3814,
+      "path": "components/premium/agent-chat-input/skills.tsx",
+      "sha256": "bd006655752a7787384a440a4cede497c5270aa3a5891a0a79413289bf03b95f",
+      "target": "@components/premium/agent-chat-input/skills.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 732,
+      "path": "components/premium/agent-chat-input/model-logo.tsx",
+      "sha256": "1c3c950e5a869631760623a50ef5c0a496c61a489b657fcdfdd16dbdf7ab2937",
+      "target": "@components/premium/agent-chat-input/model-logo.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5987,
+      "path": "components/motion/popover-morph.tsx",
+      "sha256": "f310b4520afe539b3f1cc441597ca490aeadc7ca752b4b22e44abd12d76ccd9c",
+      "target": "@components/motion/popover-morph.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/agent-chat-credits.json",
+  "title": "Credits composer",
+  "type": "registry:block"
+}

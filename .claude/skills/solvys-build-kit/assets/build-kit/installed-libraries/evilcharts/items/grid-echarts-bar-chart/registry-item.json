@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Bar chart whose columns are stacks of blocks, on the ECharts blocks variant",
+  "name": "grid-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3095,
+      "path": "src/registry/blocks/echarts/b-grid-echarts-bar-chart.tsx",
+      "sha256": "92ecce34b31e98437a7af309888f4ad4b4a24ab26fa8834ceac2d551c4329922",
+      "target": "components/evilcharts/blocks/grid-echarts-bar-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/grid-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

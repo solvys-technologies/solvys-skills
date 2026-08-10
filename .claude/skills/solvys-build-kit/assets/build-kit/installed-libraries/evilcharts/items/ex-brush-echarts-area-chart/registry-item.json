@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-brush-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2653,
+      "path": "src/registry/examples/echarts/ex-brush-echarts-area-chart.tsx",
+      "sha256": "b08fb411304cd0bac965e2c25b82e677e47b707464b554eba6ad850a95e33ee4",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-brush-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Bar chart component rendered with Apache ECharts",
+  "name": "echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart",
+    "@evilcharts/echarts-tooltip",
+    "@evilcharts/echarts-dot",
+    "@evilcharts/echarts-legend",
+    "@evilcharts/echarts-brush"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 95430,
+      "path": "src/registry/charts/echarts-bar-chart.tsx",
+      "sha256": "464790091ffc1e805b8484606717b7230e16486d0b844621fbd34cefa8ac6053",
+      "target": "components/evilcharts/charts/echarts-bar-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-bar-chart.json?raw=1",
+  "type": "registry:component"
+}

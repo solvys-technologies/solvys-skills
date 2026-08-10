@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts"
+  ],
+  "name": "recharts-legend",
+  "shippedFiles": [
+    {
+      "bytes": 6253,
+      "path": "src/registry/ui/recharts-legend.tsx",
+      "sha256": "d1eb325e11315c5640efe6b70543bbc370654e9d2e5101774603bd2b1dcb3ef8",
+      "target": "components/evilcharts/ui/recharts-legend.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-legend.json?raw=1",
+  "type": "registry:component"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [],
+  "description": "A standalone table surface with 10,000 virtualized rows, sorting, selection, and custom cell rendering.",
+  "name": "data-table",
+  "registryDependencies": [
+    "@beui/table"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 158,
+      "path": "components/premium/data-table.tsx",
+      "sha256": "d692919b4433a1fd705c05ed54974cd4f534c45f418e84b3f2ae569d5d7a5f7c",
+      "target": "@components/premium/data-table.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/data-table.json",
+  "title": "Data table",
+  "type": "registry:block"
+}

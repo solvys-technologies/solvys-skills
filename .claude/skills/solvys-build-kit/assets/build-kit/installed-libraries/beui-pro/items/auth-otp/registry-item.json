@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A passwordless flow that slides from an email step to a six-digit code entry \u2014 a mail badge with the masked address, auto-advancing inputs with filled states, paste support, a resend countdown, and a spring success screen.",
+  "name": "auth-otp",
+  "registryDependencies": [
+    "@beui/button-stateful"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 12137,
+      "path": "components/premium/auth/auth-otp.tsx",
+      "sha256": "0d839d1a9421590e4c61f20e1b8e2e336109ac099feadf2ca380ce4f1c6300cf",
+      "target": "@components/premium/auth/auth-otp.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/auth-otp.json",
+  "title": "Magic code",
+  "type": "registry:block"
+}

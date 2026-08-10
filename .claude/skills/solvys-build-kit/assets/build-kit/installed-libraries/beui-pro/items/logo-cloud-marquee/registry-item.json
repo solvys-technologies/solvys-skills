@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A single edge-masked row of monochrome logos scrolling seamlessly, paused on hover.",
+  "name": "logo-cloud-marquee",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 3436,
+      "path": "components/premium/logo-cloud/logo-cloud-marquee.tsx",
+      "sha256": "606c53fd851085d68860c388ef7dceab76f0caa6139406d0c909d3d62b8525e3",
+      "target": "@components/premium/logo-cloud/logo-cloud-marquee.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/logo-cloud-marquee.json",
+  "title": "Logo marquee",
+  "type": "registry:block"
+}

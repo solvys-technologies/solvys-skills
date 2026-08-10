@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "@paper-design/shaders-react",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Canvas shader backgrounds (mesh gradient, grain, warp, waves, voronoi, dot orbit and more) with a single typed variant prop. Reduced-motion freezes animated variants.",
+  "name": "shader-background",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 3368,
+      "path": "components/motion/shader-background.tsx",
+      "sha256": "697bd2e4b12a8b799daaca27aff9346c90c7573e678ab009bfb7b00ba9460dc3",
+      "target": "@components/motion/shader-background.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/shader-background.json",
+  "title": "Shader Background",
+  "type": "registry:component"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-hover-reveal-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1772,
+      "path": "src/registry/examples/echarts/ex-hover-reveal-echarts-area-chart.tsx",
+      "sha256": "6b864ecaf9ade0e199e55507ef17dab1b9c579a348f5d21b8b042ef678f7545c",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-hover-reveal-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

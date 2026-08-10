@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-tooltip-frosted-glass-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1620,
+      "path": "src/registry/examples/recharts/ex-tooltip-frosted-glass-bar-chart.tsx",
+      "sha256": "bbb295b7cc60c34060a0c1148298b986241a94fe7ae990e8282ac9e49aa58f7c",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-tooltip-frosted-glass-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

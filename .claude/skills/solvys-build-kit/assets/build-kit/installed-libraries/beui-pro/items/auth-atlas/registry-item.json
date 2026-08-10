@@ -1,0 +1,63 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "dotted-map",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "An airy account creation page with a focused form, softly animated global activity map, responsive layout, validation, and a stateful email action.",
+  "name": "auth-atlas",
+  "registryDependencies": [
+    "@beui/button-stateful"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1569,
+      "path": "components/premium/auth/auth-atlas.tsx",
+      "sha256": "efd0b5781d7a34891e01ba5ccd518beec9faa568f25d3d40cc5c6cf60415107c",
+      "target": "@components/premium/auth/auth-atlas.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 12774,
+      "path": "components/premium/auth/auth-atlas-shared.tsx",
+      "sha256": "d71c244fdf17498faf66fc8866fdd7fec06e792afa02492b3df0ad64bf120359",
+      "target": "@components/premium/auth/auth-atlas-shared.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 102623,
+      "path": "components/premium/auth/auth-atlas-map.json",
+      "sha256": "705e47637f329ce7151a00fa3078346bae221cd9f6925a6a854680f685f34c26",
+      "target": "@components/premium/auth/auth-atlas-map.json",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1556,
+      "path": "components/premium/auth/social-icons.tsx",
+      "sha256": "112691010555d595d4b204b590b81a52ab66a641ed41a784ade1ae1826ff9f54",
+      "target": "@components/premium/auth/social-icons.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/auth-atlas.json",
+  "title": "Atlas centered",
+  "type": "registry:block"
+}

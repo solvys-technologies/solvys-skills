@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Budget breakdown card with four gauges and a value list, on the radial chart",
+  "name": "budget-echarts-radial-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-radial-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3403,
+      "path": "src/registry/blocks/echarts/b-budget-echarts-radial-chart.tsx",
+      "sha256": "e45a86968ffc352a7ef3cd85576eb7ee6c3a67c9ec5c2ad600b20c0fffac938b",
+      "target": "components/evilcharts/blocks/budget-echarts-radial-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/budget-echarts-radial-chart.json?raw=1",
+  "type": "registry:block"
+}

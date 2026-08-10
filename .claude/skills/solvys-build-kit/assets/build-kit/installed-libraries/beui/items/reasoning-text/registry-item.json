@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Shimmering reasoning copy with an ASCII loader and cascade, phrase-swap, or per-letter scramble transitions.",
+  "name": "reasoning-text",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 7735,
+      "path": "components/agents/loading-states/reasoning-text.tsx",
+      "sha256": "c7ab41dfc0a6d0437b94cb65e15ec08dedbb118e8c901c28645416f62255fc2a",
+      "target": "@components/agents/loading-states/reasoning-text.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 18202,
+      "path": "components/motion/loader.tsx",
+      "sha256": "1e9419368e30f4670c8b795c085f3de3cd6a75a14e0f30102d6cd7f0f8a39ea9",
+      "target": "@components/motion/loader.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 538,
+      "path": "lib/text-shimmer.ts",
+      "sha256": "02fca8d4ae0c0c593eb2253e56c141c1731912861fbf20a0a0b728af38a6c0b9",
+      "target": "@lib/text-shimmer.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/reasoning-text.json",
+  "title": "Agent Loading States Reasoning Text",
+  "type": "registry:component"
+}

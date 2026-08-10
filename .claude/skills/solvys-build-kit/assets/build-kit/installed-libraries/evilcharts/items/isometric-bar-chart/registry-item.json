@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion"
+  ],
+  "description": "Bar chart with isometric 3D-extruded bars and a highlighted max value",
+  "name": "isometric-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9359,
+      "path": "src/registry/blocks/recharts/b-isometric-bar-chart.tsx",
+      "sha256": "8afcee1261282629de5e2580741a6c10663fce9b33fba743b5c509f5b63b1e31",
+      "target": "components/evilcharts/blocks/isometric-bar-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/isometric-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

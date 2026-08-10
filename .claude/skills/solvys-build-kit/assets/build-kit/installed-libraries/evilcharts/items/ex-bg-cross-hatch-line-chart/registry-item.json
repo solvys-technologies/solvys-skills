@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bg-cross-hatch-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1957,
+      "path": "src/registry/examples/recharts/ex-bg-cross-hatch-line-chart.tsx",
+      "sha256": "a35d73bd031f7e8154c8e0c23e4928f2c2cddf41bb1aa0afd752aebd0e00f74f",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bg-cross-hatch-line-chart.json?raw=1",
+  "type": "registry:block"
+}

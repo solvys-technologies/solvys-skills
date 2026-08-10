@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "tailwind-merge"
+  ],
+  "description": "Infinite horizontal or vertical scroll with pause-on-hover.",
+  "name": "marquee",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 2095,
+      "path": "components/motion/marquee.tsx",
+      "sha256": "ba60348bddcc9900fef11a75623384591d6f581a9c32624f0bbff7001cdc2e90",
+      "target": "@components/motion/marquee.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/marquee.json",
+  "title": "Marquee",
+  "type": "registry:component"
+}

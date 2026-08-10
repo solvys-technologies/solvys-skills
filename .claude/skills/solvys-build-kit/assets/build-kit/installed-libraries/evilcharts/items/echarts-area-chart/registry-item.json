@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Area chart component rendered with Apache ECharts",
+  "name": "echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart",
+    "@evilcharts/echarts-tooltip",
+    "@evilcharts/echarts-legend",
+    "@evilcharts/echarts-dot",
+    "@evilcharts/echarts-brush"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 96874,
+      "path": "src/registry/charts/echarts-area-chart.tsx",
+      "sha256": "920b97aeb1d671b7103701ba0acae4feeee096361bb613ff546a514ef6489a21",
+      "target": "components/evilcharts/charts/echarts-area-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-area-chart.json?raw=1",
+  "type": "registry:component"
+}

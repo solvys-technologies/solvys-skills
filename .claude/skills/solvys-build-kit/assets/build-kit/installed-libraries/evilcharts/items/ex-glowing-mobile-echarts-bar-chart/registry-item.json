@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-glowing-mobile-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1594,
+      "path": "src/registry/examples/echarts/ex-glowing-mobile-echarts-bar-chart.tsx",
+      "sha256": "733ee45ef3cbef6dec65357050d2334fc89d7cc4f5b46a397b231179b8b55549",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-glowing-mobile-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-outside-labels-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-sankey-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2453,
+      "path": "src/registry/examples/recharts/ex-outside-labels-sankey-chart.tsx",
+      "sha256": "72245aca1a379a52e38419c95e3201c4598f319140909dbd4e66e98b703f8c2e",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-outside-labels-sankey-chart.json?raw=1",
+  "type": "registry:block"
+}

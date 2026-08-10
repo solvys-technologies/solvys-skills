@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-dot-default-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1643,
+      "path": "src/registry/examples/echarts/ex-dot-default-echarts-line-chart.tsx",
+      "sha256": "c3fad614d71906cc185c513955661de87f16016c66721e028fb35b0b5a471401",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-dot-default-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

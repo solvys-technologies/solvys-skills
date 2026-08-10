@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-loading-state-radar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-radar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1014,
+      "path": "src/registry/examples/recharts/ex-loading-state-radar-chart.tsx",
+      "sha256": "1ee328a838ca48ab19d493f8abc440266c7a07280fd9a1318186a93ab0cbbc52",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-loading-state-radar-chart.json?raw=1",
+  "type": "registry:block"
+}

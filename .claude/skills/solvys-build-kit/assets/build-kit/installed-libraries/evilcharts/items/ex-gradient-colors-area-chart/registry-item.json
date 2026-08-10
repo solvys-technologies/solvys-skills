@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-colors-area-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1989,
+      "path": "src/registry/examples/recharts/ex-gradient-colors-area-chart.tsx",
+      "sha256": "44ecc901e074c145967517a4a88b0f4ca7a16041e07e133320b41028b906765e",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-area-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -8,7 +8,8 @@
     "productIdentityOwner": "target-project",
     "penpotStatus": "retired-read-only",
     "installedSourceRoot": "installed-registries",
-    "automaticUpdateSources": ["beui", "beui-pro", "evilcharts"]
+    "automaticUpdateSources": [],
+    "snapshotLibraries": ["beui", "beui-pro", "evilcharts", "tanstack-charts"]
   },
   "activeUpstreams": [
     {
@@ -27,7 +28,7 @@
       "catalogUrlEnv": "SOLVYS_BEUI_CATALOG_URL",
       "mirrorEnv": "SOLVYS_UI_LIBRARY_MIRROR",
       "mirrorCatalog": "beui/catalog.json",
-      "autoUpdate": true,
+      "autoUpdate": false,
       "promotion": "green-only",
       "licensePolicy": "verify-per-block"
     },
@@ -48,7 +49,7 @@
       "authEnv": "SOLVYS_BEUI_PRO_TOKEN",
       "mirrorEnv": "SOLVYS_UI_LIBRARY_MIRROR",
       "mirrorCatalog": "beui-pro/catalog.json",
-      "autoUpdate": true,
+      "autoUpdate": false,
       "promotion": "green-only",
       "licensePolicy": "verify-per-block",
       "credentialPath": "Paste MCP UI libraries folder"
@@ -69,7 +70,7 @@
       "catalogUrlEnv": "SOLVYS_EVILCHARTS_CATALOG_URL",
       "mirrorEnv": "SOLVYS_UI_LIBRARY_MIRROR",
       "mirrorCatalog": "evilcharts/catalog.json",
-      "autoUpdate": true,
+      "autoUpdate": false,
       "promotion": "green-only",
       "licensePolicy": "verify-per-block"
     },

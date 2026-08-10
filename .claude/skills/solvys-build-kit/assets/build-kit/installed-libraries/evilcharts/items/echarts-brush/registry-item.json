@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts"
+  ],
+  "name": "echarts-brush",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9915,
+      "path": "src/registry/ui/echarts-brush.tsx",
+      "sha256": "8ab742558334a63adadb09d19ff9cd039f22de4303d61f0ec93ebcbc0dd917a2",
+      "target": "components/evilcharts/ui/echarts-brush.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-brush.json?raw=1",
+  "type": "registry:component"
+}

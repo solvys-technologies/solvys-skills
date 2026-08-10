@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lenis",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Button that smooth-scrolls to a target (offset, selector or element) via the active SmoothScroll provider; reduced-motion jumps instantly.",
+  "name": "scroll-to",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 1229,
+      "path": "components/motion/scroll-to.tsx",
+      "sha256": "aaf31dfad2309b29c40ba5f879bd10e743e791d6b68e288e12698ab1da615976",
+      "target": "@components/motion/scroll-to.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7861,
+      "path": "components/motion/smooth-scroll.tsx",
+      "sha256": "10b4c93b4fdda5345e30efc574c6b0eb965eaf749ca2f37ab234e787f8ab9ec7",
+      "target": "@components/motion/smooth-scroll.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/scroll-to.json",
+  "title": "Scroll Animation Scroll To",
+  "type": "registry:component"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A vertical sidebar whose active dot jumps between destinations on a curved, spring-loaded path.",
+  "name": "bounce-sidebar",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 8162,
+      "path": "components/motion/bounce-sidebar.tsx",
+      "sha256": "a07d8f1c188404c5fa4c946f02cfb6efbd71d5fe16a5da85432d8159d61514b6",
+      "target": "@components/motion/bounce-sidebar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/bounce-sidebar.json",
+  "title": "Bounce Sidebar",
+  "type": "registry:component"
+}

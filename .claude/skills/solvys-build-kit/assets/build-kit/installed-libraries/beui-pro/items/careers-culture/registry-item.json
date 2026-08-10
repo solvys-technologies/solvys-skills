@@ -1,0 +1,149 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "ogl",
+    "tailwind-merge"
+  ],
+  "description": "An editorial careers page: a TextReveal hero with a grainient culture banner, animated value cards, a gapless perks bento, a featured-role spotlight, and the premium team marquee and split CTA.",
+  "name": "careers-culture",
+  "registryDependencies": [
+    "@beui/bouncy-accordion",
+    "@beui/button-base",
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 12399,
+      "path": "components/premium/careers/careers-culture.tsx",
+      "sha256": "9aa9aa8331aff8e5c8124584ba307fc4e00d991e9e9d873f2b99e5b5e3adff11",
+      "target": "@components/premium/careers/careers-culture.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 688,
+      "path": "components/premium/cta-sections/index.ts",
+      "sha256": "e18fc124f76359a71f7d034c167bf5be53143ba372ae4aeb891fb44589f9b411",
+      "target": "@components/premium/cta-sections/index.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10431,
+      "path": "components/premium/feature-sections/grainient.tsx",
+      "sha256": "577626ef2639316e0bd5e9beb936234537afc0ce28b394be62f0090ca6ef1eb5",
+      "target": "@components/premium/feature-sections/grainient.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 380,
+      "path": "components/premium/team/index.ts",
+      "sha256": "69bf73c5f2be5f9d6d649c8fe6354b9187f93cc400487d125e396d7f82326dde",
+      "target": "@components/premium/team/index.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 5756,
+      "path": "components/premium/cta-sections/cta-faq.tsx",
+      "sha256": "8df03f375d7f057132b661332c07047b903668970570d6c783468819dffdc544",
+      "target": "@components/premium/cta-sections/cta-faq.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6675,
+      "path": "components/premium/cta-sections/cta-glow.tsx",
+      "sha256": "31460f66c330356ddf062bfbcc28d846ac09b9a72ba101423c053fb26ace3443",
+      "target": "@components/premium/cta-sections/cta-glow.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6972,
+      "path": "components/premium/cta-sections/cta-poster.tsx",
+      "sha256": "e8dff1db8bfa5b5215c9962838980422d4f92a55f4097d06d882e08137e93693",
+      "target": "@components/premium/cta-sections/cta-poster.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6727,
+      "path": "components/premium/cta-sections/cta-proof-orbit.tsx",
+      "sha256": "8eacbe85956891c6335a17871fa19138554fee19678214cb0069c194dde5f21e",
+      "target": "@components/premium/cta-sections/cta-proof-orbit.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4920,
+      "path": "components/premium/cta-sections/cta-shade-panel.tsx",
+      "sha256": "5302a06503f48058559b42bd2990e2dc4e9d971626149a7909dbb1d6acdcdd6a",
+      "target": "@components/premium/cta-sections/cta-shade-panel.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5460,
+      "path": "components/premium/cta-sections/cta-split.tsx",
+      "sha256": "4fceb74d83e8b7a56838d9437aa40d8af4822c3c69c53da95ffd5832d5985d40",
+      "target": "@components/premium/cta-sections/cta-split.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 9224,
+      "path": "components/premium/cta-sections/cta-terminal.tsx",
+      "sha256": "db609d3a17eef62a7112d11ac74e64298b63b4d144ddf0b4b937251c6c26321e",
+      "target": "@components/premium/cta-sections/cta-terminal.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5689,
+      "path": "components/premium/team/team-grid.tsx",
+      "sha256": "9630f170e8cb9cd7ea509f25eb423ea1271f9ab549f5322deffd86a5a35a5497",
+      "target": "@components/premium/team/team-grid.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7027,
+      "path": "components/premium/team/team-marquee.tsx",
+      "sha256": "70a7ffc9a88fea8a7e6674d09efe9ae2a9197a03783b98899a1efe4c8f66cc25",
+      "target": "@components/premium/team/team-marquee.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7068,
+      "path": "components/premium/team/team-panels.tsx",
+      "sha256": "f99945fd52e8ede5bbf01a98a329ab30ac83da71ce3cd960ba96ae7e1767b9fa",
+      "target": "@components/premium/team/team-panels.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7760,
+      "path": "components/premium/team/team-spotlight.tsx",
+      "sha256": "5ee5d4e67777abf3b97d3142a558071412aae19dce7cefb1d3bbf87fc0c1e31c",
+      "target": "@components/premium/team/team-spotlight.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4687,
+      "path": "components/motion/glow-button.tsx",
+      "sha256": "afeefad00e0f5d94c5735f15dd7f28c0ad04b06951de503ce2af98676f184f43",
+      "target": "@components/motion/glow-button.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/careers-culture.json",
+  "title": "Culture page",
+  "type": "registry:block"
+}

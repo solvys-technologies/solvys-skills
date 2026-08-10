@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Composed chart component rendered with Apache ECharts",
+  "name": "echarts-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart",
+    "@evilcharts/echarts-tooltip",
+    "@evilcharts/echarts-dot",
+    "@evilcharts/echarts-legend",
+    "@evilcharts/echarts-brush"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 84136,
+      "path": "src/registry/charts/echarts-composed-chart.tsx",
+      "sha256": "a264cf779e075def2e7c38c2a779928cfa92200c0c0624d6e8e3151197cc3e57",
+      "target": "components/evilcharts/charts/echarts-composed-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-composed-chart.json?raw=1",
+  "type": "registry:component"
+}

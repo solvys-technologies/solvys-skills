@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Composable Popover, PopoverTrigger, PopoverContent; the panel oozes out of the trigger through an SVG goo filter with a liquid neck, crisp content fading in on top. Click or hover, controlled or uncontrolled.",
+  "name": "popover",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 17436,
+      "path": "components/motion/popover.tsx",
+      "sha256": "8eb5c05baa23ea935661324d0b8248080df0a9de4698109aad470ccfb5409eea",
+      "target": "@components/motion/popover.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2223,
+      "path": "components/motion/popover-position.ts",
+      "sha256": "a31a9dc602243c3966aa1043cfd41dec5c13df1a52c847e745c88cbf00cb1f2e",
+      "target": "@components/motion/popover-position.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/popover.json",
+  "title": "Popover Gooey Popover",
+  "type": "registry:component"
+}

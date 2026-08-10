@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts"
+  ],
+  "name": "recharts-dot",
+  "shippedFiles": [
+    {
+      "bytes": 4530,
+      "path": "src/registry/ui/recharts-dot.tsx",
+      "sha256": "94b12dc6ee83299561da38fe8fc4d0de66f05fedb2a81aebbab097f903781f5b",
+      "target": "components/evilcharts/ui/recharts-dot.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-dot.json?raw=1",
+  "type": "registry:component"
+}

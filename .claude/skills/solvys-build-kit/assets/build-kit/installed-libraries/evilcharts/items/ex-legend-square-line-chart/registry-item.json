@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-legend-square-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1565,
+      "path": "src/registry/examples/recharts/ex-legend-square-line-chart.tsx",
+      "sha256": "df1e645eae314ba2923cb01f28b1864a1e78a7cee8f1e5a6128773957d2340ab",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-legend-square-line-chart.json?raw=1",
+  "type": "registry:block"
+}

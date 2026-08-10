@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "\u2318K palette with fuzzy filter, spring-animated active row and glass surface.",
+  "name": "command-palette",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 11745,
+      "path": "components/motion/command-palette.tsx",
+      "sha256": "1866a545307379dd0fbde61dea32fee5d50d1a38495d78571bca4307a964a219",
+      "target": "@components/motion/command-palette.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/command-palette.json",
+  "title": "Command Palette",
+  "type": "registry:block"
+}

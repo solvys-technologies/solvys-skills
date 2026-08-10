@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A five-image editorial mosaic whose active frame grows while every surrounding tile smoothly changes position and footprint.",
+  "name": "image-gallery-morphing-mosaic",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 6171,
+      "path": "components/premium/image-galleries/image-gallery-morphing-mosaic.tsx",
+      "sha256": "c75e68df40440e5e37564c7148e83dac15af2859bfd5c403e2b1451b078aab48",
+      "target": "@components/premium/image-galleries/image-gallery-morphing-mosaic.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3570,
+      "path": "components/premium/image-galleries/image-gallery-data.ts",
+      "sha256": "ed157372b135c6e15a925d64a9eb4f049224652b05e59f10cd716053950a7236",
+      "target": "@components/premium/image-galleries/image-gallery-data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1186,
+      "path": "components/premium/image-galleries/use-gallery-cycle.ts",
+      "sha256": "9874319637678f53c3883bd22c5c402d24c0347d05fa2f18ef936a610f0b12b5",
+      "target": "@components/premium/image-galleries/use-gallery-cycle.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/image-gallery-morphing-mosaic.json",
+  "title": "Morphing mosaic",
+  "type": "registry:block"
+}

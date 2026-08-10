@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "An asymmetric narrative and capability layout with a blur-revealed heading, concise proof points, and two atmospheric product cards.",
+  "name": "content-capability-showcase",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/shader-background",
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7705,
+      "path": "components/premium/content-sections/content-capability-showcase.tsx",
+      "sha256": "ded7b39fcae67ca8f6063adba67cff153b4c4e58f97dca6c1cf27d745154d0d0",
+      "target": "@components/premium/content-sections/content-capability-showcase.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 512,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "f8e4b636902c6e5d8baa31ea4bfbcebd23f5f4c2590a8264785642395a2a9419",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/content-capability-showcase.json",
+  "title": "Capability showcase",
+  "type": "registry:block"
+}

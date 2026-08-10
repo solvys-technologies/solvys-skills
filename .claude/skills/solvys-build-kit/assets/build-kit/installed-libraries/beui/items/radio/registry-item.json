@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Single-select choice control with a gliding layoutId indicator dot and spring press feedback.",
+  "name": "radio",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 3913,
+      "path": "components/motion/radio.tsx",
+      "sha256": "71121f45ffa2b6327a893c6cbe516c9814437424544b2e428d3937ad3807e7f2",
+      "target": "@components/motion/radio.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/radio.json",
+  "title": "Radio Group",
+  "type": "registry:component"
+}

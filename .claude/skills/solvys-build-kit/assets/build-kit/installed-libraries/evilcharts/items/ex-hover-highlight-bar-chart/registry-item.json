@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-hover-highlight-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1653,
+      "path": "src/registry/examples/recharts/ex-hover-highlight-bar-chart.tsx",
+      "sha256": "f7c25f1a681d2ea3750d0be0e3f7c8644182e257e09a84f3d80b1ed5bf917908",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Grayscale donut with a center total and a two-column value legend",
+  "name": "market-share-echarts-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3789,
+      "path": "src/registry/blocks/echarts/b-market-share-echarts-pie-chart.tsx",
+      "sha256": "6656193952b1e89b906907a5dd6608e0bbba94b0ddd57defad26548da1d9f641",
+      "target": "components/evilcharts/blocks/market-share-echarts-pie-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/market-share-echarts-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

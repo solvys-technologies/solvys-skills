@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-hatched-variant-echarts-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1686,
+      "path": "src/registry/examples/echarts/ex-hatched-variant-echarts-composed-chart.tsx",
+      "sha256": "9a515c10506f89f7a5b49d3b5128bc23b5c778aa863c794144e93677d8aa426b",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-hatched-variant-echarts-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

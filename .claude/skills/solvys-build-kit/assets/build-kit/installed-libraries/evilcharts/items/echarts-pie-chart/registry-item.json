@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Pie chart component rendered with Apache ECharts",
+  "name": "echarts-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart",
+    "@evilcharts/echarts-tooltip",
+    "@evilcharts/echarts-legend"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 53319,
+      "path": "src/registry/charts/echarts-pie-chart.tsx",
+      "sha256": "744e2a23a7b72a26ad8f07cc919679b6a85853fd73a57e60aa7d899b5b366bfa",
+      "target": "components/evilcharts/charts/echarts-pie-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-pie-chart.json?raw=1",
+  "type": "registry:component"
+}

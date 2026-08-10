@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bg-plus-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1950,
+      "path": "src/registry/examples/recharts/ex-bg-plus-line-chart.tsx",
+      "sha256": "f6e5ade02274d607adc728dd99c13b7e5e2cfdd97f64b66f858418f4b8b5c3a6",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bg-plus-line-chart.json?raw=1",
+  "type": "registry:block"
+}

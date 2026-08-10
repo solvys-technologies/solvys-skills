@@ -1,0 +1,62 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A sharp three-plan pricing deck with bracket corners, mono detail copy, animated billing changes, restrained theme glow, and technical footer rails.",
+  "name": "pricing-command-deck",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5641,
+      "path": "components/premium/pricing/pricing-command-deck.tsx",
+      "sha256": "736e9589b4ea02f0a3cdb02368778d7538426dce5ff2b04b9570d6710af91012",
+      "target": "@components/premium/pricing/pricing-command-deck.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5640,
+      "path": "components/premium/pricing/command-plan-card.tsx",
+      "sha256": "9d900506776f20192a632aba7fd4faa2cb6a892fd89a0ab6ece18f33accd0c3e",
+      "target": "@components/premium/pricing/command-plan-card.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 2460,
+      "path": "components/premium/pricing/animated-price.tsx",
+      "sha256": "64acf8469bf6aa1ed6653f7beec28f039bc95b24e47775eda37eee14de9b7b49",
+      "target": "@components/premium/pricing/animated-price.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 512,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "f8e4b636902c6e5d8baa31ea4bfbcebd23f5f4c2590a8264785642395a2a9419",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/pricing-command-deck.json",
+  "title": "Pricing command deck",
+  "type": "registry:block"
+}

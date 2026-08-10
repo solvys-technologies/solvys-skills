@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-max-highlight-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1498,
+      "path": "src/registry/examples/echarts/ex-max-highlight-echarts-bar-chart.tsx",
+      "sha256": "55abb94ce3ae554ceda4cf8362eb17ff2dfbb638033e7097e56a3c97b90bdc12",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-max-highlight-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

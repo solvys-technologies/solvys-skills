@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A friendly release archive with sticky left-side pill filters, a softly blurred gradient intro, plain-language update cards, and staged entrance motion.",
+  "name": "changelog-sidebar",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10491,
+      "path": "components/premium/changelog/changelog-sidebar.tsx",
+      "sha256": "3388206d434fca770b34db3c7f31f70b1e7c8cf6ae528c96252ef09c5b41a2ae",
+      "target": "@components/premium/changelog/changelog-sidebar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1952,
+      "path": "components/premium/changelog/changelog-data.ts",
+      "sha256": "08f2543a11163c6e38510072c6af1326202fd4b533fbbd74a888ebb15e2984a5",
+      "target": "@components/premium/changelog/changelog-data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/changelog-sidebar.json",
+  "title": "Sidebar updates",
+  "type": "registry:block"
+}

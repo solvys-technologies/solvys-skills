@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Activity summary card with a distance goal bar and three metric gauges",
+  "name": "ride-echarts-radial-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-radial-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7363,
+      "path": "src/registry/blocks/echarts/b-ride-echarts-radial-chart.tsx",
+      "sha256": "95d883ee8cbcc567156c6ae8032145804a1e3c1289de749b3137760512a9eb86",
+      "target": "components/evilcharts/blocks/ride-echarts-radial-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ride-echarts-radial-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "ogl",
+    "tailwind-merge"
+  ],
+  "description": "A full-height split onboarding: a left form (name, company, perks) with a step counter and sliding transitions, beside a right app-preview mock that re-tints per step and live-binds the values you type into a floating card.",
+  "name": "onboarding-split",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 19544,
+      "path": "components/premium/onboarding/onboarding-split.tsx",
+      "sha256": "78f7f0a13a6e6cbae92d151be3100b3664e302efd15ce55bd5db8a2bd8c5cc03",
+      "target": "@components/premium/onboarding/onboarding-split.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10431,
+      "path": "components/premium/feature-sections/grainient.tsx",
+      "sha256": "577626ef2639316e0bd5e9beb936234537afc0ce28b394be62f0090ca6ef1eb5",
+      "target": "@components/premium/feature-sections/grainient.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/onboarding-split.json",
+  "title": "Split screen",
+  "type": "registry:block"
+}

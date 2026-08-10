@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts"
+  ],
+  "name": "echarts-chart",
+  "shippedFiles": [
+    {
+      "bytes": 8808,
+      "path": "src/registry/ui/echarts-chart.tsx",
+      "sha256": "d9cca4ed456f00ff34ce7d508c8e4f041ede546edaa468fd352f771708a8ed41",
+      "target": "components/evilcharts/ui/echarts-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-chart.json?raw=1",
+  "type": "registry:component"
+}

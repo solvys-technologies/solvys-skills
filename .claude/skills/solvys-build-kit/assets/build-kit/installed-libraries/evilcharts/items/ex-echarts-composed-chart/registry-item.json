@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-echarts-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1865,
+      "path": "src/registry/examples/echarts/ex-echarts-composed-chart.tsx",
+      "sha256": "85eb311c7be2d33114ea276f36b20f2757085e0f191af31e3ef91c988faae568",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-echarts-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-reverse-area-variant-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1934,
+      "path": "src/registry/examples/echarts/ex-gradient-reverse-area-variant-echarts-area-chart.tsx",
+      "sha256": "33d7652ab2bfbbaba15007699e4a6645c570fb4cbbbc7c4a9b81a63ed3dd6de1",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-reverse-area-variant-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

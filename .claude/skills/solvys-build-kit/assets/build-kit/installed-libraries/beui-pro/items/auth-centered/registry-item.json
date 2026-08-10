@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A centered glass auth card: a shared-layout sign-in/sign-up toggle, Google and GitHub buttons, icon inputs with a password reveal, inline field validation, and a stateful submit.",
+  "name": "auth-centered",
+  "registryDependencies": [
+    "@beui/button-stateful",
+    "@beui/tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10960,
+      "path": "components/premium/auth/auth-centered.tsx",
+      "sha256": "0b9de3074b0b0907e1a0ab2eab3a9422a14f51a610a60c92fd4b4e701da220bd",
+      "target": "@components/premium/auth/auth-centered.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1556,
+      "path": "components/premium/auth/social-icons.tsx",
+      "sha256": "112691010555d595d4b204b590b81a52ab66a641ed41a784ade1ae1826ff9f54",
+      "target": "@components/premium/auth/social-icons.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/auth-centered.json",
+  "title": "Centered card",
+  "type": "registry:block"
+}

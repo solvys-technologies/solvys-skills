@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-padded-echarts-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1429,
+      "path": "src/registry/examples/echarts/ex-padded-echarts-pie-chart.tsx",
+      "sha256": "bd92cb456dc6c138dc72cf1fd21f4a8d87b2c750b559038f35496ffd78e53ba5",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-padded-echarts-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

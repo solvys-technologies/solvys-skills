@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Text input with label, left/right icons, error shake and success check draw.",
+  "name": "input",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 6348,
+      "path": "components/motion/input.tsx",
+      "sha256": "7ffc9f21df85e47ed1818633524d61f82194f27bef0fce41c7fd2f4eaa59d2b5",
+      "target": "@components/motion/input.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/input.json",
+  "title": "Input",
+  "type": "registry:component"
+}

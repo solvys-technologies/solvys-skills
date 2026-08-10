@@ -1,0 +1,85 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "@headlessui/react",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "ogl",
+    "tailwind-merge"
+  ],
+  "description": "A soft integration marketplace with rounded search and view controls, an animated two-row logo marquee, and a compact directory.",
+  "name": "integrations-directory",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9016,
+      "path": "components/premium/integrations/integrations-directory.tsx",
+      "sha256": "27e062a9a6bba0ee1c36c463077be44132f56ad87e85d4f1e13cf46482338197",
+      "target": "@components/premium/integrations/integrations-directory.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10431,
+      "path": "components/premium/feature-sections/grainient.tsx",
+      "sha256": "577626ef2639316e0bd5e9beb936234537afc0ce28b394be62f0090ca6ef1eb5",
+      "target": "@components/premium/feature-sections/grainient.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3865,
+      "path": "components/premium/integrations/integration-connect-dialog.tsx",
+      "sha256": "7c5e86eefb0491b0d5cf54c63c602837a08bfd2c043dbf1eed4d9552b5251961",
+      "target": "@components/premium/integrations/integration-connect-dialog.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2524,
+      "path": "components/premium/integrations/integration-data.ts",
+      "sha256": "e213c9c9409be50e8b968e88f0b52f9cb050daaf42d95eb11d94c84e0bb54611",
+      "target": "@components/premium/integrations/integration-data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 720,
+      "path": "components/premium/integrations/integration-mark.tsx",
+      "sha256": "d440b94ffea01e987498bb56c5a90e3b431549380a8821bc10aedd35be04723d",
+      "target": "@components/premium/integrations/integration-mark.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2430,
+      "path": "components/motion/marquee.tsx",
+      "sha256": "3f3da4755261455d133e05f3132305ee3750a2c18233deeda3fb74dd26b75649",
+      "target": "@components/motion/marquee.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 2923,
+      "path": "components/motion/animated-modal.tsx",
+      "sha256": "08be820baf58e349acc29b8b24d8963113f3a9b41109b17cd1ff1554d4aff692",
+      "target": "@components/motion/animated-modal.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/integrations-directory.json",
+  "title": "Integration directory",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-glowing-echarts-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1729,
+      "path": "src/registry/examples/echarts/ex-glowing-echarts-composed-chart.tsx",
+      "sha256": "3bb373de61329155f7f4274b8de8b9ecdf009ac816241379c9b575af84f71202",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-glowing-echarts-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-colors-echarts-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1927,
+      "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-pie-chart.tsx",
+      "sha256": "16a1b6d951b68d0da37e839712d821f7c6bb4ded7bd01ec7c47e3a0ffcbbe002",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

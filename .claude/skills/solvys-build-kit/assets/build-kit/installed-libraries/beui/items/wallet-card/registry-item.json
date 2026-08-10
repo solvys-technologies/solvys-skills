@@ -1,0 +1,158 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Wallet overview card with an account switcher and search that morph open from their triggers, a cascading balance with a live change pill and privacy toggle, copy-address, and Send / Deposit / Swap / Buy actions.",
+  "name": "wallet-card",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 5112,
+      "path": "components/motion/wallet-card/index.tsx",
+      "sha256": "e4bf8038628f6aa8dd852e524fddafe863cdb9f4b1c91dc21c9e6d7b6142553f",
+      "target": "@components/motion/wallet-card/index.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7509,
+      "path": "components/motion/wallet-card/account-switcher.tsx",
+      "sha256": "d0754c13b0bb972f755ccb38a0152c0c13abb6e5275fb44d4267298a0896850a",
+      "target": "@components/motion/wallet-card/account-switcher.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1739,
+      "path": "components/motion/wallet-card/actions.tsx",
+      "sha256": "f7ba5c435ea4e0e6a82b3a53b165dbde8de300997476271a3d34bf1d07373d0d",
+      "target": "@components/motion/wallet-card/actions.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2294,
+      "path": "components/motion/wallet-card/balance-delta.tsx",
+      "sha256": "cd78f312816800a2f9af058cfc307c02adc4457f700258a86494acdd50835d04",
+      "target": "@components/motion/wallet-card/balance-delta.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7349,
+      "path": "components/motion/wallet-card/search-bar.tsx",
+      "sha256": "3b811bb6c9f7c57f6c31b5b297701b889fa4b0b1c24e15bf38c214c308c25550",
+      "target": "@components/motion/wallet-card/search-bar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 977,
+      "path": "components/motion/wallet-card/types.ts",
+      "sha256": "054b775144dae79b9cc84e4f1f5f5080c6eba7722eb8ab15629c3e1284095740",
+      "target": "@components/motion/wallet-card/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10329,
+      "path": "components/motion/action-swap.tsx",
+      "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+      "target": "@components/motion/action-swap.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 354,
+      "path": "components/motion/button/index.tsx",
+      "sha256": "b8d49238c0ae62972a38961d43be11655440090229074aead8dc613a6256321a",
+      "target": "@components/motion/button/index.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 578,
+      "path": "components/motion/wallet-card/account-avatar.tsx",
+      "sha256": "f2c1a3e23f8c74e188ef2511e3d67717454f0a747ff9306656bd5649d0d18540",
+      "target": "@components/motion/wallet-card/account-avatar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 717,
+      "path": "components/motion/wallet-card/constants.ts",
+      "sha256": "5cf453c3ef4f1aa9751b3321422304f4adc0f287115da599d34f12b9b84488ed",
+      "target": "@components/motion/wallet-card/constants.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1511,
+      "path": "components/motion/wallet-card/copy-button.tsx",
+      "sha256": "6950b3f19974d06366b9b2b82b448915de6c407045bc8d22ac6e5be5f7e90bb9",
+      "target": "@components/motion/wallet-card/copy-button.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 890,
+      "path": "components/motion/wallet-card/use-dismiss.ts",
+      "sha256": "43539422ccc550b291e06c70b925546869b0b57b7f67acb51b78d4ab35cc6d41",
+      "target": "@components/motion/wallet-card/use-dismiss.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 287,
+      "path": "components/motion/wallet-card/utils.ts",
+      "sha256": "61884fbde0d1c1a0a2c89f4699bb786493268164fe9adc19ec3283f4ea336d99",
+      "target": "@components/motion/wallet-card/utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 5274,
+      "path": "components/motion/button/base.tsx",
+      "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+      "target": "@components/motion/button/base.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 700,
+      "path": "components/motion/button/magnetic.tsx",
+      "sha256": "864dc7db0cda2d8ee9bff7127706c546632d00f554595c9ce1816e283acb2a1f",
+      "target": "@components/motion/button/magnetic.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6983,
+      "path": "components/motion/button/stateful.tsx",
+      "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+      "target": "@components/motion/button/stateful.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 1446,
+      "path": "components/motion/magnetic.tsx",
+      "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+      "target": "@components/motion/magnetic.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/wallet-card.json",
+  "title": "Wallet Card",
+  "type": "registry:block"
+}

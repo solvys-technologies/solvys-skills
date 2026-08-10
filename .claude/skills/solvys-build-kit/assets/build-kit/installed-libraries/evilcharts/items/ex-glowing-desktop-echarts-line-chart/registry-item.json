@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-glowing-desktop-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1940,
+      "path": "src/registry/examples/echarts/ex-glowing-desktop-echarts-line-chart.tsx",
+      "sha256": "206ac8a79dcdb2aff9baf8bcde5f3959e2ba495d78e82b0195640c8effe56653",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-glowing-desktop-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

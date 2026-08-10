@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-percent-type-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1615,
+      "path": "src/registry/examples/recharts/ex-percent-type-bar-chart.tsx",
+      "sha256": "f859ec97a37c6c5e55d5584c61c1169b4495c5e3e34d38e624295b520036aea5",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-percent-type-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

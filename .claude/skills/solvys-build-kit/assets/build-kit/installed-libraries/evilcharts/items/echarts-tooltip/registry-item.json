@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts"
+  ],
+  "name": "echarts-tooltip",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4997,
+      "path": "src/registry/ui/echarts-tooltip.tsx",
+      "sha256": "595ccb2754fc5b72f05a2c7f627cf13ca430247533eba74cc1584c0ea292cfd4",
+      "target": "components/evilcharts/ui/echarts-tooltip.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-tooltip.json?raw=1",
+  "type": "registry:component"
+}

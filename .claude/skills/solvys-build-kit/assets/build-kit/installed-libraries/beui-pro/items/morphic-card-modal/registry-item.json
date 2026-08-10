@@ -1,0 +1,45 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Apple-style card expansion modal. A card morphs into a full overlay using shared layout animation \u2014 no position hacks, just framer layoutId.",
+  "name": "morphic-card-modal",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 130,
+      "path": "components/premium/morphic-card-modal/index.ts",
+      "sha256": "58e0d51d8e5432694b4b4df02bdc72d9987cc5f549290d248f0375cbc1478356",
+      "target": "@components/premium/morphic-card-modal/index.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4491,
+      "path": "components/premium/morphic-card-modal/morphic-card-modal.tsx",
+      "sha256": "d120c948cf70be173a6c662083ca792d5a4fe0675ebd22dd798ba4e6bdec2311",
+      "target": "@components/premium/morphic-card-modal/morphic-card-modal.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/morphic-card-modal.json",
+  "title": "Morphic Card Modal",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bump-curve-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1674,
+      "path": "src/registry/examples/recharts/ex-bump-curve-composed-chart.tsx",
+      "sha256": "62bf444291998d8be52f5b530cc0ecffd8ddc5d27d845b860776558c4fb762d6",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

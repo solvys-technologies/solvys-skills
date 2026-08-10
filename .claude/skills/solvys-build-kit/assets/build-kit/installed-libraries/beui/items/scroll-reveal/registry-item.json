@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Reveals its children with a spring slide and blur as they enter the viewport, once or every time. Reduced-motion keeps a fade.",
+  "name": "scroll-reveal",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 1609,
+      "path": "components/motion/scroll-reveal.tsx",
+      "sha256": "2fa735ea926900079e0f657c494ebb6a968652a69a13fc01c3055fa6dae28822",
+      "target": "@components/motion/scroll-reveal.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/scroll-reveal.json",
+  "title": "Scroll Animation Scroll Reveal",
+  "type": "registry:component"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1871,
+      "path": "src/registry/examples/recharts/ex-composed-chart.tsx",
+      "sha256": "f9630d6e9b3760b0a9573d52415371d4cd6791acbd75ee082e0168bf1c03d059",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-glowing-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1385,
+      "path": "src/registry/examples/recharts/ex-glowing-pie-chart.tsx",
+      "sha256": "a7dff50d8ae2551980fa7173dbc6b40168a95800eb25fc6c542fcc598504c62a",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-glowing-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

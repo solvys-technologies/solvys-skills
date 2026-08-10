@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-outside-labels-echarts-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1391,
+      "path": "src/registry/examples/echarts/ex-outside-labels-echarts-pie-chart.tsx",
+      "sha256": "d84e6e2342db7bfe8f1e93d5eebfd264e504a530142022a9c47ff19f180f1018",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-outside-labels-echarts-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

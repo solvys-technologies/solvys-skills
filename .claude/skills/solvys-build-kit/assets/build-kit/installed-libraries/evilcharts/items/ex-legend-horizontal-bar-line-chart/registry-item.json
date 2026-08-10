@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-legend-horizontal-bar-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1580,
+      "path": "src/registry/examples/recharts/ex-legend-horizontal-bar-line-chart.tsx",
+      "sha256": "e94173d0daf28ff4668d75140dbff6b1772dfc5bca45c59e0455cce787bc31c1",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-legend-horizontal-bar-line-chart.json?raw=1",
+  "type": "registry:block"
+}

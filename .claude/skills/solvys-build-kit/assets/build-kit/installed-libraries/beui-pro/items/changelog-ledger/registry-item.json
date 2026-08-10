@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A calm, filterable changelog with plain-language categories, spacious release cards, practical highlights, and a monthly subscription close.",
+  "name": "changelog-ledger",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9407,
+      "path": "components/premium/changelog/changelog-ledger.tsx",
+      "sha256": "0ea533a29ae6089a73f283587efed091d4759e31e1552620edf7319c265193fe",
+      "target": "@components/premium/changelog/changelog-ledger.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1952,
+      "path": "components/premium/changelog/changelog-data.ts",
+      "sha256": "08f2543a11163c6e38510072c6af1326202fd4b533fbbd74a888ebb15e2984a5",
+      "target": "@components/premium/changelog/changelog-data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/changelog-ledger.json",
+  "title": "Editorial updates",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-glowing-desktop-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1594,
+      "path": "src/registry/examples/echarts/ex-glowing-desktop-echarts-bar-chart.tsx",
+      "sha256": "37323860e2999a1cea4b31c11d09092bde8d0edca0c72c50cb1e19867331739d",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-glowing-desktop-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

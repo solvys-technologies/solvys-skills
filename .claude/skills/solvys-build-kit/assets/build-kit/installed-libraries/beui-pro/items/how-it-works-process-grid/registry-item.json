@@ -1,0 +1,42 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A sharp three-column process narrative with all steps visible, distinct capture-to-launch illustrations, direct selection, and motion contained inside each scene.",
+  "name": "how-it-works-process-grid",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 18038,
+      "path": "components/premium/how-it-works/how-it-works-process-grid.tsx",
+      "sha256": "b0f2536547bd5ff4c1f59cd5b1933b0919eb48e1d6c02202b0461fcc21cabfb8",
+      "target": "@components/premium/how-it-works/how-it-works-process-grid.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/how-it-works-process-grid.json",
+  "title": "Cinematic process grid",
+  "type": "registry:block"
+}

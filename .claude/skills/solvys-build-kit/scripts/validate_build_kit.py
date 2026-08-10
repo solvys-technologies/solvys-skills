@@ -56,14 +56,29 @@ def main() -> int:
         else:
             registry_ids = {source.get("id") for source in registry.get("activeUpstreams", [])}
             auto_update_ids = {source.get("id") for source in registry.get("activeUpstreams", []) if source.get("autoUpdate")}
-            if auto_update_ids != {"beui", "beui-pro", "evilcharts"}:
-                errors.append("automatic updates must be limited to beui, beui-pro, and evilcharts")
+            if auto_update_ids:
+                errors.append("automatic updates must be disabled for the approved library snapshots")
             for approved in manifest.get("approvedLibraries", []):
                 if approved.get("id") not in registry_ids:
                     errors.append(f"approved library missing from source registry: {approved.get('id')}")
             manifest_auto_update_ids = {library.get("id") for library in manifest.get("approvedLibraries", []) if library.get("autoUpdate")}
-            if manifest_auto_update_ids != {"beui", "beui-pro", "evilcharts"}:
-                errors.append("manifest automatic updates must be limited to beui, beui-pro, and evilcharts")
+            if manifest_auto_update_ids:
+                errors.append("manifest automatic updates must be disabled for the approved library snapshots")
+            snapshot_root = ASSET_ROOT / "installed-libraries"
+            for source_id in ("beui", "beui-pro", "evilcharts"):
+                snapshot_manifest = snapshot_root / source_id / "library-manifest.json"
+                if not snapshot_manifest.is_file():
+                    errors.append(f"missing full library snapshot: {source_id}")
+                    continue
+                try:
+                    snapshot = json.loads(snapshot_manifest.read_text(encoding="utf-8"))
+                except (OSError, json.JSONDecodeError) as exc:
+                    errors.append(f"library snapshot error for {source_id}: {exc}")
+                    continue
+                if snapshot.get("autoUpdate"):
+                    errors.append(f"library snapshot must be manual for {source_id}")
+                if snapshot.get("catalogItemCount") != len(snapshot.get("items", [])):
+                    errors.append(f"library snapshot item count mismatch: {source_id}")
             for reference in registry.get("referenceInputs", []):
                 if not reference.get("url") or not reference.get("mode"):
                     errors.append(f"reference input needs url and mode: {reference.get('id')}")

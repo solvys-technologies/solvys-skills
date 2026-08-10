@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-animated-dashed-stroke-area-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2001,
+      "path": "src/registry/examples/recharts/ex-animated-dashed-stroke-area-chart.tsx",
+      "sha256": "3494870c3075b41461b1b219e1f19067b7f4511f9e20b117aee085a0e12d1ebc",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-area-chart.json?raw=1",
+  "type": "registry:block"
+}

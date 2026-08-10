@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A fixed-slot logo band that cycles brands with staggered vertical entrances and exits, pausing while offscreen or when the page is hidden.",
+  "name": "logo-cloud-carousel",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 7354,
+      "path": "components/premium/logo-cloud/logo-cloud-carousel.tsx",
+      "sha256": "68b7ab4a048b1d935068ae26886f804f10070cece8a386fd0dc667b303b065a5",
+      "target": "@components/premium/logo-cloud/logo-cloud-carousel.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4644,
+      "path": "components/premium/logo-cloud/logo-cloud-data.tsx",
+      "sha256": "a243ac1211812529ce91fafdc20552a39621ba62cf61f39db16fad19f4599e17",
+      "target": "@components/premium/logo-cloud/logo-cloud-data.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/logo-cloud-carousel.json",
+  "title": "Rolling logo carousel",
+  "type": "registry:block"
+}

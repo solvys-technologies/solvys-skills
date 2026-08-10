@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-loading-state-echarts-radial-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-radial-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1314,
+      "path": "src/registry/examples/echarts/ex-loading-state-echarts-radial-chart.tsx",
+      "sha256": "23328977f9d8dc614cd9d118698a0d82870818a9a5ea33133c195eff86e95fd8",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-radial-chart.json?raw=1",
+  "type": "registry:block"
+}

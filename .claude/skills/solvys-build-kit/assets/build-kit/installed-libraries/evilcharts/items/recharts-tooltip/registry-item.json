@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts"
+  ],
+  "name": "recharts-tooltip",
+  "shippedFiles": [
+    {
+      "bytes": 6831,
+      "path": "src/registry/ui/recharts-tooltip.tsx",
+      "sha256": "49f0deedb6637b0ffcf1afd978311a3afb66cb966325a881fb8b324e15d8d09c",
+      "target": "components/evilcharts/ui/recharts-tooltip.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-tooltip.json?raw=1",
+  "type": "registry:component"
+}

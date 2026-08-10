@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-colors-bump-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1939,
+      "path": "src/registry/examples/echarts/ex-gradient-colors-bump-echarts-line-chart.tsx",
+      "sha256": "c8a7dea4d88b51cebb5cda137d6b064a40c7c685c02c08ed0f3a00ce56375fbb",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bump-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

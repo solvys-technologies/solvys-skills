@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A data-forward impact overview with a dominant reach metric, animated target progress, and supporting KPI panels.",
+  "name": "stats-impact-dashboard",
+  "registryDependencies": [
+    "@beui/number-ticker"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7320,
+      "path": "components/premium/stats/stats-impact-dashboard.tsx",
+      "sha256": "844cf7e10d55086879c131e4c604909be126203e598a4905224f12a352831855",
+      "target": "@components/premium/stats/stats-impact-dashboard.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/stats-impact-dashboard.json",
+  "title": "Impact dashboard",
+  "type": "registry:block"
+}

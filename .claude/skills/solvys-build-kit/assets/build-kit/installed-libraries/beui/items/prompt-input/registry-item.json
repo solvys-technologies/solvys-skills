@@ -1,0 +1,102 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "An auto-growing agent composer with prompt actions, model selection, keyboard submission, and animated send and stop states.",
+  "name": "prompt-input",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 10737,
+      "path": "components/agents/prompt-input.tsx",
+      "sha256": "48b4a23b00b33e6d52c89ed8f36a479364c020fc64c2c9ad4b0d02175ab6a21f",
+      "target": "@components/agents/prompt-input.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 354,
+      "path": "components/motion/button/index.tsx",
+      "sha256": "b8d49238c0ae62972a38961d43be11655440090229074aead8dc613a6256321a",
+      "target": "@components/motion/button/index.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 8706,
+      "path": "components/motion/popover-morph.tsx",
+      "sha256": "ea30a042cf2f3bc31c20600a91bbc0a74790d73b7a91766e0fa34075b629f28d",
+      "target": "@components/motion/popover-morph.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 12821,
+      "path": "components/motion/select.tsx",
+      "sha256": "7a21cd4fd90b9cb1695f392672fd1ab33d9d660f7086ddcbb68da05e1cf41ff8",
+      "target": "@components/motion/select.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 5274,
+      "path": "components/motion/button/base.tsx",
+      "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+      "target": "@components/motion/button/base.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 700,
+      "path": "components/motion/button/magnetic.tsx",
+      "sha256": "864dc7db0cda2d8ee9bff7127706c546632d00f554595c9ce1816e283acb2a1f",
+      "target": "@components/motion/button/magnetic.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6983,
+      "path": "components/motion/button/stateful.tsx",
+      "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+      "target": "@components/motion/button/stateful.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2223,
+      "path": "components/motion/popover-position.ts",
+      "sha256": "a31a9dc602243c3966aa1043cfd41dec5c13df1a52c847e745c88cbf00cb1f2e",
+      "target": "@components/motion/popover-position.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 1446,
+      "path": "components/motion/magnetic.tsx",
+      "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+      "target": "@components/motion/magnetic.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/prompt-input.json",
+  "title": "Prompt Input",
+  "type": "registry:component"
+}

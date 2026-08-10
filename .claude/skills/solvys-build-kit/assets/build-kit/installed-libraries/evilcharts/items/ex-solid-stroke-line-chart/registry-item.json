@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-solid-stroke-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1849,
+      "path": "src/registry/examples/recharts/ex-solid-stroke-line-chart.tsx",
+      "sha256": "2d678ddef7e5db46a7f397ea5380a2d2f5290d625235a30bb005ffce2abd3bcb",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-solid-stroke-line-chart.json?raw=1",
+  "type": "registry:block"
+}

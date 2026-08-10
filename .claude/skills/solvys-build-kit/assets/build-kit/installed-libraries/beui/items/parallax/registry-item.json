@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Wrapper that drifts its children at a speed factor as they cross the viewport, on either axis. Reduced-motion safe.",
+  "name": "parallax",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 2033,
+      "path": "components/motion/parallax.tsx",
+      "sha256": "60879a33ad2646df0ad77505d611ca1fed3cb7d5b9d404e24a23e86dc458831b",
+      "target": "@components/motion/parallax.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/parallax.json",
+  "title": "Scroll Animation Parallax",
+  "type": "registry:component"
+}

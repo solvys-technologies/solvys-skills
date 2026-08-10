@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "lucide-react",
+    "motion"
+  ],
+  "description": "A centered hero \u2014 eyebrow, headline, and paired CTAs \u2014 over a hover-pausing logo marquee of icon wordmarks.",
+  "name": "hero-split-demo",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5293,
+      "path": "components/premium/hero-sections/hero-split-demo.tsx",
+      "sha256": "b1b2e93e3d937411eff32a41a9ccbf0b6f5a7d9ccb10a0afec4940104199f5b5",
+      "target": "@components/premium/hero-sections/hero-split-demo.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/hero-split-demo.json",
+  "title": "Centered marquee",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bump-curve-type-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1960,
+      "path": "src/registry/examples/echarts/ex-bump-curve-type-echarts-area-chart.tsx",
+      "sha256": "5fa37bb7faae9489991cb42bab4238d94df26e433c7882683057589dee51ae4b",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-type-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-legend-square-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1536,
+      "path": "src/registry/examples/echarts/ex-legend-square-echarts-line-chart.tsx",
+      "sha256": "5df0193ec819d6d103cc3aa730ff89b740b392716b8a1e64f8f15efaf158c54a",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-legend-square-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

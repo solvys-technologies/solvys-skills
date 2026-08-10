@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Dotted progress rings with a centered stat, built from per-dot pie sectors",
+  "name": "progress-rings-echarts-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3035,
+      "path": "src/registry/blocks/echarts/b-progress-rings-echarts-pie-chart.tsx",
+      "sha256": "37eadbc9fc8b6a2f015b0afd3a5bd2814fd3d48531adcd0ed964bc6cd52696ca",
+      "target": "components/evilcharts/blocks/progress-rings-echarts-pie-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/progress-rings-echarts-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

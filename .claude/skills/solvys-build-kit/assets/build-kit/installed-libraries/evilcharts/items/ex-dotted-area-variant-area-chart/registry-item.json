@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-dotted-area-variant-area-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1917,
+      "path": "src/registry/examples/recharts/ex-dotted-area-variant-area-chart.tsx",
+      "sha256": "924739954e3da3741d5f9e9153c7ad6e4625c5af189a30f3b64bf51222b1d740",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-dotted-area-variant-area-chart.json?raw=1",
+  "type": "registry:block"
+}

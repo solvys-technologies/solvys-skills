@@ -1,0 +1,74 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Prediction market trade ticket with buy/sell modes, outcome prices, rolling amount entry, quick add chips and trade states.",
+  "name": "prediction-market",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 19422,
+      "path": "components/motion/prediction-market.tsx",
+      "sha256": "9f10736193225452ae0951f0931f8b50e8d1895755aa504ba105a2b6bf9f4313",
+      "target": "@components/motion/prediction-market.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6983,
+      "path": "components/motion/button/stateful.tsx",
+      "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+      "target": "@components/motion/button/stateful.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5284,
+      "path": "components/motion/number-ticker.tsx",
+      "sha256": "a73a54914531aa569036e9a0caacf5afbc3576555f9f39a70f8d26e0156883a9",
+      "target": "@components/motion/number-ticker.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5564,
+      "path": "components/motion/tabs.tsx",
+      "sha256": "60d600a7dbab51327130c280adfe39dfa605e9220e0e424ea9b2131f38ca4fac",
+      "target": "@components/motion/tabs.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 5274,
+      "path": "components/motion/button/base.tsx",
+      "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+      "target": "@components/motion/button/base.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/prediction-market.json",
+  "title": "Prediction Market",
+  "type": "registry:block"
+}

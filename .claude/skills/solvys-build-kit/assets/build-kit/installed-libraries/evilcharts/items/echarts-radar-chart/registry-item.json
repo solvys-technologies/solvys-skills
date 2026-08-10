@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Radar chart component rendered with Apache ECharts",
+  "name": "echarts-radar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart",
+    "@evilcharts/echarts-tooltip",
+    "@evilcharts/echarts-dot",
+    "@evilcharts/echarts-legend"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 54279,
+      "path": "src/registry/charts/echarts-radar-chart.tsx",
+      "sha256": "4f6543a90dbfff023f6f9361af4a585a408c89db9d8f1be3dff30d9213678c57",
+      "target": "components/evilcharts/charts/echarts-radar-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-radar-chart.json?raw=1",
+  "type": "registry:component"
+}

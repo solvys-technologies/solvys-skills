@@ -31,21 +31,19 @@ Load reusable source assemblies without turning the kit into a product identity.
 
 ## Upstream sync
 
-The approved upstream set lives in `assets/build-kit/library-sources.json`. The asset package also carries the installed runtime dependencies and source snapshots for the supplied library list. BeUI, BeUI Pro, and EvilCharts use scheduled discovery and green-only promotion. TanStack Charts is installed at the pinned version recorded in the manifest and changes only through a manifest update. The remaining installable sources are available through their recorded npm, CLI, GitHub registry, or source-registry adapters, with automatic updates disabled.
+The approved upstream set lives in `assets/build-kit/library-sources.json`. The asset package carries the installed runtime dependencies and complete source snapshots for BeUI, BeUI Pro, and EvilCharts in separate library folders. TanStack Charts is installed at the pinned version recorded in the manifest. Automatic discovery and promotion are disabled; a new snapshot requires an explicit install command.
 
 Refresh the installed source layer with:
 
 ```bash
-python3 scripts/install_library_sources.py --apply
+python3 scripts/install_library_sources.py --apply --full
 ```
 
-The installer records public registry snapshots and package inventory under `assets/build-kit/installed-registries/`. It reads `BEUI_PRO_TOKEN` only from the current process, so the private catalog can be fetched from the Paste-held credential bridge locally or from the workflow secret in CI. It never writes the token to a file, receipt, lockfile, or log. Bakai Lab and the X post remain visual references. Grainient remains a commercial, license-gated asset source.
+The installer records catalog receipts under `assets/build-kit/installed-registries/` and copies every shipped registry item and source file under `assets/build-kit/installed-libraries/{beui,beui-pro,evilcharts}/`. It reads `BEUI_PRO_TOKEN` only from the current process, so the private catalog can be fetched from the Paste-held credential bridge locally or from the workflow secret in CI. It never writes the token to a file, source snapshot, receipt, lockfile, or log. Bakai Lab and the X post remain visual references. Grainient remains a commercial, license-gated asset source.
 
-Run a discovery receipt with:
+The sync and promotion scripts are retained as historical tooling, but they are disabled for this kit. Do not run them as an automatic update path.
 
-```bash
-python3 scripts/sync_build_kit.py --apply
-```
+The source install writes `assets/build-kit/installed-registries/install-receipt.json`.
 
 The sync writes source revisions and candidate catalogs under `assets/build-kit/updates/`. It never changes product data, routes, permissions, tokens, or copy. A new upstream block enters the candidate catalog automatically when its source catalog is available. Breaking, uncertain, unlicensed, or identity-changing blocks remain quarantined until their contract is known.
 

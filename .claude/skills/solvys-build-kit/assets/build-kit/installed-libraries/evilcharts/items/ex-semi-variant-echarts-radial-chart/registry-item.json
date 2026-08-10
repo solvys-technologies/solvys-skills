@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-semi-variant-echarts-radial-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-radial-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1319,
+      "path": "src/registry/examples/echarts/ex-semi-variant-echarts-radial-chart.tsx",
+      "sha256": "85af42d906ed87c1f03424643394a8a549ed6c3060b704d05a54bb5cdba10162",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-semi-variant-echarts-radial-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A compact modal-style launch announcement with an animated shader visual header, layered glass artwork, a Dia-inspired chromatic heading, paired actions, and a smooth dismiss transition.",
+  "name": "announcement-shader-launch",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/chromatic-text-reveal",
+    "@beui/shader-background"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10540,
+      "path": "components/premium/announcement-banners/announcement-shader-launch.tsx",
+      "sha256": "e94d84ca7c66a4a4cf6cf1ee0fcb9c9f0d2d060f9de07aa184691250f84f5b6b",
+      "target": "@components/premium/announcement-banners/announcement-shader-launch.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/announcement-shader-launch.json",
+  "title": "Shader launch modal",
+  "type": "registry:block"
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "An interactive feature showcase: a shared-layout tab list drives an animated preview panel with a framed screenshot for each feature.",
+  "name": "features-tabs",
+  "registryDependencies": [
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10867,
+      "path": "components/premium/feature-sections/features-tabs.tsx",
+      "sha256": "6eb8502270cf526ce24c8d1cece9a32499443a114c52f7fb0e0bec87160102c8",
+      "target": "@components/premium/feature-sections/features-tabs.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/features-tabs.json",
+  "title": "Feature tabs",
+  "type": "registry:block"
+}

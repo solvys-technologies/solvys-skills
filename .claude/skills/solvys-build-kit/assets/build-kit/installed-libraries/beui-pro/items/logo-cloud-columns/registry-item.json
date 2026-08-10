@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A split social-proof block with four edge-masked logo lanes moving in alternating directions and pausing independently on hover.",
+  "name": "logo-cloud-columns",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 4580,
+      "path": "components/premium/logo-cloud/logo-cloud-columns.tsx",
+      "sha256": "7521cd15aae073bf4b8e0561eab554a5f9719b5f455bc1c8e2a1f802feae055a",
+      "target": "@components/premium/logo-cloud/logo-cloud-columns.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4644,
+      "path": "components/premium/logo-cloud/logo-cloud-data.tsx",
+      "sha256": "a243ac1211812529ce91fafdc20552a39621ba62cf61f39db16fad19f4599e17",
+      "target": "@components/premium/logo-cloud/logo-cloud-data.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/logo-cloud-columns.json",
+  "title": "Kinetic logo columns",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-dots-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1745,
+      "path": "src/registry/examples/recharts/ex-dots-composed-chart.tsx",
+      "sha256": "c76c97f9f47e72b18ae86e00a985cd816b78908cbbf991021fb5c895c62b22d9",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-dots-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-legend-circle-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1565,
+      "path": "src/registry/examples/recharts/ex-legend-circle-line-chart.tsx",
+      "sha256": "4c0850f75ffbfb08ca7b727d5d25f719aa8aebcc9ab814dc20e68138a3846f38",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-legend-circle-line-chart.json?raw=1",
+  "type": "registry:block"
+}

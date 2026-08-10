@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Growth against a dashed benchmark \u2014 hatched lead area, rounded step plateaus",
+  "name": "benchmark-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3656,
+      "path": "src/registry/blocks/echarts/b-benchmark-echarts-area-chart.tsx",
+      "sha256": "fe95556cc175ca9bca0f14e120343e9eef351efb79bf961853e189adf333d07a",
+      "target": "components/evilcharts/blocks/benchmark-echarts-area-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/benchmark-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

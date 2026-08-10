@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "ogl",
+    "tailwind-merge"
+  ],
+  "description": "A dark inference-API hero: a promo pill, a bold headline beside copy and amber/dark CTAs, over a scenic backdrop with a floating glass terminal that streams a curl request and JSON response.",
+  "name": "hero-code-demo",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10449,
+      "path": "components/premium/hero-sections/hero-code-demo.tsx",
+      "sha256": "4e3dc6cabd00ff1bfa3e9f8b2730ed8f99bcd893f5ffbfc22819ffa1223eba2b",
+      "target": "@components/premium/hero-sections/hero-code-demo.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10431,
+      "path": "components/premium/feature-sections/grainient.tsx",
+      "sha256": "577626ef2639316e0bd5e9beb936234537afc0ce28b394be62f0090ca6ef1eb5",
+      "target": "@components/premium/feature-sections/grainient.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/hero-code-demo.json",
+  "title": "Code demo",
+  "type": "registry:block"
+}

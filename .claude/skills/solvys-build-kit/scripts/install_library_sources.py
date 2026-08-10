@@ -5,9 +5,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import hashlib
 import os
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -15,6 +17,7 @@ from urllib.request import Request, urlopen
 SKILL_ROOT = Path(__file__).resolve().parent.parent
 ASSET_ROOT = SKILL_ROOT / "assets" / "build-kit"
 INSTALL_ROOT = ASSET_ROOT / "installed-registries"
+FULL_SOURCE_ROOT = ASSET_ROOT / "installed-libraries"
 RECEIPT_PATH = INSTALL_ROOT / "install-receipt.json"
 
 
@@ -52,6 +55,112 @@ def write_snapshot(namespace: str, filename: str, url: str, token_env: str | Non
         return {"url": url, "status": status, "detail": str(exc)}
 
 
+def safe_path(value: str) -> Path:
+    """Return a repository-safe relative path for an upstream registry path."""
+    parts = [part for part in Path(value).parts if part not in {"", ".", "..", "/", "\\"}]
+    if not parts:
+        return Path("source.txt")
+    return Path(*parts)
+
+
+def fetch_json(url: str, token_env: str | None = None) -> dict | list:
+    return json.loads(fetch(url, token_env).decode("utf-8"))
+
+
+def catalog_items(catalog: dict | list) -> list[dict]:
+    if isinstance(catalog, list):
+        return [item for item in catalog if isinstance(item, dict)]
+    value = catalog.get("items") if isinstance(catalog, dict) else None
+    return value if isinstance(value, list) else []
+
+
+def snapshot_full_registry(source: dict, catalog_url: str, token_env: str | None = None, skip_existing: bool = False) -> dict:
+    """Copy every registry item and its shipped source files into an isolated library folder."""
+    catalog = fetch_json(catalog_url, token_env)
+    items = catalog_items(catalog)
+    source_root = FULL_SOURCE_ROOT / source["id"]
+    source_root.mkdir(parents=True, exist_ok=True)
+    (source_root / "catalog.json").write_text(json.dumps(catalog, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+    item_manifests: list[dict] = []
+    template = source.get("catalogItemPathTemplate")
+    if not template:
+        raise ValueError(f"source {source['id']} has no catalog item path template")
+
+    for index, item in enumerate(items, start=1):
+        name = str(item.get("name") or item.get("id") or f"item-{index}")
+        item_id = quote(name, safe="")
+        item_root = source_root / "items" / safe_path(name)
+        files_root = item_root / "files"
+        existing_manifest = item_root / "registry-item.json"
+        if skip_existing and existing_manifest.is_file() and files_root.is_dir() and any(files_root.rglob("*")):
+            cached = json.loads(existing_manifest.read_text(encoding="utf-8"))
+            shipped_files = cached.get("shippedFiles", []) if isinstance(cached, dict) else []
+            item_manifests.append({
+                "name": name,
+                "type": item.get("type"),
+                "title": item.get("title"),
+                "sourceUrl": cached.get("sourceUrl") if isinstance(cached, dict) else item_url,
+                "fileCount": len(shipped_files),
+                "sourceFiles": shipped_files,
+            })
+            continue
+        files_root.mkdir(parents=True, exist_ok=True)
+        item_url = template.replace("{name}", item_id)
+        payload = fetch_json(item_url, token_env)
+        files = payload.get("files", []) if isinstance(payload, dict) else []
+        manifest = {key: value for key, value in (payload.items() if isinstance(payload, dict) else []) if key != "files"}
+        shipped_files: list[dict] = []
+        for file_index, file_entry in enumerate(files, start=1):
+            if not isinstance(file_entry, dict):
+                continue
+            relative = safe_path(str(file_entry.get("path") or file_entry.get("target") or f"source-{file_index}.txt"))
+            content = file_entry.get("content")
+            if not isinstance(content, str):
+                continue
+            destination = files_root / relative
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_text(content, encoding="utf-8")
+            shipped_files.append({
+                "path": str(relative),
+                "type": file_entry.get("type"),
+                "target": file_entry.get("target"),
+                "bytes": len(content.encode("utf-8")),
+                "sha256": hashlib.sha256(content.encode("utf-8")).hexdigest(),
+            })
+        manifest["sourceUrl"] = item_url
+        manifest["shippedFiles"] = shipped_files
+        (item_root / "registry-item.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+        item_manifests.append({
+            "name": name,
+            "type": item.get("type"),
+            "title": item.get("title"),
+            "sourceUrl": item_url,
+            "fileCount": len(shipped_files),
+            "sourceFiles": shipped_files,
+        })
+
+    library_manifest = {
+        "schemaVersion": 1,
+        "library": source["id"],
+        "name": source.get("name"),
+        "sourceUrl": source.get("sourceUrl"),
+        "catalogUrl": catalog_url,
+        "catalogItemCount": len(items),
+        "snapshotMode": "full-registry-source",
+        "autoUpdate": False,
+        "items": item_manifests,
+    }
+    (source_root / "library-manifest.json").write_text(json.dumps(library_manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return {
+        "status": "installed",
+        "mode": "full-registry-source",
+        "path": str(source_root.relative_to(ASSET_ROOT)),
+        "itemCount": len(items),
+        "fileCount": sum(item["fileCount"] for item in item_manifests),
+    }
+
+
 def npm_inventory() -> dict:
     package_path = ASSET_ROOT / "package.json"
     package = json.loads(package_path.read_text(encoding="utf-8"))
@@ -61,23 +170,44 @@ def npm_inventory() -> dict:
     }
 
 
-def install_sources() -> dict:
+def install_sources(full: bool = False, skip_existing: bool = False) -> dict:
     results: dict[str, dict] = {}
     results["beui"] = {
         "mode": "registry-catalog",
-        "autoUpdate": True,
+        "autoUpdate": False,
         "snapshot": write_snapshot("beui", "registry.json", "https://beui.dev/r/registry.json"),
     }
     results["beui-pro"] = {
         "mode": "private-registry-catalog",
-        "autoUpdate": True,
+        "autoUpdate": False,
         "credentialEnv": "BEUI_PRO_TOKEN",
         "snapshot": write_snapshot("beui-pro", "registry.json", "https://pro.beui.dev/r/registry.json", "BEUI_PRO_TOKEN"),
     }
     results["evilcharts"] = {
         "mode": "registry-catalog",
-        "autoUpdate": True,
+        "autoUpdate": False,
         "snapshot": write_snapshot("evilcharts", "registry.json", "https://evilcharts.com/r/registry.json?raw=1"),
+    }
+    if full:
+        for source_id, token_env, catalog_url in [
+            ("beui", None, "https://beui.dev/r/registry.json"),
+            ("beui-pro", "BEUI_PRO_TOKEN", "https://pro.beui.dev/r/registry.json"),
+            ("evilcharts", None, "https://evilcharts.com/r/registry.json?raw=1"),
+        ]:
+            source = next(entry for entry in json.loads((ASSET_ROOT / "library-sources.json").read_text(encoding="utf-8"))["activeUpstreams"] if entry["id"] == source_id)
+            try:
+                results[source_id]["fullSource"] = snapshot_full_registry(source, catalog_url, token_env, skip_existing)
+            except (HTTPError, URLError, TimeoutError, OSError, ValueError, json.JSONDecodeError) as exc:
+                results[source_id]["fullSource"] = {
+                    "status": "awaiting-credentials" if isinstance(exc, HTTPError) and exc.code in {401, 403} and token_env else "unavailable",
+                    "detail": str(exc),
+                }
+    results["tanstack-charts"] = {
+        "mode": "pinned-npm-package",
+        "autoUpdate": False,
+        "package": "@tanstack/charts",
+        "version": json.loads((ASSET_ROOT / "package.json").read_text(encoding="utf-8"))["dependencies"]["@tanstack/charts"],
+        "sourceUrl": "https://tanstack.com/charts/latest",
     }
     mapcn_urls = {
         "registry.json": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/registry.json",
@@ -139,6 +269,8 @@ def install_sources() -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--apply", action="store_true", help="Fetch public registries and write the install receipt")
+    parser.add_argument("--full", action="store_true", help="Copy every approved registry item and shipped source file into installed-libraries")
+    parser.add_argument("--skip-existing", action="store_true", help="Reuse completed item snapshots when resuming a full install")
     args = parser.parse_args()
     if not args.apply:
         parser.error("use --apply to write the source layer")
@@ -148,10 +280,10 @@ def main() -> int:
         "kit": "solvys-build-kit",
         "generatedAt": now(),
         "secretPolicy": "private credentials are process-only and never written to snapshots or receipts",
-        "sources": install_sources(),
+        "sources": install_sources(full=args.full, skip_existing=args.skip_existing),
     }
     RECEIPT_PATH.write_text(json.dumps(receipt, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    summary = {"receipt": str(RECEIPT_PATH), "autoUpdateSources": ["beui", "beui-pro", "evilcharts"], "privateCredentialUsed": bool(os.environ.get("BEUI_PRO_TOKEN"))}
+    summary = {"receipt": str(RECEIPT_PATH), "fullSourceRoot": str(FULL_SOURCE_ROOT), "privateCredentialUsed": bool(os.environ.get("BEUI_PRO_TOKEN")), "full": args.full}
     print(json.dumps(summary, indent=2, sort_keys=True))
     return 0
 

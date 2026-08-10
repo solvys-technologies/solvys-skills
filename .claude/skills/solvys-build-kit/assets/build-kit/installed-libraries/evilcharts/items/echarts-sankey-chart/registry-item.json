@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Sankey chart component rendered with Apache ECharts",
+  "name": "echarts-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart",
+    "@evilcharts/echarts-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 60043,
+      "path": "src/registry/charts/echarts-sankey-chart.tsx",
+      "sha256": "ba901718b6b78f6a1c47d6e11f263f829bebf9c9207c1fb3d3de14693d693a8f",
+      "target": "components/evilcharts/charts/echarts-sankey-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-sankey-chart.json?raw=1",
+  "type": "registry:component"
+}

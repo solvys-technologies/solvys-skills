@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A composable application sidebar with morphing nested navigation that folds into an animated icon rail on desktop and becomes a focus-managed sheet on mobile.",
+  "name": "animated-sidebar",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 30822,
+      "path": "components/motion/animated-sidebar.tsx",
+      "sha256": "3d56cdc5d955919a081935337b273a28d020f9dba2a61d8593d125322c9fa918",
+      "target": "@components/motion/animated-sidebar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4479,
+      "path": "components/motion/shared-layout-bg.tsx",
+      "sha256": "e6355b3b408d8cbe7855f61ca502d945eaeef867cbd9cfc070685aece079b9f6",
+      "target": "@components/motion/shared-layout-bg.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/animated-sidebar.json",
+  "title": "Animated Sidebar",
+  "type": "registry:component"
+}

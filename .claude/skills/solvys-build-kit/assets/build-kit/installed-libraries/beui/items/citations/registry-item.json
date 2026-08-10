@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Inline citation markers paired with a collapsible, progressively rendered reference collection for grounded agent responses.",
+  "name": "citations",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 7942,
+      "path": "components/agents/citations.tsx",
+      "sha256": "cc1f3321d85f723049f980596738d3a48ecd114e8f13d30e2cbffefd59f585c3",
+      "target": "@components/agents/citations.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1353,
+      "path": "components/agents/agent-disclosure.tsx",
+      "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+      "target": "@components/agents/agent-disclosure.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 216,
+      "path": "lib/favicon.ts",
+      "sha256": "ffdf23b912e14c58113ca7b4749230ffe2f15594fa21811efa338f05683bce27",
+      "target": "@lib/favicon.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/citations.json",
+  "title": "Citations",
+  "type": "registry:component"
+}

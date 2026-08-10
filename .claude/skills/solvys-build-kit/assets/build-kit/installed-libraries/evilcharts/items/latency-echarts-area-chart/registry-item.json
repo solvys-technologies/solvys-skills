@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Latency percentile monitor with an HTML stat row, on the ECharts area chart",
+  "name": "latency-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5220,
+      "path": "src/registry/blocks/echarts/b-latency-echarts-area-chart.tsx",
+      "sha256": "a7528e2d878b2a13060b5cead18c3701935b8be56f1dd869fb8ccc8890af7680",
+      "target": "components/evilcharts/blocks/latency-echarts-area-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/latency-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-duotone-reverse-variant-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1645,
+      "path": "src/registry/examples/echarts/ex-duotone-reverse-variant-echarts-bar-chart.tsx",
+      "sha256": "8ed5000ec460a35cf5abedd14bfb7684e76a1354aba4923f5b6cd772a51ec475",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-duotone-reverse-variant-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}
