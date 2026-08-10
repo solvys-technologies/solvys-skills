@@ -13,6 +13,19 @@ Treat sign-in as a state machine with a known finish. The first login screen is
 an action prompt, not a blocker. Follow the authorized chain, prove the final
 account and target, and keep secrets out of chat, files, receipts, and logs.
 
+Sign-in has two separate lanes:
+
+- **Interactive bootstrap:** regular Chrome on an awake, unlocked control
+  device establishes or renews a human Google or provider session.
+- **Machine execution:** Cloud tasks, CI, and workers use short-lived API or
+  provider credentials issued into their authorized environment. They do not
+  depend on Chrome, Paste, a local Keychain, or an unlocked Mac.
+
+A headless browser can automate an already-authorized web session. It cannot
+replace Google's password, MFA, risk, consent, or device-approval controls.
+Do not classify a locked Mac as an agent permission failure until the task's
+machine credential path has been checked.
+
 ## Session-state gate
 
 Before opening a login or OAuth URL:
@@ -90,6 +103,43 @@ Use this order unless the project Welcome Mat declares a narrower route:
 7. After the redirect, verify the visible account, organization, project,
    route, and the requested read or write capability. A consent success page
    alone is not provider proof.
+
+## Machine credential lane
+
+Before a task depends on a password-backed web login, check for an API, CLI,
+service account, OAuth refresh token, OIDC federation, or provider secret path.
+Prefer that path for work that must continue while the Mac is locked.
+
+1. Bootstrap the credential once through the authorized interactive lane.
+2. Store the resulting credential in the project's approved machine store or
+   provider environment. Paste remains the source reference; it is not the
+   worker's runtime dependency.
+3. Issue the worker only the minimum project, environment, and action scope.
+4. Use short-lived tokens or provider-native rotation where supported.
+5. Record the secret name, issuer, scope, expiry, rotation owner, and proof rung;
+   never record the value.
+6. Revoke the machine credential when the sprint, project, or owner changes.
+
+For Google Workspace APIs, use a project-owned OAuth client or service account
+with only the required scopes. Domain-wide delegation requires explicit
+Workspace administrator approval. It does not authorize a browser UI session.
+
+For Cloudflare-protected internal services, use a scoped Access service token or
+OIDC path for the worker. Do not use a human Google password as an API token.
+
+## Locked-device rule
+
+When the Mac is locked:
+
+- Continue Cloud, CI, API, deployment, test, and receipt work through the
+  machine credential lane.
+- Do not launch a new Google web login, ask for a browser MFA prompt, or claim a
+  password blocker from a headless session.
+- If only a web UI exists, mark the task `human-gate: interactive browser
+  required`, preserve the exact URL and state, and continue every safe API or
+  repository action in parallel.
+- Do not weaken macOS Keychain protections to make a local worker appear
+  autonomous. Apple's default login keychain is tied to device lock state.
 
 ## Provider playbooks
 

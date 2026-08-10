@@ -115,6 +115,13 @@ solution through the highest-reality proof plus durable learning promotion.
   stored password. Prefer the provider's SMS/text-code option; use Google's
   Tap Yes or Tap the number prompt when text is unavailable. Record references
   only, never secret values.
+- Separate interactive bootstrap from worker execution. Regular Chrome on an
+  awake, unlocked control device handles Google passwords, MFA, consent, and
+  device approval once. Cloud tasks, CI, and workers use short-lived scoped API,
+  OAuth, service-account, OIDC, or provider credentials issued into their
+  authorized environment, so a locked Mac does not stop ordinary work. A
+  headless browser cannot bypass Google's auth controls and is never the sole
+  production credential path.
 - For Fintheon chart intelligence, do not introduce `lightweight-charts`; use TradingView-native or Fintheon-owned paths unless TP explicitly approves a different approach.
 
 ### 3A. Solvys Ponytail Chain

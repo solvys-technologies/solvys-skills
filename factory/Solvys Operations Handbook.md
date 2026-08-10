@@ -340,6 +340,31 @@ approval is pending.
 
 Project Google accounts control provider registrations unless a project manifest states an exception. GitHub uses the verified owner lane.
 
+### Interactive and machine lanes
+
+Regular Chrome is the interactive bootstrap lane. It handles Google password,
+MFA, consent, device approval, and provider sessions on an awake, unlocked
+control device. A locked Mac can make the login Keychain and browser approval
+surface unavailable, so Chrome is never the runtime dependency for ordinary
+worker execution.
+
+Cloud tasks, CI, and workers use the machine lane: a project-scoped API token,
+OAuth refresh credential, service account, OIDC federation, or provider secret
+issued into the authorized environment. Paste remains the source reference and
+the human bootstrap store; workers do not query Paste during every task.
+
+For Google Workspace APIs, create a project-owned OAuth or service-account path
+with minimum scopes. Domain-wide delegation requires explicit Workspace
+administrator approval and does not create a browser session. For Cloudflare
+Access-protected services, use a scoped service token or OIDC path. A headless
+browser may reuse an authorized web session, but it cannot bypass Google's
+password, MFA, risk, or consent controls.
+
+When only a web UI exists while the Mac is locked, record a human gate with the
+exact target and state. Continue API, repository, deployment, testing, and
+receipt work in parallel. Never weaken Keychain protections or label the worker
+blocked before checking the machine credential lane.
+
 ## Communication
 
 Use the project Slack workspace when available. Authenticate through the project Google identity. Use browser login when a connector opens the wrong workspace.

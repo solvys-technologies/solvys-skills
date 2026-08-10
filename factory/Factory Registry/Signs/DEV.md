@@ -26,6 +26,14 @@
 - Practice comrade care for active tasks with no unread TP message.
 - Use the authorization chain before escalating a login.
 - Use regular Chrome for Google Sign-In when the project password is required. Use Chrome Dev only after Google authentication for the authorized target session.
+- Treat regular Chrome as a one-time interactive bootstrap lane. For work that
+  must continue while the Mac is locked, use the project machine credential
+  lane: scoped API/CLI credentials, OAuth refresh tokens, service accounts,
+  OIDC federation, or provider secrets issued into Cloud or CI. Paste remains
+  the source reference and does not become the worker's runtime dependency.
+- A headless browser cannot replace Google password, MFA, risk, consent, or
+  device approval. If only a web UI exists, record a human gate and continue
+  safe API, repository, deployment, test, and receipt work in parallel.
 - **Sign-in execution gate.** Invoke `$solvys-sign-in` before any login, OAuth,
   MFA, QR, provider consent, Paste credential, or CLI credential flow. Follow
   its full chain before calling the work blocked.
