@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "kind": "solvys-build-kit-wonder-mirror-handoff",
+  "status": "ready-for-native-wonder-import",
+  "canonicalCanvas": "../solvys-build-kit.pen",
+  "reviewArtifact": "../solvys-build-kit-review.html",
+  "totalPromotedItems": 515,
+  "sources": [
+    {
+      "id": "beui-pro",
+      "label": "BeUI Pro",
+      "promotedItems": 141,
+      "updatePolicy": "automatic",
+      "catalog": "../installed-registries/beui-pro/registry.json"
+    },
+    {
+      "id": "beui",
+      "label": "BeUI",
+      "promotedItems": 103,
+      "updatePolicy": "automatic",
+      "catalog": "../installed-registries/beui/registry.json"
+    },
+    {
+      "id": "evilcharts",
+      "label": "EvilCharts",
+      "promotedItems": 271,
+      "updatePolicy": "automatic",
+      "catalog": "../installed-registries/evilcharts/registry.json"
+    }
+  ],
+  "pinnedLibraries": ["@tanstack/charts@0.9.0"],
+  "protectedWonderFiles": ["Solvys 2", "Fintheon", "CRED Cowork", "HeirRight"],
+  "requiredCapability": "native Wonder MCP connector",
+  "nextAction": "Create an isolated agent-owned Wonder file and import the canonical Pen canvas after the native connector is available.",
+  "mutationReceipt": {
+    "wonderMutationAttempted": false,
+    "reason": "The current session has no native Wonder MCP connector. Browser-only mutation is prohibited by the Wonder custody rule.",
+    "existingFilesLeftUntouched": true
+  }
+}
