@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-variant",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 646,
+      "path": "registry/examples/avatar-variant.tsx",
+      "sha256": "74ef89e00be26548ca91e18b6bfaa689f14ef99146c4e6f8acf47e368e654439",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-variant.json",
+  "title": "Avatar Variant",
+  "type": "registry:example"
+}

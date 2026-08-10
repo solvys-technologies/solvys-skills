@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-in-input-group",
+  "registryDependencies": [
+    "select",
+    "input",
+    "input-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1147,
+      "path": "registry/examples/select-in-input-group.tsx",
+      "sha256": "b04adb5276078b82d653cfa3d13b2346cce41b340b9e6406cb72e383807b7d0b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-in-input-group.json",
+  "title": "Select In Input Group",
+  "type": "registry:example"
+}

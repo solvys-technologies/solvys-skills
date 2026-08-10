@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "navbar-active",
+  "registryDependencies": [
+    "navbar",
+    "button",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10180,
+      "path": "registry/examples/navbar-active.tsx",
+      "sha256": "d0b7a9c95630364c5732811fc1c15f6bdfb5600d1eb9f22a920a3ddca3742a3c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/navbar-active.json",
+  "title": "Navbar",
+  "type": "registry:example"
+}

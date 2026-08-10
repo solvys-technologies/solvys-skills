@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "scroll-area-horizontal",
+  "registryDependencies": [
+    "scroll-area"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1487,
+      "path": "registry/examples/scroll-area-horizontal.tsx",
+      "sha256": "d0f9cda0eceeb5cedfe13deeaee89d0299f56802bbaa7c3ee8cdbef07c7ca38a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/scroll-area-horizontal.json",
+  "title": "Scroll Area Horizontal",
+  "type": "registry:example"
+}

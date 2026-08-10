@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "chip-closable",
+  "registryDependencies": [
+    "chip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 831,
+      "path": "registry/examples/chip-closable.tsx",
+      "sha256": "410ccc6cc1501850fc9ab4b232a8cdb76b92157d606561ae9aa47c28e87c9562",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/chip-closable.json",
+  "title": "Chip Closable",
+  "type": "registry:example"
+}

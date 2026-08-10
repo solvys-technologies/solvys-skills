@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-sorting",
+  "registryDependencies": [
+    "badge",
+    "button",
+    "dropdown-menu",
+    "radio"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3589,
+      "path": "registry/examples/dropdown-menu-sorting.tsx",
+      "sha256": "b76076364a01e710de0631daa1f2dcd47563d530438c55af5465a87a1600df24",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-sorting.json",
+  "title": "Dropdown Menu Sorting",
+  "type": "registry:example"
+}

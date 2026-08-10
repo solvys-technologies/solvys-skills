@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-data-table",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 549,
+      "path": "registry/examples/pagination-data-table.tsx",
+      "sha256": "1ce8657cb37216229e3d84fe3ba71413cdaec21e7549aa92ae01a80498a3bb2f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-data-table.json",
+  "title": "Pagination Data Table (Pro)",
+  "type": "registry:example"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "toast-with-progress",
+  "registryDependencies": [
+    "toast",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 643,
+      "path": "registry/examples/toast-with-progress.tsx",
+      "sha256": "e7867c96d42ee5a67092e58c6ef8a98012d27e18e197fd7b365b3438c98bc455",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/toast-with-progress.json",
+  "title": "Toast With Progress",
+  "type": "registry:example"
+}

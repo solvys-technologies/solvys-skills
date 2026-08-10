@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "testimonials-with-carousel",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/testimonials-with-carousel.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-settings",
+  "registryDependencies": [
+    "switch",
+    "switch-group",
+    "label",
+    "separator",
+    "field"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2625,
+      "path": "registry/examples/switch-settings.tsx",
+      "sha256": "a28f81db6f749c0b6179d70de5f711b79de464ccd5a42bd9307e04c8e980cfae",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-settings.json",
+  "title": "Switch Settings",
+  "type": "registry:example"
+}

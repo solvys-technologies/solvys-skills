@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-example",
+  "registryDependencies": [
+    "field",
+    "pagination",
+    "select",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6426,
+      "path": "registry/examples/pagination-example.tsx",
+      "sha256": "9784998930c3d4d4560b3d9b0ff19f33d7717aa7c5de92f8d1d7bba871d2253d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-example.json",
+  "title": "Pagination",
+  "type": "registry:example"
+}

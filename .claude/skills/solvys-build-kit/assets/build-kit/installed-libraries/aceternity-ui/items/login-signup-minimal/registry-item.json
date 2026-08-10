@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "login-signup-minimal",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/login-signup-minimal.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

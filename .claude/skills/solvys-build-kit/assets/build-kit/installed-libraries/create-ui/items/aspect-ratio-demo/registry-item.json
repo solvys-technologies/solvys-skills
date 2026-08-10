@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "aspect-ratio-demo",
+  "registryDependencies": [
+    "aspect-ratio"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1659,
+      "path": "registry/examples/aspect-ratio-demo.tsx",
+      "sha256": "6b2ce46d885516121b633cda40fd5d7c235e42f7e2d54d5689eee1f73ca576d1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/aspect-ratio-demo.json",
+  "title": "Aspect Ratio Demo",
+  "type": "registry:example"
+}

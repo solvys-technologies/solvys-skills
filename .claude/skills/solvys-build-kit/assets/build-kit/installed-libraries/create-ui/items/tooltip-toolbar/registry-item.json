@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tooltip-toolbar",
+  "registryDependencies": [
+    "tooltip",
+    "button",
+    "button-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2278,
+      "path": "registry/examples/tooltip-toolbar.tsx",
+      "sha256": "f71f621886739fd83bed355f6d2bb15ed9977b33000ee885778be0b9180b3c69",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tooltip-toolbar.json",
+  "title": "Tooltip Toolbar",
+  "type": "registry:example"
+}

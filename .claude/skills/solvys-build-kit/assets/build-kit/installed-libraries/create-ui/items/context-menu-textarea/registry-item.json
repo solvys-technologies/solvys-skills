@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "context-menu-textarea",
+  "registryDependencies": [
+    "badge",
+    "context-menu",
+    "textarea"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3863,
+      "path": "registry/examples/context-menu-textarea.tsx",
+      "sha256": "94c88c146c42d8bf9f929725799bd46ea46dd4e58bc96e214d6c8c14d0e53da3",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/context-menu-textarea.json",
+  "title": "Context Menu on a Text Field",
+  "type": "registry:example"
+}

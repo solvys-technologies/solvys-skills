@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-group-io-trigger",
+  "registryDependencies": [
+    "switch-group",
+    "switch",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 693,
+      "path": "registry/examples/switch-group-io-trigger.tsx",
+      "sha256": "79edfba913ad67e9bc286c39c99f963bd77721b70f8d9451895f285b2a62b26c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-group-io-trigger.json",
+  "title": "Switch Group I/O Trigger",
+  "type": "registry:example"
+}

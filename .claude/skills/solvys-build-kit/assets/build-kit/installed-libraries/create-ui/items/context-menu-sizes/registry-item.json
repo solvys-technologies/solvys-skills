@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "context-menu-sizes",
+  "registryDependencies": [
+    "context-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1442,
+      "path": "registry/examples/context-menu-sizes.tsx",
+      "sha256": "266e259cff0f06b49a9c5acff261b9246c95ab1c66a921ab63dfcba39d3b54bf",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/context-menu-sizes.json",
+  "title": "Context Menu Sizes",
+  "type": "registry:example"
+}

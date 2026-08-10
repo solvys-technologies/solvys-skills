@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-footer",
+  "registryDependencies": [
+    "button",
+    "dropdown-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1150,
+      "path": "registry/examples/dropdown-menu-footer.tsx",
+      "sha256": "6008d5f48f0d0060d134121e4a8b7d5165894b0728512b7033894ded8a4dc735",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-footer.json",
+  "title": "Dropdown Menu Footer",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "info-tooltip-sizes",
+  "registryDependencies": [
+    "info-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 492,
+      "path": "registry/examples/info-tooltip-sizes.tsx",
+      "sha256": "74eec1d510cd393eebe77c504f5c1778e51c11c377bb0b71a42ece93be2dd35c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/info-tooltip-sizes.json",
+  "title": "Info Tooltip Sizes",
+  "type": "registry:example"
+}

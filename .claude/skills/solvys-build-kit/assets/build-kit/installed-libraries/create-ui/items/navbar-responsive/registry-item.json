@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "navbar-responsive",
+  "registryDependencies": [
+    "navbar",
+    "button",
+    "badge",
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 11556,
+      "path": "registry/examples/navbar-responsive.tsx",
+      "sha256": "29b9dc22991f23c7fd2c4c8b9f32ede71d66024a4585b9f0a6ac115195bacec9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/navbar-responsive.json",
+  "title": "Navbar",
+  "type": "registry:example"
+}

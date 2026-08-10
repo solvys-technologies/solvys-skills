@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-text",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 640,
+      "path": "registry/examples/avatar-text.tsx",
+      "sha256": "15b1d54f8edd87fd0e29081736d57a08d7eea0329aa9359e8a2ab522f99c8b17",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-text.json",
+  "title": "Avatar Text",
+  "type": "registry:example"
+}

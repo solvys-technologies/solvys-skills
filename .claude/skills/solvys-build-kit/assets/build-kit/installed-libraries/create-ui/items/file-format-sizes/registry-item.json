@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "file-format-sizes",
+  "registryDependencies": [
+    "file-format"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 390,
+      "path": "registry/examples/file-format-sizes.tsx",
+      "sha256": "1e35fe6c279800004cd49f314e6d30e40923dc4e56401a3990b09f018941eabe",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/file-format-sizes.json",
+  "title": "File Format",
+  "type": "registry:example"
+}

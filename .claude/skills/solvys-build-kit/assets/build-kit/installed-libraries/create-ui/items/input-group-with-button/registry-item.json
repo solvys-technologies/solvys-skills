@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-with-button",
+  "registryDependencies": [
+    "field",
+    "input",
+    "input-group",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 757,
+      "path": "registry/examples/input-group-with-button.tsx",
+      "sha256": "09a133991b67e5e79612dc329f93a34fcaf21750f39547711aa9a554a56b2cd9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-with-button.json",
+  "title": "Input Group With Button",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "following-pointer",
+  "shippedFiles": [
+    {
+      "bytes": 3175,
+      "path": "components/ui/following-pointer.tsx",
+      "sha256": "ea4c418b3f3dbfc85be0f4ae6d0624b36a3c46aba1207515a8f7287198727dac",
+      "target": "components/ui/following-pointer.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/following-pointer.json",
+  "title": "Following Pointer",
+  "type": "registry:ui"
+}

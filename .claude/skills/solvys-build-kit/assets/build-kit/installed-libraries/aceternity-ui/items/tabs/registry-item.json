@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@radix-ui/react-tabs"
+  ],
+  "name": "tabs",
+  "shippedFiles": [
+    {
+      "bytes": 3150,
+      "path": "components/ui/tabs.tsx",
+      "sha256": "0d34660aeb2d49d912b1216343bf7a86edf6dc2e0eb097ad53c30068e6950a71",
+      "target": "components/ui/tabs.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/tabs.json",
+  "title": "Tabs",
+  "type": "registry:ui"
+}

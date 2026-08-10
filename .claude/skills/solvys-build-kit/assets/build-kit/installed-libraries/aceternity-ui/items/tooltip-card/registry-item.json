@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "tooltip-card",
+  "shippedFiles": [
+    {
+      "bytes": 5878,
+      "path": "components/ui/tooltip-card.tsx",
+      "sha256": "aa43fee7024ea59de28e9a4ae5bf704e99b39109e478426f7fa116f6748334db",
+      "target": "components/ui/tooltip-card.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/tooltip-card.json",
+  "title": "Tooltip Card",
+  "type": "registry:ui"
+}

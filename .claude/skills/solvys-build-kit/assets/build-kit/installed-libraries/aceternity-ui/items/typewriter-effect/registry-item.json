@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "typewriter-effect",
+  "shippedFiles": [
+    {
+      "bytes": 4174,
+      "path": "components/ui/typewriter-effect.tsx",
+      "sha256": "9954fcc8d561014f650aeee24b1dc712bcd8da4292480e2c013dc47ebdb8d112",
+      "target": "components/ui/typewriter-effect.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/typewriter-effect.json",
+  "title": "Typewriter Effect",
+  "type": "registry:ui"
+}

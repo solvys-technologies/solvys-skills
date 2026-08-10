@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-states",
+  "registryDependencies": [
+    "switch"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 278,
+      "path": "registry/examples/switch-states.tsx",
+      "sha256": "6cc6664fd4e2ed9219b82074ec2f7dbcbb3f72a3b49248c1b76701dd18d450b4",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-states.json",
+  "title": "Switch States",
+  "type": "registry:example"
+}

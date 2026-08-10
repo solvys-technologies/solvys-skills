@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "rating-animation",
+  "registryDependencies": [
+    "rating"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 283,
+      "path": "registry/examples/rating-animation.tsx",
+      "sha256": "b4baa0c72ce6d91ce7d7ef18a7c2ea2b9c1af8a7c576213d9137d658718fd18c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/rating-animation.json",
+  "title": "Rating Animation",
+  "type": "registry:example"
+}

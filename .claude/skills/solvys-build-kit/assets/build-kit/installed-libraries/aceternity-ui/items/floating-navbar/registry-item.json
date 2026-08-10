@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "floating-navbar",
+  "shippedFiles": [
+    {
+      "bytes": 2748,
+      "path": "components/ui/floating-navbar.tsx",
+      "sha256": "9ab6f04dcc3bbf02d37db3478034af412e6166a3fb76f4889ca36e29cf4e558b",
+      "target": "components/ui/floating-navbar.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/floating-navbar.json",
+  "title": "Floating Navbar",
+  "type": "registry:ui"
+}

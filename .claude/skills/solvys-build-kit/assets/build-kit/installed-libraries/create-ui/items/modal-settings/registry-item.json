@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "modal-settings",
+  "registryDependencies": [
+    "modal",
+    "button",
+    "switch",
+    "switch-group",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2756,
+      "path": "registry/examples/modal-settings.tsx",
+      "sha256": "8b1194738b0aa4a39c0989b48ae25b6785269932fcfc4f8f57323bf66adcc399",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/modal-settings.json",
+  "title": "Modal Settings",
+  "type": "registry:example"
+}

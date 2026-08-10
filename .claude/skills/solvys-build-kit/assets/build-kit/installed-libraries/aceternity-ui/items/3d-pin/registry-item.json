@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "3d-pin",
+  "shippedFiles": [
+    {
+      "bytes": 5480,
+      "path": "components/ui/3d-pin.tsx",
+      "sha256": "3eab7bf90257ddf144e33021f759656aab51bf218ef7c1e486b0438763156dc7",
+      "target": "components/ui/3d-pin.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/3d-pin.json",
+  "title": "3d Pin",
+  "type": "registry:ui"
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "use-file-upload",
+  "shippedFiles": [
+    {
+      "bytes": 10314,
+      "path": "registry/hooks/use-file-upload.ts",
+      "sha256": "847b07187671d79cc9e32bcb0b6c6c5c03ea58df3422c7e071845b77742d0b4d",
+      "target": null,
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/use-file-upload.json",
+  "type": "registry:hook"
+}

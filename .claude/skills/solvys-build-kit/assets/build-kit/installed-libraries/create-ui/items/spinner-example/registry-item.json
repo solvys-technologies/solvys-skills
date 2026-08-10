@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "spinner-example",
+  "registryDependencies": [
+    "badge",
+    "button",
+    "field",
+    "input-group",
+    "spinner",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4993,
+      "path": "registry/examples/spinner-example.tsx",
+      "sha256": "f89096f5e384458196d744a5eba9feaef71d1ef89d91b874612b16ad2985eb2a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/spinner-example.json",
+  "title": "Spinner",
+  "type": "registry:example"
+}

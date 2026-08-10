@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "noise-background",
+  "shippedFiles": [
+    {
+      "bytes": 6791,
+      "path": "components/ui/noise-background.tsx",
+      "sha256": "fbedccf1bfdeaca7ddaa024948a791fcd7ff41364b11b6d854c10acdb28a54c8",
+      "target": "components/ui/noise-background.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/noise-background.json",
+  "title": "Noise Background",
+  "type": "registry:ui"
+}

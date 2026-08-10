@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-group-variants",
+  "registryDependencies": [
+    "checkbox-group",
+    "checkbox",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1290,
+      "path": "registry/examples/checkbox-group-variants.tsx",
+      "sha256": "51f2524269d7d47bb34fbece6972497eb758ddf6c197fbe658b0ddda43fba051",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-group-variants.json",
+  "title": "Checkbox Group Variants",
+  "type": "registry:example"
+}

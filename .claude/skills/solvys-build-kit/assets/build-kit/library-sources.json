@@ -9,7 +9,7 @@
     "penpotStatus": "retired-read-only",
     "installedSourceRoot": "installed-registries",
     "automaticUpdateSources": [],
-    "snapshotLibraries": ["beui", "beui-pro", "evilcharts", "tanstack-charts"]
+    "snapshotLibraries": ["beui", "beui-pro", "evilcharts", "tanstack-charts", "mapcn", "aceternity-ui", "create-ui", "aicss"]
   },
   "activeUpstreams": [
     {
@@ -85,6 +85,63 @@
       "license": "MIT",
       "autoUpdate": false,
       "promotion": "manifest-controlled"
+    },
+    {
+      "id": "mapcn",
+      "name": "mapcn",
+      "role": "Map and geospatial registry blocks",
+      "sourceUrl": "https://github.com/AnmolSaini16/mapcn",
+      "distribution": "github-shadcn-registry",
+      "registryUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/registry.json",
+      "catalogItemPathTemplate": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/{name}.json",
+      "catalogLicense": "MIT",
+      "catalogLicenseUrl": "https://github.com/AnmolSaini16/mapcn/blob/main/LICENSE",
+      "contractId": "mapcn:registry-block",
+      "autoUpdate": false,
+      "promotion": "green-only",
+      "licensePolicy": "verify-per-block"
+    },
+    {
+      "id": "aceternity-ui",
+      "name": "Aceternity UI",
+      "role": "Motion and interface registry blocks",
+      "sourceUrl": "https://ui.aceternity.com/",
+      "distribution": "shadcn-registry",
+      "catalogUrl": "https://ui.aceternity.com/registry/registry.json",
+      "catalogItemPathTemplate": "https://ui.aceternity.com/registry/{name}.json",
+      "catalogLicense": "verify-per-component",
+      "contractId": "aceternity-ui:registry-block",
+      "autoUpdate": false,
+      "promotion": "green-only",
+      "licensePolicy": "verify-per-block"
+    },
+    {
+      "id": "create-ui",
+      "name": "Create UI",
+      "role": "Copy-paste UI registry source",
+      "sourceUrl": "https://createui.co/docs/components",
+      "distribution": "cli-registry",
+      "catalogUrl": "https://createui.co/r/registry.json",
+      "catalogItemPathTemplate": "https://createui.co/r/{name}.json",
+      "catalogLicense": "verify-per-component",
+      "contractId": "create-ui:registry-entry",
+      "autoUpdate": false,
+      "promotion": "green-only",
+      "licensePolicy": "verify-per-block"
+    },
+    {
+      "id": "aicss",
+      "name": "AIcss",
+      "role": "AI interaction source registry",
+      "sourceUrl": "https://www.aicss.dev/",
+      "distribution": "source-registry",
+      "catalogUrl": "https://www.aicss.dev/r",
+      "catalogItemPathTemplate": "https://www.aicss.dev/r/{name}",
+      "catalogLicense": "free-and-licensed-components",
+      "contractId": "aicss:source-registry-entry",
+      "autoUpdate": false,
+      "promotion": "green-only",
+      "licensePolicy": "verify-per-component"
     }
   ],
   "installedReferences": [
@@ -165,8 +222,8 @@
       "registryUrl": "https://www.aicss.dev/r/{name}",
       "license": "free-and-licensed-components",
       "autoUpdate": false,
-      "installStatus": "installed-free-catalog",
-      "sourceSnapshot": "free component catalog and code only; licensed components remain gated"
+      "installStatus": "installed",
+      "sourceSnapshot": "full component catalog and accessible item payloads"
     }
   ],
   "referenceInputs": [

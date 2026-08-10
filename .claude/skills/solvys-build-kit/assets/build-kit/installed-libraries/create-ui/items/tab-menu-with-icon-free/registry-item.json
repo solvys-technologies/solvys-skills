@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-with-icon-free",
+  "registryDependencies": [
+    "tab-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 701,
+      "path": "registry/examples/tab-menu-with-icon-free.tsx",
+      "sha256": "39234d0fb70c2b4c374aded02f6a2c8e35013c1b4311e53418a67480e38e56c9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-with-icon-free.json",
+  "title": "TabMenu With Icon (Free)",
+  "type": "registry:example"
+}

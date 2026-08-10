@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "blog-content-with-toc",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/blog-content-with-toc.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

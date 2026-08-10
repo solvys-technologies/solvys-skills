@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "scroll-area-both",
+  "registryDependencies": [
+    "scroll-area"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 759,
+      "path": "registry/examples/scroll-area-both.tsx",
+      "sha256": "3fa14616d09e22cdb2426ec4ac415e9a5d376ede897c58d79cce8b6df824e1ab",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/scroll-area-both.json",
+  "title": "Scroll Area Both Axes",
+  "type": "registry:example"
+}

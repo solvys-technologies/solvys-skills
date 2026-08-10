@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "parallax-hero-images",
+  "shippedFiles": [
+    {
+      "bytes": 4547,
+      "path": "components/ui/parallax-hero-images.tsx",
+      "sha256": "b93bea939241620dbec43ad61d78e3928c309e1934c500e3689c67a19287ce11",
+      "target": "components/ui/parallax-hero-images.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/parallax-hero-images.json",
+  "title": "Parallax Hero Images",
+  "type": "registry:ui"
+}

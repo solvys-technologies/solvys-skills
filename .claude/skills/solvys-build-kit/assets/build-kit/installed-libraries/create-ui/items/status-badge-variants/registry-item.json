@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "status-badge-variants",
+  "registryDependencies": [
+    "status-badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 750,
+      "path": "registry/examples/status-badge-variants.tsx",
+      "sha256": "01eaa291583de905f1552cd95ec607cad368f8583bdb26651dc004ecfa20bd50",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/status-badge-variants.json",
+  "title": "Status Badge Variants",
+  "type": "registry:example"
+}

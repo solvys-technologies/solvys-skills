@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "inline-alert-appearances",
+  "registryDependencies": [
+    "inline-alert"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1059,
+      "path": "registry/examples/inline-alert-appearances.tsx",
+      "sha256": "81b0d209683d9d529b24016db66ec67c7d044868f516b0996e3507c4da1651e7",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/inline-alert-appearances.json",
+  "title": "Inline Alert Appearances",
+  "type": "registry:example"
+}

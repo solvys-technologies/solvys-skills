@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "slider-marks",
+  "registryDependencies": [
+    "slider"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 660,
+      "path": "registry/examples/slider-marks.tsx",
+      "sha256": "9303ef99c88aaaf92eaa034203716f0a2f47127309a345cdfc6c3d57878d5cf2",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider-marks.json",
+  "title": "Slider Marks",
+  "type": "registry:example"
+}

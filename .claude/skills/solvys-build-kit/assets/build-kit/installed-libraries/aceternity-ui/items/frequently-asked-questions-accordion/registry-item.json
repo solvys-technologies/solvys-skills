@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "frequently-asked-questions-accordion",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/frequently-asked-questions-accordion.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-tag-inline",
+  "registryDependencies": [
+    "input-tag"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 437,
+      "path": "registry/examples/input-tag-inline.tsx",
+      "sha256": "3098048110ecf4d2fac99417de2ceadb93eaff6df5c0c3b5ccff39c0b3ff7bac",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-tag-inline.json",
+  "title": "Input Tag",
+  "type": "registry:example"
+}

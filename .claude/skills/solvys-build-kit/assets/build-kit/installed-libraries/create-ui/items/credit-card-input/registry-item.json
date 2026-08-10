@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets"
+  ],
+  "description": "Masked card number input that detects the brand and shows its badge plus a validity icon; onValueChange reports details",
+  "name": "credit-card-input",
+  "registryDependencies": [
+    "input-group",
+    "use-credit-card-input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4444,
+      "path": "registry/ui/credit-card-input.tsx",
+      "sha256": "c03463bd42660f3f42190665edfed476cec41fe4907720cc363022ab81742481",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/credit-card-input.json",
+  "title": "Credit Card Input",
+  "type": "registry:ui"
+}

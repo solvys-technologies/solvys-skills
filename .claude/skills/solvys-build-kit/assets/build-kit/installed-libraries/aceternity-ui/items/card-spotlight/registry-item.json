@@ -1,0 +1,29 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "card-spotlight",
+  "registryDependencies": [
+    "https://ui.aceternity.com/registry/canvas-reveal-effect.json"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2100,
+      "path": "components/ui/card-spotlight.tsx",
+      "sha256": "d1a4634badf0688668ad28471f032159c52dc3d32e7cc1d7d158812d24af3b56",
+      "target": "components/ui/card-spotlight.tsx",
+      "type": "registry:ui"
+    },
+    {
+      "bytes": 8303,
+      "path": "components/ui/canvas-reveal-effect.tsx",
+      "sha256": "7d49ce5826dc2b9a20439778c62bb6cf15547fd7472baa4d57de25eea2d40692",
+      "target": "components/ui/canvas-reveal-effect.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/card-spotlight.json",
+  "title": "Card Spotlight",
+  "type": "registry:ui"
+}

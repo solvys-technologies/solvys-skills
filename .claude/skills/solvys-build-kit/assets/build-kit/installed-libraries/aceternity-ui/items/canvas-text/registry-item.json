@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "canvas-text",
+  "shippedFiles": [
+    {
+      "bytes": 5757,
+      "path": "components/ui/canvas-text.tsx",
+      "sha256": "cd60ebbddf3b08596c692f34eb5a7db35f65dd84bb1e7cdceebe1a40e693f6f1",
+      "target": "components/ui/canvas-text.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/canvas-text.json",
+  "title": "Canvas Text",
+  "type": "registry:ui"
+}

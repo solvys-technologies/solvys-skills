@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "fab-button-radial",
+  "registryDependencies": [
+    "fab-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2212,
+      "path": "registry/examples/fab-button-radial.tsx",
+      "sha256": "c19bbc942df3323a345b46b2bf18c62588576a6d8636ff6e5408a00730d46fbe",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/fab-button-radial.json",
+  "title": "FAB Button Radial",
+  "type": "registry:example"
+}

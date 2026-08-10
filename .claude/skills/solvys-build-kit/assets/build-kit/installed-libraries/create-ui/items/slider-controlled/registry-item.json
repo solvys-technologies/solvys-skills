@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "slider-controlled",
+  "registryDependencies": [
+    "slider"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 517,
+      "path": "registry/examples/slider-controlled.tsx",
+      "sha256": "91dd287d19ffcef3fb8c7180c5d9499dc30f8958a918c71c3bafd32b824d16fc",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider-controlled.json",
+  "title": "Slider",
+  "type": "registry:example"
+}

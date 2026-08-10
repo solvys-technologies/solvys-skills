@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "password-strength-meter-only",
+  "registryDependencies": [
+    "password-strength"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 796,
+      "path": "registry/examples/password-strength-meter-only.tsx",
+      "sha256": "48b2212b166af3340db73d9908451156e89fcee2965140b318da51392f91504f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/password-strength-meter-only.json",
+  "title": "Password Strength Meter Only",
+  "type": "registry:example"
+}

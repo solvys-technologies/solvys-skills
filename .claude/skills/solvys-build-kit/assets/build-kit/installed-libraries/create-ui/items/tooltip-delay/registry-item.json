@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tooltip-delay",
+  "registryDependencies": [
+    "button",
+    "tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1102,
+      "path": "registry/examples/tooltip-delay.tsx",
+      "sha256": "795dab231021c35cc837dd3a0b33738cef6f765d79d1f2087206de8f2f6fa66f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tooltip-delay.json",
+  "title": "Tooltip Delay",
+  "type": "registry:example"
+}

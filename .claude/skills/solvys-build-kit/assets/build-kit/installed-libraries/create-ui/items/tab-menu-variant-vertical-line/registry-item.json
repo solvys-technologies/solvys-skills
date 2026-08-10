@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-variant-vertical-line",
+  "registryDependencies": [
+    "tab-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 676,
+      "path": "registry/examples/tab-menu-variant-vertical-line.tsx",
+      "sha256": "b027efda761fdbf4866172248a09f33249fa7c373c04fe066d58633a49876d96",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-variant-vertical-line.json",
+  "title": "TabMenu Variant Vertical Line",
+  "type": "registry:example"
+}

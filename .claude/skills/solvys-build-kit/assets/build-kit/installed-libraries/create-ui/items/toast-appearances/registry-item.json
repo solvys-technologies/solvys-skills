@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "toast-appearances",
+  "registryDependencies": [
+    "toast",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1452,
+      "path": "registry/examples/toast-appearances.tsx",
+      "sha256": "a298fb0e51e32266b3b01fa6558c1716d44bfe462bafd9f11bd69a9f37665337",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/toast-appearances.json",
+  "title": "Toast Appearances",
+  "type": "registry:example"
+}

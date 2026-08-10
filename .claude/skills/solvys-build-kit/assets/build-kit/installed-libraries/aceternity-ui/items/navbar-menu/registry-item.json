@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "navbar-menu",
+  "shippedFiles": [
+    {
+      "bytes": 2909,
+      "path": "components/ui/navbar-menu.tsx",
+      "sha256": "6c9650ea81a0c364eb9cd06230ced52170de240518fb9426d5e495b9b5afb2cc",
+      "target": "components/ui/navbar-menu.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/navbar-menu.json",
+  "title": "Navbar Menu",
+  "type": "registry:ui"
+}

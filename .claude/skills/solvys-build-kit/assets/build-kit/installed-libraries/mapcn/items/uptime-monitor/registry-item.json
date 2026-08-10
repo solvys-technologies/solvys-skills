@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "categories": [
+    "monitoring",
+    "status"
+  ],
+  "dependencies": [
+    "maplibre-gl"
+  ],
+  "description": "Status-page style map of edge network locations with live health, latency, and uptime.",
+  "meta": {
+    "iframeHeight": "720px"
+  },
+  "name": "uptime-monitor",
+  "registryDependencies": [
+    "@mapcn/map"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1169,
+      "path": "src/registry/blocks/uptime-monitor/page.tsx",
+      "sha256": "71989c018416a296c7863c61e30f6fa026f124c3127b3649ca46bcbdbb427e74",
+      "target": "app/uptime-monitor/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 5664,
+      "path": "src/registry/blocks/uptime-monitor/data.ts",
+      "sha256": "4f9e1b6f549ff80a769738fd783b69ca6eddd274c36574a0a6317d82e71614a1",
+      "target": "app/uptime-monitor/data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1511,
+      "path": "src/registry/blocks/uptime-monitor/components/edge-node-marker.tsx",
+      "sha256": "e6151b2cfe77225b0625f4c4578b4212fbb12177b12a05fb3ea71183203332ff",
+      "target": "app/uptime-monitor/components/edge-node-marker.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2830,
+      "path": "src/registry/blocks/uptime-monitor/components/status-sidebar.tsx",
+      "sha256": "0685c7641344e4ec7c701e8d599f091ff07e2d5a8493a63eff5e9e22be177005",
+      "target": "app/uptime-monitor/components/status-sidebar.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/uptime-monitor.json",
+  "title": "Uptime Monitor",
+  "type": "registry:block"
+}

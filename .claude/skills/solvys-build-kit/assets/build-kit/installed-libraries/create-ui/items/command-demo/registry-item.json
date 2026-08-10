@@ -1,0 +1,26 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "command-demo",
+  "registryDependencies": [
+    "command",
+    "button",
+    "badge",
+    "avatar",
+    "chip",
+    "tabs",
+    "file-format",
+    "featured-icon"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 15467,
+      "path": "registry/examples/command-demo.tsx",
+      "sha256": "eedbef8d6a2b41d1f0d3b4e0aad087f07355d0f7ef8c374688943b000f6bf8ff",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/command-demo.json",
+  "title": "Command Demo",
+  "type": "registry:example"
+}

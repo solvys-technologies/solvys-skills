@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "radix-ui"
+  ],
+  "description": "Form label with companion slots like LabelRequired, LabelOptional, LabelDescription and LabelCount; size follows Field",
+  "name": "label",
+  "registryDependencies": [
+    "field"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6881,
+      "path": "registry/ui/label.tsx",
+      "sha256": "19f24ffbcb7b082c6f4ac5246fe296361acfd31a77849611d0a13acba6e41088",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label.json",
+  "title": "Label",
+  "type": "registry:ui"
+}

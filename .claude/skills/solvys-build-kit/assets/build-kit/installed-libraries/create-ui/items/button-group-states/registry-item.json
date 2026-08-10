@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-group-states",
+  "registryDependencies": [
+    "button-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 395,
+      "path": "registry/examples/button-group-states.tsx",
+      "sha256": "8fc8f985ead2cd042dc9be7c584b6586065dbaba64e4d5778803aa0ccdfbde2e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-group-states.json",
+  "title": "Button Group States",
+  "type": "registry:example"
+}

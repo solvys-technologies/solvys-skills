@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-with-addon",
+  "registryDependencies": [
+    "field",
+    "input",
+    "input-group",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 895,
+      "path": "registry/examples/input-group-with-addon.tsx",
+      "sha256": "16dc1bd5e88b369c8a59e9695d1b22c2629e905e23a67cf2f50f8282dc2dae77",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-with-addon.json",
+  "title": "Input Group With Addon",
+  "type": "registry:example"
+}

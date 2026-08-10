@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Single-line text input rendered in a focusable InputShell; size and invalid/disabled/loading state inherit from Field",
+  "name": "input",
+  "registryDependencies": [
+    "field"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9550,
+      "path": "registry/ui/input.tsx",
+      "sha256": "1ddfcf4a4ea16ac316504d34590e62e5beaa32a0ca576a1dc9d22fd4f86318f0",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input.json",
+  "title": "Input",
+  "type": "registry:ui"
+}

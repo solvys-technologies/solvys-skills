@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "stats-with-number-ticker",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/stats-with-number-ticker.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

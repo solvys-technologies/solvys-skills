@@ -1,0 +1,28 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-group-example",
+  "registryDependencies": [
+    "button",
+    "button-group",
+    "dropdown-menu",
+    "field",
+    "input",
+    "input-group",
+    "label",
+    "select",
+    "tooltip",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 34023,
+      "path": "registry/examples/button-group-example.tsx",
+      "sha256": "5296031f60e053d6afc9b744fd4ae01795a43d9b03af8cc15b5448f9d6aec1dc",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-group-example.json",
+  "title": "Button Group",
+  "type": "registry:example"
+}

@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "dither-features",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/dither-features.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

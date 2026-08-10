@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+  ],
+  "name": "animated-testimonials",
+  "shippedFiles": [
+    {
+      "bytes": 5345,
+      "path": "components/ui/animated-testimonials.tsx",
+      "sha256": "0ebd8145a884493cc52f27b9fc73aaa35102fc4d12fb31b4e33d55818e330627",
+      "target": "components/ui/animated-testimonials.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/animated-testimonials.json",
+  "title": "Animated Testimonials",
+  "type": "registry:ui"
+}

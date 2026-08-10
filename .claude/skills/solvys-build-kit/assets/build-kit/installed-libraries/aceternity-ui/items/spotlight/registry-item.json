@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "spotlight",
+  "shippedFiles": [
+    {
+      "bytes": 1450,
+      "path": "components/ui/spotlight.tsx",
+      "sha256": "5bf5e3c43a1dab43e6e0ac56c4783132608b91a2fabdc4a61b2b961ef519093d",
+      "target": "components/ui/spotlight.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/spotlight.json",
+  "title": "Spotlight",
+  "type": "registry:ui"
+}

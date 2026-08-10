@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "text-reveal-card",
+  "shippedFiles": [
+    {
+      "bytes": 5287,
+      "path": "components/ui/text-reveal-card.tsx",
+      "sha256": "70db36b2988130c58486954b533147055cd6a6d2c022d0d341c2fb5a8f9266e2",
+      "target": "components/ui/text-reveal-card.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/text-reveal-card.json",
+  "title": "Text Reveal Card",
+  "type": "registry:ui"
+}

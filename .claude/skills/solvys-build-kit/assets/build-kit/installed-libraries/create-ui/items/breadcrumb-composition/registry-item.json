@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "breadcrumb-composition",
+  "registryDependencies": [
+    "breadcrumb",
+    "avatar",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1317,
+      "path": "registry/examples/breadcrumb-composition.tsx",
+      "sha256": "cfa6ce716f2ddeb88b843218e0c66852c3bbd5f9257b30ef1052b6ca070238ae",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/breadcrumb-composition.json",
+  "title": "Breadcrumb Composition",
+  "type": "registry:example"
+}

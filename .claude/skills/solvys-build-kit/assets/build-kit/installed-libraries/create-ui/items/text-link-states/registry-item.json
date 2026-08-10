@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "text-link-states",
+  "registryDependencies": [
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 407,
+      "path": "registry/examples/text-link-states.tsx",
+      "sha256": "3f1ac5e86e512c833180bf14594da75733295cb57ed29f80435b50c7c0b58e3e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/text-link-states.json",
+  "title": "TextLink States",
+  "type": "registry:example"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "popover-placement",
+  "registryDependencies": [
+    "popover",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1718,
+      "path": "registry/examples/popover-placement.tsx",
+      "sha256": "f8179d0c582c4d5ec1040d872e1d0811ad1d93ab0c400a87dbb3d6a40b5315c5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/popover-placement.json",
+  "title": "Popover Placement",
+  "type": "registry:example"
+}

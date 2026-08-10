@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-group",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 881,
+      "path": "registry/examples/avatar-group.tsx",
+      "sha256": "010658e04f346228485b4722ee38a8b4baa5ea065d008ab33f1d8e84918a1bc5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-group.json",
+  "title": "Avatar Group",
+  "type": "registry:example"
+}

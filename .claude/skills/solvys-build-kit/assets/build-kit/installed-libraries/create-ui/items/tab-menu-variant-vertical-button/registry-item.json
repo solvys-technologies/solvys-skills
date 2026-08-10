@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-variant-vertical-button",
+  "registryDependencies": [
+    "tab-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 709,
+      "path": "registry/examples/tab-menu-variant-vertical-button.tsx",
+      "sha256": "108c6b812c53651c7f7e7381db54456dc786824605119de015123eac190bff87",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-variant-vertical-button.json",
+  "title": "TabMenu Variant Vertical Button",
+  "type": "registry:example"
+}

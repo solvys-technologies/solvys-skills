@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "app-store-badge-example",
+  "registryDependencies": [
+    "app-store-badge",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4990,
+      "path": "registry/examples/app-store-badge-example.tsx",
+      "sha256": "9ec5994c588aad4628c1ef8b0e596fa065b79c9cba162349fc4e7b534b608caf",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/app-store-badge-example.json",
+  "title": "App Store Badge",
+  "type": "registry:example"
+}

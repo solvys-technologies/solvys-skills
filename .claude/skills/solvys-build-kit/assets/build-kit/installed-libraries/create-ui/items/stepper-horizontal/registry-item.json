@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "stepper-horizontal",
+  "registryDependencies": [
+    "stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1612,
+      "path": "registry/examples/stepper-horizontal.tsx",
+      "sha256": "734324362e4d58415be067cbfb9fbb8edc8871e0b3e796f4eff62dbe1059043f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/stepper-horizontal.json",
+  "title": "Stepper Horizontal",
+  "type": "registry:example"
+}

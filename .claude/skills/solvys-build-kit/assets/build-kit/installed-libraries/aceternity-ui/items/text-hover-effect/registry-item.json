@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "text-hover-effect",
+  "shippedFiles": [
+    {
+      "bytes": 3804,
+      "path": "components/ui/text-hover-effect.tsx",
+      "sha256": "6921dc858bc64ac90e791720660ceac965df94986867e82d28a6eb2d8fe53518",
+      "target": "components/ui/text-hover-effect.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/text-hover-effect.json",
+  "title": "Text Hover Effect",
+  "type": "registry:ui"
+}

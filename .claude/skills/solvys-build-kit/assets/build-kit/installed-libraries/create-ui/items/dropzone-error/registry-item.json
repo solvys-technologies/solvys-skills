@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropzone-error",
+  "registryDependencies": [
+    "dropzone"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 316,
+      "path": "registry/examples/dropzone-error.tsx",
+      "sha256": "0f8e21417d3f16e23aed500d46d80d0516eb50aeadec587e4de9661af0da56a6",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropzone-error.json",
+  "title": "Dropzone",
+  "type": "registry:example"
+}

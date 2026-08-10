@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "textarea-with-label",
+  "registryDependencies": [
+    "field",
+    "label",
+    "textarea"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 448,
+      "path": "registry/examples/textarea-with-label.tsx",
+      "sha256": "0258c78667941b1ef2c1381e75d65c46a0ac3abf61c3b0f2c264d0d82c4fc8a5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/textarea-with-label.json",
+  "title": "Textarea With Label",
+  "type": "registry:example"
+}

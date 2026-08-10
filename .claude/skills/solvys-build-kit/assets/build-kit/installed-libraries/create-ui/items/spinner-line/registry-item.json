@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "spinner-line",
+  "registryDependencies": [
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 288,
+      "path": "registry/examples/spinner-line.tsx",
+      "sha256": "e426134cf52db4afa288b666428278b2734de5d5bacb9fee94896938ab2abafe",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/spinner-line.json",
+  "title": "Spinner Line",
+  "type": "registry:example"
+}

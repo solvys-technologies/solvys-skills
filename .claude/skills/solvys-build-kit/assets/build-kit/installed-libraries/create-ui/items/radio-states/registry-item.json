@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "radio-states",
+  "registryDependencies": [
+    "radio",
+    "radio-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 658,
+      "path": "registry/examples/radio-states.tsx",
+      "sha256": "f7f4e93aa658acf8d2431bf2657b14f9907c0b4d5cbc9f23005ffb3188f118eb",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/radio-states.json",
+  "title": "Radio States",
+  "type": "registry:example"
+}

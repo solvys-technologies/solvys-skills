@@ -1,0 +1,25 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority"
+  ],
+  "description": "Multi-line text input; size and state inherit from Field, resizable x/y/both with custom grip, loading spinner overlay",
+  "name": "textarea",
+  "registryDependencies": [
+    "field",
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5207,
+      "path": "registry/ui/textarea.tsx",
+      "sha256": "ceb14435f31ecbf7b26d56e9b21a62e8b0c34b82df205788d8f631f886fc1d8f",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/textarea.json",
+  "title": "Textarea",
+  "type": "registry:ui"
+}

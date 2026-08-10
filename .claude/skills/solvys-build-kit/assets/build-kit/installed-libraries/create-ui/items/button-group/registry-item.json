@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Row of attached ButtonGroupItem buttons sharing borders; per-item active, loading and iconOnly, ideal for toolbars",
+  "name": "button-group",
+  "registryDependencies": [
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10686,
+      "path": "registry/ui/button-group.tsx",
+      "sha256": "a0bbba99c98c642a4a150cfaf86217870d17ff8d1a00f5c858b82cd3ed0dd380",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-group.json",
+  "title": "Button Group",
+  "type": "registry:ui"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "gooey-input",
+  "shippedFiles": [
+    {
+      "bytes": 7266,
+      "path": "components/ui/gooey-input.tsx",
+      "sha256": "4e1a126cb6b621e911c99f0fafac2efc213d16802d145ed5f71cfa84131409e2",
+      "target": "components/ui/gooey-input.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/gooey-input.json",
+  "title": "Gooey Input",
+  "type": "registry:ui"
+}

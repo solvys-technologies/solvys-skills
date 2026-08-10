@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-group-thumb-icon",
+  "registryDependencies": [
+    "switch-group",
+    "switch",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1174,
+      "path": "registry/examples/switch-group-thumb-icon.tsx",
+      "sha256": "c54e303aedd4ba58abb44a662ec65cf3b3b14f9b5f26582213bef89f1aaa304e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-group-thumb-icon.json",
+  "title": "Switch Group Thumb Icon",
+  "type": "registry:example"
+}

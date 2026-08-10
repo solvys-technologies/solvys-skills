@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "stepper-badge",
+  "registryDependencies": [
+    "stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1008,
+      "path": "registry/examples/stepper-badge.tsx",
+      "sha256": "2c616a4d62ff95eb0312fffca4bb416ed106ed280a091d3229371a3f57450dc3",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/stepper-badge.json",
+  "title": "Stepper Badge",
+  "type": "registry:example"
+}

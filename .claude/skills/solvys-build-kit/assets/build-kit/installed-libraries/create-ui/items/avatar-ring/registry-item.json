@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-ring",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1323,
+      "path": "registry/examples/avatar-ring.tsx",
+      "sha256": "305a4661a691a0118cccc285344d21785c124e5530b3d987a6c4d36c69879692",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-ring.json",
+  "title": "Avatar Ring",
+  "type": "registry:example"
+}

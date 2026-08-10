@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "OAuth sign-in button for 13 brands like Google, Apple and GitHub plus custom; colorful/black/white appearance, iconOnly",
+  "name": "social-login-button",
+  "shippedFiles": [
+    {
+      "bytes": 7773,
+      "path": "registry/ui/social-login-button.tsx",
+      "sha256": "4a99ff524d6570ced98179c9b91ee203334711e274566e8065f3df06b9ae662c",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/social-login-button.json",
+  "title": "Social Login Button",
+  "type": "registry:ui"
+}

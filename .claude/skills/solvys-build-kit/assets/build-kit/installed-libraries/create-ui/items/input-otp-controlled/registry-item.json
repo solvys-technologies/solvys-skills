@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-otp-controlled",
+  "registryDependencies": [
+    "input-otp"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 947,
+      "path": "registry/examples/input-otp-controlled.tsx",
+      "sha256": "a5be0a6f45be6ef1d27a237dc51a03bd381c9e4766e749f364f43d7cb5e19dce",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-otp-controlled.json",
+  "title": "Input OTP Controlled",
+  "type": "registry:example"
+}

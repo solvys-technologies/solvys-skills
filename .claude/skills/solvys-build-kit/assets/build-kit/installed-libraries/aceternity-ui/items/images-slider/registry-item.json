@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "images-slider",
+  "shippedFiles": [
+    {
+      "bytes": 3481,
+      "path": "components/ui/images-slider.tsx",
+      "sha256": "dbc41d3dee94c121daaf44c2c58e4578d125c95f040e4fd7a8f6518b9ca64a9a",
+      "target": "components/ui/images-slider.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/images-slider.json",
+  "title": "Images Slider",
+  "type": "registry:ui"
+}

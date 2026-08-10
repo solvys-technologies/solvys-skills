@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-group-demo",
+  "registryDependencies": [
+    "button-group",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 701,
+      "path": "registry/examples/button-group-demo.tsx",
+      "sha256": "152b3830354cf30bb36fb82dbe50528116738b8c0bb1f590f3e6fd7e84707b95",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-group-demo.json",
+  "title": "Button Group Demo",
+  "type": "registry:example"
+}

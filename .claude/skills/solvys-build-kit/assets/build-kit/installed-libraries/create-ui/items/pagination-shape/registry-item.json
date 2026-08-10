@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-shape",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1077,
+      "path": "registry/examples/pagination-shape.tsx",
+      "sha256": "95030959a2363c75896e4358a8fccf372087a41cb7bcb05ff8ff2afa51cb99c0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-shape.json",
+  "title": "Pagination Shape",
+  "type": "registry:example"
+}

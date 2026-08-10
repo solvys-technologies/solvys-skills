@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-group-demo",
+  "registryDependencies": [
+    "switch-group",
+    "switch",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 667,
+      "path": "registry/examples/switch-group-demo.tsx",
+      "sha256": "42540094ea8f46f7682e8ebfc7f262d01769894045b9efaf444b5c549e5dfb75",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-group-demo.json",
+  "title": "Switch Group Demo",
+  "type": "registry:example"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "breadcrumb-current",
+  "registryDependencies": [
+    "breadcrumb",
+    "avatar",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1819,
+      "path": "registry/examples/breadcrumb-current.tsx",
+      "sha256": "efc154690865015bf8dcff2ca6e7aad4d4fa70eedaed756082111081fa8fbc0b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/breadcrumb-current.json",
+  "title": "Breadcrumb Current",
+  "type": "registry:example"
+}

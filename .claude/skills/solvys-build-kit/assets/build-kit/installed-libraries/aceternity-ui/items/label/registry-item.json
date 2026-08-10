@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@radix-ui/react-label"
+  ],
+  "name": "label",
+  "shippedFiles": [
+    {
+      "bytes": 620,
+      "path": "components/ui/label.tsx",
+      "sha256": "0e7dbd95b199d23704af5c4b5517fabc1595ef3dea448b9a0158654d1765ac4b",
+      "target": "components/ui/label.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/label.json",
+  "title": "Label",
+  "type": "registry:ui"
+}

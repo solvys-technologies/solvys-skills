@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "modal-close-button",
+  "registryDependencies": [
+    "modal",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2106,
+      "path": "registry/examples/modal-close-button.tsx",
+      "sha256": "83b2544517db70629e4ac67f6638b97006f99419d21232a1f2cac09b43a712b0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/modal-close-button.json",
+  "title": "Modal Close Button",
+  "type": "registry:example"
+}

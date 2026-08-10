@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-variants",
+  "registryDependencies": [
+    "switch"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 991,
+      "path": "registry/examples/switch-variants.tsx",
+      "sha256": "e9c5e4d7d070aa3543581f11219f70063b3f8abdfd17185636487555fe8ea01a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-variants.json",
+  "title": "Switch Variants",
+  "type": "registry:example"
+}

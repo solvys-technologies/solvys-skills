@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-sizes",
+  "registryDependencies": [
+    "field",
+    "input",
+    "input-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1737,
+      "path": "registry/examples/input-group-sizes.tsx",
+      "sha256": "015b357033a1d2d82be3842a42d7860f2e19cd2c44913d399c195b89484d3850",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-sizes.json",
+  "title": "Input Group Sizes",
+  "type": "registry:example"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Loading indicator with a conic-gradient arc; 12 color variants, solid/gradient appearance, spin/pulse/tick animations",
+  "name": "spinner",
+  "shippedFiles": [
+    {
+      "bytes": 7667,
+      "path": "registry/ui/spinner.tsx",
+      "sha256": "7fd4e871da71f1429d9f80c3cdfbae5ed8932d0e73f0e72aba4030841bdc33c6",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/spinner.json",
+  "title": "Spinner",
+  "type": "registry:ui"
+}

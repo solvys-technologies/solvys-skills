@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "rating-appearance",
+  "registryDependencies": [
+    "rating"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 586,
+      "path": "registry/examples/rating-appearance.tsx",
+      "sha256": "098558a3fcdc4a348a414cdc622826b73ca1829dc43cbf724a0855c00807c574",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/rating-appearance.json",
+  "title": "Rating Appearance",
+  "type": "registry:example"
+}

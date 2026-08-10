@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets"
+  ],
+  "description": "Page navigation with first/prev/next/last actions and ellipsis; compact or ButtonGroup-backed compact-grouped variant",
+  "name": "pagination",
+  "registryDependencies": [
+    "button",
+    "button-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 12328,
+      "path": "registry/ui/pagination.tsx",
+      "sha256": "7912c6257c1916ed2db631e13595e4835ed695c4ca3b0f5197e60fc99eddb599",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination.json",
+  "title": "Pagination",
+  "type": "registry:ui"
+}

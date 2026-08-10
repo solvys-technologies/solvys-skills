@@ -1,0 +1,29 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority"
+  ],
+  "description": "Composable input shell with slots for icons, addons, selects, buttons, kbd hints and card badges around the control",
+  "name": "input-group",
+  "registryDependencies": [
+    "badge",
+    "button",
+    "field",
+    "input",
+    "select",
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 16356,
+      "path": "registry/ui/input-group.tsx",
+      "sha256": "47597430c2757c26954279f4d880b2b41ccfa82c26bfef795c4d487034877b75",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group.json",
+  "title": "Input Group",
+  "type": "registry:ui"
+}

@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "motion/react"
+  ],
+  "name": "keyboard",
+  "shippedFiles": [
+    {
+      "bytes": 26211,
+      "path": "components/ui/keyboard.tsx",
+      "sha256": "1b8a8546be35573b305d94ccd75a6deefd79bdb4c6771ec9970a16307bfb5937",
+      "target": "components/ui/keyboard.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/keyboard.json",
+  "title": "Keyboard",
+  "type": "registry:ui"
+}

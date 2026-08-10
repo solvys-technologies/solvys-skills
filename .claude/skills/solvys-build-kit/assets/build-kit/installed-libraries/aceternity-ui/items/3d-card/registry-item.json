@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "3d-card",
+  "shippedFiles": [
+    {
+      "bytes": 3916,
+      "path": "components/ui/3d-card.tsx",
+      "sha256": "ec2f994a294aa81bb10d8a4a8512e1d9d90acdccf2fb1c8eadf83874c5be34e8",
+      "target": "components/ui/3d-card.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/3d-card.json",
+  "title": "3d Card",
+  "type": "registry:ui"
+}

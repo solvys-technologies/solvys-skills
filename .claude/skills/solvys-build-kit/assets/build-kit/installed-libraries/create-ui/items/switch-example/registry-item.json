@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-example",
+  "registryDependencies": [
+    "field",
+    "label",
+    "switch",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 14369,
+      "path": "registry/examples/switch-example.tsx",
+      "sha256": "210e765ae8b559da89992552c552f155e00984d94f5ee0e29ff7faf5e9918e5d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-example.json",
+  "title": "Switch",
+  "type": "registry:example"
+}

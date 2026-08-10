@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-loading",
+  "registryDependencies": [
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 441,
+      "path": "registry/examples/button-loading.tsx",
+      "sha256": "25045ffafdaba15f7e48ce8632afafb5aad002c309a788bd214552ebc1c4cfbe",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-loading.json",
+  "title": "Button Loading",
+  "type": "registry:example"
+}

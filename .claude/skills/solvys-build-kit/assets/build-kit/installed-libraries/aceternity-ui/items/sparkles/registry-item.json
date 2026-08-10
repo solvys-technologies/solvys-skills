@@ -1,0 +1,22 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tsparticles/react",
+    "@tsparticles/engine",
+    "@tsparticles/slim",
+    "motion"
+  ],
+  "name": "sparkles",
+  "shippedFiles": [
+    {
+      "bytes": 11482,
+      "path": "components/ui/sparkles.tsx",
+      "sha256": "4b37534984e393929bc7af6ef292affc9a5b416fd3549fc4c4941ca568a7e03e",
+      "target": "components/ui/sparkles.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/sparkles.json",
+  "title": "Sparkles",
+  "type": "registry:ui"
+}

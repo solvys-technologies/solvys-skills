@@ -1,0 +1,18 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "currency-flags",
+  "registryDependencies": [
+    "country-flags"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1309,
+      "path": "registry/lib/currency-flags.ts",
+      "sha256": "fc2a73ead2b242986e35798d0b96cf32d526d0b9fbb9fc8e85d7becba67f2978",
+      "target": null,
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/currency-flags.json",
+  "type": "registry:lib"
+}

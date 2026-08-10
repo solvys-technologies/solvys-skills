@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "popover-sizes",
+  "registryDependencies": [
+    "popover",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1686,
+      "path": "registry/examples/popover-sizes.tsx",
+      "sha256": "d481b5da4ff707441e060a4035618a34d448f915ac869549c705052791ded611",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/popover-sizes.json",
+  "title": "Popover Sizes",
+  "type": "registry:example"
+}

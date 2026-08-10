@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-insert",
+  "registryDependencies": [
+    "badge",
+    "button",
+    "dropdown-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2135,
+      "path": "registry/examples/dropdown-menu-insert.tsx",
+      "sha256": "8356a286ab4cc78acc790864a01b87d1a98458fb976ec6866bbd06fb456e3d55",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-insert.json",
+  "title": "Dropdown Menu Insert Block",
+  "type": "registry:example"
+}

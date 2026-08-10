@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-otp-states",
+  "registryDependencies": [
+    "input-otp",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1572,
+      "path": "registry/examples/input-otp-states.tsx",
+      "sha256": "17bda1f65c43cdbe0555d5e261dab4c0859543190e4c3341b6cb37db3eaeb36a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-otp-states.json",
+  "title": "Input OTP States",
+  "type": "registry:example"
+}

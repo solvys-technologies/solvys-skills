@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "social-login-button-as-child",
+  "registryDependencies": [
+    "social-login-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 659,
+      "path": "registry/examples/social-login-button-as-child.tsx",
+      "sha256": "23282258c876f9de7b0d480f10b020177f137395822b223181725528c71abd3b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/social-login-button-as-child.json",
+  "title": "Social Login Button As Child",
+  "type": "registry:example"
+}

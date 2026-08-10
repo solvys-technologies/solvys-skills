@@ -1,0 +1,29 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "modal-body",
+  "registryDependencies": [
+    "modal",
+    "button",
+    "field",
+    "input",
+    "switch",
+    "switch-group",
+    "label",
+    "avatar",
+    "checkbox",
+    "aspect-ratio",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9212,
+      "path": "registry/examples/modal-body.tsx",
+      "sha256": "abc159d9dd541518629573c55f984dd5ae1acbdd11cb42a0e0392f64b1dc6d4a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/modal-body.json",
+  "title": "Modal Body Content",
+  "type": "registry:example"
+}

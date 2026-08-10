@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-sizes",
+  "registryDependencies": [
+    "input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 351,
+      "path": "registry/examples/input-sizes.tsx",
+      "sha256": "0012a5aa0ab1f89e66f0e830e9445c0aa7fb09a3021d1d2e1d697c25dbd0f640",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-sizes.json",
+  "title": "Input Sizes",
+  "type": "registry:example"
+}

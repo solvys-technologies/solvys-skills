@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "password-strength-sizes",
+  "registryDependencies": [
+    "password-strength"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1311,
+      "path": "registry/examples/password-strength-sizes.tsx",
+      "sha256": "172d7cd2357c0f194213dd92a77343e1854680190e61d018e6a1004f31a486dd",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/password-strength-sizes.json",
+  "title": "Password Strength Sizes",
+  "type": "registry:example"
+}

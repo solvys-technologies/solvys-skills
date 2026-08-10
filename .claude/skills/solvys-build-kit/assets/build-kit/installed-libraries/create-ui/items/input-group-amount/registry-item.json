@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-amount",
+  "registryDependencies": [
+    "field",
+    "input",
+    "input-group",
+    "select",
+    "country-flag"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1666,
+      "path": "registry/examples/input-group-amount.tsx",
+      "sha256": "e1df7665ef47193fd7c909806c0351c3ef9bd740c55673a7351b5fb62bdf7e8b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-amount.json",
+  "title": "Input Group Amount",
+  "type": "registry:example"
+}

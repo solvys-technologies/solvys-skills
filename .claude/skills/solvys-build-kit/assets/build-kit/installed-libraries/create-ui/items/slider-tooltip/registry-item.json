@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "slider-tooltip",
+  "registryDependencies": [
+    "slider"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 437,
+      "path": "registry/examples/slider-tooltip.tsx",
+      "sha256": "dd8caf225a7dee0f5952c0cf9f3dccae41d532674036cc2a513c6e68643fa95d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider-tooltip.json",
+  "title": "Slider Tooltip",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "app-store-badge-in-surface",
+  "registryDependencies": [
+    "app-store-badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 677,
+      "path": "registry/examples/app-store-badge-in-surface.tsx",
+      "sha256": "50afeab86cce0869ed74eed277fbfd059802d073118b6ef85815c6b9613a76fd",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/app-store-badge-in-surface.json",
+  "title": "App Store Badge In Surface",
+  "type": "registry:example"
+}

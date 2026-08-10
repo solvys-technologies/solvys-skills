@@ -1,0 +1,16 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "rounded-component-demo",
+  "shippedFiles": [
+    {
+      "bytes": 2138,
+      "path": "registry/examples/rounded-component-demo.tsx",
+      "sha256": "6d24c229569e08ce3ce59c2a8d285cf7f48ecbc3dd07b83340e4475870eb4e51",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/rounded-component-demo.json",
+  "title": "Rounded Component Demo",
+  "type": "registry:example"
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "use-mobile",
+  "shippedFiles": [
+    {
+      "bytes": 565,
+      "path": "registry/hooks/use-mobile.ts",
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b",
+      "target": null,
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/use-mobile.json",
+  "type": "registry:hook"
+}

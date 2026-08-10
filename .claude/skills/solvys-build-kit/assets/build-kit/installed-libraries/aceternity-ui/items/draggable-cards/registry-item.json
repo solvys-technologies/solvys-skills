@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "draggable-cards",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/draggable-cards.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

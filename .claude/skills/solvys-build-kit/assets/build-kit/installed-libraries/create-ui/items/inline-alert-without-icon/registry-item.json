@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "inline-alert-without-icon",
+  "registryDependencies": [
+    "inline-alert"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 617,
+      "path": "registry/examples/inline-alert-without-icon.tsx",
+      "sha256": "c792c337c05c5f65b2375676d57da4d47816d662f42ca85ba62c1e7e64173859",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/inline-alert-without-icon.json",
+  "title": "Inline Alert Without Icon",
+  "type": "registry:example"
+}

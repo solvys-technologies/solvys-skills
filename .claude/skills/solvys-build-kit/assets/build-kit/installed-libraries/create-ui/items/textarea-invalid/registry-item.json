@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "textarea-invalid",
+  "registryDependencies": [
+    "field",
+    "textarea"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 640,
+      "path": "registry/examples/textarea-invalid.tsx",
+      "sha256": "4b844bbe7c1bbe3e6c3b697592487c7abe15763940e3b337c94b406d8a71369c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/textarea-invalid.json",
+  "title": "Textarea Invalid",
+  "type": "registry:example"
+}

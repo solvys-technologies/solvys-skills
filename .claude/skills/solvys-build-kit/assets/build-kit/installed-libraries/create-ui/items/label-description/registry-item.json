@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "label-description",
+  "registryDependencies": [
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 598,
+      "path": "registry/examples/label-description.tsx",
+      "sha256": "1a3a1c89f7fcc720b25b2046d666dd99b5b3eb01c00b9f0c24609a33a76aaa1b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label-description.json",
+  "title": "Label Description",
+  "type": "registry:example"
+}

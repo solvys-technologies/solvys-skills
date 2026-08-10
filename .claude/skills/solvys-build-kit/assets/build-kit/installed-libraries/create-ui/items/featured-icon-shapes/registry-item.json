@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "featured-icon-shapes",
+  "registryDependencies": [
+    "featured-icon"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 765,
+      "path": "registry/examples/featured-icon-shapes.tsx",
+      "sha256": "5afb147d336a9e8c5636253afaaf5cca67af02c3a3b71490aa38f56e25ce66d2",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/featured-icon-shapes.json",
+  "title": "Featured Icon Shapes",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "encrypted-text",
+  "shippedFiles": [
+    {
+      "bytes": 4513,
+      "path": "components/ui/encrypted-text.tsx",
+      "sha256": "90c8efe74118294f8ddf39ced79178182946e469eec88fd4d531efc5d8e0d76b",
+      "target": "components/ui/encrypted-text.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/encrypted-text.json",
+  "title": "Encrypted Text",
+  "type": "registry:ui"
+}

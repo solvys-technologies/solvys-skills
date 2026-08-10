@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "name": "stepper",
+  "registryDependencies": [
+    "use-mobile"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 21123,
+      "path": "registry/ui/stepper.tsx",
+      "sha256": "18060be64f1cf065fea88262b77cf7d81ff90721c2b53a9af49fb3a830ca14eb",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/stepper.json",
+  "title": "Stepper",
+  "type": "registry:ui"
+}

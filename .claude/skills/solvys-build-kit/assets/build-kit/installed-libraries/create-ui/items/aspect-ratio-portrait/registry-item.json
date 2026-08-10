@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "aspect-ratio-portrait",
+  "registryDependencies": [
+    "aspect-ratio"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 296,
+      "path": "registry/examples/aspect-ratio-portrait.tsx",
+      "sha256": "a127189fe6f72d3f4b916b41960b4ff439c786e136743fdfd9bbcedbdcae0f6a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/aspect-ratio-portrait.json",
+  "title": "Aspect Ratio Portrait",
+  "type": "registry:example"
+}

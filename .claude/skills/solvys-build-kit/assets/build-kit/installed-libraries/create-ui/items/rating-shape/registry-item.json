@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "rating-shape",
+  "registryDependencies": [
+    "rating"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 970,
+      "path": "registry/examples/rating-shape.tsx",
+      "sha256": "4634308df2acafe4598c7cd03bee03a6a0ff26fe605e37e1200c0a73730b60ee",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/rating-shape.json",
+  "title": "Rating Shape",
+  "type": "registry:example"
+}

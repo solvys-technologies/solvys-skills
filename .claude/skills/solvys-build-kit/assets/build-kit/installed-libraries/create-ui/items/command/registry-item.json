@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "command",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/command.json",
+  "status": "access-gated",
+  "title": "Command",
+  "type": "registry:ui"
+}

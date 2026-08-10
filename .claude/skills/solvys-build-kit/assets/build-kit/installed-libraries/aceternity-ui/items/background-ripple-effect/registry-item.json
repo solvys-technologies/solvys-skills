@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "background-ripple-effect",
+  "shippedFiles": [
+    {
+      "bytes": 3909,
+      "path": "components/ui/background-ripple-effect.tsx",
+      "sha256": "bdb7622e70515843fcb52ec0574fccc19c513c35d60f730968ba8361b2a6d9b2",
+      "target": "components/ui/background-ripple-effect.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/background-ripple-effect.json",
+  "title": "Background Ripple Effect",
+  "type": "registry:ui"
+}

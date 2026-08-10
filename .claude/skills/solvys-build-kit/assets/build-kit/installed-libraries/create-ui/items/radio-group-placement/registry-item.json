@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "radio-group-placement",
+  "registryDependencies": [
+    "radio-group",
+    "radio",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1519,
+      "path": "registry/examples/radio-group-placement.tsx",
+      "sha256": "c0d9a99d5e224d23921b42833616262d9279ea1dfeb7fc0a4a16bcd7fa32ecbb",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/radio-group-placement.json",
+  "title": "Radio Group Placement",
+  "type": "registry:example"
+}

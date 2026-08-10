@@ -54,8 +54,9 @@ def main() -> int:
         except (OSError, json.JSONDecodeError) as exc:
             errors.append(f"source registry error: {exc}")
         else:
-            registry_ids = {source.get("id") for source in registry.get("activeUpstreams", [])}
-            auto_update_ids = {source.get("id") for source in registry.get("activeUpstreams", []) if source.get("autoUpdate")}
+            registered_sources = registry.get("activeUpstreams", []) + registry.get("installedReferences", [])
+            registry_ids = {source.get("id") for source in registered_sources}
+            auto_update_ids = {source.get("id") for source in registered_sources if source.get("autoUpdate")}
             if auto_update_ids:
                 errors.append("automatic updates must be disabled for the approved library snapshots")
             for approved in manifest.get("approvedLibraries", []):

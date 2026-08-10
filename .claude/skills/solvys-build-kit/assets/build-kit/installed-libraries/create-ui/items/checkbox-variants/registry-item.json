@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-variants",
+  "registryDependencies": [
+    "checkbox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 695,
+      "path": "registry/examples/checkbox-variants.tsx",
+      "sha256": "76cfe62824bec2cc601c2cb95727cb26a236d6eb609a913b5b93aa7840105204",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-variants.json",
+  "title": "Checkbox Variants",
+  "type": "registry:example"
+}

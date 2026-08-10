@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-demo",
+  "registryDependencies": [
+    "input",
+    "input-group",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 539,
+      "path": "registry/examples/input-group-demo.tsx",
+      "sha256": "02fefadb8bce94ac4afae1ff953bb534ab606122c16625473cf1674b6dc17d3a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-demo.json",
+  "title": "Input Group Demo",
+  "type": "registry:example"
+}

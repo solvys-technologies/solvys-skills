@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "field-sizes",
+  "registryDependencies": [
+    "field",
+    "input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1005,
+      "path": "registry/examples/field-sizes.tsx",
+      "sha256": "77d0e81da49022b4612e43ba3c12d1045d70fb38140e331770bcdc642703fa00",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/field-sizes.json",
+  "title": "Field Sizes",
+  "type": "registry:example"
+}

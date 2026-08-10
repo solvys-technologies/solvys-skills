@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-variant-horizontal-button",
+  "registryDependencies": [
+    "tab-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 668,
+      "path": "registry/examples/tab-menu-variant-horizontal-button.tsx",
+      "sha256": "1d6dc16658aa8d6608ce644a794390fc360dbadb1c2956e8e1717bcb3ed67bd7",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-variant-horizontal-button.json",
+  "title": "TabMenu Variant Horizontal Button",
+  "type": "registry:example"
+}

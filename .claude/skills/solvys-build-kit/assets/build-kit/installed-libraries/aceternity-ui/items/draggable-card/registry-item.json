@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "draggable-card",
+  "shippedFiles": [
+    {
+      "bytes": 4568,
+      "path": "components/ui/draggable-card.tsx",
+      "sha256": "a248f4cc3f94a08accb0a57117ad4748308867c19b01aade8331bc2eafb7a81a",
+      "target": "components/ui/draggable-card.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/draggable-card.json",
+  "title": "Draggable Card",
+  "type": "registry:ui"
+}

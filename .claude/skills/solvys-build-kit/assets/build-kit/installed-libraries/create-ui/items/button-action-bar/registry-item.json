@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-action-bar",
+  "registryDependencies": [
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1768,
+      "path": "registry/examples/button-action-bar.tsx",
+      "sha256": "5d94ba8af7db3d68bc853e19efb8f605af6933619ceb15665930017674eabe1e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-action-bar.json",
+  "title": "Button Action Bar",
+  "type": "registry:example"
+}

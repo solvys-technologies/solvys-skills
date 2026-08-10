@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "chip-interactive",
+  "registryDependencies": [
+    "chip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 810,
+      "path": "registry/examples/chip-interactive.tsx",
+      "sha256": "da70f2f8bb26a2044aa5eca915b8cd16cfa9b7156d64a54957be0b4d8b3f8d99",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/chip-interactive.json",
+  "title": "Chip Interactive",
+  "type": "registry:example"
+}

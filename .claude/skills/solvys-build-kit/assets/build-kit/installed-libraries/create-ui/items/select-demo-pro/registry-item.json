@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-demo-pro",
+  "registryDependencies": [
+    "select",
+    "@create-ui/assets"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2715,
+      "path": "registry/examples/select-demo-pro.tsx",
+      "sha256": "14471dbd74b4155d9d123b709459763567e1dfb98d5bf734900526d73ac4f4cd",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-demo-pro.json",
+  "title": "Select Demo Pro",
+  "type": "registry:example"
+}

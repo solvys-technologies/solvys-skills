@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Inline anchor link with six color variants; underline, visited and disabled states, leading/trailing, asChild",
+  "name": "text-link",
+  "shippedFiles": [
+    {
+      "bytes": 7556,
+      "path": "registry/ui/text-link.tsx",
+      "sha256": "43321cb700510c9c96d2c4fd8319b83d428f0138aeef77c8df5f0fe67f78a21c",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/text-link.json",
+  "title": "Text Link",
+  "type": "registry:ui"
+}

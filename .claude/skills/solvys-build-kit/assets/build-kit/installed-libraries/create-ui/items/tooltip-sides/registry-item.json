@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tooltip-sides",
+  "registryDependencies": [
+    "button",
+    "tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 677,
+      "path": "registry/examples/tooltip-sides.tsx",
+      "sha256": "5ff88a8582b2500c38c1305463a40a0de87fb53f8f838dfbe89b3cf7b27dde29",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tooltip-sides.json",
+  "title": "Tooltip Sides",
+  "type": "registry:example"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "textarea-loading",
+  "registryDependencies": [
+    "field",
+    "textarea"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 596,
+      "path": "registry/examples/textarea-loading.tsx",
+      "sha256": "2036b5a271ec91c6bcac37eb3ef43d4751d02ac8d8f6ef566f2a90543bd46c2e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/textarea-loading.json",
+  "title": "Textarea Loading",
+  "type": "registry:example"
+}

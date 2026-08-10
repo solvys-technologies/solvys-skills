@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "stepper-interactive",
+  "registryDependencies": [
+    "stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6159,
+      "path": "registry/examples/stepper-interactive.tsx",
+      "sha256": "bd8dda441f63512ee06ceb1f13708b1dc2bf45300af64eb330b7a9d2298a4576",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/stepper-interactive.json",
+  "title": "Stepper Interactive",
+  "type": "registry:example"
+}

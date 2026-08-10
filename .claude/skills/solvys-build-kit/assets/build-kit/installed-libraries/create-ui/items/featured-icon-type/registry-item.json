@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "featured-icon-type",
+  "registryDependencies": [
+    "featured-icon"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1067,
+      "path": "registry/examples/featured-icon-type.tsx",
+      "sha256": "eab6c33ecd7a3d843a16e9c3fcbe1675259ec81d3e7001d8662fc8d39a775c2e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/featured-icon-type.json",
+  "title": "Featured Icon Type (Pro)",
+  "type": "registry:example"
+}

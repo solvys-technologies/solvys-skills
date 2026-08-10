@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-states",
+  "registryDependencies": [
+    "field",
+    "input",
+    "input-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2168,
+      "path": "registry/examples/input-group-states.tsx",
+      "sha256": "7f8cf331d9bc8bd08cfbbbd0721c8c14b8c612523e6cfc7612c86754ae4cb842",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-states.json",
+  "title": "Input Group States",
+  "type": "registry:example"
+}

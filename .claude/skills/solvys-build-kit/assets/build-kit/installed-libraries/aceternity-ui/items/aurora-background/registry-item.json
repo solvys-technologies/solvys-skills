@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "aurora-background",
+  "shippedFiles": [
+    {
+      "bytes": 2929,
+      "path": "components/ui/aurora-background.tsx",
+      "sha256": "6b40cb23961819bb3619e61cbf971990c797133a29e767814fb5d578d1d83f3c",
+      "target": "components/ui/aurora-background.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/aurora-background.json",
+  "title": "Aurora Background",
+  "type": "registry:ui"
+}

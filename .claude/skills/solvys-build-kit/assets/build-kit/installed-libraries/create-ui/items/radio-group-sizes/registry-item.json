@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "radio-group-sizes",
+  "registryDependencies": [
+    "radio-group",
+    "radio",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1373,
+      "path": "registry/examples/radio-group-sizes.tsx",
+      "sha256": "88a23a121742613027000a8c05abb011ac4e1aa8e2693c7292ddc066c56b38e6",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/radio-group-sizes.json",
+  "title": "Radio Group Sizes",
+  "type": "registry:example"
+}

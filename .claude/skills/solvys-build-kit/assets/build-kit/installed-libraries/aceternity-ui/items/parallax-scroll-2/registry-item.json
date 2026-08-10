@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "parallax-scroll-2",
+  "shippedFiles": [
+    {
+      "bytes": 3182,
+      "path": "components/ui/parallax-scroll-2.tsx",
+      "sha256": "508bacdeddb914de181fd5b7d91add8408ff8742ba062cfd9ddff9d7ac820bb1",
+      "target": "components/ui/parallax-scroll-2.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/parallax-scroll-2.json",
+  "title": "Parallax Scroll 2",
+  "type": "registry:ui"
+}

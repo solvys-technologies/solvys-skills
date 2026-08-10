@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "rating-example",
+  "registryDependencies": [
+    "rating",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 21886,
+      "path": "registry/examples/rating-example.tsx",
+      "sha256": "47777f15d10f9cfb13d0b2a4947ca05007dc437cf8681d6615af1587661c0749",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/rating-example.json",
+  "title": "Rating",
+  "type": "registry:example"
+}

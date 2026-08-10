@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "categories": [
+    "visualization",
+    "heatmap"
+  ],
+  "dependencies": [],
+  "description": "Globe-projected heatmap visualizing earthquake density with zoom-dependent styling.",
+  "meta": {
+    "iframeHeight": "800px"
+  },
+  "name": "heatmap",
+  "registryDependencies": [
+    "@mapcn/map"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4427,
+      "path": "src/registry/blocks/heatmap/page.tsx",
+      "sha256": "d47ffa54544d30f2a736c9d00022bb956cd415fb7a0a38f1fb4e658ed07c41cb",
+      "target": "app/heatmap/page.tsx",
+      "type": "registry:page"
+    }
+  ],
+  "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/heatmap.json",
+  "title": "Heatmap",
+  "type": "registry:block"
+}

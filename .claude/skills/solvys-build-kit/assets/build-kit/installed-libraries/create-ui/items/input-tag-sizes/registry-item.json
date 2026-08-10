@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-tag-sizes",
+  "registryDependencies": [
+    "input-tag"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 473,
+      "path": "registry/examples/input-tag-sizes.tsx",
+      "sha256": "e6ca57ded2dc96b50db7f86ab75b0bcbafab07f5946332cfa5df448f91578b06",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-tag-sizes.json",
+  "title": "Input Tag",
+  "type": "registry:example"
+}

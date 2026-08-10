@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "label-required",
+  "registryDependencies": [
+    "field",
+    "input",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 562,
+      "path": "registry/examples/label-required.tsx",
+      "sha256": "ce95d011517a2a0d945cc41b3884e0d31c247ee5dbb9a03fbf2a134b9aa7f95c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label-required.json",
+  "title": "Label Required",
+  "type": "registry:example"
+}

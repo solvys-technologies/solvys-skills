@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "wobble-card",
+  "shippedFiles": [
+    {
+      "bytes": 2572,
+      "path": "components/ui/wobble-card.tsx",
+      "sha256": "e044c7bc932752221b9e6c724cf304495a26376da27316c1a53fc0d207133516",
+      "target": "components/ui/wobble-card.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/wobble-card.json",
+  "title": "Wobble Card",
+  "type": "registry:ui"
+}

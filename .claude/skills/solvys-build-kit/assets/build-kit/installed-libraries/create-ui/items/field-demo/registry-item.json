@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "field-demo",
+  "registryDependencies": [
+    "field",
+    "input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 486,
+      "path": "registry/examples/field-demo.tsx",
+      "sha256": "ff3a7de1093d93aff2b18db11eba7f52d5d8521cc8f365e681eddeaa7b5b0d6f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/field-demo.json",
+  "title": "Field Demo",
+  "type": "registry:example"
+}

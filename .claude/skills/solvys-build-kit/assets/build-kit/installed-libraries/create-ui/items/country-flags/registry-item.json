@@ -1,0 +1,18 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets"
+  ],
+  "name": "country-flags",
+  "shippedFiles": [
+    {
+      "bytes": 7562,
+      "path": "registry/lib/country-flags.ts",
+      "sha256": "1fb5a6446f1e6e5d9f024d5600503815c8d0038613afbf88a67d3193b8f12e1a",
+      "target": null,
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/country-flags.json",
+  "type": "registry:lib"
+}

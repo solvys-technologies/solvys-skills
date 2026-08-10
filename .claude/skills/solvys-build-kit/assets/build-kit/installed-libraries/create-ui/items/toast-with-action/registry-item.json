@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "toast-with-action",
+  "registryDependencies": [
+    "toast",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 676,
+      "path": "registry/examples/toast-with-action.tsx",
+      "sha256": "f7e9ba6fdc65c8606bd3807ae3459d830535493d5bcc1165e631e8eed1743b73",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/toast-with-action.json",
+  "title": "Toast With Action",
+  "type": "registry:example"
+}

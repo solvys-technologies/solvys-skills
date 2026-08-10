@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "modal-footer",
+  "registryDependencies": [
+    "modal",
+    "button",
+    "checkbox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4765,
+      "path": "registry/examples/modal-footer.tsx",
+      "sha256": "a1400d0131510a7353b707987b384220439e9c9a825b945b82fd9bbdfcc188d9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/modal-footer.json",
+  "title": "Modal Footer",
+  "type": "registry:example"
+}

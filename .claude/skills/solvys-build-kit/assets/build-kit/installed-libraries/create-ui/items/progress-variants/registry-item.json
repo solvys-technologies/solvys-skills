@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "progress-variants",
+  "registryDependencies": [
+    "progress"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 757,
+      "path": "registry/examples/progress-variants.tsx",
+      "sha256": "71e65d44280cc68e8f71e6a1bbdd7a1fca34376220d8c7a110264a14f3c42fd3",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/progress-variants.json",
+  "title": "Progress Variants",
+  "type": "registry:example"
+}

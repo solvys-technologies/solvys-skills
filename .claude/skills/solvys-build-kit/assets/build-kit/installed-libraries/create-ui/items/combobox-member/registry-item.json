@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "combobox-member",
+  "registryDependencies": [
+    "avatar",
+    "combobox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3796,
+      "path": "registry/examples/combobox-member.tsx",
+      "sha256": "9fbc159b75690f439c87576a3c8b2eb158d20914dab1dbf586fdd4d0be2841c1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/combobox-member.json",
+  "title": "Combobox Member",
+  "type": "registry:example"
+}

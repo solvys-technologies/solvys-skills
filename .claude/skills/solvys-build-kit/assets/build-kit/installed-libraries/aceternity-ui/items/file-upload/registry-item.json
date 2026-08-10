@@ -1,0 +1,21 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "react-dropzone",
+    "motion"
+  ],
+  "name": "file-upload",
+  "shippedFiles": [
+    {
+      "bytes": 6809,
+      "path": "components/ui/file-upload.tsx",
+      "sha256": "04c24106950be495496e801ef5093529c935c5fa12d03d30f9a009f0d8adc622",
+      "target": "components/ui/file-upload.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/file-upload.json",
+  "title": "File Upload",
+  "type": "registry:ui"
+}

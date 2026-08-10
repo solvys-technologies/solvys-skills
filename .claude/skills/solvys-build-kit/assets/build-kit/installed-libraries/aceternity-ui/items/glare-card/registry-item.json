@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "glare-card",
+  "shippedFiles": [
+    {
+      "bytes": 6486,
+      "path": "components/ui/glare-card.tsx",
+      "sha256": "264882cf22d8033675100a332faab0d7e71b318ee9fb9276112ca4df02bcfe19",
+      "target": "components/ui/glare-card.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/glare-card.json",
+  "title": "Glare Card",
+  "type": "registry:ui"
+}

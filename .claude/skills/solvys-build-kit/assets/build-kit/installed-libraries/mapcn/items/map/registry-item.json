@@ -1,0 +1,91 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "css": {
+    "@layer base": {
+      ".maplibregl-ctrl-attrib": {
+        "@apply bg-background! text-muted-foreground! border-border! rounded-md! border! shadow-sm!": {}
+      },
+      ".maplibregl-ctrl-attrib a": {
+        "@apply text-muted-foreground!": {}
+      },
+      ".maplibregl-ctrl-attrib a:hover": {
+        "@apply text-foreground!": {}
+      },
+      ".maplibregl-ctrl-attrib-button": {
+        "@apply bg-transparent! dark:invert": {}
+      },
+      ".maplibregl-popup-content": {
+        "@apply bg-transparent! shadow-none! p-0! rounded-none!": {}
+      },
+      ".maplibregl-popup-tip": {
+        "@apply hidden!": {}
+      }
+    }
+  },
+  "dependencies": [
+    "maplibre-gl",
+    "lucide-react"
+  ],
+  "description": "A MapLibre-powered map component with markers, popups, tooltips, routes, and controls.",
+  "devDependencies": [
+    "@types/geojson"
+  ],
+  "meta": {
+    "components": [
+      {
+        "description": "Base MapLibre-powered map component.",
+        "href": "/llm/map",
+        "title": "Map"
+      },
+      {
+        "description": "Zoom, geolocate, fullscreen, and compass controls.",
+        "href": "/docs/controls",
+        "title": "Controls"
+      },
+      {
+        "description": "Map markers with labels, tooltips, and popup composition.",
+        "href": "/docs/markers",
+        "title": "Markers"
+      },
+      {
+        "description": "Standalone and marker-attached popup content.",
+        "href": "/docs/popups",
+        "title": "Popups"
+      },
+      {
+        "description": "Line routes with optional markers and interaction handlers.",
+        "href": "/docs/routes",
+        "title": "Routes"
+      },
+      {
+        "description": "Curved connection arcs between coordinates.",
+        "href": "/docs/arcs",
+        "title": "Arcs"
+      },
+      {
+        "description": "GeoJSON sources and layers for custom map data.",
+        "href": "/docs/geojson",
+        "title": "GeoJSON"
+      },
+      {
+        "description": "Clustered point layers for dense datasets.",
+        "href": "/docs/clusters",
+        "title": "Clusters"
+      }
+    ]
+  },
+  "name": "map",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 64843,
+      "path": "src/registry/map.tsx",
+      "sha256": "391a87cdd676bb13f631dccf0653400c218968080a10f10bca29a53667244322",
+      "target": "components/ui/map.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/map.json",
+  "title": "Map",
+  "type": "registry:ui"
+}

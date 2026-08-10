@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "segmented-control-sizes",
+  "registryDependencies": [
+    "segmented-control"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3744,
+      "path": "registry/examples/segmented-control-sizes.tsx",
+      "sha256": "edc1b067d625dbf3042b1b60831672381b968b48856bd011fb4650335849fcd3",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/segmented-control-sizes.json",
+  "title": "SegmentedControl Sizes",
+  "type": "registry:example"
+}

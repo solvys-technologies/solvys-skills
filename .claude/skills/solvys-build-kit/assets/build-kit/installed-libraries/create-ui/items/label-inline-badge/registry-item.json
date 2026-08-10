@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "label-inline-badge",
+  "registryDependencies": [
+    "badge",
+    "field",
+    "input",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 747,
+      "path": "registry/examples/label-inline-badge.tsx",
+      "sha256": "47b35ef0fc36cd8a0ff7623e5fa75d844ae5f2fb9873e618044c1e17cf9fa9c8",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label-inline-badge.json",
+  "title": "Label Inline Badge",
+  "type": "registry:example"
+}

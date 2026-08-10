@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "background-beams",
+  "shippedFiles": [
+    {
+      "bytes": 9812,
+      "path": "components/ui/background-beams.tsx",
+      "sha256": "a6cb4847ec4af2602d523b34eb1d3fd991f1b47b803635b114fc8313199f3682",
+      "target": "components/ui/background-beams.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/background-beams.json",
+  "title": "Background Beams",
+  "type": "registry:ui"
+}

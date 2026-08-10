@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "sticky-scroll-reveal",
+  "shippedFiles": [
+    {
+      "bytes": 3463,
+      "path": "components/ui/sticky-scroll-reveal.tsx",
+      "sha256": "93dc4f8da9225f1df23bcf7e2567c1267062340ea00f91e0d8ed3573f711bce5",
+      "target": "components/ui/sticky-scroll-reveal.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/sticky-scroll-reveal.json",
+  "title": "Sticky Scroll Reveal",
+  "type": "registry:ui"
+}

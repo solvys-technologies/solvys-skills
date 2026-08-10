@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "categories": [
+    "analytics",
+    "dashboard"
+  ],
+  "dependencies": [
+    "recharts",
+    "lucide-react"
+  ],
+  "description": "Real-time analytics overview with a world map, breakdown cards, and device stats.",
+  "meta": {
+    "iframeHeight": "940px"
+  },
+  "name": "analytics-map",
+  "registryDependencies": [
+    "@mapcn/map",
+    "card",
+    "chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2819,
+      "path": "src/registry/blocks/analytics-map/page.tsx",
+      "sha256": "1af66807a10e44787e01325cf1a01466059210466eb167edf5914a7b75343fad",
+      "target": "app/analytics/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 3939,
+      "path": "src/registry/blocks/analytics-map/data.ts",
+      "sha256": "bfd805025644ad5f900d99dd85a2f2b1155c10dd59e5989d13ea807b830e016a",
+      "target": "app/analytics/data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3354,
+      "path": "src/registry/blocks/analytics-map/components/overview-card.tsx",
+      "sha256": "7294ce39f8dd8874ceed3cc8372e2d3f6aed77c9c9e3789a467b7139335992fe",
+      "target": "app/analytics/components/overview-card.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1691,
+      "path": "src/registry/blocks/analytics-map/components/breakdown-card.tsx",
+      "sha256": "583d00501476f47c8e3ce7a8b8a7564e0ad05fe3f3ed0a3ace0acd21095f0f72",
+      "target": "app/analytics/components/breakdown-card.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/analytics-map.json",
+  "title": "Analytics Map",
+  "type": "registry:block"
+}

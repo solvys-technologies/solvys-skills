@@ -1,7 +1,9 @@
 {
+  "accessGatedItemCount": 0,
   "autoUpdate": false,
   "catalogItemCount": 141,
   "catalogUrl": "https://pro.beui.dev/r/registry.json",
+  "installedItemCount": 141,
   "items": [
     {
       "fileCount": 12,
@@ -93,6 +95,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/studio-background.json",
+      "status": "installed",
       "title": "Studio Background",
       "type": "registry:block"
     },
@@ -123,6 +126,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/animated-dropdown.json",
+      "status": "installed",
       "title": "Animated dropdown",
       "type": "registry:block"
     },
@@ -153,6 +157,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/flip-card.json",
+      "status": "installed",
       "title": "Image flip cards",
       "type": "registry:block"
     },
@@ -183,6 +188,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/flip-card-modal.json",
+      "status": "installed",
       "title": "Modal flip card",
       "type": "registry:block"
     },
@@ -227,6 +233,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/animated-step-form.json",
+      "status": "installed",
       "title": "Focused step form",
       "type": "registry:block"
     },
@@ -278,6 +285,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/step-form-stack.json",
+      "status": "installed",
       "title": "Card stack",
       "type": "registry:block"
     },
@@ -322,6 +330,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/step-form-inline.json",
+      "status": "installed",
       "title": "Inline prompt",
       "type": "registry:block"
     },
@@ -366,6 +375,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/step-form-onboarding.json",
+      "status": "installed",
       "title": "Onboarding form",
       "type": "registry:block"
     },
@@ -410,6 +420,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/empty-state-archive.json",
+      "status": "installed",
       "title": "Archive drawer",
       "type": "registry:block"
     },
@@ -447,6 +458,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/empty-state-search.json",
+      "status": "installed",
       "title": "Search lens",
       "type": "registry:block"
     },
@@ -484,6 +496,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/empty-state-inbox.json",
+      "status": "installed",
       "title": "Inbox zero",
       "type": "registry:block"
     },
@@ -528,6 +541,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/empty-state-board.json",
+      "status": "installed",
       "title": "Blank board",
       "type": "registry:block"
     },
@@ -712,6 +726,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/agent-chat-input.json",
+      "status": "installed",
       "title": "Studio composer",
       "type": "registry:block"
     },
@@ -854,6 +869,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/agent-chat-credits.json",
+      "status": "installed",
       "title": "Credits composer",
       "type": "registry:block"
     },
@@ -891,6 +907,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/morphic-tooltip.json",
+      "status": "installed",
       "title": "Morphic Tooltip",
       "type": "registry:block"
     },
@@ -928,6 +945,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/morphic-card-modal.json",
+      "status": "installed",
       "title": "Morphic Card Modal",
       "type": "registry:block"
     },
@@ -986,6 +1004,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/hero-ai-marketplace.json",
+      "status": "installed",
       "title": "AI marketplace",
       "type": "registry:block"
     },
@@ -1037,6 +1056,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/hero-signal-aurora.json",
+      "status": "installed",
       "title": "Signal aurora",
       "type": "registry:block"
     },
@@ -1074,6 +1094,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/hero-workflow-split.json",
+      "status": "installed",
       "title": "Workflow split",
       "type": "registry:block"
     },
@@ -1111,6 +1132,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/hero-agent-centered.json",
+      "status": "installed",
       "title": "Agent centered",
       "type": "registry:block"
     },
@@ -1148,6 +1170,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/hero-code-demo.json",
+      "status": "installed",
       "title": "Code demo",
       "type": "registry:block"
     },
@@ -1185,6 +1208,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/hero-centered-demo.json",
+      "status": "installed",
       "title": "Centered demo",
       "type": "registry:block"
     },
@@ -1208,6 +1232,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/hero-split-demo.json",
+      "status": "installed",
       "title": "Centered marquee",
       "type": "registry:block"
     },
@@ -1259,6 +1284,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/pricing-aurora-duo.json",
+      "status": "installed",
       "title": "Aurora duo",
       "type": "registry:block"
     },
@@ -1310,6 +1336,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/pricing-aurora-flow.json",
+      "status": "installed",
       "title": "Aurora flow",
       "type": "registry:block"
     },
@@ -1347,6 +1374,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/pricing-visual-plans.json",
+      "status": "installed",
       "title": "Visual plans",
       "type": "registry:block"
     },
@@ -1398,6 +1426,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/pricing-command-deck.json",
+      "status": "installed",
       "title": "Pricing command deck",
       "type": "registry:block"
     },
@@ -1428,6 +1457,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/pricing-ledger.json",
+      "status": "installed",
       "title": "Pricing ledger",
       "type": "registry:block"
     },
@@ -1465,6 +1495,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/pricing-upgrade-panel.json",
+      "status": "installed",
       "title": "Upgrade panel",
       "type": "registry:block"
     },
@@ -1488,6 +1519,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/pricing-usage-slider.json",
+      "status": "installed",
       "title": "Usage slider",
       "type": "registry:block"
     },
@@ -1553,6 +1585,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/pricing.json",
+      "status": "installed",
       "title": "Plans grid",
       "type": "registry:block"
     },
@@ -1590,6 +1623,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/footer-spotlight.json",
+      "status": "installed",
       "title": "Spotlight footer",
       "type": "registry:block"
     },
@@ -1620,6 +1654,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/footer-mega.json",
+      "status": "installed",
       "title": "Mega footer",
       "type": "registry:block"
     },
@@ -1650,6 +1685,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/footer-cta.json",
+      "status": "installed",
       "title": "CTA footer",
       "type": "registry:block"
     },
@@ -1687,6 +1723,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/features-showcase.json",
+      "status": "installed",
       "title": "Feature showcase",
       "type": "registry:block"
     },
@@ -1724,6 +1761,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/features-list.json",
+      "status": "installed",
       "title": "Feature list",
       "type": "registry:block"
     },
@@ -1754,6 +1792,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/features-steps.json",
+      "status": "installed",
       "title": "Feature steps",
       "type": "registry:block"
     },
@@ -1791,6 +1830,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/features-bento.json",
+      "status": "installed",
       "title": "Feature bento",
       "type": "registry:block"
     },
@@ -1821,6 +1861,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/features-tabs.json",
+      "status": "installed",
       "title": "Feature tabs",
       "type": "registry:block"
     },
@@ -1851,6 +1892,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/features-stage-tabs.json",
+      "status": "installed",
       "title": "Feature stage tabs",
       "type": "registry:block"
     },
@@ -1888,6 +1930,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/content-metrics-gallery.json",
+      "status": "installed",
       "title": "Editorial metrics gallery",
       "type": "registry:block"
     },
@@ -1925,6 +1968,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/content-capability-showcase.json",
+      "status": "installed",
       "title": "Capability showcase",
       "type": "registry:block"
     },
@@ -1955,6 +1999,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/content-value-grid.json",
+      "status": "installed",
       "title": "Value grid",
       "type": "registry:block"
     },
@@ -1985,6 +2030,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/content-engagement-sequence.json",
+      "status": "installed",
       "title": "Engagement sequence",
       "type": "registry:block"
     },
@@ -2022,6 +2068,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/trust-compliance-marks.json",
+      "status": "installed",
       "title": "Compliance marks",
       "type": "registry:block"
     },
@@ -2059,6 +2106,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/trust-security-safeguards.json",
+      "status": "installed",
       "title": "Security safeguards",
       "type": "registry:block"
     },
@@ -2096,6 +2144,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/trust-reliability-summary.json",
+      "status": "installed",
       "title": "Reliability and support",
       "type": "registry:block"
     },
@@ -2133,6 +2182,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/announcement-gradient-marquee.json",
+      "status": "installed",
       "title": "Gradient marquee strip",
       "type": "registry:block"
     },
@@ -2163,6 +2213,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/announcement-shader-launch.json",
+      "status": "installed",
       "title": "Shader launch modal",
       "type": "registry:block"
     },
@@ -2200,6 +2251,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/announcement-rotating-ribbon.json",
+      "status": "installed",
       "title": "Rotating announcement ribbon",
       "type": "registry:block"
     },
@@ -2237,6 +2289,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/announcement-stacked-cards.json",
+      "status": "installed",
       "title": "Stacked announcement cards",
       "type": "registry:block"
     },
@@ -2267,6 +2320,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/use-cases-story-collage.json",
+      "status": "installed",
       "title": "Animated story collage",
       "type": "registry:block"
     },
@@ -2297,6 +2351,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/use-cases-role-stories.json",
+      "status": "installed",
       "title": "Role stories",
       "type": "registry:block"
     },
@@ -2327,6 +2382,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/use-cases-outcome-stories.json",
+      "status": "installed",
       "title": "Outcome stories",
       "type": "registry:block"
     },
@@ -2357,6 +2413,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/use-cases-scenario-rail.json",
+      "status": "installed",
       "title": "Everyday scenario rail",
       "type": "registry:block"
     },
@@ -2387,6 +2444,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/use-cases-shader-spotlight.json",
+      "status": "installed",
       "title": "Cinematic shader spotlight",
       "type": "registry:block"
     },
@@ -2417,6 +2475,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/how-it-works-centered-cards.json",
+      "status": "installed",
       "title": "Centered process cards",
       "type": "registry:block"
     },
@@ -2447,6 +2506,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/how-it-works-process-grid.json",
+      "status": "installed",
       "title": "Cinematic process grid",
       "type": "registry:block"
     },
@@ -2477,6 +2537,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/how-it-works-story-stack.json",
+      "status": "installed",
       "title": "Editorial story stack",
       "type": "registry:block"
     },
@@ -2507,6 +2568,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/how-it-works-walkthrough.json",
+      "status": "installed",
       "title": "Guided walkthrough",
       "type": "registry:block"
     },
@@ -2537,6 +2599,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/how-it-works-card-deck.json",
+      "status": "installed",
       "title": "Progressive card deck",
       "type": "registry:block"
     },
@@ -2560,6 +2623,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/logo-cloud-marquee.json",
+      "status": "installed",
       "title": "Logo marquee",
       "type": "registry:block"
     },
@@ -2590,6 +2654,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/logo-cloud-grid.json",
+      "status": "installed",
       "title": "Logo grid",
       "type": "registry:block"
     },
@@ -2620,6 +2685,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/logo-cloud-columns.json",
+      "status": "installed",
       "title": "Kinetic logo columns",
       "type": "registry:block"
     },
@@ -2650,6 +2716,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/logo-cloud-carousel.json",
+      "status": "installed",
       "title": "Rolling logo carousel",
       "type": "registry:block"
     },
@@ -2666,6 +2733,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/data-table.json",
+      "status": "installed",
       "title": "Data table",
       "type": "registry:block"
     },
@@ -2710,6 +2778,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/data-table-pagination.json",
+      "status": "installed",
       "title": "Paginated data table",
       "type": "registry:block"
     },
@@ -2747,6 +2816,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/data-table-operations.json",
+      "status": "installed",
       "title": "Orders table",
       "type": "registry:block"
     },
@@ -2784,6 +2854,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/data-table-directory.json",
+      "status": "installed",
       "title": "People directory",
       "type": "registry:block"
     },
@@ -2821,6 +2892,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/data-table-portfolio.json",
+      "status": "installed",
       "title": "Portfolio table",
       "type": "registry:block"
     },
@@ -2879,6 +2951,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/data-table-sla.json",
+      "status": "installed",
       "title": "SLA monitoring table",
       "type": "registry:block"
     },
@@ -2909,6 +2982,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/stats-feature-outcomes.json",
+      "status": "installed",
       "title": "Feature outcomes",
       "type": "registry:block"
     },
@@ -2939,6 +3013,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/stats-impact-dashboard.json",
+      "status": "installed",
       "title": "Impact dashboard",
       "type": "registry:block"
     },
@@ -2969,6 +3044,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/stats-telemetry.json",
+      "status": "installed",
       "title": "Telemetry console",
       "type": "registry:block"
     },
@@ -2999,6 +3075,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/stats-band.json",
+      "status": "installed",
       "title": "Stats band",
       "type": "registry:block"
     },
@@ -3029,6 +3106,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/stats-cards.json",
+      "status": "installed",
       "title": "Stats cards",
       "type": "registry:block"
     },
@@ -3059,6 +3137,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/stats-outcome-index.json",
+      "status": "installed",
       "title": "Outcome index",
       "type": "registry:block"
     },
@@ -3082,6 +3161,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/testimonials-marquee.json",
+      "status": "installed",
       "title": "Marquee wall",
       "type": "registry:block"
     },
@@ -3112,6 +3192,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/testimonials-spotlight.json",
+      "status": "installed",
       "title": "Spotlight",
       "type": "registry:block"
     },
@@ -3142,6 +3223,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/testimonials-grid.json",
+      "status": "installed",
       "title": "Masonry grid",
       "type": "registry:block"
     },
@@ -3165,6 +3247,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/testimonials-archive.json",
+      "status": "installed",
       "title": "Archive wall",
       "type": "registry:block"
     },
@@ -3195,6 +3278,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/testimonials-vertical.json",
+      "status": "installed",
       "title": "Vertical dispatch",
       "type": "registry:block"
     },
@@ -3232,6 +3316,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/image-gallery-vertical.json",
+      "status": "installed",
       "title": "Vertical image gallery",
       "type": "registry:block"
     },
@@ -3276,6 +3361,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/image-gallery-morphing-mosaic.json",
+      "status": "installed",
       "title": "Morphing mosaic",
       "type": "registry:block"
     },
@@ -3320,6 +3406,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/image-gallery-focus-rail.json",
+      "status": "installed",
       "title": "Expanding focus rail",
       "type": "registry:block"
     },
@@ -3357,6 +3444,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/navbar-morph.json",
+      "status": "installed",
       "title": "Morphing navbar",
       "type": "registry:block"
     },
@@ -3394,6 +3482,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/navbar-feature-morph.json",
+      "status": "installed",
       "title": "Feature morph",
       "type": "registry:block"
     },
@@ -3431,6 +3520,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/navbar-expand.json",
+      "status": "installed",
       "title": "Expanding pill",
       "type": "registry:block"
     },
@@ -3461,6 +3551,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/navbar-simple.json",
+      "status": "installed",
       "title": "Simple header",
       "type": "registry:block"
     },
@@ -3491,6 +3582,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/newsletter-editorial.json",
+      "status": "installed",
       "title": "Editorial dispatch",
       "type": "registry:block"
     },
@@ -3528,6 +3620,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/newsletter-inline.json",
+      "status": "installed",
       "title": "Inline signup",
       "type": "registry:block"
     },
@@ -3565,6 +3658,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/newsletter-card.json",
+      "status": "installed",
       "title": "Newsletter card",
       "type": "registry:block"
     },
@@ -3595,6 +3689,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/contact-routing.json",
+      "status": "installed",
       "title": "Routing desk",
       "type": "registry:block"
     },
@@ -3625,6 +3720,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/contact-split.json",
+      "status": "installed",
       "title": "Contact split",
       "type": "registry:block"
     },
@@ -3655,6 +3751,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/contact-cards.json",
+      "status": "installed",
       "title": "Contact cards",
       "type": "registry:block"
     },
@@ -3727,6 +3824,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/integrations-directory.json",
+      "status": "installed",
       "title": "Integration directory",
       "type": "registry:block"
     },
@@ -3799,6 +3897,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/integrations-editorial.json",
+      "status": "installed",
       "title": "Editorial integration grid",
       "type": "registry:block"
     },
@@ -3864,6 +3963,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/integrations-orbit.json",
+      "status": "installed",
       "title": "Integration orbit",
       "type": "registry:block"
     },
@@ -3915,6 +4015,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/integrations-ledger.json",
+      "status": "installed",
       "title": "Integration ledger",
       "type": "registry:block"
     },
@@ -3959,6 +4060,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/feature-comparison.json",
+      "status": "installed",
       "title": "Feature comparison",
       "type": "registry:block"
     },
@@ -4003,6 +4105,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/auth-split.json",
+      "status": "installed",
       "title": "Split showcase",
       "type": "registry:block"
     },
@@ -4040,6 +4143,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/auth-centered.json",
+      "status": "installed",
       "title": "Centered card",
       "type": "registry:block"
     },
@@ -4070,6 +4174,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/auth-otp.json",
+      "status": "installed",
       "title": "Magic code",
       "type": "registry:block"
     },
@@ -4121,6 +4226,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/auth-atlas.json",
+      "status": "installed",
       "title": "Atlas centered",
       "type": "registry:block"
     },
@@ -4179,6 +4285,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/auth-atlas-split.json",
+      "status": "installed",
       "title": "Atlas split",
       "type": "registry:block"
     },
@@ -4209,6 +4316,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/onboarding-steps.json",
+      "status": "installed",
       "title": "Stepped onboarding",
       "type": "registry:block"
     },
@@ -4246,6 +4354,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/onboarding-split.json",
+      "status": "installed",
       "title": "Split screen",
       "type": "registry:block"
     },
@@ -4276,6 +4385,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/onboarding-modal.json",
+      "status": "installed",
       "title": "Morphing checklist",
       "type": "registry:block"
     },
@@ -4397,6 +4507,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/about-story.json",
+      "status": "installed",
       "title": "Story page",
       "type": "registry:block"
     },
@@ -4518,6 +4629,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/about-timeline.json",
+      "status": "installed",
       "title": "Journey timeline",
       "type": "registry:block"
     },
@@ -4604,6 +4716,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/careers-board.json",
+      "status": "installed",
       "title": "Roles board",
       "type": "registry:block"
     },
@@ -4739,6 +4852,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/careers-culture.json",
+      "status": "installed",
       "title": "Culture page",
       "type": "registry:block"
     },
@@ -4776,6 +4890,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/changelog-sidebar.json",
+      "status": "installed",
       "title": "Sidebar updates",
       "type": "registry:block"
     },
@@ -4813,6 +4928,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/changelog-ledger.json",
+      "status": "installed",
       "title": "Editorial updates",
       "type": "registry:block"
     },
@@ -4843,6 +4959,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/changelog-simple.json",
+      "status": "installed",
       "title": "Simple updates",
       "type": "registry:block"
     },
@@ -4894,6 +5011,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/blog-index.json",
+      "status": "installed",
       "title": "Blog index",
       "type": "registry:block"
     },
@@ -4931,6 +5049,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/blog-rounded-index.json",
+      "status": "installed",
       "title": "Rounded blog index",
       "type": "registry:block"
     },
@@ -4975,6 +5094,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/blog-article.json",
+      "status": "installed",
       "title": "Article page",
       "type": "registry:block"
     },
@@ -5005,6 +5125,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/not-found-falling-blocks.json",
+      "status": "installed",
       "title": "Falling blocks",
       "type": "registry:block"
     },
@@ -5042,6 +5163,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/not-found-flip-panels.json",
+      "status": "installed",
       "title": "Flip panels",
       "type": "registry:block"
     },
@@ -5079,6 +5201,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/not-found-elastic.json",
+      "status": "installed",
       "title": "Elastic type",
       "type": "registry:block"
     },
@@ -5123,6 +5246,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/not-found-echo.json",
+      "status": "installed",
       "title": "Echo stack",
       "type": "registry:block"
     },
@@ -5153,6 +5277,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/not-found-spotlight.json",
+      "status": "installed",
       "title": "Spotlight reveal",
       "type": "registry:block"
     },
@@ -5183,6 +5308,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/not-found-sliced.json",
+      "status": "installed",
       "title": "Sliced type",
       "type": "registry:block"
     },
@@ -5220,6 +5346,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/not-found-editorial.json",
+      "status": "installed",
       "title": "Editorial issue",
       "type": "registry:block"
     },
@@ -5257,6 +5384,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/not-found-terminal.json",
+      "status": "installed",
       "title": "Terminal trace",
       "type": "registry:block"
     },
@@ -5294,6 +5422,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/not-found-wayfinder.json",
+      "status": "installed",
       "title": "Wayfinder",
       "type": "registry:block"
     },
@@ -5324,6 +5453,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/team-panels.json",
+      "status": "installed",
       "title": "Expanding panels",
       "type": "registry:block"
     },
@@ -5354,6 +5484,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/team-spotlight.json",
+      "status": "installed",
       "title": "Spotlight",
       "type": "registry:block"
     },
@@ -5384,6 +5515,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/team-grid.json",
+      "status": "installed",
       "title": "Team grid",
       "type": "registry:block"
     },
@@ -5407,6 +5539,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/team-marquee.json",
+      "status": "installed",
       "title": "Team marquee",
       "type": "registry:block"
     },
@@ -5458,6 +5591,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/faq-split.json",
+      "status": "installed",
       "title": "Split FAQ",
       "type": "registry:block"
     },
@@ -5502,6 +5636,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/faq-search.json",
+      "status": "installed",
       "title": "Searchable FAQ",
       "type": "registry:block"
     },
@@ -5546,6 +5681,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/faq-stacked.json",
+      "status": "installed",
       "title": "Stacked FAQ",
       "type": "registry:block"
     },
@@ -5576,6 +5712,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/cta-proof-orbit.json",
+      "status": "installed",
       "title": "Proof orbit CTA",
       "type": "registry:block"
     },
@@ -5606,6 +5743,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/cta-shade-panel.json",
+      "status": "installed",
       "title": "Shade panel CTA",
       "type": "registry:block"
     },
@@ -5636,6 +5774,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/cta-glow.json",
+      "status": "installed",
       "title": "Liquid CTA",
       "type": "registry:block"
     },
@@ -5666,6 +5805,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/cta-terminal.json",
+      "status": "installed",
       "title": "Terminal CTA",
       "type": "registry:block"
     },
@@ -5696,6 +5836,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/cta-faq.json",
+      "status": "installed",
       "title": "FAQ CTA",
       "type": "registry:block"
     },
@@ -5733,6 +5874,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/cta-split.json",
+      "status": "installed",
       "title": "Split CTA",
       "type": "registry:block"
     },
@@ -5763,6 +5905,7 @@
         }
       ],
       "sourceUrl": "https://pro.beui.dev/r/cta-poster.json",
+      "status": "installed",
       "title": "Kinetic poster",
       "type": "registry:block"
     }
@@ -5771,5 +5914,7 @@
   "name": "BeUI Pro",
   "schemaVersion": 1,
   "snapshotMode": "full-registry-source",
-  "sourceUrl": "https://pro.beui.dev/"
+  "sourceUrl": "https://pro.beui.dev/",
+  "status": "installed",
+  "unavailableItemCount": 0
 }

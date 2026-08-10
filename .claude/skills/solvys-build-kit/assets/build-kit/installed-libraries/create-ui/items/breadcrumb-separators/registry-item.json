@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "breadcrumb-separators",
+  "registryDependencies": [
+    "breadcrumb",
+    "avatar",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2940,
+      "path": "registry/examples/breadcrumb-separators.tsx",
+      "sha256": "5e549fc1e192c572c264f6d78e553276c1dabcde7003ebc828d799a2a4eb799b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/breadcrumb-separators.json",
+  "title": "Breadcrumb Separators",
+  "type": "registry:example"
+}

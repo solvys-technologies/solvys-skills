@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Slider for picking a value on a track, built on the Radix Slider primitive; primary/neutral variant and md/sm/xs sizes",
+  "name": "slider",
+  "shippedFiles": [
+    {
+      "bytes": 6636,
+      "path": "registry/ui/slider.tsx",
+      "sha256": "6230538481e43fce469cf563645b877c4c15de3a18ed2bced4a704864a1f8b0e",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider.json",
+  "title": "Slider",
+  "type": "registry:ui"
+}

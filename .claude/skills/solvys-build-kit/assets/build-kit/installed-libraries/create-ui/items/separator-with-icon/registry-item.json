@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "separator-with-icon",
+  "registryDependencies": [
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 461,
+      "path": "registry/examples/separator-with-icon.tsx",
+      "sha256": "2dc5906d97acc6cd96cda9b0cb94e8e9a151cd3d89d081d15a461dc436396314",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/separator-with-icon.json",
+  "title": "Separator With Icon",
+  "type": "registry:example"
+}

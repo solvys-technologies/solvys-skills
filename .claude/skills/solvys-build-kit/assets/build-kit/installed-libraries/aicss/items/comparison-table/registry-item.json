@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "access": "unlocked",
+    "category": "Structured Outputs",
+    "contributor": {
+      "handle": "kvnkld",
+      "name": "Kevin",
+      "url": "https://x.com/kvnkld"
+    },
+    "description": "A feature-by-plan comparison matrix with checkmarks.",
+    "files": [
+      {
+        "code": "import styles from \"./ComparisonTable.module.css\";\n\ntype Feature = { label: string; values: boolean[] };\n\nconst PLANS = [\"Personal\", \"Enterprise\"];\nconst FEATURES: Feature[] = [\n  { label: \"Unlimited projects\", values: [true, true] },\n  { label: \"All components\", values: [true, true] },\n  { label: \"Team-wide usage\", values: [false, true] },\n  { label: \"Priority support\", values: [false, true] },\n];\n\nexport function ComparisonTable({\n  plans = PLANS,\n  features = FEATURES,\n}: {\n  plans?: string[];\n  features?: Feature[];\n}) {\n  return (\n    <div className={styles.tbl}>\n      <div className={styles.tblHead}>\n        <div className={styles.tblCell}>Feature</div>\n        {plans.map((p) => (\n          <div key={p} className={styles.tblCell}>{p}</div>\n        ))}\n      </div>\n      <div className={styles.tblBody}>\n        {features.map((f) => (\n          <div key={f.label} className={styles.tblRow}>\n            <div className={styles.tblCell}>\n              <span className={styles.tblCellText}>{f.label}</span>\n            </div>\n            {f.values.map((v, i) => (\n              <div key={i} className={styles.tblCell}>\n                {v ? <span className={styles.yes}>\u2713</span> : <span className={styles.no}>\u2014</span>}\n              </div>\n            ))}\n          </div>\n        ))}\n      </div>\n    </div>\n  );\n}",
+        "filename": "ComparisonTable.tsx",
+        "label": "React",
+        "language": "react"
+      },
+      {
+        "code": ".tbl { width: 100%; display: flex; flex-direction: column; border: 1px solid #e6e8ec; border-radius: 12px; overflow: hidden; background: #fafafa; font-size: 13px; }\n.tblHead { display: flex; color: #a1a1a1; font-weight: 500; }\n.tblHead .tblCell { padding-top: 7px; padding-bottom: 7px; }\n.tblBody { display: flex; flex-direction: column; background: #fff; border: 1px solid #e6e8ec; border-radius: 12px 12px 0 0; margin: 0 -1px -1px; }\n.tblRow { display: flex; }\n.tblRow:not(:last-child) { border-bottom: 1px solid #e6e8ec; }\n.tblCell { flex: 1 1 0; min-width: 0; padding: 9px 12px; display: flex; align-items: center; color: #1a1a1a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }\n.tblCell:not(:last-child) { border-right: 1px solid #e6e8ec; }\n/* text-overflow:ellipsis has no effect on a flex container's raw text, so the\n   label lives in this shrinkable child instead. */\n.tblCellText { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }\n.yes { color: #15a06a; }\n.no { color: #a1a1a1; }\n@media (prefers-color-scheme: dark) {\n  .tbl { background: #242424; border-color: transparent; box-shadow: 0 0 0 0.5px rgba(255,255,255,0.12); }\n  .tblBody { background: #1a1a1a; border-color: #303030; }\n  .tblRow:not(:last-child) { border-bottom-color: #303030; }\n  .tblCell { color: #f5f5f5; }\n  .tblCell:not(:last-child) { border-right-color: #303030; }\n  .yes { color: #34d399; }\n}",
+        "filename": "ComparisonTable.module.css",
+        "label": "React",
+        "language": "react"
+      },
+      {
+        "code": "<template>\n  <div class=\"tbl\">\n    <div class=\"tbl-head\">\n      <div class=\"tbl-cell\">Feature</div>\n      <div v-for=\"p in plans\" :key=\"p\" class=\"tbl-cell\">{{ p }}</div>\n    </div>\n    <div class=\"tbl-body\">\n      <div v-for=\"f in features\" :key=\"f.label\" class=\"tbl-row\">\n        <div class=\"tbl-cell\"><span class=\"tbl-cell-text\">{{ f.label }}</span></div>\n        <div v-for=\"(v, i) in f.values\" :key=\"i\" class=\"tbl-cell\">\n          <span v-if=\"v\" class=\"yes\">\u2713</span><span v-else class=\"no\">\u2014</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\ndefineProps({\n  plans: { type: Array, default: () => [\"Personal\", \"Enterprise\"] },\n  features: {\n    type: Array,\n    default: () => [\n      { label: \"Unlimited projects\", values: [true, true] },\n      { label: \"All components\", values: [true, true] },\n      { label: \"Team-wide usage\", values: [false, true] },\n      { label: \"Priority support\", values: [false, true] },\n    ],\n  },\n});\n</script>\n\n<style scoped>\n.tbl { width: 100%; display: flex; flex-direction: column; border: 1px solid #e6e8ec; border-radius: 12px; overflow: hidden; background: #fafafa; font-size: 13px; }\n.tbl-head { display: flex; color: #a1a1a1; font-weight: 500; }\n.tbl-head .tbl-cell { padding-top: 7px; padding-bottom: 7px; }\n.tbl-body { display: flex; flex-direction: column; background: #fff; border: 1px solid #e6e8ec; border-radius: 12px 12px 0 0; margin: 0 -1px -1px; }\n.tbl-row { display: flex; }\n.tbl-row:not(:last-child) { border-bottom: 1px solid #e6e8ec; }\n.tbl-cell { flex: 1 1 0; min-width: 0; padding: 9px 12px; display: flex; align-items: center; color: #1a1a1a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }\n.tbl-cell:not(:last-child) { border-right: 1px solid #e6e8ec; }\n/* text-overflow:ellipsis has no effect on a flex container's raw text, so the\n   label lives in this shrinkable child instead. */\n.tbl-cell-text { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }\n.yes { color: #15a06a; }\n.no { color: #a1a1a1; }\n@media (prefers-color-scheme: dark) {\n  .tbl { background: #242424; border-color: transparent; box-shadow: 0 0 0 0.5px rgba(255,255,255,0.12); }\n  .tbl-body { background: #1a1a1a; border-color: #303030; }\n  .tbl-row:not(:last-child) { border-bottom-color: #303030; }\n  .tbl-cell { color: #f5f5f5; }\n  .tbl-cell:not(:last-child) { border-right-color: #303030; }\n  .yes { color: #34d399; }\n}\n</style>",
+        "filename": "ComparisonTable.vue",
+        "label": "Vue",
+        "language": "vue"
+      },
+      {
+        "code": "<script>\n  export let plans = [\"Personal\", \"Enterprise\"];\n  export let features = [\n    { label: \"Unlimited projects\", values: [true, true] },\n    { label: \"All components\", values: [true, true] },\n    { label: \"Team-wide usage\", values: [false, true] },\n    { label: \"Priority support\", values: [false, true] },\n  ];\n</script>\n\n<div class=\"tbl\">\n  <div class=\"tbl-head\">\n    <div class=\"tbl-cell\">Feature</div>\n    {#each plans as p}<div class=\"tbl-cell\">{p}</div>{/each}\n  </div>\n  <div class=\"tbl-body\">\n    {#each features as f (f.label)}\n      <div class=\"tbl-row\">\n        <div class=\"tbl-cell\"><span class=\"tbl-cell-text\">{f.label}</span></div>\n        {#each f.values as v}\n          <div class=\"tbl-cell\">{#if v}<span class=\"yes\">\u2713</span>{:else}<span class=\"no\">\u2014</span>{/if}</div>\n        {/each}\n      </div>\n    {/each}\n  </div>\n</div>\n\n<style>\n  .tbl { width: 100%; display: flex; flex-direction: column; border: 1px solid #e6e8ec; border-radius: 12px; overflow: hidden; background: #fafafa; font-size: 13px; }\n  .tbl-head { display: flex; color: #a1a1a1; font-weight: 500; }\n  .tbl-head .tbl-cell { padding-top: 7px; padding-bottom: 7px; }\n  .tbl-body { display: flex; flex-direction: column; background: #fff; border: 1px solid #e6e8ec; border-radius: 12px 12px 0 0; margin: 0 -1px -1px; }\n  .tbl-row { display: flex; }\n  .tbl-row:not(:last-child) { border-bottom: 1px solid #e6e8ec; }\n  .tbl-cell { flex: 1 1 0; min-width: 0; padding: 9px 12px; display: flex; align-items: center; color: #1a1a1a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }\n  .tbl-cell:not(:last-child) { border-right: 1px solid #e6e8ec; }\n  /* text-overflow:ellipsis has no effect on a flex container's raw text, so the\n     label lives in this shrinkable child instead. */\n  .tbl-cell-text { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }\n  .yes { color: #15a06a; }\n  .no { color: #a1a1a1; }\n  @media (prefers-color-scheme: dark) {\n    .tbl { background: #242424; border-color: transparent; box-shadow: 0 0 0 0.5px rgba(255,255,255,0.12); }\n    .tbl-body { background: #1a1a1a; border-color: #303030; }\n    .tbl-row:not(:last-child) { border-bottom-color: #303030; }\n    .tbl-cell { color: #f5f5f5; }\n    .tbl-cell:not(:last-child) { border-right-color: #303030; }\n    .yes { color: #34d399; }\n  }\n</style>",
+        "filename": "ComparisonTable.svelte",
+        "label": "Svelte",
+        "language": "svelte"
+      }
+    ],
+    "languages": [
+      "react",
+      "vue",
+      "svelte"
+    ],
+    "name": "Comparison Table",
+    "page": "http://localhost:3000/components/comparison-table",
+    "registry": "http://localhost:3000/r/comparison-table",
+    "slug": "comparison-table",
+    "styling": "Plain CSS with CSS custom properties (design tokens). No Tailwind, no UI libraries, no external dependencies. Theme-aware via [data-theme] (light/dark).",
+    "tier": "locked"
+  },
+  "sourceUrl": "https://www.aicss.dev/r/comparison-table",
+  "status": "installed"
+}

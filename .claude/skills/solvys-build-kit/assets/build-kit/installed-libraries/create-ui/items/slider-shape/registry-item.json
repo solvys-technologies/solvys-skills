@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "slider-shape",
+  "registryDependencies": [
+    "slider"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 539,
+      "path": "registry/examples/slider-shape.tsx",
+      "sha256": "ca175f8833805ca0032f8725b62c4dd3a4cfc686e0caaf0d8841569723ff9d91",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider-shape.json",
+  "title": "Slider Shape",
+  "type": "registry:example"
+}

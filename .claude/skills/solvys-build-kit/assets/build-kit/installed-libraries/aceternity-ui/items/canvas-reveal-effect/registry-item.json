@@ -1,0 +1,23 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "three",
+    "@react-three/fiber"
+  ],
+  "devDependencies": [
+    "@types/three"
+  ],
+  "name": "canvas-reveal-effect",
+  "shippedFiles": [
+    {
+      "bytes": 8303,
+      "path": "components/ui/canvas-reveal-effect.tsx",
+      "sha256": "7d49ce5826dc2b9a20439778c62bb6cf15547fd7472baa4d57de25eea2d40692",
+      "target": "components/ui/canvas-reveal-effect.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/canvas-reveal-effect.json",
+  "title": "Canvas Reveal Effect",
+  "type": "registry:ui"
+}

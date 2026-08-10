@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "pricing-with-header-and-icons",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/pricing-with-header-and-icons.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

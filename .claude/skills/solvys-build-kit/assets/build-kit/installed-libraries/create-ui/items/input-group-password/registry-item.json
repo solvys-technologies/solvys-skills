@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-password",
+  "registryDependencies": [
+    "field",
+    "input",
+    "input-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 737,
+      "path": "registry/examples/input-group-password.tsx",
+      "sha256": "9475a95c62082f01da85a4abee57bf35e3ee39101bbca88046a8e8a4a7a46078",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-password.json",
+  "title": "Input Group Password",
+  "type": "registry:example"
+}

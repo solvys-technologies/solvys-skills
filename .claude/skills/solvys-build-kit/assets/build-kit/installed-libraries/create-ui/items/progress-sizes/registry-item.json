@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "progress-sizes",
+  "registryDependencies": [
+    "progress"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 680,
+      "path": "registry/examples/progress-sizes.tsx",
+      "sha256": "e270fc07648f433a98ce6c50de055d5adfa897d341198054d5925595f063b413",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/progress-sizes.json",
+  "title": "Progress Sizes",
+  "type": "registry:example"
+}

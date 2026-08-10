@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-full-pager",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 395,
+      "path": "registry/examples/pagination-full-pager.tsx",
+      "sha256": "48f047eea17a9375721e5e5e13c1d85fd84b5cf2aa936891bc80cc417a125b59",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-full-pager.json",
+  "title": "Pagination Full Pager (Pro)",
+  "type": "registry:example"
+}

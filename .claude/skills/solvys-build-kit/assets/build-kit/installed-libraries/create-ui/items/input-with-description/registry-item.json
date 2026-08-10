@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-with-description",
+  "registryDependencies": [
+    "field",
+    "input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 556,
+      "path": "registry/examples/input-with-description.tsx",
+      "sha256": "a8d00107601c837cb950094d744ac56eba87fc8cbfa6c9a13b6cea8fef0a9bdd",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-with-description.json",
+  "title": "Input With Description",
+  "type": "registry:example"
+}

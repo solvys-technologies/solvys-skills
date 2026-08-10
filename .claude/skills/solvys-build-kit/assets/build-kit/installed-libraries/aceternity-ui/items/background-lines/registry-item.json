@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "background-lines",
+  "shippedFiles": [
+    {
+      "bytes": 18469,
+      "path": "components/ui/background-lines.tsx",
+      "sha256": "72c900efcb60886d5824649bc129106d9bc36e645ca418aca771a7d9fe4d3a96",
+      "target": "components/ui/background-lines.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/background-lines.json",
+  "title": "Background Lines",
+  "type": "registry:ui"
+}

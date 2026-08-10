@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-sizes",
+  "registryDependencies": [
+    "tab-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1846,
+      "path": "registry/examples/tab-menu-sizes.tsx",
+      "sha256": "1517470aa6f3eeb259c8f09491eb21b7c6c783ea2291b1405f8bc6430f571062",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-sizes.json",
+  "title": "TabMenu Sizes",
+  "type": "registry:example"
+}

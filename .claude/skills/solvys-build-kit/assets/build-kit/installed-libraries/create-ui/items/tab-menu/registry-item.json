@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Navigation tab list with no content panels; horizontal line tabs with leading/trailing items",
+  "name": "tab-menu",
+  "shippedFiles": [
+    {
+      "bytes": 10657,
+      "path": "registry/ui/tab-menu.tsx",
+      "sha256": "824f3bf409ad838818e5ca4c76a4baef43fb051441aeb57469211b966e49592b",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu.json",
+  "title": "Tab Menu",
+  "type": "registry:ui"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react"
+  ],
+  "name": "tailwindcss-buttons",
+  "shippedFiles": [
+    {
+      "bytes": 878,
+      "path": "components/ui/tailwindcss-buttons.tsx",
+      "sha256": "804df05a95ee6ff55dbbdfe7442fb39998ffa981437a23a2aebbfb913bd2fd27",
+      "target": "components/ui/tailwindcss-buttons.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/tailwindcss-buttons.json",
+  "title": "Tailwindcss Buttons",
+  "type": "registry:ui"
+}

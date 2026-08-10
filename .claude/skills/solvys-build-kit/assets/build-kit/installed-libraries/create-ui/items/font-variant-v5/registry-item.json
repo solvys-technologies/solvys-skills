@@ -1,0 +1,37 @@
+{
+  "fontVariant": {
+    "body": {
+      "family": "'Source Sans 3', sans-serif",
+      "import": "Source_Sans_3",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-body"
+    },
+    "display": {
+      "family": "'Sora', sans-serif",
+      "import": "Sora",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-display"
+    },
+    "numeric": {
+      "family": "'Roboto Mono', monospace",
+      "import": "Roboto_Mono",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-numeric"
+    }
+  },
+  "name": "font-variant-v5",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/font-variant-v5.json",
+  "status": "installed",
+  "title": "V5",
+  "type": "registry:font-variant"
+}

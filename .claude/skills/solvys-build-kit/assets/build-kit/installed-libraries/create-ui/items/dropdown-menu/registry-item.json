@@ -1,0 +1,26 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "react-aria-components"
+  ],
+  "description": "React Aria menu opened from a trigger; dot-notation Dropdown.* parts cover single/multi-select, sections, headers, item indicators, and a footer slot; size xs/sm/md cascades from Field",
+  "name": "dropdown-menu",
+  "registryDependencies": [
+    "field",
+    "input",
+    "scroll-area"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 19128,
+      "path": "registry/ui/dropdown-menu.tsx",
+      "sha256": "24cf611466a2753e8ef0af171ce8cf4cfac2d64b9374fc16d76fafc9d4405fc7",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu.json",
+  "title": "Dropdown Menu",
+  "type": "registry:ui"
+}

@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "fab-button",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/fab-button.json",
+  "status": "access-gated",
+  "title": "FAB Button",
+  "type": "registry:ui"
+}

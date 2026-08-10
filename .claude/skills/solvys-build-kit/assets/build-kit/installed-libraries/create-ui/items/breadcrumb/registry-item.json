@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Path navigation with BreadcrumbItem, BreadcrumbSeparator (chevron, slash or dot) and BreadcrumbEllipsis for collapsing",
+  "name": "breadcrumb",
+  "shippedFiles": [
+    {
+      "bytes": 12387,
+      "path": "registry/ui/breadcrumb.tsx",
+      "sha256": "4c2fe1b907b38fbd5ceda6e35d3dba219eefcac54c8bfbedc3c91685c6ae7aaf",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/breadcrumb.json",
+  "title": "Breadcrumb",
+  "type": "registry:ui"
+}

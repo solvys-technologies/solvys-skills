@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "spinner-sizes",
+  "registryDependencies": [
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 286,
+      "path": "registry/examples/spinner-sizes.tsx",
+      "sha256": "051a88fd142a6fb5eac220a0524e4c6cb3ff527db3de7d382a786ee1c6a10f9b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/spinner-sizes.json",
+  "title": "Spinner Sizes",
+  "type": "registry:example"
+}

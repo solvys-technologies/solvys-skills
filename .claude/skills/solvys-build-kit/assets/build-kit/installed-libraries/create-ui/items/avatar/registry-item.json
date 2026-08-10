@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Avatar with AvatarImage, AvatarText initials fallback, AvatarIcon, AvatarBadge and AvatarGroup; 55 color variants",
+  "name": "avatar",
+  "shippedFiles": [
+    {
+      "bytes": 35035,
+      "path": "registry/ui/avatar.tsx",
+      "sha256": "a9b5726293f320d76d4557f257d2f5c8b2bc581827d2f67c2e11f579558a2870",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar.json",
+  "title": "Avatar",
+  "type": "registry:ui"
+}

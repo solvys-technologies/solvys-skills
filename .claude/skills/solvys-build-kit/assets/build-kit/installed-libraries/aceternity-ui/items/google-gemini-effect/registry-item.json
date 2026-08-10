@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "google-gemini-effect",
+  "shippedFiles": [
+    {
+      "bytes": 11208,
+      "path": "components/ui/google-gemini-effect.tsx",
+      "sha256": "168631363d80f7c7654391273753594bcf1eb735cc9ea37909a394f3193eafe4",
+      "target": "components/ui/google-gemini-effect.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/google-gemini-effect.json",
+  "title": "Google Gemini Effect",
+  "type": "registry:ui"
+}

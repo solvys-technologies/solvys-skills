@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react"
+  ],
+  "name": "carousel",
+  "shippedFiles": [
+    {
+      "bytes": 6257,
+      "path": "components/ui/carousel.tsx",
+      "sha256": "04759858e8dc938b453c77e152658fc6cb07d7f04eaabf7a49673d9f9a434c4e",
+      "target": "components/ui/carousel.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/carousel.json",
+  "title": "Carousel",
+  "type": "registry:ui"
+}

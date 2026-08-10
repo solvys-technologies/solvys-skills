@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-variant-horizontal-button",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 970,
+      "path": "registry/examples/tabs-variant-horizontal-button.tsx",
+      "sha256": "ae8825ce34a37a00522466568f758d07db486aae62bd3f9a09dd69e7c9418ecc",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-variant-horizontal-button.json",
+  "title": "Tabs Variant Horizontal Button",
+  "type": "registry:example"
+}

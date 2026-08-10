@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "background-noise-grid",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/background-noise-grid.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

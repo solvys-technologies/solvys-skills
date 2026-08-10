@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "accordion-with-trailing-content",
+  "registryDependencies": [
+    "accordion",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 976,
+      "path": "registry/examples/accordion-with-trailing-content.tsx",
+      "sha256": "be99a2e6b9d2b0a323aac6708acb060d76b0649ae546570155eb17bdf01bea09",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/accordion-with-trailing-content.json",
+  "title": "Accordion With Trailing Content",
+  "type": "registry:example"
+}

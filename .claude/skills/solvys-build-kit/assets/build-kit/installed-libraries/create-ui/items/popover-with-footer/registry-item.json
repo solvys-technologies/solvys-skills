@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "popover-with-footer",
+  "registryDependencies": [
+    "popover",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1511,
+      "path": "registry/examples/popover-with-footer.tsx",
+      "sha256": "415a256ec058d1b43008384a066ecc2463a5a2369a1ff9132924e2b1533be9c5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/popover-with-footer.json",
+  "title": "Popover With Footer",
+  "type": "registry:example"
+}

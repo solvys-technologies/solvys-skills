@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Passive non-interactive label for statuses and counts; leading, trailing, iconOnly and numberOnly props",
+  "name": "badge",
+  "shippedFiles": [
+    {
+      "bytes": 8458,
+      "path": "registry/ui/badge.tsx",
+      "sha256": "49ca2f5b4d89bb2477738bf6052ad1022b21c04fdf8a60c81f1e2bd53aa67eb0",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/badge.json",
+  "title": "Badge",
+  "type": "registry:ui"
+}

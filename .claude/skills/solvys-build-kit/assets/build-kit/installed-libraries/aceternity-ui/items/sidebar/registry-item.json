@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+  ],
+  "name": "sidebar",
+  "shippedFiles": [
+    {
+      "bytes": 4724,
+      "path": "components/ui/sidebar.tsx",
+      "sha256": "0ff0812bd2e8ee8fb98d516004c46dfecd7d5bd2cf03b191c1a8d983d815d0ef",
+      "target": "components/ui/sidebar.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/sidebar.json",
+  "title": "Sidebar",
+  "type": "registry:ui"
+}

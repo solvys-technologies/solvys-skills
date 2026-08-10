@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "colourful-text",
+  "shippedFiles": [
+    {
+      "bytes": 1375,
+      "path": "components/ui/colourful-text.tsx",
+      "sha256": "c3cdf9b013cc75b02855ef469b4a96da395e2c36396f6f7acd95b553c2e08ea5",
+      "target": "components/ui/colourful-text.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/colourful-text.json",
+  "title": "Colourful Text",
+  "type": "registry:ui"
+}

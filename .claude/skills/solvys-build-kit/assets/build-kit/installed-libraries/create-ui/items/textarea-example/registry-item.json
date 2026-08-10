@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "textarea-example",
+  "registryDependencies": [
+    "field",
+    "textarea",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4938,
+      "path": "registry/examples/textarea-example.tsx",
+      "sha256": "8a23556eb4733fb625e0c94d0b7bc8e3e4a02ebada99ba05e7a68fea7552fd62",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/textarea-example.json",
+  "title": "Textarea",
+  "type": "registry:example"
+}

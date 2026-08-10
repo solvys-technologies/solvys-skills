@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-indicator-top",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 979,
+      "path": "registry/examples/tabs-indicator-top.tsx",
+      "sha256": "cf384d62634565db7049a249565f91849df1c40d1508f37217b145a72e8b6b1a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-indicator-top.json",
+  "title": "Tabs Indicator Top",
+  "type": "registry:example"
+}

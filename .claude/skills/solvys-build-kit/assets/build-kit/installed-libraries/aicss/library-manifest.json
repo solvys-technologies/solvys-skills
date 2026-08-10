@@ -1,0 +1,113 @@
+{
+  "accessGatedItemCount": 0,
+  "autoUpdate": false,
+  "catalogItemCount": 14,
+  "catalogUrl": "https://www.aicss.dev/r",
+  "installedItemCount": 14,
+  "items": [
+    {
+      "name": "Thinking State",
+      "slug": "thinking-state",
+      "sourceUrl": "https://www.aicss.dev/r/thinking-state",
+      "status": "installed",
+      "tier": "free"
+    },
+    {
+      "name": "Thinking + Reasoning",
+      "slug": "thinking-reasoning",
+      "sourceUrl": "https://www.aicss.dev/r/thinking-reasoning",
+      "status": "installed",
+      "tier": "free"
+    },
+    {
+      "name": "Orbs",
+      "slug": "orbs",
+      "sourceUrl": "https://www.aicss.dev/r/orbs",
+      "status": "installed",
+      "tier": "free"
+    },
+    {
+      "name": "Web Search",
+      "slug": "web-search",
+      "sourceUrl": "https://www.aicss.dev/r/web-search",
+      "status": "installed",
+      "tier": "locked"
+    },
+    {
+      "name": "File Diff",
+      "slug": "file-diff",
+      "sourceUrl": "https://www.aicss.dev/r/file-diff",
+      "status": "installed",
+      "tier": "locked"
+    },
+    {
+      "name": "Image Generation",
+      "slug": "image-generation",
+      "sourceUrl": "https://www.aicss.dev/r/image-generation",
+      "status": "installed",
+      "tier": "locked"
+    },
+    {
+      "name": "Text Response",
+      "slug": "text-response",
+      "sourceUrl": "https://www.aicss.dev/r/text-response",
+      "status": "installed",
+      "tier": "free"
+    },
+    {
+      "name": "Streaming Text",
+      "slug": "streaming-text",
+      "sourceUrl": "https://www.aicss.dev/r/streaming-text",
+      "status": "installed",
+      "tier": "free"
+    },
+    {
+      "name": "Inline Citations",
+      "slug": "inline-citations",
+      "sourceUrl": "https://www.aicss.dev/r/inline-citations",
+      "status": "installed",
+      "tier": "locked"
+    },
+    {
+      "name": "Code Block",
+      "slug": "code-block",
+      "sourceUrl": "https://www.aicss.dev/r/code-block",
+      "status": "installed",
+      "tier": "free"
+    },
+    {
+      "name": "To-do List",
+      "slug": "task-list",
+      "sourceUrl": "https://www.aicss.dev/r/task-list",
+      "status": "installed",
+      "tier": "free"
+    },
+    {
+      "name": "Data Table",
+      "slug": "data-table",
+      "sourceUrl": "https://www.aicss.dev/r/data-table",
+      "status": "installed",
+      "tier": "free"
+    },
+    {
+      "name": "Comparison Table",
+      "slug": "comparison-table",
+      "sourceUrl": "https://www.aicss.dev/r/comparison-table",
+      "status": "installed",
+      "tier": "locked"
+    },
+    {
+      "name": "AI Agent Input",
+      "slug": "ai-agent-input",
+      "sourceUrl": "https://www.aicss.dev/r/ai-agent-input",
+      "status": "installed",
+      "tier": "free"
+    }
+  ],
+  "library": "aicss",
+  "name": "AIcss",
+  "schemaVersion": 1,
+  "snapshotMode": "full-source-registry",
+  "status": "installed",
+  "unavailableItemCount": 0
+}

@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "loader",
+  "shippedFiles": [
+    {
+      "bytes": 5852,
+      "path": "components/ui/loader.tsx",
+      "sha256": "571e40326045bd67d54a4aede52ca6a2db4bfd5685eca0d2ec9e193b2a0243bb",
+      "target": "components/ui/loader.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/loader.json",
+  "title": "Loader",
+  "type": "registry:ui"
+}

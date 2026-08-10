@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "badge-variants",
+  "registryDependencies": [
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 758,
+      "path": "registry/examples/badge-variants.tsx",
+      "sha256": "8c189ce7f4802c3d4133647ecd20767f8aaaea009435160f08ce1cd68f3b746e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/badge-variants.json",
+  "title": "Badge Variants",
+  "type": "registry:example"
+}

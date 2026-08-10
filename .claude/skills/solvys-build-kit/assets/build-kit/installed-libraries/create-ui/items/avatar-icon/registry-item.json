@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-icon",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1087,
+      "path": "registry/examples/avatar-icon.tsx",
+      "sha256": "f3d6a8d7769262e16fe1c4091c502d1f39ba4078ed80f98c3f7ff1903ac52b3a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-icon.json",
+  "title": "Avatar Icon",
+  "type": "registry:example"
+}

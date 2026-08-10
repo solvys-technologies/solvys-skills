@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "dotted-map",
+    "motion"
+  ],
+  "name": "world-map",
+  "shippedFiles": [
+    {
+      "bytes": 5237,
+      "path": "components/ui/world-map.tsx",
+      "sha256": "a8cace90aee8b4fd3d2b14b74d4fca0583b10ac1b7112df9e5b9b6782948ef00",
+      "target": "components/ui/world-map.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/world-map.json",
+  "title": "World Map",
+  "type": "registry:ui"
+}

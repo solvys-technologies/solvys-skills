@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "slider-thumb",
+  "registryDependencies": [
+    "slider"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1116,
+      "path": "registry/examples/slider-thumb.tsx",
+      "sha256": "7d7a55b707062233ec8354d3a25d0cc6070b66c3f1fa4994ad6fe2f8a3e10350",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider-thumb.json",
+  "title": "Slider Thumb",
+  "type": "registry:example"
+}

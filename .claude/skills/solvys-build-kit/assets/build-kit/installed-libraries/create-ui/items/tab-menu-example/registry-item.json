@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-example",
+  "registryDependencies": [
+    "badge",
+    "status-badge",
+    "tab-menu",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 19779,
+      "path": "registry/examples/tab-menu-example.tsx",
+      "sha256": "da0985bc75dfc72085dd6202158daf16689acfffb53dd19dd8b93b80896a0393",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-example.json",
+  "title": "Tab Menu",
+  "type": "registry:example"
+}

@@ -1,0 +1,281 @@
+{
+  "accessGatedItemCount": 0,
+  "autoUpdate": false,
+  "catalogItemCount": 9,
+  "catalogUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/registry.json",
+  "installedItemCount": 9,
+  "items": [
+    {
+      "fileCount": 1,
+      "name": "map",
+      "sourceFiles": [
+        {
+          "bytes": 64843,
+          "path": "src/registry/map.tsx",
+          "sha256": "391a87cdd676bb13f631dccf0653400c218968080a10f10bca29a53667244322",
+          "target": "components/ui/map.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/map.json",
+      "status": "installed",
+      "title": "Map",
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 4,
+      "name": "analytics-map",
+      "sourceFiles": [
+        {
+          "bytes": 2819,
+          "path": "src/registry/blocks/analytics-map/page.tsx",
+          "sha256": "1af66807a10e44787e01325cf1a01466059210466eb167edf5914a7b75343fad",
+          "target": "app/analytics/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 3939,
+          "path": "src/registry/blocks/analytics-map/data.ts",
+          "sha256": "bfd805025644ad5f900d99dd85a2f2b1155c10dd59e5989d13ea807b830e016a",
+          "target": "app/analytics/data.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3354,
+          "path": "src/registry/blocks/analytics-map/components/overview-card.tsx",
+          "sha256": "7294ce39f8dd8874ceed3cc8372e2d3f6aed77c9c9e3789a467b7139335992fe",
+          "target": "app/analytics/components/overview-card.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1691,
+          "path": "src/registry/blocks/analytics-map/components/breakdown-card.tsx",
+          "sha256": "583d00501476f47c8e3ce7a8b8a7564e0ad05fe3f3ed0a3ace0acd21095f0f72",
+          "target": "app/analytics/components/breakdown-card.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/analytics-map.json",
+      "status": "installed",
+      "title": "Analytics Map",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 3,
+      "name": "choropleth",
+      "sourceFiles": [
+        {
+          "bytes": 5075,
+          "path": "src/registry/blocks/choropleth/page.tsx",
+          "sha256": "db07726746c4344ceb24d06c691b76eb7f40d83c29c167ab6dd29989b890113b",
+          "target": "app/choropleth/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 1404,
+          "path": "src/registry/blocks/choropleth/data.ts",
+          "sha256": "b376bec00cc573c62aef64c7c54f86257249a3d84626f9daedf331415f7150b8",
+          "target": "app/choropleth/data.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 770,
+          "path": "src/lib/use-world-data.ts",
+          "sha256": "c23fc8a66be2d8ed199810086606a309ea90a78784d2809f9fa92599180b3f86",
+          "target": "@lib/use-world-data.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/choropleth.json",
+      "status": "installed",
+      "title": "Choropleth",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 2,
+      "name": "analytics-card",
+      "sourceFiles": [
+        {
+          "bytes": 2599,
+          "path": "src/registry/blocks/analytics-card/page.tsx",
+          "sha256": "752aa216cc0ecb69c2a064f0cc1c76cd7f890744c49ac677543d04000970033d",
+          "target": "app/analytics-card/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 1151,
+          "path": "src/registry/blocks/analytics-card/data.ts",
+          "sha256": "ea5ab61169457600b32972a67629370fcdb7450af9a94eb9d2f92a027ca079c9",
+          "target": "app/analytics-card/data.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/analytics-card.json",
+      "status": "installed",
+      "title": "Analytics Card",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 2,
+      "name": "delivery-tracker",
+      "sourceFiles": [
+        {
+          "bytes": 8347,
+          "path": "src/registry/blocks/delivery-tracker/page.tsx",
+          "sha256": "6d6eecaa4e5d030d3dad95dd343edf01f66fc4b1a26b6aa90cb44f565fa09160",
+          "target": "app/delivery/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 1667,
+          "path": "src/registry/blocks/delivery-tracker/data.ts",
+          "sha256": "c98f114edfbd83c3d33b03f9579307f25ef8595fe61cdc99a5c02992949e23a8",
+          "target": "app/delivery/data.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/delivery-tracker.json",
+      "status": "installed",
+      "title": "Delivery Tracker",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 4,
+      "name": "uptime-monitor",
+      "sourceFiles": [
+        {
+          "bytes": 1169,
+          "path": "src/registry/blocks/uptime-monitor/page.tsx",
+          "sha256": "71989c018416a296c7863c61e30f6fa026f124c3127b3649ca46bcbdbb427e74",
+          "target": "app/uptime-monitor/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 5664,
+          "path": "src/registry/blocks/uptime-monitor/data.ts",
+          "sha256": "4f9e1b6f549ff80a769738fd783b69ca6eddd274c36574a0a6317d82e71614a1",
+          "target": "app/uptime-monitor/data.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1511,
+          "path": "src/registry/blocks/uptime-monitor/components/edge-node-marker.tsx",
+          "sha256": "e6151b2cfe77225b0625f4c4578b4212fbb12177b12a05fb3ea71183203332ff",
+          "target": "app/uptime-monitor/components/edge-node-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2830,
+          "path": "src/registry/blocks/uptime-monitor/components/status-sidebar.tsx",
+          "sha256": "0685c7641344e4ec7c701e8d599f091ff07e2d5a8493a63eff5e9e22be177005",
+          "target": "app/uptime-monitor/components/status-sidebar.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/uptime-monitor.json",
+      "status": "installed",
+      "title": "Uptime Monitor",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "heatmap",
+      "sourceFiles": [
+        {
+          "bytes": 4427,
+          "path": "src/registry/blocks/heatmap/page.tsx",
+          "sha256": "d47ffa54544d30f2a736c9d00022bb956cd415fb7a0a38f1fb4e658ed07c41cb",
+          "target": "app/heatmap/page.tsx",
+          "type": "registry:page"
+        }
+      ],
+      "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/heatmap.json",
+      "status": "installed",
+      "title": "Heatmap",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 4,
+      "name": "logistics-network",
+      "sourceFiles": [
+        {
+          "bytes": 486,
+          "path": "src/registry/blocks/logistics-network/page.tsx",
+          "sha256": "a48009a08fb3ee66d578b888ff3e825b5c53798fd592828816014500374427b8",
+          "target": "app/logistics/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 6237,
+          "path": "src/registry/blocks/logistics-network/data.ts",
+          "sha256": "e955aeeb348513058bb20979d849cec8f04bd99ca847278b30c858d061492efa",
+          "target": "app/logistics/data.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7264,
+          "path": "src/registry/blocks/logistics-network/components/filter-sidebar.tsx",
+          "sha256": "28ed82bb805ca5dffdc0f5347978cb519c32003e5532d1a075ff8fa7de60b2d3",
+          "target": "app/logistics/components/filter-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3818,
+          "path": "src/registry/blocks/logistics-network/components/network-map.tsx",
+          "sha256": "6159b3577a2445eeee514e77aec8391084e10a57ce6ffc89199a2597cbd8677a",
+          "target": "app/logistics/components/network-map.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/logistics-network.json",
+      "status": "installed",
+      "title": "Logistics Network",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 4,
+      "name": "store-locator",
+      "sourceFiles": [
+        {
+          "bytes": 1330,
+          "path": "src/registry/blocks/store-locator/page.tsx",
+          "sha256": "a8eee344b393ae8143eacfdcc0544fd97de09cf2e9af491a9a0fb13c75adc967",
+          "target": "app/store-locator/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 2170,
+          "path": "src/registry/blocks/store-locator/data.ts",
+          "sha256": "4c348a325a592a9be461ad6d78c5f95e84d1601259d5bad8e90602cbf6a6faea",
+          "target": "app/store-locator/data.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5033,
+          "path": "src/registry/blocks/store-locator/components/store-list.tsx",
+          "sha256": "98e6aeccf4c82a55818c7af680ec58d6f1746f96bce639d2f82690cc27a8a7cb",
+          "target": "app/store-locator/components/store-list.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3928,
+          "path": "src/registry/blocks/store-locator/components/locator-map.tsx",
+          "sha256": "2d26f58cfb1e5cde427ebfb35f0ab9a6d90470a42b4437b30619fab1e5a79af0",
+          "target": "app/store-locator/components/locator-map.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/store-locator.json",
+      "status": "installed",
+      "title": "Store Locator",
+      "type": "registry:block"
+    }
+  ],
+  "library": "mapcn",
+  "name": "mapcn",
+  "schemaVersion": 1,
+  "snapshotMode": "full-registry-source",
+  "sourceUrl": "https://github.com/AnmolSaini16/mapcn",
+  "status": "installed",
+  "unavailableItemCount": 0
+}

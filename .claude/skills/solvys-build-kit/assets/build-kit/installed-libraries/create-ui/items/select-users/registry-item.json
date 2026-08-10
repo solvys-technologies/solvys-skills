@@ -1,0 +1,25 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-users",
+  "registryDependencies": [
+    "select",
+    "field",
+    "avatar",
+    "button",
+    "checkbox",
+    "chip",
+    "@create-ui/assets"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4610,
+      "path": "registry/examples/select-users.tsx",
+      "sha256": "48624e5888c2c743627aec1c98b0513abd13a99f415a1e6cd3a4c3fd4d61d522",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-users.json",
+  "title": "Select Users",
+  "type": "registry:example"
+}

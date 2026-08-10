@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "scroll-area-fade",
+  "registryDependencies": [
+    "scroll-area",
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1426,
+      "path": "registry/examples/scroll-area-fade.tsx",
+      "sha256": "3c291adf1de3fd6c09ef8306d041dea873455a0d7de2294826f3a93e99932396",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/scroll-area-fade.json",
+  "title": "Scroll Area Fade",
+  "type": "registry:example"
+}

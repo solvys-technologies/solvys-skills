@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "spinner-appearance",
+  "registryDependencies": [
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 310,
+      "path": "registry/examples/spinner-appearance.tsx",
+      "sha256": "e63812b2e758cd2216b4fb29e8a450f6cf53a1bf11e63d13efb585db96a5bac8",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/spinner-appearance.json",
+  "title": "Spinner Appearance",
+  "type": "registry:example"
+}

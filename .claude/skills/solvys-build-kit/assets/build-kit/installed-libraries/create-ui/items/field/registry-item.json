@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Form field wrapper that owns the xs/sm/md size cascade; Input, Select and Textarea inherit size and state via context",
+  "name": "field",
+  "registryDependencies": [
+    "label",
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 12841,
+      "path": "registry/ui/field.tsx",
+      "sha256": "63526f7d7b661db90e64b3aae5d8fcce85a115f399b81a046081eb217b2e83e9",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/field.json",
+  "title": "Field",
+  "type": "registry:ui"
+}

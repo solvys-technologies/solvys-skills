@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "field-composition",
+  "registryDependencies": [
+    "field",
+    "input",
+    "select",
+    "textarea",
+    "switch"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1823,
+      "path": "registry/examples/field-composition.tsx",
+      "sha256": "6c32fa9063496274eb63159f1b23a99baaeeaca52f9761501f918aa69b8680c0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/field-composition.json",
+  "title": "Field Composition",
+  "type": "registry:example"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-group-disabled",
+  "registryDependencies": [
+    "checkbox-group",
+    "checkbox",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 710,
+      "path": "registry/examples/checkbox-group-disabled.tsx",
+      "sha256": "7a6a0d076e633cb9ab34dd14d7ed663ba5254b3b93afe4119aff1955c5b9be8e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-group-disabled.json",
+  "title": "Checkbox Group Disabled",
+  "type": "registry:example"
+}

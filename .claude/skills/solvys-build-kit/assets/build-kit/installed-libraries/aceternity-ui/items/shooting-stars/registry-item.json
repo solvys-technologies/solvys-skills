@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "shooting-stars",
+  "shippedFiles": [
+    {
+      "bytes": 3701,
+      "path": "components/ui/shooting-stars.tsx",
+      "sha256": "23da778568b618c0701b42f4b424335dfe7a0c82fe24c31a0e9ba16155fb1d38",
+      "target": "components/ui/shooting-stars.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/shooting-stars.json",
+  "title": "Shooting Stars",
+  "type": "registry:ui"
+}

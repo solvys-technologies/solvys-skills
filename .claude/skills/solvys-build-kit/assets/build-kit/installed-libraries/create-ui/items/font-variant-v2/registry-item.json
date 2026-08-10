@@ -1,0 +1,42 @@
+{
+  "fontVariant": {
+    "body": {
+      "family": "'Inter Variable', sans-serif",
+      "import": "Inter",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-body"
+    },
+    "display": {
+      "family": "'Inter Variable', sans-serif",
+      "import": "Inter",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-display"
+    },
+    "numeric": {
+      "family": "'IBM Plex Mono', monospace",
+      "import": "IBM_Plex_Mono",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-numeric",
+      "weight": [
+        "400",
+        "500",
+        "600"
+      ]
+    }
+  },
+  "name": "font-variant-v2",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/font-variant-v2.json",
+  "status": "installed",
+  "title": "V2",
+  "type": "registry:font-variant"
+}

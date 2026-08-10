@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "fab-button-sizes",
+  "registryDependencies": [
+    "fab-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1370,
+      "path": "registry/examples/fab-button-sizes.tsx",
+      "sha256": "0cc79de3f6e22b08bc7b39ee5d4fd45a6014587b299f7d299e2d19d9dea1341b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/fab-button-sizes.json",
+  "title": "FAB Button Sizes",
+  "type": "registry:example"
+}

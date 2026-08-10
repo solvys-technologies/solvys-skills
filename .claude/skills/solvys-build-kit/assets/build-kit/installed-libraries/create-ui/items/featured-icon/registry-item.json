@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Icon wrapper with seven color variants, four appearances, rounded or circle shape and a 2xs to xl size scale",
+  "name": "featured-icon",
+  "shippedFiles": [
+    {
+      "bytes": 4638,
+      "path": "registry/ui/featured-icon.tsx",
+      "sha256": "5d844c0ca130ef78fcdfb81776116bc8daf8c7003ef3dbdbeeecb7f10ac34ea2",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/featured-icon.json",
+  "title": "Featured Icon",
+  "type": "registry:ui"
+}

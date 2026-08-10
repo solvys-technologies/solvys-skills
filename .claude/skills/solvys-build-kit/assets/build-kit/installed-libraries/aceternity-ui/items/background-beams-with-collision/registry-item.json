@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "background-beams-with-collision",
+  "shippedFiles": [
+    {
+      "bytes": 7147,
+      "path": "components/ui/background-beams-with-collision.tsx",
+      "sha256": "ef1b5d0b32cae6f127773efd227938673d7df5dd10fb61381494b1bb5de0aa54",
+      "target": "components/ui/background-beams-with-collision.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/background-beams-with-collision.json",
+  "title": "Background Beams With Collision",
+  "type": "registry:ui"
+}

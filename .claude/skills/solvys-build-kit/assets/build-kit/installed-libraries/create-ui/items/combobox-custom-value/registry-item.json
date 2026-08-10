@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "combobox-custom-value",
+  "registryDependencies": [
+    "combobox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1476,
+      "path": "registry/examples/combobox-custom-value.tsx",
+      "sha256": "7ad71089080eaff81661524c87bb2a0546fed97d0a38106434c22d815c97db45",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/combobox-custom-value.json",
+  "title": "Combobox Custom Value",
+  "type": "registry:example"
+}

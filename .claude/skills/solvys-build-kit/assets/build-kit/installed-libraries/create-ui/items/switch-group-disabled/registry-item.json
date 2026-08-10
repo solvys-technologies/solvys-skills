@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-group-disabled",
+  "registryDependencies": [
+    "switch-group",
+    "switch",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1176,
+      "path": "registry/examples/switch-group-disabled.tsx",
+      "sha256": "c197ab6c8ab7568e26300dac260ddf90b87e2b40baba3ac08dab66d0e22822f9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-group-disabled.json",
+  "title": "Switch Group Disabled",
+  "type": "registry:example"
+}

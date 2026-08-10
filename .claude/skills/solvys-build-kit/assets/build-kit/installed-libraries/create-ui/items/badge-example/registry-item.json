@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "badge-example",
+  "registryDependencies": [
+    "badge",
+    "spinner",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6075,
+      "path": "registry/examples/badge-example.tsx",
+      "sha256": "435022dd145ce98f07301506f8fc0db5020cb5a3c611e6820406588c5e0308b0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/badge-example.json",
+  "title": "Badge",
+  "type": "registry:example"
+}

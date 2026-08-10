@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "aspect-ratio-square",
+  "registryDependencies": [
+    "aspect-ratio"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 289,
+      "path": "registry/examples/aspect-ratio-square.tsx",
+      "sha256": "126b31df97dbc72e06d2e3b60ba5cb3ff6bf87139ce5d022c21cc417f3e801da",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/aspect-ratio-square.json",
+  "title": "Aspect Ratio Square",
+  "type": "registry:example"
+}

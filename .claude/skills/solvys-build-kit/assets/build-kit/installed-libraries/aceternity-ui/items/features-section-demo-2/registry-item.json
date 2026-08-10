@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react"
+  ],
+  "name": "features-section-demo-2",
+  "shippedFiles": [
+    {
+      "bytes": 3569,
+      "path": "components/features-section-demo-2.tsx",
+      "sha256": "209767bb9bc89e94d29f89c627d1d5e71b5e661dbca7fb29230dd11dda4a5e60",
+      "target": "components/features-section-demo-2.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/features-section-demo-2.json",
+  "status": "installed",
+  "title": "Features Section Demo 2",
+  "type": "registry:block"
+}

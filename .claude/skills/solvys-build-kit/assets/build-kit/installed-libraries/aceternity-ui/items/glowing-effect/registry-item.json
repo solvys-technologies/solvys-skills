@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "name": "glowing-effect",
+  "shippedFiles": [
+    {
+      "bytes": 6557,
+      "path": "components/ui/glowing-effect.tsx",
+      "sha256": "9d987ef5daada143f84daa1b51261934e4462c14ffb77303b3063575864ba0af",
+      "target": "components/ui/glowing-effect.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/glowing-effect.json",
+  "title": "Glowing Effect",
+  "type": "registry:ui"
+}

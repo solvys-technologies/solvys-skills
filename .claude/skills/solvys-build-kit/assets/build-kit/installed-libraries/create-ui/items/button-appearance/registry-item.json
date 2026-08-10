@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-appearance",
+  "registryDependencies": [
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 370,
+      "path": "registry/examples/button-appearance.tsx",
+      "sha256": "500eeb4f86b6bd9ed9fb69a179036cf6ab4bc238579563c22c235c4de8d604e6",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-appearance.json",
+  "title": "Button Appearance",
+  "type": "registry:example"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-profile",
+  "registryDependencies": [
+    "avatar",
+    "badge",
+    "button",
+    "dropdown-menu",
+    "switch"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3539,
+      "path": "registry/examples/dropdown-menu-profile.tsx",
+      "sha256": "f65dea5e4555cd31f50a7a7a786adac20f2e75c58fa0bad77b4a82a3a2213701",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-profile.json",
+  "title": "Dropdown Menu Profile",
+  "type": "registry:example"
+}

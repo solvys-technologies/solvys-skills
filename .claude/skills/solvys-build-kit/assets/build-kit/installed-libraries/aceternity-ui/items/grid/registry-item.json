@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "grid",
+  "shippedFiles": [
+    {
+      "bytes": 674,
+      "path": "components/ui/grid.tsx",
+      "sha256": "bebff9cd82d0d330a18f6e9fddbd570cd09006b5246823a375663b34cbd3d8c8",
+      "target": "components/ui/grid.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/grid.json",
+  "title": "Grid",
+  "type": "registry:ui"
+}

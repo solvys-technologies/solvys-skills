@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-items-free",
+  "registryDependencies": [
+    "button",
+    "dropdown-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 919,
+      "path": "registry/examples/dropdown-menu-items-free.tsx",
+      "sha256": "af922558be2d447a682efcc8137026ce9754df2eb056e7bff84152bf900665d6",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-items-free.json",
+  "title": "Dropdown Menu Items (Free)",
+  "type": "registry:example"
+}

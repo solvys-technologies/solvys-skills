@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-variants",
+  "registryDependencies": [
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 768,
+      "path": "registry/examples/button-variants.tsx",
+      "sha256": "bfe60ece6a85f15deb6f80109da6af5cdc85580fa2c8fd41135c8e296b623f92",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-variants.json",
+  "title": "Button Variants",
+  "type": "registry:example"
+}

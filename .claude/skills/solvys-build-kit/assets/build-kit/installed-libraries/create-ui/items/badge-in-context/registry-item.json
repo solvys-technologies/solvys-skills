@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "badge-in-context",
+  "registryDependencies": [
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2924,
+      "path": "registry/examples/badge-in-context.tsx",
+      "sha256": "9e4fa86ffa8f2a88a3dbbc001987aa009e7cc0301930bf0f85cc60047d8fc0a1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/badge-in-context.json",
+  "title": "Badge In Context",
+  "type": "registry:example"
+}

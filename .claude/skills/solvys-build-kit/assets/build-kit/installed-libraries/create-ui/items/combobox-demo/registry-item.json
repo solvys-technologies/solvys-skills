@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "combobox-demo",
+  "registryDependencies": [
+    "combobox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 998,
+      "path": "registry/examples/combobox-demo.tsx",
+      "sha256": "8ec44b70413b209c651995a4fc6c0cdcd73f92909e80ac27adcfede7ba7c5360",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/combobox-demo.json",
+  "title": "Combobox Demo",
+  "type": "registry:example"
+}

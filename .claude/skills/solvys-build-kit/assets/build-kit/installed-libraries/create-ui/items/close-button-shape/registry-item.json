@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "close-button-shape",
+  "registryDependencies": [
+    "close-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 351,
+      "path": "registry/examples/close-button-shape.tsx",
+      "sha256": "101833510b3979186fea8980620c634c6d13c33208a54af4ca74a9591c0ad4a0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/close-button-shape.json",
+  "title": "Close Button Shape",
+  "type": "registry:example"
+}

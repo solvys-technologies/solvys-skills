@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-shape",
+  "registryDependencies": [
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 304,
+      "path": "registry/examples/button-shape.tsx",
+      "sha256": "518127e7ecb0426afb356d6adfd8976c11de5bd0a9589dafbc9a271d0dbfba58",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-shape.json",
+  "title": "Button Shape",
+  "type": "registry:example"
+}

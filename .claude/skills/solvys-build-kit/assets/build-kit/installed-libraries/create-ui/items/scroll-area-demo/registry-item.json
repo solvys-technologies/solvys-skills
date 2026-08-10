@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "scroll-area-demo",
+  "registryDependencies": [
+    "scroll-area",
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1422,
+      "path": "registry/examples/scroll-area-demo.tsx",
+      "sha256": "f4dc3d92347882f46caf0c089ad7fac325ff62f65cf27db2cdb25e1b52bacd36",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/scroll-area-demo.json",
+  "title": "Scroll Area Demo",
+  "type": "registry:example"
+}

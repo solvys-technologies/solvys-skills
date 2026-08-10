@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "field-loading",
+  "registryDependencies": [
+    "field",
+    "input",
+    "textarea"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 954,
+      "path": "registry/examples/field-loading.tsx",
+      "sha256": "8ae61b6fe141bcf56d61d887d3313c4ccd74659066a3004235bb5e043cc9479a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/field-loading.json",
+  "title": "Field Loading",
+  "type": "registry:example"
+}

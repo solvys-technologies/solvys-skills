@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "field-grouping",
+  "registryDependencies": [
+    "field",
+    "checkbox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1271,
+      "path": "registry/examples/field-grouping.tsx",
+      "sha256": "c5d913cfc20ff5a45b02a401707ac451b280a69d184e5ea5ab4759d337974113",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/field-grouping.json",
+  "title": "Field Grouping",
+  "type": "registry:example"
+}

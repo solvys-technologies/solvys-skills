@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "textarea-with-helper",
+  "registryDependencies": [
+    "field",
+    "label",
+    "textarea"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1088,
+      "path": "registry/examples/textarea-with-helper.tsx",
+      "sha256": "7d1a582207ff78dad754c49d2a5267769788528cee536c1da4b01341370b5dc9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/textarea-with-helper.json",
+  "title": "Textarea With Helper",
+  "type": "registry:example"
+}

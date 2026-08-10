@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-disabled",
+  "registryDependencies": [
+    "tab-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 705,
+      "path": "registry/examples/tab-menu-disabled.tsx",
+      "sha256": "2cd51289cc5bf8b17b8d0ac53ff936c3255821db483bfe6e5fcaf67ac3b8515c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-disabled.json",
+  "title": "TabMenu Disabled",
+  "type": "registry:example"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority",
+    "react-aria-components"
+  ],
+  "description": "Accessible select for picking one or multiple options from a dropdown list; size and state inherit from Field, compact width variant",
+  "name": "select",
+  "registryDependencies": [
+    "field",
+    "input",
+    "spinner",
+    "dropdown-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 18079,
+      "path": "registry/ui/select.tsx",
+      "sha256": "44bf9a8f3d0da650e49faf8c9fcf33ef65fb0afd9ebf509feca1ea7d85d90690",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select.json",
+  "title": "Select",
+  "type": "registry:ui"
+}

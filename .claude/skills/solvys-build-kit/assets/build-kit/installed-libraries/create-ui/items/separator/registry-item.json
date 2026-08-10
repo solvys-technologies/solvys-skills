@@ -1,0 +1,17 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "description": "Horizontal divider line; optional inline label or icon content aligned start, center or end",
+  "name": "separator",
+  "shippedFiles": [
+    {
+      "bytes": 2020,
+      "path": "registry/ui/separator.tsx",
+      "sha256": "16660ffc9ba1e7a0d2e911c066c979fcc5e80e52280b34795f913a9eb1279920",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/separator.json",
+  "title": "Separator",
+  "type": "registry:ui"
+}

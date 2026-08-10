@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "resizable-navbar",
+  "shippedFiles": [
+    {
+      "bytes": 8134,
+      "path": "components/ui/resizable-navbar.tsx",
+      "sha256": "d4188bfc54caef986fe5a91ffd3ede454a2ce8773d5dffba01fa6615d5d8a5af",
+      "target": "components/ui/resizable-navbar.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/resizable-navbar.json",
+  "title": "Resizable Navbar",
+  "type": "registry:ui"
+}

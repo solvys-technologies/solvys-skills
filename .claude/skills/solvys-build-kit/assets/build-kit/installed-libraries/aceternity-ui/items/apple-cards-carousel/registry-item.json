@@ -1,0 +1,30 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+  ],
+  "name": "apple-cards-carousel",
+  "registryDependencies": [
+    "https://ui.aceternity.com/registry/use-outside-click.json"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 8851,
+      "path": "components/ui/apple-cards-carousel.tsx",
+      "sha256": "fa1b1a602acc90e231a6aa5aacbecbe27592a18363d84d1a7df0a2feb76e9a68",
+      "target": "components/ui/apple-cards-carousel.tsx",
+      "type": "registry:ui"
+    },
+    {
+      "bytes": 692,
+      "path": "hooks/use-outside-click.tsx",
+      "sha256": "6c6bcad82c0fc7fc993935f651985ef4f6bd631c24ff5e87d25e5a31a60802e4",
+      "target": "hooks/use-outside-click.tsx",
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/apple-cards-carousel.json",
+  "title": "Apple Cards Carousel",
+  "type": "registry:ui"
+}

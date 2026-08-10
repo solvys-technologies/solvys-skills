@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "spinner-loading",
+  "registryDependencies": [
+    "spinner",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1696,
+      "path": "registry/examples/spinner-loading.tsx",
+      "sha256": "4227ce1aa7825893b1d818157a4dd32b244971f3240265d988a901b80156ea9a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/spinner-loading.json",
+  "title": "Spinner Loading",
+  "type": "registry:example"
+}

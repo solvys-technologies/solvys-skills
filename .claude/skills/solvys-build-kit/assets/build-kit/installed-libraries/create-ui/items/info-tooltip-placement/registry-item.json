@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "info-tooltip-placement",
+  "registryDependencies": [
+    "info-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 690,
+      "path": "registry/examples/info-tooltip-placement.tsx",
+      "sha256": "ea1d7c5fd3a293557b92fc63c99eac592759bd2c48ab545ac41f9869f96cd76c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/info-tooltip-placement.json",
+  "title": "Info Tooltip Placement",
+  "type": "registry:example"
+}

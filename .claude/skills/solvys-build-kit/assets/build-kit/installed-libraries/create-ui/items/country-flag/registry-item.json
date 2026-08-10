@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets"
+  ],
+  "description": "CountryFlag and CurrencyFlag SVG icons resolved from an ISO code prop, with a dashed-circle fallback",
+  "name": "country-flag",
+  "registryDependencies": [
+    "country-flags",
+    "currency-flags"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1531,
+      "path": "registry/ui/country-flag.tsx",
+      "sha256": "41a49f3a4aae2890f578d5bbe74343eb66fef205a8ae7cfa080e74db3e216743",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/country-flag.json",
+  "title": "Country Flag",
+  "type": "registry:ui"
+}

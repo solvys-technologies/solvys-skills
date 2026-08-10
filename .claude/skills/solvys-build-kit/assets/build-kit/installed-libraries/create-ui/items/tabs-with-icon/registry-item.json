@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-with-icon",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1836,
+      "path": "registry/examples/tabs-with-icon.tsx",
+      "sha256": "1b7cea41a2c1d429779b252eec21ee281f7baa2b76ce7370f6fdf5337a30679e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-with-icon.json",
+  "title": "Tabs With Icon",
+  "type": "registry:example"
+}

@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "dotted-glow-background",
+  "shippedFiles": [
+    {
+      "bytes": 9381,
+      "path": "components/ui/dotted-glow-background.tsx",
+      "sha256": "12820db19fead2d91f374165389258f28ff45633cc893974e80eb65036e649f1",
+      "target": "components/ui/dotted-glow-background.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/dotted-glow-background.json",
+  "title": "Dotted Glow Background",
+  "type": "registry:ui"
+}

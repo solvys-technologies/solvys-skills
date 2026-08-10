@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-card-picker",
+  "registryDependencies": [
+    "select",
+    "field",
+    "button",
+    "@create-ui/assets"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2865,
+      "path": "registry/examples/select-card-picker.tsx",
+      "sha256": "750d10b5118f99709abbc58d22e174dc30c14eb8c417787d949c6108b4385e1c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-card-picker.json",
+  "title": "Select Card Picker",
+  "type": "registry:example"
+}

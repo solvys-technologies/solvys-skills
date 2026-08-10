@@ -1,0 +1,23 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "react-syntax-highlighter"
+  ],
+  "devDependencies": [
+    "@types/react-syntax-highlighter"
+  ],
+  "name": "code-block",
+  "shippedFiles": [
+    {
+      "bytes": 3255,
+      "path": "components/ui/code-block.tsx",
+      "sha256": "3715eb017b80e5c019db8d60a22c1d0e72390cc6c17ec958bd9358548a19b076",
+      "target": "components/ui/code-block.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/code-block.json",
+  "title": "Code Block",
+  "type": "registry:ui"
+}

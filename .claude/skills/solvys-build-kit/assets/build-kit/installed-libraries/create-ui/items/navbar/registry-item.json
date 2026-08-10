@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "navbar",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/navbar.json",
+  "status": "access-gated",
+  "title": "Navbar",
+  "type": "registry:ui"
+}

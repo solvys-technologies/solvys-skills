@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "pricing-with-switch",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/pricing-with-switch.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

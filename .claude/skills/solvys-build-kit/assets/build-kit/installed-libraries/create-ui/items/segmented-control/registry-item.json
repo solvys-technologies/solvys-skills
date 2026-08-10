@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Single-select between 2-7 options with an animated sliding indicator; value/onValueChange, flat or grouped appearance",
+  "name": "segmented-control",
+  "shippedFiles": [
+    {
+      "bytes": 15275,
+      "path": "registry/ui/segmented-control.tsx",
+      "sha256": "14e4126a718562b8de7885762fa9a6efb0287c1c1b0ccf8a970c56afe262c8aa",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/segmented-control.json",
+  "title": "Segmented Control",
+  "type": "registry:ui"
+}

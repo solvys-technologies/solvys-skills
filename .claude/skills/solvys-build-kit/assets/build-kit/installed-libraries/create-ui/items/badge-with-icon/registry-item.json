@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "badge-with-icon",
+  "registryDependencies": [
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 590,
+      "path": "registry/examples/badge-with-icon.tsx",
+      "sha256": "18dfbd96236326dcc600eb41261e41f60cae60d84fdefba07e13f4b57d2c03aa",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/badge-with-icon.json",
+  "title": "Badge With Icon",
+  "type": "registry:example"
+}

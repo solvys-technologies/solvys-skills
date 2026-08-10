@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "react-imask",
+    "card-validator"
+  ],
+  "name": "use-credit-card-input",
+  "shippedFiles": [
+    {
+      "bytes": 1812,
+      "path": "registry/hooks/use-credit-card-input.ts",
+      "sha256": "f88518c7bd96f99533b75e1545d85d8a9f255b97a1465d8795d318edd8630eb8",
+      "target": null,
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/use-credit-card-input.json",
+  "type": "registry:hook"
+}

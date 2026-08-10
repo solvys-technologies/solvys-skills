@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "cta-with-masonry-images",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/cta-with-masonry-images.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

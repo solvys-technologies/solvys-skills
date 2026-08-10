@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "text-link-sizes",
+  "registryDependencies": [
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 494,
+      "path": "registry/examples/text-link-sizes.tsx",
+      "sha256": "c0fab5b68e667fc981fd14f744192d313dea771bcd31e76a69ad9246defc5eea",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/text-link-sizes.json",
+  "title": "TextLink Sizes",
+  "type": "registry:example"
+}

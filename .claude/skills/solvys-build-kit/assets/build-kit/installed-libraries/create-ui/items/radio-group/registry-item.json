@@ -1,0 +1,25 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Radix radio group wrapped in a Field; cascades variant and size to Radio items, placement left or right",
+  "name": "radio-group",
+  "registryDependencies": [
+    "radio",
+    "field"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2638,
+      "path": "registry/ui/radio-group.tsx",
+      "sha256": "99c811b71e73d1e5b1e4a24ca68dad563d3fa6a9ae39606ac8f71e483b68e8a4",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/radio-group.json",
+  "title": "Radio Group",
+  "type": "registry:ui"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "status-badge-with-label",
+  "registryDependencies": [
+    "status-badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 665,
+      "path": "registry/examples/status-badge-with-label.tsx",
+      "sha256": "9dcb66d5ad97146eeadee51bfc5487385a4ca6eb7ee5e44d936de473cf0176ec",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/status-badge-with-label.json",
+  "title": "Status Badge With Label",
+  "type": "registry:example"
+}

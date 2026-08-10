@@ -1,7 +1,9 @@
 {
+  "accessGatedItemCount": 0,
   "autoUpdate": false,
   "catalogItemCount": 103,
   "catalogUrl": "https://beui.dev/r/registry.json",
+  "installedItemCount": 103,
   "items": [
     {
       "fileCount": 4,
@@ -37,6 +39,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/tilt-card.json",
+      "status": "installed",
       "title": "Tilt Card",
       "type": "registry:component"
     },
@@ -74,6 +77,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/button-base.json",
+      "status": "installed",
       "title": "Button Button",
       "type": "registry:component"
     },
@@ -118,6 +122,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/button-stateful.json",
+      "status": "installed",
       "title": "Button Stateful Button",
       "type": "registry:component"
     },
@@ -169,6 +174,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/button-magnetic.json",
+      "status": "installed",
       "title": "Button Magnetic Button",
       "type": "registry:component"
     },
@@ -199,6 +205,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/hold-action-button.json",
+      "status": "installed",
       "title": "Animated CTA Buttons Hold Action Button",
       "type": "registry:component"
     },
@@ -229,6 +236,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/slide-action-button.json",
+      "status": "installed",
       "title": "Animated CTA Buttons Slide Action Button",
       "type": "registry:component"
     },
@@ -252,6 +260,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/marquee.json",
+      "status": "installed",
       "title": "Marquee",
       "type": "registry:component"
     },
@@ -282,6 +291,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/tabs.json",
+      "status": "installed",
       "title": "Tabs",
       "type": "registry:component"
     },
@@ -305,6 +315,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/switch.json",
+      "status": "installed",
       "title": "Switch",
       "type": "registry:component"
     },
@@ -328,6 +339,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/input.json",
+      "status": "installed",
       "title": "Input",
       "type": "registry:component"
     },
@@ -358,6 +370,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/select.json",
+      "status": "installed",
       "title": "Select Select",
       "type": "registry:component"
     },
@@ -381,6 +394,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/select-morph.json",
+      "status": "installed",
       "title": "Select Morph Select",
       "type": "registry:component"
     },
@@ -411,6 +425,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/checkbox.json",
+      "status": "installed",
       "title": "Checkbox",
       "type": "registry:component"
     },
@@ -441,6 +456,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/radio.json",
+      "status": "installed",
       "title": "Radio Group",
       "type": "registry:component"
     },
@@ -471,6 +487,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/bottom-sheet.json",
+      "status": "installed",
       "title": "Bottom Sheet",
       "type": "registry:component"
     },
@@ -501,6 +518,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/pull-to-refresh.json",
+      "status": "installed",
       "title": "Pull to Refresh",
       "type": "registry:component"
     },
@@ -531,6 +549,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/shared-layout-bg.json",
+      "status": "installed",
       "title": "Shared Layout Background",
       "type": "registry:component"
     },
@@ -554,6 +573,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/bounce-sidebar.json",
+      "status": "installed",
       "title": "Bounce Sidebar",
       "type": "registry:component"
     },
@@ -591,6 +611,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/animated-sidebar.json",
+      "status": "installed",
       "title": "Animated Sidebar",
       "type": "registry:component"
     },
@@ -628,6 +649,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/preview-rail.json",
+      "status": "installed",
       "title": "Preview Rail",
       "type": "registry:component"
     },
@@ -658,6 +680,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/dock.json",
+      "status": "installed",
       "title": "Dock",
       "type": "registry:component"
     },
@@ -695,6 +718,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/tooltip.json",
+      "status": "installed",
       "title": "Tooltip",
       "type": "registry:component"
     },
@@ -725,6 +749,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/context-menu.json",
+      "status": "installed",
       "title": "Animated Context Menu",
       "type": "registry:component"
     },
@@ -755,6 +780,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/popover.json",
+      "status": "installed",
       "title": "Popover Gooey Popover",
       "type": "registry:component"
     },
@@ -792,6 +818,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/popover-morph.json",
+      "status": "installed",
       "title": "Popover Morph Popover",
       "type": "registry:component"
     },
@@ -822,6 +849,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/morphing-modal.json",
+      "status": "installed",
       "title": "Morphing Modal",
       "type": "registry:component"
     },
@@ -852,6 +880,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/center-morph-modal.json",
+      "status": "installed",
       "title": "Center Morph Modal",
       "type": "registry:component"
     },
@@ -882,6 +911,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/chromatic-text-reveal.json",
+      "status": "installed",
       "title": "Text Animation Dia Text Animation",
       "type": "registry:component"
     },
@@ -912,6 +942,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/text-reveal.json",
+      "status": "installed",
       "title": "Text Animation Text Reveal",
       "type": "registry:component"
     },
@@ -942,6 +973,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/text-shimmer.json",
+      "status": "installed",
       "title": "Text Animation Text Shimmer",
       "type": "registry:component"
     },
@@ -979,6 +1011,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/text-cascade.json",
+      "status": "installed",
       "title": "Text Animation Text Cascade",
       "type": "registry:component"
     },
@@ -1009,6 +1042,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/number-ticker.json",
+      "status": "installed",
       "title": "Number Animation Number Ticker",
       "type": "registry:component"
     },
@@ -1039,6 +1073,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/animated-number.json",
+      "status": "installed",
       "title": "Number Animation Animated Number",
       "type": "registry:component"
     },
@@ -1069,6 +1104,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/animated-badge.json",
+      "status": "installed",
       "title": "Animated Badge",
       "type": "registry:component"
     },
@@ -1106,6 +1142,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/action-swap-cascade.json",
+      "status": "installed",
       "title": "Action Swap Cascade",
       "type": "registry:component"
     },
@@ -1143,6 +1180,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/action-swap-blur.json",
+      "status": "installed",
       "title": "Action Swap Blur",
       "type": "registry:component"
     },
@@ -1180,6 +1218,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/action-swap-roll.json",
+      "status": "installed",
       "title": "Action Swap Roll",
       "type": "registry:component"
     },
@@ -1210,6 +1249,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/animated-toast-stack.json",
+      "status": "installed",
       "title": "Animated Toast Stack",
       "type": "registry:component"
     },
@@ -1247,6 +1287,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/theme-toggle.json",
+      "status": "installed",
       "title": "Theme Toggle",
       "type": "registry:component"
     },
@@ -1277,6 +1318,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/bouncy-accordion.json",
+      "status": "installed",
       "title": "Bouncy Accordion",
       "type": "registry:component"
     },
@@ -1307,6 +1349,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/drawer.json",
+      "status": "installed",
       "title": "Drawer",
       "type": "registry:component"
     },
@@ -1323,6 +1366,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/smooth-scroll.json",
+      "status": "installed",
       "title": "Scroll Animation Smooth Scroll",
       "type": "registry:component"
     },
@@ -1353,6 +1397,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/scroll-progress.json",
+      "status": "installed",
       "title": "Scroll Animation Scroll Progress",
       "type": "registry:component"
     },
@@ -1376,6 +1421,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/parallax.json",
+      "status": "installed",
       "title": "Scroll Animation Parallax",
       "type": "registry:component"
     },
@@ -1406,6 +1452,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/scroll-to.json",
+      "status": "installed",
       "title": "Scroll Animation Scroll To",
       "type": "registry:component"
     },
@@ -1436,6 +1483,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/scroll-reveal.json",
+      "status": "installed",
       "title": "Scroll Animation Scroll Reveal",
       "type": "registry:component"
     },
@@ -1473,6 +1521,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/range-slider.json",
+      "status": "installed",
       "title": "Range Slider Range Slider",
       "type": "registry:component"
     },
@@ -1510,6 +1559,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/range-slider-fluid.json",
+      "status": "installed",
       "title": "Range Slider Fluid Slider",
       "type": "registry:component"
     },
@@ -1540,6 +1590,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/range-slider-wave.json",
+      "status": "installed",
       "title": "Range Slider Wave Slider",
       "type": "registry:component"
     },
@@ -1577,6 +1628,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/range-slider-bubble.json",
+      "status": "installed",
       "title": "Range Slider Bubble Slider",
       "type": "registry:component"
     },
@@ -1607,6 +1659,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/range-slider-ruler.json",
+      "status": "installed",
       "title": "Range Slider Ruler Slider",
       "type": "registry:component"
     },
@@ -1637,6 +1690,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/wheel-picker.json",
+      "status": "installed",
       "title": "Wheel Picker",
       "type": "registry:component"
     },
@@ -1751,6 +1805,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/table.json",
+      "status": "installed",
       "title": "Table Data Table",
       "type": "registry:component"
     },
@@ -1865,6 +1920,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/table-editable.json",
+      "status": "installed",
       "title": "Table Editable Table",
       "type": "registry:component"
     },
@@ -1979,6 +2035,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/table-async.json",
+      "status": "installed",
       "title": "Table Async Table",
       "type": "registry:component"
     },
@@ -2002,6 +2059,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/shader-background.json",
+      "status": "installed",
       "title": "Shader Background",
       "type": "registry:component"
     },
@@ -2025,6 +2083,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/cylinder-carousel.json",
+      "status": "installed",
       "title": "Cylinder Carousel",
       "type": "registry:component"
     },
@@ -2055,6 +2114,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/loader.json",
+      "status": "installed",
       "title": "Loader",
       "type": "registry:component"
     },
@@ -2092,6 +2152,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/message-bubble.json",
+      "status": "installed",
       "title": "Message Bubble",
       "type": "registry:component"
     },
@@ -2157,6 +2218,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/message.json",
+      "status": "installed",
       "title": "Message",
       "type": "registry:component"
     },
@@ -2201,6 +2263,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/message-scroller.json",
+      "status": "installed",
       "title": "Message Scroller",
       "type": "registry:component"
     },
@@ -2294,6 +2357,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/prompt-input.json",
+      "status": "installed",
       "title": "Prompt Input",
       "type": "registry:component"
     },
@@ -2345,6 +2409,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/todo-list.json",
+      "status": "installed",
       "title": "Todo List",
       "type": "registry:component"
     },
@@ -2382,6 +2447,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/code-block.json",
+      "status": "installed",
       "title": "Code Block",
       "type": "registry:component"
     },
@@ -2503,6 +2569,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/approval-card.json",
+      "status": "installed",
       "title": "Approval Card",
       "type": "registry:component"
     },
@@ -2547,6 +2614,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/file-diff.json",
+      "status": "installed",
       "title": "File Diff",
       "type": "registry:component"
     },
@@ -2605,6 +2673,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/tool-result.json",
+      "status": "installed",
       "title": "Tool Result",
       "type": "registry:component"
     },
@@ -2656,6 +2725,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/streaming-response.json",
+      "status": "installed",
       "title": "Streaming Response",
       "type": "registry:component"
     },
@@ -2693,6 +2763,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/image-generation.json",
+      "status": "installed",
       "title": "Image Generation",
       "type": "registry:component"
     },
@@ -2737,6 +2808,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/tool-approval.json",
+      "status": "installed",
       "title": "Tool Approval",
       "type": "registry:component"
     },
@@ -2781,6 +2853,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/citations.json",
+      "status": "installed",
       "title": "Citations",
       "type": "registry:component"
     },
@@ -2853,6 +2926,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/agent-activity.json",
+      "status": "installed",
       "title": "Agent Activity",
       "type": "registry:component"
     },
@@ -2897,6 +2971,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/reasoning-text.json",
+      "status": "installed",
       "title": "Agent Loading States Reasoning Text",
       "type": "registry:component"
     },
@@ -2934,6 +3009,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/thinking-shimmer.json",
+      "status": "installed",
       "title": "Agent Loading States Thinking Shimmer",
       "type": "registry:component"
     },
@@ -2964,6 +3040,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/agent-progress.json",
+      "status": "installed",
       "title": "Agent Loading States Agent Progress",
       "type": "registry:component"
     },
@@ -3008,6 +3085,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/ai-sidebar.json",
+      "status": "installed",
       "title": "AI Sidebar",
       "type": "registry:component"
     },
@@ -3332,6 +3410,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/chat-app.json",
+      "status": "installed",
       "title": "Chat App",
       "type": "registry:component"
     },
@@ -3362,6 +3441,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/infinite-masonry.json",
+      "status": "installed",
       "title": "Infinite Masonry",
       "type": "registry:block"
     },
@@ -3406,6 +3486,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/notification-stack.json",
+      "status": "installed",
       "title": "Notification Stack",
       "type": "registry:block"
     },
@@ -3450,6 +3531,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/knockout-wheel.json",
+      "status": "installed",
       "title": "Fixtures Knockout Wheel",
       "type": "registry:block"
     },
@@ -3480,6 +3562,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/knockout-bracket.json",
+      "status": "installed",
       "title": "Fixtures Knockout Bracket",
       "type": "registry:block"
     },
@@ -3594,6 +3677,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/availability-scheduler.json",
+      "status": "installed",
       "title": "Availability Scheduler",
       "type": "registry:block"
     },
@@ -3687,6 +3771,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/swap.json",
+      "status": "installed",
       "title": "Multi-chain Swap",
       "type": "registry:block"
     },
@@ -3717,6 +3802,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/dynamic-island.json",
+      "status": "installed",
       "title": "Dynamic Island",
       "type": "registry:block"
     },
@@ -3747,6 +3833,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/command-palette.json",
+      "status": "installed",
       "title": "Command Palette",
       "type": "registry:block"
     },
@@ -3770,6 +3857,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/expandable-action-bar.json",
+      "status": "installed",
       "title": "Expandable Action Bar",
       "type": "registry:block"
     },
@@ -3807,6 +3895,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/overflow-actions.json",
+      "status": "installed",
       "title": "Overflow Actions",
       "type": "registry:block"
     },
@@ -3837,6 +3926,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/expandable-tabs.json",
+      "status": "installed",
       "title": "Expandable Tabs",
       "type": "registry:block"
     },
@@ -3867,6 +3957,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/morphing-tabs.json",
+      "status": "installed",
       "title": "Morphing Tabs",
       "type": "registry:block"
     },
@@ -3890,6 +3981,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/swipeable-list.json",
+      "status": "installed",
       "title": "Swipeable List",
       "type": "registry:block"
     },
@@ -3934,6 +4026,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/attachment-upload.json",
+      "status": "installed",
       "title": "File Upload Attachment Upload",
       "type": "registry:block"
     },
@@ -3964,6 +4057,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/file-upload.json",
+      "status": "installed",
       "title": "File Upload Upload Queue",
       "type": "registry:block"
     },
@@ -4029,6 +4123,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/prediction-market.json",
+      "status": "installed",
       "title": "Prediction Market",
       "type": "registry:block"
     },
@@ -4178,6 +4273,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/wallet-card.json",
+      "status": "installed",
       "title": "Wallet Card",
       "type": "registry:block"
     },
@@ -4208,6 +4304,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/otp-input.json",
+      "status": "installed",
       "title": "OTP Input",
       "type": "registry:block"
     },
@@ -4294,6 +4391,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/signup-form.json",
+      "status": "installed",
       "title": "Sign Up Form",
       "type": "registry:block"
     },
@@ -4324,6 +4422,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/bloom-menu.json",
+      "status": "installed",
       "title": "Bloom Menu",
       "type": "registry:block"
     },
@@ -4396,6 +4495,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/feedback-widget.json",
+      "status": "installed",
       "title": "Feedback Widget",
       "type": "registry:block"
     },
@@ -4440,6 +4540,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/not-found-glitch.json",
+      "status": "installed",
       "title": "404 / Not Found Glitch",
       "type": "registry:block"
     },
@@ -4491,6 +4592,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/not-found-magnetic.json",
+      "status": "installed",
       "title": "404 / Not Found Magnetic",
       "type": "registry:block"
     },
@@ -4535,6 +4637,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/not-found-spotlight.json",
+      "status": "installed",
       "title": "404 / Not Found Spotlight",
       "type": "registry:block"
     },
@@ -4579,6 +4682,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/not-found-stacked.json",
+      "status": "installed",
       "title": "404 / Not Found Stacked",
       "type": "registry:block"
     },
@@ -4630,6 +4734,7 @@
         }
       ],
       "sourceUrl": "https://beui.dev/r/not-found-terminal.json",
+      "status": "installed",
       "title": "404 / Not Found Terminal",
       "type": "registry:block"
     }
@@ -4638,5 +4743,7 @@
   "name": "BeUI",
   "schemaVersion": 1,
   "snapshotMode": "full-registry-source",
-  "sourceUrl": "https://beui.dev/"
+  "sourceUrl": "https://beui.dev/",
+  "status": "installed",
+  "unavailableItemCount": 0
 }

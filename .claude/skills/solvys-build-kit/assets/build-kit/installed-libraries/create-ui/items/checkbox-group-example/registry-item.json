@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-group-example",
+  "registryDependencies": [
+    "checkbox-group",
+    "checkbox",
+    "field",
+    "label",
+    "badge",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 15313,
+      "path": "registry/examples/checkbox-group-example.tsx",
+      "sha256": "f0b7b05e10ae822d01e5b6966cee30b4b7c55db7c3f3336a05a79086a4e5e3e0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-group-example.json",
+  "title": "Checkbox Group",
+  "type": "registry:example"
+}

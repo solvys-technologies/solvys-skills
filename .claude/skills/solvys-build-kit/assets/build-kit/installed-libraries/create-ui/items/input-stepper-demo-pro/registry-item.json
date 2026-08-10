@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-stepper-demo-pro",
+  "registryDependencies": [
+    "input-stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 839,
+      "path": "registry/examples/input-stepper-demo-pro.tsx",
+      "sha256": "a9db3cd63fb41c306c68f6790c16c5e17a04f346a84e63439c7264d0dbf1b72e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-stepper-demo-pro.json",
+  "title": "Input Stepper Demo (Pro)",
+  "type": "registry:example"
+}

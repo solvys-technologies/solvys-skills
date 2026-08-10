@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "separator-content",
+  "registryDependencies": [
+    "separator",
+    "badge",
+    "button",
+    "button-group",
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1863,
+      "path": "registry/examples/separator-content.tsx",
+      "sha256": "02478e5b2bf4a72b716d60f8bc86b2eb438abbfe6c6df7cf2e518066d89ff505",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/separator-content.json",
+  "title": "Separator Content",
+  "type": "registry:example"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "libphonenumber-js"
+  ],
+  "name": "use-phone-input",
+  "shippedFiles": [
+    {
+      "bytes": 14905,
+      "path": "registry/hooks/use-phone-input.ts",
+      "sha256": "9d5d81790eb5f1ccdaccd273d833219b27a6a276c438f4e7a8f573e54ac19e01",
+      "target": null,
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/use-phone-input.json",
+  "type": "registry:hook"
+}

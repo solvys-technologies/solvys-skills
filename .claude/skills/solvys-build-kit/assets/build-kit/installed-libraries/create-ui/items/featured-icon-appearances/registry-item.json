@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "featured-icon-appearances",
+  "registryDependencies": [
+    "featured-icon"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 564,
+      "path": "registry/examples/featured-icon-appearances.tsx",
+      "sha256": "66faa1b4424d746d371b5cf210628ea9f7ce7ee8748e140df68bc07b0e286041",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/featured-icon-appearances.json",
+  "title": "Featured Icon Appearances",
+  "type": "registry:example"
+}

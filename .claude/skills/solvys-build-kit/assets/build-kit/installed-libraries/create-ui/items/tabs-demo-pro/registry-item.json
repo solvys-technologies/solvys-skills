@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-demo-pro",
+  "registryDependencies": [
+    "tabs",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2398,
+      "path": "registry/examples/tabs-demo-pro.tsx",
+      "sha256": "8320004c88801797d5a5e547a7b998ebfdd3d2e743ec44b5ec03b03fbb1584a4",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-demo-pro.json",
+  "title": "Tabs Demo (Pro)",
+  "type": "registry:example"
+}

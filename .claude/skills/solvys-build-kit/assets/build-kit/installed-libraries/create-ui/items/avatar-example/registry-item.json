@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-example",
+  "registryDependencies": [
+    "avatar",
+    "button",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 28280,
+      "path": "registry/examples/avatar-example.tsx",
+      "sha256": "8593e0d357fe79b401f5f9a0d856fe3fdeb13d20c12b0b556df7ea0c94a71927",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-example.json",
+  "title": "Avatar",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "featured-icon-sizes",
+  "registryDependencies": [
+    "featured-icon"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 548,
+      "path": "registry/examples/featured-icon-sizes.tsx",
+      "sha256": "73954b1a9e941eb29df842f70cc987676142ad375a0a69e89b3cac6967cc0acc",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/featured-icon-sizes.json",
+  "title": "Featured Icon Sizes",
+  "type": "registry:example"
+}

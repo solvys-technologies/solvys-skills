@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-variant-vertical-button",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1234,
+      "path": "registry/examples/tabs-variant-vertical-button.tsx",
+      "sha256": "7e2488b4ede43041dee91add74253ecdbe7e5b5c33a132df43ca40a8fb7ac326",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-variant-vertical-button.json",
+  "title": "Tabs Variant Vertical Button",
+  "type": "registry:example"
+}

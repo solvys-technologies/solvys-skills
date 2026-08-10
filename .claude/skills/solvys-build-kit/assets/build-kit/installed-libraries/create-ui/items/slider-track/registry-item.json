@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "slider-track",
+  "registryDependencies": [
+    "slider"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 553,
+      "path": "registry/examples/slider-track.tsx",
+      "sha256": "a7aba97f1d4258f0e896a4d1ed746dac5b41cc03af8f001f9c2a8a93c4067e4d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider-track.json",
+  "title": "Slider Track",
+  "type": "registry:example"
+}

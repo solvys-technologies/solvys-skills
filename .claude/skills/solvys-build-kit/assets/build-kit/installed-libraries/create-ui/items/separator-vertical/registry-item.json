@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "separator-vertical",
+  "registryDependencies": [
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 821,
+      "path": "registry/examples/separator-vertical.tsx",
+      "sha256": "de7b34864569e4d27c2a9c7941f037305d4602acc14e5460488227024da77ffa",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/separator-vertical.json",
+  "title": "Separator Vertical",
+  "type": "registry:example"
+}

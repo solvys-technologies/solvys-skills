@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "command-large-items",
+  "registryDependencies": [
+    "command",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2939,
+      "path": "registry/examples/command-large-items.tsx",
+      "sha256": "c9277a5c04ffd9ce964d987832fc1098cc631c302f37e08d1ae11e63bfe15ef3",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/command-large-items.json",
+  "title": "Command Large Items",
+  "type": "registry:example"
+}

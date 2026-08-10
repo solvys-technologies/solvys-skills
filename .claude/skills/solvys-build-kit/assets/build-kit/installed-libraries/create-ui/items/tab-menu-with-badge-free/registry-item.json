@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-with-badge-free",
+  "registryDependencies": [
+    "tab-menu",
+    "badge",
+    "status-badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1035,
+      "path": "registry/examples/tab-menu-with-badge-free.tsx",
+      "sha256": "cc72322f66f8fadd63e48e894196906c1df761ef5cb6f419097250232853da4d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-with-badge-free.json",
+  "title": "TabMenu With Badge (Free)",
+  "type": "registry:example"
+}

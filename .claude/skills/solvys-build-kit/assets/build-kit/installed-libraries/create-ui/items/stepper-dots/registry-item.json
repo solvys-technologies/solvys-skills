@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "stepper-dots",
+  "registryDependencies": [
+    "stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 403,
+      "path": "registry/examples/stepper-dots.tsx",
+      "sha256": "b278f4798c06733043b8180ab00094cd5f101fd5de45d6b103012024ea60f2ea",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/stepper-dots.json",
+  "title": "Stepper Dots",
+  "type": "registry:example"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-group-placement",
+  "registryDependencies": [
+    "checkbox-group",
+    "checkbox",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1207,
+      "path": "registry/examples/checkbox-group-placement.tsx",
+      "sha256": "1a1cad9f6c0875df3e4d9e679de8f3e98f7f73cdaec0053d73d576dbbb6d18fd",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-group-placement.json",
+  "title": "Checkbox Group Placement",
+  "type": "registry:example"
+}

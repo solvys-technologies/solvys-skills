@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "radio-plan",
+  "registryDependencies": [
+    "radio",
+    "radio-group",
+    "badge",
+    "label",
+    "field"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2493,
+      "path": "registry/examples/radio-plan.tsx",
+      "sha256": "bc131f3908e5a177d95cfbd469f97c29ddad0686bda4ec3f3c8e90f047b07e15",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/radio-plan.json",
+  "title": "Radio Plan",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "featured-icon-demo",
+  "registryDependencies": [
+    "featured-icon"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 294,
+      "path": "registry/examples/featured-icon-demo.tsx",
+      "sha256": "6bc74e5cbffb2fee64130470f8e82b39a687330379b984bf8a4fd7e2997778c6",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/featured-icon-demo.json",
+  "title": "Featured Icon Demo",
+  "type": "registry:example"
+}

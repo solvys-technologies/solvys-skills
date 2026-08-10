@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "rating-fractional",
+  "registryDependencies": [
+    "rating"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 276,
+      "path": "registry/examples/rating-fractional.tsx",
+      "sha256": "7a71228aec935794f12e21d90968188ba64fcdd13980e54820b5f161089bf7c6",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/rating-fractional.json",
+  "title": "Rating Fractional",
+  "type": "registry:example"
+}

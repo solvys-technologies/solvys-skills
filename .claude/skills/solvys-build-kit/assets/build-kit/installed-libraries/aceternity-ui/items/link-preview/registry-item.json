@@ -1,0 +1,21 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@radix-ui/react-hover-card",
+    "qss",
+    "motion"
+  ],
+  "name": "link-preview",
+  "shippedFiles": [
+    {
+      "bytes": 3895,
+      "path": "components/ui/link-preview.tsx",
+      "sha256": "c140609b59685342ed3b62bf7d5d90ac5ca099ed90fbb7cda1fe6c2dedd46475",
+      "target": "components/ui/link-preview.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/link-preview.json",
+  "title": "Link Preview",
+  "type": "registry:ui"
+}

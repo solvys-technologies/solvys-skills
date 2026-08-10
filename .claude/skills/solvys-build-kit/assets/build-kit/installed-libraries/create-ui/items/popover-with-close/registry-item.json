@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "popover-with-close",
+  "registryDependencies": [
+    "popover",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 984,
+      "path": "registry/examples/popover-with-close.tsx",
+      "sha256": "2da8efd016c8e0beaed01f78a98986d0662983d8097c72920ada6b4bb3dd877c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/popover-with-close.json",
+  "title": "Popover With Close",
+  "type": "registry:example"
+}

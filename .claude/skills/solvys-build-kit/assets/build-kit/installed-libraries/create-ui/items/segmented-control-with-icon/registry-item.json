@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "segmented-control-with-icon",
+  "registryDependencies": [
+    "segmented-control"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2055,
+      "path": "registry/examples/segmented-control-with-icon.tsx",
+      "sha256": "72e024b946a5b81180e48cca91cef4621080308c20c59f08ab5c4b0716f3044e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/segmented-control-with-icon.json",
+  "title": "SegmentedControl With Icon",
+  "type": "registry:example"
+}

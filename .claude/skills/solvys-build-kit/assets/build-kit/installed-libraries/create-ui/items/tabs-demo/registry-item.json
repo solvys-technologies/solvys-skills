@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-demo",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2017,
+      "path": "registry/examples/tabs-demo.tsx",
+      "sha256": "7a25f2623ef2a2bd96e78107df90356eaaa9b305507bbf8816492c16848d6bd5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-demo.json",
+  "title": "Tabs Demo",
+  "type": "registry:example"
+}

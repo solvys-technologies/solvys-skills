@@ -74,6 +74,13 @@ def catalog_items(catalog: dict | list) -> list[dict]:
     return value if isinstance(value, list) else []
 
 
+def access_status(exc: Exception, token_env: str | None = None) -> str:
+    """Classify a source failure without hiding an access-gated catalog entry."""
+    if isinstance(exc, HTTPError) and exc.code in {401, 403}:
+        return "awaiting-credentials" if token_env else "access-gated"
+    return "unavailable"
+
+
 def snapshot_full_registry(source: dict, catalog_url: str, token_env: str | None = None, skip_existing: bool = False) -> dict:
     """Copy every registry item and its shipped source files into an isolated library folder."""
     catalog = fetch_json(catalog_url, token_env)
@@ -90,6 +97,7 @@ def snapshot_full_registry(source: dict, catalog_url: str, token_env: str | None
     for index, item in enumerate(items, start=1):
         name = str(item.get("name") or item.get("id") or f"item-{index}")
         item_id = quote(name, safe="")
+        item_url = template.replace("{name}", item_id)
         item_root = source_root / "items" / safe_path(name)
         files_root = item_root / "files"
         existing_manifest = item_root / "registry-item.json"
@@ -100,14 +108,38 @@ def snapshot_full_registry(source: dict, catalog_url: str, token_env: str | None
                 "name": name,
                 "type": item.get("type"),
                 "title": item.get("title"),
+                "status": cached.get("status", "installed") if isinstance(cached, dict) else "installed",
                 "sourceUrl": cached.get("sourceUrl") if isinstance(cached, dict) else item_url,
                 "fileCount": len(shipped_files),
                 "sourceFiles": shipped_files,
             })
             continue
         files_root.mkdir(parents=True, exist_ok=True)
-        item_url = template.replace("{name}", item_id)
-        payload = fetch_json(item_url, token_env)
+        try:
+            payload = fetch_json(item_url, token_env)
+        except (HTTPError, URLError, TimeoutError, OSError, json.JSONDecodeError) as exc:
+            status = access_status(exc, token_env)
+            manifest = {
+                "name": name,
+                "type": item.get("type"),
+                "title": item.get("title"),
+                "sourceUrl": item_url,
+                "status": status,
+                "detail": str(exc),
+                "shippedFiles": [],
+            }
+            (item_root / "registry-item.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+            item_manifests.append({
+                "name": name,
+                "type": item.get("type"),
+                "title": item.get("title"),
+                "status": status,
+                "sourceUrl": item_url,
+                "fileCount": 0,
+                "sourceFiles": [],
+                "detail": str(exc),
+            })
+            continue
         files = payload.get("files", []) if isinstance(payload, dict) else []
         manifest = {key: value for key, value in (payload.items() if isinstance(payload, dict) else []) if key != "files"}
         shipped_files: list[dict] = []
@@ -129,17 +161,22 @@ def snapshot_full_registry(source: dict, catalog_url: str, token_env: str | None
                 "sha256": hashlib.sha256(content.encode("utf-8")).hexdigest(),
             })
         manifest["sourceUrl"] = item_url
+        manifest["status"] = "installed"
         manifest["shippedFiles"] = shipped_files
         (item_root / "registry-item.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
         item_manifests.append({
             "name": name,
             "type": item.get("type"),
             "title": item.get("title"),
+            "status": "installed",
             "sourceUrl": item_url,
             "fileCount": len(shipped_files),
             "sourceFiles": shipped_files,
         })
 
+    gated_items = [item for item in item_manifests if item.get("status") in {"access-gated", "awaiting-credentials"}]
+    unavailable_items = [item for item in item_manifests if item.get("status") == "unavailable"]
+    installed_items = [item for item in item_manifests if item.get("status") == "installed"]
     library_manifest = {
         "schemaVersion": 1,
         "library": source["id"],
@@ -147,17 +184,108 @@ def snapshot_full_registry(source: dict, catalog_url: str, token_env: str | None
         "sourceUrl": source.get("sourceUrl"),
         "catalogUrl": catalog_url,
         "catalogItemCount": len(items),
+        "installedItemCount": len(installed_items),
+        "accessGatedItemCount": len(gated_items),
+        "unavailableItemCount": len(unavailable_items),
+        "status": "installed" if not gated_items and not unavailable_items else "installed-with-access-gates",
         "snapshotMode": "full-registry-source",
         "autoUpdate": False,
         "items": item_manifests,
     }
     (source_root / "library-manifest.json").write_text(json.dumps(library_manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return {
-        "status": "installed",
+        "status": "installed" if not gated_items and not unavailable_items else "installed-with-access-gates",
         "mode": "full-registry-source",
         "path": str(source_root.relative_to(ASSET_ROOT)),
         "itemCount": len(items),
+        "installedItemCount": len(installed_items),
+        "accessGatedItemCount": len(gated_items),
+        "unavailableItemCount": len(unavailable_items),
         "fileCount": sum(item["fileCount"] for item in item_manifests),
+    }
+
+
+def snapshot_aicss_registry(catalog_url: str, skip_existing: bool = False) -> dict:
+    """Snapshot every AIcss catalog entry, including locked-entry metadata."""
+    catalog = fetch_json(catalog_url)
+    components = catalog.get("components", []) if isinstance(catalog, dict) else []
+    source_root = FULL_SOURCE_ROOT / "aicss"
+    source_root.mkdir(parents=True, exist_ok=True)
+    (source_root / "catalog.json").write_text(json.dumps(catalog, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    item_manifests: list[dict] = []
+    for component in components:
+        if not isinstance(component, dict):
+            continue
+        slug = str(component.get("slug") or component.get("name") or "item")
+        item_root = source_root / "items" / safe_path(slug)
+        item_root.mkdir(parents=True, exist_ok=True)
+        target = item_root / "registry-item.json"
+        if skip_existing and target.is_file():
+            cached = json.loads(target.read_text(encoding="utf-8"))
+            item_manifests.append({
+                "slug": slug,
+                "name": component.get("name"),
+                "tier": component.get("tier"),
+                "status": cached.get("status", "installed") if isinstance(cached, dict) else "installed",
+                "sourceUrl": cached.get("sourceUrl") if isinstance(cached, dict) else f"https://www.aicss.dev/r/{quote(slug, safe='')}",
+            })
+            continue
+        item_url = f"https://www.aicss.dev/r/{quote(slug, safe='')}"
+        try:
+            payload = fetch_json(item_url)
+            status = "installed"
+            target.write_text(json.dumps({"sourceUrl": item_url, "status": status, "payload": payload}, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+            item_manifests.append({
+                "slug": slug,
+                "name": component.get("name"),
+                "tier": component.get("tier"),
+                "status": status,
+                "sourceUrl": item_url,
+            })
+        except (HTTPError, URLError, TimeoutError, OSError, json.JSONDecodeError) as exc:
+            status = access_status(exc)
+            target.write_text(json.dumps({
+                "slug": slug,
+                "name": component.get("name"),
+                "tier": component.get("tier"),
+                "sourceUrl": item_url,
+                "status": status,
+                "detail": str(exc),
+            }, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+            item_manifests.append({
+                "slug": slug,
+                "name": component.get("name"),
+                "tier": component.get("tier"),
+                "status": status,
+                "sourceUrl": item_url,
+                "detail": str(exc),
+            })
+    gated_items = [item for item in item_manifests if item.get("status") in {"access-gated", "awaiting-credentials"}]
+    unavailable_items = [item for item in item_manifests if item.get("status") == "unavailable"]
+    installed_items = [item for item in item_manifests if item.get("status") == "installed"]
+    manifest = {
+        "schemaVersion": 1,
+        "library": "aicss",
+        "name": "AIcss",
+        "catalogUrl": catalog_url,
+        "catalogItemCount": len(components),
+        "installedItemCount": len(installed_items),
+        "accessGatedItemCount": len(gated_items),
+        "unavailableItemCount": len(unavailable_items),
+        "status": "installed" if not gated_items and not unavailable_items else "installed-with-access-gates",
+        "snapshotMode": "full-source-registry",
+        "autoUpdate": False,
+        "items": item_manifests,
+    }
+    (source_root / "library-manifest.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return {
+        "status": manifest["status"],
+        "mode": "full-source-registry",
+        "path": str(source_root.relative_to(ASSET_ROOT)),
+        "itemCount": len(components),
+        "installedItemCount": len(installed_items),
+        "accessGatedItemCount": len(gated_items),
+        "unavailableItemCount": len(unavailable_items),
     }
 
 
@@ -193,8 +321,12 @@ def install_sources(full: bool = False, skip_existing: bool = False) -> dict:
             ("beui", None, "https://beui.dev/r/registry.json"),
             ("beui-pro", "BEUI_PRO_TOKEN", "https://pro.beui.dev/r/registry.json"),
             ("evilcharts", None, "https://evilcharts.com/r/registry.json?raw=1"),
+            ("mapcn", None, "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/registry.json"),
+            ("aceternity-ui", None, "https://ui.aceternity.com/registry/registry.json"),
+            ("create-ui", None, "https://createui.co/r/registry.json"),
         ]:
             source = next(entry for entry in json.loads((ASSET_ROOT / "library-sources.json").read_text(encoding="utf-8"))["activeUpstreams"] if entry["id"] == source_id)
+            results.setdefault(source_id, {"mode": "registry-catalog", "autoUpdate": False})
             try:
                 results[source_id]["fullSource"] = snapshot_full_registry(source, catalog_url, token_env, skip_existing)
             except (HTTPError, URLError, TimeoutError, OSError, ValueError, json.JSONDecodeError) as exc:
@@ -216,22 +348,37 @@ def install_sources(full: bool = False, skip_existing: bool = False) -> dict:
         "analytics-map.json": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/analytics-map.json",
         "choropleth.json": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/choropleth.json",
         "heatmap.json": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/heatmap.json",
+        "delivery-tracker.json": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/delivery-tracker.json",
+        "uptime-monitor.json": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/uptime-monitor.json",
+        "logistics-network.json": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/logistics-network.json",
         "store-locator.json": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/store-locator.json",
     }
-    results["mapcn"] = {
+    mapcn_result = results.get("mapcn", {})
+    mapcn_result.update({
         "mode": "github-shadcn-registry",
         "autoUpdate": False,
         "license": "MIT",
         "snapshots": {name: write_snapshot("mapcn", name, url) for name, url in mapcn_urls.items()},
-    }
-    results["aceternity-ui"] = {
+    })
+    results["mapcn"] = mapcn_result
+    aceternity_result = results.get("aceternity-ui", {})
+    aceternity_result.update({
         "mode": "shadcn-registry",
         "autoUpdate": False,
+        "catalog": write_snapshot("aceternity-ui", "registry.json", "https://ui.aceternity.com/registry/registry.json"),
         "snapshots": {
             "bento-grid.json": write_snapshot("aceternity-ui", "bento-grid.json", "https://ui.aceternity.com/registry/bento-grid.json"),
             "terminal.json": write_snapshot("aceternity-ui", "terminal.json", "https://ui.aceternity.com/registry/terminal.json"),
         },
-    }
+    })
+    results["aceternity-ui"] = aceternity_result
+    create_ui_result = results.get("create-ui", {})
+    create_ui_result.update({
+        "mode": "cli-registry",
+        "autoUpdate": False,
+        "catalog": write_snapshot("create-ui", "registry.json", "https://createui.co/r/registry.json"),
+    })
+    results["create-ui"] = create_ui_result
     free_aicss = [
         "thinking-state",
         "thinking-reasoning",
@@ -247,8 +394,14 @@ def install_sources(full: bool = False, skip_existing: bool = False) -> dict:
         "mode": "source-registry-free-catalog",
         "autoUpdate": False,
         "licensePolicy": "licensed-components-remain-gated",
+        "catalog": write_snapshot("aicss", "registry.json", "https://www.aicss.dev/r"),
         "snapshots": {name: write_snapshot("aicss", f"{name}.json", f"https://www.aicss.dev/r/{name}") for name in free_aicss},
     }
+    if full:
+        try:
+            results["aicss"]["fullSource"] = snapshot_aicss_registry("https://www.aicss.dev/r", skip_existing)
+        except (HTTPError, URLError, TimeoutError, OSError, ValueError, json.JSONDecodeError) as exc:
+            results["aicss"]["fullSource"] = {"status": access_status(exc), "detail": str(exc)}
     results["npm"] = {
         "mode": "pinned-install",
         "autoUpdate": False,

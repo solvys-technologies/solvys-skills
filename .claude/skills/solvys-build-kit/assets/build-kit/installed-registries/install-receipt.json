@@ -1,11 +1,27 @@
 {
-  "generatedAt": "2026-08-10T20:24:27.600633+00:00",
+  "generatedAt": "2026-08-10T21:54:13.202417+00:00",
   "kit": "solvys-build-kit",
   "schemaVersion": 1,
   "secretPolicy": "private credentials are process-only and never written to snapshots or receipts",
   "sources": {
     "aceternity-ui": {
       "autoUpdate": false,
+      "catalog": {
+        "bytes": 95977,
+        "path": "installed-registries/aceternity-ui/registry.json",
+        "status": "installed",
+        "url": "https://ui.aceternity.com/registry/registry.json"
+      },
+      "fullSource": {
+        "accessGatedItemCount": 160,
+        "fileCount": 119,
+        "installedItemCount": 116,
+        "itemCount": 276,
+        "mode": "full-registry-source",
+        "path": "installed-libraries/aceternity-ui",
+        "status": "installed-with-access-gates",
+        "unavailableItemCount": 0
+      },
       "mode": "shadcn-registry",
       "snapshots": {
         "bento-grid.json": {
@@ -24,6 +40,21 @@
     },
     "aicss": {
       "autoUpdate": false,
+      "catalog": {
+        "bytes": 3033,
+        "path": "installed-registries/aicss/registry.json",
+        "status": "installed",
+        "url": "https://www.aicss.dev/r"
+      },
+      "fullSource": {
+        "accessGatedItemCount": 0,
+        "installedItemCount": 14,
+        "itemCount": 14,
+        "mode": "full-source-registry",
+        "path": "installed-libraries/aicss",
+        "status": "installed",
+        "unavailableItemCount": 0
+      },
       "licensePolicy": "licensed-components-remain-gated",
       "mode": "source-registry-free-catalog",
       "snapshots": {
@@ -86,11 +117,14 @@
     "beui": {
       "autoUpdate": false,
       "fullSource": {
+        "accessGatedItemCount": 0,
         "fileCount": 529,
+        "installedItemCount": 103,
         "itemCount": 103,
         "mode": "full-registry-source",
         "path": "installed-libraries/beui",
-        "status": "installed"
+        "status": "installed",
+        "unavailableItemCount": 0
       },
       "mode": "registry-catalog",
       "snapshot": {
@@ -104,11 +138,14 @@
       "autoUpdate": false,
       "credentialEnv": "BEUI_PRO_TOKEN",
       "fullSource": {
+        "accessGatedItemCount": 0,
         "fileCount": 642,
+        "installedItemCount": 141,
         "itemCount": 141,
         "mode": "full-registry-source",
         "path": "installed-libraries/beui-pro",
-        "status": "installed"
+        "status": "installed",
+        "unavailableItemCount": 0
       },
       "mode": "private-registry-catalog",
       "snapshot": {
@@ -118,14 +155,37 @@
         "url": "https://pro.beui.dev/r/registry.json"
       }
     },
+    "create-ui": {
+      "autoUpdate": false,
+      "catalog": {
+        "bytes": 234445,
+        "path": "installed-registries/create-ui/registry.json",
+        "status": "installed",
+        "url": "https://createui.co/r/registry.json"
+      },
+      "fullSource": {
+        "accessGatedItemCount": 13,
+        "fileCount": 632,
+        "installedItemCount": 637,
+        "itemCount": 650,
+        "mode": "full-registry-source",
+        "path": "installed-libraries/create-ui",
+        "status": "installed-with-access-gates",
+        "unavailableItemCount": 0
+      },
+      "mode": "cli-registry"
+    },
     "evilcharts": {
       "autoUpdate": false,
       "fullSource": {
+        "accessGatedItemCount": 0,
         "fileCount": 271,
+        "installedItemCount": 271,
         "itemCount": 271,
         "mode": "full-registry-source",
         "path": "installed-libraries/evilcharts",
-        "status": "installed"
+        "status": "installed",
+        "unavailableItemCount": 0
       },
       "mode": "registry-catalog",
       "snapshot": {
@@ -137,6 +197,16 @@
     },
     "mapcn": {
       "autoUpdate": false,
+      "fullSource": {
+        "accessGatedItemCount": 0,
+        "fileCount": 25,
+        "installedItemCount": 9,
+        "itemCount": 9,
+        "mode": "full-registry-source",
+        "path": "installed-libraries/mapcn",
+        "status": "installed",
+        "unavailableItemCount": 0
+      },
       "license": "MIT",
       "mode": "github-shadcn-registry",
       "snapshots": {
@@ -158,11 +228,23 @@
           "status": "installed",
           "url": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/choropleth.json"
         },
+        "delivery-tracker.json": {
+          "bytes": 11272,
+          "path": "installed-registries/mapcn/delivery-tracker.json",
+          "status": "installed",
+          "url": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/delivery-tracker.json"
+        },
         "heatmap.json": {
           "bytes": 5319,
           "path": "installed-registries/mapcn/heatmap.json",
           "status": "installed",
           "url": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/heatmap.json"
+        },
+        "logistics-network.json": {
+          "bytes": 20281,
+          "path": "installed-registries/mapcn/logistics-network.json",
+          "status": "installed",
+          "url": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/logistics-network.json"
         },
         "map.json": {
           "bytes": 70130,
@@ -181,6 +263,12 @@
           "path": "installed-registries/mapcn/store-locator.json",
           "status": "installed",
           "url": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/store-locator.json"
+        },
+        "uptime-monitor.json": {
+          "bytes": 13205,
+          "path": "installed-registries/mapcn/uptime-monitor.json",
+          "status": "installed",
+          "url": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/uptime-monitor.json"
         }
       }
     },

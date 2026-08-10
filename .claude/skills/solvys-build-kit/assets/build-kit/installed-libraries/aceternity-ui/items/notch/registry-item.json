@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "notch",
+  "shippedFiles": [
+    {
+      "bytes": 10121,
+      "path": "components/ui/notch.tsx",
+      "sha256": "c61d87255e4e1658ab8f19a47524283e3428974e1f58aa20980de71bdd3af26c",
+      "target": "components/ui/notch.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/notch.json",
+  "title": "Notch",
+  "type": "registry:ui"
+}

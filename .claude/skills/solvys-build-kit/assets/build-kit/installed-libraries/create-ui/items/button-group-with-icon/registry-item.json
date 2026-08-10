@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-group-with-icon",
+  "registryDependencies": [
+    "button-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 520,
+      "path": "registry/examples/button-group-with-icon.tsx",
+      "sha256": "3a188a1ac91a505112b4c5aef8facde3f2142eb67763bb0ae911bce58619861c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-group-with-icon.json",
+  "title": "Button Group With Icon",
+  "type": "registry:example"
+}

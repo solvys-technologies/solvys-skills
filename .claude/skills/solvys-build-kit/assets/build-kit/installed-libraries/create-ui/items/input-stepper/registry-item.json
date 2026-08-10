@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets"
+  ],
+  "description": "Numeric input with increment and decrement buttons; split or detached variant, min/max/step clamping",
+  "name": "input-stepper",
+  "registryDependencies": [
+    "button",
+    "input-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6569,
+      "path": "registry/ui/input-stepper.tsx",
+      "sha256": "1b0428a3b2263a5edf97f772de487e40faddaa77fda0e46bbf49d4b3bf02299c",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-stepper.json",
+  "title": "Input Stepper",
+  "type": "registry:ui"
+}

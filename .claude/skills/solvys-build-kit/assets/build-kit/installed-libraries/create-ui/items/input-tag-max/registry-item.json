@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-tag-max",
+  "registryDependencies": [
+    "input-tag",
+    "field"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 806,
+      "path": "registry/examples/input-tag-max.tsx",
+      "sha256": "77bda11097e0e9ab4d39e84fc245e89751b70c7762e0cc3111ff63b81a04b602",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-tag-max.json",
+  "title": "Input Tag",
+  "type": "registry:example"
+}

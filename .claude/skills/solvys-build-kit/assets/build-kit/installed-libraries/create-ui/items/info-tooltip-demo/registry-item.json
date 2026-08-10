@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "info-tooltip-demo",
+  "registryDependencies": [
+    "info-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 395,
+      "path": "registry/examples/info-tooltip-demo.tsx",
+      "sha256": "ab40fe4ddbfb4e9914e971846c262fdee3f47abeca941c7d217816300cdd8916",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/info-tooltip-demo.json",
+  "title": "Info Tooltip Demo",
+  "type": "registry:example"
+}

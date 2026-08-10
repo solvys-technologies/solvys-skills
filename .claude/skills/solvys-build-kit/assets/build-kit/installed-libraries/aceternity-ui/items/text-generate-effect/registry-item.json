@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "text-generate-effect",
+  "shippedFiles": [
+    {
+      "bytes": 1385,
+      "path": "components/ui/text-generate-effect.tsx",
+      "sha256": "f2a73f7adcb16395da2323b2485b2eed0c59caddcdb3b6ac2c0fadae81d1c22f",
+      "target": "components/ui/text-generate-effect.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/text-generate-effect.json",
+  "title": "Text Generate Effect",
+  "type": "registry:ui"
+}

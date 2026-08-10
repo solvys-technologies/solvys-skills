@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-tokens",
+  "registryDependencies": [
+    "button",
+    "dropdown-menu",
+    "input-group",
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3211,
+      "path": "registry/examples/dropdown-menu-tokens.tsx",
+      "sha256": "52779466048abc6014a0f7c38fe120c5f6daa8663b86c1ed86724dfcd934f96e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-tokens.json",
+  "title": "Dropdown Menu Tokens",
+  "type": "registry:example"
+}

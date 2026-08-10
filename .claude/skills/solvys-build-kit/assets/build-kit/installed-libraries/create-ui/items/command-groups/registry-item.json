@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "command-groups",
+  "registryDependencies": [
+    "command",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2372,
+      "path": "registry/examples/command-groups.tsx",
+      "sha256": "00f22ec2f1b45add18eb8b6e597ad4fbb8f335dbc811cd70868b1dce512b9da0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/command-groups.json",
+  "title": "Command Groups",
+  "type": "registry:example"
+}

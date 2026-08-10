@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "spinner-animation",
+  "registryDependencies": [
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 314,
+      "path": "registry/examples/spinner-animation.tsx",
+      "sha256": "2a0110148b907ec5bd1ce90cb9f6310be5886a071b70d818eaaf55e489898074",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/spinner-animation.json",
+  "title": "Spinner Animation",
+  "type": "registry:example"
+}

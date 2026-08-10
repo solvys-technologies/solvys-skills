@@ -1,0 +1,25 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "modal-demo",
+  "registryDependencies": [
+    "modal",
+    "button",
+    "field",
+    "input",
+    "label",
+    "progress",
+    "info-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3436,
+      "path": "registry/examples/modal-demo.tsx",
+      "sha256": "fa4d2bc6abd3821ec9297193edb059587713d903f12b581c832d75cc3ae9e115",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/modal-demo.json",
+  "title": "Modal Demo",
+  "type": "registry:example"
+}

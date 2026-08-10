@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "label-demo",
+  "registryDependencies": [
+    "field",
+    "input",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 352,
+      "path": "registry/examples/label-demo.tsx",
+      "sha256": "4c33c4eb9fc518a28bcde4405c6f77a15c39c1392a5dd1a156713a4fd4afd1f1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label-demo.json",
+  "title": "Label Demo",
+  "type": "registry:example"
+}

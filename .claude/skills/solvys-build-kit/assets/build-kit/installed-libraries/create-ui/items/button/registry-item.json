@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Action button with variant, appearance, size and shape axes; iconOnly and loading props, icons compose as children with ButtonLabel",
+  "name": "button",
+  "registryDependencies": [
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 22316,
+      "path": "registry/ui/button.tsx",
+      "sha256": "4ce90bd7cee0501ad40c79a83243fb833f08a7d34600d3b2ea090378a5c7c7b1",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button.json",
+  "title": "Button",
+  "type": "registry:ui"
+}

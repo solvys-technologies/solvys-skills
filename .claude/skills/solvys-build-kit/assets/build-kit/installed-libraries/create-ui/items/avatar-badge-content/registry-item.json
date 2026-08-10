@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-badge-content",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1928,
+      "path": "registry/examples/avatar-badge-content.tsx",
+      "sha256": "e35efc22646e9794bf04f2d49f11e47b5b38b88fe2a51fa8359340da8dd8223f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-badge-content.json",
+  "title": "Avatar Badge Content",
+  "type": "registry:example"
+}

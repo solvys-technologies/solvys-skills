@@ -1,0 +1,25 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "three",
+    "three-globe",
+    "@react-three/fiber@alpha",
+    "@react-three/drei"
+  ],
+  "devDependencies": [
+    "@types/three"
+  ],
+  "name": "globe",
+  "shippedFiles": [
+    {
+      "bytes": 8487,
+      "path": "components/ui/globe.tsx",
+      "sha256": "f1c4370796ff294abd9be6169a5642ed710347e5ecba121da498459ce4db7e2b",
+      "target": "components/ui/globe.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/globe.json",
+  "title": "Globe",
+  "type": "registry:ui"
+}

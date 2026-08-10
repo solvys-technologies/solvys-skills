@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-group-placement",
+  "registryDependencies": [
+    "switch-group",
+    "switch",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1183,
+      "path": "registry/examples/switch-group-placement.tsx",
+      "sha256": "c39d6c515aeecc2c289037fb071778031ddb80f5e98d266cf4ebc5afae63a98c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-group-placement.json",
+  "title": "Switch Group Placement",
+  "type": "registry:example"
+}

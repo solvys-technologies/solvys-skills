@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Accessible tab panels built on the Radix Tabs primitive; horizontal/vertical line tabs that swap content in place",
+  "name": "tabs",
+  "shippedFiles": [
+    {
+      "bytes": 7374,
+      "path": "registry/ui/tabs.tsx",
+      "sha256": "104f2e43ca02fc0e7e916f17807bd067e3f2ebd28143a7c996a335f5a557e70c",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs.json",
+  "title": "Tabs",
+  "type": "registry:ui"
+}

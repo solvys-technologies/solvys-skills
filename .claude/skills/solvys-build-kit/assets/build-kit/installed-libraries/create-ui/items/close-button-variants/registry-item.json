@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "close-button-variants",
+  "registryDependencies": [
+    "close-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 542,
+      "path": "registry/examples/close-button-variants.tsx",
+      "sha256": "d50e629841d5e4150330a6a6c4d25edf44281b18403fd264cd7558deafe462ea",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/close-button-variants.json",
+  "title": "Close Button Variants",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "slider-range",
+  "registryDependencies": [
+    "slider"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1101,
+      "path": "registry/examples/slider-range.tsx",
+      "sha256": "b214d147d2ea012e94c1558889a2f871b2bdf8b6dffb75ec0320cc57e3d2a720",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider-range.json",
+  "title": "Slider Range",
+  "type": "registry:example"
+}

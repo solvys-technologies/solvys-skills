@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "categories": [
+    "analytics",
+    "card"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ],
+  "description": "Compact analytics card with a headline metric over a world map.",
+  "meta": {
+    "iframeHeight": "600px"
+  },
+  "name": "analytics-card",
+  "registryDependencies": [
+    "@mapcn/map",
+    "card",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2599,
+      "path": "src/registry/blocks/analytics-card/page.tsx",
+      "sha256": "752aa216cc0ecb69c2a064f0cc1c76cd7f890744c49ac677543d04000970033d",
+      "target": "app/analytics-card/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 1151,
+      "path": "src/registry/blocks/analytics-card/data.ts",
+      "sha256": "ea5ab61169457600b32972a67629370fcdb7450af9a94eb9d2f92a027ca079c9",
+      "target": "app/analytics-card/data.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/analytics-card.json",
+  "title": "Analytics Card",
+  "type": "registry:block"
+}

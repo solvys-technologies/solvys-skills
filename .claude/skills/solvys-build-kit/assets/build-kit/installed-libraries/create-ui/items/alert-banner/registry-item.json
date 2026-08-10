@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "alert-banner",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/alert-banner.json",
+  "status": "access-gated",
+  "title": "Alert Banner",
+  "type": "registry:ui"
+}

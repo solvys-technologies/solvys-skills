@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "cta-with-background-noise",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/cta-with-background-noise.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

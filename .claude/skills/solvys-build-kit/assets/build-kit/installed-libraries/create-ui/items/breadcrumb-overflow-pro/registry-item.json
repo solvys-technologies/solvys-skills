@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "breadcrumb-overflow-pro",
+  "registryDependencies": [
+    "breadcrumb",
+    "avatar",
+    "badge",
+    "dropdown-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1738,
+      "path": "registry/examples/breadcrumb-overflow-pro.tsx",
+      "sha256": "4ce7097962efc73fb994a1ce5ab4986c009ba06284fe96603e7c97fa2ca19ae8",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/breadcrumb-overflow-pro.json",
+  "title": "Breadcrumb Overflow Pro",
+  "type": "registry:example"
+}

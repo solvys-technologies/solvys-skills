@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-group-sizes",
+  "registryDependencies": [
+    "checkbox-group",
+    "checkbox",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 895,
+      "path": "registry/examples/checkbox-group-sizes.tsx",
+      "sha256": "6c0f294ca597cbd38fa2c9d0821a6aedc5e42d4dc4f76c9367bd67922f49f17f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-group-sizes.json",
+  "title": "Checkbox Group Sizes",
+  "type": "registry:example"
+}

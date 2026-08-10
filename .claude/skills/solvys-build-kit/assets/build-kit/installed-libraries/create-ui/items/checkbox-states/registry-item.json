@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-states",
+  "registryDependencies": [
+    "checkbox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 539,
+      "path": "registry/examples/checkbox-states.tsx",
+      "sha256": "d3725f481e3e0d07a6acc35a5ae724cbf60f6c77ba06172b5887d46a256ea205",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-states.json",
+  "title": "Checkbox States",
+  "type": "registry:example"
+}

@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "features-with-square-edges",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/features-with-square-edges.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

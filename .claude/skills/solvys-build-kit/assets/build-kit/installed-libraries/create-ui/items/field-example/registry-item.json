@@ -1,0 +1,29 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "field-example",
+  "registryDependencies": [
+    "badge",
+    "checkbox",
+    "field",
+    "input",
+    "input-otp",
+    "radio",
+    "radio-group",
+    "select",
+    "switch",
+    "textarea",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 14363,
+      "path": "registry/examples/field-example.tsx",
+      "sha256": "cfe01ab76b080f1309db5152c7cd729ed809f556a986cccd2e00026d6b643846",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/field-example.json",
+  "title": "Field",
+  "type": "registry:example"
+}

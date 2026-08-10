@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "combobox-tokens",
+  "registryDependencies": [
+    "combobox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3619,
+      "path": "registry/examples/combobox-tokens.tsx",
+      "sha256": "716f44cc98933b8c0f4f2ce41dab931fd81f875f3368f212a4c5fe284d54f0b1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/combobox-tokens.json",
+  "title": "Combobox Tokens",
+  "type": "registry:example"
+}

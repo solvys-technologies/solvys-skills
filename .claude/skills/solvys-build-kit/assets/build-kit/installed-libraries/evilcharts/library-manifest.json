@@ -1,7 +1,9 @@
 {
+  "accessGatedItemCount": 0,
   "autoUpdate": false,
   "catalogItemCount": 271,
   "catalogUrl": "https://evilcharts.com/r/registry.json?raw=1",
+  "installedItemCount": 271,
   "items": [
     {
       "fileCount": 1,
@@ -16,6 +18,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -32,6 +35,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-tooltip.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -48,6 +52,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-legend.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -64,6 +69,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-dot.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -80,6 +86,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-brush.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -96,6 +103,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-background.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -112,6 +120,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -128,6 +137,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-tooltip.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -144,6 +154,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-legend.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -160,6 +171,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-dot.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -176,6 +188,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-brush.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -192,6 +205,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -208,6 +222,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -224,6 +239,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -240,6 +256,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -256,6 +273,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -272,6 +290,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -288,6 +307,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -304,6 +324,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -320,6 +341,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -336,6 +358,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -352,6 +375,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -368,6 +392,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -384,6 +409,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -400,6 +426,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -416,6 +443,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -432,6 +460,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/recharts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:component"
     },
@@ -448,6 +477,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -464,6 +494,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -480,6 +511,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-brush-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -496,6 +528,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-buffer-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -512,6 +545,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hover-reveal-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -528,6 +562,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -544,6 +579,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -560,6 +596,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -576,6 +613,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-default-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -592,6 +630,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dotted-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -608,6 +647,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-expanded-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -624,6 +664,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -640,6 +681,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -656,6 +698,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bump-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -672,6 +715,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-reverse-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -688,6 +732,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hatched-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -704,6 +749,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-lines-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -720,6 +766,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -736,6 +783,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-monotoney-curve-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -752,6 +800,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-solid-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -768,6 +817,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-solid-stroke-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -784,6 +834,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-stacked-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -800,6 +851,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-step-curve-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -816,6 +868,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -832,6 +885,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -848,6 +902,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bump-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -864,6 +919,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -880,6 +936,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-type-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -896,6 +953,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-step-curve-type-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -912,6 +970,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-monotoney-curve-type-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -928,6 +987,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-solid-stroke-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -944,6 +1004,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -960,6 +1021,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -976,6 +1038,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-desktop-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -992,6 +1055,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-mobile-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1008,6 +1072,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-buffer-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1024,6 +1089,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hover-reveal-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1040,6 +1106,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dot-default-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1056,6 +1123,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dot-border-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1072,6 +1140,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dot-colored-border-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1088,6 +1157,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dot-ping-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1104,6 +1174,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-square-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1120,6 +1191,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-circle-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1136,6 +1208,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-circle-outline-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1152,6 +1225,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-rounded-square-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1168,6 +1242,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-rounded-square-outline-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1184,6 +1259,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-vertical-bar-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1200,6 +1276,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-horizontal-bar-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1216,6 +1293,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1232,6 +1310,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-buffer-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1248,6 +1327,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1264,6 +1344,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1280,6 +1361,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-default-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1296,6 +1378,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-expandable-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1312,6 +1395,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-max-highlight-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1328,6 +1412,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-blocks-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1344,6 +1429,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hatched-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1360,6 +1446,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-duotone-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1376,6 +1463,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-duotone-reverse-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1392,6 +1480,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1408,6 +1497,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-stripped-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1424,6 +1514,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-stacked-type-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1440,6 +1531,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-percent-type-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1456,6 +1548,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-horizontal-layout-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1472,6 +1565,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1488,6 +1582,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-desktop-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1504,6 +1599,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-mobile-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1520,6 +1616,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-tooltip-default-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1536,6 +1633,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-tooltip-frosted-glass-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1552,6 +1650,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-chart-config-default-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1568,6 +1667,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-chart-config-icons-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1584,6 +1684,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1600,6 +1701,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1616,6 +1718,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1632,6 +1735,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hatched-variant-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1648,6 +1752,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-duotone-variant-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1664,6 +1769,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1680,6 +1786,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-stripped-variant-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1696,6 +1803,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1712,6 +1820,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1728,6 +1837,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1744,6 +1854,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dots-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1760,6 +1871,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1776,6 +1888,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-echarts-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1792,6 +1905,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-echarts-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1808,6 +1922,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-lines-variant-echarts-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1824,6 +1939,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-circle-grid-echarts-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1840,6 +1956,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1856,6 +1973,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1872,6 +1990,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1888,6 +2007,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1904,6 +2024,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-donut-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1920,6 +2041,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-padded-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1936,6 +2058,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-overlapping-padded-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1952,6 +2075,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-labels-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1968,6 +2092,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -1984,6 +2109,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-outside-labels-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2000,6 +2126,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-echarts-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2016,6 +2143,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-semi-variant-echarts-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2032,6 +2160,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2048,6 +2177,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2064,6 +2194,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2080,6 +2211,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2096,6 +2228,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2112,6 +2245,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-solid-link-variant-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2128,6 +2262,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-source-link-variant-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2144,6 +2279,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-labeled-nodes-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2160,6 +2296,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-outside-labels-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2176,6 +2313,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-solid-labeled-nodes-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2192,6 +2330,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2208,6 +2347,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-brush-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2224,6 +2364,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2240,6 +2381,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bump-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2256,6 +2398,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2272,6 +2415,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-default-type-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2288,6 +2432,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-stacked-type-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2304,6 +2449,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-expanded-type-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2320,6 +2466,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-type-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2336,6 +2483,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-step-curve-type-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2352,6 +2500,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-monotoney-curve-type-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2368,6 +2517,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-solid-stroke-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2384,6 +2534,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2400,6 +2551,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2416,6 +2568,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-area-variant-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2432,6 +2585,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-reverse-area-variant-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2448,6 +2602,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-solid-area-variant-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2464,6 +2619,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dotted-area-variant-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2480,6 +2636,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-lines-area-variant-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2496,6 +2653,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hatched-area-variant-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2512,6 +2670,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2528,6 +2687,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dot-default-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2544,6 +2704,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dot-border-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2560,6 +2721,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dot-colored-border-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2576,6 +2738,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2592,6 +2755,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bump-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2608,6 +2772,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2624,6 +2789,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-type-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2640,6 +2806,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-step-curve-type-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2656,6 +2823,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-monotoney-curve-type-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2672,6 +2840,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-solid-stroke-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2688,6 +2857,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2704,6 +2874,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2720,6 +2891,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-desktop-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2736,6 +2908,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-mobile-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2752,6 +2925,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-buffer-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2768,6 +2942,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-dots-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2784,6 +2959,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-grid-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2800,6 +2976,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-cross-hatch-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2816,6 +2993,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-diagonal-lines-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2832,6 +3010,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-plus-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2848,6 +3027,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-falling-triangles-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2864,6 +3044,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-4-pointed-star-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2880,6 +3061,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-tiny-checkers-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2896,6 +3078,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-overlapping-circles-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2912,6 +3095,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-wiggle-lines-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2928,6 +3112,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bg-bubbles-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2944,6 +3129,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-buffer-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2960,6 +3146,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2976,6 +3163,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -2992,6 +3180,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3008,6 +3197,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-default-variant-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3024,6 +3214,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hatched-variant-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3040,6 +3231,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-duotone-variant-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3056,6 +3248,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-duotone-reverse-variant-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3072,6 +3265,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3088,6 +3282,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-stripped-variant-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3104,6 +3299,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-stacked-type-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3120,6 +3316,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-percent-type-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3136,6 +3333,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-horizontal-layout-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3152,6 +3350,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3168,6 +3367,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-desktop-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3184,6 +3384,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-mobile-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3200,6 +3401,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3216,6 +3418,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3232,6 +3435,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3248,6 +3452,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hatched-variant-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3264,6 +3469,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-duotone-variant-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3280,6 +3486,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3296,6 +3503,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-stripped-variant-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3312,6 +3520,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3328,6 +3537,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3344,6 +3554,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3360,6 +3571,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-dots-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3376,6 +3588,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3392,6 +3605,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-composed-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3408,6 +3622,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3424,6 +3639,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3440,6 +3656,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-donut-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3456,6 +3673,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-padded-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3472,6 +3690,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-overlapping-padded-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3488,6 +3707,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-labels-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3504,6 +3724,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3520,6 +3741,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3536,6 +3758,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3552,6 +3775,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-semi-variant-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3568,6 +3792,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3584,6 +3809,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3600,6 +3826,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3616,6 +3843,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-lines-variant-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3632,6 +3860,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-circle-grid-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3648,6 +3877,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3664,6 +3894,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3680,6 +3911,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-glowing-radar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3696,6 +3928,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3712,6 +3945,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3728,6 +3962,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-loading-state-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3744,6 +3979,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-solid-link-variant-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3760,6 +3996,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-source-link-variant-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3776,6 +4013,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-labeled-nodes-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3792,6 +4030,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-outside-labels-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3808,6 +4047,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-solid-labeled-nodes-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3824,6 +4064,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-tooltip-default-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3840,6 +4081,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-tooltip-frosted-glass-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3856,6 +4098,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-square-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3872,6 +4115,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-circle-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3888,6 +4132,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-circle-outline-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3904,6 +4149,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-rounded-square-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3920,6 +4166,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-rounded-square-outline-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3936,6 +4183,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-vertical-bar-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3952,6 +4200,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-legend-horizontal-bar-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3968,6 +4217,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-chart-config-default-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -3984,6 +4234,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ex-chart-config-icons-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4000,6 +4251,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/monospace-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4016,6 +4268,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/hover-trace-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4032,6 +4285,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/grid-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4048,6 +4302,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/isometric-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4064,6 +4319,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/latency-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4080,6 +4336,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/portfolio-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4096,6 +4353,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/benchmark-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4112,6 +4370,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/audience-echarts-area-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4128,6 +4387,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/market-share-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4144,6 +4404,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/progress-rings-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4160,6 +4421,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/budget-echarts-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4176,6 +4438,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/ride-echarts-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4192,6 +4455,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/cache-tiers-echarts-radial-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4208,6 +4472,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/revenue-mix-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4224,6 +4489,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/reliability-score-echarts-pie-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4240,6 +4506,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/payouts-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4256,6 +4523,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/shipments-echarts-line-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4272,6 +4540,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/grid-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4288,6 +4557,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/monospace-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4304,6 +4574,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/peak-echarts-bar-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4320,6 +4591,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/allocation-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     },
@@ -4336,6 +4608,7 @@
         }
       ],
       "sourceUrl": "https://evilcharts.com/r/pipeline-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
       "title": null,
       "type": "registry:block"
     }
@@ -4344,5 +4617,7 @@
   "name": "EvilCharts",
   "schemaVersion": 1,
   "snapshotMode": "full-registry-source",
-  "sourceUrl": "https://evilcharts.com/"
+  "sourceUrl": "https://evilcharts.com/",
+  "status": "installed",
+  "unavailableItemCount": 0
 }

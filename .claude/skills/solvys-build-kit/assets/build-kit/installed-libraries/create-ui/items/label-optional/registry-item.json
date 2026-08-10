@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "label-optional",
+  "registryDependencies": [
+    "field",
+    "input",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 558,
+      "path": "registry/examples/label-optional.tsx",
+      "sha256": "da476a43cdde34027bdaf6d10012a59a4b09674c5f6f8f02d0b22f6f0db1c5aa",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label-optional.json",
+  "title": "Label Optional",
+  "type": "registry:example"
+}

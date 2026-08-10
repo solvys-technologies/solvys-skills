@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "glowing-stars",
+  "shippedFiles": [
+    {
+      "bytes": 3820,
+      "path": "components/ui/glowing-stars.tsx",
+      "sha256": "e69fe3e5d991a7ba96544db11afd92b8363526f4fa4f9b73f21c5fb527a938c5",
+      "target": "components/ui/glowing-stars.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/glowing-stars.json",
+  "title": "Glowing Stars",
+  "type": "registry:ui"
+}

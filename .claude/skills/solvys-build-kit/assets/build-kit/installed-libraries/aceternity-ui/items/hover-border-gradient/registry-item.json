@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "hover-border-gradient",
+  "shippedFiles": [
+    {
+      "bytes": 3251,
+      "path": "components/ui/hover-border-gradient.tsx",
+      "sha256": "587453eb0ab551fe3ac444ea017d4e9620a212ef5dde20dd943619db5850d0a7",
+      "target": "components/ui/hover-border-gradient.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/hover-border-gradient.json",
+  "title": "Hover Border Gradient",
+  "type": "registry:ui"
+}

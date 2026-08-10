@@ -1,0 +1,29 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "cover",
+  "registryDependencies": [
+    "https://ui.aceternity.com/registry/sparkles.json"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6282,
+      "path": "components/ui/cover.tsx",
+      "sha256": "9b983f47f290ec34633bc7bd457193a4fa8582c62e4ca5555bcadb35930ec6c4",
+      "target": "components/ui/cover.tsx",
+      "type": "registry:ui"
+    },
+    {
+      "bytes": 11482,
+      "path": "components/ui/sparkles.tsx",
+      "sha256": "4b37534984e393929bc7af6ef292affc9a5b416fd3549fc4c4941ca568a7e03e",
+      "target": "components/ui/sparkles.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/cover.json",
+  "title": "Cover",
+  "type": "registry:ui"
+}

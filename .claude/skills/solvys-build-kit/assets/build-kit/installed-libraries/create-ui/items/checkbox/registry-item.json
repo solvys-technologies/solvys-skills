@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Binary check control with indeterminate state; six variants, xs/sm/md sizes and rounded/pill/square shapes",
+  "name": "checkbox",
+  "shippedFiles": [
+    {
+      "bytes": 8906,
+      "path": "registry/ui/checkbox.tsx",
+      "sha256": "c4c544f882509923bd608a972b4f1ebe48a4ef8df384c6bfeb8d356313653fbb",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox.json",
+  "title": "Checkbox",
+  "type": "registry:ui"
+}

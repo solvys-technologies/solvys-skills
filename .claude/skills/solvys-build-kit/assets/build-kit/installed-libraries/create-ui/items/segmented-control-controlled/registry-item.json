@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "segmented-control-controlled",
+  "registryDependencies": [
+    "segmented-control"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1102,
+      "path": "registry/examples/segmented-control-controlled.tsx",
+      "sha256": "0db33b679d3292aa4b916e6a8216c78ca7475980a827bbc32bf0129a7ecdcc05",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/segmented-control-controlled.json",
+  "title": "SegmentedControl Controlled",
+  "type": "registry:example"
+}

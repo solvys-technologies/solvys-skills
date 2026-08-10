@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-sizes",
+  "registryDependencies": [
+    "select"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1184,
+      "path": "registry/examples/select-sizes.tsx",
+      "sha256": "b46161e1ffc4750621528f5661a6953c83d0663af61c9c4be98218e70fa9aec5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-sizes.json",
+  "title": "Select Sizes",
+  "type": "registry:example"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-group-sizes",
+  "registryDependencies": [
+    "switch-group",
+    "switch",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1542,
+      "path": "registry/examples/switch-group-sizes.tsx",
+      "sha256": "fa4e51783cea55a7beadce57fc6674cb202fa9abde4aa876344b259fa1920bb0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-group-sizes.json",
+  "title": "Switch Group Sizes",
+  "type": "registry:example"
+}

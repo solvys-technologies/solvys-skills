@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "input-tag",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/input-tag.json",
+  "status": "access-gated",
+  "title": "Input Tag",
+  "type": "registry:ui"
+}
