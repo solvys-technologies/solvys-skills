@@ -19,6 +19,9 @@
 - Build backend contracts and provider resources before dependent frontend completion.
 - Build Wonder proposals in parallel and test the runnable result in the project ChatGPT Site.
 - Record which button does what.
+- Write and validate the entrance receipt before any product, repository,
+  Wonder, provider, deployment, or credential mutation. Read-only diagnosis may
+  continue while the receipt is repaired.
 - Fix the earliest shared cause and show it on the node map.
 - Practice comrade care for active tasks with no unread TP message.
 - Use the authorization chain before escalating a login.
@@ -29,6 +32,8 @@
 - Keep each proof rung separate.
 - When using the exact phrase `infraction committed`, immediately record or increment the current project's infraction ledger with evidence and a next action.
 - Stop a repeated no-progress action in the same work window and mark it `automation-death-loop` with `--death-loop`.
+- Stop the first proven custody, authority, or proof-gate breach, record the
+  infraction, preserve evidence, and create a repair handoff before retrying.
 - Treat `skill that` as a directive to write a skill proposal, patch the smallest fitting skill, and validate the guardrail.
 - Treat `Update the C-Cab with that Breakthrough` as a directive to write and read back a Cabinet record, then promote it to the correct durable layer.
 - Stop at 120 minutes and post the grounded rollover prompt.

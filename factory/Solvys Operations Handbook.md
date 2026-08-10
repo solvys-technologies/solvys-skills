@@ -71,6 +71,12 @@ Before substantial work:
 6. Read the project `infraction-ledger.json` and include its open count in the entrance receipt.
 7. Record an `entrance-receipt.json` before changing product state.
 
+Use `scripts/validate_entrance.py` to validate the receipt. Read-only diagnosis
+may continue when the receipt is missing or stale. Product, repository, Wonder,
+provider, deployment, and credential mutations are refused until validation
+passes. The failed check becomes a repair handoff with an owner and next safe
+action.
+
 Do not restart product implementation from a stale chat summary. Walk back through the entrance.
 If no literal `WELCOME.md` exists, record the onboarding composite used instead.
 
@@ -179,6 +185,12 @@ An unchanged entry produces no user-facing update. It remains in the ledger
 until its status changes or a human gate is recorded.
 Use `python3 scripts/sweep_infractions.py` to build the ranked read-only repair
 queue, and treat any invalid ledger in its output as a control-plane defect.
+
+The first proven custody, authority, or proof-gate breach stops the affected
+action. Record or increment the project ledger entry, preserve evidence, assign
+one repair owner, and create one repair handoff before retrying. Automatic repair
+does not mutate provider state, credentials, production, Wonder, or protected
+files.
 
 ## Stack Interview contract
 

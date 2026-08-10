@@ -34,6 +34,16 @@ ranked repair queue with `python3 scripts/sweep_infractions.py`. Both commands
 write or read only the ledger paths you provide or the configured Factory
 project root.
 
+Use `python3 scripts/ensure_factory_ledgers.py` against the Factory Registry to
+create zero-state ledgers and detect missing coverage. Use
+`python3 scripts/validate_entrance.py --mutation` before any product,
+repository, Wonder, provider, deployment, or credential mutation. A failed
+entrance check permits diagnosis and repair only.
+
+Use `Templates/repair-handoff.json` for the single repair handoff shape. It
+must name the original problem, evidence, earliest shared cause, owner, blocked
+action, next safe action, and required acceptance proof.
+
 Triggered durable records use `Templates/skill-proposal.md` for `skill that`
 roadblocks and `Templates/breakthrough-record.md` for C-Cab promotions. Link
 both records from the active Sprint Unit or latest receipt.

@@ -226,6 +226,10 @@ solution through the highest-reality proof plus durable learning promotion.
 
 ### 5A. Infraction And Death-Loop Protocol
 
+- Product, repository, Wonder, provider, deployment, and credential mutations
+  require a validated Factory entrance receipt with `operationsAuthorized: true`.
+  Read-only diagnosis may continue while the receipt is repaired. A missing or
+  stale receipt creates a repair handoff and refuses mutation.
 - The exact phrase `infraction committed` is a write trigger. Immediately
   record or increment the current project's `infraction-ledger.json` before
   continuing. Use `scripts/record_infraction.py`, keep the mechanism and impact
@@ -235,6 +239,8 @@ solution through the highest-reality proof plus durable learning promotion.
   `category: automation-death-loop` and `--death-loop` when an action repeats
   without new evidence or progress. Stop the repeated action in the same work
   window until its earliest shared cause has a repair owner.
+- Stop the first proven custody, authority, or proof-gate breach, preserve the
+  evidence, assign one repair owner, and create one repair handoff before retrying.
 - The daily 7:00 AM sitrep reviews every registered project ledger, fixes the
   earliest recurring cause, and records a resolution or human gate. Do not
   create one automation per infraction. Keep developer names and secret values

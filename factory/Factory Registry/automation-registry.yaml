@@ -9,7 +9,7 @@ canonical:
     schedule: daily 07:00
     scope: active Sprint Units only
     initialMessage: daily sprint sitrep and infraction sweep
-    action: run scripts/sweep_infractions.py, repair the earliest recurring cause, promote pending skill proposals and breakthroughs, and record the result
+    action: ensure registry ledger coverage, run scripts/sweep_infractions.py against Project Records with the registered project slugs, write Factory Instance/receipts/daily-infraction-rollup.json, repair the earliest recurring cause, promote pending skill proposals and breakthroughs, and record the result
     observedState: unconfigured
   existingChatRefresh:
     schedule: Sunday 06:00

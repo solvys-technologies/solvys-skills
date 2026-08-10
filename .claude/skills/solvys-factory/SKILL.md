@@ -39,6 +39,11 @@ Never collect passwords, MFA codes, tokens, or secret values in orientation file
    it or terminate its sync process.
 6. Write the entrance receipt before substantive work.
 
+Product, repository, Wonder, provider, deployment, and credential mutations are
+refused until the receipt passes validation. Read-only diagnosis may continue so
+the missing evidence can be repaired. Use `scripts/validate_entrance.py` for a
+machine-readable check and create a repair handoff when it fails.
+
 If the project has no literal `WELCOME.md`, do not treat that absence as a
 login or implementation blocker. Use the project's registered onboarding
 composite, usually `AGENTS.md`, `CLAUDE.md`, `README.md`, `SETUP.md`,
@@ -133,6 +138,11 @@ spawn one automation per infraction.
 Use `python3 scripts/sweep_infractions.py` to build the read-only ranked repair
 queue for that sitrep. It reports invalid ledgers as explicit evidence instead
 of hiding them.
+
+The first proven custody, authority, or proof-gate breach stops the affected
+action. Record the infraction, preserve the evidence, assign one repair owner,
+and create one repair handoff before retrying. Do not mutate provider state,
+credentials, production, Wonder, or protected files as an automatic response.
 
 ## Skill extraction trigger
 

@@ -27,6 +27,8 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=default_root(), help="Project ledger root")
     parser.add_argument("--ledger", type=Path, action="append", default=[], help="Explicit ledger path; repeatable")
+    parser.add_argument("--expected-project", action="append", default=[], help="Registered project slug; repeatable")
+    parser.add_argument("--rollup", type=Path, help="Write the JSON result to this path as well as stdout")
     parser.add_argument("--include-resolved", action="store_true", help="Include resolved and accepted-risk entries")
     parser.add_argument("--limit", type=int, default=50, help="Maximum repair entries to return")
     return parser.parse_args()
@@ -100,21 +102,24 @@ def main() -> int:
         )
     )
     selected = repairs[: args.limit]
-    print(
-        json.dumps(
-            {
-                "generatedAt": now_utc(),
-                "root": str(args.root.expanduser().resolve()),
-                "ledgerCount": len(paths),
-                "invalidLedgers": invalid,
-                "openCount": len(repairs),
-                "selectedRepairs": selected,
-                "remainingCount": max(0, len(repairs) - len(selected)),
-            },
-            indent=2,
-            sort_keys=False,
-        )
-    )
+    observed_projects = {str(payload.get("projectId")) for path in paths if (payload := read_ledger(path)[0])}
+    missing_projects = sorted(set(args.expected_project) - observed_projects)
+    result = {
+        "generatedAt": now_utc(),
+        "root": str(args.root.expanduser().resolve()),
+        "ledgerCount": len(paths),
+        "invalidLedgers": invalid,
+        "missingProjects": missing_projects,
+        "coverageComplete": not invalid and not missing_projects,
+        "openCount": len(repairs),
+        "selectedRepairs": selected,
+        "remainingCount": max(0, len(repairs) - len(selected)),
+    }
+    rendered = json.dumps(result, indent=2, sort_keys=False)
+    if args.rollup:
+        args.rollup.expanduser().resolve().parent.mkdir(parents=True, exist_ok=True)
+        args.rollup.expanduser().resolve().write_text(rendered + "\n", encoding="utf-8")
+    print(rendered)
     return 0
 
 
