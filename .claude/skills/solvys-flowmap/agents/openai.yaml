@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Flow Map"
+  short_description: "Build visual architecture and sprint maps"
+  default_prompt: "Use $solvys-flowmap to build a connected architecture map and sprint control view."
