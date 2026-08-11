@@ -53,6 +53,13 @@ mkdir -p \
 
 for skill_root in "$solvys_user_home/.codex/skills" "$solvys_user_home/.agents/skills" "$solvys_user_home/.claude/skills"; do
   mkdir -p "$skill_root"
+  legacy_user_testing="$skill_root/solvys-user-journey-acceptance"
+  if [[ -e "$legacy_user_testing" || -L "$legacy_user_testing" ]]; then
+    relative_target="${legacy_user_testing#"$solvys_user_home"/}"
+    backup_path="$backup_root/$relative_target"
+    mkdir -p "$(dirname "$backup_path")"
+    mv "$legacy_user_testing" "$backup_path"
+  fi
   for skill_dir in "$repo_root"/.claude/skills/*; do
     [[ -d "$skill_dir" && -f "$skill_dir/SKILL.md" ]] || continue
     link_path "$skill_dir" "$skill_root/$(basename "$skill_dir")"
@@ -68,6 +75,11 @@ done
 python3 "$repo_root/scripts/configure_global_agents.py" \
   --agents-file "$solvys_user_home/.codex/AGENTS.md" \
   --repo-root "$repo_root"
+
+python3 "$repo_root/scripts/configure_factory_hooks.py" \
+  --hooks-file "$solvys_user_home/.codex/hooks.json" \
+  --repo-root "$repo_root" \
+  --home "$solvys_user_home"
 
 orientation_args=(--config-dir "$solvys_user_home/.config/solvys-factory")
 if [[ "$force_orientation" -eq 1 ]]; then

@@ -93,6 +93,10 @@ Keep these rungs separate:
 
 Mark a node green only when it reaches the sprint's declared rung. Mark the earliest missing or failed dependency red.
 
+### Client outcome acceptance
+
+For a demo, workflow, user-facing control, or release that changes user behavior, load `$solvys-user-testing`. Require the linked physical specification maps in Codex Cabinet documentation and the owning codebase, then inherit the client objective, full journey, task sub-journey, criteria, gates, resources, progress, and regressions. The worker reports readiness; only orchestrator validation can accept completion. A passing test, rendered control, normal final statement, or deployment cannot replace this gate.
+
 ### Exact-copy fidelity gate
 
 For a `1:1`, `exact copy`, or production-parity objective, compare the accepted

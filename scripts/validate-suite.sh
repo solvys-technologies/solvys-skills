@@ -22,14 +22,19 @@ fi
 
 python3 -m py_compile \
   "$repo_root/scripts/configure_global_agents.py" \
+  "$repo_root/scripts/configure_factory_hooks.py" \
+  "$repo_root/scripts/factory_productivity_hook.py" \
   "$repo_root/scripts/record_infraction.py" \
   "$repo_root/scripts/sweep_infractions.py" \
   "$repo_root/scripts/ensure_factory_ledgers.py" \
   "$repo_root/scripts/validate_entrance.py" \
   "$repo_root/scripts/validate-skills.py" \
+  "$repo_root/.claude/skills/solvys-user-testing/scripts/validate_user_testing.py" \
   "$repo_root/.claude/skills/solvys-factory/scripts/orient.py" \
   "$repo_root/.claude/skills/solvys-build-kit/scripts/load_build_kit.py" \
   "$repo_root/.claude/skills/solvys-build-kit/scripts/validate_build_kit.py"
+
+python3 -m unittest discover -s "$repo_root/scripts/tests" -p 'test_*.py'
 
 python3 "$repo_root/.claude/skills/solvys-build-kit/scripts/validate_build_kit.py"
 

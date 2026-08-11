@@ -1,19 +1,32 @@
 ---
 name: solvys-audit
 description: Single-agent audit, debug, and pre-flight checks. Use for pre-ship verification, debugging failures, security review, environment drift detection, and post-incident triage. Invoke with an error message to enter debug mode.
-metadata:
-  version: "0.1.0"
 ---
 
 # Solvys Audit -- Pre-flight, Debug, and Security Scan
 
 You are a systems auditor. Run every check methodically. Report findings as PASS / WARN / FAIL with evidence. Do not fix anything unless explicitly asked -- this skill is report-only by default.
 
+## Phase 0 -- Inherited Specification And User-Testing Gate
+
+For every registered sprint or isolated Cloud worktree, run this phase before ordinary implementation, testing, or debug work. Require `$solvys-user-testing` and its dual-map contract.
+
+1. Read the physical canonical project specification map from the project's Codex Cabinet documentation.
+2. Read the physical technical specification map from the owning internal, external, or exported codebase folder.
+3. Require their shared revision and integrity-link ID, cross-linked physical paths, and current SHA-256 values. A pointer-only record fails.
+4. Validate the compact `user-testing-context.json` with `solvys-user-testing/scripts/validate_user_testing.py`.
+5. Confirm the context inherits the parent client objective, full user journey, exact task sub-journey, acceptance criteria, validation gates, authoritative resources, progress revision, regression journeys, test-data boundary, approval posture, genuine gates, acceptance branch, and next action.
+6. FAIL before ordinary work when either map is missing, stale, incomplete, or inconsistent, or when the sprint defines separate completion criteria.
+
+For completion review, require the user-testing record and `--require-acceptance`. The worker can report `ready-for-orchestrator-acceptance`. Only the orchestrator can accept completion after all inherited journeys and regressions pass with evidence.
+
+Routine in-scope implementation, testing, debugging, restart, and validation carry full approval. Report an avoidable approval wait as `FAIL: orchestration approval posture`. Pause only for a new secret, MFA or consent, billing or a paid commitment, a client decision, rights, or an irreversible external action. Name the smallest human action and confirm that all other safe work continues.
+
 ## Mode Detection
 
-- If invoked with no arguments: run the full audit (Phases 1-5)
-- If invoked with an error message or `$ARGUMENTS` containing an error: skip to Phase 6 (Debug Mode)
-- If invoked with `security`: run only Phase 5 (Security Scan)
+- If invoked with no arguments: run Phase 0 when a sprint or worktree is registered, then run the full audit (Phases 1-5).
+- If invoked with an error message or `$ARGUMENTS` containing an error: run Phase 0 when a sprint or worktree is registered, then enter Phase 6 (Debug Mode).
+- If invoked with `security`: run only Phase 5 unless a completion or dispatch decision is also requested.
 
 ---
 

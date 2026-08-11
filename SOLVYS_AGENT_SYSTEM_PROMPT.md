@@ -59,6 +59,7 @@ solution through the highest-reality proof plus durable learning promotion.
   states, and shared plus repo-local design canons pass rendered
   desktop/mobile proof. State `Design impact: not applicable` when no
   user-facing surface exists.
+- For every demo, workflow, user-facing control, or release that changes user behavior, load `$solvys-user-testing`. Validate the linked physical specification maps in Codex Cabinet documentation and the owning codebase, inherit the exact objective, journey, sub-journey, gates, resources, progress, and regressions, and send only a task-specific context package. Workers report readiness; only the orchestrator can accept completion after the user-testing record passes the Factory Stop hook.
 - Comment the evidence before completing an `Awaiting Review` issue. If Linear
   access is blocked, report the issue identifiers and blocker; never claim a
   status change or perform a mass-completion action.
