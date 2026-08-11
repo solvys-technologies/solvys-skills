@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "Forecast segment extending a line series past the last data point",
+  "name": "projection-line",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6157,
+      "path": "src/charts/projection-line.tsx",
+      "sha256": "59e87c1a29f4463ad26c7d12c5d4260cc054dc5414f6fd35c8fe8d612c23dff4",
+      "target": "components/charts/projection-line.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1635,
+      "path": "src/charts/projection-line-end-marker.tsx",
+      "sha256": "a30f9c2006f21ed673ac916efa69fcfc09e4260f7d98783683d646a52a47136c",
+      "target": "components/charts/projection-line-end-marker.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10400,
+      "path": "src/charts/projection-utils.ts",
+      "sha256": "a7d6c269220dcce466e2eaf620081d488fbef1a372ed3d9cff4fd76298232e0f",
+      "target": "components/charts/projection-utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2379,
+      "path": "src/charts/line-series-terminal-marker.tsx",
+      "sha256": "02e65354d92f02c52a67aa59220fb768070811bd900c2d424b3362f888b10d4c",
+      "target": "components/charts/line-series-terminal-marker.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/projection-line.json",
+  "status": "installed",
+  "title": "Projection Line",
+  "type": "registry:component"
+}

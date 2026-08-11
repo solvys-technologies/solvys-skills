@@ -1,0 +1,73 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@number-flow/react",
+    "@types/geojson",
+    "@types/topojson-specification",
+    "@central-icons-react/all",
+    "topojson-client"
+  ],
+  "description": "Visitor map stat card with choropleth sparkline, NumberFlow, and trend badge",
+  "name": "stat-card-choropleth-01",
+  "registryDependencies": [
+    "@bklit/choropleth-chart",
+    "@bklit/chart-stat-flow",
+    "card",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2960,
+      "path": "registry/blocks/stat-card-choropleth-01/components/stat-card-choropleth.tsx",
+      "sha256": "bbfed9812e9131506b6b9567efd8a5197711e1aa94a89a4d882c63247e3a5ab2",
+      "target": "components/stat-card-choropleth.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1014,
+      "path": "registry/blocks/stat-card-choropleth-01/components/stat-card-choropleth-hover-bridge.tsx",
+      "sha256": "8103bf6e9f546128b5777f28a47eb474c954c374ff0e82adef59f4b4e52d416e",
+      "target": "components/stat-card-choropleth-hover-bridge.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1042,
+      "path": "registry/blocks/stat-card-choropleth-01/components/stat-card-chart.tsx",
+      "sha256": "0c38f7deabbeca8a26ae43889ee46056e7b7618c1f1d049a53efe58e4d72c844",
+      "target": "components/stat-card-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 831,
+      "path": "registry/blocks/stat-card-choropleth-01/components/trend-badge.tsx",
+      "sha256": "bb21aab2bd43b97520e3aabf508ee664ccf6d5af9d10cf2baf53c0c39a800a42",
+      "target": "components/trend-badge.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1748,
+      "path": "registry/blocks/stat-card-choropleth-01/data/visitors.ts",
+      "sha256": "855fbb5ba098b3382735a4b785c9f7e08f1becdabed9a062209407a1834ce12f",
+      "target": "data/visitors.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 3604,
+      "path": "registry/blocks/stat-card-choropleth-01/lib/use-world-data.tsx",
+      "sha256": "9340abb7654feb5bed4bc003d16fe383b18a174d83d68c5b67cd512443e3bfcd",
+      "target": "lib/use-world-data.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 286,
+      "path": "registry/examples/stat-card-choropleth-01-index.ts",
+      "sha256": "21e642c36ba04f0461a6937066905956ee74ad39323554031f99fa6f828139cf",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/stat-card-choropleth-01.json",
+  "status": "installed",
+  "title": "Stat Card Choropleth",
+  "type": "registry:block"
+}

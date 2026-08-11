@@ -20,8 +20,8 @@
   },
   "coreFiles": ["src/contracts.ts", "src/chart-contracts.ts", "src/solvys-build-kit.css"],
   "approvedLibraries": [
-    {"id":"beui","role":"primary interface and motion blocks","autoUpdate":false,"promotion":"manual-snapshot"},
-    {"id":"beui-pro","role":"private premium interface and motion blocks","autoUpdate":false,"promotion":"manual-snapshot"},
+    {"id":"beui","role":"primary interface and motion blocks","appRegistry":"installed-registries/beui/app-blocks.json","autoUpdate":false,"promotion":"manual-snapshot"},
+    {"id":"beui-pro","role":"private premium interface and motion blocks","appRegistry":"installed-registries/beui-pro/app-blocks.json","autoUpdate":false,"promotion":"manual-snapshot"},
     {"id":"evilcharts","role":"primary design-first chart blocks","autoUpdate":false,"promotion":"manual-snapshot"},
     {"id":"tanstack-charts","role":"installed typed chart grammar and React adapter","autoUpdate":false,"promotion":"manifest-controlled"},
     {"id":"mapcn","role":"map and geospatial registry blocks","autoUpdate":false,"promotion":"manual-snapshot"},

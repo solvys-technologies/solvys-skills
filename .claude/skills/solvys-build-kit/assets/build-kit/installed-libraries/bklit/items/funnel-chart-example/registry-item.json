@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "Composable funnel-chart demo for Open in v0",
+  "name": "funnel-chart-example",
+  "registryDependencies": [
+    "@bklit/funnel-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 586,
+      "path": "registry/examples/funnel-chart.tsx",
+      "sha256": "813ca7551e9fa47c6c6584fb97f599a565ba6cbc6ccdc0512f93aec7a9d4df36",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 143,
+      "path": "registry/examples/funnel-chart-index.ts",
+      "sha256": "99c34a5550d5daf3db353d10fdbe2c9de9a2a411152dc6e0addda93970bccf9c",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/funnel-chart-example.json",
+  "status": "installed",
+  "title": "Funnel Chart Example",
+  "type": "registry:example"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/heatmap@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "Composable heatmap-chart demo for Open in v0",
+  "name": "heatmap-chart-example",
+  "registryDependencies": [
+    "@bklit/heatmap-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1918,
+      "path": "registry/examples/heatmap-chart.tsx",
+      "sha256": "69299e3118c6d6a958d4a6b240363bda014e2fe00dd90a27aaddcdba083b2274",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 285,
+      "path": "registry/examples/heatmap-chart-index.ts",
+      "sha256": "3ff4b81c047ece6d7a88f0a17eb4ef2abf954a0be8b5d0f4ffce7593b25d4116",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/heatmap-chart-example.json",
+  "status": "installed",
+  "title": "Heatmap Chart Example",
+  "type": "registry:example"
+}

@@ -39,7 +39,7 @@ Refresh the installed source layer with:
 python3 scripts/install_library_sources.py --apply --full
 ```
 
-The installer records catalog receipts under `assets/build-kit/installed-registries/` and copies every shipped registry item and source file under `assets/build-kit/installed-libraries/{beui,beui-pro,evilcharts}/`. It reads `BEUI_PRO_TOKEN` only from the current process, so the private catalog can be fetched from the Paste-held credential bridge locally or from the workflow secret in CI. It never writes the token to a file, source snapshot, receipt, lockfile, or log. Bakai Lab and the X post remain visual references. Grainient remains a commercial, license-gated asset source.
+The installer records catalog receipts under `assets/build-kit/installed-registries/` and copies every shipped registry item and source file under `assets/build-kit/installed-libraries/{beui,beui-pro,evilcharts}/`. It also writes `installed-registries/{beui,beui-pro}/app-blocks.json`, a source-faithful app-only registry. The complete upstream catalogs remain available for provenance; product app assembly uses the app-only registry and does not pull marketing/site sections. It reads `BEUI_PRO_TOKEN` only from the current process, so the private catalog can be fetched from the Paste-held credential bridge locally or from the workflow secret in CI. It never writes the token to a file, source snapshot, receipt, lockfile, or log. Bakai Lab and the X post remain visual references. Grainient remains a commercial, license-gated asset source.
 
 The sync and promotion scripts are retained as historical tooling, but they are disabled for this kit. Do not run them as an automatic update path.
 

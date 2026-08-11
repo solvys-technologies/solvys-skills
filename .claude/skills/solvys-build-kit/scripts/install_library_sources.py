@@ -20,6 +20,36 @@ INSTALL_ROOT = ASSET_ROOT / "installed-registries"
 FULL_SOURCE_ROOT = ASSET_ROOT / "installed-libraries"
 RECEIPT_PATH = INSTALL_ROOT / "install-receipt.json"
 
+# The upstream Pro registry deliberately combines product UI blocks with
+# marketing/site sections. The Build Kit keeps the full upstream catalog for
+# provenance, then exposes this narrower app surface for product assembly.
+WEBSITE_BLOCK_PREFIXES = (
+    "hero-",
+    "pricing",
+    "footer-",
+    "features-",
+    "content-",
+    "trust-",
+    "announcement-",
+    "use-cases-",
+    "how-it-works-",
+    "logo-cloud-",
+    "testimonials-",
+    "image-gallery-",
+    "navbar-",
+    "newsletter-",
+    "contact-",
+    "integrations-",
+    "feature-comparison",
+    "about-",
+    "careers-",
+    "changelog-",
+    "blog-",
+    "team-",
+    "faq-",
+    "cta-",
+)
+
 
 def now() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -74,6 +104,48 @@ def catalog_items(catalog: dict | list) -> list[dict]:
     return value if isinstance(value, list) else []
 
 
+def is_website_block(name: str) -> bool:
+    """Classify the upstream Pro marketing/site section families."""
+    return any(name == prefix or name.startswith(prefix) for prefix in WEBSITE_BLOCK_PREFIXES)
+
+
+def app_block_items(source_id: str, catalog: dict | list) -> tuple[list[dict], list[dict]]:
+    """Return app blocks and excluded website blocks from an upstream catalog."""
+    blocks = [item for item in catalog_items(catalog) if item.get("type") == "registry:block"]
+    if source_id != "beui-pro":
+        return blocks, []
+    app_blocks = [item for item in blocks if not is_website_block(str(item.get("name") or ""))]
+    return app_blocks, [item for item in blocks if item not in app_blocks]
+
+
+def write_app_block_registry(source: dict, catalog: dict | list) -> dict:
+    """Write a source-faithful registry containing app blocks only."""
+    app_blocks, website_blocks = app_block_items(source["id"], catalog)
+    if isinstance(catalog, dict):
+        registry = dict(catalog)
+    else:
+        registry = {
+            "$schema": "https://ui.shadcn.com/schema/registry.json",
+            "name": source["id"],
+            "items": [],
+        }
+    registry["name"] = f"{source['id']}-app-blocks"
+    registry["homepage"] = source.get("sourceUrl")
+    registry["scope"] = "app-blocks-only"
+    registry["sourceLibrary"] = source["id"]
+    registry["items"] = app_blocks
+    target = INSTALL_ROOT / source["id"] / "app-blocks.json"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps(registry, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return {
+        "path": str(target.relative_to(ASSET_ROOT)),
+        "appBlockItemCount": len(app_blocks),
+        "excludedWebsiteBlockCount": len(website_blocks),
+        "appBlockNames": [str(item.get("name")) for item in app_blocks],
+        "excludedWebsiteBlockNames": [str(item.get("name")) for item in website_blocks],
+    }
+
+
 def access_status(exc: Exception, token_env: str | None = None) -> str:
     """Classify a source failure without hiding an access-gated catalog entry."""
     if isinstance(exc, HTTPError) and exc.code in {401, 403}:
@@ -88,6 +160,7 @@ def snapshot_full_registry(source: dict, catalog_url: str, token_env: str | None
     source_root = FULL_SOURCE_ROOT / source["id"]
     source_root.mkdir(parents=True, exist_ok=True)
     (source_root / "catalog.json").write_text(json.dumps(catalog, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    app_registry = write_app_block_registry(source, catalog)
 
     item_manifests: list[dict] = []
     template = source.get("catalogItemPathTemplate")
@@ -190,6 +263,7 @@ def snapshot_full_registry(source: dict, catalog_url: str, token_env: str | None
         "status": "installed" if not gated_items and not unavailable_items else "installed-with-access-gates",
         "snapshotMode": "full-registry-source",
         "autoUpdate": False,
+        "appBlockRegistry": app_registry,
         "items": item_manifests,
     }
     (source_root / "library-manifest.json").write_text(json.dumps(library_manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -316,11 +390,17 @@ def install_sources(full: bool = False, skip_existing: bool = False) -> dict:
         "autoUpdate": False,
         "snapshot": write_snapshot("evilcharts", "registry.json", "https://evilcharts.com/r/registry.json?raw=1"),
     }
+    results["bklit"] = {
+        "mode": "registry-catalog",
+        "autoUpdate": False,
+        "snapshot": write_snapshot("bklit", "registry.json", "https://bklit.com/r/registry.json"),
+    }
     if full:
         for source_id, token_env, catalog_url in [
             ("beui", None, "https://beui.dev/r/registry.json"),
             ("beui-pro", "BEUI_PRO_TOKEN", "https://pro.beui.dev/r/registry.json"),
             ("evilcharts", None, "https://evilcharts.com/r/registry.json?raw=1"),
+            ("bklit", None, "https://bklit.com/r/registry.json"),
             ("mapcn", None, "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/registry.json"),
             ("aceternity-ui", None, "https://ui.aceternity.com/registry/registry.json"),
             ("create-ui", None, "https://createui.co/r/registry.json"),

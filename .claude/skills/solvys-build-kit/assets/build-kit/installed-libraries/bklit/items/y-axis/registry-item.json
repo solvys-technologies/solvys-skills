@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "description": "Y-axis component for value labels in line and area charts",
+  "name": "y-axis",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4921,
+      "path": "src/charts/y-axis.tsx",
+      "sha256": "036735b344f439f932d466460ed5b649070b0723cf6de8e92b9d4f98217e8837",
+      "target": "components/charts/y-axis.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3175,
+      "path": "src/charts/reference-area-geometry.ts",
+      "sha256": "846c484c1a94faf0f0090783f408d586ba02e6c28dbe597c25241fad6fa9cda9",
+      "target": "components/charts/reference-area-geometry.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/y-axis.json",
+  "status": "installed",
+  "title": "Y Axis",
+  "type": "registry:component"
+}

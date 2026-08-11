@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/curve@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "Composable live-line-chart demo for Open in v0",
+  "name": "live-line-chart-example",
+  "registryDependencies": [
+    "@bklit/live-line-chart",
+    "@bklit/chart-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 891,
+      "path": "registry/examples/live-line-chart.tsx",
+      "sha256": "cbb9fd3c20f15a35c6cf818ef99711b4c6bd4d840aa6a2542505df33b6abb05c",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 316,
+      "path": "registry/examples/live-line-chart-index.ts",
+      "sha256": "00958c108a4b1dacbde92a494548f47e76e44d2dde54464384ade4ed4763cf57",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/live-line-chart-example.json",
+  "status": "installed",
+  "title": "Live Line Chart Example",
+  "type": "registry:example"
+}

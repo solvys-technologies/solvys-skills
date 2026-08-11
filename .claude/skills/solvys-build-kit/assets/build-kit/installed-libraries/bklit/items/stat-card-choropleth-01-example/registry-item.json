@@ -1,0 +1,35 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@number-flow/react",
+    "@types/geojson",
+    "@types/topojson-specification",
+    "@central-icons-react/all",
+    "topojson-client"
+  ],
+  "description": "Visitor map stat card with choropleth sparkline, NumberFlow, and trend badge \u2014 demo for Open in v0",
+  "name": "stat-card-choropleth-01-example",
+  "registryDependencies": [
+    "@bklit/stat-card-choropleth-01"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 326,
+      "path": "registry/examples/stat-card-choropleth-01.tsx",
+      "sha256": "7b9a99eea4c7f220df2d7d6f1b79bf862f3b7761e4091b0e1c9b109230cf622e",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 286,
+      "path": "registry/examples/stat-card-choropleth-01-index.ts",
+      "sha256": "21e642c36ba04f0461a6937066905956ee74ad39323554031f99fa6f828139cf",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/stat-card-choropleth-01-example.json",
+  "status": "installed",
+  "title": "Stat Card Choropleth Example",
+  "type": "registry:example"
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/shape@4.0.1-alpha.0",
+    "d3-shape",
+    "motion"
+  ],
+  "description": "Shared line and area series rendering helpers (paths, markers, highlights, dash tails)",
+  "name": "chart-series",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/chart-animation",
+    "@bklit/chart-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2433,
+      "path": "src/charts/path-stroke-utils.ts",
+      "sha256": "1c3cbb715eb143995dfec320a53524a60ef790db0fdafca1ebf3502fde223dc4",
+      "target": "components/charts/path-stroke-utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2822,
+      "path": "src/charts/series-path-utils.ts",
+      "sha256": "cdc21b513a9789f33fa85335a791b49e389a6866b8397abe9eaaff59ef385fe4",
+      "target": "components/charts/series-path-utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4210,
+      "path": "src/charts/use-animated-series-path.ts",
+      "sha256": "54bad56d9d3cdc02ca0433719059b1b1e595fc8169a16530798c320a76b8f0a6",
+      "target": "components/charts/use-animated-series-path.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2461,
+      "path": "src/charts/highlight-segment-bounds.ts",
+      "sha256": "b5a304c3b9907823f7c0762443304dc6fc16c5ec76c9c927742f7250465e97b3",
+      "target": "components/charts/highlight-segment-bounds.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1917,
+      "path": "src/charts/highlight-segment.tsx",
+      "sha256": "112a80a08a9d35b1babe66be7b03dfe0be8638cc2860982d6c7c049839769872",
+      "target": "components/charts/highlight-segment.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1901,
+      "path": "src/charts/dash-tail-stroke.tsx",
+      "sha256": "42e25bc552b9eab95f6960ae75a633c6c5dd515d38654ce954f2fcb1df6cee89",
+      "target": "components/charts/dash-tail-stroke.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2715,
+      "path": "src/charts/series-dash-tail-overlay.tsx",
+      "sha256": "62425aae177b81d3ee730d3d379ed2e43e6ec998bd2d17851f01de265b434582",
+      "target": "components/charts/series-dash-tail-overlay.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1441,
+      "path": "src/charts/series-highlight-layer.tsx",
+      "sha256": "c9d5d19fe7fb3e1cf6dd3d054ef89538920b523f4899ea78a37f63b976fa00ac",
+      "target": "components/charts/series-highlight-layer.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1052,
+      "path": "src/charts/chart-legend-hover.tsx",
+      "sha256": "fb31f3648fed0aba2d92792ee943a6317b5051532d5738855bae24a496403882",
+      "target": "components/charts/chart-legend-hover.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2001,
+      "path": "src/charts/series-hover-dim.tsx",
+      "sha256": "3eb2c82aa794c2b263bef2dba8bfe81ef9fb63b78891225d3cf951b0c89483ba",
+      "target": "components/charts/series-hover-dim.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5264,
+      "path": "src/charts/series-point-marker.tsx",
+      "sha256": "9775cb40e04639fafa29c675619e6ebbaf20984d353cf41fdc5d10fe1034ea04",
+      "target": "components/charts/series-point-marker.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7305,
+      "path": "src/charts/series-markers.tsx",
+      "sha256": "c8c37a80c3760bbac0c0872830ca77fb51b49daaa644409e2f0855581b816dc6",
+      "target": "components/charts/series-markers.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2046,
+      "path": "src/charts/use-highlight-segment.ts",
+      "sha256": "f34fd027d2197976aa9ebab9b80727c2cd11e48242289901834d69a26ca01cb3",
+      "target": "components/charts/use-highlight-segment.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3093,
+      "path": "src/charts/area-gradient-defs.tsx",
+      "sha256": "4dd07b0a7fa5822f20a5287722c075aff0b9aa39411ad048f7a03b7dec4c7c42",
+      "target": "components/charts/area-gradient-defs.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1676,
+      "path": "src/charts/fade-edges.ts",
+      "sha256": "74eebe91d37b5b5d4b4227c590edcf2cf8de7c68dc359827910e0bc0f25bb120",
+      "target": "components/charts/fade-edges.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/chart-series.json",
+  "status": "installed",
+  "title": "Chart Series Layer",
+  "type": "registry:component"
+}

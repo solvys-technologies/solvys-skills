@@ -9,7 +9,7 @@
     "penpotStatus": "retired-read-only",
     "installedSourceRoot": "installed-registries",
     "automaticUpdateSources": [],
-    "snapshotLibraries": ["beui", "beui-pro", "evilcharts", "tanstack-charts", "mapcn", "aceternity-ui", "create-ui", "aicss"]
+    "snapshotLibraries": ["beui", "beui-pro", "evilcharts", "bklit", "tanstack-charts", "mapcn", "aceternity-ui", "create-ui", "aicss"]
   },
   "activeUpstreams": [
     {
@@ -28,6 +28,8 @@
       "catalogUrlEnv": "SOLVYS_BEUI_CATALOG_URL",
       "mirrorEnv": "SOLVYS_UI_LIBRARY_MIRROR",
       "mirrorCatalog": "beui/catalog.json",
+      "appRegistryPath": "installed-registries/beui/app-blocks.json",
+      "appBlockPolicy": "all official registry:block entries; no website-section families",
       "autoUpdate": false,
       "promotion": "green-only",
       "licensePolicy": "verify-per-block"
@@ -49,6 +51,8 @@
       "authEnv": "SOLVYS_BEUI_PRO_TOKEN",
       "mirrorEnv": "SOLVYS_UI_LIBRARY_MIRROR",
       "mirrorCatalog": "beui-pro/catalog.json",
+      "appRegistryPath": "installed-registries/beui-pro/app-blocks.json",
+      "appBlockPolicy": "official registry:block entries excluding website-section families",
       "autoUpdate": false,
       "promotion": "green-only",
       "licensePolicy": "verify-per-block",
@@ -70,6 +74,23 @@
       "catalogUrlEnv": "SOLVYS_EVILCHARTS_CATALOG_URL",
       "mirrorEnv": "SOLVYS_UI_LIBRARY_MIRROR",
       "mirrorCatalog": "evilcharts/catalog.json",
+      "autoUpdate": false,
+      "promotion": "green-only",
+      "licensePolicy": "verify-per-block"
+    },
+    {
+      "id": "bklit",
+      "name": "Bklit",
+      "role": "Open-source design-engineered chart and data-visualization blocks",
+      "sourceUrl": "https://bklit.com/",
+      "distribution": "shadcn-registry",
+      "registryNamespace": "@bklit",
+      "catalogUrl": "https://bklit.com/r/registry.json",
+      "catalogItemPathTemplate": "https://bklit.com/r/{name}.json",
+      "catalogLicense": "MIT",
+      "catalogLicenseUrl": "https://github.com/bklit/bklit-ui/blob/main/LICENSE",
+      "contractId": "bklit:registry-component",
+      "compatibilityProfile": {"kit":"solvys-build-kit","status":"compatible","checks":["registry-schema","source-files","dependency-inventory","license-source"]},
       "autoUpdate": false,
       "promotion": "green-only",
       "licensePolicy": "verify-per-block"

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "motion"
+  ],
+  "description": "An animated funnel chart with multi-layer halo rings, hover interactions, and staggered entrance animations",
+  "name": "funnel-chart",
+  "registryDependencies": [
+    "@bklit/chart-animation",
+    "@bklit/utils",
+    "@bklit/chart-utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 32191,
+      "path": "src/charts/funnel-chart.tsx",
+      "sha256": "2f1f5688542b3c525c9e8dce1435bdbe4e71c82e0a6cdb371934d8bb1bd60d27",
+      "target": "components/charts/funnel-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/funnel-chart.json",
+  "status": "installed",
+  "title": "Funnel Chart",
+  "type": "registry:component"
+}

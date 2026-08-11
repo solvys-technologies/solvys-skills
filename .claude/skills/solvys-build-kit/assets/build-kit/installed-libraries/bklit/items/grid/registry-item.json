@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/grid@4.0.1-alpha.0"
+  ],
+  "description": "Grid lines for charts",
+  "name": "grid",
+  "registryDependencies": [
+    "@bklit/chart-context"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 11312,
+      "path": "src/charts/grid.tsx",
+      "sha256": "f2ad9cd94ba3b2df6cd4b15d6a7ea7bff4b2e577a5a18e820e3eb1684956717c",
+      "target": "components/charts/grid.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2698,
+      "path": "src/charts/use-grid-shimmer.ts",
+      "sha256": "cc3f402c8b6215fcaa7707a3181085b9e77e936a610575b08a0df4bea35141fb",
+      "target": "components/charts/use-grid-shimmer.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/grid.json",
+  "status": "installed",
+  "title": "Chart Grid",
+  "type": "registry:component"
+}

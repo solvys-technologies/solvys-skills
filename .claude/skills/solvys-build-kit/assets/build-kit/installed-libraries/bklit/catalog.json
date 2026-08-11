@@ -1,0 +1,2457 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://ui.bklit.com",
+  "items": [
+    {
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "description": "Utility functions for className merging with clsx and tailwind-merge",
+      "files": [
+        {
+          "path": "src/lib/utils.ts",
+          "target": "lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "utils",
+      "title": "Utilities",
+      "type": "registry:lib"
+    },
+    {
+      "dependencies": [
+        "motion"
+      ],
+      "description": "Per-character shimmer animation for loading labels and badges",
+      "files": [
+        {
+          "path": "src/components/shimmering-text.tsx",
+          "target": "components/shimmering-text.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "shimmering-text",
+      "registryDependencies": [
+        "@bklit/utils"
+      ],
+      "title": "Shimmering Text",
+      "type": "registry:component"
+    },
+    {
+      "description": "Shared Intl formatters, time-series decimation, and RAF tooltip scheduling for Bklit charts",
+      "files": [
+        {
+          "path": "src/charts/chart-formatters.ts",
+          "target": "components/charts/chart-formatters.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/decimate-time-series.ts",
+          "target": "components/charts/decimate-time-series.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/use-scheduled-tooltip.ts",
+          "target": "components/charts/use-scheduled-tooltip.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "chart-utils",
+      "title": "Chart Utilities",
+      "type": "registry:lib"
+    },
+    {
+      "cssVars": {
+        "dark": {
+          "--chart-1": "oklch(1 0 none)",
+          "--chart-2": "oklch(0.73 0 none)",
+          "--chart-3": "oklch(0.51 0 none)",
+          "--chart-4": "oklch(0.39 0 none)",
+          "--chart-5": "oklch(0.32 0 none)",
+          "--chart-background": "oklch(0.145 0 0)",
+          "--chart-brush-border": "var(--chart-grid)",
+          "--chart-crosshair": "oklch(0.45 0 0)",
+          "--chart-foreground": "oklch(0.45 0 0)",
+          "--chart-foreground-muted": "oklch(0.65 0.01 260)",
+          "--chart-grid": "oklch(0.25 0 0)",
+          "--chart-label": "oklch(0.75 0.01 260)",
+          "--chart-marker-background": "oklch(0.25 0.01 260)",
+          "--chart-marker-border": "oklch(0.4 0.01 260)",
+          "--chart-marker-foreground": "oklch(0.9 0 0)",
+          "--chart-scale-01": "oklch(0.28 0.03 270)",
+          "--chart-scale-02": "oklch(0.38 0.04 270)",
+          "--chart-scale-03": "oklch(0.48 0.05 270)",
+          "--chart-scale-04": "oklch(0.58 0.06 270)",
+          "--chart-scale-05": "oklch(0.68 0.07 270)",
+          "--chart-scale-pattern-color": "oklch(0.145 0 0)"
+        },
+        "light": {
+          "--chart-1": "oklch(0.32 0 none)",
+          "--chart-2": "oklch(0.41 0 none)",
+          "--chart-3": "oklch(0.54 0 none)",
+          "--chart-4": "oklch(0.71 0 none)",
+          "--chart-5": "oklch(0.89 0 none)",
+          "--chart-background": "oklch(1 0 0)",
+          "--chart-brush-border": "var(--chart-grid)",
+          "--chart-crosshair": "oklch(0.4 0.1828 274.34)",
+          "--chart-foreground": "oklch(0.145 0.004 285)",
+          "--chart-foreground-muted": "oklch(0.55 0.014 260)",
+          "--chart-grid": "oklch(0.9 0 0)",
+          "--chart-label": "oklch(0.45 0.01 260)",
+          "--chart-line-primary": "var(--chart-1)",
+          "--chart-line-secondary": "var(--chart-2)",
+          "--chart-marker-background": "oklch(0.97 0.005 260)",
+          "--chart-marker-border": "oklch(0.85 0.01 260)",
+          "--chart-marker-foreground": "oklch(0.3 0.01 260)",
+          "--chart-scale-01": "oklch(0.98 0.003 106)",
+          "--chart-scale-02": "oklch(0.92 0.008 106)",
+          "--chart-scale-03": "oklch(0.82 0.015 106)",
+          "--chart-scale-04": "oklch(0.68 0.02 106)",
+          "--chart-scale-05": "oklch(0.55 0.025 106)",
+          "--chart-scale-pattern-color": "oklch(0.96 0.005 106)",
+          "--chart-tooltip-background": "oklch(0.21 0.006 285 / 0.8)",
+          "--chart-tooltip-foreground": "oklch(0.985 0 0)",
+          "--chart-tooltip-muted": "oklch(0.65 0.01 260)"
+        }
+      },
+      "dependencies": [
+        "@visx/event@4.0.1-alpha.0",
+        "@visx/responsive@4.0.1-alpha.0",
+        "@visx/scale@4.0.1-alpha.0",
+        "d3-array",
+        "motion"
+      ],
+      "description": "Shared context and hooks for Bklit chart components",
+      "files": [
+        {
+          "path": "src/charts/chart-context.tsx",
+          "target": "components/charts/chart-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/reference-area-config.ts",
+          "target": "components/charts/reference-area-config.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/use-chart-interaction.ts",
+          "target": "components/charts/use-chart-interaction.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/y-axis-scales.ts",
+          "target": "components/charts/y-axis-scales.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/y-axis-ticks.ts",
+          "target": "components/charts/y-axis-ticks.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/chart-phase.ts",
+          "target": "components/charts/chart-phase.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/y-domain-utils.ts",
+          "target": "components/charts/y-domain-utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/filter-data-by-x-domain.ts",
+          "target": "components/charts/filter-data-by-x-domain.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/generate-chart-skeleton-data.ts",
+          "target": "components/charts/generate-chart-skeleton-data.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/use-animated-y-domains.ts",
+          "target": "components/charts/use-animated-y-domains.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/use-chart-phase-orchestrator.ts",
+          "target": "components/charts/use-chart-phase-orchestrator.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/line-loading-timing.ts",
+          "target": "components/charts/line-loading-timing.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "chart-context",
+      "registryDependencies": [
+        "@bklit/utils",
+        "@bklit/chart-utils"
+      ],
+      "title": "Chart Context",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "motion"
+      ],
+      "description": "Shared motion helpers for chart enter transitions, clip reveals, and staggered animations",
+      "files": [
+        {
+          "path": "src/charts/animation.ts",
+          "target": "components/charts/animation.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/motion-utils.ts",
+          "target": "components/charts/motion-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/use-mount-progress.ts",
+          "target": "components/charts/use-mount-progress.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/use-enter-complete.ts",
+          "target": "components/charts/use-enter-complete.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-reveal-clip.tsx",
+          "target": "components/charts/chart-reveal-clip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/static-chart-preview-context.tsx",
+          "target": "components/charts/static-chart-preview-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-defs.ts",
+          "target": "components/charts/chart-defs.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "chart-animation",
+      "title": "Chart Animation",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/shape@4.0.1-alpha.0",
+        "d3-shape",
+        "motion"
+      ],
+      "description": "Shared line and area series rendering helpers (paths, markers, highlights, dash tails)",
+      "files": [
+        {
+          "path": "src/charts/path-stroke-utils.ts",
+          "target": "components/charts/path-stroke-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-path-utils.ts",
+          "target": "components/charts/series-path-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/use-animated-series-path.ts",
+          "target": "components/charts/use-animated-series-path.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/highlight-segment-bounds.ts",
+          "target": "components/charts/highlight-segment-bounds.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/highlight-segment.tsx",
+          "target": "components/charts/highlight-segment.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/dash-tail-stroke.tsx",
+          "target": "components/charts/dash-tail-stroke.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-dash-tail-overlay.tsx",
+          "target": "components/charts/series-dash-tail-overlay.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-highlight-layer.tsx",
+          "target": "components/charts/series-highlight-layer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-legend-hover.tsx",
+          "target": "components/charts/chart-legend-hover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-hover-dim.tsx",
+          "target": "components/charts/series-hover-dim.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-point-marker.tsx",
+          "target": "components/charts/series-point-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-markers.tsx",
+          "target": "components/charts/series-markers.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/use-highlight-segment.ts",
+          "target": "components/charts/use-highlight-segment.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/area-gradient-defs.tsx",
+          "target": "components/charts/area-gradient-defs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/fade-edges.ts",
+          "target": "components/charts/fade-edges.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "chart-series",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/chart-animation",
+        "@bklit/chart-tooltip"
+      ],
+      "title": "Chart Series Layer",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/grid@4.0.1-alpha.0"
+      ],
+      "description": "Grid lines for charts",
+      "files": [
+        {
+          "path": "src/charts/grid.tsx",
+          "target": "components/charts/grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/use-grid-shimmer.ts",
+          "target": "components/charts/use-grid-shimmer.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "grid",
+      "registryDependencies": [
+        "@bklit/chart-context"
+      ],
+      "title": "Chart Grid",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "motion"
+      ],
+      "description": "Shaded data-coordinate band for target ranges and thresholds on time-series charts",
+      "files": [
+        {
+          "path": "src/charts/reference-area.tsx",
+          "target": "components/charts/reference-area.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/reference-area-geometry.ts",
+          "target": "components/charts/reference-area-geometry.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/reference-area-registration-context.tsx",
+          "target": "components/charts/reference-area-registration-context.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "reference-area",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/background"
+      ],
+      "title": "Reference Area",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Forecast segment extending a line series past the last data point",
+      "files": [
+        {
+          "path": "src/charts/projection-line.tsx",
+          "target": "components/charts/projection-line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-line-end-marker.tsx",
+          "target": "components/charts/projection-line-end-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-utils.ts",
+          "target": "components/charts/projection-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/line-series-terminal-marker.tsx",
+          "target": "components/charts/line-series-terminal-marker.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "projection-line",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/line-chart"
+      ],
+      "title": "Projection Line",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/pattern@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Pattern fill for the plot area when grid lines are hidden",
+      "files": [
+        {
+          "path": "src/charts/background.tsx",
+          "target": "components/charts/background.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/pattern-preset.tsx",
+          "target": "components/charts/pattern-preset.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/visx-pattern.tsx",
+          "target": "components/charts/visx-pattern.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "background",
+      "registryDependencies": [
+        "@bklit/chart-context"
+      ],
+      "title": "Chart Background",
+      "type": "registry:component"
+    },
+    {
+      "description": "X-axis component for time-series charts",
+      "files": [
+        {
+          "path": "src/charts/x-axis.tsx",
+          "target": "components/charts/x-axis.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "x-axis",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/utils"
+      ],
+      "title": "X Axis",
+      "type": "registry:component"
+    },
+    {
+      "description": "Y-axis component for value labels in line and area charts",
+      "files": [
+        {
+          "path": "src/charts/y-axis.tsx",
+          "target": "components/charts/y-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/reference-area-geometry.ts",
+          "target": "components/charts/reference-area-geometry.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "y-axis",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/utils"
+      ],
+      "title": "Y Axis",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@number-flow/react",
+        "motion"
+      ],
+      "description": "Composable tooltip components for charts",
+      "files": [
+        {
+          "path": "src/charts/chart-config-context.tsx",
+          "target": "components/charts/chart-config-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/indicator-fade.ts",
+          "target": "components/charts/indicator-fade.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/tooltip/chart-tooltip.tsx",
+          "target": "components/charts/tooltip/chart-tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/tooltip/tooltip-box.tsx",
+          "target": "components/charts/tooltip/tooltip-box.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/tooltip/tooltip-content.tsx",
+          "target": "components/charts/tooltip/tooltip-content.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/tooltip/tooltip-dot.tsx",
+          "target": "components/charts/tooltip/tooltip-dot.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/tooltip/tooltip-indicator.tsx",
+          "target": "components/charts/tooltip/tooltip-indicator.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/tooltip/date-ticker.tsx",
+          "target": "components/charts/tooltip/date-ticker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/tooltip/index.ts",
+          "target": "components/charts/tooltip/index.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "chart-tooltip",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/utils"
+      ],
+      "title": "Chart Tooltip",
+      "type": "registry:component"
+    },
+    {
+      "cssVars": {
+        "dark": {
+          "--legend": "oklch(0.21 0.006 285.885)",
+          "--legend-foreground": "oklch(0.985 0 0)",
+          "--legend-muted": "oklch(0.274 0.006 286.033)",
+          "--legend-muted-foreground": "oklch(0.705 0.015 286.067)",
+          "--legend-track": "oklch(0.274 0.006 286.033)"
+        },
+        "light": {
+          "--legend": "oklch(1 0 0)",
+          "--legend-foreground": "oklch(0.141 0.005 285.823)",
+          "--legend-muted": "oklch(0.967 0.001 286.375)",
+          "--legend-muted-foreground": "oklch(0.552 0.016 285.938)",
+          "--legend-track": "oklch(0.92 0.004 286.32)"
+        }
+      },
+      "dependencies": [
+        "@base-ui/react",
+        "@number-flow/react"
+      ],
+      "description": "Composable legend components for charts",
+      "files": [
+        {
+          "path": "src/charts/legend/legend.tsx",
+          "target": "components/charts/legend/legend.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/legend/legend-context.tsx",
+          "target": "components/charts/legend/legend-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/legend/legend-item.tsx",
+          "target": "components/charts/legend/legend-item.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/legend/legend-label.tsx",
+          "target": "components/charts/legend/legend-label.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/legend/legend-marker.tsx",
+          "target": "components/charts/legend/legend-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/legend/legend-progress.tsx",
+          "target": "components/charts/legend/legend-progress.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/legend/legend-value.tsx",
+          "target": "components/charts/legend/legend-value.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/legend/index.ts",
+          "target": "components/charts/legend/index.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "legend",
+      "registryDependencies": [
+        "@bklit/utils",
+        "@bklit/chart-utils"
+      ],
+      "title": "Chart Legend",
+      "type": "registry:component"
+    },
+    {
+      "description": "Marker components for highlighting data points on charts",
+      "files": [
+        {
+          "path": "src/charts/markers/chart-markers.tsx",
+          "target": "components/charts/markers/chart-markers.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/markers/marker-group.tsx",
+          "target": "components/charts/markers/marker-group.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/markers/index.ts",
+          "target": "components/charts/markers/index.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "markers",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/chart-tooltip",
+        "@bklit/utils"
+      ],
+      "title": "Chart Markers",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/gradient@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "A composable area chart with gradient fills and animations",
+      "files": [
+        {
+          "path": "src/charts/area-chart.tsx",
+          "target": "components/charts/area-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/time-series-chart-shell.tsx",
+          "target": "components/charts/time-series-chart-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/reference-area-registration-context.tsx",
+          "target": "components/charts/reference-area-registration-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-config.ts",
+          "target": "components/charts/projection-config.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-utils.ts",
+          "target": "components/charts/projection-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-child-passthrough.ts",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-bar-layout.ts",
+          "target": "components/charts/series-bar-layout.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/area.tsx",
+          "target": "components/charts/area.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/area-chart-loading.tsx",
+          "target": "components/charts/area-chart-loading.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/line-loading-pulse.tsx",
+          "target": "components/charts/line-loading-pulse.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/loading-sweep.tsx",
+          "target": "components/charts/loading-sweep.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/line-loading-timing.ts",
+          "target": "components/charts/line-loading-timing.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-loading-label.tsx",
+          "target": "components/charts/chart-loading-label.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/pattern-area.tsx",
+          "target": "components/charts/pattern-area.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "area-chart",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/chart-animation",
+        "@bklit/chart-series",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/chart-tooltip",
+        "@bklit/shimmering-text",
+        "@bklit/utils"
+      ],
+      "title": "Area Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/scale@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "@visx/responsive@4.0.1-alpha.0",
+        "d3-array",
+        "motion"
+      ],
+      "description": "Time-series chart composing Line, Area, and SeriesBar on one shared scale (Recharts ComposedChart-style)",
+      "files": [
+        {
+          "path": "src/charts/composed-chart.tsx",
+          "target": "components/charts/composed-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-bar.tsx",
+          "target": "components/charts/series-bar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-bar-layout.ts",
+          "target": "components/charts/series-bar-layout.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/time-series-chart-shell.tsx",
+          "target": "components/charts/time-series-chart-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/reference-area-registration-context.tsx",
+          "target": "components/charts/reference-area-registration-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-config.ts",
+          "target": "components/charts/projection-config.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-utils.ts",
+          "target": "components/charts/projection-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-child-passthrough.ts",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "composed-chart",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/y-axis",
+        "@bklit/chart-tooltip",
+        "@bklit/utils",
+        "@bklit/line-chart",
+        "@bklit/area-chart"
+      ],
+      "title": "Composed Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/gradient@4.0.1-alpha.0",
+        "@visx/pattern@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "A composable bar chart with horizontal/vertical orientations and animations",
+      "files": [
+        {
+          "path": "src/charts/bar-chart.tsx",
+          "target": "components/charts/bar-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-child-passthrough.ts",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/chart-legend-hover.tsx",
+          "target": "components/charts/chart-legend-hover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/bar.tsx",
+          "target": "components/charts/bar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/bar-squares.tsx",
+          "target": "components/charts/bar-squares.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/bar-squares-layout.ts",
+          "target": "components/charts/bar-squares-layout.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/pattern-preset.tsx",
+          "target": "components/charts/pattern-preset.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/visx-pattern.tsx",
+          "target": "components/charts/visx-pattern.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/bar-depth-geometry.ts",
+          "target": "components/charts/bar-depth-geometry.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/bar-x-axis.tsx",
+          "target": "components/charts/bar-x-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/bar-y-axis.tsx",
+          "target": "components/charts/bar-y-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/loading-sweep.tsx",
+          "target": "components/charts/loading-sweep.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/bar-chart-loading.tsx",
+          "target": "components/charts/bar-chart-loading.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "bar-chart",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/chart-animation",
+        "@bklit/grid",
+        "@bklit/chart-tooltip",
+        "@bklit/utils"
+      ],
+      "title": "Bar Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "A composable line chart with multiple series support",
+      "files": [
+        {
+          "path": "src/charts/line-chart.tsx",
+          "target": "components/charts/line-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/time-series-chart-shell.tsx",
+          "target": "components/charts/time-series-chart-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/reference-area-registration-context.tsx",
+          "target": "components/charts/reference-area-registration-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-config.ts",
+          "target": "components/charts/projection-config.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-utils.ts",
+          "target": "components/charts/projection-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-line.tsx",
+          "target": "components/charts/projection-line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-line-end-marker.tsx",
+          "target": "components/charts/projection-line-end-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/line-series-terminal-marker.tsx",
+          "target": "components/charts/line-series-terminal-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-child-passthrough.ts",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-bar-layout.ts",
+          "target": "components/charts/series-bar-layout.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/line.tsx",
+          "target": "components/charts/line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/line-chart-loading.tsx",
+          "target": "components/charts/line-chart-loading.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/line-loading-pulse.tsx",
+          "target": "components/charts/line-loading-pulse.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/loading-sweep.tsx",
+          "target": "components/charts/loading-sweep.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/line-loading-timing.ts",
+          "target": "components/charts/line-loading-timing.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-loading-label.tsx",
+          "target": "components/charts/chart-loading-label.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "line-chart",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/chart-animation",
+        "@bklit/chart-series",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/chart-tooltip",
+        "@bklit/shimmering-text",
+        "@bklit/utils"
+      ],
+      "title": "Line Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0"
+      ],
+      "description": "Sign-colored line segments for profit and loss on LineChart",
+      "files": [
+        {
+          "path": "src/charts/profit-loss-line.tsx",
+          "target": "components/charts/profit-loss-line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/profit-loss-segments.ts",
+          "target": "lib/profit-loss-segments.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/profit-loss-legend-hover.tsx",
+          "target": "components/charts/profit-loss-legend-hover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/profit-loss-legend.tsx",
+          "target": "components/charts/profit-loss-legend.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "profit-loss-line",
+      "registryDependencies": [
+        "@bklit/line-chart",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/chart-tooltip",
+        "@bklit/legend",
+        "@bklit/utils"
+      ],
+      "title": "Profit/Loss Line",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "motion"
+      ],
+      "description": "3D depth and glossy glass surfaces for BarChart bars",
+      "files": [
+        {
+          "path": "src/charts/bar-depth.tsx",
+          "target": "components/charts/bar-depth.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "bar-depth",
+      "registryDependencies": [
+        "@bklit/bar-chart"
+      ],
+      "title": "Bar Depth",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "d3-array",
+        "d3-scale",
+        "motion",
+        "react-use-measure"
+      ],
+      "description": "A composable time-series scatter chart with offset rings, hover dimming, and animated enter",
+      "files": [
+        {
+          "path": "src/charts/scatter-chart.tsx",
+          "target": "components/charts/scatter-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/scatter-chart-shell.tsx",
+          "target": "components/charts/scatter-chart-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/time-series-chart-shell.tsx",
+          "target": "components/charts/time-series-chart-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/reference-area-registration-context.tsx",
+          "target": "components/charts/reference-area-registration-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-config.ts",
+          "target": "components/charts/projection-config.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/projection-utils.ts",
+          "target": "components/charts/projection-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-child-passthrough.ts",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/series-bar-layout.ts",
+          "target": "components/charts/series-bar-layout.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/scatter.tsx",
+          "target": "components/charts/scatter.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/use-scatter-chart-interaction.ts",
+          "target": "components/charts/use-scatter-chart-interaction.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/scatter-svg.ts",
+          "target": "components/charts/scatter-svg.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "scatter-chart",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/chart-animation",
+        "@bklit/chart-series",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/chart-tooltip",
+        "@bklit/utils"
+      ],
+      "title": "Scatter Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/scale@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "@visx/responsive@4.0.1-alpha.0",
+        "@visx/event@4.0.1-alpha.0",
+        "d3-array",
+        "motion"
+      ],
+      "description": "Real-time streaming line chart with smooth scrolling, crosshair, and animated axes",
+      "files": [
+        {
+          "path": "src/charts/live-line-chart.tsx",
+          "target": "components/charts/live-line-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-child-passthrough.ts",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/live-line.tsx",
+          "target": "components/charts/live-line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/live-x-axis.tsx",
+          "target": "components/charts/live-x-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/live-y-axis.tsx",
+          "target": "components/charts/live-y-axis.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "live-line-chart",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/chart-tooltip",
+        "@bklit/utils"
+      ],
+      "title": "Live Line Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/scale@4.0.1-alpha.0",
+        "@visx/responsive@4.0.1-alpha.0",
+        "d3-array",
+        "motion"
+      ],
+      "description": "A composable OHLC candlestick chart with gradients, patterns, tooltips, and hover interactions",
+      "files": [
+        {
+          "path": "src/charts/candlestick-chart.tsx",
+          "target": "components/charts/candlestick-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-child-passthrough.ts",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "src/charts/chart-legend-hover.tsx",
+          "target": "components/charts/chart-legend-hover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/candlestick.tsx",
+          "target": "components/charts/candlestick.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "candlestick-chart",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/chart-animation",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/y-axis",
+        "@bklit/chart-tooltip",
+        "@bklit/utils"
+      ],
+      "title": "Candlestick Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@number-flow/react",
+        "@visx/group@4.0.1-alpha.0",
+        "@visx/responsive@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "d3-shape",
+        "motion"
+      ],
+      "description": "A composable pie chart with animations and customizable slices",
+      "files": [
+        {
+          "path": "src/charts/pie-chart.tsx",
+          "target": "components/charts/pie-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/pie-context.tsx",
+          "target": "components/charts/pie-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/pie-slice.tsx",
+          "target": "components/charts/pie-slice.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-stat-flow.tsx",
+          "target": "components/charts/chart-stat-flow.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/pie-center-shell.tsx",
+          "target": "components/charts/pie-center-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/pie-center.tsx",
+          "target": "components/charts/pie-center.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-center-typography.ts",
+          "target": "components/charts/chart-center-typography.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "pie-chart",
+      "registryDependencies": [
+        "@bklit/chart-animation",
+        "@bklit/utils"
+      ],
+      "title": "Pie Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/group@4.0.1-alpha.0",
+        "@visx/responsive@4.0.1-alpha.0",
+        "@visx/scale@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "d3-shape",
+        "motion"
+      ],
+      "description": "A composable radar/spider chart with multiple data series",
+      "files": [
+        {
+          "path": "src/charts/radar-chart.tsx",
+          "target": "components/charts/radar-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/radar-context.tsx",
+          "target": "components/charts/radar-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/radar-area.tsx",
+          "target": "components/charts/radar-area.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/radar-axis.tsx",
+          "target": "components/charts/radar-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/radar-grid.tsx",
+          "target": "components/charts/radar-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/radar-labels.tsx",
+          "target": "components/charts/radar-labels.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "radar-chart",
+      "registryDependencies": [
+        "@bklit/chart-animation",
+        "@bklit/utils"
+      ],
+      "title": "Radar Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/group@4.0.1-alpha.0",
+        "@visx/responsive@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "@number-flow/react",
+        "motion"
+      ],
+      "description": "A composable donut/ring chart with progress indicators",
+      "files": [
+        {
+          "path": "src/charts/ring-chart.tsx",
+          "target": "components/charts/ring-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/ring-context.tsx",
+          "target": "components/charts/ring-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/ring.tsx",
+          "target": "components/charts/ring.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-stat-flow.tsx",
+          "target": "components/charts/chart-stat-flow.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/ring-center.tsx",
+          "target": "components/charts/ring-center.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-center-typography.ts",
+          "target": "components/charts/chart-center-typography.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "ring-chart",
+      "registryDependencies": [
+        "@bklit/chart-animation",
+        "@bklit/utils"
+      ],
+      "title": "Ring Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/responsive@4.0.1-alpha.0",
+        "@visx/pattern@4.0.1-alpha.0",
+        "@number-flow/react",
+        "motion",
+        "d3-shape"
+      ],
+      "description": "Notch-based radial or linear gauge with optional center label, patterns, and optional gradients",
+      "files": [
+        {
+          "path": "src/charts/chart-stat-flow.tsx",
+          "target": "components/charts/chart-stat-flow.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/pie-context.tsx",
+          "target": "components/charts/pie-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/pie-center-shell.tsx",
+          "target": "components/charts/pie-center-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/pie-center.tsx",
+          "target": "components/charts/pie-center.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/gauge.tsx",
+          "target": "components/charts/gauge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/notch-gauge-shared.ts",
+          "target": "components/charts/notch-gauge-shared.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/gauge-label-layout.tsx",
+          "target": "components/charts/gauge-label-layout.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-center-typography.ts",
+          "target": "components/charts/chart-center-typography.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "gauge-chart",
+      "registryDependencies": [
+        "@bklit/utils"
+      ],
+      "title": "Gauge",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/group@4.0.1-alpha.0",
+        "@visx/heatmap@4.0.1-alpha.0",
+        "@visx/pattern@4.0.1-alpha.0",
+        "@visx/responsive@4.0.1-alpha.0",
+        "@visx/scale@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "A contribution heatmap with animated cells and configurable level colors",
+      "files": [
+        {
+          "path": "src/charts/heatmap/heatmap-chart.tsx",
+          "target": "components/charts/heatmap/heatmap-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-context.tsx",
+          "target": "components/charts/heatmap/heatmap-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-cells.tsx",
+          "target": "components/charts/heatmap/heatmap-cells.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-x-axis.tsx",
+          "target": "components/charts/heatmap/heatmap-x-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-y-axis.tsx",
+          "target": "components/charts/heatmap/heatmap-y-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-legend.tsx",
+          "target": "components/charts/heatmap/heatmap-legend.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-legend-swatch.tsx",
+          "target": "components/charts/heatmap/heatmap-legend-swatch.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-legend-gradient.tsx",
+          "target": "components/charts/heatmap/heatmap-legend-gradient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-tooltip.tsx",
+          "target": "components/charts/heatmap/heatmap-tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/use-delayed-tooltip-data.ts",
+          "target": "components/charts/heatmap/use-delayed-tooltip-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-separator.tsx",
+          "target": "components/charts/heatmap/heatmap-separator.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-resolve-separator.ts",
+          "target": "components/charts/heatmap/heatmap-resolve-separator.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-colors.ts",
+          "target": "components/charts/heatmap/heatmap-colors.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-scale.ts",
+          "target": "components/charts/chart-scale.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-utils.ts",
+          "target": "components/charts/heatmap/heatmap-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-animation.ts",
+          "target": "components/charts/heatmap/heatmap-animation.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-pattern-defs.tsx",
+          "target": "components/charts/heatmap/heatmap-pattern-defs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/heatmap-chart-loading.tsx",
+          "target": "components/charts/heatmap/heatmap-chart-loading.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/generate-heatmap-skeleton-data.ts",
+          "target": "components/charts/heatmap/generate-heatmap-skeleton-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/heatmap/index.ts",
+          "target": "components/charts/heatmap/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-loading-label.tsx",
+          "target": "components/charts/chart-loading-label.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-child-passthrough.ts",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "heatmap-chart",
+      "registryDependencies": [
+        "@bklit/chart-context",
+        "@bklit/chart-animation",
+        "@bklit/utils",
+        "@bklit/chart-utils",
+        "@bklit/chart-tooltip",
+        "@bklit/background",
+        "@bklit/shimmering-text"
+      ],
+      "title": "Heatmap Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@types/geojson",
+        "@visx/geo@4.0.1-alpha.0",
+        "@visx/responsive@4.0.1-alpha.0",
+        "@visx/zoom@4.0.1-alpha.0",
+        "d3-geo",
+        "topojson-client",
+        "motion"
+      ],
+      "description": "A geographic map chart with zoom, pan, and data visualization",
+      "files": [
+        {
+          "path": "src/charts/choropleth/choropleth-chart.tsx",
+          "target": "components/charts/choropleth/choropleth-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/choropleth/choropleth-context.tsx",
+          "target": "components/charts/choropleth/choropleth-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/chart-scale.ts",
+          "target": "components/charts/chart-scale.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/choropleth/choropleth-feature.tsx",
+          "target": "components/charts/choropleth/choropleth-feature.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/choropleth/choropleth-graticule.tsx",
+          "target": "components/charts/choropleth/choropleth-graticule.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/choropleth/choropleth-tooltip.tsx",
+          "target": "components/charts/choropleth/choropleth-tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/choropleth/index.ts",
+          "target": "components/charts/choropleth/index.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "choropleth-chart",
+      "registryDependencies": [
+        "@bklit/chart-animation",
+        "@bklit/utils",
+        "@bklit/chart-utils",
+        "@bklit/chart-tooltip"
+      ],
+      "title": "Choropleth Map",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "motion"
+      ],
+      "description": "An animated funnel chart with multi-layer halo rings, hover interactions, and staggered entrance animations",
+      "files": [
+        {
+          "path": "src/charts/funnel-chart.tsx",
+          "target": "components/charts/funnel-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "funnel-chart",
+      "registryDependencies": [
+        "@bklit/chart-animation",
+        "@bklit/utils",
+        "@bklit/chart-utils"
+      ],
+      "title": "Funnel Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/event@4.0.1-alpha.0",
+        "@visx/gradient@4.0.1-alpha.0",
+        "@visx/pattern@4.0.1-alpha.0",
+        "@visx/responsive@4.0.1-alpha.0",
+        "@visx/sankey@4.0.1-alpha.0",
+        "d3-sankey",
+        "motion"
+      ],
+      "description": "A flow diagram for visualizing data transfers between nodes",
+      "files": [
+        {
+          "path": "src/charts/sankey/sankey-chart.tsx",
+          "target": "components/charts/sankey/sankey-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sankey/sankey-context.tsx",
+          "target": "components/charts/sankey/sankey-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sankey/sankey-node.tsx",
+          "target": "components/charts/sankey/sankey-node.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sankey/sankey-link.tsx",
+          "target": "components/charts/sankey/sankey-link.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sankey/sankey-tooltip.tsx",
+          "target": "components/charts/sankey/sankey-tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sankey/index.ts",
+          "target": "components/charts/sankey/index.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "sankey-chart",
+      "registryDependencies": [
+        "@bklit/chart-animation",
+        "@bklit/utils",
+        "@bklit/chart-utils",
+        "@bklit/chart-tooltip"
+      ],
+      "title": "Sankey Diagram",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "motion"
+      ],
+      "description": "A composable hierarchical sunburst chart with drill-down zoom and animated segments",
+      "files": [
+        {
+          "path": "src/charts/sunburst-chart.tsx",
+          "target": "components/charts/sunburst-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sunburst-context.tsx",
+          "target": "components/charts/sunburst-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sunburst-segment.tsx",
+          "target": "components/charts/sunburst-segment.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sunburst-center.tsx",
+          "target": "components/charts/sunburst-center.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sunburst-breadcrumb.tsx",
+          "target": "components/charts/sunburst-breadcrumb.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sunburst-hint.tsx",
+          "target": "components/charts/sunburst-hint.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sunburst-labels.tsx",
+          "target": "components/charts/sunburst-labels.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sunburst.ts",
+          "target": "components/charts/sunburst.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/charts/sunburst-data.ts",
+          "target": "components/charts/sunburst-data.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "sunburst-chart",
+      "registryDependencies": [
+        "@bklit/chart-animation",
+        "@bklit/utils"
+      ],
+      "title": "Sunburst Chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable area-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/area-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/area-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "area-chart-example",
+      "registryDependencies": [
+        "@bklit/area-chart",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/chart-tooltip"
+      ],
+      "title": "Area Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/gradient@4.0.1-alpha.0",
+        "@visx/pattern@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable bar-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/bar-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/bar-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "bar-chart-example",
+      "registryDependencies": [
+        "@bklit/bar-chart",
+        "@bklit/grid",
+        "@bklit/chart-tooltip"
+      ],
+      "title": "Bar Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable line-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/line-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/line-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "line-chart-example",
+      "registryDependencies": [
+        "@bklit/line-chart",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/chart-tooltip"
+      ],
+      "title": "Line Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "d3-scale",
+        "d3-array",
+        "motion",
+        "react-use-measure"
+      ],
+      "description": "Composable scatter-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/scatter-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/scatter-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "scatter-chart-example",
+      "registryDependencies": [
+        "@bklit/scatter-chart",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/chart-tooltip"
+      ],
+      "title": "Scatter Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable pie-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/pie-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/pie-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "pie-chart-example",
+      "registryDependencies": [
+        "@bklit/pie-chart"
+      ],
+      "title": "Pie Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable gauge-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/gauge-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/gauge-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "gauge-chart-example",
+      "registryDependencies": [
+        "@bklit/gauge-chart"
+      ],
+      "title": "Gauge Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/heatmap@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable heatmap-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/heatmap-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/heatmap-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "heatmap-chart-example",
+      "registryDependencies": [
+        "@bklit/heatmap-chart"
+      ],
+      "title": "Heatmap Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable ring-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/ring-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/ring-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "ring-chart-example",
+      "registryDependencies": [
+        "@bklit/ring-chart"
+      ],
+      "title": "Ring Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable radar-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/radar-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/radar-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "radar-chart-example",
+      "registryDependencies": [
+        "@bklit/radar-chart"
+      ],
+      "title": "Radar Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable composed-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/composed-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/composed-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "composed-chart-example",
+      "registryDependencies": [
+        "@bklit/composed-chart",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/chart-tooltip"
+      ],
+      "title": "Composed Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable funnel-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/funnel-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/funnel-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "funnel-chart-example",
+      "registryDependencies": [
+        "@bklit/funnel-chart"
+      ],
+      "title": "Funnel Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/sankey@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable sankey-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/sankey-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/sankey-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "sankey-chart-example",
+      "registryDependencies": [
+        "@bklit/sankey-chart"
+      ],
+      "title": "Sankey Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "motion"
+      ],
+      "description": "Composable sunburst-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/sunburst-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/sunburst-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "sunburst-chart-example",
+      "registryDependencies": [
+        "@bklit/sunburst-chart"
+      ],
+      "title": "Sunburst Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable candlestick-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/candlestick-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/candlestick-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "candlestick-chart-example",
+      "registryDependencies": [
+        "@bklit/candlestick-chart",
+        "@bklit/grid",
+        "@bklit/x-axis",
+        "@bklit/y-axis",
+        "@bklit/chart-tooltip"
+      ],
+      "title": "Candlestick Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/geo@4.0.1-alpha.0",
+        "d3-geo",
+        "topojson-client"
+      ],
+      "description": "Composable choropleth-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/choropleth-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/choropleth-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "choropleth-chart-example",
+      "registryDependencies": [
+        "@bklit/choropleth-chart"
+      ],
+      "title": "Choropleth Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/shape@4.0.1-alpha.0",
+        "motion"
+      ],
+      "description": "Composable live-line-chart demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/live-line-chart.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/live-line-chart-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "live-line-chart-example",
+      "registryDependencies": [
+        "@bklit/live-line-chart",
+        "@bklit/chart-tooltip"
+      ],
+      "title": "Live Line Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@number-flow/react",
+        "motion"
+      ],
+      "description": "Animated stat value and label for chart overlays",
+      "files": [
+        {
+          "path": "src/charts/chart-stat-flow.tsx",
+          "target": "components/charts/chart-stat-flow.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "chart-stat-flow",
+      "registryDependencies": [
+        "@bklit/utils"
+      ],
+      "title": "Chart Stat Flow",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/gradient@4.0.1-alpha.0",
+        "@number-flow/react",
+        "@central-icons-react/all"
+      ],
+      "description": "Revenue stat card with gradient area sparkline, NumberFlow, and trend badge",
+      "files": [
+        {
+          "path": "registry/blocks/stat-card-area-01/components/stat-card-area.tsx",
+          "target": "components/stat-card-area.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-area-01/components/stat-card-chart.tsx",
+          "target": "components/stat-card-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-area-01/components/stat-card-hover-bridge.tsx",
+          "target": "components/stat-card-hover-bridge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-area-01/components/trend-badge.tsx",
+          "target": "components/trend-badge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-area-01/data/revenue-series.ts",
+          "target": "data/revenue-series.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/examples/stat-card-area-01-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stat-card-area-01",
+      "registryDependencies": [
+        "@bklit/area-chart",
+        "@bklit/chart-stat-flow",
+        "card",
+        "badge"
+      ],
+      "title": "Stat Card Area",
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@visx/gradient@4.0.1-alpha.0",
+        "@number-flow/react",
+        "@central-icons-react/all"
+      ],
+      "description": "Revenue stat card with gradient area sparkline, NumberFlow, and trend badge \u2014 demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/stat-card-area-01.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/stat-card-area-01-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stat-card-area-01-example",
+      "registryDependencies": [
+        "@bklit/stat-card-area-01"
+      ],
+      "title": "Stat Card Area Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@number-flow/react",
+        "@central-icons-react/all"
+      ],
+      "description": "Sessions stat card with line sparkline, overlaid NumberFlow, and trend badge",
+      "files": [
+        {
+          "path": "registry/blocks/stat-card-line-01/components/stat-card-line.tsx",
+          "target": "components/stat-card-line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-line-01/components/stat-card-chart.tsx",
+          "target": "components/stat-card-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-line-01/components/stat-card-hover-bridge.tsx",
+          "target": "components/stat-card-hover-bridge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-line-01/components/trend-badge.tsx",
+          "target": "components/trend-badge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-line-01/data/sessions-series.ts",
+          "target": "data/sessions-series.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/examples/stat-card-line-01-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stat-card-line-01",
+      "registryDependencies": [
+        "@bklit/line-chart",
+        "@bklit/chart-stat-flow",
+        "card",
+        "badge"
+      ],
+      "title": "Stat Card Line",
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "@visx/curve@4.0.1-alpha.0",
+        "@number-flow/react",
+        "@central-icons-react/all"
+      ],
+      "description": "Sessions stat card with line sparkline, overlaid NumberFlow, and trend badge \u2014 demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/stat-card-line-01.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/stat-card-line-01-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stat-card-line-01-example",
+      "registryDependencies": [
+        "@bklit/stat-card-line-01"
+      ],
+      "title": "Stat Card Line Example",
+      "type": "registry:example"
+    },
+    {
+      "dependencies": [
+        "@number-flow/react",
+        "@types/geojson",
+        "@types/topojson-specification",
+        "@central-icons-react/all",
+        "topojson-client"
+      ],
+      "description": "Visitor map stat card with choropleth sparkline, NumberFlow, and trend badge",
+      "files": [
+        {
+          "path": "registry/blocks/stat-card-choropleth-01/components/stat-card-choropleth.tsx",
+          "target": "components/stat-card-choropleth.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-choropleth-01/components/stat-card-choropleth-hover-bridge.tsx",
+          "target": "components/stat-card-choropleth-hover-bridge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-choropleth-01/components/stat-card-chart.tsx",
+          "target": "components/stat-card-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-choropleth-01/components/trend-badge.tsx",
+          "target": "components/trend-badge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/blocks/stat-card-choropleth-01/data/visitors.ts",
+          "target": "data/visitors.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/blocks/stat-card-choropleth-01/lib/use-world-data.tsx",
+          "target": "lib/use-world-data.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/examples/stat-card-choropleth-01-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stat-card-choropleth-01",
+      "registryDependencies": [
+        "@bklit/choropleth-chart",
+        "@bklit/chart-stat-flow",
+        "card",
+        "badge"
+      ],
+      "title": "Stat Card Choropleth",
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "@number-flow/react",
+        "@types/geojson",
+        "@types/topojson-specification",
+        "@central-icons-react/all",
+        "topojson-client"
+      ],
+      "description": "Visitor map stat card with choropleth sparkline, NumberFlow, and trend badge \u2014 demo for Open in v0",
+      "files": [
+        {
+          "path": "registry/examples/stat-card-choropleth-01.tsx",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/examples/stat-card-choropleth-01-index.ts",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stat-card-choropleth-01-example",
+      "registryDependencies": [
+        "@bklit/stat-card-choropleth-01"
+      ],
+      "title": "Stat Card Choropleth Example",
+      "type": "registry:example"
+    }
+  ],
+  "name": "bklit-ui"
+}

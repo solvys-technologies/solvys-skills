@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/geo@4.0.1-alpha.0",
+    "d3-geo",
+    "topojson-client"
+  ],
+  "description": "Composable choropleth-chart demo for Open in v0",
+  "name": "choropleth-chart-example",
+  "registryDependencies": [
+    "@bklit/choropleth-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 759,
+      "path": "registry/examples/choropleth-chart.tsx",
+      "sha256": "e18dbf095065c97b94ac4f174453d430ee9299a6745f2ec7c9cecdf4afb1f5b8",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 192,
+      "path": "registry/examples/choropleth-chart-index.ts",
+      "sha256": "e74a2e2050dc977887a19329999070730af922291bc28dee650e7ff919b8a71c",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/choropleth-chart-example.json",
+  "status": "installed",
+  "title": "Choropleth Chart Example",
+  "type": "registry:example"
+}

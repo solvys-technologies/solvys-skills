@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/sankey@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "Composable sankey-chart demo for Open in v0",
+  "name": "sankey-chart-example",
+  "registryDependencies": [
+    "@bklit/sankey-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 890,
+      "path": "registry/examples/sankey-chart.tsx",
+      "sha256": "719abdd16cca1b12f3beedb0396a9dcc3ffffea03fa35bf5b259224cf7d31c7c",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 176,
+      "path": "registry/examples/sankey-chart-index.ts",
+      "sha256": "8728d1b4c13d099152e50a872d53f9fb66fba0f450d8f0e29d64b6cfa9041c24",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/sankey-chart-example.json",
+  "status": "installed",
+  "title": "Sankey Chart Example",
+  "type": "registry:example"
+}

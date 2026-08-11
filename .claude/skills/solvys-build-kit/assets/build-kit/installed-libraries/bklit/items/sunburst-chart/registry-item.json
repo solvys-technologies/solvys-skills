@@ -1,0 +1,81 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "motion"
+  ],
+  "description": "A composable hierarchical sunburst chart with drill-down zoom and animated segments",
+  "name": "sunburst-chart",
+  "registryDependencies": [
+    "@bklit/chart-animation",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 13354,
+      "path": "src/charts/sunburst-chart.tsx",
+      "sha256": "d89833f0945999e2a7cf4f1e9b271d50356f629b2784a5b9180198d5dd4532b0",
+      "target": "components/charts/sunburst-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5343,
+      "path": "src/charts/sunburst-context.tsx",
+      "sha256": "d38f367fc46814396ffae029297887672b8ed6199c35feb3cac2eadd34571b9a",
+      "target": "components/charts/sunburst-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4406,
+      "path": "src/charts/sunburst-segment.tsx",
+      "sha256": "f80670aa050cc4bb19ac70b01086282b848ef8be3a55568f15440162240418ba",
+      "target": "components/charts/sunburst-segment.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1254,
+      "path": "src/charts/sunburst-center.tsx",
+      "sha256": "22cc718b096d4d88660fad0ce7d5727790026ca70d832e257ade44ee1659c05e",
+      "target": "components/charts/sunburst-center.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1266,
+      "path": "src/charts/sunburst-breadcrumb.tsx",
+      "sha256": "052e88d8f8f59b420d7b28465a116896e10df3743702171d67f2d6c4652e352a",
+      "target": "components/charts/sunburst-breadcrumb.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1412,
+      "path": "src/charts/sunburst-hint.tsx",
+      "sha256": "e736384fb06e9857ef63106345582acc93ff4b6dbb16b679f7234cedd1cc6c0e",
+      "target": "components/charts/sunburst-hint.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3822,
+      "path": "src/charts/sunburst-labels.tsx",
+      "sha256": "c7e14265ed3da00b80e8b5b67a60642ec176d401d2e37eca7c8c3cb765b7b670",
+      "target": "components/charts/sunburst-labels.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 16933,
+      "path": "src/charts/sunburst.ts",
+      "sha256": "8813fb2162b1301bbaad96ea3cab0b858d63ad4fd30a4e6a44a0c454bfce80c5",
+      "target": "components/charts/sunburst.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 213,
+      "path": "src/charts/sunburst-data.ts",
+      "sha256": "de11b830b769aa4fda0465f68213b39d0904f45fe72d2ad3d5cac54d274f4b5e",
+      "target": "components/charts/sunburst-data.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/sunburst-chart.json",
+  "status": "installed",
+  "title": "Sunburst Chart",
+  "type": "registry:component"
+}

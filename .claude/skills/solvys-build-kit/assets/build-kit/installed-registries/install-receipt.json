@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T21:54:13.202417+00:00",
+  "generatedAt": "2026-08-11T00:36:58.973810+00:00",
   "kit": "solvys-build-kit",
   "schemaVersion": 1,
   "secretPolicy": "private credentials are process-only and never written to snapshots or receipts",
@@ -153,6 +153,26 @@
         "path": "installed-registries/beui-pro/registry.json",
         "status": "installed",
         "url": "https://pro.beui.dev/r/registry.json"
+      }
+    },
+    "bklit": {
+      "autoUpdate": false,
+      "fullSource": {
+        "accessGatedItemCount": 0,
+        "fileCount": 280,
+        "installedItemCount": 56,
+        "itemCount": 56,
+        "mode": "full-registry-source",
+        "path": "installed-libraries/bklit",
+        "status": "installed",
+        "unavailableItemCount": 0
+      },
+      "mode": "registry-catalog",
+      "snapshot": {
+        "bytes": 78535,
+        "path": "installed-registries/bklit/registry.json",
+        "status": "installed",
+        "url": "https://bklit.com/r/registry.json"
       }
     },
     "create-ui": {

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/scale@4.0.1-alpha.0",
+    "@visx/responsive@4.0.1-alpha.0",
+    "d3-array",
+    "motion"
+  ],
+  "description": "A composable OHLC candlestick chart with gradients, patterns, tooltips, and hover interactions",
+  "name": "candlestick-chart",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/chart-animation",
+    "@bklit/grid",
+    "@bklit/x-axis",
+    "@bklit/y-axis",
+    "@bklit/chart-tooltip",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 11768,
+      "path": "src/charts/candlestick-chart.tsx",
+      "sha256": "9f1404ea5ea30a2ebc4687f78f8668ecfca860ff155c5b041a6619918365be19",
+      "target": "components/charts/candlestick-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3445,
+      "path": "src/charts/chart-child-passthrough.ts",
+      "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+      "target": "components/charts/chart-child-passthrough.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 1052,
+      "path": "src/charts/chart-legend-hover.tsx",
+      "sha256": "fb31f3648fed0aba2d92792ee943a6317b5051532d5738855bae24a496403882",
+      "target": "components/charts/chart-legend-hover.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 11325,
+      "path": "src/charts/candlestick.tsx",
+      "sha256": "c99d2ef19693e0306669b556ee57dc77ac5a8d76e18dab84835117157dd5c11f",
+      "target": "components/charts/candlestick.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/candlestick-chart.json",
+  "status": "installed",
+  "title": "Candlestick Chart",
+  "type": "registry:component"
+}

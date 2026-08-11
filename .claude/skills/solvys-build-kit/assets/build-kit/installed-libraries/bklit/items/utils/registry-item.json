@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "clsx",
+    "tailwind-merge"
+  ],
+  "description": "Utility functions for className merging with clsx and tailwind-merge",
+  "name": "utils",
+  "shippedFiles": [
+    {
+      "bytes": 169,
+      "path": "src/lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/utils.json",
+  "status": "installed",
+  "title": "Utilities",
+  "type": "registry:lib"
+}

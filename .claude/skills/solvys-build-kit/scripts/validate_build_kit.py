@@ -14,6 +14,13 @@ ASSET_ROOT = SKILL_ROOT / "assets" / "build-kit"
 MANIFEST_PATH = ASSET_ROOT / "manifest.json"
 COMPONENT_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 DISALLOWED_CSS = ("linear-gradient", "radial-gradient", "backdrop-filter", "filter: blur", "text-shadow", "box-shadow")
+WEBSITE_BLOCK_PREFIXES = (
+    "hero-", "pricing", "footer-", "features-", "content-", "trust-",
+    "announcement-", "use-cases-", "how-it-works-", "logo-cloud-",
+    "testimonials-", "image-gallery-", "navbar-", "newsletter-", "contact-",
+    "integrations-", "feature-comparison", "about-", "careers-", "changelog-",
+    "blog-", "team-", "faq-", "cta-",
+)
 
 
 def main() -> int:
@@ -62,6 +69,9 @@ def main() -> int:
             for approved in manifest.get("approvedLibraries", []):
                 if approved.get("id") not in registry_ids:
                     errors.append(f"approved library missing from source registry: {approved.get('id')}")
+                app_registry = approved.get("appRegistry")
+                if app_registry and not (ASSET_ROOT / app_registry).is_file():
+                    errors.append(f"approved app registry missing: {app_registry}")
             manifest_auto_update_ids = {library.get("id") for library in manifest.get("approvedLibraries", []) if library.get("autoUpdate")}
             if manifest_auto_update_ids:
                 errors.append("manifest automatic updates must be disabled for the approved library snapshots")
@@ -80,6 +90,42 @@ def main() -> int:
                     errors.append(f"library snapshot must be manual for {source_id}")
                 if snapshot.get("catalogItemCount") != len(snapshot.get("items", [])):
                     errors.append(f"library snapshot item count mismatch: {source_id}")
+            for source_id in ("beui", "beui-pro"):
+                full_registry_path = ASSET_ROOT / "installed-registries" / source_id / "registry.json"
+                app_registry_path = ASSET_ROOT / "installed-registries" / source_id / "app-blocks.json"
+                snapshot_manifest_path = snapshot_root / source_id / "library-manifest.json"
+                if not full_registry_path.is_file() or not app_registry_path.is_file():
+                    errors.append(f"missing app-block registry: {source_id}")
+                    continue
+                try:
+                    full_registry = json.loads(full_registry_path.read_text(encoding="utf-8"))
+                    app_registry = json.loads(app_registry_path.read_text(encoding="utf-8"))
+                    snapshot = json.loads(snapshot_manifest_path.read_text(encoding="utf-8"))
+                except (OSError, json.JSONDecodeError) as exc:
+                    errors.append(f"app-block registry error for {source_id}: {exc}")
+                    continue
+                full_blocks = [item for item in full_registry.get("items", []) if item.get("type") == "registry:block"]
+                app_blocks = app_registry.get("items", [])
+                full_names = {item.get("name") for item in full_blocks}
+                app_names = [item.get("name") for item in app_blocks]
+                if app_registry.get("scope") != "app-blocks-only":
+                    errors.append(f"app-block registry scope is invalid: {source_id}")
+                if any(item.get("type") != "registry:block" for item in app_blocks):
+                    errors.append(f"app-block registry contains non-block entries: {source_id}")
+                if len(app_names) != len(set(app_names)):
+                    errors.append(f"app-block registry contains duplicate names: {source_id}")
+                if not set(app_names).issubset(full_names):
+                    errors.append(f"app-block registry contains unknown items: {source_id}")
+                if source_id == "beui-pro" and any(
+                    any(str(name).startswith(prefix) or str(name) == prefix for prefix in WEBSITE_BLOCK_PREFIXES)
+                    for name in app_names
+                ):
+                    errors.append("beui-pro app-block registry contains website blocks")
+                app_receipt = snapshot.get("appBlockRegistry", {})
+                if app_receipt.get("appBlockItemCount") != len(app_blocks):
+                    errors.append(f"app-block manifest count mismatch: {source_id}")
+                if app_receipt.get("excludedWebsiteBlockCount", 0) != len(full_blocks) - len(app_blocks):
+                    errors.append(f"website exclusion count mismatch: {source_id}")
             for reference in registry.get("referenceInputs", []):
                 if not reference.get("url") or not reference.get("mode"):
                     errors.append(f"reference input needs url and mode: {reference.get('id')}")

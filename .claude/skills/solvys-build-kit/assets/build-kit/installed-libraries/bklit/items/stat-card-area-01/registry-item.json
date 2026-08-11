@@ -1,0 +1,65 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/curve@4.0.1-alpha.0",
+    "@visx/gradient@4.0.1-alpha.0",
+    "@number-flow/react",
+    "@central-icons-react/all"
+  ],
+  "description": "Revenue stat card with gradient area sparkline, NumberFlow, and trend badge",
+  "name": "stat-card-area-01",
+  "registryDependencies": [
+    "@bklit/area-chart",
+    "@bklit/chart-stat-flow",
+    "card",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2609,
+      "path": "registry/blocks/stat-card-area-01/components/stat-card-area.tsx",
+      "sha256": "5fada9beefead74d075dc49df97cd6fba976eae44bebe84b9af13a0e8758a222",
+      "target": "components/stat-card-area.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1042,
+      "path": "registry/blocks/stat-card-area-01/components/stat-card-chart.tsx",
+      "sha256": "0c38f7deabbeca8a26ae43889ee46056e7b7618c1f1d049a53efe58e4d72c844",
+      "target": "components/stat-card-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1984,
+      "path": "registry/blocks/stat-card-area-01/components/stat-card-hover-bridge.tsx",
+      "sha256": "e137849f568e2a44c54a1d8c90974b46164c9e8334c4ebd469489344ae86bd29",
+      "target": "components/stat-card-hover-bridge.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 831,
+      "path": "registry/blocks/stat-card-area-01/components/trend-badge.tsx",
+      "sha256": "bb21aab2bd43b97520e3aabf508ee664ccf6d5af9d10cf2baf53c0c39a800a42",
+      "target": "components/trend-badge.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 773,
+      "path": "registry/blocks/stat-card-area-01/data/revenue-series.ts",
+      "sha256": "e13b905e554b3f2c8d391f8461e24d0e730154b51dbf11f7c94556b3573a42e3",
+      "target": "data/revenue-series.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 318,
+      "path": "registry/examples/stat-card-area-01-index.ts",
+      "sha256": "f39e0936bd4f1482ad493f28c5abd458e814b19cce9325d3393b1c24955fd85b",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/stat-card-area-01.json",
+  "status": "installed",
+  "title": "Stat Card Area",
+  "type": "registry:block"
+}

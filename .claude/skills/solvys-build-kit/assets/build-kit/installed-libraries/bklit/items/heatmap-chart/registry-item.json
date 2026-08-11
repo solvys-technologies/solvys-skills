@@ -1,0 +1,182 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/group@4.0.1-alpha.0",
+    "@visx/heatmap@4.0.1-alpha.0",
+    "@visx/pattern@4.0.1-alpha.0",
+    "@visx/responsive@4.0.1-alpha.0",
+    "@visx/scale@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "A contribution heatmap with animated cells and configurable level colors",
+  "name": "heatmap-chart",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/chart-animation",
+    "@bklit/utils",
+    "@bklit/chart-utils",
+    "@bklit/chart-tooltip",
+    "@bklit/background",
+    "@bklit/shimmering-text"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 19231,
+      "path": "src/charts/heatmap/heatmap-chart.tsx",
+      "sha256": "3b04d1c84eb36c55920d1224a8e93557c2af9157fca65b72c90944e0da6e9d5f",
+      "target": "components/charts/heatmap/heatmap-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5749,
+      "path": "src/charts/heatmap/heatmap-context.tsx",
+      "sha256": "ef636bb494ff95e429d2d0f857096eba9dc72d544e047df199c23cf53e250235",
+      "target": "components/charts/heatmap/heatmap-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 15219,
+      "path": "src/charts/heatmap/heatmap-cells.tsx",
+      "sha256": "c1e29f557390300a8bcfd7b0ad8b5460eeac4f8869e4e6562b3c589990d4adb8",
+      "target": "components/charts/heatmap/heatmap-cells.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2181,
+      "path": "src/charts/heatmap/heatmap-x-axis.tsx",
+      "sha256": "63a0666d70f7321f7b24dbc34ed0fd527651d8779b97842feb8076431b3ff0d7",
+      "target": "components/charts/heatmap/heatmap-x-axis.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2524,
+      "path": "src/charts/heatmap/heatmap-y-axis.tsx",
+      "sha256": "a673745ba7dd63a1e26bf635491351be9386334fb1a455b29c0829a0ab0a5389",
+      "target": "components/charts/heatmap/heatmap-y-axis.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6915,
+      "path": "src/charts/heatmap/heatmap-legend.tsx",
+      "sha256": "6e2718b8e978734d91d3ff5eda10e17a3b6230a1dfd4b5d2e57acc791166d326",
+      "target": "components/charts/heatmap/heatmap-legend.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1814,
+      "path": "src/charts/heatmap/heatmap-legend-swatch.tsx",
+      "sha256": "6d2ed887829365202ed3b4dfbc7c239603afe854f46a73f554bc2e267834f149",
+      "target": "components/charts/heatmap/heatmap-legend-swatch.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2992,
+      "path": "src/charts/heatmap/heatmap-legend-gradient.tsx",
+      "sha256": "8b79c616360c3abbc7f44eef33a917aee37f9fd1e8ca692079a68cf400f11daf",
+      "target": "components/charts/heatmap/heatmap-legend-gradient.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2832,
+      "path": "src/charts/heatmap/heatmap-tooltip.tsx",
+      "sha256": "92f949744db8fa0c9c6dafe9cd88f58849c534d181308589dcfa5ad5d8b99f4a",
+      "target": "components/charts/heatmap/heatmap-tooltip.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1803,
+      "path": "src/charts/heatmap/use-delayed-tooltip-data.ts",
+      "sha256": "d078e68f74802f16193f9527584dab4bf37ecd9b7fa9c8d910d2a77d5f680611",
+      "target": "components/charts/heatmap/use-delayed-tooltip-data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7461,
+      "path": "src/charts/heatmap/heatmap-separator.tsx",
+      "sha256": "6b852251e631cac90ce81ad48ab8e34d7c83fc3287c036e30969fb411cf0e34e",
+      "target": "components/charts/heatmap/heatmap-separator.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3446,
+      "path": "src/charts/heatmap/heatmap-resolve-separator.ts",
+      "sha256": "568a445ee445f7f8a8207aaaa2eafcf8cfc3f27a7430ab5be8137bd2afb2c7a0",
+      "target": "components/charts/heatmap/heatmap-resolve-separator.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4974,
+      "path": "src/charts/heatmap/heatmap-colors.ts",
+      "sha256": "78c794e40ef40aba49e63ab6b1130ea946e1153526770bc8b94ba4e92651664a",
+      "target": "components/charts/heatmap/heatmap-colors.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 606,
+      "path": "src/charts/chart-scale.ts",
+      "sha256": "50cf8193194aa05948a074030a7830a95f25af89c529e9c26fecbc08de3b133a",
+      "target": "components/charts/chart-scale.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 24362,
+      "path": "src/charts/heatmap/heatmap-utils.ts",
+      "sha256": "fda74631f2bce13c569d88ed23fba27d360f26619e8a7e9892703454ca8d0ac5",
+      "target": "components/charts/heatmap/heatmap-utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3980,
+      "path": "src/charts/heatmap/heatmap-animation.ts",
+      "sha256": "635152672f88e9329fc61c8311fb09034d8c64514560c75a8bfa44fa48e8a2d2",
+      "target": "components/charts/heatmap/heatmap-animation.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 964,
+      "path": "src/charts/heatmap/heatmap-pattern-defs.tsx",
+      "sha256": "d0f1e3e28bcd6475a74ccb34508219351ad36a504408ca86bdca45be2d7df1d5",
+      "target": "components/charts/heatmap/heatmap-pattern-defs.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1655,
+      "path": "src/charts/heatmap/heatmap-chart-loading.tsx",
+      "sha256": "28e43ffed3fff820844c9ff51f237501da2909307afeb80945285cb55a17bc46",
+      "target": "components/charts/heatmap/heatmap-chart-loading.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 412,
+      "path": "src/charts/heatmap/generate-heatmap-skeleton-data.ts",
+      "sha256": "6ee598efab0ed6102d7d555930238bc31e2a04902a821f9c73b27f776e023c5a",
+      "target": "components/charts/heatmap/generate-heatmap-skeleton-data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4131,
+      "path": "src/charts/heatmap/index.ts",
+      "sha256": "28275b522302247982869d1f629889149c7f8db4d04e20763b3f77e880fda02d",
+      "target": "components/charts/heatmap/index.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1399,
+      "path": "src/charts/chart-loading-label.tsx",
+      "sha256": "06f6b5dc09269f07b65afbd6a70559fa1d53c40e6c4ae0548a92d0664732a06e",
+      "target": "components/charts/chart-loading-label.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3445,
+      "path": "src/charts/chart-child-passthrough.ts",
+      "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+      "target": "components/charts/chart-child-passthrough.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/heatmap-chart.json",
+  "status": "installed",
+  "title": "Heatmap Chart",
+  "type": "registry:component"
+}

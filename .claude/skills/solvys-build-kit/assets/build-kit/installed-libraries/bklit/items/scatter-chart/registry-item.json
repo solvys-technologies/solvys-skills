@@ -1,0 +1,103 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "d3-array",
+    "d3-scale",
+    "motion",
+    "react-use-measure"
+  ],
+  "description": "A composable time-series scatter chart with offset rings, hover dimming, and animated enter",
+  "name": "scatter-chart",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/chart-animation",
+    "@bklit/chart-series",
+    "@bklit/grid",
+    "@bklit/x-axis",
+    "@bklit/chart-tooltip",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5198,
+      "path": "src/charts/scatter-chart.tsx",
+      "sha256": "15fd3f314e4ff97a3548ad553d0b413b11599360c92bfcd9114e7da1ba745907",
+      "target": "components/charts/scatter-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7161,
+      "path": "src/charts/scatter-chart-shell.tsx",
+      "sha256": "97a1e7ef45470fe982a273ca1640a3d99e64b92f2e62cc32e36bd661f5870235",
+      "target": "components/charts/scatter-chart-shell.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 19324,
+      "path": "src/charts/time-series-chart-shell.tsx",
+      "sha256": "0ee4403be5142e24645e57b7f17471171f1f584ed260bd31fd7d1e416b9703a6",
+      "target": "components/charts/time-series-chart-shell.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 590,
+      "path": "src/charts/reference-area-registration-context.tsx",
+      "sha256": "1bdf081f8d454f6e9b678d4b470aabbade8fb7b47d9bcf8a44e05887e11aa347",
+      "target": "components/charts/reference-area-registration-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3379,
+      "path": "src/charts/projection-config.ts",
+      "sha256": "fb7e04bbaac83119bcbe5fcfea4c2c713d80ec3cf65dc8a427d506edeca4bf59",
+      "target": "components/charts/projection-config.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10400,
+      "path": "src/charts/projection-utils.ts",
+      "sha256": "a7d6c269220dcce466e2eaf620081d488fbef1a372ed3d9cff4fd76298232e0f",
+      "target": "components/charts/projection-utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3445,
+      "path": "src/charts/chart-child-passthrough.ts",
+      "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+      "target": "components/charts/chart-child-passthrough.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1622,
+      "path": "src/charts/series-bar-layout.ts",
+      "sha256": "3e834065bf086275b263b2f5a0737a544dc4dfbfc7aa533191fcd0365feefb2c",
+      "target": "components/charts/series-bar-layout.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2760,
+      "path": "src/charts/scatter.tsx",
+      "sha256": "bac1d0fe0636fc2f53861ca8ec86be0faf17b6257af9e4431c601ee4cfafdde7",
+      "target": "components/charts/scatter.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 8782,
+      "path": "src/charts/use-scatter-chart-interaction.ts",
+      "sha256": "c3b6368058f8b955d9b89de98cf29e67d5740ff85eaa545e433c7ec536d5d0ab",
+      "target": "components/charts/use-scatter-chart-interaction.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 513,
+      "path": "src/charts/scatter-svg.ts",
+      "sha256": "cdda3631bb00019156287e1aab1552626d0ab21a33f578afc10c6aed29a087b3",
+      "target": "components/charts/scatter-svg.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/scatter-chart.json",
+  "status": "installed",
+  "title": "Scatter Chart",
+  "type": "registry:component"
+}

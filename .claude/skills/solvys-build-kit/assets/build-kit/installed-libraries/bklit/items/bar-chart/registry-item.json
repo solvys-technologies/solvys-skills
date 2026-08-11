@@ -1,0 +1,115 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/gradient@4.0.1-alpha.0",
+    "@visx/pattern@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "A composable bar chart with horizontal/vertical orientations and animations",
+  "name": "bar-chart",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/chart-animation",
+    "@bklit/grid",
+    "@bklit/chart-tooltip",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 22243,
+      "path": "src/charts/bar-chart.tsx",
+      "sha256": "252a46d22fcff1c1396f164abe6264b434f9392baa4294fdb4c2fb2b2af7d37f",
+      "target": "components/charts/bar-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3445,
+      "path": "src/charts/chart-child-passthrough.ts",
+      "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+      "target": "components/charts/chart-child-passthrough.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 1052,
+      "path": "src/charts/chart-legend-hover.tsx",
+      "sha256": "fb31f3648fed0aba2d92792ee943a6317b5051532d5738855bae24a496403882",
+      "target": "components/charts/chart-legend-hover.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 14822,
+      "path": "src/charts/bar.tsx",
+      "sha256": "07f28d1e4efb081e7ae3c776d2a717ed04ab4041e44ba6449fc235acb69310d2",
+      "target": "components/charts/bar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 16027,
+      "path": "src/charts/bar-squares.tsx",
+      "sha256": "91d7940f5ee6a2278157aa8a9d2b305a393cb68398b4ba0226557642d61ff539",
+      "target": "components/charts/bar-squares.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2541,
+      "path": "src/charts/bar-squares-layout.ts",
+      "sha256": "eaea7f00696b5d1c600e00b4e47f7a7d4082315e1da8bce15485627282fc5274",
+      "target": "components/charts/bar-squares-layout.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 4574,
+      "path": "src/charts/pattern-preset.tsx",
+      "sha256": "b877d4479a805dd72d7daee5be4cc6b82243b9f4026f84e0085d0639dcb6e2d0",
+      "target": "components/charts/pattern-preset.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 948,
+      "path": "src/charts/visx-pattern.tsx",
+      "sha256": "987831a15796d47edc1e0a7783f239a78914f3e2e038ed082d66e8fcad12e016",
+      "target": "components/charts/visx-pattern.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1923,
+      "path": "src/charts/bar-depth-geometry.ts",
+      "sha256": "dce3598a113b676eec41da3addec2ff29137b452b9705b3abc7b5fef8b5cf66f",
+      "target": "components/charts/bar-depth-geometry.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 3816,
+      "path": "src/charts/bar-x-axis.tsx",
+      "sha256": "bfcec1d7ac3aac85b300e6dcf6980feb8dd08db14e8e738f29bd67db70e75663",
+      "target": "components/charts/bar-x-axis.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3440,
+      "path": "src/charts/bar-y-axis.tsx",
+      "sha256": "7737bc7da56b3cfd6372010e61ea1877ba21d24d04a63bc99241d2a66662be45",
+      "target": "components/charts/bar-y-axis.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 14169,
+      "path": "src/charts/loading-sweep.tsx",
+      "sha256": "9e42ef6a860c770cd5bdef3cfee65843ad713155e27c3158f71c194fa1195b01",
+      "target": "components/charts/loading-sweep.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 940,
+      "path": "src/charts/bar-chart-loading.tsx",
+      "sha256": "865783afebeb72fb930b9635144818b550af95fa6080470325b6b2dc66f299d8",
+      "target": "components/charts/bar-chart-loading.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/bar-chart.json",
+  "status": "installed",
+  "title": "Bar Chart",
+  "type": "registry:component"
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/group@4.0.1-alpha.0",
+    "@visx/responsive@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "@number-flow/react",
+    "motion"
+  ],
+  "description": "A composable donut/ring chart with progress indicators",
+  "name": "ring-chart",
+  "registryDependencies": [
+    "@bklit/chart-animation",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 13539,
+      "path": "src/charts/ring-chart.tsx",
+      "sha256": "8184c4893ff6dc8b8dbc19d52c62c4cc5f745fd60ef1a3de06bbd139d5361636",
+      "target": "components/charts/ring-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4668,
+      "path": "src/charts/ring-context.tsx",
+      "sha256": "181d147574420adbc2b51fd7f9670022e6b3dcfdc6f1f215ae82f9ffb96c7dac",
+      "target": "components/charts/ring-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5981,
+      "path": "src/charts/ring.tsx",
+      "sha256": "7071b8ef326c8c3ab39324de11c13a2880db37f40e801d04e201061deea00eaf",
+      "target": "components/charts/ring.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3126,
+      "path": "src/charts/chart-stat-flow.tsx",
+      "sha256": "687499a57c5e0493e710396badfe106f939a308dcda73e75966ea49b24819139",
+      "target": "components/charts/chart-stat-flow.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3700,
+      "path": "src/charts/ring-center.tsx",
+      "sha256": "93a9fe44d912041a77676d7e42a864d961485ea1a936fd9a245ff222ad2e16e2",
+      "target": "components/charts/ring-center.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 720,
+      "path": "src/charts/chart-center-typography.ts",
+      "sha256": "5b76892ad167d83f58817f0d4af2d52283623a2501e810d2fc126872d2843dac",
+      "target": "components/charts/chart-center-typography.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/ring-chart.json",
+  "status": "installed",
+  "title": "Ring Chart",
+  "type": "registry:component"
+}

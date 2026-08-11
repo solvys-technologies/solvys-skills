@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "description": "Marker components for highlighting data points on charts",
+  "name": "markers",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/chart-tooltip",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6345,
+      "path": "src/charts/markers/chart-markers.tsx",
+      "sha256": "5066472fa60515a02b9e267c365ec31c030c6a446cf7564b4dd23d9e6c06fadb",
+      "target": "components/charts/markers/chart-markers.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 16021,
+      "path": "src/charts/markers/marker-group.tsx",
+      "sha256": "5acb6bfe2583d53f220c13010e379f3d2cc089acff1aea258a5dfeb47dd1ed2e",
+      "target": "components/charts/markers/marker-group.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 249,
+      "path": "src/charts/markers/index.ts",
+      "sha256": "45871037042c19e7aedb674c5cd8fd5e41b4775a085c751cdd64b7f5ea1ee774",
+      "target": "components/charts/markers/index.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/markers.json",
+  "status": "installed",
+  "title": "Chart Markers",
+  "type": "registry:component"
+}

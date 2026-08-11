@@ -1,0 +1,125 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/curve@4.0.1-alpha.0",
+    "@visx/gradient@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "A composable area chart with gradient fills and animations",
+  "name": "area-chart",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/chart-animation",
+    "@bklit/chart-series",
+    "@bklit/grid",
+    "@bklit/x-axis",
+    "@bklit/chart-tooltip",
+    "@bklit/shimmering-text",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7901,
+      "path": "src/charts/area-chart.tsx",
+      "sha256": "41e71f6389b6cd1bc68ce0b59c1d5ab4c152215a1b65d06fe51ef5899c12fd0a",
+      "target": "components/charts/area-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 19324,
+      "path": "src/charts/time-series-chart-shell.tsx",
+      "sha256": "0ee4403be5142e24645e57b7f17471171f1f584ed260bd31fd7d1e416b9703a6",
+      "target": "components/charts/time-series-chart-shell.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 590,
+      "path": "src/charts/reference-area-registration-context.tsx",
+      "sha256": "1bdf081f8d454f6e9b678d4b470aabbade8fb7b47d9bcf8a44e05887e11aa347",
+      "target": "components/charts/reference-area-registration-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3379,
+      "path": "src/charts/projection-config.ts",
+      "sha256": "fb7e04bbaac83119bcbe5fcfea4c2c713d80ec3cf65dc8a427d506edeca4bf59",
+      "target": "components/charts/projection-config.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10400,
+      "path": "src/charts/projection-utils.ts",
+      "sha256": "a7d6c269220dcce466e2eaf620081d488fbef1a372ed3d9cff4fd76298232e0f",
+      "target": "components/charts/projection-utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3445,
+      "path": "src/charts/chart-child-passthrough.ts",
+      "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+      "target": "components/charts/chart-child-passthrough.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1622,
+      "path": "src/charts/series-bar-layout.ts",
+      "sha256": "3e834065bf086275b263b2f5a0737a544dc4dfbfc7aa533191fcd0365feefb2c",
+      "target": "components/charts/series-bar-layout.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 12174,
+      "path": "src/charts/area.tsx",
+      "sha256": "78d2a981a0638ebacd4a8eb212d016ef1a33a8994ec68738bc8fbd52e6b85d10",
+      "target": "components/charts/area.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3626,
+      "path": "src/charts/area-chart-loading.tsx",
+      "sha256": "f5338b2034e5972d7504817b9cfd10dc2ecbbdeb272ae057a186d4d258de808a",
+      "target": "components/charts/area-chart-loading.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5475,
+      "path": "src/charts/line-loading-pulse.tsx",
+      "sha256": "04ed94b7d657b8293ab8d56ce241b4cb73894d61fa5e9ca907d4a5fa80bedc4e",
+      "target": "components/charts/line-loading-pulse.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 14169,
+      "path": "src/charts/loading-sweep.tsx",
+      "sha256": "9e42ef6a860c770cd5bdef3cfee65843ad713155e27c3158f71c194fa1195b01",
+      "target": "components/charts/loading-sweep.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 501,
+      "path": "src/charts/line-loading-timing.ts",
+      "sha256": "e2328b4a9502014022dd671c6086ede1b6bd4ce8da02f04a8d251634bee0e4f4",
+      "target": "components/charts/line-loading-timing.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1399,
+      "path": "src/charts/chart-loading-label.tsx",
+      "sha256": "06f6b5dc09269f07b65afbd6a70559fa1d53c40e6c4ae0548a92d0664732a06e",
+      "target": "components/charts/chart-loading-label.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1302,
+      "path": "src/charts/pattern-area.tsx",
+      "sha256": "22f3b23edc02d8c63c38abec49a10427bb161e5e7b46748ff9ebf357f65fc7f2",
+      "target": "components/charts/pattern-area.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/area-chart.json",
+  "status": "installed",
+  "title": "Area Chart",
+  "type": "registry:component"
+}
