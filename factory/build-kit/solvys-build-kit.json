@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "policyRevision": "2026-08-15",
+  "canonicalLocalPath": "/Users/Shared/Solvys/build-kit",
+  "localCommit": "c956321aa9a146d4a3ae8854e0cc60d68e6bc24c",
+  "aggregateSourceSha256": "a6ee7fadbde831a49db148c4deced387d55b8fca608315099977667684529c84",
+  "custody": {
+    "fullSource": "local-only",
+    "publicGit": "policy-provenance-hashes-and-redistributable-source-only",
+    "restrictedSource": [
+      "BeUI Pro",
+      "Aceternity UI items without explicit redistribution rights"
+    ]
+  },
+  "totals": {
+    "eligibleItems": 678,
+    "sourceReadyItems": 608,
+    "accessGatedItems": 70,
+    "verifiedSourceFiles": 1453,
+    "verifiedSourceBytes": 6612302
+  },
+  "libraries": [
+    {"name": "Evil Charts", "eligibleItems": 271, "sourceReadyItems": 271, "license": "MIT"},
+    {"name": "Bklit", "eligibleItems": 56, "sourceReadyItems": 56, "license": "MIT"},
+    {"name": "Beautiful UI", "eligibleItems": 19, "sourceReadyItems": 19, "license": "MIT"},
+    {"name": "BeUI", "eligibleItems": 103, "sourceReadyItems": 103, "license": "MIT"},
+    {"name": "BeUI Pro", "eligibleItems": 49, "sourceReadyItems": 49, "license": "private licensed registry"},
+    {"name": "Aceternity UI", "eligibleItems": 180, "sourceReadyItems": 110, "accessGatedItems": 70, "license": "verify per component"}
+  ],
+  "exclusions": [
+    "website sections",
+    "marketing page assemblies",
+    "binary images",
+    "fonts",
+    "video",
+    "audio",
+    "node_modules"
+  ],
+  "verification": {
+    "result": "passed",
+    "checks": [
+      "source integrity",
+      "item counts",
+      "website-section exclusion",
+      "binary-media exclusion",
+      "NUL-byte scan",
+      "symlink scan",
+      "license and custody files"
+    ]
+  }
+}
