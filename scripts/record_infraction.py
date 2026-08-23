@@ -16,17 +16,33 @@ from pathlib import Path
 CATEGORIES = (
     "automation-death-loop",
     "auth",
+    "context",
+    "delegation",
+    "execution-lane",
     "handoff",
+    "maintainability",
     "proof",
     "provider",
+    "simplicity",
+    "source-selection",
     "storage",
     "scope",
     "communication",
     "security",
+    "tool-lane",
     "other",
 )
 SEVERITIES = ("low", "medium", "high", "critical")
 STATUSES = ("open", "in-progress", "resolved", "accepted-risk")
+TRIGGER_KINDS = (
+    "manual",
+    "explicit-infraction",
+    "direct-correction",
+    "stop-command",
+    "quality-friction",
+)
+REPAIR_TRIGGER_KINDS = set(TRIGGER_KINDS) - {"manual"}
+STOP_TRIGGER_KINDS = {"direct-correction", "stop-command"}
 SEVERITY_RANK = {value: index for index, value in enumerate(SEVERITIES)}
 PROJECT_ID = re.compile(r"^[a-z0-9][a-z0-9._-]*$")
 
@@ -87,6 +103,12 @@ def next_entry_id(entries: list[dict]) -> str:
     return f"INF-{(max(numbers, default=0) + 1):03d}"
 
 
+def append_unique(values: list[str], value: str | None) -> list[str]:
+    if value and value not in values:
+        values.append(value)
+    return values
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--project-id", required=True, help="Factory project slug; use unassigned when unknown")
@@ -104,6 +126,20 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--fingerprint", help="Stable dedup key; defaults to normalized category and title")
     parser.add_argument("--timestamp", help="UTC timestamp for deterministic tests or imported evidence")
     parser.add_argument("--death-loop", action="store_true", help="Mark a repeated/no-progress cycle")
+    parser.add_argument(
+        "--trigger-kind",
+        choices=TRIGGER_KINDS,
+        default="manual",
+        help="Classify why this event requires a record; keyword matches alone are insufficient",
+    )
+    parser.add_argument("--failed-contract", help="Expected behavior or boundary that failed")
+    parser.add_argument("--root-cause", help="Earliest verified mechanism that caused the failure")
+    parser.add_argument("--prevention-test", help="Concrete check that must pass before the failed path resumes")
+    parser.add_argument(
+        "--repair-verified",
+        action="store_true",
+        help="Mark the prevention test as passed for this occurrence",
+    )
     return parser
 
 
@@ -111,6 +147,17 @@ def main() -> int:
     args = build_parser().parse_args()
     if not PROJECT_ID.fullmatch(args.project_id):
         raise SystemExit("project-id must be a lowercase Factory slug")
+    if args.trigger_kind in REPAIR_TRIGGER_KINDS:
+        repair_fields = {
+            "--failed-contract": args.failed_contract,
+            "--root-cause": args.root_cause,
+            "--prevention-test": args.prevention_test,
+        }
+        missing = [name for name, value in repair_fields.items() if not value or not value.strip()]
+        if missing:
+            raise SystemExit(
+                f"{args.trigger_kind} requires repair context: {', '.join(missing)}"
+            )
     timestamp = args.timestamp or now_utc()
     ledger_path = (args.ledger or default_ledger(args.project_id)).expanduser().resolve()
     payload = load_ledger(ledger_path, args.project_id)
@@ -131,6 +178,12 @@ def main() -> int:
             "count": 0,
             "status": args.status,
             "deathLoop": args.death_loop,
+            "triggerKinds": [],
+            "failedContracts": [],
+            "rootCauses": [],
+            "preventionTests": [],
+            "stopRequired": False,
+            "repairVerified": False,
             "firstSeenAt": timestamp,
             "lastSeenAt": timestamp,
             "owner": args.owner,
@@ -148,6 +201,24 @@ def main() -> int:
         key=lambda value: SEVERITY_RANK[value],
     )
     entry["deathLoop"] = bool(entry.get("deathLoop", False) or args.death_loop)
+    entry["triggerKinds"] = append_unique(list(entry.get("triggerKinds", [])), args.trigger_kind)
+    entry["failedContracts"] = append_unique(
+        list(entry.get("failedContracts", [])), args.failed_contract.strip() if args.failed_contract else None
+    )
+    entry["rootCauses"] = append_unique(
+        list(entry.get("rootCauses", [])), args.root_cause.strip() if args.root_cause else None
+    )
+    entry["preventionTests"] = append_unique(
+        list(entry.get("preventionTests", [])),
+        args.prevention_test.strip() if args.prevention_test else None,
+    )
+    entry["stopRequired"] = bool(
+        entry.get("stopRequired", False) or args.trigger_kind in STOP_TRIGGER_KINDS
+    )
+    if args.trigger_kind in REPAIR_TRIGGER_KINDS:
+        entry["repairVerified"] = bool(args.repair_verified)
+    else:
+        entry.setdefault("repairVerified", False)
     entry["owner"] = args.owner
     entry["nextAction"] = args.next_action
     entry["resolution"] = None
@@ -160,6 +231,12 @@ def main() -> int:
             "sourceId": args.source_id,
             "description": args.description.strip(),
             "evidence": args.evidence,
+            "triggerKind": args.trigger_kind,
+            "failedContract": args.failed_contract.strip() if args.failed_contract else None,
+            "rootCause": args.root_cause.strip() if args.root_cause else None,
+            "preventionTest": args.prevention_test.strip() if args.prevention_test else None,
+            "stopRequired": args.trigger_kind in STOP_TRIGGER_KINDS,
+            "repairVerified": bool(args.repair_verified),
         }
     )
     payload["updatedAt"] = timestamp
@@ -174,6 +251,8 @@ def main() -> int:
                 "count": entry["count"],
                 "status": entry["status"],
                 "deathLoop": entry["deathLoop"],
+                "stopRequired": entry["stopRequired"],
+                "repairVerified": entry["repairVerified"],
                 "deduplicated": deduplicated,
             },
             sort_keys=True,

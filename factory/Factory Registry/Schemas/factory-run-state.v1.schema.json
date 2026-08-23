@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://solvys.io/schemas/factory-run-state.v1.schema.json",
+  "title": "Factory Run State v1",
+  "type": "object",
+  "required": ["version", "runId", "projectId", "sprintId", "phase", "scopeHash", "blockers", "exploredPaths", "skillInventory", "proof", "correctionLatch", "circuit"],
+  "properties": {
+    "version": {"const": 1},
+    "runId": {"type": "string", "minLength": 1},
+    "projectId": {"type": "string", "minLength": 1},
+    "sprintId": {"pattern": "^S[0-9]{3,}$"},
+    "phase": {"enum": ["PL0", "PL1", "PL2", "PL3", "PL4", "PL5"]},
+    "sourceRef": {"type": ["string", "null"]},
+    "scopeHash": {"type": "string", "minLength": 1},
+    "allowedSurfaces": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "blockers": {"type": "array", "items": {"type": "object"}},
+    "exploredPaths": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "skillInventory": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "proof": {"type": "array", "items": {"type": "string"}},
+    "humanGate": {"type": ["object", "null"]},
+    "correctionLatch": {"type": "object", "required": ["active", "mechanism"], "properties": {"active": {"type": "boolean"}, "mechanism": {"type": ["string", "null"]}, "preventionTestPassed": {"type": "boolean"}}},
+    "circuit": {"type": "object", "required": ["state", "reason"], "properties": {"state": {"enum": ["closed", "repair", "open"]}, "reason": {"type": ["string", "null"]}}}
+  },
+  "additionalProperties": true
+}

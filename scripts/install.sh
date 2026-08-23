@@ -81,6 +81,15 @@ python3 "$repo_root/scripts/configure_factory_hooks.py" \
   --repo-root "$repo_root" \
   --home "$solvys_user_home"
 
+bash "$repo_root/scripts/install_s015_toolchains.sh" --target-home "$solvys_user_home"
+
+factory_registry="$solvys_user_home/.config/solvys-factory/registry/factory-registry.yaml"
+if [[ -f "$factory_registry" ]]; then
+  python3 "$repo_root/scripts/configure_project_loops.py" \
+    --registry "$factory_registry" \
+    --canonical "$repo_root/factory/canon/agency-directive.md"
+fi
+
 orientation_args=(--config-dir "$solvys_user_home/.config/solvys-factory")
 if [[ "$force_orientation" -eq 1 ]]; then
   orientation_args+=(--force)

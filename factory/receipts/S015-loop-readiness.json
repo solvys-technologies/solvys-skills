@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "checkedAt": "2026-08-11T15:04:30Z",
+  "toolchain": "/Users/tifos/.local/share/solvys-factory/toolchains/loop-0.1.2",
+  "loopVersion": "0.1.2",
+  "projects": [
+    {"id": "heirright", "doctorScore": 100, "doctorLevel": "L3", "doctorStatus": "healthy", "syncScore": 80, "autoMerge": "denied"},
+    {"id": "fintheon", "doctorScore": 100, "doctorLevel": "L3", "doctorStatus": "healthy", "syncScore": 80, "autoMerge": "denied"},
+    {"id": "cred-cowork", "doctorScore": 100, "doctorLevel": "L3", "doctorStatus": "healthy", "syncScore": 80, "autoMerge": "denied"},
+    {"id": "solvys-2", "doctorScore": 100, "doctorLevel": "L3", "doctorStatus": "healthy", "syncScore": 80, "autoMerge": "denied"},
+    {"id": "affilia", "doctorScore": 100, "doctorLevel": "L3", "doctorStatus": "healthy", "syncScore": 80, "autoMerge": "denied"},
+    {"id": "ssfitness", "doctorScore": null, "doctorLevel": null, "doctorStatus": "visibility-only-blocked-missing-manifest-and-cloud-project", "syncScore": null, "autoMerge": "denied-by-dispatch-state"}
+  ],
+  "cost": {
+    "pattern": "daily-triage",
+    "cadence": "1d-2h",
+    "level": "L3",
+    "orchestration": "single",
+    "suggestedDailyCap": 100000,
+    "realisticTokensPerDay": 69500,
+    "cachedTokensPerDay": 47608,
+    "worstCaseWarning": "Action on every run can exceed the daily cap; the kill switch opens the circuit at the cap."
+  },
+  "upstreamObservations": [
+    "loop-sync 1.0.0 accepts --json but omits the parsed json flag, so output remains human-readable.",
+    "Loop Doctor reports the sync parser note but remains healthy because every project has Loop Ready 100 and complete local controls.",
+    "The Factory uses the exact isolated command family and never follows Doctor's npx suggestions."
+  ]
+}

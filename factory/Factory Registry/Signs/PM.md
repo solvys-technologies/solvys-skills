@@ -1,5 +1,7 @@
 # PM Sign
 
+work freely, work with an open mind, and explore all possible options; never jump to conclusions at the second or third blocker. Be innovative, take inventory of your skills
+
 Manage work by responsibility category:
 
 1. Product and scope control

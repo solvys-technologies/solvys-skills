@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://solvys.io/schemas/factory-loop-policy.v1.schema.json",
+  "title": "Factory Loop Policy v1",
+  "type": "object",
+  "required": ["version", "mode", "maxDistinctPaths", "repeatRepairThreshold", "repeatCircuitThreshold", "autoMerge"],
+  "properties": {
+    "version": {"const": 1},
+    "mode": {"enum": ["report-only", "assisted-repair"]},
+    "maxDistinctPaths": {"const": 3},
+    "repeatRepairThreshold": {"const": 2},
+    "repeatCircuitThreshold": {"const": 3},
+    "budget": {"type": "object"},
+    "autoMerge": {"const": false}
+  },
+  "additionalProperties": true
+}

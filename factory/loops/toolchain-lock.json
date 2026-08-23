@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "resolvedAt": "2026-08-11",
+  "tools": {
+    "loop-engineering": {
+      "package": "@cobusgreyling/loop",
+      "version": "0.1.2",
+      "integrity": "sha512-31LdfMIkz3+kfEa/+wiRAfTg2OBcy2PAs5JRpYTPKq305vsL/xW8oAsLAZAHeoiX/tSYX7iNsCSIBvhD0tq/uQ==",
+      "license": "MIT",
+      "source": "https://github.com/cobusgreyling/loop-engineering"
+    },
+    "loop-init": {
+      "package": "@cobusgreyling/loop-init",
+      "version": "1.5.0",
+      "integrity": "sha512-tnNmxDzOvcX+a1JME9/vBVQ7r3MAjyt48h7Y07rxgja46quBFwcy9Q90pL1YSatoOsTi9pFxBFuqsz3UhhfNDw=="
+    },
+    "loop-audit": {
+      "package": "@cobusgreyling/loop-audit",
+      "version": "1.7.0",
+      "integrity": "sha512-Xtw7bkx20VFqPCHR4qt0QlrAXvOjAHc4eYk2vqoBuGvSqBGSoc5SYtdDoEF/UoZbnIP/YbYsSqJ7H0HoQsqknQ=="
+    },
+    "loop-cost": {
+      "package": "@cobusgreyling/loop-cost",
+      "version": "1.2.0",
+      "integrity": "sha512-xUjQlDl/76tXzmqJHbR2sejt/WRv7nOroQLJ2Id3vlUZqlz7Qqf7pra7UiX5wIFIelI3CVKjpRu+u6HXQqzJdg=="
+    },
+    "loop-sync": {
+      "package": "@cobusgreyling/loop-sync",
+      "version": "1.0.0",
+      "integrity": "sha512-yoZK4I8Ter+cqiZi+w8eN9Qr1H9NgYou/F1PiY4w+PLnw2HYUSvKg26wZZOxHfrHDoDPaOy/trxQZ7uqL92PvQ=="
+    },
+    "loop-context": {
+      "package": "@cobusgreyling/loop-context",
+      "version": "1.5.0",
+      "integrity": "sha512-nFxqFS9j6eoNH4A/veaMgmpqJGyJiV6DzYPpU6qMDz4xcShSDL7mH4mN0GINoq75ifGcffrt8A6KdSj8+MUt5g=="
+    },
+    "loop-worktree": {
+      "package": "@cobusgreyling/loop-worktree",
+      "version": "1.2.0",
+      "integrity": "sha512-gvHLNg9pnMCLZTMugxY1xskVF9PIceTK/A+hAi1l7JulK0xQvDX/zt+SUU00p36ad+NVnPOiliADgap/1uefPw=="
+    },
+    "loop-gate": {
+      "package": "@cobusgreyling/loop-gate",
+      "version": "1.0.0",
+      "integrity": "sha512-s/rc9c4cqBVhBKhPEd/DbDNHdP/df+t0PGIw8LXpil0yJN6ettvwhcPqrM1stbwf1la3vCKYZ/lbkdOlx6jM0w=="
+    },
+    "loop-mcp-server": {
+      "package": "@cobusgreyling/loop-mcp-server",
+      "version": "1.1.0",
+      "integrity": "sha512-ZcTjaIwkZlIwfzBYeGX1lWx/M7D/WrjIm35wt0uHQ+P4I6LcSLpElIDU7lNyOOAy9vps+64JdOHEAKc5LSx7NA=="
+    },
+    "loop-sandbox": {
+      "package": "@cobusgreyling/loop-sandbox",
+      "status": "disabled-not-published-on-npm"
+    },
+    "spec-kit": {
+      "package": "specify-cli",
+      "version": "0.16.2",
+      "source": "git+https://github.com/github/spec-kit.git@v0.16.2",
+      "commit": "4871b485f97c7fa452ec58eba325d87536c55c34",
+      "license": "MIT"
+    },
+    "symphony": {
+      "package": "openai/symphony",
+      "version": "pin-by-cloud-runtime-receipt",
+      "source": "https://github.com/openai/symphony",
+      "license": "Apache-2.0"
+    }
+  }
+}

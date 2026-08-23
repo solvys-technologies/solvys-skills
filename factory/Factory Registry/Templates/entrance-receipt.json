@@ -17,11 +17,29 @@
   "dirtyStateOwner": null,
   "protectedZones": [],
   "requiredProofRung": null,
+  "contextParity": {
+    "path": "PROJECT-STATE.md",
+    "stateRevision": null,
+    "sourceRef": null,
+    "sourceCommit": null,
+    "syncStatus": "unverified",
+    "verifiedAt": null,
+    "latestReceipt": null
+  },
   "infractionLedger": {
     "path": null,
     "openCount": 0,
     "highestSeverity": null,
     "deathLoopCount": 0
+  },
+  "developmentContract": {
+    "path": null,
+    "maturity": null,
+    "revision": null,
+    "status": null,
+    "validatedAt": null,
+    "validatorReceipt": null,
+    "implementationAuthorized": false
   },
   "operationsAuthorized": false
 }

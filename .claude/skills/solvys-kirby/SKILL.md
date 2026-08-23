@@ -5,6 +5,13 @@ description: Reverse-engineer an authorized live benchmark into a complete Inter
 
 # Solvys Kirby: Interface Inventory
 
+Follow the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) when
+turning the inventory into a recreation blueprint: YAGNI, existing repo seam,
+standard library or native platform, already-installed dependency, maintained
+OSS with lower ownership cost, one line, then the minimum custom code. Reconstruct
+the accepted benchmark with existing approved components before inventing new
+ones.
+
 ## Contract
 
 The original problem is design work that starts from an idealized Figma file,

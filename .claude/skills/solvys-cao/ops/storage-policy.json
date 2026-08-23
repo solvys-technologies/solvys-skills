@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "effectiveDate": "2026-08-06",
+  "version": 4,
+  "effectiveDate": "2026-08-12",
   "timezone": "America/New_York",
   "inventorySurface": "current_codex_task_only",
   "observationModeThrough": "2026-08-01T23:59:59-04:00",
@@ -144,6 +144,63 @@
       ]
     }
   },
+  "reportingContract": {
+    "capacityUnit": "GB_decimal",
+    "capacityPrecision": 2,
+    "forbiddenUserFacingUnits": [
+      "bytes",
+      "KiB",
+      "MiB",
+      "GiB"
+    ],
+    "reclaimReceiptFields": [
+      "exactPath",
+      "category",
+      "logicalCandidateSizeGB",
+      "measuredFreeSpaceGainGB"
+    ],
+    "sweepTotal": {
+      "required": true,
+      "finalLineLabel": "Total measured storage freed this sweep",
+      "source": "verified_before_after_free_space_delta_for_each_storage_surface",
+      "unit": "GB_decimal",
+      "precision": 2,
+      "zeroWhenNoMeasuredGain": true,
+      "logicalCandidateSizeCannotSubstitute": true
+    }
+  },
+  "worktreeLifecycle": {
+    "mandatoryRetentionDays": 4,
+    "inactivityBasis": "last_task_activity_or_closure;_verified_checkout_creation_when_no_task_record",
+    "expiryMode": "mandatory_for_eligible_worktrees",
+    "ownerNotice": "send_at_expiry_requesting_commit_and_push_before_same_cadence_closure",
+    "closureOrder": [
+      "verify_owner_and_task_identity",
+      "verify_no_active_or_pinned_goal_task_automation_memory_reference",
+      "verify_no_open_handle_upload_provider_session_or_recovery_reference",
+      "record_git_status_and_exact_path",
+      "commit_dirty_work_truthfully_when_owner_and_contents_are_verified",
+      "push_commit_or_checkpoint_and_read_back_remote_identity",
+      "archive_task_through_codex",
+      "delete_through_codex_managed_retention",
+      "verify_index_archived_and_worktree_path_absent"
+    ],
+    "protectedExceptions": [
+      "active_task_or_goal",
+      "pinned_task_or_goal",
+      "paused_or_blocked_goal",
+      "dirty_unknown_owned_state",
+      "failed_git_readback",
+      "unique_non_git_or_recovery_artifact",
+      "open_handle",
+      "upload_or_provider_session",
+      "credential_or_secret_state",
+      "unknown_owner_or_unknown_age"
+    ],
+    "unknownStateAction": "preserve_and_report",
+    "rawFilesystemDeletion": "forbidden",
+    "removalOwner": "codex_managed_task_archival_and_retention"
+  },
   "backupContract": {
     "custodyClassificationRequiredBeforeBackup": true,
     "soundLibrariesDefaultCustody": "ext_recovery_only_pending_explicit_transfer",
@@ -181,6 +238,8 @@
       "chatgpt_sites"
     ],
     "blockNewWorkOnBreach": true,
+    "worktreeRetentionDays": 4,
+    "worktreeExpiryIsMandatory": true,
     "defaultCeilings": {
       "concurrentLocalImplementationTasks": 1,
       "concurrentLocalImplementationTasksAtCriticalCapacity": 0,
@@ -317,6 +376,7 @@
     "cacheSanitationAfterObservation": true,
     "externalArchiveSanitationAfterObservation": false,
     "transcriptColdStoragePilot": true,
+    "codexManagedWorktreeRetention": true,
     "manualWorktreeDeletion": false,
     "codexHomeMigration": false
   },

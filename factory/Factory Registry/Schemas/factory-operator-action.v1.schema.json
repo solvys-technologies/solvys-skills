@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://solvys.io/schemas/factory-operator-action.v1.schema.json",
+  "title": "Factory Operator Action v1",
+  "type": "object",
+  "required": ["version", "actionId", "idempotencyKey", "operatorId", "projectId", "action", "requestedAt", "result"],
+  "properties": {
+    "version": {"const": 1},
+    "actionId": {"type": "string", "minLength": 1},
+    "idempotencyKey": {"type": "string", "minLength": 8},
+    "operatorId": {"type": "string", "minLength": 1},
+    "projectId": {"type": "string", "minLength": 1},
+    "issueIdentifier": {"type": ["string", "null"]},
+    "action": {"enum": ["refresh", "pause", "resume", "drain", "retry", "cancel"]},
+    "requestedAt": {"type": "string", "minLength": 1},
+    "result": {"enum": ["accepted", "rejected", "completed", "failed"]},
+    "evidence": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

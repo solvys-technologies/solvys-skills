@@ -74,7 +74,7 @@ fixture provenance, and Site interaction receipt before acceptance.
 | Beta | `/solvys-beta` | Local build, test, and DMG publish to desktop |
 | Feels | `/solvys-feels` | Visual architecture -- Solvys Gold palette, flat design, industrial warmth |
 | Kirby Interface Inventory | `/solvys-kirby` (`Solvys-admiration-report`) | Reverse-engineer an authorized live benchmark into evidence-backed tokens, components, states, layout, motion, and a PL0 contract |
-| Prototype | `/solvys-prototype` | Build an Alpha prototype only from a validated Interface Inventory and accepted PL0 contract |
+| Prototype-to-alpha | `/solvys-pta` | Build an Alpha surface only from a validated Interface Inventory and accepted PL0 contract |
 | Communication Style | `communication-style-protocol` | Universal direct, high-trust communication protocol with the No AI Slop overlay |
 | No AI Slop | `/no-ai-slop` | Remove AI writing patterns while preserving the writer's voice |
 | Human Review | `/human-review` | Direct text edits and anchored comments on the Site-derived local review artifact |

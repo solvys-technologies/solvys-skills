@@ -1,5 +1,21 @@
 {
   "accessGatedItemCount": 0,
+  "appBlockRegistry": {
+    "appBlockItemCount": 8,
+    "appBlockNames": [
+      "analytics-map",
+      "choropleth",
+      "analytics-card",
+      "delivery-tracker",
+      "uptime-monitor",
+      "heatmap",
+      "logistics-network",
+      "store-locator"
+    ],
+    "excludedWebsiteBlockCount": 0,
+    "excludedWebsiteBlockNames": [],
+    "path": "installed-registries/mapcn/app-blocks.json"
+  },
   "autoUpdate": false,
   "catalogItemCount": 9,
   "catalogUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/registry.json",

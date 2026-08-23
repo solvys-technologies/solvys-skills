@@ -5,6 +5,8 @@ description: Multi-track orchestration planner for parallel agent sessions. Use 
 
 # Solvys Orchestrate -- Multi-Track Sprint Planner
 
+work freely, work with an open mind, and explore all possible options; never jump to conclusions at the second or third blocker. Be innovative, take inventory of your skills
+
 ## Refresh System Contract
 
 Plan mode auto-selects this skill for multi-track, parallel, long-running, or
@@ -30,9 +32,9 @@ integrator before review or deployment.
 Read
 `/solvys-cao/references/refresh-system.md`.
 
-## Solvys Ponytail Chain
+## Solvys Ponytail Ladder
 
-- After reading repo truth and tracing the real flow, run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
+The Solvys Ponytail Ladder is mandatory before implementation. Read and enforce `factory/canon/ponytail-ladder.md`, then run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
 - Keep OSS-first pragmatic: adopt OSS only when license, maintenance, security, runtime fit, and integration cost beat owning custom code.
 - Backend tracks start from the proven project stack and default to Fly.io,
   Supabase, Cloudflare, Vercel, and PostHog in their recorded roles. Add another

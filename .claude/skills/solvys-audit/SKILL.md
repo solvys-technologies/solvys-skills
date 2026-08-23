@@ -1,11 +1,47 @@
 ---
 name: solvys-audit
-description: Single-agent audit, debug, and pre-flight checks. Use for pre-ship verification, debugging failures, security review, environment drift detection, and post-incident triage. Invoke with an error message to enter debug mode.
+description: Anti-Slop-led Solvys audit, debug, and pre-flight checks. Use for TypeScript or JavaScript quality gates, pre-ship verification, debugging failures, security review, environment drift detection, and post-incident triage. Invoke with an error message to enter debug mode.
 ---
 
-# Solvys Audit -- Pre-flight, Debug, and Security Scan
+# Solvys Audit -- Anti-Slop-led Pre-flight, Debug, and Security Scan
 
-You are a systems auditor. Run every check methodically. Report findings as PASS / WARN / FAIL with evidence. Do not fix anything unless explicitly asked -- this skill is report-only by default.
+You are a systems auditor. Anti-Slop owns the TypeScript and JavaScript code-quality gate. Solvys Audit owns custody, evidence, proof-rung discipline, the complete pre-flight, security checks, and debug analysis.
+
+Run every applicable check methodically. Report PASS / WARN / FAIL with evidence. An ordinary audit is report-only: do not install dependencies, change lint configuration, modify code, auto-fix, or weaken rules unless the user explicitly asks for the named configuration or remediation work.
+
+## Solvys Ponytail Ladder
+
+The Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) governs every repair recommendation this skill makes. Run it in order before proposing any remediation: does this need to exist, is there an existing repo seam or installed dependency, does maintained OSS already solve it, can it be one line, and only then propose the minimum custom code. Never use the ladder to skip the Anti-Slop gate, security measures, trust-boundary validation, or the required proof rung.
+
+## Anti-Slop precedence
+
+For a TypeScript or JavaScript target, run this gate before ordinary code-quality findings.
+
+1. Read target instructions, `git status`, package manager, existing Oxlint configuration, and the target lint command.
+2. Verify a vendored `tools/oxlint/anti-slop/` copy, its `jsPlugins` registration, the complete 15-rule configuration at `error`, and ignores for agent-managed assets. Preserve target-specific existing configuration.
+3. Run the target's Anti-Slop-aware lint command. Record the exact command, exit result, rule, file, and line for every finding.
+4. When configuration is missing, report `WARN: Anti-Slop configuration missing`. State the approved repair route exactly: invoke `$install-anti-slop` in the target repository. Do not configure it during an ordinary audit.
+5. When a configured Anti-Slop gate fails, report `FAIL: Anti-Slop gate`. Do not replace findings with casts, mocks, type widening, or rule suppression.
+
+The required upstream rule set is:
+
+- `no-chained-type-assertions`
+- `no-conditional-empty-object-spread`
+- `no-known-value-widening`
+- `no-module-mocking`
+- `no-object-parameters`
+- `no-reflect-apply`
+- `no-reflect-get`
+- `no-runtime-typeof`
+- `no-shape-in-symbol-names`
+- `no-unknown-parameters`
+- `no-unknown-returns`
+- `no-unknown-type-aliases`
+- `no-unsafe-dictionary-type`
+- `no-widen-then-assert`
+- `require-safety-comment-for-type-assertion`
+
+For a non-TypeScript or non-JavaScript target, record `PASS: Anti-Slop not applicable` with the detected language and continue the applicable Solvys audit phases. Anti-Slop source checks do not prove a build, runtime, provider, deployed, installed, or human-accepted outcome.
 
 ## Phase 0 -- Inherited Specification And User-Testing Gate
 
@@ -25,12 +61,12 @@ Routine in-scope implementation, testing, debugging, restart, and validation car
 ## Mode Detection
 
 - If invoked with no arguments: run Phase 0 when a sprint or worktree is registered, then run the full audit (Phases 1-5).
-- If invoked with an error message or `$ARGUMENTS` containing an error: run Phase 0 when a sprint or worktree is registered, then enter Phase 6 (Debug Mode).
-- If invoked with `security`: run only Phase 5 unless a completion or dispatch decision is also requested.
+- If invoked with an error message or `$ARGUMENTS` containing an error: run Phase 0 when a sprint or worktree is registered, then enter Phase 7 (Debug Mode).
+- If invoked with `security`: run only Phase 6 unless a completion or dispatch decision is also requested.
 
 ---
 
-## Phase 1 -- Environment Check
+## Phase 1 -- Audit entrance and environment check
 
 Verify the development/deployment environment is correctly configured.
 
@@ -44,16 +80,11 @@ gh --version
 
 Report version mismatches as WARN.
 
-### 1b. Environment Variables
+### 1b. Environment variables
 
 ```bash
-# Find all env vars referenced in source
-grep -roh "process\.env\.[A-Z_]*" src/ --include="*.ts" 2>/dev/null | sed 's/process\.env\.//' | sort -u > /tmp/env-used.txt
-
-# Find all documented in .env.example
-grep "^[A-Z_]" .env.example 2>/dev/null | cut -d= -f1 | sort -u > /tmp/env-documented.txt
-
-# Undocumented vars
+rg -o 'process\.env\.[A-Z_]+' src -g '*.ts' -g '*.tsx' 2>/dev/null | sed 's/.*process\.env\.//' | sort -u > /tmp/env-used.txt
+rg '^[A-Z_]' .env.example 2>/dev/null | cut -d= -f1 | sort -u > /tmp/env-documented.txt
 comm -23 /tmp/env-used.txt /tmp/env-documented.txt
 ```
 
@@ -69,7 +100,17 @@ Report missing tools as FAIL with install instructions.
 
 ---
 
-## Phase 2 -- Build Verification
+## Phase 2 -- Anti-Slop quality gate
+
+For TypeScript or JavaScript targets, report this phase before build verification.
+
+- PASS when all required Anti-Slop rules are configured at `error` and the target lint command succeeds.
+- WARN when the target is eligible but has no installed or vendored Anti-Slop configuration; name `$install-anti-slop` as the exact repair route.
+- FAIL when the configured command returns a finding or non-zero exit status; include the first 20 relevant output lines.
+
+Do not treat a general ESLint, TypeScript, or formatting success as an Anti-Slop pass unless it runs the verified vendored rule set.
+
+## Phase 3 -- Build verification
 
 ```bash
 # TypeScript check
@@ -86,15 +127,15 @@ npx vite build
 
 ---
 
-## Phase 3 -- Code Quality Scan
+## Phase 4 -- Supplementary code-quality scan
 
-### 3a. File Size Enforcement
+### 4a. File size enforcement
 
 Scan all `.ts`, `.tsx`, `.css` files in `src/` and `frontend/`. Flag any file over 300 lines.
 
 Format: `WARN: {path} -- {line_count} lines (limit: 300)`
 
-### 3b. Dead Code Detection
+### 4b. Dead code detection
 
 Look for:
 - Exported functions/components with zero imports elsewhere
@@ -103,7 +144,7 @@ Look for:
 
 Report as WARN (not FAIL -- dead code is a smell, not a blocker).
 
-### 3c. Changelog Compliance
+### 4c. Changelog compliance
 
 If `src/lib/changelog.ts` exists, verify:
 - Most recent entry is within the last 24 hours (for active development)
@@ -111,7 +152,7 @@ If `src/lib/changelog.ts` exists, verify:
 
 ---
 
-## Phase 4 -- Test Verification
+## Phase 5 -- Test verification
 
 ```bash
 # Run available test suites
@@ -124,7 +165,7 @@ bun test 2>/dev/null || npx vitest run 2>/dev/null || echo "No test runner found
 
 ---
 
-## Phase 5 -- Security Scan
+## Phase 6 -- Security scan
 
 ### 5a. Secret Detection
 
@@ -170,7 +211,7 @@ If the project has route definitions, verify that protected routes have auth mid
 
 ---
 
-## Phase 6 -- Debug Mode
+## Phase 7 -- Debug mode
 
 Activated when invoked with an error message.
 
@@ -221,11 +262,12 @@ Do NOT apply the fix unless the user explicitly asks. This is report-only.
   {project name} -- {date} -- {branch}
 ============================================
 
-Phase 1: Environment         [PASS/WARN/FAIL]
-Phase 2: Build               [PASS/WARN/FAIL]
-Phase 3: Code Quality        [PASS/WARN/FAIL]
-Phase 4: Tests               [PASS/WARN/FAIL]
-Phase 5: Security            [PASS/WARN/FAIL]
+Phase 1: Environment          [PASS/WARN/FAIL]
+Phase 2: Anti-Slop quality    [PASS/WARN/FAIL/N/A]
+Phase 3: Build                [PASS/WARN/FAIL]
+Phase 4: Supplementary code   [PASS/WARN/FAIL]
+Phase 5: Tests                [PASS/WARN/FAIL]
+Phase 6: Security             [PASS/WARN/FAIL]
 
 Overall: {PASS / WARN / FAIL}
 Blockers: {count}

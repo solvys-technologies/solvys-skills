@@ -1,11 +1,18 @@
 {
-  "version": 2,
+  "version": 3,
   "projectId": "project-slug",
   "backend": "bw",
   "readOnly": true,
   "allowedOrigins": [
     "https://login.example.com"
   ],
+  "clipboard": {
+    "enabled": true,
+    "ttlSeconds": 30,
+    "allowedCredentials": [
+      "primary"
+    ]
+  },
   "bws": {
     "projectId": "40000000-0000-4000-8000-000000000000",
     "secretIds": {

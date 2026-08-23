@@ -12,6 +12,7 @@ paths:
   cabinet: replace-me
   local: unknown
   cloud: unknown
+  projectState: PROJECT-STATE.md
 accounts:
   github: nicharacci
   projectGoogleIdentity: paste-reference-only

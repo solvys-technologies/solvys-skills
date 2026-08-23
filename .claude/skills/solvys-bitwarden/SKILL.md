@@ -11,24 +11,28 @@ worker access so a locked Mac does not turn an ordinary login into a dead loop.
 
 ## Entrance and authority
 
-1. Read the project Welcome Mat or registered onboarding composite, the assigned
+1. Inspect the current provider page and browser profile before opening
+   Bitwarden. Use a valid Continue, remembered account, account-selection,
+   passkey, or authenticator route first. Retrieve a project-scoped credential
+   only when the provider presents a real credential prompt or that route fails.
+2. Read the project Welcome Mat or registered onboarding composite, the assigned
    PL, PM, DEV, or CAO sign, the manifest, active sprint, latest receipt, and
    current infraction ledger.
-2. Validate the Factory entrance before any provider, browser, credential, or
+3. Validate the Factory entrance before any provider, browser, credential, or
    repository mutation. Read-only diagnosis may continue while the receipt is
    repaired.
-3. Load the project Bitwarden policy. The primary vault item name must equal
+4. Load the project Bitwarden policy. The primary vault item name must equal
    the repository name. Use the example at
    `factory/templates/bitwarden-policy.example.json` as the shape. The live
    policy belongs in the project Cabinet or
    `~/.config/solvys-factory/projects/<project>/bitwarden-policy.json`.
-4. Read the login item's **Additional Options** note before a sign-in, TOTP,
+5. Read the login item's **Additional Options** note before a sign-in, TOTP,
    text fallback, or override attempt. It can define a provider route, an
    approved contact, a resource boundary, or a prohibited fallback. Treat the
    note as part of the credential contract. Record names, IDs, scope, expiry,
    and owner only. Never record a password, token, cookie, MFA code, phone
    number, or secret value.
-5. Use one active Bitwarden access path for the task. Do not open a second vault
+6. Use one active Bitwarden access path for the task. Do not open a second vault
    session, duplicate browser profile, or duplicate provider callback.
 
 ## Backend choice

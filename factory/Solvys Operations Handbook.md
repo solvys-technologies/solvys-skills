@@ -21,6 +21,10 @@ The Factory exists because a passing test cannot prove that a product works. A f
 - **Fluid stack:** the reusable Solvys default built from the proven provider estate.
 - **Dynamic stack:** an approved project exception caused by performance, security, hosting, integration, cost, or exit needs.
 - **Proof rung:** the highest reality level that evidence reached.
+- **Client outcome acceptance:** the completion gate for a client objective. A
+  product is complete only when the intended user can achieve the client's
+  stated result through the required journey. Tests, deployments, screenshots,
+  and technical records support this conclusion. They do not replace it.
 - **Sprint Unit:** one visible orchestration task plus its visible implementation tasks.
 - **Entrance receipt:** proof that a task read the correct signs and verified current custody before work.
 - **Comrade care:** repairing shared access, path, connection, or context defects for active sprint work.
@@ -28,7 +32,7 @@ The Factory exists because a passing test cannot prove that a product works. A f
 - **Paste custody:** open Paste, search the exact project name, open the project folder from the search suggestion, then use the matching `Primary Project Password` or `Secondary Project Password` item. Do not search guessed labels such as `CRED Gmail Password`. The project-specific Paste folder is the password authority. When a skill uses Paste MCP, the Paste app and MCP connection stay open through the task and handoff. Agents never close it or terminate its sync process because TP relies on its iCloud sync for fluid work. They do not ask TP to type or reveal a password that Paste already stores.
 - **Welcome Mat substitution:** when a project has no literal `WELCOME.md`, its registered `AGENTS.md`, `CLAUDE.md`, `README.md`, `SETUP.md`, `WORKSPACE.md`, `PRODUCT.md`, and `DESIGN.md` files can form the onboarding composite. Record the exact files used.
 - **Handoff registry authority:** discover projects through `Factory Instance/Factory Registry/factory-registry.yaml`, then read active status and rollover instructions from `Factory Instance/handoffs/task-cutover-registry.yaml`. The cutover registry is the active-status authority during a recommencement. Resolve its `commonPrompt` relative to that file. Do not rely on a chat message or a second registry copy.
-- **Exact-copy gate:** token alignment never proves 1:1 parity. Compare Wonder and the ChatGPT Site at the same viewport, route, and state before publishing or accepting. A visual mismatch is `DIVERGED`; owner-gated runtime evidence is `BLOCKED`. Keep the current Site intact while any private candidate remains unaccepted.
+- **Frontend source-of-truth gate:** read `factory/canon/frontend-wonder-source-of-truth.md` before frontend work. The named Wonder file, branch, page, artboards, and import map are the protected human-editable visual source. Compare that source and the ChatGPT Site at the same viewport, route, and state before publishing or accepting. A visual mismatch is `DIVERGED`; owner-gated runtime evidence is `BLOCKED`. Keep the current Site intact while any private candidate remains unaccepted.
 - **Shared skill custody:** the Codebase Cabinet Solvys-skills suite is the only editable shared skill source. Install it in the agent home or expose it through a symlink; do not copy or commit shared skill bodies into a product repository.
 
 ## Source authority
@@ -41,9 +45,18 @@ Use the source that owns each fact:
 | Active implementation | Task-owned Cloud checkpoint ref |
 | Operating decisions | Project Codebase Cabinet |
 | Issues and sprint status | Linear until the accepted Solvys-2/OpenProject migration |
-| Frontend proposal | Wonder |
+| Frontend visual source | Named Wonder canvas and recorded import map |
 | Shared UI assembly source | Solvys Build Kit |
 | Runnable frontend proof | Project ChatGPT Site |
+
+### Wonder collaboration chain
+
+Use the existing named Wonder file and its recorded import map. Verify its live
+file, branch, page, artboards, source revision, and protected human-owned
+regions before a frontend change. If the project has no imported copy, create or
+import it before new UI code. The project ChatGPT Site remains the runnable
+test and acceptance surface. Record the source-to-Wonder map and code commit in
+the task receipt.
 | Provider state | Authenticated provider console or CLI |
 | Secrets | Paste or approved credential store |
 | Published documentation | Mintlify |
@@ -72,13 +85,69 @@ Before substantial work:
 7. Record an `entrance-receipt.json` before changing product state.
 
 Use `scripts/validate_entrance.py` to validate the receipt. Read-only diagnosis
-may continue when the receipt is missing or stale. Product, repository, Wonder,
+may continue when the receipt is missing or stale. Product, repository, Pen.dev, Wonder,
 provider, deployment, and credential mutations are refused until validation
 passes. The failed check becomes a repair handoff with an owner and next safe
 action.
 
 Do not restart product implementation from a stale chat summary. Walk back through the entrance.
 If no literal `WELCOME.md` exists, record the onboarding composite used instead.
+
+## Context parity
+
+Every repository has one Git-tracked `PROJECT-STATE.md` file at its root. It is
+the shared current-state record for the executive device, development device,
+and repository-backed Cloud worktrees. The record carries the current intent,
+accepted branch and commit, active sprint, source owner, protected zones, proof
+rung, open gates, next safe action, latest receipt, and Breakthrough log.
+
+Read the record and the latest accepted receipt before Executive Ops dispatches
+work, before a Cloud worker edits code, at each checkpoint, and at closeout.
+Compare its branch and commit with the target checkout. Use `aligned`, `stale`,
+`blocked`, or `unverified` as the sync state. Only `aligned` allows product or
+repository mutation. `scripts/validate_project_state.py --require-aligned`
+checks the record. A mismatch creates one repair handoff and stops mutation.
+
+The Cabinet may show or link the record. It does not maintain a second editable
+copy. Pointer folders cannot claim source, runtime, provider, or account truth.
+The authoritative contract is `factory/canon/context-parity-contract.md`.
+
+## Development Contract and implementation gate
+
+Every code, configuration, or behavior change starts from a versioned
+Development Contract. Use
+`factory/Factory Registry/Templates/development-contract.md`. A micro change can
+use a short contract. Substantial work defaults to `spec-anchored`, so the
+contract remains in the repository and changes with the behavior it governs.
+Use `spec-first` only when the artifact has a named disposal point. Use
+`spec-as-source` only when a proven generator and drift check make the spec the
+real source.
+
+The contract separates three concerns:
+
+1. **SPEC:** State purpose, users, functional requirements, edge cases, and
+   Given/When/Then acceptance scenarios without choosing implementation.
+2. **PLAN:** Record current repository and runtime truth, accepted sources,
+   architecture, integration seams, exact commands, boundaries, risks,
+   rollback, and proof rung.
+3. **TASKS:** Order self-contained S or M changes by dependency. Give each task
+   one owner, no more than five likely files, exact acceptance references, one
+   verification command, and one checkpoint.
+
+The entrance receipt links the approved contract revision. These checks fail
+closed before implementation:
+
+```bash
+python3 scripts/validate_development_contract.py --contract <contract-path> --implementation
+python3 scripts/validate_entrance.py --receipt <entrance-receipt> --project-id <project-slug> --implementation
+```
+
+Implement one task at a time. Run its named check and record its checkpoint
+before starting the next task. If a requirement changes, revise and approve the
+contract first. If a check fails unexpectedly, stop feature work, preserve the
+evidence, reproduce, localize, reduce, repair the earliest cause, add a
+prevention test, and pass the test before resuming. Scope pressure, test debt,
+and familiarity with the code never waive this gate.
 
 ## PL: Product Lifecycle
 
@@ -106,14 +175,17 @@ Backend comes before dependent frontend completion. A chassis can be designed in
 
 ### PL4: Chassis integration
 
-Build Wonder proposals against accepted contracts. Preserve each screen, route, state, control, responsive behavior, and navigation relationship.
+Build from the named Wonder source and recorded import map against accepted
+contracts. Preserve each screen, route, state, control, responsive behavior,
+and navigation relationship. Do not create a parallel frontend.
 
 Run two-stage control validation:
 
 1. Confirm that the control exists at the accepted Wonder target and ChatGPT Site route.
 2. Confirm that its complete feature path reaches the correct backend, permission, provider resource, state change, and proof.
 
-An emergency frontend repair may restore service first. Update Wonder, the control inventory, the Site, and the Cabinet before closure.
+An emergency frontend repair may restore service first. Update Wonder, the
+control inventory, the Site, and the Cabinet before closure.
 
 ### PL5: Release and handoff
 
@@ -139,7 +211,8 @@ Internal products can use one automation per PM category. External projects use 
 - Repair safe shared connection defects for active sprint comrades. Update only active tasks that have no unread TP message.
 - Build backend contracts and provider resources before dependent frontend completion.
 - Run load, failure, auth, queue, storage, tenancy, retry, observability, and rollback checks against the declared power target.
-- Build Wonder proposals in parallel against accepted contracts.
+- Build from the named Wonder source and recorded import map against accepted
+  contracts. Do not create a parallel frontend.
 - Preserve every route, state, control, responsive behavior, and navigation relationship.
 - Record the direct function of every button.
 - Fix the earliest shared cause when several paths fail. Show the cause as a node map and explain it with a car-system metaphor.
@@ -172,6 +245,21 @@ evidence, source task or automation, owner, and next action. The bundled
 `scripts/record_infraction.py` merges a matching fingerprint and increments its
 count. It never stores secret values or developer names.
 
+Treat `fucking`, `dumbass`, `dickhead`, `stupid`, and `doofus` as context review
+signals. Classify the whole message:
+
+- A direct correction or stop command stops the active path. Record the trigger
+  kind, failed contract, earliest root cause, prevention test, owner, and
+  evidence. Resume only after that test passes.
+- An explicit infraction report or quality-friction message creates or updates
+  the same repair record and stays open while its prevention test is unverified.
+- Emphasis, quotation, inherited policy, or a general preference updates the
+  current contract or communication constraint without a keyword-only entry.
+
+Store the mechanism and impact. Do not store the insult, blame a developer, or
+police TP's tone. The repair queue ranks stop-required records before routine
+severity because an active wrong path can compound damage while work continues.
+
 Use `category: automation-death-loop` and `--death-loop` when an automation or
 agent repeats the same action without new evidence or progress. The second
 repeat in one work window is a stop signal. Stop the repeated action, preserve
@@ -189,7 +277,7 @@ queue, and treat any invalid ledger in its output as a control-plane defect.
 The first proven custody, authority, or proof-gate breach stops the affected
 action. Record or increment the project ledger entry, preserve evidence, assign
 one repair owner, and create one repair handoff before retrying. Automatic repair
-does not mutate provider state, credentials, production, Wonder, or protected
+does not mutate provider state, credentials, production, Pen.dev, Wonder, or protected
 files.
 
 ## Stack Interview contract
@@ -222,7 +310,7 @@ Every exception records license, security, support, migration, exit, operating c
 Every interactive control records:
 
 - Surface, route, and state
-- Wonder source node
+- Pen.dev source node
 - ChatGPT Site route
 - Event and client handler
 - API route and backend handler
@@ -258,11 +346,19 @@ session data.
 
 ## Breakthrough records
 
-The exact direction `Update the C-Cab with that Breakthrough` is a durable
-learning write trigger. The active owner writes
+Create a Breakthrough record only when TP explicitly directs it, gives clear
+positive feedback about the current agent result, or when a change is confirmed
+merged into `main`. Direct positive feedback includes `good job`, `that's what
+the fuck I'm talking about`, and equivalent praise. General enthusiasm, thanks,
+or an agent's own interpretation does not qualify.
+
+Negative feedback, corrections, frustration, failed proof, and infractions
+never trigger a Breakthrough record. They use the repair or infraction path. A
+separate direct Breakthrough instruction remains valid. The active owner writes
 `Breakthroughs/<date>-<slug>.md` in the protected project Cabinet using
-`factory/Factory Registry/Templates/breakthrough-record.md`, reads it back, and
-routes the lesson to the smallest layer that prevents recurrence:
+`factory/Factory Registry/Templates/breakthrough-record.md`, reads it back,
+updates the canonical `PROJECT-STATE.md` Breakthrough log, and routes the lesson
+to the smallest layer that prevents recurrence:
 
 - universal process: Handbook, agent prompt, or Factory sign;
 - repeatable workflow: existing skill or a new validated skill;
@@ -273,10 +369,12 @@ routes the lesson to the smallest layer that prevents recurrence:
   `/Users/tifos/.codex/memories/extensions/ad_hoc/notes/`.
 
 Record the trigger, mechanism, failed guardrail, prevention rule, proof and
-readback, protected zones, owner, changed records, and next gate. Link the entry
-from the active Sprint Unit or latest receipt. Keep secrets, browser session
-data, transcript dumps, and unnecessary client identity out of the record. A
-blocked write remains pending evidence and cannot mark acceptance.
+readback, protected zones, owner, changed records, and next gate. A routine
+`main` merge records the accepted scope and proof. It does not make a quality
+claim from the merge alone. Link the entry from the active Sprint Unit or latest
+receipt. Keep secrets, browser session data, transcript dumps, and unnecessary
+client identity out of the record. A blocked write remains pending evidence and
+cannot mark acceptance.
 
 For authenticated provider surfaces, a semantic DOM or accessibility probe can
 miss the visible application shell. When that probe conflicts with the
@@ -391,7 +489,7 @@ Before closure:
 
 - Verify the declared proof rung.
 - Update Cabinet, repository contracts, Mintlify, Linear, canvases, and control inventory as applicable.
-- Reconcile Wonder and ChatGPT Site state for frontend work.
+- Reconcile Pen.dev and ChatGPT Site state for frontend work. Reconcile Wonder only when it was used as the fallback.
 - Close task-owned processes.
 - Record protected and quarantined state.
 - Return the exact next action.

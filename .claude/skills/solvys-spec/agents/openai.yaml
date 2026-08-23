@@ -1,0 +1,4 @@
+interface:
+  display_name: Solvys Spec
+  short_description: Map Spec Kit into the Factory contract
+  default_prompt: Refine this work with Spec Kit and produce one validated Solvys Development Contract.

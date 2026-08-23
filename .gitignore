@@ -2,3 +2,21 @@
 node_modules/
 .env
 *.log
+
+# Build Kit binary review artifacts stay outside repository custody.
+.claude/skills/solvys-build-kit/assets/build-kit/embedded-image*
+.claude/skills/solvys-build-kit/assets/build-kit/screenshot-*
+.claude/skills/solvys-build-kit/assets/build-kit/solvys-build-kit.pen
+.claude/skills/solvys-build-kit/assets/build-kit/*gallery-review.html
+
+# Private and license-gated registries stay in the neutral local Build Kit.
+.claude/skills/solvys-build-kit/assets/build-kit/installed-libraries/beui-pro/
+.claude/skills/solvys-build-kit/assets/build-kit/installed-libraries/aceternity-ui/
+.claude/skills/solvys-build-kit/assets/build-kit/installed-registries/beui-pro/
+.claude/skills/solvys-build-kit/assets/build-kit/installed-registries/aceternity-ui/
+.claude/skills/solvys-build-kit/assets/build-kit/images/pro.beui.dev/
+.claude/skills/solvys-build-kit/assets/build-kit/images/ui.aceternity.com/
+
+# Local packaged mirrors do not belong in the public skills repository.
+/solvys-build-kit/
+/solvys-build-kit.zip

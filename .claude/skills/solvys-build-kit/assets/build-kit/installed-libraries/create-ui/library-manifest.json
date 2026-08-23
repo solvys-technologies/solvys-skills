@@ -1,5 +1,12 @@
 {
   "accessGatedItemCount": 13,
+  "appBlockRegistry": {
+    "appBlockItemCount": 0,
+    "appBlockNames": [],
+    "excludedWebsiteBlockCount": 0,
+    "excludedWebsiteBlockNames": [],
+    "path": "installed-registries/create-ui/app-blocks.json"
+  },
   "autoUpdate": false,
   "catalogItemCount": 650,
   "catalogUrl": "https://createui.co/r/registry.json",

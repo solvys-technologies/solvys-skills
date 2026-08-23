@@ -7,6 +7,15 @@ description: Run Solvys end-to-end user-journey acceptance testing against inher
 
 In Solvys language, user testing means end-to-end user-journey acceptance testing. The project specification owns the main client objective, full user journey, acceptance criteria, validation gates, authoritative resource map, current progress state, and regression journeys. A sprint or worktree inherits that authority. It cannot invent separate completion criteria.
 
+Follow the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) when
+building test tooling or fixtures: YAGNI, existing repo seam, standard library or
+native platform, already-installed dependency, maintained OSS with lower
+ownership cost, one line, then the minimum custom code. Reuse the inherited
+spec-map contract and the installed validator before writing anything new,
+prefer maintained OSS when a test primitive is genuinely missing, and keep any
+custom test code to the minimum that proves the journey. Never use the ladder to
+skip an inherited journey, regression, or acceptance gate.
+
 ## Required inputs
 
 Before ordinary implementation or testing begins, require four durable files:

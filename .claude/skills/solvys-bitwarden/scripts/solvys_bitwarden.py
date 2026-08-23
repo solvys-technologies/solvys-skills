@@ -53,18 +53,21 @@ def load_policy(path: str) -> dict:
         policy = json.loads(policy_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         fail(f"policy is unreadable: {exc}")
-    if not isinstance(policy, dict) or policy.get("version") not in {1, 2}:
-        fail("policy version must be 1 or 2")
+    if not isinstance(policy, dict) or policy.get("version") not in {1, 2, 3}:
+        fail("policy version must be 1, 2, or 3")
     if not isinstance(policy.get("projectId"), str) or not policy["projectId"]:
         fail("policy projectId is required")
     if policy.get("backend") not in {"bws", "bw"}:
         fail("policy backend must be bws or bw")
     if policy.get("readOnly") is not True:
         fail("policy must be read-only")
-    if policy.get("version") == 2 and policy.get("solvysOverride") is not None and policy.get("backend") != "bw":
-        fail("version 2 solvysOverride requires the official bw backend")
+    if policy.get("version") in {2, 3} and policy.get("solvysOverride") is not None and policy.get("backend") != "bw":
+        fail("solvysOverride requires the official bw backend")
     origins = policy.get("allowedOrigins")
-    if not isinstance(origins, list) or not origins:
+    if origins is None and policy.get("version") == 3:
+        origins = []
+        policy["allowedOrigins"] = origins
+    if not isinstance(origins, list) or (not origins and policy.get("version") != 3):
         fail("policy needs at least one allowed origin")
     for origin in origins:
         if not isinstance(origin, str) or origin != exact_origin(origin):
@@ -94,7 +97,7 @@ def load_policy(path: str) -> dict:
         app_data = selected.get("appDataDir")
         if not isinstance(app_data, str) or not os.path.isabs(os.path.expanduser(app_data)):
             fail("bw appDataDir must be an absolute path")
-        if policy["version"] == 2:
+        if policy["version"] in {2, 3}:
             item_name = selected.get("itemName")
             metadata = policy.get("metadata")
             repository_name = metadata.get("repositoryName") if isinstance(metadata, dict) else None
@@ -116,13 +119,34 @@ def load_policy(path: str) -> dict:
                 if not isinstance(providers, list) or not providers or not all(isinstance(value, str) and value for value in providers):
                     fail("solvysOverride needs at least one provider")
                 origins = override.get("allowedOrigins")
-                if not isinstance(origins, list) or not origins:
+                if origins is None and policy.get("version") == 3:
+                    origins = []
+                    override["allowedOrigins"] = origins
+                if not isinstance(origins, list) or (not origins and policy.get("version") != 3):
                     fail("solvysOverride needs at least one allowed origin")
                 for origin in origins:
                     if not isinstance(origin, str) or origin != exact_origin(origin):
                         fail("solvysOverride origins must be exact https origins")
                 if override.get("trigger") != "primary-resource-absent":
                     fail("solvysOverride trigger must be primary-resource-absent")
+    clipboard = policy.get("clipboard")
+    if clipboard is not None:
+        if policy.get("version") != 3:
+            fail("clipboard retrieval requires a version 3 policy")
+        if policy.get("backend") != "bw":
+            fail("clipboard retrieval requires the official bw backend")
+        if not isinstance(clipboard, dict) or clipboard.get("enabled") is not True:
+            fail("clipboard must be explicitly enabled")
+        ttl = clipboard.get("ttlSeconds")
+        if not isinstance(ttl, int) or not 5 <= ttl <= 120:
+            fail("clipboard ttlSeconds must be an integer from 5 through 120")
+        allowed_credentials = clipboard.get("allowedCredentials")
+        if not isinstance(allowed_credentials, list) or not allowed_credentials:
+            fail("clipboard allowedCredentials is required")
+        if len(set(allowed_credentials)) != len(allowed_credentials) or any(value not in {"primary", "solvys-override"} for value in allowed_credentials):
+            fail("clipboard allowedCredentials must use distinct supported credentials")
+        if "solvys-override" in allowed_credentials and not isinstance(policy.get("solvysOverride"), dict):
+            fail("clipboard solvys-override requires solvysOverride")
     return policy
 
 
@@ -136,6 +160,8 @@ def require_target(policy: dict, target_url: str, credential: str = "primary") -
         if not isinstance(override, dict):
             fail("solvysOverride is not configured for this project")
         origins = override["allowedOrigins"]
+    if not origins:
+        fail("browser retrieval requires at least one allowed origin for this credential")
     if origin not in origins:
         fail(f"target origin is not allowed: {origin}")
     return origin
@@ -255,23 +281,24 @@ def bw_session(policy: dict):
             fcntl.flock(lock_file.fileno(), fcntl.LOCK_UN)
 
 
-def validate_bw_item(item: dict, item_config: dict, target_origin: str) -> dict:
+def validate_bw_item(item: dict, item_config: dict, target_origin: str | None = None) -> dict:
     if not item.get("id") or item.get("id") != item_config["itemId"]:
         fail("Bitwarden item ID does not match policy")
     if item.get("name") != item_config.get("itemName"):
         fail("Bitwarden item name does not match policy")
     login = item.get("login") or {}
-    uris = login.get("uris") or []
     matching_url = None
-    for uri in uris:
-        candidate = uri.get("uri") if isinstance(uri, dict) else None
-        if isinstance(candidate, str):
-            with contextlib.suppress(PolicyError, ValueError):
-                if exact_origin(candidate) == target_origin:
-                    matching_url = candidate
-                    break
-    if matching_url is None:
-        fail("Bitwarden item has no URI matching the target origin")
+    if target_origin is not None:
+        uris = login.get("uris") or []
+        for uri in uris:
+            candidate = uri.get("uri") if isinstance(uri, dict) else None
+            if isinstance(candidate, str):
+                with contextlib.suppress(PolicyError, ValueError):
+                    if exact_origin(candidate) == target_origin:
+                        matching_url = candidate
+                        break
+        if matching_url is None:
+            fail("Bitwarden item has no URI matching the target origin")
     username = login.get("username")
     password = login.get("password")
     if not isinstance(username, str) or not isinstance(password, str) or not password:
@@ -322,6 +349,47 @@ def bw_options(policy: dict, target_origin: str, credential: str = "primary") ->
     return notes
 
 
+def clipboard_password(policy: dict, credential: str) -> tuple[str, int]:
+    clipboard = policy.get("clipboard")
+    if not isinstance(clipboard, dict) or clipboard.get("enabled") is not True:
+        fail("clipboard retrieval is not enabled by this policy")
+    if credential not in clipboard.get("allowedCredentials", []):
+        fail("clipboard retrieval is not allowed for this credential")
+    item_config = credential_config(policy, credential)
+    with bw_session(policy) as (env, session):
+        item = json_command([
+            "bw", "get", "item", item_config["itemId"], "--session", session,
+            "--nointeraction",
+        ], env=env)
+    login = validate_bw_item(item, item_config)
+    return login["password"], clipboard["ttlSeconds"]
+
+
+def copy_password_to_clipboard(password: str, ttl_seconds: int) -> None:
+    if sys.platform != "darwin" or not command_exists("pbcopy") or not command_exists("pbpaste"):
+        fail("clipboard retrieval requires macOS pbcopy and pbpaste")
+    try:
+        subprocess.run(["pbcopy"], input=password, text=True, check=True, capture_output=True, timeout=5)
+    except (FileNotFoundError, subprocess.TimeoutExpired, subprocess.CalledProcessError):
+        fail("could not copy the credential to the clipboard")
+    digest = __import__("hashlib").sha256(password.encode("utf-8")).hexdigest()
+    clear_script = (
+        "import hashlib, subprocess, sys, time; "
+        "time.sleep(int(sys.argv[1])); "
+        "current=subprocess.run(['pbpaste'],capture_output=True,text=True,check=False).stdout; "
+        "expected=sys.argv[2]; "
+        "subprocess.run(['pbcopy'],input='',text=True,check=False) "
+        "if hashlib.sha256(current.encode('utf-8')).hexdigest()==expected else None"
+    )
+    subprocess.Popen(
+        [sys.executable, "-c", clear_script, str(ttl_seconds), digest],
+        stdin=subprocess.DEVNULL,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+        start_new_session=True,
+    )
+
+
 def resolve_login(policy: dict, target_url: str, credential: str = "primary") -> dict:
     target_origin = require_target(policy, target_url, credential)
     if policy["backend"] == "bw":
@@ -343,6 +411,7 @@ def status(policy: dict) -> dict:
         "backend": policy["backend"],
         "readOnly": policy["readOnly"],
         "allowedOrigins": policy["allowedOrigins"],
+        "clipboardEnabled": bool(policy.get("clipboard", {}).get("enabled")) if isinstance(policy.get("clipboard"), dict) else False,
         "policySecretValues": False,
         "toolAvailable": command_exists(policy["backend"]),
         "accessTokenPresent": bool(os.environ.get(selected.get("accessTokenEnv", ""))) if policy["backend"] == "bws" else None,
@@ -363,6 +432,9 @@ def parse_args() -> argparse.Namespace:
         command_parser.add_argument("--target-url", required=True)
         command_parser.add_argument("--credential", choices=("primary", "solvys-override"), default="primary")
         command_parser.add_argument("--options-reviewed", action="store_true")
+    command_parser = sub.add_parser("copy-password")
+    command_parser.add_argument("--credential", choices=("primary", "solvys-override"), default="primary")
+    command_parser.add_argument("--options-reviewed", action="store_true")
     return parser.parse_args()
 
 
@@ -380,8 +452,16 @@ def main() -> int:
             fail("Additional Options retrieval requires an official bw login item")
         print(bw_options(policy, target_origin, args.credential))
         return 0
-    if policy["version"] == 2 and not args.options_reviewed:
+    if policy["version"] in {2, 3} and args.command != "status" and not args.options_reviewed:
         fail("read Additional Options first, then use --options-reviewed")
+    if args.command == "copy-password":
+        password, ttl_seconds = clipboard_password(policy, args.credential)
+        try:
+            copy_password_to_clipboard(password, ttl_seconds)
+        finally:
+            password = ""
+        print(json.dumps({"clipboard": "set", "expiresInSeconds": ttl_seconds}, sort_keys=True))
+        return 0
     if args.command == "get-totp":
         target_origin = require_target(policy, args.target_url, args.credential)
         if policy["backend"] != "bw":

@@ -7,6 +7,17 @@ description: Load the approved Solvys React assembly kit, component contracts, s
 
 Load reusable source assemblies without turning the kit into a product identity. The kit owns accessible interaction shells, record shapes, chart contracts, and the canonical Pen.dev library file. The project owns data, permissions, routes, copy, palette, typography, provider state, and acceptance.
 
+The Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) is mandatory before loading custom UI: YAGNI (does this need to exist), existing repo seam, stdlib/native platform, installed dependency, maintained OSS with lower ownership cost, one line, then the minimum custom code. Does the project already own it, does an approved library in the hierarchy cover it, does the installed kit already provide it? Only then a recorded no-fit custom block. Prefer the approved library block before any hand-rolled component.
+
+## Solvys-wide UI assembly policy
+
+- Use the approved Build Kit for generic interface components. Do not freestyle, redraw, or hand-roll a component when an eligible installed block exists.
+- A custom component requires TP's explicit approval after a written no-fit record names the searched libraries, reason, owner, protected zones, and maintenance cost.
+- Start every Solvys product from the four canonical palette pairs in `factory/canon/solvys-palette-themes.md`. Default to **Forest Chartreuse** (Sunlit Chartreuse + Deep Forest Green). Light themes use nardo-grey bases; dark themes use `#1f1f1f` / `#5C5858` on black.
+- Settings must expose palette cycling by default. TP may approve product-specific palette exceptions; agents do not invent new default palettes.
+- The canonical full local kit is `/Users/Shared/Solvys/build-kit`. The installed skill roots resolve this skill from the shared `solvys-skills` source.
+- Public Git records may carry policy, provenance, inventories, hashes, and redistributable source. Keep private or restricted registry source in local custody unless the active license expressly permits the target repository and audience.
+
 ## Load sequence
 
 1. Read the project `WELCOME.md`, active Interface Inventory, accepted PL0 record, `Design.md`, and current component source.
@@ -74,6 +85,7 @@ Read [component-catalog.md](references/component-catalog.md) before selecting a 
 - Do not persist a private Paste credential. The scheduled job reads public default catalog URLs and the configured private catalog secret; it records `awaiting-source` when the private bridge is absent.
 - Do not call a dry load, copied source, local preview, or passing typecheck accepted UI proof.
 - A no-fit exception must name the searched source, reason, owner, maintenance cost, protected zones, and proof gate.
+- A no-fit record does not authorize custom UI by itself. TP must approve the exception before implementation.
 
 ## Validation
 

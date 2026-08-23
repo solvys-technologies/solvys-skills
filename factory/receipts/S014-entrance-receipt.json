@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "projectId": "solvys-factory",
+  "threadId": "019feef7-049b-7c60-bb7f-d12c547f7075",
+  "enteredAt": "2026-08-11T04:13:20Z",
+  "lane": "CAO",
+  "welcomeMatRead": true,
+  "welcomeMatSubstitution": [
+    "AGENTS.md",
+    "README.md",
+    "factory/Factory Registry/Templates/WELCOME.md"
+  ],
+  "signRead": true,
+  "repository": "solvys-technologies/solvys-skills",
+  "baseRef": "2026-08-09",
+  "sha": "fda95efca102878265d551ed22e292d7a62df6e7",
+  "localPath": "/Users/tifos/Documents/Solvys/Codebase Cabinet/solvys-skills",
+  "cloudEnvironment": "local-control exception for a bounded shared-skill repair",
+  "sshRoute": "not applicable",
+  "providerEnvironment": "not applicable",
+  "dirtyState": "pre-existing Build Kit, Pen.dev, Design, prompt, and skill changes are present",
+  "dirtyStateOwner": "TP owns all pre-existing changes; S014 owns only files listed in its Development Contract",
+  "protectedZones": [
+    ".claude/skills/solvys-build-kit/assets/build-kit",
+    ".claude/skills/solvys-pta",
+    ".claude/skills/solvys-visual-exact-copy",
+    "all unrelated dirty paths and untracked screenshots"
+  ],
+  "capacity": {
+    "availableKiB": 18361428,
+    "state": "red",
+    "admission": "bounded text and dependency-free Python only; no checkout, dependency install, server, preview, or build cache"
+  },
+  "requiredProofRung": "tests",
+  "infractionLedger": {
+    "path": "/Users/tifos/.config/solvys-factory/projects/solvys-factory/infraction-ledger.json",
+    "openCount": 0,
+    "highestSeverity": null,
+    "deathLoopCount": 0
+  },
+  "developmentContract": {
+    "path": "factory/specifications/S014-spec-driven-dev-practice-repair.md",
+    "maturity": "spec-anchored",
+    "revision": 3,
+    "status": "approved",
+    "validatedAt": "2026-08-11T04:31:11Z",
+    "validatorReceipt": "valid=true; acceptanceScenarioCount=5; taskCount=6",
+    "implementationAuthorized": true
+  },
+  "operationsAuthorized": true
+}

@@ -13,6 +13,15 @@ Treat sign-in as a state machine with a known finish. The first login screen is
 an action prompt, not a blocker. Follow the authorized chain, prove the final
 account and target, and keep secrets out of chat, files, receipts, and logs.
 
+Run the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) before
+reaching for a credential or automation path: YAGNI (does this new path need to
+exist), existing repo seam, standard library or native platform, already-installed
+dependency, maintained OSS with lower ownership cost, one line, then the minimum
+custom code. Does an existing credential lane or installed tool already solve it,
+does the platform or vendor SDK cover it? Only then the minimum new code. Never
+use the ladder to skip MFA, consent, scoped-credential, or least-privilege
+requirements.
+
 Sign-in has two separate lanes:
 
 - **Interactive bootstrap:** regular Chrome on an awake, unlocked control
@@ -32,12 +41,17 @@ Before opening a login or OAuth URL:
 
 1. Inspect the exact target surface, visible account, browser profile, and
    provider state.
-2. If the authorized account is already signed in on the exact target tab,
+2. Treat the existing browser session as the first credential surface. When the
+   provider offers a valid Continue, remembered account, account-selection,
+   passkey, or authenticator path, use that path before any vault lookup or
+   password attempt. Retrieve a project-scoped Bitwarden credential only when a
+   real credential prompt remains or that supported continuation fails.
+3. If the authorized account is already signed in on the exact target tab,
    reuse it. Do not open a new OAuth callback, Google account selector, QR flow,
    relink, or duplicate provider session.
-3. Invoke this skill only when the target redirects to sign-in, the session has
+4. Invoke this skill only when the target redirects to sign-in, the session has
    expired, the visible identity is wrong, or the requested scope is missing.
-4. Treat a preserved authenticated provider tab as usable proof for the next
+5. Treat a preserved authenticated provider tab as usable proof for the next
    task action. Do not turn provider work into a new login task.
 
 An already-authenticated WhatsApp Web tab is a provider session. Reuse the
@@ -110,6 +124,13 @@ Before a task depends on a password-backed web login, check for an API, CLI,
 service account, OAuth refresh token, OIDC federation, or provider secret path.
 Prefer that path for work that must continue while the Mac is locked.
 
+When the project manifest or receipt names Bitwarden, load `$solvys-bitwarden`
+before retrieving a credential. Prefer its read-only Bitwarden Secrets Manager
+machine-account path. Use its official `bw` fallback only with the project
+policy, project-isolated app data, and project-specific Keychain reference.
+Never route a worker through a global Keychain item or a human browser password
+when the scoped machine path exists.
+
 1. Bootstrap the credential once through the authorized interactive lane.
 2. Store the resulting credential in the project's approved machine store or
    provider environment. Paste remains the source reference; it is not the
@@ -133,6 +154,9 @@ When the Mac is locked:
 
 - Continue Cloud, CI, API, deployment, test, and receipt work through the
   machine credential lane.
+- Use a project-scoped Bitwarden Secrets Manager token when the project policy
+  provides one. The token name and scope belong in the receipt. The token value
+  stays in the task environment.
 - Do not launch a new Google web login, ask for a browser MFA prompt, or claim a
   password blocker from a headless session.
 - If only a web UI exists, mark the task `human-gate: interactive browser
@@ -165,6 +189,36 @@ When the Mac is locked:
   screenshot before any mutation. Preserve human-owned frames and accepted
   baselines.
 
+### Pen.dev
+
+- Pen.dev is the primary editable design surface. Start its desktop application
+  or CLI before trying a fallback design surface. Its local MCP server starts
+  with the application and exposes the open `.pen` document to the agent.
+- Use this connection order for collaborative frontend work:
+  1. Desktop application with its local MCP server on the same `.pen` file. This
+     is the live shared-canvas path for a human and Luna Max.
+  2. CLI interactive app mode connected to the running desktop application.
+     This keeps the agent and canvas in one live document when direct MCP
+     attachment is unavailable.
+  3. CLI headless mode on a repository-owned `.pen` file. Use it for repeatable
+     file edits, exports, and non-live review.
+  4. Project-scoped CLI key in a Cloud or CI credential store. Use it for
+     unattended automation after its scope and organization are verified.
+  5. Wonder only after the Pen.dev chain is attempted and recorded. Preserve
+     the existing Wonder source and any human-owned frames.
+- Reuse an authenticated Pen.dev desktop or CLI session when it owns the target
+  document. Otherwise, open Paste, search the exact project name, and use the
+  password stored in the same project folder and credential path used for
+  Wonder. Record the item reference only. Never copy its value into chat,
+  prompts, source, shell history, or receipts.
+- Prefer a project-scoped CLI key for Cloud or CI work. Store the key in the
+  approved machine credential store, record its name and scope only, and use
+  the interactive login route only to bootstrap or renew that key.
+- Verify the authenticated organization and target `.pen` file with the CLI or
+  desktop readback before editing. Keep one active editor/MCP connection per
+  document, preserve accepted source baselines, and use Wonder only after the
+  Pen.dev connection chain has been attempted and recorded.
+
 ### GitHub
 
 - Use the stored GitHub CLI credential and confirm `gh api user --jq .login`
@@ -193,8 +247,9 @@ When the Mac is locked:
   readback when available.
 - Keep provider credentials in Paste or the approved credential store. Record
   names and references only.
-- Use the project ChatGPT Site for frontend runtime proof. Use Wonder for
-  proposals and diffs. Do not substitute a local preview for live proof.
+- Use the project ChatGPT Site for frontend runtime proof. Use Pen.dev for
+  proposals and diffs, with Wonder as the fallback. Do not substitute a local
+  preview for live proof.
 
 ## Loop breakers
 

@@ -1,14 +1,20 @@
 ---
-name: solvys-prototype
-description: Create a runnable Solvys frontend prototype only from a validated and user-accepted Interface Inventory and PL0 contract. Use when the user asks to prototype, recreate, or build an Alpha surface from a benchmark report, approved component inventory, or finalized design system.
+name: solvys-pta
+description: Prototype-to-alpha implementation from a validated Interface Inventory and accepted PL0 contract, with approved-library assembly, ChatGPT Site hosting, exact-copy parity receipts, and fail-closed source, Site, browser, and human-review gates. Use when the user asks to prototype, recreate, or build an Alpha surface from a benchmark report, approved component inventory, finalized design system, or Wonder-to-Site transfer.
 ---
 
-# Solvys Prototype: PL0-locked implementation
+# Solvys PTA: PL0-locked prototype-to-alpha implementation
 
 ## Contract
 
 The prototype consumes a finalized Interface Inventory. It does not invent a
 design system while scaffolding a screen.
+
+Follow the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) when
+assembling the Alpha: YAGNI, existing repo seam, standard library or native
+platform, already-installed dependency, maintained OSS with lower ownership
+cost, one line, then the minimum custom code. Assemble from accepted approved
+blocks before creating a custom component.
 
 The objective is: deliver a runnable Alpha prototype that matches the accepted
 PL0 contract for every token, component anatomy, variant, state, responsive
@@ -60,6 +66,35 @@ decision. Do not scaffold a partial prototype as a workaround.
    proof.
 5. Freeze the accepted report revision. A later report revision blocks this
    prototype until the user accepts the new PL0 record.
+
+## Evidence-rung discipline
+
+Keep each receipt separate: authenticated Wonder source readback, Kirby
+inventory and PL0, repository source and build, Site source push, saved Site
+version, deployment, browser runtime, and human review.
+
+A saved or successful private deployment proves packaging and hosting only. It
+does not prove visual parity or runtime behavior. If the Wonder connector is
+missing or its refresh is invalid, the Site is owner-gated, or a browser view
+cannot be reached, mark that rung `BLOCKED`. Use `MATCHED` only after same-
+viewport route and state captures show no visible deviation. Otherwise use
+`DIVERGED` or `BLOCKED`; never widen access, mutate the benchmark, or add a
+guessed state to bypass the gate.
+
+Preserve old candidates and human-owned source frames. Use a machine-readable
+source manifest with exact copy, geometry, tokens, shadows, component
+ownership, and capture IDs. Unmeasured behavior stays in the blocker ledger
+until Wonder evidence or an explicit PL0 contract exists.
+
+Run the actual ChatGPT Sites isolated build after saving or publishing. If it
+catches stale starter configuration or packaging drift, repair the source,
+push a new exact commit, save a new version, and redeploy before review.
+
+Retrieve approved private-library credentials from the UI Libraries Paste
+location when a mapped block requires them. Never print, commit, or place a
+raw credential in a report. If the credential or private source is unavailable,
+keep that block blocked and use the public approved fallback only when PL0
+allows it, with the ownership and proof gap recorded.
 
 ## PL0 fidelity rules
 

@@ -87,6 +87,12 @@ def main() -> int:
                     "count": int(entry.get("count", 0)),
                     "status": status,
                     "deathLoop": bool(entry.get("deathLoop", False)),
+                    "stopRequired": bool(entry.get("stopRequired", False)),
+                    "repairVerified": bool(entry.get("repairVerified", False)),
+                    "triggerKinds": list(entry.get("triggerKinds", [])),
+                    "failedContracts": list(entry.get("failedContracts", [])),
+                    "rootCauses": list(entry.get("rootCauses", [])),
+                    "preventionTests": list(entry.get("preventionTests", [])),
                     "owner": entry.get("owner"),
                     "nextAction": entry.get("nextAction"),
                     "lastSeenAt": entry.get("lastSeenAt"),
@@ -95,7 +101,9 @@ def main() -> int:
 
     repairs.sort(
         key=lambda item: (
+            not item["stopRequired"],
             not item["deathLoop"],
+            item["repairVerified"],
             -SEVERITY_RANK.get(item["severity"], 0),
             -item["count"],
             item["lastSeenAt"] or "",

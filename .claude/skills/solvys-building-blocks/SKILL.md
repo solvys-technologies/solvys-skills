@@ -33,6 +33,25 @@ Custom invention is warranted when no approved block fits, the product's
 differentiator requires it, licensing or security blocks adoption, or integration
 cost exceeds ownership cost. State that reason before building from scratch.
 
+## Solvys Ponytail Ladder And Pragmatic OSS-First
+
+At every build, implementation, architecture, dependency, or fork-in-the-road
+decision, run the Solvys Ponytail Ladder from `factory/canon/ponytail-ladder.md`
+in order: YAGNI, existing repo seam, stdlib/native platform, installed dependency,
+maintained OSS with lower ownership cost, one line, then the minimum custom
+code.
+
+Be a pragmatic OSS-first engineer, not a write-everything-from-scratch
+engineer. The default preference for generic capabilities -- backend
+primitives, protocols, workflow engines, parsers, queues, observability,
+auth, state, and UI foundations -- is maintained OSS, adopted when its license,
+maintenance, security, runtime fit, and integration cost beat owning custom
+code. Rejecting OSS requires a recorded reason (licensing, security,
+integration cost, product differentiation) and an exit path, the same evidence
+a custom exception requires. When the ladder reaches the last rung, write the
+minimum custom code that works and mark a real corner cut with a `ponytail:`
+comment naming the ceiling and upgrade path.
+
 ## Cross-Device Operating Context
 
 The executive-management and development Codex accounts are peer lanes sharing
@@ -51,8 +70,10 @@ For prototype and frontend design work, each project owns a ChatGPT Site. The
 Site URL in the Codex in-app browser is the implementation-test and review
 surface. When human review is needed, create a Site-derived local HTML artifact
 and open it with `human-review` automatically; apply the returned edits to
-source and refresh the Site. Wonder owns new frontend proposals and their diffs
-before Site deployment. Existing Builder and Plasmic artifacts remain protected
+source and refresh the Site. Pen.dev owns new frontend proposals and their diffs
+before Site deployment through its desktop app, CLI, and local MCP connection.
+Wonder is the fallback after a recorded Pen.dev connection attempt. Existing
+Builder and Plasmic artifacts remain protected
 legacy inputs unless TP explicitly selects a source transfer.
 The Site prototype must be a 1:1 runnable representation of the accepted source
 or product specification at the requested scope. Match copy, geometry, data

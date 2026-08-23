@@ -53,10 +53,12 @@ operations, and exit costs before adoption.
 ## Selection Rules
 
 1. Reuse repo-owned primitives and installed dependencies first.
-2. Use one owner per concern and document protected zones.
-3. For copied-source libraries, record source URL, revision/checksum, local path, license, theme adapter, motion adapter, allowed surfaces, and last review date.
-4. Put a representative gallery and rendered acceptance gate before any broad migration.
-5. A UI library owns presentation only; product state, domain semantics, cadence, security, and persistence stay with the product contract.
+2. Follow the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`): YAGNI, repo reuse, stdlib/native, installed dependency, maintained OSS, one line, then minimum custom code.
+3. Be pragmatic OSS-first for generic capabilities. Prefer maintained OSS when license, maintenance, security, runtime fit, and integration cost beat owning custom code. Rejecting OSS requires a recorded reason and exit path.
+4. Use one owner per concern and document protected zones.
+5. For copied-source libraries, record source URL, revision/checksum, local path, license, theme adapter, motion adapter, allowed surfaces, and last review date.
+6. Put a representative gallery and rendered acceptance gate before any broad migration.
+7. A UI library owns presentation only; product state, domain semantics, cadence, security, and persistence stay with the product contract.
 
 ## Foundations
 

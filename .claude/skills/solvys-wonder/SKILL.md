@@ -1,14 +1,33 @@
 ---
 name: solvys-wonder
-description: Recover authorized Wonder access, inspect live Wonder files, protect human-owned work, and prepare an evidence-backed Wonder-to-ChatGPT-Site transfer. Use when a task names Wonder, a Wonder file or page, a live canvas inventory, a Wonder OAuth issue, or a faithful Site transfer.
+description: Recover authorized Wonder access, inspect live Wonder files, protect human-owned work, import direct source-capture application frames or approved UI libraries, and prepare an evidence-backed Wonder-to-ChatGPT-Site transfer. Use when a task names Wonder, a Wonder file or page, a built application to canvas, a live canvas inventory, a Wonder OAuth issue, a Build Kit import, or a faithful Site transfer.
 ---
 
 # Solvys Wonder
 
-Wonder is the proposal and visual-diff authority for new frontend work. The
-project ChatGPT Site is the runnable review and acceptance surface. Repository
-source is the implementation authority; provider consoles and CLIs own provider
-truth; Linear owns issue truth. A Wonder canvas does not prove runtime behavior.
+Follow the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) when
+importing source or building a transfer: YAGNI, existing repo seam, standard
+library or native platform, already-installed dependency, maintained OSS with
+lower ownership cost, one line, then the minimum custom code. Import the
+approved library or existing canvas before creating custom elements.
+
+## Invocation and agent-owned reauthentication
+
+Treat every explicit `@wonder` plugin mention as an instruction to invoke this
+skill before any other Wonder work. Start with native connector readback. If it
+reports an expired, stale, or invalid refresh token, the agent owns one
+authorized re-entry attempt in the approved browser lane. The attempt must
+actively open Wonder, select the provider sign-in or reconnect action, and
+trigger the provider approval prompt. Opening a Wonder URL alone does not count
+as reauthentication. Do not ask the user to renew an MCP token or to provide a
+token value. Keep the user involved only when the provider requires a live
+approval, such as a Google Prompt, MFA, or a CAPTCHA. Verify the connector
+readback after the browser flow before any canvas mutation.
+
+Wonder is the protected human-editable frontend source of truth. The project
+ChatGPT Site is the runnable review and acceptance surface. Repository source
+is the implementation authority; provider consoles and CLIs own provider truth;
+Linear owns issue truth. A Wonder canvas does not prove runtime behavior.
 Never use a stale screenshot, local mockup, code export, or guessed canvas state
 as live Wonder evidence.
 
@@ -172,11 +191,233 @@ content. A mismatch is `DIVERGED`; an owner-gated or unreachable Site is
 `BLOCKED`. Neither state can be reported as a matched candidate or used as
 runtime proof.
 
+### Three-way production, Site, and Wonder parity
+
+**Visual exact copy** is the required acceptance standard. This phrase means
+that the production renderer, the ChatGPT Site renderer, and the Wonder canvas
+render the same approved source revision without any visible pixel deviation.
+
+For a production-surface copy, the repository production revision is the
+starting authority. The ChatGPT Site and Wonder canvas must each reproduce that
+same revision at the same route, viewport, user-visible state, feature flags,
+theme, locale, and data fixture or frozen live-data capture. Do not accept
+token-only alignment, a visual approximation, a stale screenshot, or a
+different deployment revision as parity evidence.
+
+Before a screen or state is accepted, create one parity receipt that records:
+
+1. the production repository commit and source entry files;
+2. the deployed Site version and runtime configuration reference;
+3. the Wonder file, branch, page, and artboard;
+4. matched desktop or mobile viewport dimensions and route/state inputs;
+5. rendered captures from production, the Site, and Wonder; and
+6. a three-way visual-diff result for geometry, typography, colors, assets,
+   copy, hierarchy, controls, loading/empty/error state, and visible data.
+
+Use `MATCHED` only when all three surfaces come from the same source revision
+and the diff contains no visible deviation. Any differing commit, asset,
+viewport, state, or visible pixel is `DIVERGED`. Missing production capture,
+unavailable Site, unresolved live-data variance, or inaccessible Wonder canvas
+is `BLOCKED`. A `DIVERGED` or `BLOCKED` state prevents publication and must be
+fixed or explicitly resolved before the next screen is accepted.
+
+When production has live or time-varying data, capture and reproduce a named
+state contract rather than inventing a static substitute. The receipt must name
+the loading, empty, error, stale, or populated state and the exact source
+revision that rendered it. Wonder components must retain provenance to their
+repository source entry and commit so a later source change can trigger a new
+parity pass.
+
+### Three-way production, Site, and Wonder parity
+
+**Visual exact copy** is the required acceptance standard. This phrase means
+that the production renderer, the ChatGPT Site renderer, and the Wonder canvas
+render the same approved source revision without any visible pixel deviation.
+
+For a production-surface copy, the repository production revision is the
+starting authority. The ChatGPT Site and Wonder canvas must each reproduce that
+same revision at the same route, viewport, user-visible state, feature flags,
+theme, locale, and data fixture or frozen live-data capture. Do not accept
+token-only alignment, a visual approximation, a stale screenshot, or a
+different deployment revision as parity evidence.
+
+Before a screen or state is accepted, create one parity receipt that records:
+
+1. the production repository commit and source entry files;
+2. the deployed Site version and runtime configuration reference;
+3. the Wonder file, branch, page, and artboard;
+4. matched desktop or mobile viewport dimensions and route/state inputs;
+5. rendered captures from production, the Site, and Wonder; and
+6. a three-way visual-diff result for geometry, typography, colors, assets,
+   copy, hierarchy, controls, loading/empty/error state, and visible data.
+
+Use `MATCHED` only when all three surfaces come from the same source revision
+and the diff contains no visible deviation. Any differing commit, asset,
+viewport, state, or visible pixel is `DIVERGED`. Missing production capture,
+unavailable Site, unresolved live-data variance, or inaccessible Wonder canvas
+is `BLOCKED`. A `DIVERGED` or `BLOCKED` state prevents publication and must be
+fixed or explicitly resolved before the next screen is accepted.
+
+When production has live or time-varying data, capture and reproduce a named
+state contract rather than inventing a static substitute. The receipt must name
+the loading, empty, error, stale, or populated state and the exact source
+revision that rendered it. Wonder components must retain provenance to their
+repository source entry and commit so a later source change can trigger a new
+parity pass.
+
 An explicitly authorized new Site may be created as a private candidate, but it
 must keep the existing Site intact, carry a candidate label, and remain outside
 acceptance until the comparison receipt says `MATCHED`. Never delete or replace
 the current Site to escape a fidelity mismatch. Return the exact mismatch list
 and the next proof gate instead of polishing around it.
+
+## Apply proven Wonder import constraints
+
+When translating a populated application into editable Wonder artboards:
+
+1. Use flex, nested flex rows, and flex wrapping. Wonder IR rejects CSS Grid.
+2. Keep every `className` value literal. Create explicit state siblings or
+   duplicate a verified artboard, then change its properties. Do not use dynamic
+   or computed class expressions.
+3. Read back variable bindings after duplication. Some duplicate and read
+   surfaces can materialize computed token values as literals. Rebind any lost
+   token reference before acceptance.
+4. Keep inline text in the edit payload when editing a text node. A self-closing
+   text element can be interpreted as a frame conversion and fail.
+5. Use a self-closing frame edit to preserve its children. Use `replace` only
+   for an intentional atomic subtree rewrite because replacement removes the
+   existing subtree.
+6. Give important overlay text an explicit verified color, then inspect the
+   rendered result. Newly created overlay nodes can fall back to black even when
+   their parent carries a text color.
+
+For a large route-and-state library, build from visually verified base screens.
+Arrange the new artboards in a labeled grid beside the protected baseline, keep
+source and commit provenance on every base, and verify screenshots in small
+groups. Call `finish_artboard` once for every created or changed artboard. Call
+`finish_session` once, after every artboard is complete, and make it the final
+Wonder tool call for that session.
+
+## Direct-source capture artboards for a complete built frontend
+
+### Invocation policy
+
+Use this track when TP asks to put a built, deployed, preview, or authenticated
+application into Wonder as complete visual frames. Trigger it for phrases such
+as `live shots`, `all screens`, `all tabs and states`, `entire frontend on the
+canvas`, `1:1 app frames`, `one state per frame`, or `source-faithful screen
+library`.
+
+Use this track when the requested truth is the rendered application at an exact
+route, state, and viewport. Use the native library track below whenever the
+same request also needs reusable semantic controls or editable component trees.
+One task can use both tracks. Keep the resulting regions separate.
+
+A direct-source capture artboard is an editable Wonder frame that preserves one
+literal application viewport. Wonder can edit the artboard, its placement,
+label, provenance, and capture asset. A bitmap does not expose the application's
+individual controls as native canvas nodes. Record that boundary clearly. Do
+not describe a direct-capture frame as a semantic component tree.
+
+### Procedure
+
+1. Freeze a capture manifest before the first canvas mutation. Every row must
+   contain a stable ID, product, source URL or capture path, route, visible
+   state, viewport, measured width and height, source revision, capture time,
+   source kind, and owner. Record explicit exclusions and protected artboards.
+2. Capture the rendered source in the authorized browser or use a previously
+   authenticated, provenance-complete viewport capture. Preserve the actual
+   application pixels. Do not rebuild the view from memory, draw a similar
+   interface, add browser chrome, or substitute fixtures.
+3. Reject a partial or cropped source image. A source file that ends before the
+   intended viewport must not be stretched, extended, or treated as a complete
+   screen. Recapture the full viewport when the state is reachable. Otherwise,
+   record the state as unavailable.
+4. Create exactly one artboard for each route, tab, overlay, drawer, sidebar
+   state, responsive viewport, or transient state. Do not combine sibling tabs
+   or states into a composite frame. Put the state in the artboard label and
+   its manifest row.
+5. Set the artboard root to the source image's exact measured pixel width and
+   height. Put the original image in a same-size image node with contain,
+   no-repeat, and centered rendering. Never use cover, a crop, a fixed shorter
+   root, or a decorative device frame. This preserves terminal rails, status
+   rails, bottom navigation, and every other visible bottom-edge surface.
+6. Arrange the artboards in an isolated named region and preserve protected
+   human-owned artboards. Use the manifest order for deterministic placement.
+   Keep adjacent frames separated and prove that no artboards overlap.
+7. Measure the current canvas batch limit with a calibration batch. Record the
+   submitted count, successful count, and error for every batch. The verified
+   Fintheon application-frame recovery limit was five frames per canvas batch.
+   Treat that as a safe default until a new measurement proves a different cap.
+8. Finish each completed artboard. Verify representative desktop, mobile, and
+   tablet frames visually. Read back the artboard code for representative
+   frames and confirm that the root and image dimensions equal the source
+   dimensions. Call `finish_session` only after the whole import passes.
+
+### Acceptance record
+
+The final receipt must show the manifest count equals the canvas artboard count,
+the dimensions histogram matches, the overlap count is zero, and each exclusion
+was authorized. Include representative full-bottom captures, protected-artboard
+readback, source revision or source-kind provenance, completed batch count, and
+the exact maximum batch size. Keep direct-capture proof separate from runtime
+acceptance. A current production, Site, and Wonder parity claim still requires
+the three-way parity receipt above.
+
+## Native Build Kit component-library import
+
+### Invocation policy
+
+Use this track when TP asks to import approved UI libraries, the Solvys Build
+Kit, BeUI, Beautiful UI, Bklit, Evil Charts, or a reusable component gallery
+into Wonder. Also invoke `$solvys-build-kit`. Use this track for native editable
+component trees that future canvas screens can compose.
+
+Do not use direct screenshots as the final library items. A library import must
+preserve the source component's anatomy, accessibility affordances, and visible
+states as native Wonder layers. Keep library artboards separate from product direct
+captures, existing reference atlases, and protected product design regions.
+
+### Procedure
+
+1. Confirm repository-visible source custody. A device-local symlink cannot
+   supply a remote Wonder agent. Read `build-kit/WONDER-IMPORT.md`,
+   `manifest.json`, the library index, the item's manifest, source files, and
+   license or custody record. Record exact source path, revision, license,
+   registry type, and source-ready status.
+2. Use only eligible app-building items. Exclude website sections, marketing
+   assemblies, binary media, fonts, dependency folders, and access-gated source
+   that lacks distribution authority. Record every skipped item with its exact
+   path and reason in an import-exceptions record.
+3. Make a deterministic import manifest before creating components. Each row
+   contains library, item ID, source path, default state, required variants,
+   source revision, license, target region, and import status. Count eligible,
+   source-ready, access-gated, imported, skipped, and failed items separately.
+4. Create one native Wonder artboard per approved source item and one distinct
+   artboard for each meaningful visible variant. Preserve source tokens, fonts,
+   hierarchy, interaction anatomy, and accessibility affordances. Bind product
+   data, routes, permissions, persistence, and domain semantics only in the
+   product source. A library never owns those contracts.
+5. Import library-by-library in small measured batches. Start with a calibration
+   item, then retain the largest successful canvas batch size in the receipt.
+   Continue through the whole authorized inventory. A failed item does not stop
+   unrelated eligible items. Record its exact source path, error, and retry
+   result instead of inventing a replacement.
+6. Place the imported artboards in a named Build Kit region beside protected
+   reference artboards. Preserve every user-owned region. Read back each
+   representative native component tree, verify its source provenance and
+   variables, and take representative rendered captures before completion.
+7. Finish every changed library artboard. End the session only after the import
+   ledger, exceptions record, visible canvas count, and source inventory count
+   agree.
+
+### Acceptance record
+
+The receipt must identify the repository, branch, commit, Build Kit manifest,
+libraries, licenses, item counts, batch cap, exception rows, protected regions,
+and finished-artboard count. It must state that the library items are native
+editable component trees. Keep that receipt separate from a direct-source
+application-frame receipt and from production or Site runtime proof.
 
 ## Transfer accepted source to ChatGPT Site
 
@@ -196,7 +437,7 @@ to an inventory or proposal. Before a transfer:
 4. Keep provider calls, permissions, routing, persistence, security, and domain
    semantics in the project source. Do not invent provider success, legal
    workflow meaning, fixtures, or BeUI Pro credentials or ownership.
-5. Hand the accepted source map to `solvys-prototype` for Site implementation.
+5. Hand the accepted source map to `solvys-pta` for Site implementation.
    Use `human-review` for the Site-derived review artifact, apply returned user
    edits to the real source, republish, and recheck the actual Site URL.
 6. Exercise every visible control at the required desktop and mobile viewports.

@@ -15,7 +15,7 @@ export function TanStackChartPanel({
   title = "Chart",
   description,
   ariaLabel,
-  accent = "var(--solvys-kit-accent, #c79f4a)",
+  accent = "var(--solvys-kit-accent, #DCD870)",
   height = 280,
   emptyMessage = "No data is available for this view.",
   errorMessage = "This chart could not load.",

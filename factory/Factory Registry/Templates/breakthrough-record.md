@@ -1,6 +1,6 @@
 # Breakthrough record
 
-- Trigger: `Update the C-Cab with that Breakthrough`
+- Trigger: explicit TP directive / direct positive TP feedback / confirmed `main` merge
 - Date:
 - Project:
 - Sprint:

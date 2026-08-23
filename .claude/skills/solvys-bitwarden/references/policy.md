@@ -8,11 +8,16 @@ Commit only the example shape and non-secret provenance.
 
 ```json
 {
-  "version": 2,
+  "version": 3,
   "projectId": "project-slug",
   "backend": "bw",
   "readOnly": true,
   "allowedOrigins": ["https://login.example.com"],
+  "clipboard": {
+    "enabled": true,
+    "ttlSeconds": 30,
+    "allowedCredentials": ["primary"]
+  },
   "bws": {
     "projectId": "40000000-0000-4000-8000-000000000000",
     "secretIds": {
@@ -51,7 +56,7 @@ Commit only the example shape and non-secret provenance.
 `bw` policy must bind one item ID, the exact repository-name item title, and
 one project-specific Keychain reference.
 The helper rejects policies that set `readOnly` to false, use wildcard origins,
-use a global `codex`/`bw-master` reference, or omit the target mapping.
+use a global `codex`/`bw-master` reference, or omit the pinned item mapping.
 
 ## Repository-item and override rules
 
@@ -82,11 +87,23 @@ The Factory records names only:
 The `bw` fallback obtains the project-specific master password from the
 approved Keychain item at runtime. The Factory does not store that value.
 
-## Origin rule
+## Browser origin rule
 
-Every retrieval requires `--target-url`. Parse its scheme, hostname, and port.
-Require `https` and an exact match to one `allowedOrigins` entry. Never accept
-wildcards, user info, an HTTP origin, or a redirect host that is not listed.
+Browser retrieval and autofill require `--target-url`. Parse its scheme,
+hostname, and port. Require `https` and an exact match to one `allowedOrigins`
+entry. Never accept wildcards, user info, an HTTP origin, or a redirect host
+that is not listed.
+
+## Clipboard retrieval
+
+Version 3 policies may omit `allowedOrigins` only when they do not need browser
+autofill. `copy-password` remains explicit: it requires a pinned project item,
+project-isolated CLI state, reviewed Additional Options, and a policy
+`clipboard` block with `enabled: true`, one or more allowed credential
+selectors, and a `ttlSeconds` value from 5 through 120. It writes no secret to
+stdout and clears the clipboard after the configured lifetime only when the
+clipboard still holds that same credential. Browser commands keep the origin
+rule above.
 
 ## Receipt fields
 

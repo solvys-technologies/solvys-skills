@@ -1,0 +1,34 @@
+name: Build Kit custody
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reject-public-custody-breaches:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Reject licensed source and binary review artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          forbidden="$({
+            git ls-files | grep -E '^\.claude/skills/solvys-build-kit/assets/build-kit/(embedded-image|screenshot-)' || true
+            git ls-files | grep -E '^\.claude/skills/solvys-build-kit/assets/build-kit/(solvys-build-kit\.pen|.*gallery-review\.html)$' || true
+            git ls-files | grep -E '^\.claude/skills/solvys-build-kit/assets/build-kit/installed-(libraries|registries)/(beui-pro|aceternity-ui)/' || true
+            git ls-files | grep -E '^\.claude/skills/solvys-build-kit/assets/build-kit/images/(pro\.beui\.dev|ui\.aceternity\.com)/' || true
+            git ls-files | grep -E '^solvys-build-kit(\.zip|/)' || true
+          } | sort -u)"
+
+          if [[ -n "$forbidden" ]]; then
+            printf 'Public Build Kit custody violation:\n%s\n' "$forbidden" >&2
+            exit 1
+          fi
+
+          printf 'Build Kit public custody check passed.\n'

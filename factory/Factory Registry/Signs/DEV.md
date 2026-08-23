@@ -1,5 +1,7 @@
 # DEV Sign
 
+work freely, work with an open mind, and explore all possible options; never jump to conclusions at the second or third blocker. Be innovative, take inventory of your skills
+
 - Verify repo, branch, SHA, paths, Cloud, SSH, providers, accounts, and dirty ownership.
 - Search Paste and approved sources. Gather and install first.
 - **Paste custody.** If DEV work uses Paste MCP, keep the Paste app and MCP
@@ -17,7 +19,13 @@
   installed suite; use a symlink for project discovery and never copy or commit
   a stale mirror into the product repository.
 - Build backend contracts and provider resources before dependent frontend completion.
-- Build Wonder proposals in parallel and test the runnable result in the project ChatGPT Site.
+- For work above the Factory threshold, read
+  `factory/canon/structural-delivery-contract.md`. Work only in the assigned
+  Cloud task or visible session. Pass every Development Contract Gate Ledger
+  check with evidence before returning it to the integrator.
+- Read `factory/canon/frontend-wonder-source-of-truth.md` before frontend work.
+  Preserve the named Wonder source map and test the runnable result in the
+  project ChatGPT Site.
 - Record which button does what.
 - Write and validate the entrance receipt before any product, repository,
   Wonder, provider, deployment, or credential mutation. Read-only diagnosis may

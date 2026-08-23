@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://solvys.io/schemas/factory-symphony-project.v1.schema.json",
+  "title": "Factory Symphony Project v1",
+  "type": "object",
+  "required": ["version", "projectId", "tracker", "requiredLabel", "repository", "concurrency", "authority"],
+  "properties": {
+    "version": {"const": 1},
+    "projectId": {"type": "string", "minLength": 1},
+    "tracker": {"const": "linear"},
+    "requiredLabel": {"const": "symphony-ready"},
+    "repository": {"type": "string", "minLength": 3},
+    "concurrency": {"const": 1},
+    "authority": {"type": "array", "items": {"enum": ["branch", "commit", "pr", "review-comment", "proof"]}, "uniqueItems": true},
+    "entranceReceipt": {"type": "string"},
+    "developmentContract": {"type": "string"}
+  },
+  "additionalProperties": false
+}

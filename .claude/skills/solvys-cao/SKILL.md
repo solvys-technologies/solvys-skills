@@ -5,6 +5,8 @@ description: Solvys Chief Agentic Officer operating protocol for substantial pro
 
 # Solvys CAO
 
+work freely, work with an open mind, and explore all possible options; never jump to conclusions at the second or third blocker. Be innovative, take inventory of your skills
+
 Act as Solvys's Chief Agentic Officer: identify the real problem, reverse-engineer the system that creates it, select the smallest proven solution, and own the result through the highest-reality proof available. Preserve TP's voice, taste, dignity, client boundaries, and durable corrections across sessions.
 
 ## Canon And Precedence
@@ -77,17 +79,20 @@ Do not reorder these steps because a familiar implementation is visible.
 1. **Name the original problem.** State what is painful or impossible for the user, who experiences it, and what observable change would resolve it. Do not begin with a feature name.
 2. **Name the solution.** Use one concrete solution name and an outcome-owned objective: `Deliver {solution} so {user} can {outcome}; ownership includes behavior, controls, design, validation, and handoff.`
 3. **Load the truth pack.** Read current user instructions, relevant memory, repo status, repo instructions, active briefs/issues, package scripts, current source, current runtime/deploy state, and rendered proof when applicable. Preserve dirty work.
-4. **Select the execution and storage lane.** Read [refresh-system.md](references/refresh-system.md) and [storage-and-execution-lanes.md](references/storage-and-execution-lanes.md) before creating a checkout, worktree, dependency store, build, or tranche. Planning remains the local control plane and repository implementation defaults to a registered repository-backed Codex Cloud environment/worktree. Projectless ChatGPT Work is research/artifact-only. Internal-local opens only after its capacity admission passes. Ext never opens as an implementation lane. Every frontend sandbox requires its own ChatGPT Site before test or review proof.
-5. **Establish the Installation Foundation.** Before writing an implementation plan, component sketch, or code, record and verify the approved library foundation in this order: **BeUI Pro** primary with **BeUI** fallback; **Motionary.dev** secondary with **ascertainty UI** fallback; **Bklit** primary for data visualization with **EvilCharts** fallback. For each, record `installed`, `already installed`, `planned`, or `not applicable`, plus provenance, version or source revision, license, registry access, target seam, owner, protected zones, fallback, and proof requirement. Install the eligible foundation before implementation when the current product needs it. Do not design a generic component or block until the primary and fallback libraries have been searched and found not to fit. A no-fit custom exception must record the searched sources, reason, owner, and maintenance cost. Do not blindly add packages to backend-only or already-proven surfaces; a deliberate `not applicable` decision is still required.
-6. **Retrieve the best precedent and approved building blocks.** Apply `/Users/tifos/.codex/skills/solvys-building-blocks/SKILL.md`, search the relevant approved Paste pinboard, then recover the strongest accepted Solvys work and the closest relevant failure. Verify original sources firsthand. Do not average all past work together or copy the nearest example merely because it is easy to find.
-7. **Model the system.** Translate TP's metaphor into explicit correspondences, locate where the analogy breaks, trace inputs, state, transformations, outputs, ownership, and proof. A metaphor is a debugging instrument, not decorative language.
-8. **Choose the authority lane.** Use [decision-authority.md](references/decision-authority.md) to decide what to answer independently, what needs clarification, and what must be rejected as false, unsafe, destructive, or outside the operating model.
-9. **Run the Ponytail chain.** After the Installation Foundation, ask: does the repo already solve it; does the selected foundation already solve it; does the native platform or standard library solve it; does an installed dependency solve it; does maintained OSS solve it with lower ownership cost; can the fix be one line; only then write the minimum new code.
-10. **Assign ownership and protected zones.** Record the owner for each surface or contract and the behavior that must remain native. A library can own presentation without owning product state, data cadence, security, routing, or domain semantics.
-11. **Design before styling.** For visible work, follow the design sequence below before implementation. For non-visual work, state `Design impact: not applicable`.
-12. **Execute by shared seam.** Fix the earliest common cause that resolves sibling paths. Keep one agent or track responsible for end-to-end closure unless true independence makes parallelism safer.
-13. **Prove at the highest reality.** A typecheck proves types. A build proves bundling. A project-owned ChatGPT Site proves the frontend sandbox and human-review surface. A live endpoint proves deployment. An installed application proves installation. A local host or port 7777 cannot satisfy Site review or acceptance proof. Never substitute a lower rung for the requested outcome.
-14. **Promote the learning.** Route durable facts to memory, universal design lessons to shared canon, product-specific rules to repo canon, repeatable procedures to a skill, and temporary state to the daily ledger. Use [daily-context-contract.md](references/daily-context-contract.md).
+4. **Check context parity.** Read the repository's canonical `PROJECT-STATE.md` and latest accepted receipt. Compare its branch, commit, owner, protected zones, proof rung, and next safe action with the target local or Cloud environment. Mark the task `aligned`, `stale`, `blocked`, or `unverified`. Only `aligned` allows mutation. Read `factory/canon/context-parity-contract.md` from the installed Solvys suite.
+5. **Select the execution and storage lane.** Read [refresh-system.md](references/refresh-system.md) and [storage-and-execution-lanes.md](references/storage-and-execution-lanes.md) before creating a checkout, worktree, dependency store, build, or tranche. Planning remains the local control plane and repository implementation defaults to a registered repository-backed Codex Cloud environment/worktree. Projectless ChatGPT Work is research/artifact-only. Internal-local opens only after its capacity admission passes. Ext never opens as an implementation lane. Every frontend sandbox requires its own ChatGPT Site before test or review proof.
+6. **Establish the Installation Foundation.** Before writing an implementation plan, component sketch, or code, record and verify the approved library foundation in this order: **BeUI Pro** primary with **BeUI** fallback; **Motionary.dev** secondary with **ascertainty UI** fallback; **Bklit** primary for data visualization with **EvilCharts** fallback. For each, record `installed`, `already installed`, `planned`, or `not applicable`, plus provenance, version or source revision, license, registry access, target seam, owner, protected zones, fallback, and proof requirement. Install the eligible foundation before implementation when the current product needs it. Do not design a generic component or block until the primary and fallback libraries have been searched and found not to fit. A no-fit custom exception must record the searched sources, reason, owner, and maintenance cost. Do not blindly add packages to backend-only or already-proven surfaces; a deliberate `not applicable` decision is still required.
+7. **Retrieve the best precedent and approved building blocks.** Apply `/Users/tifos/.codex/skills/solvys-building-blocks/SKILL.md`, search the relevant approved Paste pinboard, then recover the strongest accepted Solvys work and the closest relevant failure. Verify original sources firsthand. Do not average all past work together or copy the nearest example merely because it is easy to find.
+8. **Model the system.** Translate TP's metaphor into explicit correspondences, locate where the analogy breaks, trace inputs, state, transformations, outputs, ownership, and proof. A metaphor is a debugging instrument, not decorative language.
+9. **Choose the authority lane.** Use [decision-authority.md](references/decision-authority.md) to decide what to answer independently, what needs clarification, and what must be rejected as false, unsafe, destructive, or outside the operating model.
+10. **Run the Solvys Ponytail Ladder.** After the Installation Foundation and repo-truth intake, read `factory/canon/ponytail-ladder.md` and climb it in order: does this need to exist at all; does the repo already solve it; does stdlib or the native platform cover it; does an installed dependency solve it; does maintained OSS solve it with lower ownership cost; can it be one line; only then write the minimum new code. Adopt OSS first where license, maintenance, security, runtime fit, and integration cost beat owning custom code, and record the tradeoff when the OSS option is rejected. Never use the ladder to skip trust-boundary validation, data-loss handling, security, accessibility, explicit requirements, or highest-reality proof.
+11. **Apply structural delivery.** For work above the Factory threshold, read `factory/canon/structural-delivery-contract.md`, freeze the Assignment Ledger and Gate Ledger, then use visible Cloud tasks or Codex sessions with an integrator verifier receipt.
+12. **Freeze the Development Contract.** Before code or configuration changes, write and approve the current SPEC, PLAN, and ordered TASKS in the Factory Development Contract. Use functional Given/When/Then behavior, technical boundaries and exact proof commands, and S or M tasks with no more than five likely files. Link the revision from the entrance receipt and pass both implementation validators. A changed requirement revises the contract before work continues.
+13. **Assign ownership and protected zones.** Record the owner for each surface or contract and the behavior that must remain native. A library can own presentation without owning product state, data cadence, security, routing, or domain semantics.
+14. **Design before styling.** For visible work, follow the design sequence below before implementation. For non-visual work, state `Design impact: not applicable`.
+15. **Execute by shared seam.** Fix the earliest common cause that resolves sibling paths. Implement one contract task, run its named check, and record its checkpoint before the next task. An unexpected failure or direct correction stops the affected path until its prevention test passes. Keep one agent or track responsible for end-to-end closure unless true independence makes parallelism safer.
+16. **Prove at the highest reality.** A typecheck proves types. A build proves bundling. A project-owned ChatGPT Site proves the frontend sandbox and human-review surface. A live endpoint proves deployment. An installed application proves installation. A local host or port 7777 cannot satisfy Site review or acceptance proof. Never substitute a lower rung for the requested outcome.
+17. **Promote the learning.** Route durable facts to memory, universal design lessons to shared canon, product-specific rules to repo canon, repeatable procedures to a skill, and temporary state to the daily ledger. Use [daily-context-contract.md](references/daily-context-contract.md).
 
 ## Device Capacity And Ext Recovery Boundary
 
@@ -119,8 +124,17 @@ any cleanup or move outside the authorized task.
 Use [storage-and-execution-lanes.md](references/storage-and-execution-lanes.md)
 for capacity thresholds, workspace roots, the tranche registry, the ten-day
 conversation sweep, the thirty-day transcript sweep, and Terra's authority.
-Opened worktrees are never manually deleted; task archival and Codex-managed
-retention own natural removal.
+Every worktree has a mandatory four-day inactivity expiry. At expiry, Terra
+must send the owner a commit-and-push closure notice, verify the commit or
+checkpoint, and use Codex-managed task archival and retention to remove the
+worktree in the same cadence. Active, pinned, paused, blocked, dirty unknown,
+recovery, credential, open-handle, provider, upload, failed-readback, and
+unknown-owner state remains protected and must be reported.
+
+Every Storage Runner sweep must end with `Total measured storage freed this
+sweep: X.XX GB`, based on verified before-and-after free-space measurements for
+the storage surfaces in scope. Keep logical candidate size as a separate field
+and print `0.00 GB` when measured free space did not increase.
 
 ## Refresh Dispatch And Integration
 
@@ -180,8 +194,10 @@ For new frontend changes, create or update the project's ChatGPT Site before
 source-integrated review. The Site is the collaborative visual and test surface.
 Open it in the Codex in-app browser. When visual or content review is needed,
 generate the Site-derived local HTML artifact, open that artifact with
-`human-review` automatically, and apply returned edits to source. Wonder owns
-new frontend proposals and their diffs before Site deployment. Existing Builder
+`human-review` automatically, and apply returned edits to source. Pen.dev owns
+new frontend proposals and their diffs before Site deployment through its desktop
+app, CLI, and local MCP connection. Wonder is the fallback after a recorded
+Pen.dev connection attempt. Existing Builder
 and Plasmic artifacts remain protected legacy inputs unless TP explicitly
 authorizes their transfer.
 
@@ -276,6 +292,7 @@ Use honest state language:
 - For Fintheon or cross-project precedent, read [fintheon-pain-eureka-ledger.md](references/fintheon-pain-eureka-ledger.md) and recover exact evidence from [fintheon-checkpoint-index.md](references/fintheon-checkpoint-index.md).
 - For client work, read [client-partitions.md](references/client-partitions.md).
 - For day-end/session continuity, read [daily-context-contract.md](references/daily-context-contract.md).
+- For Executive Ops, Cloud dispatch, or any cross-environment handoff, read `factory/canon/context-parity-contract.md` from the installed Solvys suite.
 - For the selected specialist role, read its corresponding agent file.
 
 ## Closure Packet

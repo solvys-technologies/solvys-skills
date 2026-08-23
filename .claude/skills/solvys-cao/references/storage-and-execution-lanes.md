@@ -55,6 +55,13 @@ not create a new local worktree to solve a disk problem. The current task's
 capacity record names free bytes, free percent, projected peak, task-owned
 processes, RAM state, CPU state, and return path.
 
+Every storage sweep ends with one explicit user-facing total: `Total measured
+storage freed this sweep: X.XX GB`. Calculate it from verified before-and-after
+free-space measurements for each storage surface in scope, using decimal GB and
+two decimal places. Report logical candidate size beside each path when useful,
+but never use logical size as the sweep total. Print `0.00 GB` when the sweep
+produces no measured free-space gain.
+
 ## Resource Admission
 
 - Use one in-app browser and one active ChatGPT Site review per task.
@@ -170,7 +177,12 @@ Each track records:
 
 At a boundary, record exact commit/ref, proof reached, blockers, protected
 zones, Site review state, and handoff. Reuse the prepared Cloud branch or
-accepted workspace. Do not manually delete an opened worktree.
+accepted workspace. Worktrees expire after four inactive days. At expiry,
+notify the owner to commit and push, verify the remote or checkpoint receipt,
+then archive the task and remove the worktree through Codex-managed retention.
+Raw filesystem deletion is forbidden. Active, pinned, paused, blocked, dirty
+unknown, recovery, credential, open-handle, provider, upload, failed-readback,
+and unknown-owner worktrees remain protected and are reported as exceptions.
 
 ## Recovery And Restore Contract
 

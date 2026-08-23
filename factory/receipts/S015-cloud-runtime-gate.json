@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "recordedAt": "2026-08-11T16:38:52Z",
+  "gate": "s015-deployment-and-live-proof",
+  "state": "open",
+  "evidence": [
+    "Both dispatched tasks recovered from the Solvys Cloud capacity incident and returned clean checkpoint commits and open pull requests.",
+    "Symphony source commit 3b2d924aeba4b18c5a879a5f685a56911dd91b40 is published at refs/sprints/S015/T2/P1 and PR 5; 24 tests, lint, Compose, TOML, shell, exact Fly path resolution, and remote image build pass.",
+    "Factory Operations Site source commit 2cb2f71a46845af4bee2a66c2d2fbb18d9c0b59e is published at refs/sprints/S015/T3/P1 and PR 4; version 3 is live with environment revision 1 and owner-only access.",
+    "The gateway Fly release is live in iad with two passing checks, an encrypted one-gigabyte audit volume, seven-day snapshots, bearer-first reads, operator authorization, idempotency replay, audit receipts, honest runtime-down state, and no merge route.",
+    "The private Symphony app and encrypted five-gigabyte workspace volume exist, and the pinned 232 MB image builds remotely. The app has no released machine because OPENAI_API_KEY and GITHUB_TOKEN require action-time approval before persistent Fly storage.",
+    "Linear issue SOL-392 and the symphony-ready label exist. Worker dispatch, owner browser proof, Linear connector reauthentication, hook trust, and human review remain open."
+  ],
+  "preservedTasks": [
+    {
+      "purpose": "Symphony isolated worker runtime",
+      "threadId": "019ff13b-bc03-7a32-8d8b-983b56d2e122",
+      "clientThreadId": "client-new-thread:04dcbb19-f9c4-4fd0-866b-9ad6f519c0ee",
+      "lastKnownWorktree": "/home/codespace/.codex/worktrees/2ea7/Solvys-2"
+      ,"checkpointRef": "refs/sprints/S015/T2/P1"
+      ,"commit": "3b2d924aeba4b18c5a879a5f685a56911dd91b40"
+      ,"pullRequest": "https://github.com/solvys-technologies/Solvys-2/pull/5"
+    },
+    {
+      "purpose": "Factory Operations ChatGPT Site",
+      "threadId": "019ff13b-bd4b-7960-b477-6054b70ee925",
+      "clientThreadId": "client-new-thread:8926a553-b42e-4468-96e9-e024179f37c8",
+      "lastKnownWorktree": "/home/codespace/.codex/worktrees/3346/Solvys-2"
+      ,"checkpointRef": "refs/sprints/S015/T3/P1"
+      ,"commit": "2cb2f71a46845af4bee2a66c2d2fbb18d9c0b59e"
+      ,"pullRequest": "https://github.com/solvys-technologies/Solvys-2/pull/4"
+    }
+  ],
+  "resumeCondition": "After TP gives action-time approval, create and store the S015-scoped OpenAI and GitHub worker credentials, deploy the already-built private Symphony image, run SOL-392 through isolated branch and PR proof, repair the two OAuth sessions, trust the Codex hook set, and complete owner Site human review. Do not create replacement runtime or Site lanes and do not merge.",
+  "credentials": [
+    "LINEAR_API_KEY",
+    "SOLVYS_LINEAR_PROJECT_SLUG",
+    "SOLVYS_EXACT_REPOSITORY",
+    "SOLVYS_EXACT_BASE",
+    "SOURCE_REPO_URL",
+    "CODEX_BIN",
+    "SOLVYS_GATEWAY_OPERATOR_IDS",
+    "SOLVYS_GATEWAY_PORT (optional)",
+    "OPENAI_API_KEY",
+    "GITHUB_TOKEN",
+    "SOLVYS_GATEWAY_SERVICE_TOKEN",
+    "SOLVYS_MANIFEST_JSON_B64",
+    "SOLVYS_ENTRANCE_RECEIPT_JSON_B64",
+    "SOLVYS_DEVELOPMENT_CONTRACT_JSON_B64"
+  ]
+}

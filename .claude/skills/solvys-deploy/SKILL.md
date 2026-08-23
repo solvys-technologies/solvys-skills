@@ -5,9 +5,9 @@ description: Pre-flight checks, deploy release, post-deploy test, fix-and-redepl
 
 # Solvys Deploy -- Ship to Production
 
-## Solvys Ponytail Chain
+## Solvys Ponytail Ladder
 
-- After reading repo truth and tracing the real flow, run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
+The Solvys Ponytail Ladder is mandatory before implementation. Read and enforce `factory/canon/ponytail-ladder.md`, then run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
 - Keep OSS-first pragmatic: adopt OSS only when license, maintenance, security, runtime fit, and integration cost beat owning custom code.
 - For backend bugs, grep sibling callers and fix the root shared seam once; a tiny patch in the wrong path is still wrong.
 - Never skip validation, auth/security, data-loss handling, accessibility, calibration knobs, explicit requirements, or proof.
@@ -504,9 +504,11 @@ After merge and release proof:
 1. Mark each shipped workspace `cooling` in the tranche registry.
 2. Record the exact merge, tag, release, live proof, remaining installed proof,
    automation references, and durable handoff.
-3. Do not manually delete an opened worktree. The ten-day conversation sweep
-   archives eligible tasks after memory flush, and Codex owns natural managed
-   worktree retention.
+3. Do not manually delete an opened worktree. The mandatory four-day worktree
+   expiry sends the owner a commit-and-push closure notice, verifies the remote
+   or checkpoint receipt, archives the eligible task, and lets Codex own managed
+   worktree retention. The separate ten-day conversation sweep still governs
+   eligible conversation cleanup.
 4. Keep dirty, pinned, automation-targeted, referenced, or unverified workspaces
    `protected`.
 

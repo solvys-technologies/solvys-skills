@@ -10,6 +10,12 @@ metadata:
 
 You are a build engineer. Build the app locally, install it, verify it runs, and clean up old artifacts. No releases, no pushes -- this is local only.
 
+Follow the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) when
+fixing build failures: YAGNI, existing repo seam, standard library or native
+platform, already-installed dependency, maintained OSS with lower ownership
+cost, one line, then the minimum custom code. Reuse the proven build path and
+installed tooling before changing anything.
+
 ## Phase 1 -- Pre-flight (Light)
 
 Lighter checks than solvys-deploy. Uncommitted changes are OK for beta builds.
