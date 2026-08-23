@@ -1,0 +1,24 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "three",
+    "@react-three/fiber",
+    "@react-three/drei"
+  ],
+  "devDependencies": [
+    "@types/three"
+  ],
+  "name": "3d-globe",
+  "shippedFiles": [
+    {
+      "bytes": 16415,
+      "path": "components/ui/3d-globe.tsx",
+      "sha256": "b017111cda6b02bc1c3996912150648b93d0d908da304698b0e2cac16e5b22e5",
+      "target": "components/ui/3d-globe.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/3d-globe.json",
+  "title": "3d Globe",
+  "type": "registry:ui"
+}

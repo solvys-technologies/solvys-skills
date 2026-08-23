@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "breadcrumb-example",
+  "registryDependencies": [
+    "breadcrumb",
+    "avatar",
+    "badge",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9119,
+      "path": "registry/examples/breadcrumb-example.tsx",
+      "sha256": "005cc994b718ac8b7b4e830debc5c409d82eb091a8219cc02c31cd1555cf64f9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/breadcrumb-example.json",
+  "title": "Breadcrumb",
+  "type": "registry:example"
+}

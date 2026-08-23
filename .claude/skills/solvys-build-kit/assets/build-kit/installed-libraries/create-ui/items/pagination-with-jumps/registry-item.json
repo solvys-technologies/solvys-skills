@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-with-jumps",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 752,
+      "path": "registry/examples/pagination-with-jumps.tsx",
+      "sha256": "90c26da0a89c272a5bed32e19a4e683989b2e8ba4310c9075e960ffb71af0077",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-with-jumps.json",
+  "title": "Pagination With Jumps",
+  "type": "registry:example"
+}

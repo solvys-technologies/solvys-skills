@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Prototype-to-Alpha"
+  short_description: "Build an exact Alpha surface from accepted inventory and PL0"
+  default_prompt: "Use $solvys-pta to build this Alpha surface from its validated Interface Inventory and accepted PL0 contract."

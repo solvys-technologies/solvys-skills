@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1660,
+      "path": "src/registry/examples/echarts/ex-echarts-bar-chart.tsx",
+      "sha256": "52e2895c588e21eb30e01936450d3d02b09a0bfcc0d11c7d0419660126d5f9e5",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

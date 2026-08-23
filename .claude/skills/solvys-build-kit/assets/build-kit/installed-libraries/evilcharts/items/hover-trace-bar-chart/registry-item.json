@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion",
+    "@number-flow/react"
+  ],
+  "description": "Bar chart with active value line and animated marker",
+  "name": "hover-trace-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6112,
+      "path": "src/registry/blocks/recharts/b-hover-trace-bar-chart.tsx",
+      "sha256": "db014a0c2e031d82dab11fa729f3234dbdd3cdc6ef76f6e52eb191e45d50bd22",
+      "target": "components/evilcharts/blocks/hover-trace-bar-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/hover-trace-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

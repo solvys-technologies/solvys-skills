@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "stats-with-gradient",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/stats-with-gradient.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

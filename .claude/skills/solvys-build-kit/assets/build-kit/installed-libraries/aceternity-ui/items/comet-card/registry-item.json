@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "comet-card",
+  "shippedFiles": [
+    {
+      "bytes": 2949,
+      "path": "components/ui/comet-card.tsx",
+      "sha256": "43c862495a8c1c0a4f78d121d66b5837ca27afa5db6328895911497e7ed9b578",
+      "target": "components/ui/comet-card.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/comet-card.json",
+  "title": "Comet Card",
+  "type": "registry:ui"
+}

@@ -120,11 +120,14 @@ def main() -> int:
         receipt_backup.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(receipt_path, receipt_backup)
     receipt = {
-        "schemaVersion": 1, "kit": manifest["kit"], "version": manifest["version"],
+        "schemaVersion": manifest.get("schemaVersion", 1), "kit": manifest["kit"], "version": manifest["version"],
         "preset": args.preset, "loadedAt": datetime.now(timezone.utc).isoformat(),
         "target": str(target), "destination": str(destination), "files": copied,
         "requiredPackages": manifest["runtime"]["required"],
-        "optionalPackages": manifest["runtime"]["optional"], "proofStatus": "pending",
+        "optionalPackages": manifest["runtime"]["optional"],
+        "approvedLibraries": manifest.get("approvedLibraries", []),
+        "designSource": manifest.get("designSource", {}),
+        "proofStatus": "pending",
     }
     receipt_path.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({**plan, "receipt": str(receipt_path), "status": "loaded"}, indent=2))

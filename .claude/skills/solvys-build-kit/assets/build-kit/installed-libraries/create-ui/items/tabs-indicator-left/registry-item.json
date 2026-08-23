@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-indicator-left",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1249,
+      "path": "registry/examples/tabs-indicator-left.tsx",
+      "sha256": "8dcd9c09959f6e9e1d627fc6d5f4f8c24860b151d3857ec25fcd1ff69fa96613",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-indicator-left.json",
+  "title": "Tabs Indicator Left",
+  "type": "registry:example"
+}

@@ -1,0 +1,4875 @@
+{
+  "accessGatedItemCount": 0,
+  "appBlockRegistry": {
+    "appBlockItemCount": 244,
+    "appBlockNames": [
+      "ex-hover-highlight-echarts-area-chart",
+      "ex-echarts-area-chart",
+      "ex-brush-echarts-area-chart",
+      "ex-buffer-echarts-area-chart",
+      "ex-hover-reveal-echarts-area-chart",
+      "ex-animated-dashed-stroke-echarts-area-chart",
+      "ex-bump-curve-type-echarts-area-chart",
+      "ex-dashed-stroke-echarts-area-chart",
+      "ex-default-type-echarts-area-chart",
+      "ex-dotted-area-variant-echarts-area-chart",
+      "ex-expanded-type-echarts-area-chart",
+      "ex-gradient-area-variant-echarts-area-chart",
+      "ex-gradient-colors-echarts-area-chart",
+      "ex-gradient-colors-bump-echarts-area-chart",
+      "ex-gradient-reverse-area-variant-echarts-area-chart",
+      "ex-hatched-area-variant-echarts-area-chart",
+      "ex-lines-area-variant-echarts-area-chart",
+      "ex-loading-state-echarts-area-chart",
+      "ex-monotoney-curve-type-echarts-area-chart",
+      "ex-solid-area-variant-echarts-area-chart",
+      "ex-solid-stroke-echarts-area-chart",
+      "ex-stacked-type-echarts-area-chart",
+      "ex-step-curve-type-echarts-area-chart",
+      "ex-echarts-line-chart",
+      "ex-gradient-colors-echarts-line-chart",
+      "ex-gradient-colors-bump-echarts-line-chart",
+      "ex-loading-state-echarts-line-chart",
+      "ex-bump-curve-type-echarts-line-chart",
+      "ex-step-curve-type-echarts-line-chart",
+      "ex-monotoney-curve-type-echarts-line-chart",
+      "ex-solid-stroke-echarts-line-chart",
+      "ex-dashed-stroke-echarts-line-chart",
+      "ex-animated-dashed-stroke-echarts-line-chart",
+      "ex-glowing-desktop-echarts-line-chart",
+      "ex-glowing-mobile-echarts-line-chart",
+      "ex-buffer-echarts-line-chart",
+      "ex-hover-reveal-echarts-line-chart",
+      "ex-dot-default-echarts-line-chart",
+      "ex-dot-border-echarts-line-chart",
+      "ex-dot-colored-border-echarts-line-chart",
+      "ex-dot-ping-echarts-line-chart",
+      "ex-legend-square-echarts-line-chart",
+      "ex-legend-circle-echarts-line-chart",
+      "ex-legend-circle-outline-echarts-line-chart",
+      "ex-legend-rounded-square-echarts-line-chart",
+      "ex-legend-rounded-square-outline-echarts-line-chart",
+      "ex-legend-vertical-bar-echarts-line-chart",
+      "ex-legend-horizontal-bar-echarts-line-chart",
+      "ex-echarts-bar-chart",
+      "ex-buffer-echarts-bar-chart",
+      "ex-gradient-colors-echarts-bar-chart",
+      "ex-loading-state-echarts-bar-chart",
+      "ex-default-variant-echarts-bar-chart",
+      "ex-expandable-variant-echarts-bar-chart",
+      "ex-max-highlight-echarts-bar-chart",
+      "ex-blocks-variant-echarts-bar-chart",
+      "ex-hatched-variant-echarts-bar-chart",
+      "ex-duotone-variant-echarts-bar-chart",
+      "ex-duotone-reverse-variant-echarts-bar-chart",
+      "ex-gradient-variant-echarts-bar-chart",
+      "ex-stripped-variant-echarts-bar-chart",
+      "ex-stacked-type-echarts-bar-chart",
+      "ex-percent-type-echarts-bar-chart",
+      "ex-horizontal-layout-echarts-bar-chart",
+      "ex-hover-highlight-echarts-bar-chart",
+      "ex-glowing-desktop-echarts-bar-chart",
+      "ex-glowing-mobile-echarts-bar-chart",
+      "ex-tooltip-default-echarts-bar-chart",
+      "ex-tooltip-frosted-glass-echarts-bar-chart",
+      "ex-chart-config-default-echarts-bar-chart",
+      "ex-chart-config-icons-echarts-bar-chart",
+      "ex-echarts-composed-chart",
+      "ex-gradient-colors-echarts-composed-chart",
+      "ex-loading-state-echarts-composed-chart",
+      "ex-hatched-variant-echarts-composed-chart",
+      "ex-duotone-variant-echarts-composed-chart",
+      "ex-gradient-variant-echarts-composed-chart",
+      "ex-stripped-variant-echarts-composed-chart",
+      "ex-dashed-stroke-echarts-composed-chart",
+      "ex-animated-dashed-stroke-echarts-composed-chart",
+      "ex-bump-curve-echarts-composed-chart",
+      "ex-dots-echarts-composed-chart",
+      "ex-hover-highlight-echarts-composed-chart",
+      "ex-glowing-echarts-composed-chart",
+      "ex-echarts-radar-chart",
+      "ex-lines-variant-echarts-radar-chart",
+      "ex-circle-grid-echarts-radar-chart",
+      "ex-gradient-colors-echarts-radar-chart",
+      "ex-loading-state-echarts-radar-chart",
+      "ex-echarts-pie-chart",
+      "ex-gradient-colors-echarts-pie-chart",
+      "ex-donut-echarts-pie-chart",
+      "ex-padded-echarts-pie-chart",
+      "ex-overlapping-padded-echarts-pie-chart",
+      "ex-labels-echarts-pie-chart",
+      "ex-loading-state-echarts-pie-chart",
+      "ex-outside-labels-echarts-pie-chart",
+      "ex-echarts-radial-chart",
+      "ex-semi-variant-echarts-radial-chart",
+      "ex-gradient-colors-echarts-radial-chart",
+      "ex-loading-state-echarts-radial-chart",
+      "ex-echarts-sankey-chart",
+      "ex-gradient-colors-echarts-sankey-chart",
+      "ex-loading-state-echarts-sankey-chart",
+      "ex-solid-link-variant-echarts-sankey-chart",
+      "ex-source-link-variant-echarts-sankey-chart",
+      "ex-labeled-nodes-echarts-sankey-chart",
+      "ex-outside-labels-echarts-sankey-chart",
+      "ex-solid-labeled-nodes-echarts-sankey-chart",
+      "ex-area-chart",
+      "ex-brush-area-chart",
+      "ex-gradient-colors-area-chart",
+      "ex-gradient-colors-bump-area-chart",
+      "ex-loading-state-area-chart",
+      "ex-default-type-area-chart",
+      "ex-stacked-type-area-chart",
+      "ex-expanded-type-area-chart",
+      "ex-bump-curve-type-area-chart",
+      "ex-step-curve-type-area-chart",
+      "ex-monotoney-curve-type-area-chart",
+      "ex-solid-stroke-area-chart",
+      "ex-dashed-stroke-area-chart",
+      "ex-animated-dashed-stroke-area-chart",
+      "ex-gradient-area-variant-area-chart",
+      "ex-gradient-reverse-area-variant-area-chart",
+      "ex-solid-area-variant-area-chart",
+      "ex-dotted-area-variant-area-chart",
+      "ex-lines-area-variant-area-chart",
+      "ex-hatched-area-variant-area-chart",
+      "ex-line-chart",
+      "ex-dot-default-line-chart",
+      "ex-dot-border-line-chart",
+      "ex-dot-colored-border-line-chart",
+      "ex-gradient-colors-line-chart",
+      "ex-gradient-colors-bump-line-chart",
+      "ex-loading-state-line-chart",
+      "ex-bump-curve-type-line-chart",
+      "ex-step-curve-type-line-chart",
+      "ex-monotoney-curve-type-line-chart",
+      "ex-solid-stroke-line-chart",
+      "ex-dashed-stroke-line-chart",
+      "ex-animated-dashed-stroke-line-chart",
+      "ex-glowing-desktop-line-chart",
+      "ex-glowing-mobile-line-chart",
+      "ex-buffer-line-chart",
+      "ex-bg-dots-line-chart",
+      "ex-bg-grid-line-chart",
+      "ex-bg-cross-hatch-line-chart",
+      "ex-bg-diagonal-lines-line-chart",
+      "ex-bg-plus-line-chart",
+      "ex-bg-falling-triangles-line-chart",
+      "ex-bg-4-pointed-star-line-chart",
+      "ex-bg-tiny-checkers-line-chart",
+      "ex-bg-overlapping-circles-line-chart",
+      "ex-bg-wiggle-lines-line-chart",
+      "ex-bg-bubbles-line-chart",
+      "ex-buffer-bar-chart",
+      "ex-bar-chart",
+      "ex-gradient-colors-bar-chart",
+      "ex-loading-state-bar-chart",
+      "ex-default-variant-bar-chart",
+      "ex-hatched-variant-bar-chart",
+      "ex-duotone-variant-bar-chart",
+      "ex-duotone-reverse-variant-bar-chart",
+      "ex-gradient-variant-bar-chart",
+      "ex-stripped-variant-bar-chart",
+      "ex-stacked-type-bar-chart",
+      "ex-percent-type-bar-chart",
+      "ex-horizontal-layout-bar-chart",
+      "ex-hover-highlight-bar-chart",
+      "ex-glowing-desktop-bar-chart",
+      "ex-glowing-mobile-bar-chart",
+      "ex-composed-chart",
+      "ex-gradient-colors-composed-chart",
+      "ex-loading-state-composed-chart",
+      "ex-hatched-variant-composed-chart",
+      "ex-duotone-variant-composed-chart",
+      "ex-gradient-variant-composed-chart",
+      "ex-stripped-variant-composed-chart",
+      "ex-dashed-stroke-composed-chart",
+      "ex-animated-dashed-stroke-composed-chart",
+      "ex-bump-curve-composed-chart",
+      "ex-dots-composed-chart",
+      "ex-hover-highlight-composed-chart",
+      "ex-glowing-composed-chart",
+      "ex-pie-chart",
+      "ex-gradient-colors-pie-chart",
+      "ex-donut-pie-chart",
+      "ex-padded-pie-chart",
+      "ex-overlapping-padded-pie-chart",
+      "ex-labels-pie-chart",
+      "ex-loading-state-pie-chart",
+      "ex-glowing-pie-chart",
+      "ex-radial-chart",
+      "ex-semi-variant-radial-chart",
+      "ex-gradient-colors-radial-chart",
+      "ex-loading-state-radial-chart",
+      "ex-radar-chart",
+      "ex-lines-variant-radar-chart",
+      "ex-circle-grid-radar-chart",
+      "ex-gradient-colors-radar-chart",
+      "ex-loading-state-radar-chart",
+      "ex-glowing-radar-chart",
+      "ex-sankey-chart",
+      "ex-gradient-colors-sankey-chart",
+      "ex-loading-state-sankey-chart",
+      "ex-solid-link-variant-sankey-chart",
+      "ex-source-link-variant-sankey-chart",
+      "ex-labeled-nodes-sankey-chart",
+      "ex-outside-labels-sankey-chart",
+      "ex-solid-labeled-nodes-sankey-chart",
+      "ex-tooltip-default-bar-chart",
+      "ex-tooltip-frosted-glass-bar-chart",
+      "ex-legend-square-line-chart",
+      "ex-legend-circle-line-chart",
+      "ex-legend-circle-outline-line-chart",
+      "ex-legend-rounded-square-line-chart",
+      "ex-legend-rounded-square-outline-line-chart",
+      "ex-legend-vertical-bar-line-chart",
+      "ex-legend-horizontal-bar-line-chart",
+      "ex-chart-config-default-bar-chart",
+      "ex-chart-config-icons-bar-chart",
+      "monospace-bar-chart",
+      "hover-trace-bar-chart",
+      "grid-bar-chart",
+      "isometric-bar-chart",
+      "latency-echarts-area-chart",
+      "portfolio-echarts-area-chart",
+      "benchmark-echarts-area-chart",
+      "audience-echarts-area-chart",
+      "market-share-echarts-pie-chart",
+      "progress-rings-echarts-pie-chart",
+      "budget-echarts-radial-chart",
+      "ride-echarts-radial-chart",
+      "cache-tiers-echarts-radial-chart",
+      "revenue-mix-echarts-pie-chart",
+      "reliability-score-echarts-pie-chart",
+      "payouts-echarts-line-chart",
+      "shipments-echarts-line-chart",
+      "grid-echarts-bar-chart",
+      "monospace-echarts-bar-chart",
+      "peak-echarts-bar-chart",
+      "allocation-echarts-sankey-chart",
+      "pipeline-echarts-sankey-chart"
+    ],
+    "excludedWebsiteBlockCount": 0,
+    "excludedWebsiteBlockNames": [],
+    "path": "installed-registries/evilcharts/app-blocks.json"
+  },
+  "autoUpdate": false,
+  "catalogItemCount": 271,
+  "catalogUrl": "https://evilcharts.com/r/registry.json?raw=1",
+  "installedItemCount": 271,
+  "items": [
+    {
+      "fileCount": 1,
+      "name": "recharts-chart",
+      "sourceFiles": [
+        {
+          "bytes": 8389,
+          "path": "src/registry/ui/recharts-chart.tsx",
+          "sha256": "4cd9b99678ae2ee7fa588e2c980fa9c3ce4003110acdde6cdd7db1d96db67d3b",
+          "target": "components/evilcharts/ui/recharts-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-tooltip",
+      "sourceFiles": [
+        {
+          "bytes": 6831,
+          "path": "src/registry/ui/recharts-tooltip.tsx",
+          "sha256": "49f0deedb6637b0ffcf1afd978311a3afb66cb966325a881fb8b324e15d8d09c",
+          "target": "components/evilcharts/ui/recharts-tooltip.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-tooltip.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-legend",
+      "sourceFiles": [
+        {
+          "bytes": 6253,
+          "path": "src/registry/ui/recharts-legend.tsx",
+          "sha256": "d1eb325e11315c5640efe6b70543bbc370654e9d2e5101774603bd2b1dcb3ef8",
+          "target": "components/evilcharts/ui/recharts-legend.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-legend.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-dot",
+      "sourceFiles": [
+        {
+          "bytes": 4530,
+          "path": "src/registry/ui/recharts-dot.tsx",
+          "sha256": "94b12dc6ee83299561da38fe8fc4d0de66f05fedb2a81aebbab097f903781f5b",
+          "target": "components/evilcharts/ui/recharts-dot.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-dot.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-brush",
+      "sourceFiles": [
+        {
+          "bytes": 24659,
+          "path": "src/registry/ui/recharts-brush.tsx",
+          "sha256": "b7299eb13167fcb2b7786efcd630cf9273eb0e9c5660a34c2e919461a3d7ceb9",
+          "target": "components/evilcharts/ui/recharts-brush.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-brush.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-background",
+      "sourceFiles": [
+        {
+          "bytes": 8312,
+          "path": "src/registry/ui/recharts-background.tsx",
+          "sha256": "eb71bf98cc051f1638a91f1a50fc0b27b36d48502b8db5da420bf34b14b689cd",
+          "target": "components/evilcharts/ui/recharts-background.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-background.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-chart",
+      "sourceFiles": [
+        {
+          "bytes": 8808,
+          "path": "src/registry/ui/echarts-chart.tsx",
+          "sha256": "d9cca4ed456f00ff34ce7d508c8e4f041ede546edaa468fd352f771708a8ed41",
+          "target": "components/evilcharts/ui/echarts-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-tooltip",
+      "sourceFiles": [
+        {
+          "bytes": 4997,
+          "path": "src/registry/ui/echarts-tooltip.tsx",
+          "sha256": "595ccb2754fc5b72f05a2c7f627cf13ca430247533eba74cc1584c0ea292cfd4",
+          "target": "components/evilcharts/ui/echarts-tooltip.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-tooltip.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-legend",
+      "sourceFiles": [
+        {
+          "bytes": 5339,
+          "path": "src/registry/ui/echarts-legend.tsx",
+          "sha256": "2f649c97b1c81ad36294eb281629b01c947a2033e278fe0ee1f62eaa656738e4",
+          "target": "components/evilcharts/ui/echarts-legend.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-legend.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-dot",
+      "sourceFiles": [
+        {
+          "bytes": 4737,
+          "path": "src/registry/ui/echarts-dot.tsx",
+          "sha256": "27258e7e3072ca8163e266e42b3073a5cadf382d415bc2410cb09f4b3fbc3cdd",
+          "target": "components/evilcharts/ui/echarts-dot.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-dot.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-brush",
+      "sourceFiles": [
+        {
+          "bytes": 9915,
+          "path": "src/registry/ui/echarts-brush.tsx",
+          "sha256": "8ab742558334a63adadb09d19ff9cd039f22de4303d61f0ec93ebcbc0dd917a2",
+          "target": "components/evilcharts/ui/echarts-brush.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-brush.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 96874,
+          "path": "src/registry/charts/echarts-area-chart.tsx",
+          "sha256": "920b97aeb1d671b7103701ba0acae4feeee096361bb613ff546a514ef6489a21",
+          "target": "components/evilcharts/charts/echarts-area-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 87840,
+          "path": "src/registry/charts/echarts-line-chart.tsx",
+          "sha256": "4f33757a7caa0004a3cd5bdb8201d7a40c87a7a9e69ffc91c742eac43bf0215c",
+          "target": "components/evilcharts/charts/echarts-line-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 95430,
+          "path": "src/registry/charts/echarts-bar-chart.tsx",
+          "sha256": "464790091ffc1e805b8484606717b7230e16486d0b844621fbd34cefa8ac6053",
+          "target": "components/evilcharts/charts/echarts-bar-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 84136,
+          "path": "src/registry/charts/echarts-composed-chart.tsx",
+          "sha256": "a264cf779e075def2e7c38c2a779928cfa92200c0c0624d6e8e3151197cc3e57",
+          "target": "components/evilcharts/charts/echarts-composed-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 54279,
+          "path": "src/registry/charts/echarts-radar-chart.tsx",
+          "sha256": "4f6543a90dbfff023f6f9361af4a585a408c89db9d8f1be3dff30d9213678c57",
+          "target": "components/evilcharts/charts/echarts-radar-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 53319,
+          "path": "src/registry/charts/echarts-pie-chart.tsx",
+          "sha256": "744e2a23a7b72a26ad8f07cc919679b6a85853fd73a57e60aa7d899b5b366bfa",
+          "target": "components/evilcharts/charts/echarts-pie-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 53953,
+          "path": "src/registry/charts/echarts-radial-chart.tsx",
+          "sha256": "c2b6f991f28748e81c107eae1db98b5d727b5016564eec271e79c440917347f0",
+          "target": "components/evilcharts/charts/echarts-radial-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 60043,
+          "path": "src/registry/charts/echarts-sankey-chart.tsx",
+          "sha256": "ba901718b6b78f6a1c47d6e11f263f829bebf9c9207c1fb3d3de14693d693a8f",
+          "target": "components/evilcharts/charts/echarts-sankey-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 38602,
+          "path": "src/registry/charts/recharts-area-chart.tsx",
+          "sha256": "298384a5104af8006aa27fd4014a5b48587f2775f7ff87d20110be73a7a07b00",
+          "target": "components/evilcharts/charts/recharts-area-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 34966,
+          "path": "src/registry/charts/recharts-line-chart.tsx",
+          "sha256": "3ca0c71d6ea928f8f3ff4f43810e444bbd72b521a4cd67d4cae27ef66f86794a",
+          "target": "components/evilcharts/charts/recharts-line-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 44337,
+          "path": "src/registry/charts/recharts-bar-chart.tsx",
+          "sha256": "660b0a63d43cfb14aaeabd7f1c6dc4ad6f30df387c2b6aca9497d5c417b14c53",
+          "target": "components/evilcharts/charts/recharts-bar-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 50646,
+          "path": "src/registry/charts/recharts-composed-chart.tsx",
+          "sha256": "a33dc68ab96eaa2ab2d72925a47f0ee936b579e56c1427a6a30e4bf9d1ba4cc4",
+          "target": "components/evilcharts/charts/recharts-composed-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 19657,
+          "path": "src/registry/charts/recharts-pie-chart.tsx",
+          "sha256": "12d68c0c60874f4b59a30d26f19c9f97f291e4a98df5a6b0f759bd4335b20497",
+          "target": "components/evilcharts/charts/recharts-pie-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 17079,
+          "path": "src/registry/charts/recharts-radial-chart.tsx",
+          "sha256": "1445226e0365c4b4747da16e17cd86e9d7bdf96bf1a90cfa9a95cd9b8e6e6d63",
+          "target": "components/evilcharts/charts/recharts-radial-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 22205,
+          "path": "src/registry/charts/recharts-radar-chart.tsx",
+          "sha256": "fd30c1b5186ad2c1f6fd3e35b0e6a5a6c510c640861b406af1a6d3c9e89897c4",
+          "target": "components/evilcharts/charts/recharts-radar-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "recharts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 28357,
+          "path": "src/registry/charts/recharts-sankey-chart.tsx",
+          "sha256": "33dfe779d9be15df575b8c995217040897f9c021b28c9366ffbc87a8b566ac58",
+          "target": "components/evilcharts/charts/recharts-sankey-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/recharts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hover-highlight-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1862,
+          "path": "src/registry/examples/echarts/ex-hover-highlight-echarts-area-chart.tsx",
+          "sha256": "c3db00f7a34d28f81bd130bfbc8b0248fde7b0dfe4bacaf29dab6f2fe354888c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1988,
+          "path": "src/registry/examples/echarts/ex-echarts-area-chart.tsx",
+          "sha256": "a31606845391b286c14a94720b64731e7146438fe78456e3e07b2e8f5a4f8e35",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-brush-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2653,
+          "path": "src/registry/examples/echarts/ex-brush-echarts-area-chart.tsx",
+          "sha256": "b08fb411304cd0bac965e2c25b82e677e47b707464b554eba6ad850a95e33ee4",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-brush-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-buffer-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2115,
+          "path": "src/registry/examples/echarts/ex-buffer-echarts-area-chart.tsx",
+          "sha256": "95cd5d04c5c1fa9496d8abaf2871652a50488fa22876e1cdc61acd371f545798",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-buffer-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hover-reveal-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1772,
+          "path": "src/registry/examples/echarts/ex-hover-reveal-echarts-area-chart.tsx",
+          "sha256": "6b864ecaf9ade0e199e55507ef17dab1b9c579a348f5d21b8b042ef678f7545c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hover-reveal-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-animated-dashed-stroke-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1998,
+          "path": "src/registry/examples/echarts/ex-animated-dashed-stroke-echarts-area-chart.tsx",
+          "sha256": "1730c9580d323f0147fe78db19056654ae8bce502456298f6ef25e7dafb78935",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bump-curve-type-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1960,
+          "path": "src/registry/examples/echarts/ex-bump-curve-type-echarts-area-chart.tsx",
+          "sha256": "5fa37bb7faae9489991cb42bab4238d94df26e433c7882683057589dee51ae4b",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dashed-stroke-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1980,
+          "path": "src/registry/examples/echarts/ex-dashed-stroke-echarts-area-chart.tsx",
+          "sha256": "1a2b2196820e258915c5e34a713091396e0b455797a04d3d234785b32960f502",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-default-type-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1835,
+          "path": "src/registry/examples/echarts/ex-default-type-echarts-area-chart.tsx",
+          "sha256": "e0e82fc07067217ab9a81811b43321ea54187cc51caae495e07a2dfd016a8a19",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-default-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dotted-area-variant-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1914,
+          "path": "src/registry/examples/echarts/ex-dotted-area-variant-echarts-area-chart.tsx",
+          "sha256": "56245ab4eaf0d016b336457f743d3ef0bd4d1aea89e0425638ca583fb1225137",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dotted-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-expanded-type-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1836,
+          "path": "src/registry/examples/echarts/ex-expanded-type-echarts-area-chart.tsx",
+          "sha256": "3cbd06477e46c717716fbe3da7e54938559ab4bae4b7453c357b2c6d6f6c2cee",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-expanded-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-area-variant-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1918,
+          "path": "src/registry/examples/echarts/ex-gradient-area-variant-echarts-area-chart.tsx",
+          "sha256": "870cd92511c8ae348c568d6bbf0e80af37c8f97d2c19e9b9859187d17b036c96",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1989,
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-area-chart.tsx",
+          "sha256": "3f1dd01e9b36cc414c69ec4174712f849f2472926772987b1f6bf4b3ff4c739c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-bump-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2012,
+          "path": "src/registry/examples/echarts/ex-gradient-colors-bump-echarts-area-chart.tsx",
+          "sha256": "b8dc6891d73d9211a101e985cc2f05342641aa0128c63ebae09d52529ada94cc",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bump-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-reverse-area-variant-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1934,
+          "path": "src/registry/examples/echarts/ex-gradient-reverse-area-variant-echarts-area-chart.tsx",
+          "sha256": "33d7652ab2bfbbaba15007699e4a6645c570fb4cbbbc7c4a9b81a63ed3dd6de1",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-reverse-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hatched-area-variant-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1916,
+          "path": "src/registry/examples/echarts/ex-hatched-area-variant-echarts-area-chart.tsx",
+          "sha256": "93b260992aa29fd9b226074daf888a6ed798bc8cb5b98a90ed69549cb48ca5dd",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hatched-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-lines-area-variant-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1912,
+          "path": "src/registry/examples/echarts/ex-lines-area-variant-echarts-area-chart.tsx",
+          "sha256": "52213387617d6f28e5876e6a0382742b5aea41aba220d30a3a569d920bb54bbf",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-lines-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1404,
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-area-chart.tsx",
+          "sha256": "d5b4eb0f36160e49cf68368d971a2b3e08157f8130e90947295eba1385c9d4ea",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-monotoney-curve-type-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1965,
+          "path": "src/registry/examples/echarts/ex-monotoney-curve-type-echarts-area-chart.tsx",
+          "sha256": "c1bdf152727a50b54e94cdb89ec290dd09433f1090cdb56e29339645d2564d35",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-monotoney-curve-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-solid-area-variant-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1912,
+          "path": "src/registry/examples/echarts/ex-solid-area-variant-echarts-area-chart.tsx",
+          "sha256": "a6d492364b5448789a47d2566697616044fee6272660081067503d16335cff69",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-solid-area-variant-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-solid-stroke-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1978,
+          "path": "src/registry/examples/echarts/ex-solid-stroke-echarts-area-chart.tsx",
+          "sha256": "fc426a80d34d9e1a4dabeb317cf4d787136dd5ffdb7800c4be00121646997a26",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-solid-stroke-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-stacked-type-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1835,
+          "path": "src/registry/examples/echarts/ex-stacked-type-echarts-area-chart.tsx",
+          "sha256": "ccdfb8ab05ec1102febe2c18771ed82eef18adf61e30a5fd624dfa20d80f5afc",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-stacked-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-step-curve-type-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1960,
+          "path": "src/registry/examples/echarts/ex-step-curve-type-echarts-area-chart.tsx",
+          "sha256": "09035c96ac1ea43c2a39637cae393cedcc8bcac3ee9fe7ffe047e0a9bd0762be",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-step-curve-type-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1936,
+          "path": "src/registry/examples/echarts/ex-echarts-line-chart.tsx",
+          "sha256": "7eff2995b22e9f45805344d6fddd5e173df7cf8c24870a8622f50858a0228829",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1914,
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-line-chart.tsx",
+          "sha256": "15d6d0c67d8965c411f7e1f5eadc30108c7a99114252c0342a7f8d8bca75ba7b",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-bump-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1939,
+          "path": "src/registry/examples/echarts/ex-gradient-colors-bump-echarts-line-chart.tsx",
+          "sha256": "c8a7dea4d88b51cebb5cda137d6b064a40c7c685c02c08ed0f3a00ce56375fbb",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bump-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1352,
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-line-chart.tsx",
+          "sha256": "26e8465ac7e6c80c55d93a9ca7591ce0d093911575ebb43dc27bde9514f1a671",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bump-curve-type-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1908,
+          "path": "src/registry/examples/echarts/ex-bump-curve-type-echarts-line-chart.tsx",
+          "sha256": "4e1324638079110412e270de3cc532db8d52ee34a453dff716f8430c249a7cc2",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-type-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-step-curve-type-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1908,
+          "path": "src/registry/examples/echarts/ex-step-curve-type-echarts-line-chart.tsx",
+          "sha256": "197d270a266dc8734cdb738ee2826e5f1ac7e15fe4b800e419f40ca3894bf05b",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-step-curve-type-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-monotoney-curve-type-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1913,
+          "path": "src/registry/examples/echarts/ex-monotoney-curve-type-echarts-line-chart.tsx",
+          "sha256": "d0644fdadd10eff5a6b0d8e5cebff0ba42bec76ffaab3873d64e000e03f0839d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-monotoney-curve-type-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-solid-stroke-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1843,
+          "path": "src/registry/examples/echarts/ex-solid-stroke-echarts-line-chart.tsx",
+          "sha256": "06cc6c3243de12564ff75bb84e1e64d0f5dc0620f06906f85a685806ff1e917d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-solid-stroke-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dashed-stroke-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1845,
+          "path": "src/registry/examples/echarts/ex-dashed-stroke-echarts-line-chart.tsx",
+          "sha256": "02b2acb5307b6117e55de8617f3499cd9b009505a764b03975e35e246248e208",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-animated-dashed-stroke-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1863,
+          "path": "src/registry/examples/echarts/ex-animated-dashed-stroke-echarts-line-chart.tsx",
+          "sha256": "64decd0a66e75c68f9b07a0877ef9d31b246c445d72c5f16980c834fef9806a8",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-desktop-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1940,
+          "path": "src/registry/examples/echarts/ex-glowing-desktop-echarts-line-chart.tsx",
+          "sha256": "206ac8a79dcdb2aff9baf8bcde5f3959e2ba495d78e82b0195640c8effe56653",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-desktop-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-mobile-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1870,
+          "path": "src/registry/examples/echarts/ex-glowing-mobile-echarts-line-chart.tsx",
+          "sha256": "b2bcee443e805a3c7bbd5e908a18aaa364f6a36200032a9f9cec6247cc50ff21",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-mobile-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-buffer-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2035,
+          "path": "src/registry/examples/echarts/ex-buffer-echarts-line-chart.tsx",
+          "sha256": "108ca2a2d47c1f24fdfd3c9d36684f9620884780307f4c19ce12aefa794d5c7f",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-buffer-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hover-reveal-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1752,
+          "path": "src/registry/examples/echarts/ex-hover-reveal-echarts-line-chart.tsx",
+          "sha256": "a632dd3ca1d99d16832ff041597a2f4bcff6ff0c722dac5695408278b1a026a1",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hover-reveal-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dot-default-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1643,
+          "path": "src/registry/examples/echarts/ex-dot-default-echarts-line-chart.tsx",
+          "sha256": "c3fad614d71906cc185c513955661de87f16016c66721e028fb35b0b5a471401",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dot-default-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dot-border-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1640,
+          "path": "src/registry/examples/echarts/ex-dot-border-echarts-line-chart.tsx",
+          "sha256": "e57459c81740cb5355e6545183d07ec879e96303e9248483619ad3df89bfd41f",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dot-border-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dot-colored-border-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1663,
+          "path": "src/registry/examples/echarts/ex-dot-colored-border-echarts-line-chart.tsx",
+          "sha256": "cfb8ad4838010c8fd7210f8e89dde8baa67f89ee2cd5f2faf4aec39282505520",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dot-colored-border-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dot-ping-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1634,
+          "path": "src/registry/examples/echarts/ex-dot-ping-echarts-line-chart.tsx",
+          "sha256": "588144548e5f2ff3830c9b1bcacec84e464fadb3485bd5610b0412532e19d431",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dot-ping-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-square-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1536,
+          "path": "src/registry/examples/echarts/ex-legend-square-echarts-line-chart.tsx",
+          "sha256": "5df0193ec819d6d103cc3aa730ff89b740b392716b8a1e64f8f15efaf158c54a",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-square-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-circle-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1536,
+          "path": "src/registry/examples/echarts/ex-legend-circle-echarts-line-chart.tsx",
+          "sha256": "4e74f6ae2618c79108ae2ec1709918790cd31ca67dea0bc9e819c75f78217b41",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-circle-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-circle-outline-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1551,
+          "path": "src/registry/examples/echarts/ex-legend-circle-outline-echarts-line-chart.tsx",
+          "sha256": "b5e5e048d5b6d284490b9962357e519646924cfaf3d6f63a2fb97d552ec720c6",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-circle-outline-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-rounded-square-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1551,
+          "path": "src/registry/examples/echarts/ex-legend-rounded-square-echarts-line-chart.tsx",
+          "sha256": "a0462cf931f847d364524d4e0dd2b63e7e59e68ff9684d9bcc8a0b72e7254b36",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-rounded-square-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-rounded-square-outline-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1566,
+          "path": "src/registry/examples/echarts/ex-legend-rounded-square-outline-echarts-line-chart.tsx",
+          "sha256": "f67c3c6fc5f940272fef62b10c64f85513c4ada26ba6258514253cfe4c7ee88f",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-rounded-square-outline-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-vertical-bar-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1547,
+          "path": "src/registry/examples/echarts/ex-legend-vertical-bar-echarts-line-chart.tsx",
+          "sha256": "ea29e913a995f9d57d22397f4f9c0757c938615a8369c9b9a856a83da7579cb3",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-vertical-bar-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-horizontal-bar-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1551,
+          "path": "src/registry/examples/echarts/ex-legend-horizontal-bar-echarts-line-chart.tsx",
+          "sha256": "f909ad747c9768467aacdd1e0e8f8c23276292547cf624106be46af53d2b7fb5",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-horizontal-bar-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1660,
+          "path": "src/registry/examples/echarts/ex-echarts-bar-chart.tsx",
+          "sha256": "52e2895c588e21eb30e01936450d3d02b09a0bfcc0d11c7d0419660126d5f9e5",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-buffer-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1665,
+          "path": "src/registry/examples/echarts/ex-buffer-echarts-bar-chart.tsx",
+          "sha256": "991c393d138487f07da1a85b664ccfa427f89be647b8da82089d9670681bd2bc",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-buffer-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1721,
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-bar-chart.tsx",
+          "sha256": "5d57aad1a8ff3735ac80c8eaa8bf94c5397c88f290ab1878cd9ebd2ccc2c9357",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1081,
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-bar-chart.tsx",
+          "sha256": "c7e31416c6023d823c378a6cd63ec6e6f13cba1f2c8ceadd20edf673bc9561e7",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-default-variant-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1629,
+          "path": "src/registry/examples/echarts/ex-default-variant-echarts-bar-chart.tsx",
+          "sha256": "310b4bda6cc819eaec84d5a40e8f69656580fb21cef784a6be78c836feafd2a9",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-default-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-expandable-variant-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1142,
+          "path": "src/registry/examples/echarts/ex-expandable-variant-echarts-bar-chart.tsx",
+          "sha256": "9f962ae0146bf0ec6fb87083d50695de67328530dea74512e6e73114030cd956",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-expandable-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-max-highlight-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1498,
+          "path": "src/registry/examples/echarts/ex-max-highlight-echarts-bar-chart.tsx",
+          "sha256": "55abb94ce3ae554ceda4cf8362eb17ff2dfbb638033e7097e56a3c97b90bdc12",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-max-highlight-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-blocks-variant-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1187,
+          "path": "src/registry/examples/echarts/ex-blocks-variant-echarts-bar-chart.tsx",
+          "sha256": "9837af35de06e6fccecb3d57dbc84fdd9e705918df055475b1f8d924654c7ce0",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-blocks-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hatched-variant-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1629,
+          "path": "src/registry/examples/echarts/ex-hatched-variant-echarts-bar-chart.tsx",
+          "sha256": "c98f4a7e3a5c0d1b627893b5e036dd86d8a4b63293fbb30138bed52b9f2fd14f",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hatched-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-duotone-variant-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1629,
+          "path": "src/registry/examples/echarts/ex-duotone-variant-echarts-bar-chart.tsx",
+          "sha256": "04c84061ade92c9c144473ecada21bcd04853e5007c66760dc0ce09a314d3ea8",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-duotone-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-duotone-reverse-variant-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1645,
+          "path": "src/registry/examples/echarts/ex-duotone-reverse-variant-echarts-bar-chart.tsx",
+          "sha256": "8ed5000ec460a35cf5abedd14bfb7684e76a1354aba4923f5b6cd772a51ec475",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-duotone-reverse-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-variant-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1631,
+          "path": "src/registry/examples/echarts/ex-gradient-variant-echarts-bar-chart.tsx",
+          "sha256": "0ecc02c807613372e3964cfcd54a3bfe9f3c89e748932422d3cc81bb1bc184fc",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-stripped-variant-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1631,
+          "path": "src/registry/examples/echarts/ex-stripped-variant-echarts-bar-chart.tsx",
+          "sha256": "ef822dfec97cea0ef8b73d89af296cf4e421a4b34da7e3b0db67b59f97a7b7e0",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-stripped-variant-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-stacked-type-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1597,
+          "path": "src/registry/examples/echarts/ex-stacked-type-echarts-bar-chart.tsx",
+          "sha256": "b190f20f483aa162e10b16018a7981fe690bcad0973018016ced7a1da7d31ec0",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-stacked-type-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-percent-type-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1597,
+          "path": "src/registry/examples/echarts/ex-percent-type-echarts-bar-chart.tsx",
+          "sha256": "28a7d45be3fb4370359f7d0a582dff55cdcf8ecd4164e21be501d092da37c9ff",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-percent-type-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-horizontal-layout-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1045,
+          "path": "src/registry/examples/echarts/ex-horizontal-layout-echarts-bar-chart.tsx",
+          "sha256": "6aaf83b76ac879d659c558e32158a2eccb742893b685a1578693958aed000432",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-horizontal-layout-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hover-highlight-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1635,
+          "path": "src/registry/examples/echarts/ex-hover-highlight-echarts-bar-chart.tsx",
+          "sha256": "0aa97961f294f1ec0394c4c2a5031489358150c8907d698684b7b5fe304f8d4d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-desktop-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1594,
+          "path": "src/registry/examples/echarts/ex-glowing-desktop-echarts-bar-chart.tsx",
+          "sha256": "37323860e2999a1cea4b31c11d09092bde8d0edca0c72c50cb1e19867331739d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-desktop-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-mobile-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1594,
+          "path": "src/registry/examples/echarts/ex-glowing-mobile-echarts-bar-chart.tsx",
+          "sha256": "733ee45ef3cbef6dec65357050d2334fc89d7cc4f5b46a397b231179b8b55549",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-mobile-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-tooltip-default-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1577,
+          "path": "src/registry/examples/echarts/ex-tooltip-default-echarts-bar-chart.tsx",
+          "sha256": "e249d644b73fa799fc4ef71cbc02c76390adbcb03e274a0fc705f0cd49a63469",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-tooltip-default-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-tooltip-frosted-glass-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1583,
+          "path": "src/registry/examples/echarts/ex-tooltip-frosted-glass-echarts-bar-chart.tsx",
+          "sha256": "1e5796268990283db065b66db1289fcb6c6deab5c4aca212db14dc2cc4d0fa74",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-tooltip-frosted-glass-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-chart-config-default-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1642,
+          "path": "src/registry/examples/echarts/ex-chart-config-default-echarts-bar-chart.tsx",
+          "sha256": "e4aa69cf07c0a0975ae2d1a17afeba91ce35329bac6dd06a25f56cde0197c3c9",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-chart-config-default-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-chart-config-icons-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1651,
+          "path": "src/registry/examples/echarts/ex-chart-config-icons-echarts-bar-chart.tsx",
+          "sha256": "5715f5e8b4cdd12c5628fcb5c0bace04d7fdd96a0db70cafa26b8b50034cf139",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-chart-config-icons-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1865,
+          "path": "src/registry/examples/echarts/ex-echarts-composed-chart.tsx",
+          "sha256": "85eb311c7be2d33114ea276f36b20f2757085e0f191af31e3ef91c988faae568",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1833,
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-composed-chart.tsx",
+          "sha256": "16949b3706812597895ff983190357357b398a013d2c99d61036e2c7df364a9c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1300,
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-composed-chart.tsx",
+          "sha256": "dea53d53b54c8dd579f127e56107e006d19a0a4a34897420c7e500756d151771",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hatched-variant-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1686,
+          "path": "src/registry/examples/echarts/ex-hatched-variant-echarts-composed-chart.tsx",
+          "sha256": "9a515c10506f89f7a5b49d3b5128bc23b5c778aa863c794144e93677d8aa426b",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hatched-variant-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-duotone-variant-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1686,
+          "path": "src/registry/examples/echarts/ex-duotone-variant-echarts-composed-chart.tsx",
+          "sha256": "ed7dd804c17140a272d7e05ce9cf66d17166c3b53c3bbc6aa300e7c0f0dad6cd",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-duotone-variant-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-variant-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1687,
+          "path": "src/registry/examples/echarts/ex-gradient-variant-echarts-composed-chart.tsx",
+          "sha256": "111a8d8ae5251cededa1bd91db1d2d94a2bf4d7fa779fdbd8636ee85094c6962",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-stripped-variant-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1687,
+          "path": "src/registry/examples/echarts/ex-stripped-variant-echarts-composed-chart.tsx",
+          "sha256": "31ecda52f291bb79128c024c2d4fd552705410dc4cb366ef0947436b21b09ce9",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-stripped-variant-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dashed-stroke-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1691,
+          "path": "src/registry/examples/echarts/ex-dashed-stroke-echarts-composed-chart.tsx",
+          "sha256": "a2d5e5077f241dbae3e48f14588a07882c4772496f7d80a0ff904fdd40ad2f68",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-animated-dashed-stroke-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1700,
+          "path": "src/registry/examples/echarts/ex-animated-dashed-stroke-echarts-composed-chart.tsx",
+          "sha256": "5e6c8eb525c325f5cb818a97db414c474e36d3e0f61f3da784e67ceea32c7a67",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bump-curve-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1685,
+          "path": "src/registry/examples/echarts/ex-bump-curve-echarts-composed-chart.tsx",
+          "sha256": "febb61cca4baf721b21dcf76b1660b4184658d90922c3161a443f8cde69a9f5d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dots-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1765,
+          "path": "src/registry/examples/echarts/ex-dots-echarts-composed-chart.tsx",
+          "sha256": "41e3166c3c5b766df52e548135288eeaa977435dddc6758f93d5f13d2c86ac35",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dots-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hover-highlight-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1689,
+          "path": "src/registry/examples/echarts/ex-hover-highlight-echarts-composed-chart.tsx",
+          "sha256": "959846f28c79c795e693f5f979e6157786ae730373ef7215f88a9397a53728c2",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-echarts-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1729,
+          "path": "src/registry/examples/echarts/ex-glowing-echarts-composed-chart.tsx",
+          "sha256": "3bb373de61329155f7f4274b8de8b9ecdf009ac816241379c9b575af84f71202",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-echarts-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-echarts-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1566,
+          "path": "src/registry/examples/echarts/ex-echarts-radar-chart.tsx",
+          "sha256": "3a8ffad2bd8a87cd1c11dd6f3c904d5e790db0d41d16698bbcac67ae697688cc",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-echarts-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-lines-variant-echarts-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1520,
+          "path": "src/registry/examples/echarts/ex-lines-variant-echarts-radar-chart.tsx",
+          "sha256": "0a8663585269264c8c1790c1fcbb1ed2f711fee8a4b290a0aaf06350519640c4",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-lines-variant-echarts-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-circle-grid-echarts-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1531,
+          "path": "src/registry/examples/echarts/ex-circle-grid-echarts-radar-chart.tsx",
+          "sha256": "b90fd2a06c2a285c9703a92c053df6804d7a7dc4825459a57d5ceb59372e7ea2",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-circle-grid-echarts-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-echarts-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1694,
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-radar-chart.tsx",
+          "sha256": "331d8908b7e024842f3a19b6555aef3ce40c0ec5911aff5ec486d6da787f5474",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-echarts-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 996,
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-radar-chart.tsx",
+          "sha256": "6fd4e11726bd7a5901a62ac05ea98f49005e63ef07868d126d75ffeb0a78ef54",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1277,
+          "path": "src/registry/examples/echarts/ex-echarts-pie-chart.tsx",
+          "sha256": "8937f764d37ce9c1c184182a8c34050e2640424d5ea1dabef3a2cf111e4e9c6f",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1927,
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-pie-chart.tsx",
+          "sha256": "16a1b6d951b68d0da37e839712d821f7c6bb4ded7bd01ec7c47e3a0ffcbbe002",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-donut-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1337,
+          "path": "src/registry/examples/echarts/ex-donut-echarts-pie-chart.tsx",
+          "sha256": "20cbdede32a546be364f106ed443e4f54fa8da641cf7aa1b0be36b5e75b0ff45",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-donut-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-padded-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1429,
+          "path": "src/registry/examples/echarts/ex-padded-echarts-pie-chart.tsx",
+          "sha256": "bd92cb456dc6c138dc72cf1fd21f4a8d87b2c750b559038f35496ffd78e53ba5",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-padded-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-overlapping-padded-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1319,
+          "path": "src/registry/examples/echarts/ex-overlapping-padded-echarts-pie-chart.tsx",
+          "sha256": "1ae2c70f0a1d11f1c4ac60100268a7773c7e1a9b05fad62946abeabe10b79218",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-overlapping-padded-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-labels-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1418,
+          "path": "src/registry/examples/echarts/ex-labels-echarts-pie-chart.tsx",
+          "sha256": "2cb559a05cc8556fad8d05283ef1dd118e9e1819465f5450782e1256ce86f19d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-labels-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1314,
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-pie-chart.tsx",
+          "sha256": "cddc1110a5fb29621992d5771ed396550bae768a503797cee300440b85c024b6",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-outside-labels-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1391,
+          "path": "src/registry/examples/echarts/ex-outside-labels-echarts-pie-chart.tsx",
+          "sha256": "d84e6e2342db7bfe8f1e93d5eebfd264e504a530142022a9c47ff19f180f1018",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-outside-labels-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-echarts-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1343,
+          "path": "src/registry/examples/echarts/ex-echarts-radial-chart.tsx",
+          "sha256": "4f8d4574402b8a8a518ab4067f7158bda8febcb0a9d92e3575a2e8171812abfb",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-echarts-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-semi-variant-echarts-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1319,
+          "path": "src/registry/examples/echarts/ex-semi-variant-echarts-radial-chart.tsx",
+          "sha256": "85af42d906ed87c1f03424643394a8a549ed6c3060b704d05a54bb5cdba10162",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-semi-variant-echarts-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-echarts-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1866,
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-radial-chart.tsx",
+          "sha256": "a2e117514b6307daa08163538b87f4678cd396d54d3f481e9b1c7da39a61a775",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-echarts-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1314,
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-radial-chart.tsx",
+          "sha256": "23328977f9d8dc614cd9d118698a0d82870818a9a5ea33133c195eff86e95fd8",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2220,
+          "path": "src/registry/examples/echarts/ex-echarts-sankey-chart.tsx",
+          "sha256": "288eee88eaa22561a2f6a40c486abebd5053ae39de027df799fd6b13fa15f512",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3534,
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-sankey-chart.tsx",
+          "sha256": "367b831261a2bb8eb4597186f7cf585bed1f3be0b5d220ca6580dfb935e73a6d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1945,
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-sankey-chart.tsx",
+          "sha256": "e24dca356f02fa4cc40dedc457af9c505e827e3535a793f13f9c488ac430c703",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-solid-link-variant-echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2372,
+          "path": "src/registry/examples/echarts/ex-solid-link-variant-echarts-sankey-chart.tsx",
+          "sha256": "e42dbf7002f2fef6cf7e38700662967181edf2b1d8c9defc3be313ac28851a12",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-solid-link-variant-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-source-link-variant-echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2407,
+          "path": "src/registry/examples/echarts/ex-source-link-variant-echarts-sankey-chart.tsx",
+          "sha256": "7ea66594331829afe49d084aa41944593a4c26d11c32dbe0972204bd691c48e1",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-source-link-variant-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-labeled-nodes-echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2850,
+          "path": "src/registry/examples/echarts/ex-labeled-nodes-echarts-sankey-chart.tsx",
+          "sha256": "343ce71e24cc5a07fa387a1a86ecc618a0c99bf47f7f36f20ae40bb35d270edf",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-labeled-nodes-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-outside-labels-echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2399,
+          "path": "src/registry/examples/echarts/ex-outside-labels-echarts-sankey-chart.tsx",
+          "sha256": "c2f16307632dc5fd60eb2cee778019e19fffb8ebc39a9bdcd32b1a075190a54d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-outside-labels-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-solid-labeled-nodes-echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2874,
+          "path": "src/registry/examples/echarts/ex-solid-labeled-nodes-echarts-sankey-chart.tsx",
+          "sha256": "f2da358346e18754a968322723602d314fd8e179c7eb836687e0f900bb96901d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-solid-labeled-nodes-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1985,
+          "path": "src/registry/examples/recharts/ex-area-chart.tsx",
+          "sha256": "77cbad1281da6f09cbebfe74881bc5b1a299657c797738834422291af6e02914",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-brush-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2668,
+          "path": "src/registry/examples/recharts/ex-brush-area-chart.tsx",
+          "sha256": "444f88631b84f5fc84b42eac9c680463a552e33c311a5261883c4ea0ef9f4cb1",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-brush-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1989,
+          "path": "src/registry/examples/recharts/ex-gradient-colors-area-chart.tsx",
+          "sha256": "44ecc901e074c145967517a4a88b0f4ca7a16041e07e133320b41028b906765e",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-bump-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2012,
+          "path": "src/registry/examples/recharts/ex-gradient-colors-bump-area-chart.tsx",
+          "sha256": "1b5b09f09770f639af885b12d9c8f3f671457e5c046479c885cce708c16a04b4",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bump-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1333,
+          "path": "src/registry/examples/recharts/ex-loading-state-area-chart.tsx",
+          "sha256": "35179ddae544162fd7117268bc54b8d63168e31c5943e779b379245ec139ddf9",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-default-type-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1838,
+          "path": "src/registry/examples/recharts/ex-default-type-area-chart.tsx",
+          "sha256": "b3539d3bd44317b90f173d5c06a51270d447737e7d1432f5de9d08aad0255f2d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-default-type-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-stacked-type-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1838,
+          "path": "src/registry/examples/recharts/ex-stacked-type-area-chart.tsx",
+          "sha256": "5b8fc928617d155cfa3a85087c2a63f9b352d171c0b49caa245e7655e2288bfc",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-stacked-type-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-expanded-type-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1839,
+          "path": "src/registry/examples/recharts/ex-expanded-type-area-chart.tsx",
+          "sha256": "fd6eff1958122b72062f257b012a946930ebc186edb29a007dc82f8c6e2e2e2f",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-expanded-type-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bump-curve-type-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1957,
+          "path": "src/registry/examples/recharts/ex-bump-curve-type-area-chart.tsx",
+          "sha256": "e5c90c20bb8dc6ca24e25fd7eca1c39f10246015f1b21fb8e80e90f0fdf6329e",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-type-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-step-curve-type-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1957,
+          "path": "src/registry/examples/recharts/ex-step-curve-type-area-chart.tsx",
+          "sha256": "fd6b34b9a2e7c7b0a63b335f81a4b023df31bd058c773dba63acd762ce3e8fb0",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-step-curve-type-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-monotoney-curve-type-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1962,
+          "path": "src/registry/examples/recharts/ex-monotoney-curve-type-area-chart.tsx",
+          "sha256": "f50b90f2ba07079cba7452a30adee1a6586639f2206337129a1c3d95548cba9a",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-monotoney-curve-type-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-solid-stroke-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1981,
+          "path": "src/registry/examples/recharts/ex-solid-stroke-area-chart.tsx",
+          "sha256": "77bc3e7ed7fcce334268197cf6180c41a0c8096630d3db7218e3aadc3c631aa7",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-solid-stroke-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dashed-stroke-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1983,
+          "path": "src/registry/examples/recharts/ex-dashed-stroke-area-chart.tsx",
+          "sha256": "afb9e3d8e05c1adcb7bcfe7964c10b1c8c960c03b7cef5a64c73ca6ab85814d9",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-animated-dashed-stroke-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2001,
+          "path": "src/registry/examples/recharts/ex-animated-dashed-stroke-area-chart.tsx",
+          "sha256": "3494870c3075b41461b1b219e1f19067b7f4511f9e20b117aee085a0e12d1ebc",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-area-variant-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1921,
+          "path": "src/registry/examples/recharts/ex-gradient-area-variant-area-chart.tsx",
+          "sha256": "0b51990b547cc9a92fc32427d58077d40b02d55bb3a268e6a2bc26b90ef29f3c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-area-variant-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-reverse-area-variant-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1937,
+          "path": "src/registry/examples/recharts/ex-gradient-reverse-area-variant-area-chart.tsx",
+          "sha256": "77efe3d643a657b0734e6c78d39e51045343f98a069a769867c5045d5bcd9e4d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-reverse-area-variant-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-solid-area-variant-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1915,
+          "path": "src/registry/examples/recharts/ex-solid-area-variant-area-chart.tsx",
+          "sha256": "38c264c2765d3c5a0b7e4552064c1c445e01768d9db2cfa3ef0fc9b0b85d6806",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-solid-area-variant-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dotted-area-variant-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1917,
+          "path": "src/registry/examples/recharts/ex-dotted-area-variant-area-chart.tsx",
+          "sha256": "924739954e3da3741d5f9e9153c7ad6e4625c5af189a30f3b64bf51222b1d740",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dotted-area-variant-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-lines-area-variant-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1915,
+          "path": "src/registry/examples/recharts/ex-lines-area-variant-area-chart.tsx",
+          "sha256": "6d0b0f3120c014802c4c2a7e14364d00805e43ada0c45a31dfc3a478784dfaa4",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-lines-area-variant-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hatched-area-variant-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1919,
+          "path": "src/registry/examples/recharts/ex-hatched-area-variant-area-chart.tsx",
+          "sha256": "49287faf9b1fe5b765c06c5b1185a1b2e9ae92ff9c9a0017bc131d029ae7cf4d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hatched-area-variant-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1936,
+          "path": "src/registry/examples/recharts/ex-line-chart.tsx",
+          "sha256": "3d954380a83bfbcf041e0b0de627e0a0686e7a410f727d6228d86c475727701b",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dot-default-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1648,
+          "path": "src/registry/examples/recharts/ex-dot-default-line-chart.tsx",
+          "sha256": "600272dbb5d17ab8e55820b820a3d73e294ef5fa1810aed5ba8f74c06d097e7a",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dot-default-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dot-border-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1645,
+          "path": "src/registry/examples/recharts/ex-dot-border-line-chart.tsx",
+          "sha256": "a923adfda28b357e8a3b6d08bdb6281032c51ac2b70b97662a7a5f2e3861a353",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dot-border-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dot-colored-border-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1668,
+          "path": "src/registry/examples/recharts/ex-dot-colored-border-line-chart.tsx",
+          "sha256": "d448b8816dcdaf075ebb9e3ab3916058a175d9211911e155174b61fe5110624d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dot-colored-border-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1917,
+          "path": "src/registry/examples/recharts/ex-gradient-colors-line-chart.tsx",
+          "sha256": "b48b145d11adb1508dbad78b86f49b963ef157a00e25e1d3ace8a3886825036e",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-bump-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1942,
+          "path": "src/registry/examples/recharts/ex-gradient-colors-bump-line-chart.tsx",
+          "sha256": "b764e3341e9a7b93332d77e9edf4a9895e38a0e8371a749650f745b9d4bb27c4",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bump-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1284,
+          "path": "src/registry/examples/recharts/ex-loading-state-line-chart.tsx",
+          "sha256": "079a31e5c92a9171c7ce03d308d3246e66b021853ca2a5645ed5510f4976d27b",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bump-curve-type-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1908,
+          "path": "src/registry/examples/recharts/ex-bump-curve-type-line-chart.tsx",
+          "sha256": "1b09f607ba657b0699d3df48b228c93cc749b789c213945a18f28571ff71ba89",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-type-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-step-curve-type-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1908,
+          "path": "src/registry/examples/recharts/ex-step-curve-type-line-chart.tsx",
+          "sha256": "92e0327aa89cca6ade57bd3248e15be7f2c230c01b09d577a2d642d1a4c71046",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-step-curve-type-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-monotoney-curve-type-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1913,
+          "path": "src/registry/examples/recharts/ex-monotoney-curve-type-line-chart.tsx",
+          "sha256": "b7ba66cb71b4f35ba2ba402d6d539982521612b2183b6f577287306bb19af6f1",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-monotoney-curve-type-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-solid-stroke-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1849,
+          "path": "src/registry/examples/recharts/ex-solid-stroke-line-chart.tsx",
+          "sha256": "2d678ddef7e5db46a7f397ea5380a2d2f5290d625235a30bb005ffce2abd3bcb",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-solid-stroke-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dashed-stroke-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1851,
+          "path": "src/registry/examples/recharts/ex-dashed-stroke-line-chart.tsx",
+          "sha256": "6b3e5e1413a92090ebcbdeac0d352517f4e634ced3545430a26747e49fd3ab88",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-animated-dashed-stroke-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1869,
+          "path": "src/registry/examples/recharts/ex-animated-dashed-stroke-line-chart.tsx",
+          "sha256": "25eeae0e457b52c2c3510d852b345c645f9d7467845c92a26cdfea5eac02f92a",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-desktop-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1943,
+          "path": "src/registry/examples/recharts/ex-glowing-desktop-line-chart.tsx",
+          "sha256": "1f10e7d537cba2c3e9e07457319002dffcc8a3305bf0f552cf10c02e7f13ee74",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-desktop-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-mobile-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1873,
+          "path": "src/registry/examples/recharts/ex-glowing-mobile-line-chart.tsx",
+          "sha256": "8972ea1d246e56162acf1caa42113ab3121470e0cca93885355c137e7c9bff33",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-mobile-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-buffer-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2006,
+          "path": "src/registry/examples/recharts/ex-buffer-line-chart.tsx",
+          "sha256": "e57f8932a2400e7776b18c62663b4543a4868ef3c3bde88f3f2c644e45ff7080",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-buffer-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-dots-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1950,
+          "path": "src/registry/examples/recharts/ex-bg-dots-line-chart.tsx",
+          "sha256": "8905907fa1bde6cf27eab10bf62967bb362dab1558a20b2295559348334123ed",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-dots-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-grid-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1950,
+          "path": "src/registry/examples/recharts/ex-bg-grid-line-chart.tsx",
+          "sha256": "9d7c98e14e600c63d4e92e7bf87b6931a430dd3d52dcc1393b2b15032ddb15fe",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-grid-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-cross-hatch-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1957,
+          "path": "src/registry/examples/recharts/ex-bg-cross-hatch-line-chart.tsx",
+          "sha256": "a35d73bd031f7e8154c8e0c23e4928f2c2cddf41bb1aa0afd752aebd0e00f74f",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-cross-hatch-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-diagonal-lines-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1960,
+          "path": "src/registry/examples/recharts/ex-bg-diagonal-lines-line-chart.tsx",
+          "sha256": "991b68a3c4f318ce36fbf4c96904af9f0975adae2c0897e5d1c7eab3e4f13c27",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-diagonal-lines-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-plus-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1950,
+          "path": "src/registry/examples/recharts/ex-bg-plus-line-chart.tsx",
+          "sha256": "f6e5ade02274d607adc728dd99c13b7e5e2cfdd97f64b66f858418f4b8b5c3a6",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-plus-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-falling-triangles-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1963,
+          "path": "src/registry/examples/recharts/ex-bg-falling-triangles-line-chart.tsx",
+          "sha256": "ee2251511601fea1c2b6e0f3c893bebbbd65fd3f6d8cdbd7d5105e052fdcd9fc",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-falling-triangles-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-4-pointed-star-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1960,
+          "path": "src/registry/examples/recharts/ex-bg-4-pointed-star-line-chart.tsx",
+          "sha256": "55fff1a7a338b965c69acfc75d6b5e7a42cb424cd485d392fb8954194a1806e0",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-4-pointed-star-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-tiny-checkers-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1959,
+          "path": "src/registry/examples/recharts/ex-bg-tiny-checkers-line-chart.tsx",
+          "sha256": "510bbc0e9609d42f3866f918999e1f94b4ef5c3d6300b990e7769bfad31b0c9b",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-tiny-checkers-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-overlapping-circles-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1965,
+          "path": "src/registry/examples/recharts/ex-bg-overlapping-circles-line-chart.tsx",
+          "sha256": "5a1156ccbddb37edee7c58e9cb8792c3dc06927290a9068ca0ff0e4bab0637e9",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-overlapping-circles-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-wiggle-lines-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1958,
+          "path": "src/registry/examples/recharts/ex-bg-wiggle-lines-line-chart.tsx",
+          "sha256": "66657952c89be121cbf739373cd6e10dbb57b48ce546f2a502dcb9a28c7dbaf8",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-wiggle-lines-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bg-bubbles-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1953,
+          "path": "src/registry/examples/recharts/ex-bg-bubbles-line-chart.tsx",
+          "sha256": "777e59d718a4b5d7367b584867ea303377d70f8d076c1c4a72b6837ae702f28e",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bg-bubbles-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-buffer-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1683,
+          "path": "src/registry/examples/recharts/ex-buffer-bar-chart.tsx",
+          "sha256": "434d15bd8f7ac4cf4f94b4484fd2c3a6f1ec790ae15bd6821bad16a7c8b7233d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-buffer-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1675,
+          "path": "src/registry/examples/recharts/ex-bar-chart.tsx",
+          "sha256": "a44d0d6ec0179b3e12ac22e288f718fa65ebd7df6ec0686fe6e7cc9034b0de48",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1739,
+          "path": "src/registry/examples/recharts/ex-gradient-colors-bar-chart.tsx",
+          "sha256": "8dc358cf2250db24fc2a9a38026a57481c886e25e14054e3fcd5642b3a1dc64e",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1025,
+          "path": "src/registry/examples/recharts/ex-loading-state-bar-chart.tsx",
+          "sha256": "4994b88c518b6dd138d5bce90e2916a9a4d5ab456a1aa273a5572d12e30781e7",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-default-variant-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1647,
+          "path": "src/registry/examples/recharts/ex-default-variant-bar-chart.tsx",
+          "sha256": "1a00fb34d889c44923a37a54eabe0bdb3b4df99ed80ff5d2bb197d0783d3ea42",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-default-variant-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hatched-variant-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1647,
+          "path": "src/registry/examples/recharts/ex-hatched-variant-bar-chart.tsx",
+          "sha256": "8f38c37d2de9a36b8c8fb2baf4611b8de876aad1e44f2bfeb0aa0e16230b1e95",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hatched-variant-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-duotone-variant-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1647,
+          "path": "src/registry/examples/recharts/ex-duotone-variant-bar-chart.tsx",
+          "sha256": "a84c207aad303eda7a1e4a1c94a37d9fe1200cf164fe9b8b1b4b2424b3ce4203",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-duotone-variant-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-duotone-reverse-variant-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1663,
+          "path": "src/registry/examples/recharts/ex-duotone-reverse-variant-bar-chart.tsx",
+          "sha256": "83ce9c9a478ff0fe7856b9c183561883bc62f42608d6a951d4e178c2f26fde88",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-duotone-reverse-variant-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-variant-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1649,
+          "path": "src/registry/examples/recharts/ex-gradient-variant-bar-chart.tsx",
+          "sha256": "1e9175e7efd20409993ac2f728f31ceb328da58b96780b643f18ffc58666d538",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-stripped-variant-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1649,
+          "path": "src/registry/examples/recharts/ex-stripped-variant-bar-chart.tsx",
+          "sha256": "1697a769cede5021ee32c9edc58eb29a9a1b36514af39bb3a60f79523bf28594",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-stripped-variant-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-stacked-type-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1615,
+          "path": "src/registry/examples/recharts/ex-stacked-type-bar-chart.tsx",
+          "sha256": "007f0569d3f04a0c1b27a01e1f185b5d9f93c43760672fed80782618b2cf021e",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-stacked-type-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-percent-type-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1615,
+          "path": "src/registry/examples/recharts/ex-percent-type-bar-chart.tsx",
+          "sha256": "f859ec97a37c6c5e55d5584c61c1169b4495c5e3e34d38e624295b520036aea5",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-percent-type-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-horizontal-layout-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1066,
+          "path": "src/registry/examples/recharts/ex-horizontal-layout-bar-chart.tsx",
+          "sha256": "948dd959a654fcfee7dac12c9c472b88c976e1462f3f384348c24f684ff3c431",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-horizontal-layout-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hover-highlight-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1653,
+          "path": "src/registry/examples/recharts/ex-hover-highlight-bar-chart.tsx",
+          "sha256": "f7c25f1a681d2ea3750d0be0e3f7c8644182e257e09a84f3d80b1ed5bf917908",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-desktop-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1612,
+          "path": "src/registry/examples/recharts/ex-glowing-desktop-bar-chart.tsx",
+          "sha256": "c4ca207dcb84d502fa2a6995a26cbc4faba2b871f963e893997db3e170d93b47",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-desktop-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-mobile-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1612,
+          "path": "src/registry/examples/recharts/ex-glowing-mobile-bar-chart.tsx",
+          "sha256": "50a11d4aaf38a769963a6fa5afd2d29251612ea13a74042c28b19d3b116a171c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-mobile-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1871,
+          "path": "src/registry/examples/recharts/ex-composed-chart.tsx",
+          "sha256": "f9630d6e9b3760b0a9573d52415371d4cd6791acbd75ee082e0168bf1c03d059",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1822,
+          "path": "src/registry/examples/recharts/ex-gradient-colors-composed-chart.tsx",
+          "sha256": "c8ad1599b7a00f1af7912d0ea1254010830189f950e4292646c108899837d86b",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1318,
+          "path": "src/registry/examples/recharts/ex-loading-state-composed-chart.tsx",
+          "sha256": "76cc24aec2f2e809247ee051115a897bf89ddf2837b1ec6fd26586fef4800790",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hatched-variant-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1675,
+          "path": "src/registry/examples/recharts/ex-hatched-variant-composed-chart.tsx",
+          "sha256": "0b1adcb85b763c0a4e1159802afbb41eba9dae3555a12ed0b9b7b593b87ad35c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hatched-variant-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-duotone-variant-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1675,
+          "path": "src/registry/examples/recharts/ex-duotone-variant-composed-chart.tsx",
+          "sha256": "6215dc4dc45c6899a711f8693eb1709bcc89764834d6f5d3f4081d48f7cfe447",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-duotone-variant-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-variant-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1676,
+          "path": "src/registry/examples/recharts/ex-gradient-variant-composed-chart.tsx",
+          "sha256": "b8398e5b6a2cd26aa6e044b8907654dcae97118ba29597f8303b72d2a5dc8a9c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-stripped-variant-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1676,
+          "path": "src/registry/examples/recharts/ex-stripped-variant-composed-chart.tsx",
+          "sha256": "7fa7a6744f5806f5d3dc95d112fb3822e4a1292aa501bab3bb447a5cb8e9f56c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-stripped-variant-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dashed-stroke-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1680,
+          "path": "src/registry/examples/recharts/ex-dashed-stroke-composed-chart.tsx",
+          "sha256": "2ebc83d9dd92a68d377877a3f9a903ff879da546b17fc040ba04c81fb5af722f",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dashed-stroke-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-animated-dashed-stroke-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1689,
+          "path": "src/registry/examples/recharts/ex-animated-dashed-stroke-composed-chart.tsx",
+          "sha256": "5b34e946dbd7ee0400dd3b352f4ec1c7375e67f630aa4d2e6d2780025f7fd402",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-animated-dashed-stroke-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-bump-curve-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1674,
+          "path": "src/registry/examples/recharts/ex-bump-curve-composed-chart.tsx",
+          "sha256": "62bf444291998d8be52f5b530cc0ecffd8ddc5d27d845b860776558c4fb762d6",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-dots-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1745,
+          "path": "src/registry/examples/recharts/ex-dots-composed-chart.tsx",
+          "sha256": "c76c97f9f47e72b18ae86e00a985cd816b78908cbbf991021fb5c895c62b22d9",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-dots-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-hover-highlight-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1678,
+          "path": "src/registry/examples/recharts/ex-hover-highlight-composed-chart.tsx",
+          "sha256": "f8d3f90307b1cdd312be77d31d798b8fbfa8c514ef9bcce6d03caa58c68dc1f2",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-hover-highlight-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1718,
+          "path": "src/registry/examples/recharts/ex-glowing-composed-chart.tsx",
+          "sha256": "b3680ed91d6fd05c93f55e02bca7c4a6ea534ddcc0d77621c247d9e75c6b7cbd",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-composed-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1304,
+          "path": "src/registry/examples/recharts/ex-pie-chart.tsx",
+          "sha256": "3f74b33b28e5cbacd59ee4fe0be126c80c343933a58eb3eb74b48908b29f47bc",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1954,
+          "path": "src/registry/examples/recharts/ex-gradient-colors-pie-chart.tsx",
+          "sha256": "885317ff8a7a1008076b7cec93a442c1b82c67abd0fe0d4e1556abedc1613483",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-donut-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1364,
+          "path": "src/registry/examples/recharts/ex-donut-pie-chart.tsx",
+          "sha256": "9d4801a51f073ad23060c3c9b101cedabce1fce5ae0d9585818ca66cdd5e53a1",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-donut-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-padded-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1456,
+          "path": "src/registry/examples/recharts/ex-padded-pie-chart.tsx",
+          "sha256": "1313014dbaf65781665b83de261a3fb87d92bc4ae015d4b4f0fe8f6a97ae1ba8",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-padded-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-overlapping-padded-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1346,
+          "path": "src/registry/examples/recharts/ex-overlapping-padded-pie-chart.tsx",
+          "sha256": "d9bb2f725750f96ba1ba920014d1860a0a258db9986958fb7ec97832c8d05a91",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-overlapping-padded-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-labels-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1439,
+          "path": "src/registry/examples/recharts/ex-labels-pie-chart.tsx",
+          "sha256": "5567b9eeb108626ea8de5ece44145367e13b7838d4cbe765d074e46d3f881f65",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-labels-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1341,
+          "path": "src/registry/examples/recharts/ex-loading-state-pie-chart.tsx",
+          "sha256": "b8a6aa6185f90bbb4bd923edb112673bc88e016df3d013c1d8449216a273fc9b",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1385,
+          "path": "src/registry/examples/recharts/ex-glowing-pie-chart.tsx",
+          "sha256": "a7dff50d8ae2551980fa7173dbc6b40168a95800eb25fc6c542fcc598504c62a",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1370,
+          "path": "src/registry/examples/recharts/ex-radial-chart.tsx",
+          "sha256": "48260556f64c09fd975bbece296c028ea1ef7c85273ad4402e34a0b3bc824e13",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-semi-variant-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1346,
+          "path": "src/registry/examples/recharts/ex-semi-variant-radial-chart.tsx",
+          "sha256": "56d4129bc1bd94c39eb6fd79befe901701e4f56e7e2492fd0f40d528c9730531",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-semi-variant-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1864,
+          "path": "src/registry/examples/recharts/ex-gradient-colors-radial-chart.tsx",
+          "sha256": "731fca81289db0aad47baeb78e255a5dad8641738b9ebba078b5004ff8e3f5a9",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1341,
+          "path": "src/registry/examples/recharts/ex-loading-state-radial-chart.tsx",
+          "sha256": "b0514eb51a670058e1afb9868e06508487ba7391b77a407beb2dff26f34b01c6",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1566,
+          "path": "src/registry/examples/recharts/ex-radar-chart.tsx",
+          "sha256": "008948d6acae45a829d2e5525ce7c496e950b9232f5d2414e8af030418b9767d",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-lines-variant-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1520,
+          "path": "src/registry/examples/recharts/ex-lines-variant-radar-chart.tsx",
+          "sha256": "9e04929a218a8762a3a7584196a5f63c2a26fe487ec29c5cb48d391e53535241",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-lines-variant-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-circle-grid-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1531,
+          "path": "src/registry/examples/recharts/ex-circle-grid-radar-chart.tsx",
+          "sha256": "7392166b0134552ec0117bad429125dbfb437d81f0f981b6e5367ca9add4cd23",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-circle-grid-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1694,
+          "path": "src/registry/examples/recharts/ex-gradient-colors-radar-chart.tsx",
+          "sha256": "3292a09a7b8d817f5c05103480eafeb633f53f12ed7e67be3959e8b3b3af01c6",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1014,
+          "path": "src/registry/examples/recharts/ex-loading-state-radar-chart.tsx",
+          "sha256": "1ee328a838ca48ab19d493f8abc440266c7a07280fd9a1318186a93ab0cbbc52",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-glowing-radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1540,
+          "path": "src/registry/examples/recharts/ex-glowing-radar-chart.tsx",
+          "sha256": "c56872ff44c2b6ed091efcef34851fe96e0ea4a1eba54474f56e8b23348cbf04",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-glowing-radar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2261,
+          "path": "src/registry/examples/recharts/ex-sankey-chart.tsx",
+          "sha256": "232d6098019ef1edab08f5766b9345797e13a39b1f9d96495775892dfafac0f1",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-gradient-colors-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3575,
+          "path": "src/registry/examples/recharts/ex-gradient-colors-sankey-chart.tsx",
+          "sha256": "52129119270e19b47aadfa1775aa5c8af9089bd3fdb04f9c09214a52b757ee90",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-loading-state-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1992,
+          "path": "src/registry/examples/recharts/ex-loading-state-sankey-chart.tsx",
+          "sha256": "e6f55862f29fde7d14e0d8f88057b8165064f8b33d20c17c8089afa85c0e3d2e",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-loading-state-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-solid-link-variant-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2419,
+          "path": "src/registry/examples/recharts/ex-solid-link-variant-sankey-chart.tsx",
+          "sha256": "c68327f70a46b174d06278245cfcb7d33aacb1a5c47b866190c4064b5c8f5492",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-solid-link-variant-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-source-link-variant-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2454,
+          "path": "src/registry/examples/recharts/ex-source-link-variant-sankey-chart.tsx",
+          "sha256": "455b9f14ea792b98261349e720f5e9a930281d4c2d473923dee419a4874c88d6",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-source-link-variant-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-labeled-nodes-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2903,
+          "path": "src/registry/examples/recharts/ex-labeled-nodes-sankey-chart.tsx",
+          "sha256": "96430f04814c14b980ff7fa9b63566cd9abf140ccf0b03602a630b5f3b3c92ac",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-labeled-nodes-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-outside-labels-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2453,
+          "path": "src/registry/examples/recharts/ex-outside-labels-sankey-chart.tsx",
+          "sha256": "72245aca1a379a52e38419c95e3201c4598f319140909dbd4e66e98b703f8c2e",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-outside-labels-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-solid-labeled-nodes-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2932,
+          "path": "src/registry/examples/recharts/ex-solid-labeled-nodes-sankey-chart.tsx",
+          "sha256": "fc53557b14c5747f4b68f32a04e6edb71518ccb026b4104764f9963f7aa223d8",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-solid-labeled-nodes-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-tooltip-default-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1609,
+          "path": "src/registry/examples/recharts/ex-tooltip-default-bar-chart.tsx",
+          "sha256": "b9ddd154d5927052067bf23fb44b55c3a9ac50a1bb9ff5a812b3c8008c8339be",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-tooltip-default-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-tooltip-frosted-glass-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1620,
+          "path": "src/registry/examples/recharts/ex-tooltip-frosted-glass-bar-chart.tsx",
+          "sha256": "bbb295b7cc60c34060a0c1148298b986241a94fe7ae990e8282ac9e49aa58f7c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-tooltip-frosted-glass-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-square-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1565,
+          "path": "src/registry/examples/recharts/ex-legend-square-line-chart.tsx",
+          "sha256": "df1e645eae314ba2923cb01f28b1864a1e78a7cee8f1e5a6128773957d2340ab",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-square-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-circle-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1565,
+          "path": "src/registry/examples/recharts/ex-legend-circle-line-chart.tsx",
+          "sha256": "4c0850f75ffbfb08ca7b727d5d25f719aa8aebcc9ab814dc20e68138a3846f38",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-circle-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-circle-outline-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1580,
+          "path": "src/registry/examples/recharts/ex-legend-circle-outline-line-chart.tsx",
+          "sha256": "979569e4d3721c4690defc3cbdcc2380eaf96aa325e8bf7c9f96fd4ccfb1f57c",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-circle-outline-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-rounded-square-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1580,
+          "path": "src/registry/examples/recharts/ex-legend-rounded-square-line-chart.tsx",
+          "sha256": "812cb5c64e3ca95a034691cd4f8786073e74f32779adf34aa828c083f0f0071e",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-rounded-square-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-rounded-square-outline-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1595,
+          "path": "src/registry/examples/recharts/ex-legend-rounded-square-outline-line-chart.tsx",
+          "sha256": "32b784634d8a760be345c7db1895fd3df1ce8bbdca0d43a95edfab50fa0acb1a",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-rounded-square-outline-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-vertical-bar-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1576,
+          "path": "src/registry/examples/recharts/ex-legend-vertical-bar-line-chart.tsx",
+          "sha256": "4726bdc9dd43fe3ba5a826468c7c2ffb80789c0460d5dbbbc62331c2ff804f60",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-vertical-bar-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-legend-horizontal-bar-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1580,
+          "path": "src/registry/examples/recharts/ex-legend-horizontal-bar-line-chart.tsx",
+          "sha256": "e94173d0daf28ff4668d75140dbff6b1772dfc5bca45c59e0455cce787bc31c1",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-legend-horizontal-bar-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-chart-config-default-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1678,
+          "path": "src/registry/examples/recharts/ex-chart-config-default-bar-chart.tsx",
+          "sha256": "793c36a873261b2e4781567ee7e73591109b1ee5e1d23a406c9ad8cfdc429cd2",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-chart-config-default-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ex-chart-config-icons-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 1685,
+          "path": "src/registry/examples/recharts/ex-chart-config-icons-bar-chart.tsx",
+          "sha256": "5006632b5932cdef3866c351e7d35bc0ee0505a64e5d7546552f5bb85b31a002",
+          "target": null,
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ex-chart-config-icons-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "monospace-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 5343,
+          "path": "src/registry/blocks/recharts/b-monospace-bar-chart.tsx",
+          "sha256": "dedcf5fb6ef755392486d5e81bda231908027e7d99f84983fe37ab0c3292fabb",
+          "target": "components/evilcharts/blocks/monospace-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/monospace-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "hover-trace-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 6112,
+          "path": "src/registry/blocks/recharts/b-hover-trace-bar-chart.tsx",
+          "sha256": "db014a0c2e031d82dab11fa729f3234dbdd3cdc6ef76f6e52eb191e45d50bd22",
+          "target": "components/evilcharts/blocks/hover-trace-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/hover-trace-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "grid-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 5393,
+          "path": "src/registry/blocks/recharts/b-grid-bar-chart.tsx",
+          "sha256": "f06b17b55d0d571207d4a41f938e04e35c78f5a39587efebc836157455b825c7",
+          "target": "components/evilcharts/blocks/grid-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/grid-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "isometric-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 9359,
+          "path": "src/registry/blocks/recharts/b-isometric-bar-chart.tsx",
+          "sha256": "8afcee1261282629de5e2580741a6c10663fce9b33fba743b5c509f5b63b1e31",
+          "target": "components/evilcharts/blocks/isometric-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/isometric-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "latency-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 5220,
+          "path": "src/registry/blocks/echarts/b-latency-echarts-area-chart.tsx",
+          "sha256": "a7528e2d878b2a13060b5cead18c3701935b8be56f1dd869fb8ccc8890af7680",
+          "target": "components/evilcharts/blocks/latency-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/latency-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "portfolio-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 4028,
+          "path": "src/registry/blocks/echarts/b-portfolio-echarts-area-chart.tsx",
+          "sha256": "f12bd8b9faef3a71ae85915fba93b65c0eed50356a0c6dbe9bc67363cc5024b6",
+          "target": "components/evilcharts/blocks/portfolio-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/portfolio-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "benchmark-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3656,
+          "path": "src/registry/blocks/echarts/b-benchmark-echarts-area-chart.tsx",
+          "sha256": "fe95556cc175ca9bca0f14e120343e9eef351efb79bf961853e189adf333d07a",
+          "target": "components/evilcharts/blocks/benchmark-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/benchmark-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "audience-echarts-area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2653,
+          "path": "src/registry/blocks/echarts/b-audience-echarts-area-chart.tsx",
+          "sha256": "b6e988e26fffd5c3a9a1cbb8ec9d411e802fdd9d880f43664369dfd3308f92d3",
+          "target": "components/evilcharts/blocks/audience-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/audience-echarts-area-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "market-share-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3789,
+          "path": "src/registry/blocks/echarts/b-market-share-echarts-pie-chart.tsx",
+          "sha256": "6656193952b1e89b906907a5dd6608e0bbba94b0ddd57defad26548da1d9f641",
+          "target": "components/evilcharts/blocks/market-share-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/market-share-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "progress-rings-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3035,
+          "path": "src/registry/blocks/echarts/b-progress-rings-echarts-pie-chart.tsx",
+          "sha256": "37eadbc9fc8b6a2f015b0afd3a5bd2814fd3d48531adcd0ed964bc6cd52696ca",
+          "target": "components/evilcharts/blocks/progress-rings-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/progress-rings-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "budget-echarts-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3403,
+          "path": "src/registry/blocks/echarts/b-budget-echarts-radial-chart.tsx",
+          "sha256": "e45a86968ffc352a7ef3cd85576eb7ee6c3a67c9ec5c2ad600b20c0fffac938b",
+          "target": "components/evilcharts/blocks/budget-echarts-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/budget-echarts-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "ride-echarts-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 7363,
+          "path": "src/registry/blocks/echarts/b-ride-echarts-radial-chart.tsx",
+          "sha256": "95d883ee8cbcc567156c6ae8032145804a1e3c1289de749b3137760512a9eb86",
+          "target": "components/evilcharts/blocks/ride-echarts-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/ride-echarts-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "cache-tiers-echarts-radial-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3908,
+          "path": "src/registry/blocks/echarts/b-cache-tiers-echarts-radial-chart.tsx",
+          "sha256": "1445da7a5bdfbbfd1802a4b8653e746c42a766e045bec2cdd0aa17d1bf8b2f61",
+          "target": "components/evilcharts/blocks/cache-tiers-echarts-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/cache-tiers-echarts-radial-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "revenue-mix-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3019,
+          "path": "src/registry/blocks/echarts/b-revenue-mix-echarts-pie-chart.tsx",
+          "sha256": "700876fe0fa3bbc0f72ef7dc52b847f701425f7f439e34b3cec8bf59ea047e83",
+          "target": "components/evilcharts/blocks/revenue-mix-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/revenue-mix-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "reliability-score-echarts-pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3509,
+          "path": "src/registry/blocks/echarts/b-reliability-score-echarts-pie-chart.tsx",
+          "sha256": "eaf12142a1cc52f3713e0d02e54a081d682cd7d758697feba933aff0657c8f29",
+          "target": "components/evilcharts/blocks/reliability-score-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/reliability-score-echarts-pie-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "payouts-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3922,
+          "path": "src/registry/blocks/echarts/b-payouts-echarts-line-chart.tsx",
+          "sha256": "9ec5eed4b891029d5c9b59577f334390611ebfad5af182d93e57a7ee51e0fa3d",
+          "target": "components/evilcharts/blocks/payouts-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/payouts-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "shipments-echarts-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3727,
+          "path": "src/registry/blocks/echarts/b-shipments-echarts-line-chart.tsx",
+          "sha256": "b32e830d4ee00503efcd80c4ffedc61e64deaeae0fade65ab129f609dbd47570",
+          "target": "components/evilcharts/blocks/shipments-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/shipments-echarts-line-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "grid-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3095,
+          "path": "src/registry/blocks/echarts/b-grid-echarts-bar-chart.tsx",
+          "sha256": "92ecce34b31e98437a7af309888f4ad4b4a24ab26fa8834ceac2d551c4329922",
+          "target": "components/evilcharts/blocks/grid-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/grid-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "monospace-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3240,
+          "path": "src/registry/blocks/echarts/b-monospace-echarts-bar-chart.tsx",
+          "sha256": "246a8fb09aae6fd7eb7dff930f837b249fc1ea5eef1896eb4fa26afd4026fb1a",
+          "target": "components/evilcharts/blocks/monospace-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/monospace-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "peak-echarts-bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 2848,
+          "path": "src/registry/blocks/echarts/b-peak-echarts-bar-chart.tsx",
+          "sha256": "cfcade5884ee78865195ca02253eb6457866229553ca6e010e0a78306c8b975e",
+          "target": "components/evilcharts/blocks/peak-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/peak-echarts-bar-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "allocation-echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3398,
+          "path": "src/registry/blocks/echarts/b-allocation-echarts-sankey-chart.tsx",
+          "sha256": "582a49da9044f3678043db85276a5b658e3aabc440f26839fadc6bfc5d0b8e10",
+          "target": "components/evilcharts/blocks/allocation-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/allocation-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "pipeline-echarts-sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3280,
+          "path": "src/registry/blocks/echarts/b-pipeline-echarts-sankey-chart.tsx",
+          "sha256": "0acfe4f2af8497142197b44251a301659606cd0038169db63fd0635155e1e66a",
+          "target": "components/evilcharts/blocks/pipeline-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://evilcharts.com/r/pipeline-echarts-sankey-chart.json?raw=1",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    }
+  ],
+  "library": "evilcharts",
+  "name": "EvilCharts",
+  "schemaVersion": 1,
+  "snapshotMode": "full-registry-source",
+  "sourceUrl": "https://evilcharts.com/",
+  "status": "installed",
+  "unavailableItemCount": 0
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-hover-reveal-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1752,
+      "path": "src/registry/examples/echarts/ex-hover-reveal-echarts-line-chart.tsx",
+      "sha256": "a632dd3ca1d99d16832ff041597a2f4bcff6ff0c722dac5695408278b1a026a1",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-hover-reveal-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

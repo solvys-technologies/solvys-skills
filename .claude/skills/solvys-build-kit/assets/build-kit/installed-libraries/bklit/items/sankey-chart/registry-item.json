@@ -1,0 +1,68 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/event@4.0.1-alpha.0",
+    "@visx/gradient@4.0.1-alpha.0",
+    "@visx/pattern@4.0.1-alpha.0",
+    "@visx/responsive@4.0.1-alpha.0",
+    "@visx/sankey@4.0.1-alpha.0",
+    "d3-sankey",
+    "motion"
+  ],
+  "description": "A flow diagram for visualizing data transfers between nodes",
+  "name": "sankey-chart",
+  "registryDependencies": [
+    "@bklit/chart-animation",
+    "@bklit/utils",
+    "@bklit/chart-utils",
+    "@bklit/chart-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7221,
+      "path": "src/charts/sankey/sankey-chart.tsx",
+      "sha256": "36d668a32b372d90666d8dce214f27f60050f45d1c4166db2570308d89ec60d2",
+      "target": "components/charts/sankey/sankey-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2720,
+      "path": "src/charts/sankey/sankey-context.tsx",
+      "sha256": "b627559020594d453a29eac0cd92baef128698013e192195f591519322238493",
+      "target": "components/charts/sankey/sankey-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 11594,
+      "path": "src/charts/sankey/sankey-node.tsx",
+      "sha256": "19a23055364682eb8051c6bb9e261f0b8e540294d3efb679fc3c4f33a5691952",
+      "target": "components/charts/sankey/sankey-node.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 9792,
+      "path": "src/charts/sankey/sankey-link.tsx",
+      "sha256": "3490040783f0ac9d4ba2f538bc62491d8b8c03d9d61b0d79a2ce14a35be7dce5",
+      "target": "components/charts/sankey/sankey-link.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4322,
+      "path": "src/charts/sankey/sankey-tooltip.tsx",
+      "sha256": "a5f127dba026745be0475485d591e7c8c145953b875bdd74ebbae645a10f1089",
+      "target": "components/charts/sankey/sankey-tooltip.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 536,
+      "path": "src/charts/sankey/index.ts",
+      "sha256": "5a75d9c471b00a2200a991289a8bcadbcb53c7ab03c70fa87d1d4977cd8047f6",
+      "target": "components/charts/sankey/index.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/sankey-chart.json",
+  "status": "installed",
+  "title": "Sankey Diagram",
+  "type": "registry:component"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Determinate progress as a line or circle via the type prop; solid or gradient appearance, value/max with animated fill",
+  "name": "progress",
+  "shippedFiles": [
+    {
+      "bytes": 8264,
+      "path": "registry/ui/progress.tsx",
+      "sha256": "0937e3da30d037cca15b7776fa85abd340ba1f30920b5440cb7540313b9552a4",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/progress.json",
+  "title": "Progress",
+  "type": "registry:ui"
+}

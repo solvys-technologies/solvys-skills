@@ -1,0 +1,45 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Copy-button style swap with blur, opacity and scale.",
+  "name": "action-swap-blur",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 972,
+      "path": "components/motion/action-swap-blur.tsx",
+      "sha256": "d7addaa4261dec1f29aee938e0b444225d6da71d7d096da43c06b4a3fc2ce302",
+      "target": "@components/motion/action-swap-blur.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10329,
+      "path": "components/motion/action-swap.tsx",
+      "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+      "target": "@components/motion/action-swap.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/action-swap-blur.json",
+  "title": "Action Swap Blur",
+  "type": "registry:component"
+}

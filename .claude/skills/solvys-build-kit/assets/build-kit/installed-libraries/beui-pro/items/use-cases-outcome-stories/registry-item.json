@@ -1,0 +1,42 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A centered outcome-led composition with three gently offset stories, calm abstract portraits, practical value, and lightweight calls to action.",
+  "name": "use-cases-outcome-stories",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 8265,
+      "path": "components/premium/use-cases/use-cases-outcome-stories.tsx",
+      "sha256": "45c063c07873efc46b38db0c2861317ef1456032c37337b82b55f5aacf9ad154",
+      "target": "@components/premium/use-cases/use-cases-outcome-stories.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/use-cases-outcome-stories.json",
+  "title": "Outcome stories",
+  "type": "registry:block"
+}

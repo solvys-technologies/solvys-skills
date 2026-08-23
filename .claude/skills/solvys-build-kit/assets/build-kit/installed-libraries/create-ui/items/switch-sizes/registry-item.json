@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-sizes",
+  "registryDependencies": [
+    "switch"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 287,
+      "path": "registry/examples/switch-sizes.tsx",
+      "sha256": "9ba8483242a82e51220eb3f189e3ec165f4125ee8fed8e58f70e4dc78f82b259",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-sizes.json",
+  "title": "Switch Sizes",
+  "type": "registry:example"
+}

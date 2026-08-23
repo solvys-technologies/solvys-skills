@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "hero-with-image-and-scales",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/hero-with-image-and-scales.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

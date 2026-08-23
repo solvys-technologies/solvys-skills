@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Drag the thumb to the end to confirm an action; release early to spring back.",
+  "name": "slide-action-button",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 5545,
+      "path": "components/motion/slide-action-button.tsx",
+      "sha256": "2ca10b54babb9d642fcc0dec3e415ccbc1d52be38f8ecd0d2c58ec45c0a2a4ed",
+      "target": "@components/motion/slide-action-button.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/slide-action-button.json",
+  "title": "Animated CTA Buttons Slide Action Button",
+  "type": "registry:component"
+}

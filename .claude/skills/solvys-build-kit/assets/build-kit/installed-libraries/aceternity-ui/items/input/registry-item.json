@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "input",
+  "shippedFiles": [
+    {
+      "bytes": 2015,
+      "path": "components/ui/input.tsx",
+      "sha256": "07d015c40c7ea00c108df95dc80d50c52c74aafe900ec48f7ed33058ade5fe6e",
+      "target": "components/ui/input.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/input.json",
+  "title": "Input",
+  "type": "registry:ui"
+}

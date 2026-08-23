@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-demo-pro",
+  "registryDependencies": [
+    "avatar",
+    "button",
+    "dropdown-menu",
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3614,
+      "path": "registry/examples/dropdown-menu-demo-pro.tsx",
+      "sha256": "2e311f9b1aba016c01c1d41925f6dc6e4af64d13fc660d3d08258a66e0b33793",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-demo-pro.json",
+  "title": "Dropdown Menu Demo (Pro)",
+  "type": "registry:example"
+}

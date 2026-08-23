@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Compact icon actions that expand into labeled controls on hover or focus with shared layout motion.",
+  "name": "expandable-action-bar",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 10376,
+      "path": "components/motion/expandable-action-bar.tsx",
+      "sha256": "d183a4554611ec6ef743a1bdd96c60ef71acb78b458f08e974b5580acf8e8909",
+      "target": "@components/motion/expandable-action-bar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/expandable-action-bar.json",
+  "title": "Expandable Action Bar",
+  "type": "registry:block"
+}

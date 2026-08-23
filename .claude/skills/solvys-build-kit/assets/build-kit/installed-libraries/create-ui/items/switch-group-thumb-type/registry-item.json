@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-group-thumb-type",
+  "registryDependencies": [
+    "switch-group",
+    "switch",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1124,
+      "path": "registry/examples/switch-group-thumb-type.tsx",
+      "sha256": "a45982a66a69dbf89b13834c793c80b5f0f52fe05ae6b3e5b89a4d3faadc268e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-group-thumb-type.json",
+  "title": "Switch Group Thumb Type",
+  "type": "registry:example"
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A mixed attachment workspace with a dropzone, staggered file and image rows, animated upload, success, failure, retry and removal feedback, shared-layout image previews, and an audio waveform.",
+  "name": "attachment-upload",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 32691,
+      "path": "components/motion/attachment-upload.tsx",
+      "sha256": "678e777dd4c8addbd19773559f1e38fdd0e65f1f77c1fbdc50ac0e1d2a6186ba",
+      "target": "@components/motion/attachment-upload.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6721,
+      "path": "components/motion/tooltip.tsx",
+      "sha256": "63a38fbdf67151c91c05265fe4efb23c0489d3b19a2b05f8befa59d42427028e",
+      "target": "@components/motion/tooltip.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/attachment-upload.json",
+  "title": "File Upload Attachment Upload",
+  "type": "registry:block"
+}

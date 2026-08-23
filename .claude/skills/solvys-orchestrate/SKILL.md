@@ -5,6 +5,8 @@ description: Multi-track orchestration planner for parallel agent sessions. Use 
 
 # Solvys Orchestrate -- Multi-Track Sprint Planner
 
+work freely, work with an open mind, and explore all possible options; never jump to conclusions at the second or third blocker. Be innovative, take inventory of your skills
+
 ## Refresh System Contract
 
 Plan mode auto-selects this skill for multi-track, parallel, long-running, or
@@ -30,9 +32,9 @@ integrator before review or deployment.
 Read
 `/solvys-cao/references/refresh-system.md`.
 
-## Solvys Ponytail Chain
+## Solvys Ponytail Ladder
 
-- After reading repo truth and tracing the real flow, run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
+The Solvys Ponytail Ladder is mandatory before implementation. Read and enforce `factory/canon/ponytail-ladder.md`, then run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
 - Keep OSS-first pragmatic: adopt OSS only when license, maintenance, security, runtime fit, and integration cost beat owning custom code.
 - Backend tracks start from the proven project stack and default to Fly.io,
   Supabase, Cloudflare, Vercel, and PostHog in their recorded roles. Add another
@@ -296,6 +298,32 @@ Every brief MUST preserve searchable identity. Issue titles become
 - **Return path**:
 - **Capacity and resource budget**: default ceilings | recorded sprint override
 - **Closure condition**:
+
+## User Testing Inheritance
+
+Every implementation track receives a compact current-task package before dispatch. Do not send a generic transcript.
+
+- **Canonical Cabinet specification map path and SHA-256**: physical file in the project's Codex Cabinet documentation
+- **Technical codebase specification map path and SHA-256**: physical file in the owning internal, external, or exported codebase folder
+- **Shared specification revision and integrity-link ID**:
+- **Parent client objective ID**:
+- **Parent full user journey ID**:
+- **Exact task sub-journey ID**:
+- **Inherited acceptance criterion IDs**:
+- **Inherited validation gate IDs**:
+- **Authoritative resource IDs and locations**:
+- **Current progress revision**:
+- **Required regression journey IDs**:
+- **Test-data boundary**:
+- **Approval posture**: full for routine implementation, testing, debugging, restart, and validation
+- **Genuine human-only gates**: new secret, MFA or consent, billing or paid commitment, client decision, rights, or irreversible external action; include the smallest human action and continue safe work
+- **Required skills**: `$solvys-audit`, `$solvys-user-testing`
+- **Acceptance branch**:
+- **Next action**:
+
+Run the user-testing context validator before ordinary implementation. Reject a missing physical copy, pointer-only custody, stale revision, digest drift, incomplete lineage, a separate sprint completion criterion, or an avoidable approval wait.
+
+The worker reports only `ready-for-orchestrator-acceptance`. The orchestrator owns the completion decision and must validate the user-testing record against both specification maps, the inherited sub-journey, and the full regression set. A final message, local test, commit, PR, or deployment cannot bypass that gate.
 
 ## Scope -- Included
 

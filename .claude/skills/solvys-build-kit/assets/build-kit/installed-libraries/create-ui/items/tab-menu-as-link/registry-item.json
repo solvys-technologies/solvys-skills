@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-as-link",
+  "registryDependencies": [
+    "tab-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1036,
+      "path": "registry/examples/tab-menu-as-link.tsx",
+      "sha256": "469293e1845471500d97e07a14a0fa70fd26626700809a5c00b8bfa5f9e58b93",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-as-link.json",
+  "title": "TabMenu As Link",
+  "type": "registry:example"
+}

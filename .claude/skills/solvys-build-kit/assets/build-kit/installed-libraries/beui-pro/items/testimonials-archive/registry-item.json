@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A 'hall of fame' wall of pinned index cards with polaroid portraits, REF codes, monospace notes, and a dashed 'join the archive' CTA.",
+  "name": "testimonials-archive",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 6398,
+      "path": "components/premium/testimonials/testimonials-archive.tsx",
+      "sha256": "5458688ad9c672baa16a72987df967fe92a3a2fba58950248b9338b068bf1b3c",
+      "target": "@components/premium/testimonials/testimonials-archive.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/testimonials-archive.json",
+  "title": "Archive wall",
+  "type": "registry:block"
+}

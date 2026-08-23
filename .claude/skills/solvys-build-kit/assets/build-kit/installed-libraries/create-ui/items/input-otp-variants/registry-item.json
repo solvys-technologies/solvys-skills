@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-otp-variants",
+  "registryDependencies": [
+    "input-otp",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1416,
+      "path": "registry/examples/input-otp-variants.tsx",
+      "sha256": "28303d277ef3268439513586f45970c5f2a715a411646c33858cb9edc5595a70",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-otp-variants.json",
+  "title": "Input OTP Variants",
+  "type": "registry:example"
+}

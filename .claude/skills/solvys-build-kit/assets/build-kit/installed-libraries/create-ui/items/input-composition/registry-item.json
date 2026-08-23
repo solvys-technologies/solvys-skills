@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-composition",
+  "registryDependencies": [
+    "button",
+    "input",
+    "select"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 981,
+      "path": "registry/examples/input-composition.tsx",
+      "sha256": "4fe6194ea505f953486e70107b3b0c2f598956564688c4337caf0d782e0b26c6",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-composition.json",
+  "title": "Input Composition",
+  "type": "registry:example"
+}

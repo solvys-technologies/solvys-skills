@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-hatched-area-variant-area-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1919,
+      "path": "src/registry/examples/recharts/ex-hatched-area-variant-area-chart.tsx",
+      "sha256": "49287faf9b1fe5b765c06c5b1185a1b2e9ae92ff9c9a0017bc131d029ae7cf4d",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-hatched-area-variant-area-chart.json?raw=1",
+  "type": "registry:block"
+}

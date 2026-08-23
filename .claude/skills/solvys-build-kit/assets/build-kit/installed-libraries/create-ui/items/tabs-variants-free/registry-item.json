@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-variants-free",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 895,
+      "path": "registry/examples/tabs-variants-free.tsx",
+      "sha256": "80b4ff5e2e57a318eedf68f348ca3bc3c0b2cfb96c7aa71511e6187f2d300c2b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-variants-free.json",
+  "title": "Tabs Variants (Free)",
+  "type": "registry:example"
+}

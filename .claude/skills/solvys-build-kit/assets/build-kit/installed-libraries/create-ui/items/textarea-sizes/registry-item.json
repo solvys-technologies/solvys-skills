@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "textarea-sizes",
+  "registryDependencies": [
+    "field",
+    "textarea"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 796,
+      "path": "registry/examples/textarea-sizes.tsx",
+      "sha256": "1b272b61823e3ce1cc2382a8ef811549fb2d3bc5ea73f74255a777342cb0e190",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/textarea-sizes.json",
+  "title": "Textarea Sizes",
+  "type": "registry:example"
+}

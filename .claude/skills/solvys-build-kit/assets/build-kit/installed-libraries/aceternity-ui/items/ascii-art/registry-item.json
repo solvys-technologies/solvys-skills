@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "ascii-art",
+  "shippedFiles": [
+    {
+      "bytes": 14100,
+      "path": "components/ui/ascii-art.tsx",
+      "sha256": "6d5c526aafc3b87ce0447b91a7c73cd7bca0b4d3f5c652ab481c412653827baa",
+      "target": "components/ui/ascii-art.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/ascii-art.json",
+  "title": "Ascii Art",
+  "type": "registry:ui"
+}

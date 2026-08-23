@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-colors-radar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-radar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1694,
+      "path": "src/registry/examples/recharts/ex-gradient-colors-radar-chart.tsx",
+      "sha256": "3292a09a7b8d817f5c05103480eafeb633f53f12ed7e67be3959e8b3b3af01c6",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-radar-chart.json?raw=1",
+  "type": "registry:block"
+}

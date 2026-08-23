@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "accordion-appearance-card",
+  "registryDependencies": [
+    "accordion"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5748,
+      "path": "registry/examples/accordion-appearance-card.tsx",
+      "sha256": "92306fd18b4742cc88b344425218ec3939c73e929c067bc0067aab8776a7f2e1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/accordion-appearance-card.json",
+  "title": "Accordion Appearance Card",
+  "type": "registry:example"
+}

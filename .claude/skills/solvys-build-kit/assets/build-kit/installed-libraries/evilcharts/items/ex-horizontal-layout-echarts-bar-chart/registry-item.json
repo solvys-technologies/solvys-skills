@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-horizontal-layout-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1045,
+      "path": "src/registry/examples/echarts/ex-horizontal-layout-echarts-bar-chart.tsx",
+      "sha256": "6aaf83b76ac879d659c558e32158a2eccb742893b685a1578693958aed000432",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-horizontal-layout-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

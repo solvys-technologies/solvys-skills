@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-default-variant-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1647,
+      "path": "src/registry/examples/recharts/ex-default-variant-bar-chart.tsx",
+      "sha256": "1a00fb34d889c44923a37a54eabe0bdb3b4df99ed80ff5d2bb197d0783d3ea42",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-default-variant-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

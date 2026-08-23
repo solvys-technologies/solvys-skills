@@ -1,0 +1,4783 @@
+{
+  "accessGatedItemCount": 0,
+  "appBlockRegistry": {
+    "appBlockItemCount": 26,
+    "appBlockNames": [
+      "infinite-masonry",
+      "notification-stack",
+      "knockout-wheel",
+      "knockout-bracket",
+      "availability-scheduler",
+      "swap",
+      "dynamic-island",
+      "command-palette",
+      "expandable-action-bar",
+      "overflow-actions",
+      "expandable-tabs",
+      "morphing-tabs",
+      "swipeable-list",
+      "attachment-upload",
+      "file-upload",
+      "prediction-market",
+      "wallet-card",
+      "otp-input",
+      "signup-form",
+      "bloom-menu",
+      "feedback-widget",
+      "not-found-glitch",
+      "not-found-magnetic",
+      "not-found-spotlight",
+      "not-found-stacked",
+      "not-found-terminal"
+    ],
+    "excludedWebsiteBlockCount": 0,
+    "excludedWebsiteBlockNames": [],
+    "path": "installed-registries/beui/app-blocks.json"
+  },
+  "autoUpdate": false,
+  "catalogItemCount": 103,
+  "catalogUrl": "https://beui.dev/r/registry.json",
+  "installedItemCount": 103,
+  "items": [
+    {
+      "fileCount": 4,
+      "name": "tilt-card",
+      "sourceFiles": [
+        {
+          "bytes": 2180,
+          "path": "components/motion/tilt-card.tsx",
+          "sha256": "7d54b0aba15f6c156abb9f5f8e7ecd0cfcf52c3dfbbaad78cfec79f269b36b77",
+          "target": "@components/motion/tilt-card.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/tilt-card.json",
+      "status": "installed",
+      "title": "Tilt Card",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "button-base",
+      "sourceFiles": [
+        {
+          "bytes": 5311,
+          "path": "components/motion/button/base.tsx",
+          "sha256": "2fe395feff1a12875b29de66b2582796500257d29763640dab3a2716952f9a1c",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/button-base.json",
+      "status": "installed",
+      "title": "Button Button",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 5,
+      "name": "button-stateful",
+      "sourceFiles": [
+        {
+          "bytes": 7020,
+          "path": "components/motion/button/stateful.tsx",
+          "sha256": "393fe5375c8b511f4d06cb0b67111cc1fb7cd1cb5864a16acc2b04d0a82ac58c",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5274,
+          "path": "components/motion/button/base.tsx",
+          "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/button-stateful.json",
+      "status": "installed",
+      "title": "Button Stateful Button",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 6,
+      "name": "button-magnetic",
+      "sourceFiles": [
+        {
+          "bytes": 737,
+          "path": "components/motion/button/magnetic.tsx",
+          "sha256": "371c75beeed8bae17831eeee13d50c5872771c5b870fe190cbd03758fbe15434",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1446,
+          "path": "components/motion/magnetic.tsx",
+          "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5274,
+          "path": "components/motion/button/base.tsx",
+          "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/button-magnetic.json",
+      "status": "installed",
+      "title": "Button Magnetic Button",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "hold-action-button",
+      "sourceFiles": [
+        {
+          "bytes": 6983,
+          "path": "components/motion/hold-action-button.tsx",
+          "sha256": "1d52c495df627b29eddc01baa932e5f39086934b00e03c39a5e5ad33d3b9d926",
+          "target": "@components/motion/hold-action-button.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/hold-action-button.json",
+      "status": "installed",
+      "title": "Animated CTA Buttons Hold Action Button",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "slide-action-button",
+      "sourceFiles": [
+        {
+          "bytes": 5545,
+          "path": "components/motion/slide-action-button.tsx",
+          "sha256": "2ca10b54babb9d642fcc0dec3e415ccbc1d52be38f8ecd0d2c58ec45c0a2a4ed",
+          "target": "@components/motion/slide-action-button.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/slide-action-button.json",
+      "status": "installed",
+      "title": "Animated CTA Buttons Slide Action Button",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "marquee",
+      "sourceFiles": [
+        {
+          "bytes": 2095,
+          "path": "components/motion/marquee.tsx",
+          "sha256": "ba60348bddcc9900fef11a75623384591d6f581a9c32624f0bbff7001cdc2e90",
+          "target": "@components/motion/marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/marquee.json",
+      "status": "installed",
+      "title": "Marquee",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "tabs",
+      "sourceFiles": [
+        {
+          "bytes": 5599,
+          "path": "components/motion/tabs.tsx",
+          "sha256": "f3c925e274b16140d27f52f1a5568133c624f795cf20909a3510fbdc337a27ca",
+          "target": "@components/motion/tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/tabs.json",
+      "status": "installed",
+      "title": "Tabs",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "switch",
+      "sourceFiles": [
+        {
+          "bytes": 3187,
+          "path": "components/motion/switch.tsx",
+          "sha256": "932a3db6cd4b867a4a6e5c3d90574b9c58f0c4ac953aa808ab04c8647e3f3dac",
+          "target": "@components/motion/switch.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/switch.json",
+      "status": "installed",
+      "title": "Switch",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "input",
+      "sourceFiles": [
+        {
+          "bytes": 6348,
+          "path": "components/motion/input.tsx",
+          "sha256": "7ffc9f21df85e47ed1818633524d61f82194f27bef0fce41c7fd2f4eaa59d2b5",
+          "target": "@components/motion/input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/input.json",
+      "status": "installed",
+      "title": "Input",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "select",
+      "sourceFiles": [
+        {
+          "bytes": 12858,
+          "path": "components/motion/select.tsx",
+          "sha256": "bd5d8b61fed8d8de17710b8c02343ca216f0f7b44965fce0414c08e8644cc512",
+          "target": "@components/motion/select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/select.json",
+      "status": "installed",
+      "title": "Select Select",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "select-morph",
+      "sourceFiles": [
+        {
+          "bytes": 11140,
+          "path": "components/motion/select-morph.tsx",
+          "sha256": "a628697f0cb5642d346f41c16248c4ebf39f09aba3c29ca9725a9f70433e2162",
+          "target": "@components/motion/select-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/select-morph.json",
+      "status": "installed",
+      "title": "Select Morph Select",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "checkbox",
+      "sourceFiles": [
+        {
+          "bytes": 4045,
+          "path": "components/motion/checkbox.tsx",
+          "sha256": "47747102783dcb9d5e8132b9fe5432c51ef48a7d573558f0d3372b139e68fba6",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/checkbox.json",
+      "status": "installed",
+      "title": "Checkbox",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "radio",
+      "sourceFiles": [
+        {
+          "bytes": 3913,
+          "path": "components/motion/radio.tsx",
+          "sha256": "71121f45ffa2b6327a893c6cbe516c9814437424544b2e428d3937ad3807e7f2",
+          "target": "@components/motion/radio.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/radio.json",
+      "status": "installed",
+      "title": "Radio Group",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "bottom-sheet",
+      "sourceFiles": [
+        {
+          "bytes": 7041,
+          "path": "components/motion/bottom-sheet.tsx",
+          "sha256": "58be370fd690c456e607bebf6265b5ffa0668fa107c1c13caac50a33505b7092",
+          "target": "@components/motion/bottom-sheet.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/bottom-sheet.json",
+      "status": "installed",
+      "title": "Bottom Sheet",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "pull-to-refresh",
+      "sourceFiles": [
+        {
+          "bytes": 14361,
+          "path": "components/motion/pull-to-refresh.tsx",
+          "sha256": "c97a6b5787015c1abf917e3ea91d0743c79e902add5f0af766c74e11ebada7e7",
+          "target": "@components/motion/pull-to-refresh.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/pull-to-refresh.json",
+      "status": "installed",
+      "title": "Pull to Refresh",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "shared-layout-bg",
+      "sourceFiles": [
+        {
+          "bytes": 4526,
+          "path": "components/motion/shared-layout-bg.tsx",
+          "sha256": "c90cea035804974a1110992ccaa765024693748df931d058267682ca068011ae",
+          "target": "@components/motion/shared-layout-bg.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/shared-layout-bg.json",
+      "status": "installed",
+      "title": "Shared Layout Background",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "bounce-sidebar",
+      "sourceFiles": [
+        {
+          "bytes": 8162,
+          "path": "components/motion/bounce-sidebar.tsx",
+          "sha256": "a07d8f1c188404c5fa4c946f02cfb6efbd71d5fe16a5da85432d8159d61514b6",
+          "target": "@components/motion/bounce-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/bounce-sidebar.json",
+      "status": "installed",
+      "title": "Bounce Sidebar",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "animated-sidebar",
+      "sourceFiles": [
+        {
+          "bytes": 30822,
+          "path": "components/motion/animated-sidebar.tsx",
+          "sha256": "3d56cdc5d955919a081935337b273a28d020f9dba2a61d8593d125322c9fa918",
+          "target": "@components/motion/animated-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4479,
+          "path": "components/motion/shared-layout-bg.tsx",
+          "sha256": "e6355b3b408d8cbe7855f61ca502d945eaeef867cbd9cfc070685aece079b9f6",
+          "target": "@components/motion/shared-layout-bg.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/animated-sidebar.json",
+      "status": "installed",
+      "title": "Animated Sidebar",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "preview-rail",
+      "sourceFiles": [
+        {
+          "bytes": 10915,
+          "path": "components/motion/preview-rail.tsx",
+          "sha256": "9576e63717648e5b0f25fbfbe2e61c2c7c82e6c686fe93ade9728fd1b8fac9e8",
+          "target": "@components/motion/preview-rail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/preview-rail.json",
+      "status": "installed",
+      "title": "Preview Rail",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "dock",
+      "sourceFiles": [
+        {
+          "bytes": 2889,
+          "path": "components/motion/dock.tsx",
+          "sha256": "736bbcbf858cf8413d3d4bd0cd4ea6d18f83fbc989754b3e61dad5771b603e18",
+          "target": "@components/motion/dock.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/dock.json",
+      "status": "installed",
+      "title": "Dock",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "tooltip",
+      "sourceFiles": [
+        {
+          "bytes": 6759,
+          "path": "components/motion/tooltip.tsx",
+          "sha256": "379999ab11131d8821bcf33cea591bbccb3df1c003dff0bd7a4f8dd255e0f548",
+          "target": "@components/motion/tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/tooltip.json",
+      "status": "installed",
+      "title": "Tooltip",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "context-menu",
+      "sourceFiles": [
+        {
+          "bytes": 21163,
+          "path": "components/motion/context-menu.tsx",
+          "sha256": "aa92a82cda421ab83354d309af28e4d7c953edef5a2034a99cf221d45deb32b5",
+          "target": "@components/motion/context-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/context-menu.json",
+      "status": "installed",
+      "title": "Animated Context Menu",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "popover",
+      "sourceFiles": [
+        {
+          "bytes": 17436,
+          "path": "components/motion/popover.tsx",
+          "sha256": "8eb5c05baa23ea935661324d0b8248080df0a9de4698109aad470ccfb5409eea",
+          "target": "@components/motion/popover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2223,
+          "path": "components/motion/popover-position.ts",
+          "sha256": "a31a9dc602243c3966aa1043cfd41dec5c13df1a52c847e745c88cbf00cb1f2e",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/popover.json",
+      "status": "installed",
+      "title": "Popover Gooey Popover",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "popover-morph",
+      "sourceFiles": [
+        {
+          "bytes": 8744,
+          "path": "components/motion/popover-morph.tsx",
+          "sha256": "abcaca574d36e310edc7ba03bb587b37ebd994a5b0aa78d94f4c4ba8d9e177ea",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2223,
+          "path": "components/motion/popover-position.ts",
+          "sha256": "a31a9dc602243c3966aa1043cfd41dec5c13df1a52c847e745c88cbf00cb1f2e",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/popover-morph.json",
+      "status": "installed",
+      "title": "Popover Morph Popover",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "morphing-modal",
+      "sourceFiles": [
+        {
+          "bytes": 4741,
+          "path": "components/motion/morphing-modal.tsx",
+          "sha256": "613bd2cfe140a8172a5f5e9d5fae3931232731c2b76aaf6314a7488dde0f851b",
+          "target": "@components/motion/morphing-modal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/morphing-modal.json",
+      "status": "installed",
+      "title": "Morphing Modal",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "center-morph-modal",
+      "sourceFiles": [
+        {
+          "bytes": 11713,
+          "path": "components/motion/center-morph-modal.tsx",
+          "sha256": "d941292dddba067974154ca38cedae01fd742c1fedf823520d2ffe3ab47d3513",
+          "target": "@components/motion/center-morph-modal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/center-morph-modal.json",
+      "status": "installed",
+      "title": "Center Morph Modal",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "chromatic-text-reveal",
+      "sourceFiles": [
+        {
+          "bytes": 6487,
+          "path": "components/motion/chromatic-text-reveal.tsx",
+          "sha256": "311383badd0d038306e28b3f13b0f1039c4d72faafe3480a3c9df2f39488089b",
+          "target": "@components/motion/chromatic-text-reveal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/chromatic-text-reveal.json",
+      "status": "installed",
+      "title": "Text Animation Dia Text Animation",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "text-reveal",
+      "sourceFiles": [
+        {
+          "bytes": 3380,
+          "path": "components/motion/text-reveal.tsx",
+          "sha256": "23497960b6da4dff003debcf37917f137ca9d3145ee55738c406033815378ca5",
+          "target": "@components/motion/text-reveal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/text-reveal.json",
+      "status": "installed",
+      "title": "Text Animation Text Reveal",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "text-shimmer",
+      "sourceFiles": [
+        {
+          "bytes": 784,
+          "path": "components/motion/text-shimmer.tsx",
+          "sha256": "9e616a70e5adb21ab503c1f080b2a9a7fd9ac6a1e236f424c825d85698ca0e04",
+          "target": "@components/motion/text-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 538,
+          "path": "lib/text-shimmer.ts",
+          "sha256": "02fca8d4ae0c0c593eb2253e56c141c1731912861fbf20a0a0b728af38a6c0b9",
+          "target": "@lib/text-shimmer.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/text-shimmer.json",
+      "status": "installed",
+      "title": "Text Animation Text Shimmer",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "text-cascade",
+      "sourceFiles": [
+        {
+          "bytes": 660,
+          "path": "components/motion/text-cascade.tsx",
+          "sha256": "e2db1d899e9e2e9653bcc263ae9a4eafc005918243a0ef453e307aa30e90426f",
+          "target": "@components/motion/text-cascade.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/text-cascade.json",
+      "status": "installed",
+      "title": "Text Animation Text Cascade",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "number-ticker",
+      "sourceFiles": [
+        {
+          "bytes": 5321,
+          "path": "components/motion/number-ticker.tsx",
+          "sha256": "c6af6e517effdc0d0fb5a1771a675927b5a657f4e5f7da5ba6b0af554a4b7b41",
+          "target": "@components/motion/number-ticker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/number-ticker.json",
+      "status": "installed",
+      "title": "Number Animation Number Ticker",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "animated-number",
+      "sourceFiles": [
+        {
+          "bytes": 1327,
+          "path": "components/motion/animated-number.tsx",
+          "sha256": "d3b02b6b5718218c1f56ce7620b704436663173144b2ce3af8189897302ef7c2",
+          "target": "@components/motion/animated-number.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/animated-number.json",
+      "status": "installed",
+      "title": "Number Animation Animated Number",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "animated-badge",
+      "sourceFiles": [
+        {
+          "bytes": 5914,
+          "path": "components/motion/animated-badge.tsx",
+          "sha256": "d4ef79f4ebed61965a3cca66a72df5e884db03a074bd710adf94b5f9777239ca",
+          "target": "@components/motion/animated-badge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/animated-badge.json",
+      "status": "installed",
+      "title": "Animated Badge",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "action-swap-cascade",
+      "sourceFiles": [
+        {
+          "bytes": 1008,
+          "path": "components/motion/action-swap-cascade.tsx",
+          "sha256": "deefdc582409126033342565607f2137ea4c1ab3a5e831f53d6587fd4075181c",
+          "target": "@components/motion/action-swap-cascade.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/action-swap-cascade.json",
+      "status": "installed",
+      "title": "Action Swap Cascade",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "action-swap-blur",
+      "sourceFiles": [
+        {
+          "bytes": 972,
+          "path": "components/motion/action-swap-blur.tsx",
+          "sha256": "d7addaa4261dec1f29aee938e0b444225d6da71d7d096da43c06b4a3fc2ce302",
+          "target": "@components/motion/action-swap-blur.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/action-swap-blur.json",
+      "status": "installed",
+      "title": "Action Swap Blur",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "action-swap-roll",
+      "sourceFiles": [
+        {
+          "bytes": 972,
+          "path": "components/motion/action-swap-roll.tsx",
+          "sha256": "c24ce68e09bca371b39e28277aa440b285eb0d4377077be582acbede47c32bc7",
+          "target": "@components/motion/action-swap-roll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/action-swap-roll.json",
+      "status": "installed",
+      "title": "Action Swap Roll",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "animated-toast-stack",
+      "sourceFiles": [
+        {
+          "bytes": 13916,
+          "path": "components/motion/animated-toast-stack.tsx",
+          "sha256": "a9033ebfe4f47db86fe5ff73e4d2ba621cc1f64741dff0b5c399257160ae135f",
+          "target": "@components/motion/animated-toast-stack.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/animated-toast-stack.json",
+      "status": "installed",
+      "title": "Animated Toast Stack",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "theme-toggle",
+      "sourceFiles": [
+        {
+          "bytes": 6774,
+          "path": "components/motion/theme-toggle.tsx",
+          "sha256": "c7e7edd22be7c64222eb4476b6054c8147299f83bf66af76d0580dd10698e923",
+          "target": "@components/motion/theme-toggle.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/theme-toggle.json",
+      "status": "installed",
+      "title": "Theme Toggle",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "bouncy-accordion",
+      "sourceFiles": [
+        {
+          "bytes": 8335,
+          "path": "components/motion/bouncy-accordion.tsx",
+          "sha256": "ef46845b4edd728025e46db0e12ad6354139290e9900d5cd769dcd9da2e20496",
+          "target": "@components/motion/bouncy-accordion.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/bouncy-accordion.json",
+      "status": "installed",
+      "title": "Bouncy Accordion",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "drawer",
+      "sourceFiles": [
+        {
+          "bytes": 2774,
+          "path": "components/motion/drawer.tsx",
+          "sha256": "7ab6f76a91508342fcae8e8c00b7d675314cabdfa42930116b54825fec346c77",
+          "target": "@components/motion/drawer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/drawer.json",
+      "status": "installed",
+      "title": "Drawer",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "smooth-scroll",
+      "sourceFiles": [
+        {
+          "bytes": 7908,
+          "path": "components/motion/smooth-scroll.tsx",
+          "sha256": "be7b791141b6b3208d54a43776e5dd3a21387c8db6d0f4873f32274ca4b93426",
+          "target": "@components/motion/smooth-scroll.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/smooth-scroll.json",
+      "status": "installed",
+      "title": "Scroll Animation Smooth Scroll",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "scroll-progress",
+      "sourceFiles": [
+        {
+          "bytes": 3389,
+          "path": "components/motion/scroll-progress.tsx",
+          "sha256": "6940c111228c8d2373880babad0094704d0ced5d2f5bebd8fdde25bc5dfc5ac9",
+          "target": "@components/motion/scroll-progress.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7861,
+          "path": "components/motion/smooth-scroll.tsx",
+          "sha256": "10b4c93b4fdda5345e30efc574c6b0eb965eaf749ca2f37ab234e787f8ab9ec7",
+          "target": "@components/motion/smooth-scroll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/scroll-progress.json",
+      "status": "installed",
+      "title": "Scroll Animation Scroll Progress",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "parallax",
+      "sourceFiles": [
+        {
+          "bytes": 2033,
+          "path": "components/motion/parallax.tsx",
+          "sha256": "60879a33ad2646df0ad77505d611ca1fed3cb7d5b9d404e24a23e86dc458831b",
+          "target": "@components/motion/parallax.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/parallax.json",
+      "status": "installed",
+      "title": "Scroll Animation Parallax",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "scroll-to",
+      "sourceFiles": [
+        {
+          "bytes": 1229,
+          "path": "components/motion/scroll-to.tsx",
+          "sha256": "aaf31dfad2309b29c40ba5f879bd10e743e791d6b68e288e12698ab1da615976",
+          "target": "@components/motion/scroll-to.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7861,
+          "path": "components/motion/smooth-scroll.tsx",
+          "sha256": "10b4c93b4fdda5345e30efc574c6b0eb965eaf749ca2f37ab234e787f8ab9ec7",
+          "target": "@components/motion/smooth-scroll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/scroll-to.json",
+      "status": "installed",
+      "title": "Scroll Animation Scroll To",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "scroll-reveal",
+      "sourceFiles": [
+        {
+          "bytes": 1609,
+          "path": "components/motion/scroll-reveal.tsx",
+          "sha256": "2fa735ea926900079e0f657c494ebb6a968652a69a13fc01c3055fa6dae28822",
+          "target": "@components/motion/scroll-reveal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/scroll-reveal.json",
+      "status": "installed",
+      "title": "Scroll Animation Scroll Reveal",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "range-slider",
+      "sourceFiles": [
+        {
+          "bytes": 3442,
+          "path": "components/motion/range-slider.tsx",
+          "sha256": "2d371915eb7169b38279d3702cf7f813814e5161f410713f3ade0d873c6c72f7",
+          "target": "@components/motion/range-slider.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 5975,
+          "path": "lib/hooks/use-slider.ts",
+          "sha256": "634c573bf203e34a65b9231b6298cd30d968cc23a9acb345998573a874a32924",
+          "target": "@lib/hooks/use-slider.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/range-slider.json",
+      "status": "installed",
+      "title": "Range Slider Range Slider",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "range-slider-fluid",
+      "sourceFiles": [
+        {
+          "bytes": 3571,
+          "path": "components/motion/range-slider-fluid.tsx",
+          "sha256": "59c55074366e2579dc65ececadddbb92e73f8adba5473e52594a7d0c415bc3c5",
+          "target": "@components/motion/range-slider-fluid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 5975,
+          "path": "lib/hooks/use-slider.ts",
+          "sha256": "634c573bf203e34a65b9231b6298cd30d968cc23a9acb345998573a874a32924",
+          "target": "@lib/hooks/use-slider.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/range-slider-fluid.json",
+      "status": "installed",
+      "title": "Range Slider Fluid Slider",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "range-slider-wave",
+      "sourceFiles": [
+        {
+          "bytes": 2834,
+          "path": "components/motion/range-slider-wave.tsx",
+          "sha256": "3cfaa5bdf25defbd4c5fb967ecd8999d5604d0e1dbe75f7f8078fe4b3b6dd01e",
+          "target": "@components/motion/range-slider-wave.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5975,
+          "path": "lib/hooks/use-slider.ts",
+          "sha256": "634c573bf203e34a65b9231b6298cd30d968cc23a9acb345998573a874a32924",
+          "target": "@lib/hooks/use-slider.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/range-slider-wave.json",
+      "status": "installed",
+      "title": "Range Slider Wave Slider",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "range-slider-bubble",
+      "sourceFiles": [
+        {
+          "bytes": 5207,
+          "path": "components/motion/range-slider-bubble.tsx",
+          "sha256": "50da6e0d668e5ddde981c888657e733c1856ecf7593a03fc6981b98100dd1e69",
+          "target": "@components/motion/range-slider-bubble.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 5975,
+          "path": "lib/hooks/use-slider.ts",
+          "sha256": "634c573bf203e34a65b9231b6298cd30d968cc23a9acb345998573a874a32924",
+          "target": "@lib/hooks/use-slider.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/range-slider-bubble.json",
+      "status": "installed",
+      "title": "Range Slider Bubble Slider",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "range-slider-ruler",
+      "sourceFiles": [
+        {
+          "bytes": 8228,
+          "path": "components/motion/range-slider-ruler.tsx",
+          "sha256": "7f5e5c02779e578ac1f542c48aa7a7c08f8688d225cc17775d6f62b604f83495",
+          "target": "@components/motion/range-slider-ruler.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5975,
+          "path": "lib/hooks/use-slider.ts",
+          "sha256": "634c573bf203e34a65b9231b6298cd30d968cc23a9acb345998573a874a32924",
+          "target": "@lib/hooks/use-slider.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/range-slider-ruler.json",
+      "status": "installed",
+      "title": "Range Slider Ruler Slider",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "wheel-picker",
+      "sourceFiles": [
+        {
+          "bytes": 20817,
+          "path": "components/motion/wheel-picker.tsx",
+          "sha256": "76c161b63fa922824cb15041c40117d57efd25a62281244125ba14aff1520405",
+          "target": "@components/motion/wheel-picker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5012,
+          "path": "lib/tick-sound.ts",
+          "sha256": "9abf7f8f710d5a9fe010ab77f89e6735ad065658c48043e67774506a4efcbaf0",
+          "target": "@lib/tick-sound.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/wheel-picker.json",
+      "status": "installed",
+      "title": "Wheel Picker",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 15,
+      "name": "table",
+      "sourceFiles": [
+        {
+          "bytes": 12013,
+          "path": "components/motion/table/index.tsx",
+          "sha256": "35813843726346690b2376119a7a23eba30e9f1fd4a03aaf186226ca5512f52a",
+          "target": "@components/motion/table/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 555,
+          "path": "components/motion/table/editable-cell.tsx",
+          "sha256": "6e010b990dafee7d908bdb101b547bfd9580883a6d732fb48c71d9e8ae09b817",
+          "target": "@components/motion/table/editable-cell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2372,
+          "path": "components/motion/table/row-handle.tsx",
+          "sha256": "3934e553142a6beec7f4a370b9f6f57a07b3aea22657d23e30bf5f6371d6e58a",
+          "target": "@components/motion/table/row-handle.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1025,
+          "path": "components/motion/table/skeleton-rows.tsx",
+          "sha256": "bad1dea521f4bc9248e7d8608f6066d134fe8714463b44b5cb2336ff009e104e",
+          "target": "@components/motion/table/skeleton-rows.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 11452,
+          "path": "components/motion/table/table-header.tsx",
+          "sha256": "75be19ffc67e6bd844c4c479afea2272ae0eead757c2383d944057d4fc3c0dfc",
+          "target": "@components/motion/table/table-header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3504,
+          "path": "components/motion/table/types.ts",
+          "sha256": "6f78aadfd4149c53f8e5bda06dc4fbcbf8196ffdec36e4da799c7d0f0a673ef6",
+          "target": "@components/motion/table/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3129,
+          "path": "components/motion/table/use-column-reorder.ts",
+          "sha256": "ddbfbdc7f155f892fef9b6b636568ff8f632fae75d1907f664c36006976e3bb6",
+          "target": "@components/motion/table/use-column-reorder.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2296,
+          "path": "components/motion/table/use-column-resize.ts",
+          "sha256": "b77100bb566fefa5a792cee9ee5433d30f661ff27323c53fefc4f9e145af563e",
+          "target": "@components/motion/table/use-column-resize.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1741,
+          "path": "components/motion/table/use-column-sort.ts",
+          "sha256": "82ed0e6b68437d9c7295016212b75f9f194c1ab86959f8c7ecd1845453b1186b",
+          "target": "@components/motion/table/use-column-sort.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1628,
+          "path": "components/motion/table/use-row-selection.ts",
+          "sha256": "b160e0e9083da2df2d230fc553364e24bdeceab0ae04a7cac598b2a009aa9c92",
+          "target": "@components/motion/table/use-row-selection.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1074,
+          "path": "components/motion/table/utils.ts",
+          "sha256": "0d88d78dd533c6d55ce6ba888f4efc87d8a90f0aa9cdd4149c6e4b506f47b369",
+          "target": "@components/motion/table/utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4006,
+          "path": "components/motion/checkbox.tsx",
+          "sha256": "a1699740e6db8455026138f595d9e03b99ec81fc2606b36d9dfc20024c84bf03",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 3752,
+          "path": "components/motion/table/table-menu.tsx",
+          "sha256": "358acf804b343dab15c6792823a643ea6e3eeedc6de4e65d3eb36353cc4f42f4",
+          "target": "@components/motion/table/table-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/table.json",
+      "status": "installed",
+      "title": "Table Data Table",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 15,
+      "name": "table-editable",
+      "sourceFiles": [
+        {
+          "bytes": 12013,
+          "path": "components/motion/table/index.tsx",
+          "sha256": "35813843726346690b2376119a7a23eba30e9f1fd4a03aaf186226ca5512f52a",
+          "target": "@components/motion/table/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 555,
+          "path": "components/motion/table/editable-cell.tsx",
+          "sha256": "6e010b990dafee7d908bdb101b547bfd9580883a6d732fb48c71d9e8ae09b817",
+          "target": "@components/motion/table/editable-cell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2372,
+          "path": "components/motion/table/row-handle.tsx",
+          "sha256": "3934e553142a6beec7f4a370b9f6f57a07b3aea22657d23e30bf5f6371d6e58a",
+          "target": "@components/motion/table/row-handle.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1025,
+          "path": "components/motion/table/skeleton-rows.tsx",
+          "sha256": "bad1dea521f4bc9248e7d8608f6066d134fe8714463b44b5cb2336ff009e104e",
+          "target": "@components/motion/table/skeleton-rows.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 11452,
+          "path": "components/motion/table/table-header.tsx",
+          "sha256": "75be19ffc67e6bd844c4c479afea2272ae0eead757c2383d944057d4fc3c0dfc",
+          "target": "@components/motion/table/table-header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3504,
+          "path": "components/motion/table/types.ts",
+          "sha256": "6f78aadfd4149c53f8e5bda06dc4fbcbf8196ffdec36e4da799c7d0f0a673ef6",
+          "target": "@components/motion/table/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3129,
+          "path": "components/motion/table/use-column-reorder.ts",
+          "sha256": "ddbfbdc7f155f892fef9b6b636568ff8f632fae75d1907f664c36006976e3bb6",
+          "target": "@components/motion/table/use-column-reorder.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2296,
+          "path": "components/motion/table/use-column-resize.ts",
+          "sha256": "b77100bb566fefa5a792cee9ee5433d30f661ff27323c53fefc4f9e145af563e",
+          "target": "@components/motion/table/use-column-resize.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1741,
+          "path": "components/motion/table/use-column-sort.ts",
+          "sha256": "82ed0e6b68437d9c7295016212b75f9f194c1ab86959f8c7ecd1845453b1186b",
+          "target": "@components/motion/table/use-column-sort.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1628,
+          "path": "components/motion/table/use-row-selection.ts",
+          "sha256": "b160e0e9083da2df2d230fc553364e24bdeceab0ae04a7cac598b2a009aa9c92",
+          "target": "@components/motion/table/use-row-selection.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1074,
+          "path": "components/motion/table/utils.ts",
+          "sha256": "0d88d78dd533c6d55ce6ba888f4efc87d8a90f0aa9cdd4149c6e4b506f47b369",
+          "target": "@components/motion/table/utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4006,
+          "path": "components/motion/checkbox.tsx",
+          "sha256": "a1699740e6db8455026138f595d9e03b99ec81fc2606b36d9dfc20024c84bf03",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 3752,
+          "path": "components/motion/table/table-menu.tsx",
+          "sha256": "358acf804b343dab15c6792823a643ea6e3eeedc6de4e65d3eb36353cc4f42f4",
+          "target": "@components/motion/table/table-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/table-editable.json",
+      "status": "installed",
+      "title": "Table Editable Table",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 15,
+      "name": "table-async",
+      "sourceFiles": [
+        {
+          "bytes": 12013,
+          "path": "components/motion/table/index.tsx",
+          "sha256": "35813843726346690b2376119a7a23eba30e9f1fd4a03aaf186226ca5512f52a",
+          "target": "@components/motion/table/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 555,
+          "path": "components/motion/table/editable-cell.tsx",
+          "sha256": "6e010b990dafee7d908bdb101b547bfd9580883a6d732fb48c71d9e8ae09b817",
+          "target": "@components/motion/table/editable-cell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2372,
+          "path": "components/motion/table/row-handle.tsx",
+          "sha256": "3934e553142a6beec7f4a370b9f6f57a07b3aea22657d23e30bf5f6371d6e58a",
+          "target": "@components/motion/table/row-handle.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1025,
+          "path": "components/motion/table/skeleton-rows.tsx",
+          "sha256": "bad1dea521f4bc9248e7d8608f6066d134fe8714463b44b5cb2336ff009e104e",
+          "target": "@components/motion/table/skeleton-rows.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 11452,
+          "path": "components/motion/table/table-header.tsx",
+          "sha256": "75be19ffc67e6bd844c4c479afea2272ae0eead757c2383d944057d4fc3c0dfc",
+          "target": "@components/motion/table/table-header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3504,
+          "path": "components/motion/table/types.ts",
+          "sha256": "6f78aadfd4149c53f8e5bda06dc4fbcbf8196ffdec36e4da799c7d0f0a673ef6",
+          "target": "@components/motion/table/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3129,
+          "path": "components/motion/table/use-column-reorder.ts",
+          "sha256": "ddbfbdc7f155f892fef9b6b636568ff8f632fae75d1907f664c36006976e3bb6",
+          "target": "@components/motion/table/use-column-reorder.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2296,
+          "path": "components/motion/table/use-column-resize.ts",
+          "sha256": "b77100bb566fefa5a792cee9ee5433d30f661ff27323c53fefc4f9e145af563e",
+          "target": "@components/motion/table/use-column-resize.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1741,
+          "path": "components/motion/table/use-column-sort.ts",
+          "sha256": "82ed0e6b68437d9c7295016212b75f9f194c1ab86959f8c7ecd1845453b1186b",
+          "target": "@components/motion/table/use-column-sort.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1628,
+          "path": "components/motion/table/use-row-selection.ts",
+          "sha256": "b160e0e9083da2df2d230fc553364e24bdeceab0ae04a7cac598b2a009aa9c92",
+          "target": "@components/motion/table/use-row-selection.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1074,
+          "path": "components/motion/table/utils.ts",
+          "sha256": "0d88d78dd533c6d55ce6ba888f4efc87d8a90f0aa9cdd4149c6e4b506f47b369",
+          "target": "@components/motion/table/utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4006,
+          "path": "components/motion/checkbox.tsx",
+          "sha256": "a1699740e6db8455026138f595d9e03b99ec81fc2606b36d9dfc20024c84bf03",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 3752,
+          "path": "components/motion/table/table-menu.tsx",
+          "sha256": "358acf804b343dab15c6792823a643ea6e3eeedc6de4e65d3eb36353cc4f42f4",
+          "target": "@components/motion/table/table-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/table-async.json",
+      "status": "installed",
+      "title": "Table Async Table",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "shader-background",
+      "sourceFiles": [
+        {
+          "bytes": 3368,
+          "path": "components/motion/shader-background.tsx",
+          "sha256": "697bd2e4b12a8b799daaca27aff9346c90c7573e678ab009bfb7b00ba9460dc3",
+          "target": "@components/motion/shader-background.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/shader-background.json",
+      "status": "installed",
+      "title": "Shader Background",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "cylinder-carousel",
+      "sourceFiles": [
+        {
+          "bytes": 14344,
+          "path": "components/motion/cylinder-carousel.tsx",
+          "sha256": "ce1f0f31046ce9dd182d71f5a12510df184e394b8e9ae296148a975780edfa93",
+          "target": "@components/motion/cylinder-carousel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/cylinder-carousel.json",
+      "status": "installed",
+      "title": "Cylinder Carousel",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "loader",
+      "sourceFiles": [
+        {
+          "bytes": 18239,
+          "path": "components/motion/loader.tsx",
+          "sha256": "fb620c68f1e9a4a970b496ce5671ca479a85adb177f897d3abd2329dafc10c92",
+          "target": "@components/motion/loader.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/loader.json",
+      "status": "installed",
+      "title": "Loader",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "message-bubble",
+      "sourceFiles": [
+        {
+          "bytes": 10139,
+          "path": "components/agents/message-bubble.tsx",
+          "sha256": "357d1b3b6ba1752c6d3e9b1ff076b0c39ed9724f6b4723aefc667c9dbd968c2b",
+          "target": "@components/agents/message-bubble.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 189,
+          "path": "components/agents/message-context.tsx",
+          "sha256": "ae4f2fd5459abcc15535f78b56f2d156cb6e066d4ecc2db3f09e2f9d1f734933",
+          "target": "@components/agents/message-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/message-bubble.json",
+      "status": "installed",
+      "title": "Message Bubble",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 8,
+      "name": "message",
+      "sourceFiles": [
+        {
+          "bytes": 6948,
+          "path": "components/agents/message.tsx",
+          "sha256": "d0515c5065e8d0db0cb871e8321a7b48d3f7cfe893bd10d9848acdd07488d490",
+          "target": "@components/agents/message.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10094,
+          "path": "components/agents/message-bubble.tsx",
+          "sha256": "1071e6e9cc8bf81c8e5ba67c98e650e2e7a194ff06d8e5164423850c5f597f54",
+          "target": "@components/agents/message-bubble.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 189,
+          "path": "components/agents/message-context.tsx",
+          "sha256": "ae4f2fd5459abcc15535f78b56f2d156cb6e066d4ecc2db3f09e2f9d1f734933",
+          "target": "@components/agents/message-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 15906,
+          "path": "components/agents/message-scroller.tsx",
+          "sha256": "bf6105eecd904be5022d75e9c66be9d3bdb4d439b9097db3b422d9ed5edab0e0",
+          "target": "@components/agents/message-scroller.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 10872,
+          "path": "components/motion/preview-rail.tsx",
+          "sha256": "8aa9b7f1e23cf26d421556994f6e2c3ed87c9efc322d956ccadcc98151813396",
+          "target": "@components/motion/preview-rail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/message.json",
+      "status": "installed",
+      "title": "Message",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 5,
+      "name": "message-scroller",
+      "sourceFiles": [
+        {
+          "bytes": 15953,
+          "path": "components/agents/message-scroller.tsx",
+          "sha256": "178039dfd4bac27e3e272709d9ec34b8d056ecaf0f2de947c9b09451293d5f79",
+          "target": "@components/agents/message-scroller.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10872,
+          "path": "components/motion/preview-rail.tsx",
+          "sha256": "8aa9b7f1e23cf26d421556994f6e2c3ed87c9efc322d956ccadcc98151813396",
+          "target": "@components/motion/preview-rail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/message-scroller.json",
+      "status": "installed",
+      "title": "Message Scroller",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 12,
+      "name": "prompt-input",
+      "sourceFiles": [
+        {
+          "bytes": 10737,
+          "path": "components/agents/prompt-input.tsx",
+          "sha256": "48b4a23b00b33e6d52c89ed8f36a479364c020fc64c2c9ad4b0d02175ab6a21f",
+          "target": "@components/agents/prompt-input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 354,
+          "path": "components/motion/button/index.tsx",
+          "sha256": "b8d49238c0ae62972a38961d43be11655440090229074aead8dc613a6256321a",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 8706,
+          "path": "components/motion/popover-morph.tsx",
+          "sha256": "ea30a042cf2f3bc31c20600a91bbc0a74790d73b7a91766e0fa34075b629f28d",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 12821,
+          "path": "components/motion/select.tsx",
+          "sha256": "7a21cd4fd90b9cb1695f392672fd1ab33d9d660f7086ddcbb68da05e1cf41ff8",
+          "target": "@components/motion/select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 5274,
+          "path": "components/motion/button/base.tsx",
+          "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 700,
+          "path": "components/motion/button/magnetic.tsx",
+          "sha256": "864dc7db0cda2d8ee9bff7127706c546632d00f554595c9ce1816e283acb2a1f",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6983,
+          "path": "components/motion/button/stateful.tsx",
+          "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2223,
+          "path": "components/motion/popover-position.ts",
+          "sha256": "a31a9dc602243c3966aa1043cfd41dec5c13df1a52c847e745c88cbf00cb1f2e",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 1446,
+          "path": "components/motion/magnetic.tsx",
+          "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/prompt-input.json",
+      "status": "installed",
+      "title": "Prompt Input",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 6,
+      "name": "todo-list",
+      "sourceFiles": [
+        {
+          "bytes": 12639,
+          "path": "components/agents/todo-list.tsx",
+          "sha256": "12231e2c4a0c9c32faac7bd5a8a8ebb48e960a3300e29f51e733b2de15a38c60",
+          "target": "@components/agents/todo-list.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1353,
+          "path": "components/agents/agent-disclosure.tsx",
+          "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 930,
+          "path": "components/motion/action-swap-roll.tsx",
+          "sha256": "271933ba92771ecb6ae5a7769d70cea3953e3c919ad51c324ee6290ce890a35f",
+          "target": "@components/motion/action-swap-roll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/todo-list.json",
+      "status": "installed",
+      "title": "Todo List",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "code-block",
+      "sourceFiles": [
+        {
+          "bytes": 6181,
+          "path": "components/agents/code-block.tsx",
+          "sha256": "90d33779ed97bf98558b213205aa9499817be7b01f992ca7fd3586638fe7a04d",
+          "target": "@components/agents/code-block.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4170,
+          "path": "components/agents/agent-code.tsx",
+          "sha256": "22edfd4b2dbef2f61c5a629ad2f0d0b63dab3ec77c085ef05ea839c88c8a6c4f",
+          "target": "@components/agents/agent-code.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/code-block.json",
+      "status": "installed",
+      "title": "Code Block",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 16,
+      "name": "approval-card",
+      "sourceFiles": [
+        {
+          "bytes": 14955,
+          "path": "components/agents/approval-card/index.tsx",
+          "sha256": "bf26d7c19a186dc823b3f64f12910fcf39d043e42bf4db9048f682c42f0da900",
+          "target": "@components/agents/approval-card/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1367,
+          "path": "components/agents/approval-card/types.ts",
+          "sha256": "14bf61158781c2c5029cf34d6c4c1a09cce3222cf24150c3033968168883885b",
+          "target": "@components/agents/approval-card/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1353,
+          "path": "components/agents/agent-disclosure.tsx",
+          "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 930,
+          "path": "components/motion/action-swap-roll.tsx",
+          "sha256": "271933ba92771ecb6ae5a7769d70cea3953e3c919ad51c324ee6290ce890a35f",
+          "target": "@components/motion/action-swap-roll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 354,
+          "path": "components/motion/button/index.tsx",
+          "sha256": "b8d49238c0ae62972a38961d43be11655440090229074aead8dc613a6256321a",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4006,
+          "path": "components/motion/checkbox.tsx",
+          "sha256": "a1699740e6db8455026138f595d9e03b99ec81fc2606b36d9dfc20024c84bf03",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6312,
+          "path": "components/motion/input.tsx",
+          "sha256": "27f6298c4b4c4b55de361fe500749d5abbfd4aaf3cd3816517b3a4c5a2a238fb",
+          "target": "@components/motion/input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3877,
+          "path": "components/motion/radio.tsx",
+          "sha256": "95dfea97e4a83f2a986f7f30440be2df883b8d353f69fc7b9b30f5636ca9140f",
+          "target": "@components/motion/radio.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5274,
+          "path": "components/motion/button/base.tsx",
+          "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 700,
+          "path": "components/motion/button/magnetic.tsx",
+          "sha256": "864dc7db0cda2d8ee9bff7127706c546632d00f554595c9ce1816e283acb2a1f",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6983,
+          "path": "components/motion/button/stateful.tsx",
+          "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 1446,
+          "path": "components/motion/magnetic.tsx",
+          "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/approval-card.json",
+      "status": "installed",
+      "title": "Approval Card",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 5,
+      "name": "file-diff",
+      "sourceFiles": [
+        {
+          "bytes": 9352,
+          "path": "components/agents/file-diff.tsx",
+          "sha256": "19febf8831fa15dc4cf2af93de9fdfcf5e3a2e1d258305f65ca5531a58d19c5b",
+          "target": "@components/agents/file-diff.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4170,
+          "path": "components/agents/agent-code.tsx",
+          "sha256": "22edfd4b2dbef2f61c5a629ad2f0d0b63dab3ec77c085ef05ea839c88c8a6c4f",
+          "target": "@components/agents/agent-code.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1353,
+          "path": "components/agents/agent-disclosure.tsx",
+          "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/file-diff.json",
+      "status": "installed",
+      "title": "File Diff",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 7,
+      "name": "tool-result",
+      "sourceFiles": [
+        {
+          "bytes": 10024,
+          "path": "components/agents/tool-result.tsx",
+          "sha256": "3dfd980e4d57f086aba0df15a349d2f9461856c4c29bdbb2f2a197f0be742461",
+          "target": "@components/agents/tool-result.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4170,
+          "path": "components/agents/agent-code.tsx",
+          "sha256": "22edfd4b2dbef2f61c5a629ad2f0d0b63dab3ec77c085ef05ea839c88c8a6c4f",
+          "target": "@components/agents/agent-code.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1353,
+          "path": "components/agents/agent-disclosure.tsx",
+          "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 930,
+          "path": "components/motion/action-swap-roll.tsx",
+          "sha256": "271933ba92771ecb6ae5a7769d70cea3953e3c919ad51c324ee6290ce890a35f",
+          "target": "@components/motion/action-swap-roll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/tool-result.json",
+      "status": "installed",
+      "title": "Tool Result",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 6,
+      "name": "streaming-response",
+      "sourceFiles": [
+        {
+          "bytes": 9111,
+          "path": "components/agents/streaming-response.tsx",
+          "sha256": "ff4619fbda93f6910bbab6b5f980d6bb2bd02a4917f4073c65e7522c283d0a69",
+          "target": "@components/agents/streaming-response.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1353,
+          "path": "components/agents/agent-disclosure.tsx",
+          "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7902,
+          "path": "components/agents/citations.tsx",
+          "sha256": "91ab69d3e210c2885cd894b57a7196fe799021ddde677f4b778458056e8f02ba",
+          "target": "@components/agents/citations.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 216,
+          "path": "lib/favicon.ts",
+          "sha256": "ffdf23b912e14c58113ca7b4749230ffe2f15594fa21811efa338f05683bce27",
+          "target": "@lib/favicon.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/streaming-response.json",
+      "status": "installed",
+      "title": "Streaming Response",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "image-generation",
+      "sourceFiles": [
+        {
+          "bytes": 12404,
+          "path": "components/agents/image-generation.tsx",
+          "sha256": "b6083827115d5f3c9af63a5afe546750099782e16e3ba6849fdac2f7b4bcbc35",
+          "target": "@components/agents/image-generation.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/image-generation.json",
+      "status": "installed",
+      "title": "Image Generation",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 5,
+      "name": "tool-approval",
+      "sourceFiles": [
+        {
+          "bytes": 8671,
+          "path": "components/agents/tool-approval.tsx",
+          "sha256": "47861d5a73ff454a5a6c0b3af40b14210694504bcf04bc5a9c3a65344aed47c7",
+          "target": "@components/agents/tool-approval.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4170,
+          "path": "components/agents/agent-code.tsx",
+          "sha256": "22edfd4b2dbef2f61c5a629ad2f0d0b63dab3ec77c085ef05ea839c88c8a6c4f",
+          "target": "@components/agents/agent-code.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1353,
+          "path": "components/agents/agent-disclosure.tsx",
+          "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/tool-approval.json",
+      "status": "installed",
+      "title": "Tool Approval",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 5,
+      "name": "citations",
+      "sourceFiles": [
+        {
+          "bytes": 7942,
+          "path": "components/agents/citations.tsx",
+          "sha256": "cc1f3321d85f723049f980596738d3a48ecd114e8f13d30e2cbffefd59f585c3",
+          "target": "@components/agents/citations.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1353,
+          "path": "components/agents/agent-disclosure.tsx",
+          "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 216,
+          "path": "lib/favicon.ts",
+          "sha256": "ffdf23b912e14c58113ca7b4749230ffe2f15594fa21811efa338f05683bce27",
+          "target": "@lib/favicon.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/citations.json",
+      "status": "installed",
+      "title": "Citations",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 9,
+      "name": "agent-activity",
+      "sourceFiles": [
+        {
+          "bytes": 8628,
+          "path": "components/agents/agent-activity/index.tsx",
+          "sha256": "0f2ed33ac7b8e0835b011827deea029a534c8ccf16c5e1c6e177da7740e2af8c",
+          "target": "@components/agents/agent-activity/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7751,
+          "path": "components/agents/agent-activity/activity-row.tsx",
+          "sha256": "81eca79e4a921ab1862ff930a4177ba9098bb9f83b7356196cc1094dca2fa511",
+          "target": "@components/agents/agent-activity/activity-row.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2529,
+          "path": "components/agents/agent-activity/types.ts",
+          "sha256": "3f47a360b58da4943d5eb9cb756af9be4526445963bf095afa56f60012414821",
+          "target": "@components/agents/agent-activity/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1353,
+          "path": "components/agents/agent-disclosure.tsx",
+          "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 624,
+          "path": "components/agents/loading-states/thinking-shimmer.tsx",
+          "sha256": "2879bd5fd406c014610be6f304bb4b71e1aac0ac6eec531de4cd3eba4827b7bf",
+          "target": "@components/agents/loading-states/thinking-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 739,
+          "path": "components/motion/text-shimmer.tsx",
+          "sha256": "a8ae8ca2966009a4c9d14085985cb2e571af1b5c75e8e64cb1f4dd99f3fb3236",
+          "target": "@components/motion/text-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 538,
+          "path": "lib/text-shimmer.ts",
+          "sha256": "02fca8d4ae0c0c593eb2253e56c141c1731912861fbf20a0a0b728af38a6c0b9",
+          "target": "@lib/text-shimmer.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/agent-activity.json",
+      "status": "installed",
+      "title": "Agent Activity",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 5,
+      "name": "reasoning-text",
+      "sourceFiles": [
+        {
+          "bytes": 7735,
+          "path": "components/agents/loading-states/reasoning-text.tsx",
+          "sha256": "c7ab41dfc0a6d0437b94cb65e15ec08dedbb118e8c901c28645416f62255fc2a",
+          "target": "@components/agents/loading-states/reasoning-text.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 18202,
+          "path": "components/motion/loader.tsx",
+          "sha256": "1e9419368e30f4670c8b795c085f3de3cd6a75a14e0f30102d6cd7f0f8a39ea9",
+          "target": "@components/motion/loader.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 538,
+          "path": "lib/text-shimmer.ts",
+          "sha256": "02fca8d4ae0c0c593eb2253e56c141c1731912861fbf20a0a0b728af38a6c0b9",
+          "target": "@lib/text-shimmer.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/reasoning-text.json",
+      "status": "installed",
+      "title": "Agent Loading States Reasoning Text",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "thinking-shimmer",
+      "sourceFiles": [
+        {
+          "bytes": 669,
+          "path": "components/agents/loading-states/thinking-shimmer.tsx",
+          "sha256": "53f0d23bd9857d5f61aac878dd03253cbda1ff14a7aa0557a05f1df22b79db87",
+          "target": "@components/agents/loading-states/thinking-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 739,
+          "path": "components/motion/text-shimmer.tsx",
+          "sha256": "a8ae8ca2966009a4c9d14085985cb2e571af1b5c75e8e64cb1f4dd99f3fb3236",
+          "target": "@components/motion/text-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 538,
+          "path": "lib/text-shimmer.ts",
+          "sha256": "02fca8d4ae0c0c593eb2253e56c141c1731912861fbf20a0a0b728af38a6c0b9",
+          "target": "@lib/text-shimmer.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/thinking-shimmer.json",
+      "status": "installed",
+      "title": "Agent Loading States Thinking Shimmer",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "agent-progress",
+      "sourceFiles": [
+        {
+          "bytes": 3095,
+          "path": "components/agents/loading-states/agent-progress.tsx",
+          "sha256": "27d75ddd26f40dc085a67259520f42934d61d7e174b073f90aabbb019d47b199",
+          "target": "@components/agents/loading-states/agent-progress.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/agent-progress.json",
+      "status": "installed",
+      "title": "Agent Loading States Agent Progress",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 5,
+      "name": "ai-sidebar",
+      "sourceFiles": [
+        {
+          "bytes": 26988,
+          "path": "components/agents/ai-sidebar.tsx",
+          "sha256": "8e29d4334a14a56c08d92627d5c2aa9e7fba9f8eb2124ffdc3d89d5e393b9220",
+          "target": "@components/agents/ai-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 8706,
+          "path": "components/motion/popover-morph.tsx",
+          "sha256": "ea30a042cf2f3bc31c20600a91bbc0a74790d73b7a91766e0fa34075b629f28d",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 2223,
+          "path": "components/motion/popover-position.ts",
+          "sha256": "a31a9dc602243c3966aa1043cfd41dec5c13df1a52c847e745c88cbf00cb1f2e",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/ai-sidebar.json",
+      "status": "installed",
+      "title": "AI Sidebar",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 45,
+      "name": "chat-app",
+      "sourceFiles": [
+        {
+          "bytes": 753,
+          "path": "components/agents/chat-app.tsx",
+          "sha256": "8c21af669d3dbeefcacb940bcea6ea7af833fc8675b42de9e647490d48d3b5d6",
+          "target": "@components/agents/chat-app.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 8622,
+          "path": "components/agents/agent-activity/index.tsx",
+          "sha256": "2c13cd4308d1e074d37bc0da652048d1e7e5c4ffbbbe456241a5ec3f3df7c26b",
+          "target": "@components/agents/agent-activity/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 26986,
+          "path": "components/agents/ai-sidebar.tsx",
+          "sha256": "150b6657ccd6bd11abb768c29c46cb9df877485ecdd4d5b29bed94f15c8b9031",
+          "target": "@components/agents/ai-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 14950,
+          "path": "components/agents/approval-card/index.tsx",
+          "sha256": "891271d51d3c886b9d3506f7a691fbb4816a7d134a4c353f9f50151ee444e07f",
+          "target": "@components/agents/approval-card/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6179,
+          "path": "components/agents/code-block.tsx",
+          "sha256": "e9a78b96684e4dd2d89962416620e4ec78d71f41f2b06ed864f8001183a8d570",
+          "target": "@components/agents/code-block.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 9351,
+          "path": "components/agents/file-diff.tsx",
+          "sha256": "d9370595a4ac323e76da5e7821ce9db3b1323d0c57ad60393310cb7b9584e498",
+          "target": "@components/agents/file-diff.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 12396,
+          "path": "components/agents/image-generation.tsx",
+          "sha256": "74d41a03a8850018bd8b37fb66c34a7ee00dffdc1331b2d7926b55c7d744e8d2",
+          "target": "@components/agents/image-generation.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 663,
+          "path": "components/agents/loading-states/thinking-shimmer.tsx",
+          "sha256": "14b4c62bfa0c672d630cd135397a3f462306fa0be978a17eee93b3a62e0867fc",
+          "target": "@components/agents/loading-states/thinking-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6949,
+          "path": "components/agents/message.tsx",
+          "sha256": "5d720de45af7cb47bd42ed8c2349377567853acb0b05be75d7eadf65941143c3",
+          "target": "@components/agents/message.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10133,
+          "path": "components/agents/message-bubble.tsx",
+          "sha256": "1c0617a6091f37898dff2c0c75a76334f6242def01a4625c326cdd1145e48d3c",
+          "target": "@components/agents/message-bubble.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 15945,
+          "path": "components/agents/message-scroller.tsx",
+          "sha256": "b3641ccf8e2fee75306b800b0bdbc45eaae0e67ae79a9885c0bd2abe16f256a6",
+          "target": "@components/agents/message-scroller.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10733,
+          "path": "components/agents/prompt-input.tsx",
+          "sha256": "ef53d93b9cb73905175365fc9add2792876737dc21ef01a76fbae8cd37c9dc4d",
+          "target": "@components/agents/prompt-input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 9101,
+          "path": "components/agents/streaming-response.tsx",
+          "sha256": "6323523fd175f531b7df0e394cb90eb47b25dfbb2277fb643ff2eb550ad20750",
+          "target": "@components/agents/streaming-response.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 12638,
+          "path": "components/agents/todo-list.tsx",
+          "sha256": "b2e46b481f1966202ad152c77e06099d2fabc6598b05795ea2a5b2f5ee81c7ed",
+          "target": "@components/agents/todo-list.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 8666,
+          "path": "components/agents/tool-approval.tsx",
+          "sha256": "266345e940fd19f1443b0e7d10ba7bde320ebbd2b64fe5f85c59d96f4d0c7c5c",
+          "target": "@components/agents/tool-approval.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10021,
+          "path": "components/agents/tool-result.tsx",
+          "sha256": "0139a53f9573a1c1bfbbcc54a64eba332cbdbf29ad527d0adc69c07819e970cb",
+          "target": "@components/agents/tool-result.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 30775,
+          "path": "components/motion/animated-sidebar.tsx",
+          "sha256": "78663bff9c68bb863c7ac1410ca26267523c87d7ea365e49f760b42db85103a7",
+          "target": "@components/motion/animated-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 7751,
+          "path": "components/agents/agent-activity/activity-row.tsx",
+          "sha256": "81eca79e4a921ab1862ff930a4177ba9098bb9f83b7356196cc1094dca2fa511",
+          "target": "@components/agents/agent-activity/activity-row.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2529,
+          "path": "components/agents/agent-activity/types.ts",
+          "sha256": "3f47a360b58da4943d5eb9cb756af9be4526445963bf095afa56f60012414821",
+          "target": "@components/agents/agent-activity/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1353,
+          "path": "components/agents/agent-disclosure.tsx",
+          "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 8706,
+          "path": "components/motion/popover-morph.tsx",
+          "sha256": "ea30a042cf2f3bc31c20600a91bbc0a74790d73b7a91766e0fa34075b629f28d",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1323,
+          "path": "components/agents/approval-card/types.ts",
+          "sha256": "98565fa313cc754fcfd5fb5073bf3192129e8cd30dfde3cf89b5bae269484a7f",
+          "target": "@components/agents/approval-card/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 930,
+          "path": "components/motion/action-swap-roll.tsx",
+          "sha256": "271933ba92771ecb6ae5a7769d70cea3953e3c919ad51c324ee6290ce890a35f",
+          "target": "@components/motion/action-swap-roll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 354,
+          "path": "components/motion/button/index.tsx",
+          "sha256": "b8d49238c0ae62972a38961d43be11655440090229074aead8dc613a6256321a",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4006,
+          "path": "components/motion/checkbox.tsx",
+          "sha256": "a1699740e6db8455026138f595d9e03b99ec81fc2606b36d9dfc20024c84bf03",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6312,
+          "path": "components/motion/input.tsx",
+          "sha256": "27f6298c4b4c4b55de361fe500749d5abbfd4aaf3cd3816517b3a4c5a2a238fb",
+          "target": "@components/motion/input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3877,
+          "path": "components/motion/radio.tsx",
+          "sha256": "95dfea97e4a83f2a986f7f30440be2df883b8d353f69fc7b9b30f5636ca9140f",
+          "target": "@components/motion/radio.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4170,
+          "path": "components/agents/agent-code.tsx",
+          "sha256": "22edfd4b2dbef2f61c5a629ad2f0d0b63dab3ec77c085ef05ea839c88c8a6c4f",
+          "target": "@components/agents/agent-code.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 739,
+          "path": "components/motion/text-shimmer.tsx",
+          "sha256": "a8ae8ca2966009a4c9d14085985cb2e571af1b5c75e8e64cb1f4dd99f3fb3236",
+          "target": "@components/motion/text-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 189,
+          "path": "components/agents/message-context.tsx",
+          "sha256": "ae4f2fd5459abcc15535f78b56f2d156cb6e066d4ecc2db3f09e2f9d1f734933",
+          "target": "@components/agents/message-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10872,
+          "path": "components/motion/preview-rail.tsx",
+          "sha256": "8aa9b7f1e23cf26d421556994f6e2c3ed87c9efc322d956ccadcc98151813396",
+          "target": "@components/motion/preview-rail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 12821,
+          "path": "components/motion/select.tsx",
+          "sha256": "7a21cd4fd90b9cb1695f392672fd1ab33d9d660f7086ddcbb68da05e1cf41ff8",
+          "target": "@components/motion/select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7902,
+          "path": "components/agents/citations.tsx",
+          "sha256": "91ab69d3e210c2885cd894b57a7196fe799021ddde677f4b778458056e8f02ba",
+          "target": "@components/agents/citations.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4479,
+          "path": "components/motion/shared-layout-bg.tsx",
+          "sha256": "e6355b3b408d8cbe7855f61ca502d945eaeef867cbd9cfc070685aece079b9f6",
+          "target": "@components/motion/shared-layout-bg.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2223,
+          "path": "components/motion/popover-position.ts",
+          "sha256": "a31a9dc602243c3966aa1043cfd41dec5c13df1a52c847e745c88cbf00cb1f2e",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5274,
+          "path": "components/motion/button/base.tsx",
+          "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 700,
+          "path": "components/motion/button/magnetic.tsx",
+          "sha256": "864dc7db0cda2d8ee9bff7127706c546632d00f554595c9ce1816e283acb2a1f",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6983,
+          "path": "components/motion/button/stateful.tsx",
+          "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 538,
+          "path": "lib/text-shimmer.ts",
+          "sha256": "02fca8d4ae0c0c593eb2253e56c141c1731912861fbf20a0a0b728af38a6c0b9",
+          "target": "@lib/text-shimmer.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 216,
+          "path": "lib/favicon.ts",
+          "sha256": "ffdf23b912e14c58113ca7b4749230ffe2f15594fa21811efa338f05683bce27",
+          "target": "@lib/favicon.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 1446,
+          "path": "components/motion/magnetic.tsx",
+          "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/chat-app.json",
+      "status": "installed",
+      "title": "Chat App",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "infinite-masonry",
+      "sourceFiles": [
+        {
+          "bytes": 10202,
+          "path": "components/motion/infinite-masonry.tsx",
+          "sha256": "514d16845f55730386ea4d3322f13c4bdb2b907efd09d807a522d537ba4befed",
+          "target": "@components/motion/infinite-masonry.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/infinite-masonry.json",
+      "status": "installed",
+      "title": "Infinite Masonry",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 5,
+      "name": "notification-stack",
+      "sourceFiles": [
+        {
+          "bytes": 9257,
+          "path": "components/motion/notification-stack.tsx",
+          "sha256": "5f10d4279360dc2d2cf6a01e8f72ab28069b0d3706d79b23996dbf227aee4d46",
+          "target": "@components/motion/notification-stack.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/notification-stack.json",
+      "status": "installed",
+      "title": "Notification Stack",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 5,
+      "name": "knockout-wheel",
+      "sourceFiles": [
+        {
+          "bytes": 34717,
+          "path": "components/motion/knockout-wheel.tsx",
+          "sha256": "21ace9fca0073c100beceaff0f3906c6bad4f51864452b5c0b5e9daa706ff457",
+          "target": "@components/motion/knockout-wheel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6721,
+          "path": "components/motion/tooltip.tsx",
+          "sha256": "63a38fbdf67151c91c05265fe4efb23c0489d3b19a2b05f8befa59d42427028e",
+          "target": "@components/motion/tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/knockout-wheel.json",
+      "status": "installed",
+      "title": "Fixtures Knockout Wheel",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 3,
+      "name": "knockout-bracket",
+      "sourceFiles": [
+        {
+          "bytes": 30732,
+          "path": "components/motion/knockout-bracket.tsx",
+          "sha256": "a9d8d121ed8e38db7ac5091b33835ddb9705efc25b7e043d42aaf27914cee242",
+          "target": "@components/motion/knockout-bracket.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/knockout-bracket.json",
+      "status": "installed",
+      "title": "Fixtures Knockout Bracket",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 15,
+      "name": "availability-scheduler",
+      "sourceFiles": [
+        {
+          "bytes": 2587,
+          "path": "components/motion/availability-scheduler/index.tsx",
+          "sha256": "7210b4e877349411e63190d6dd1af3937f5ac2fc01f8574ccb796f949732574a",
+          "target": "@components/motion/availability-scheduler/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6046,
+          "path": "components/motion/availability-scheduler/day-row.tsx",
+          "sha256": "5637ab70fbecedca409b2db9b65ae0efb389c3729b18c75bd4f39888a5ec0f8b",
+          "target": "@components/motion/availability-scheduler/day-row.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2326,
+          "path": "components/motion/availability-scheduler/types.ts",
+          "sha256": "68adb2b5299f06846828403892964d833ea353ec63bc84a9cad08cde7cb7e5c6",
+          "target": "@components/motion/availability-scheduler/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 4250,
+          "path": "components/motion/availability-scheduler/copy-menu.tsx",
+          "sha256": "87a985a66ff69981296b2937868c0b7d61f25a38a4f3752031e500f9afb63a35",
+          "target": "@components/motion/availability-scheduler/copy-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1179,
+          "path": "components/motion/availability-scheduler/icon-button.tsx",
+          "sha256": "1a45351c02733fc9502b04819ffb3bdf3f749a052e6bb2454646cba02f7f8e15",
+          "target": "@components/motion/availability-scheduler/icon-button.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1009,
+          "path": "components/motion/availability-scheduler/time-select.tsx",
+          "sha256": "d7f3b823c4587ac83afbb064acf351751089e215121dbfb8b9d5ecc699917641",
+          "target": "@components/motion/availability-scheduler/time-select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3150,
+          "path": "components/motion/switch.tsx",
+          "sha256": "74ec60fe379e01cd9bd9a48a5b37c1da63e2d2bc633a404611fdd9b8e9570135",
+          "target": "@components/motion/switch.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6721,
+          "path": "components/motion/tooltip.tsx",
+          "sha256": "63a38fbdf67151c91c05265fe4efb23c0489d3b19a2b05f8befa59d42427028e",
+          "target": "@components/motion/tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 4006,
+          "path": "components/motion/checkbox.tsx",
+          "sha256": "a1699740e6db8455026138f595d9e03b99ec81fc2606b36d9dfc20024c84bf03",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 8706,
+          "path": "components/motion/popover-morph.tsx",
+          "sha256": "ea30a042cf2f3bc31c20600a91bbc0a74790d73b7a91766e0fa34075b629f28d",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 12821,
+          "path": "components/motion/select.tsx",
+          "sha256": "7a21cd4fd90b9cb1695f392672fd1ab33d9d660f7086ddcbb68da05e1cf41ff8",
+          "target": "@components/motion/select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 2223,
+          "path": "components/motion/popover-position.ts",
+          "sha256": "a31a9dc602243c3966aa1043cfd41dec5c13df1a52c847e745c88cbf00cb1f2e",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/availability-scheduler.json",
+      "status": "installed",
+      "title": "Availability Scheduler",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 12,
+      "name": "swap",
+      "sourceFiles": [
+        {
+          "bytes": 5186,
+          "path": "components/motion/swap.tsx",
+          "sha256": "f0b028ea58941350a4720f72eb6467bb0b390933167dd7848e04c52462582598",
+          "target": "@components/motion/swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 146,
+          "path": "components/motion/swap/constants.ts",
+          "sha256": "e9ee54fbbbb9556ff003493de4f64b56d346e512b132ee9e6ad3e1b1b4a6799d",
+          "target": "@components/motion/swap/constants.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6738,
+          "path": "components/motion/swap/controls.tsx",
+          "sha256": "9f04da5aa49e17f80abc1c84610e1d7ae5213b3462d56ae15b79d3752efb8198",
+          "target": "@components/motion/swap/controls.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3580,
+          "path": "components/motion/swap/data.ts",
+          "sha256": "c0574cf9ca06a379bcdb3cbd479f5439aaae11d54cf4d2c3b48fb71c57225f66",
+          "target": "@components/motion/swap/data.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4039,
+          "path": "components/motion/swap/field.tsx",
+          "sha256": "5ecec48841901c800bc70c646c49a5b686cfdbf71acf715e762afb9614318bf2",
+          "target": "@components/motion/swap/field.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1328,
+          "path": "components/motion/swap/quote-row.tsx",
+          "sha256": "95980cc7c9d97833be669bb0e007d9e139d697d12af929eabe8064d512ae7a89",
+          "target": "@components/motion/swap/quote-row.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 8364,
+          "path": "components/motion/swap/token-picker.tsx",
+          "sha256": "c004b998d91123bcd90697d8f00ff2ca6768e0a206d968e0256ebbab3876f92b",
+          "target": "@components/motion/swap/token-picker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 321,
+          "path": "components/motion/swap/types.ts",
+          "sha256": "939dc3f945b20d6afda3b34af15556da381d63af0875d4d050efbd705c6961ab",
+          "target": "@components/motion/swap/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 837,
+          "path": "components/motion/swap/utils.ts",
+          "sha256": "d0b26d47307f7f1d60b09de05c513ee193faec99b6fc9fd5ceb98af0e9529dcf",
+          "target": "@components/motion/swap/utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 2054,
+          "path": "components/motion/swap/token-badges.tsx",
+          "sha256": "8b11c6e766581a0c777d1e4b7d63a3109b9c4f60598c0563f4356e15f4567f1d",
+          "target": "@components/motion/swap/token-badges.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/swap.json",
+      "status": "installed",
+      "title": "Multi-chain Swap",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 3,
+      "name": "dynamic-island",
+      "sourceFiles": [
+        {
+          "bytes": 6675,
+          "path": "components/motion/dynamic-island.tsx",
+          "sha256": "b1bd2b4d30b76a850d594a8a4a230909fbc33c3467e0364e85f49263a3732ebd",
+          "target": "@components/motion/dynamic-island.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/dynamic-island.json",
+      "status": "installed",
+      "title": "Dynamic Island",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 3,
+      "name": "command-palette",
+      "sourceFiles": [
+        {
+          "bytes": 11745,
+          "path": "components/motion/command-palette.tsx",
+          "sha256": "1866a545307379dd0fbde61dea32fee5d50d1a38495d78571bca4307a964a219",
+          "target": "@components/motion/command-palette.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/command-palette.json",
+      "status": "installed",
+      "title": "Command Palette",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 2,
+      "name": "expandable-action-bar",
+      "sourceFiles": [
+        {
+          "bytes": 10376,
+          "path": "components/motion/expandable-action-bar.tsx",
+          "sha256": "d183a4554611ec6ef743a1bdd96c60ef71acb78b458f08e974b5580acf8e8909",
+          "target": "@components/motion/expandable-action-bar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/expandable-action-bar.json",
+      "status": "installed",
+      "title": "Expandable Action Bar",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 4,
+      "name": "overflow-actions",
+      "sourceFiles": [
+        {
+          "bytes": 10748,
+          "path": "components/motion/overflow-actions.tsx",
+          "sha256": "53bea6fb838253ec383e0fc8a8174c2fa422783c239303a1bcc76d22a9a33e1a",
+          "target": "@components/motion/overflow-actions.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/overflow-actions.json",
+      "status": "installed",
+      "title": "Overflow Actions",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 3,
+      "name": "expandable-tabs",
+      "sourceFiles": [
+        {
+          "bytes": 13255,
+          "path": "components/motion/expandable-tabs.tsx",
+          "sha256": "9feef48e624b7f72a6c485387c3017a85c1b744db2d6732f3dfecdf6857393d6",
+          "target": "@components/motion/expandable-tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/expandable-tabs.json",
+      "status": "installed",
+      "title": "Expandable Tabs",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 3,
+      "name": "morphing-tabs",
+      "sourceFiles": [
+        {
+          "bytes": 27319,
+          "path": "components/motion/morphing-tabs.tsx",
+          "sha256": "b6be14eb85721a2ff143615aac8730f192c8063ad6a848e327a9c12e1e392c34",
+          "target": "@components/motion/morphing-tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/morphing-tabs.json",
+      "status": "installed",
+      "title": "Morphing Tabs",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 2,
+      "name": "swipeable-list",
+      "sourceFiles": [
+        {
+          "bytes": 12626,
+          "path": "components/motion/swipeable-list.tsx",
+          "sha256": "79a1cf5513391b18241bb26c4524b8fc98f5f2ef91d69060d1562f56f6dee497",
+          "target": "@components/motion/swipeable-list.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/swipeable-list.json",
+      "status": "installed",
+      "title": "Swipeable List",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 5,
+      "name": "attachment-upload",
+      "sourceFiles": [
+        {
+          "bytes": 32691,
+          "path": "components/motion/attachment-upload.tsx",
+          "sha256": "678e777dd4c8addbd19773559f1e38fdd0e65f1f77c1fbdc50ac0e1d2a6186ba",
+          "target": "@components/motion/attachment-upload.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6721,
+          "path": "components/motion/tooltip.tsx",
+          "sha256": "63a38fbdf67151c91c05265fe4efb23c0489d3b19a2b05f8befa59d42427028e",
+          "target": "@components/motion/tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/attachment-upload.json",
+      "status": "installed",
+      "title": "File Upload Attachment Upload",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 3,
+      "name": "file-upload",
+      "sourceFiles": [
+        {
+          "bytes": 17189,
+          "path": "components/motion/file-upload.tsx",
+          "sha256": "ff93012a9639a11d411f7eddf7287cf9ab62c3787bd1180ea9a1508b4ddcab62",
+          "target": "@components/motion/file-upload.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/file-upload.json",
+      "status": "installed",
+      "title": "File Upload Upload Queue",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 8,
+      "name": "prediction-market",
+      "sourceFiles": [
+        {
+          "bytes": 19422,
+          "path": "components/motion/prediction-market.tsx",
+          "sha256": "9f10736193225452ae0951f0931f8b50e8d1895755aa504ba105a2b6bf9f4313",
+          "target": "@components/motion/prediction-market.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6983,
+          "path": "components/motion/button/stateful.tsx",
+          "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5284,
+          "path": "components/motion/number-ticker.tsx",
+          "sha256": "a73a54914531aa569036e9a0caacf5afbc3576555f9f39a70f8d26e0156883a9",
+          "target": "@components/motion/number-ticker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5564,
+          "path": "components/motion/tabs.tsx",
+          "sha256": "60d600a7dbab51327130c280adfe39dfa605e9220e0e424ea9b2131f38ca4fac",
+          "target": "@components/motion/tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 5274,
+          "path": "components/motion/button/base.tsx",
+          "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/prediction-market.json",
+      "status": "installed",
+      "title": "Prediction Market",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 20,
+      "name": "wallet-card",
+      "sourceFiles": [
+        {
+          "bytes": 5112,
+          "path": "components/motion/wallet-card/index.tsx",
+          "sha256": "e4bf8038628f6aa8dd852e524fddafe863cdb9f4b1c91dc21c9e6d7b6142553f",
+          "target": "@components/motion/wallet-card/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7509,
+          "path": "components/motion/wallet-card/account-switcher.tsx",
+          "sha256": "d0754c13b0bb972f755ccb38a0152c0c13abb6e5275fb44d4267298a0896850a",
+          "target": "@components/motion/wallet-card/account-switcher.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1739,
+          "path": "components/motion/wallet-card/actions.tsx",
+          "sha256": "f7ba5c435ea4e0e6a82b3a53b165dbde8de300997476271a3d34bf1d07373d0d",
+          "target": "@components/motion/wallet-card/actions.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2294,
+          "path": "components/motion/wallet-card/balance-delta.tsx",
+          "sha256": "cd78f312816800a2f9af058cfc307c02adc4457f700258a86494acdd50835d04",
+          "target": "@components/motion/wallet-card/balance-delta.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7349,
+          "path": "components/motion/wallet-card/search-bar.tsx",
+          "sha256": "3b811bb6c9f7c57f6c31b5b297701b889fa4b0b1c24e15bf38c214c308c25550",
+          "target": "@components/motion/wallet-card/search-bar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 977,
+          "path": "components/motion/wallet-card/types.ts",
+          "sha256": "054b775144dae79b9cc84e4f1f5f5080c6eba7722eb8ab15629c3e1284095740",
+          "target": "@components/motion/wallet-card/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10329,
+          "path": "components/motion/action-swap.tsx",
+          "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 354,
+          "path": "components/motion/button/index.tsx",
+          "sha256": "b8d49238c0ae62972a38961d43be11655440090229074aead8dc613a6256321a",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 578,
+          "path": "components/motion/wallet-card/account-avatar.tsx",
+          "sha256": "f2c1a3e23f8c74e188ef2511e3d67717454f0a747ff9306656bd5649d0d18540",
+          "target": "@components/motion/wallet-card/account-avatar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 717,
+          "path": "components/motion/wallet-card/constants.ts",
+          "sha256": "5cf453c3ef4f1aa9751b3321422304f4adc0f287115da599d34f12b9b84488ed",
+          "target": "@components/motion/wallet-card/constants.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1511,
+          "path": "components/motion/wallet-card/copy-button.tsx",
+          "sha256": "6950b3f19974d06366b9b2b82b448915de6c407045bc8d22ac6e5be5f7e90bb9",
+          "target": "@components/motion/wallet-card/copy-button.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 890,
+          "path": "components/motion/wallet-card/use-dismiss.ts",
+          "sha256": "43539422ccc550b291e06c70b925546869b0b57b7f67acb51b78d4ab35cc6d41",
+          "target": "@components/motion/wallet-card/use-dismiss.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 287,
+          "path": "components/motion/wallet-card/utils.ts",
+          "sha256": "61884fbde0d1c1a0a2c89f4699bb786493268164fe9adc19ec3283f4ea336d99",
+          "target": "@components/motion/wallet-card/utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 5274,
+          "path": "components/motion/button/base.tsx",
+          "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 700,
+          "path": "components/motion/button/magnetic.tsx",
+          "sha256": "864dc7db0cda2d8ee9bff7127706c546632d00f554595c9ce1816e283acb2a1f",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6983,
+          "path": "components/motion/button/stateful.tsx",
+          "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 1446,
+          "path": "components/motion/magnetic.tsx",
+          "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/wallet-card.json",
+      "status": "installed",
+      "title": "Wallet Card",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 3,
+      "name": "otp-input",
+      "sourceFiles": [
+        {
+          "bytes": 13819,
+          "path": "components/motion/otp-input.tsx",
+          "sha256": "591880ff2b604b2db6e64afd0312da779f620f7cc44ed01694f2f0652e7a6f54",
+          "target": "@components/motion/otp-input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/otp-input.json",
+      "status": "installed",
+      "title": "OTP Input",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 11,
+      "name": "signup-form",
+      "sourceFiles": [
+        {
+          "bytes": 14715,
+          "path": "components/motion/signup-form.tsx",
+          "sha256": "8dfb6e62ab66644b5a37548cc100b93e5981b7ffa0f8bba413150a19a3969719",
+          "target": "@components/motion/signup-form.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 354,
+          "path": "components/motion/button/index.tsx",
+          "sha256": "b8d49238c0ae62972a38961d43be11655440090229074aead8dc613a6256321a",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4006,
+          "path": "components/motion/checkbox.tsx",
+          "sha256": "a1699740e6db8455026138f595d9e03b99ec81fc2606b36d9dfc20024c84bf03",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6312,
+          "path": "components/motion/input.tsx",
+          "sha256": "27f6298c4b4c4b55de361fe500749d5abbfd4aaf3cd3816517b3a4c5a2a238fb",
+          "target": "@components/motion/input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 5274,
+          "path": "components/motion/button/base.tsx",
+          "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 700,
+          "path": "components/motion/button/magnetic.tsx",
+          "sha256": "864dc7db0cda2d8ee9bff7127706c546632d00f554595c9ce1816e283acb2a1f",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6983,
+          "path": "components/motion/button/stateful.tsx",
+          "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 1446,
+          "path": "components/motion/magnetic.tsx",
+          "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/signup-form.json",
+      "status": "installed",
+      "title": "Sign Up Form",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 3,
+      "name": "bloom-menu",
+      "sourceFiles": [
+        {
+          "bytes": 8565,
+          "path": "components/motion/bloom-menu.tsx",
+          "sha256": "1a675a5285e90181890740392201e9a174a898992a72ada0dbec36e146b6f679",
+          "target": "@components/motion/bloom-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/bloom-menu.json",
+      "status": "installed",
+      "title": "Bloom Menu",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 9,
+      "name": "feedback-widget",
+      "sourceFiles": [
+        {
+          "bytes": 17261,
+          "path": "components/motion/feedback-widget.tsx",
+          "sha256": "2e46777f9d9c044b55eca892fd0b79eca2b39bdbcf311fbd38f8068df8c0dd79",
+          "target": "@components/motion/feedback-widget.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 354,
+          "path": "components/motion/button/index.tsx",
+          "sha256": "b8d49238c0ae62972a38961d43be11655440090229074aead8dc613a6256321a",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 5274,
+          "path": "components/motion/button/base.tsx",
+          "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 700,
+          "path": "components/motion/button/magnetic.tsx",
+          "sha256": "864dc7db0cda2d8ee9bff7127706c546632d00f554595c9ce1816e283acb2a1f",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6983,
+          "path": "components/motion/button/stateful.tsx",
+          "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 1446,
+          "path": "components/motion/magnetic.tsx",
+          "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/feedback-widget.json",
+      "status": "installed",
+      "title": "Feedback Widget",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 5,
+      "name": "not-found-glitch",
+      "sourceFiles": [
+        {
+          "bytes": 3359,
+          "path": "components/motion/not-found/glitch.tsx",
+          "sha256": "846f64b17f9602e03100a7d2fab82f2514bbef92a449b4361bea465a5cd5c774",
+          "target": "@components/motion/not-found/glitch.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2691,
+          "path": "components/motion/not-found/shared.tsx",
+          "sha256": "d929dff5874090c241d3860d6647d15a9cc82a8f1ebe1cdaf33f727d00438226",
+          "target": "@components/motion/not-found/shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/not-found-glitch.json",
+      "status": "installed",
+      "title": "404 / Not Found Glitch",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 6,
+      "name": "not-found-magnetic",
+      "sourceFiles": [
+        {
+          "bytes": 1590,
+          "path": "components/motion/not-found/magnetic.tsx",
+          "sha256": "f782c3b1750a53d3e990bafff88e47704f6715bc176c4b08772ba916e8865b30",
+          "target": "@components/motion/not-found/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2691,
+          "path": "components/motion/not-found/shared.tsx",
+          "sha256": "d929dff5874090c241d3860d6647d15a9cc82a8f1ebe1cdaf33f727d00438226",
+          "target": "@components/motion/not-found/shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1446,
+          "path": "components/motion/magnetic.tsx",
+          "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/not-found-magnetic.json",
+      "status": "installed",
+      "title": "404 / Not Found Magnetic",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 5,
+      "name": "not-found-spotlight",
+      "sourceFiles": [
+        {
+          "bytes": 2682,
+          "path": "components/motion/not-found/spotlight.tsx",
+          "sha256": "31857f85dad8b03622c1df449a8813fd2f2f84d050c9e7ed6d2d77356ba9ca85",
+          "target": "@components/motion/not-found/spotlight.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2691,
+          "path": "components/motion/not-found/shared.tsx",
+          "sha256": "d929dff5874090c241d3860d6647d15a9cc82a8f1ebe1cdaf33f727d00438226",
+          "target": "@components/motion/not-found/shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/not-found-spotlight.json",
+      "status": "installed",
+      "title": "404 / Not Found Spotlight",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 5,
+      "name": "not-found-stacked",
+      "sourceFiles": [
+        {
+          "bytes": 2430,
+          "path": "components/motion/not-found/stacked.tsx",
+          "sha256": "9ddc5c05d9abb298c2353a6276ee8ebb91094df738523ee5fabb6080288f40c5",
+          "target": "@components/motion/not-found/stacked.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2691,
+          "path": "components/motion/not-found/shared.tsx",
+          "sha256": "d929dff5874090c241d3860d6647d15a9cc82a8f1ebe1cdaf33f727d00438226",
+          "target": "@components/motion/not-found/shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/not-found-stacked.json",
+      "status": "installed",
+      "title": "404 / Not Found Stacked",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 6,
+      "name": "not-found-terminal",
+      "sourceFiles": [
+        {
+          "bytes": 2618,
+          "path": "components/motion/not-found/terminal.tsx",
+          "sha256": "8f3829e27956fbb683b143c52b3f618544da636fb0b10719b1e24eade1418923",
+          "target": "@components/motion/not-found/terminal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2691,
+          "path": "components/motion/not-found/shared.tsx",
+          "sha256": "d929dff5874090c241d3860d6647d15a9cc82a8f1ebe1cdaf33f727d00438226",
+          "target": "@components/motion/not-found/shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3335,
+          "path": "components/motion/text-reveal.tsx",
+          "sha256": "4080d522d1e948adb6b9a22957bccee4f33e171eb39652a2a5daec01450440d7",
+          "target": "@components/motion/text-reveal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1670,
+          "path": "lib/ease.ts",
+          "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 747,
+          "path": "lib/hooks/use-hover-capable.ts",
+          "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "bytes": 166,
+          "path": "lib/utils.ts",
+          "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://beui.dev/r/not-found-terminal.json",
+      "status": "installed",
+      "title": "404 / Not Found Terminal",
+      "type": "registry:block"
+    }
+  ],
+  "library": "beui",
+  "name": "BeUI",
+  "schemaVersion": 1,
+  "snapshotMode": "full-registry-source",
+  "sourceUrl": "https://beui.dev/",
+  "status": "installed",
+  "unavailableItemCount": 0
+}

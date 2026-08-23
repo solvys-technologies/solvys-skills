@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Dismissible callout for in-page messages; seven variants by four appearances with horizontal or vertical layout",
+  "name": "inline-alert",
+  "registryDependencies": [
+    "close-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9997,
+      "path": "registry/ui/inline-alert.tsx",
+      "sha256": "c4ffb711f6a677f28d4b1fab4bb8a5114159bd6cc390fb8ed4a7beecb3c1abbb",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/inline-alert.json",
+  "title": "Inline Alert",
+  "type": "registry:ui"
+}

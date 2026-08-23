@@ -1,0 +1,26 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "sidebar-example",
+  "registryDependencies": [
+    "sidebar",
+    "avatar",
+    "badge",
+    "button",
+    "close-button",
+    "field",
+    "input-group",
+    "progress"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 14196,
+      "path": "registry/examples/sidebar-example.tsx",
+      "sha256": "3e0b3e1b58c92bb1f683af54be3ee90a59c021a8d5d7c7ab5c967551dbe91a4d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/sidebar-example.json",
+  "title": "Sidebar",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "slider-variants",
+  "registryDependencies": [
+    "slider"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 286,
+      "path": "registry/examples/slider-variants.tsx",
+      "sha256": "9787edeb853a979862243aa08fd63c39ce555776da76628d7ae1f92835a0fce9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider-variants.json",
+  "title": "Slider Variants",
+  "type": "registry:example"
+}

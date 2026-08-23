@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "presets": {
+    "solvys": {
+      "version": "1.0.0",
+      "source": "local",
+      "manifest_hash": "sha256:d4b8eb07f4c2a1ac507c12114cbd527d1e973edbbcdb4eaf7a7a86f8f65dfff1",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {
+        "codex": [
+          "speckit.constitution",
+          "speckit.specify",
+          "speckit.clarify",
+          "speckit.plan",
+          "speckit.tasks",
+          "speckit.implement",
+          "speckit.analyze",
+          "speckit.converge"
+        ]
+      },
+      "registered_skills": {
+        "codex": [
+          "speckit-constitution",
+          "speckit-specify",
+          "speckit-clarify",
+          "speckit-plan",
+          "speckit-tasks",
+          "speckit-implement",
+          "speckit-analyze",
+          "speckit-converge"
+        ]
+      },
+      "installed_at": "2026-08-11T14:56:53.928466+00:00"
+    }
+  }
+}

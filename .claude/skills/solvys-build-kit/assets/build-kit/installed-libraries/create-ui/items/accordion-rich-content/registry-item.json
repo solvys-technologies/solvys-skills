@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "accordion-rich-content",
+  "registryDependencies": [
+    "accordion",
+    "badge",
+    "button",
+    "inline-alert"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2102,
+      "path": "registry/examples/accordion-rich-content.tsx",
+      "sha256": "7f5d7b76b07983189bb7716dd80401da9d82cde6306028d2bb6f7589c2be0002",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/accordion-rich-content.json",
+  "title": "Accordion Rich Content",
+  "type": "registry:example"
+}

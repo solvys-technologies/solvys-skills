@@ -1,0 +1,40 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "sink",
+  "registryDependencies": [
+    "accordion-example",
+    "aspect-ratio-example",
+    "avatar-example",
+    "badge-example",
+    "button-example",
+    "button-group-example",
+    "checkbox-example",
+    "command-example",
+    "field-example",
+    "input-example",
+    "input-group-example",
+    "input-otp-example",
+    "label-example",
+    "pagination-example",
+    "progress-example",
+    "radio-example",
+    "scroll-area-example",
+    "select-example",
+    "separator-example",
+    "spinner-example",
+    "switch-example",
+    "textarea-example",
+    "tooltip-example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2213,
+      "path": "registry/internal/sink.tsx",
+      "sha256": "d84f3d3e24e797427eee886d1a1b4ca54fd8bae45254409add1641df97a12d2b",
+      "target": "app/sink/page.tsx",
+      "type": "registry:page"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/sink.json",
+  "type": "registry:internal"
+}

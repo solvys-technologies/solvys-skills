@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Four large horizontal tabs drive a shared product stage with coded workspace, automation, insights, and learning scenes, responsive snap scrolling, autoplay, and keyboard navigation.",
+  "name": "features-stage-tabs",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 28152,
+      "path": "components/premium/feature-sections/features-stage-tabs.tsx",
+      "sha256": "4c79720651c912e2693e7aaf6aab29d1a37ecef10be3312a10572f71ca8f4c75",
+      "target": "@components/premium/feature-sections/features-stage-tabs.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/features-stage-tabs.json",
+  "title": "Feature stage tabs",
+  "type": "registry:block"
+}

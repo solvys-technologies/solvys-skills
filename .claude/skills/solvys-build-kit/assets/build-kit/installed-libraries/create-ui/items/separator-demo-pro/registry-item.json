@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "separator-demo-pro",
+  "registryDependencies": [
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1996,
+      "path": "registry/examples/separator-demo-pro.tsx",
+      "sha256": "c01409b90ddd36d7f6a2b61b97d80f628b7254fba48bc57948b67ccb1a342405",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/separator-demo-pro.json",
+  "title": "Separator Demo (Pro)",
+  "type": "registry:example"
+}

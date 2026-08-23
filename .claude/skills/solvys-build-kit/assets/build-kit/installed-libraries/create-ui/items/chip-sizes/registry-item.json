@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "chip-sizes",
+  "registryDependencies": [
+    "chip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 325,
+      "path": "registry/examples/chip-sizes.tsx",
+      "sha256": "18beb9d61a21d43e47633af7f93d210f377db2b5cf00c678899918819d44bb46",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/chip-sizes.json",
+  "title": "Chip Sizes",
+  "type": "registry:example"
+}

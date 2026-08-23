@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-dot-colored-border-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1663,
+      "path": "src/registry/examples/echarts/ex-dot-colored-border-echarts-line-chart.tsx",
+      "sha256": "cfb8ad4838010c8fd7210f8e89dde8baa67f89ee2cd5f2faf4aec39282505520",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-dot-colored-border-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

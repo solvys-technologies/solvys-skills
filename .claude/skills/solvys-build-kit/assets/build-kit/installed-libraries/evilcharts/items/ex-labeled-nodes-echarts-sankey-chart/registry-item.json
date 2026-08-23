@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-labeled-nodes-echarts-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-sankey-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2850,
+      "path": "src/registry/examples/echarts/ex-labeled-nodes-echarts-sankey-chart.tsx",
+      "sha256": "343ce71e24cc5a07fa387a1a86ecc618a0c99bf47f7f36f20ae40bb35d270edf",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-labeled-nodes-echarts-sankey-chart.json?raw=1",
+  "type": "registry:block"
+}

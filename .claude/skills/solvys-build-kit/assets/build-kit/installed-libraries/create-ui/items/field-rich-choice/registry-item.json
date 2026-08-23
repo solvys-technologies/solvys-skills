@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "field-rich-choice",
+  "registryDependencies": [
+    "field",
+    "checkbox",
+    "label",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1256,
+      "path": "registry/examples/field-rich-choice.tsx",
+      "sha256": "310bac3574b1c559bf2f2dd258f63a80589cab16651cf0b11b61502f06bead33",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/field-rich-choice.json",
+  "title": "Field Rich Choice",
+  "type": "registry:example"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-composition",
+  "registryDependencies": [
+    "input",
+    "input-group",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 650,
+      "path": "registry/examples/input-group-composition.tsx",
+      "sha256": "a129b0dbf84b648396dc8506c3f64da89c9001150fd49e3063ed83cda2069154",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-composition.json",
+  "title": "Input Group Composition",
+  "type": "registry:example"
+}

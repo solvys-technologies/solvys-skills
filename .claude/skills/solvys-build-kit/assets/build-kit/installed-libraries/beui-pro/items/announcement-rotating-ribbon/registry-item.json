@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A compact site-wide ribbon that cycles through announcements with vertical blur transitions, a restrained light sweep, visibility-aware playback, and dismissal.",
+  "name": "announcement-rotating-ribbon",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5776,
+      "path": "components/premium/announcement-banners/announcement-rotating-ribbon.tsx",
+      "sha256": "553744f0eb16b5417252d1a1d95771fc5d87e3355e8dbca7289d0821e7f23833",
+      "target": "@components/premium/announcement-banners/announcement-rotating-ribbon.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1371,
+      "path": "components/premium/announcement-banners/use-announcement-cycle.ts",
+      "sha256": "db8f6baace512aa865a6df3fa42012d0c2f289e96c301dc4205cc2481e077c24",
+      "target": "@components/premium/announcement-banners/use-announcement-cycle.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/announcement-rotating-ribbon.json",
+  "title": "Rotating announcement ribbon",
+  "type": "registry:block"
+}

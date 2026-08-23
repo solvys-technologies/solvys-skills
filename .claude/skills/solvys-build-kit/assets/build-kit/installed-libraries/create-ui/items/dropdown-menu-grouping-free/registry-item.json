@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-grouping-free",
+  "registryDependencies": [
+    "button",
+    "dropdown-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 931,
+      "path": "registry/examples/dropdown-menu-grouping-free.tsx",
+      "sha256": "1c78052e5ddfdbc063f21d88ed9d1cfea2005e7561be1b4abaac0f3b31c76628",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-grouping-free.json",
+  "title": "Dropdown Menu Grouping (Free)",
+  "type": "registry:example"
+}

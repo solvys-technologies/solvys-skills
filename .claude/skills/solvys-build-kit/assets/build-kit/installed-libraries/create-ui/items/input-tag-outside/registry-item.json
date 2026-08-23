@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-tag-outside",
+  "registryDependencies": [
+    "input-tag"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 439,
+      "path": "registry/examples/input-tag-outside.tsx",
+      "sha256": "7e10704f4c9ad04c9e66e6d68a56e548fe03327dfb471c385391fc67649067f9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-tag-outside.json",
+  "title": "Input Tag",
+  "type": "registry:example"
+}

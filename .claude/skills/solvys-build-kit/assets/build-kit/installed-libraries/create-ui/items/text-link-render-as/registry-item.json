@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "text-link-render-as",
+  "registryDependencies": [
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 818,
+      "path": "registry/examples/text-link-render-as.tsx",
+      "sha256": "6dce33f7ac8a2efc2ef50e7f2cb5282707d6afcab7f91913e5f5f0c37927874b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/text-link-render-as.json",
+  "title": "TextLink Render As",
+  "type": "registry:example"
+}

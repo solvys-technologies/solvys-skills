@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion"
+  ],
+  "description": "Sankey chart component for visualizing flow data with nodes and links",
+  "name": "recharts-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart",
+    "@evilcharts/recharts-tooltip",
+    "@evilcharts/recharts-background"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 28357,
+      "path": "src/registry/charts/recharts-sankey-chart.tsx",
+      "sha256": "33dfe779d9be15df575b8c995217040897f9c021b28c9366ffbc87a8b566ac58",
+      "target": "components/evilcharts/charts/recharts-sankey-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-sankey-chart.json?raw=1",
+  "type": "registry:component"
+}

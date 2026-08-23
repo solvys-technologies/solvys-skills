@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "command-links",
+  "registryDependencies": [
+    "command",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2387,
+      "path": "registry/examples/command-links.tsx",
+      "sha256": "db8c20cee5c6f6b7005b0221037462beda8fca9ca3ea3f5cf31dab33f7b21fa8",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/command-links.json",
+  "title": "Command Links",
+  "type": "registry:example"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bg-tiny-checkers-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1959,
+      "path": "src/registry/examples/recharts/ex-bg-tiny-checkers-line-chart.tsx",
+      "sha256": "510bbc0e9609d42f3866f918999e1f94b4ef5c3d6300b990e7769bfad31b0c9b",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bg-tiny-checkers-line-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "spinner-cap",
+  "registryDependencies": [
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 326,
+      "path": "registry/examples/spinner-cap.tsx",
+      "sha256": "2d9ee2bdd304ae0759ef6a54548809fa8661f21fdefc9d01a6b0cfdb70371104",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/spinner-cap.json",
+  "title": "Spinner Cap",
+  "type": "registry:example"
+}

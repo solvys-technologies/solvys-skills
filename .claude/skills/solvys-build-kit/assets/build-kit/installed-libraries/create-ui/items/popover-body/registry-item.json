@@ -1,0 +1,27 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "popover-body",
+  "registryDependencies": [
+    "popover",
+    "button",
+    "avatar",
+    "badge",
+    "field",
+    "input",
+    "label",
+    "switch",
+    "switch-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6650,
+      "path": "registry/examples/popover-body.tsx",
+      "sha256": "dec4bb23363055316d2e634b8ebfb265cd3dbbf83d50ab0be9c316576fc68cae",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/popover-body.json",
+  "title": "Popover Body",
+  "type": "registry:example"
+}

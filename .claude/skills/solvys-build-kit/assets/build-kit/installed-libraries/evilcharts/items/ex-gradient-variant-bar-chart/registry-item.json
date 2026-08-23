@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-variant-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1649,
+      "path": "src/registry/examples/recharts/ex-gradient-variant-bar-chart.tsx",
+      "sha256": "1e9175e7efd20409993ac2f728f31ceb328da58b96780b643f18ffc58666d538",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

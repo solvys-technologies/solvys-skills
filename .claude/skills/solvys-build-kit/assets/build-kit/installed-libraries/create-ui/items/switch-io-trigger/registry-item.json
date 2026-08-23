@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-io-trigger",
+  "registryDependencies": [
+    "switch"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 234,
+      "path": "registry/examples/switch-io-trigger.tsx",
+      "sha256": "0e9a8394030512e838aab9acb36cada5228353f620d48661531122e12de675dd",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-io-trigger.json",
+  "title": "Switch I/O Trigger",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-group-vertical",
+  "registryDependencies": [
+    "button-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1221,
+      "path": "registry/examples/button-group-vertical.tsx",
+      "sha256": "2e83a006cbe6b44de6503d2a79b3ce5d1c0a442568726ee5c94aada8746599b5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-group-vertical.json",
+  "title": "Button Group Vertical",
+  "type": "registry:example"
+}

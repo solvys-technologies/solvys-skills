@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-colors-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1739,
+      "path": "src/registry/examples/recharts/ex-gradient-colors-bar-chart.tsx",
+      "sha256": "8dc358cf2250db24fc2a9a38026a57481c886e25e14054e3fcd5642b3a1dc64e",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

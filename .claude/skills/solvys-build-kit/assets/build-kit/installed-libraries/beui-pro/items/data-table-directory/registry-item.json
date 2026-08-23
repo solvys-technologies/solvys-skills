@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A soft editorial directory with 1,200 virtualized people, responsive team filters, deferred search, presence, and sortable profile details.",
+  "name": "data-table-directory",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/table",
+    "@beui/tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7289,
+      "path": "components/premium/data-tables/data-table-directory.tsx",
+      "sha256": "3aede24cb6d9036a7654d9a50cd3c492d4c91fc31fb0805d637e84f355f53802",
+      "target": "@components/premium/data-tables/data-table-directory.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4450,
+      "path": "components/premium/data-tables/data.ts",
+      "sha256": "628bbb43e1c50dd336c799cd101a4e484ec00480fbfc38ed04896070f19995de",
+      "target": "@components/premium/data-tables/data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/data-table-directory.json",
+  "title": "People directory",
+  "type": "registry:block"
+}

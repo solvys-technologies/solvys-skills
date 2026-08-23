@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "context-menu-demo",
+  "registryDependencies": [
+    "context-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1286,
+      "path": "registry/examples/context-menu-demo.tsx",
+      "sha256": "d937b1a2e362e147092d60cfbc3c313e23e5637e4a1bcb3c42903add5321b292",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/context-menu-demo.json",
+  "title": "Context Menu Demo",
+  "type": "registry:example"
+}

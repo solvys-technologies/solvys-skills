@@ -1,0 +1,62 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A single-plan pricing section with a theme-aware WebGL aurora, staggered benefit reveal, lifetime price treatment, and high-contrast access CTA.",
+  "name": "pricing-aurora-flow",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6589,
+      "path": "components/premium/pricing/pricing-aurora-flow.tsx",
+      "sha256": "7c13f118cfddcbfa87400e7334af33a83eac197fe26f6b891cf1db164f40bd8a",
+      "target": "@components/premium/pricing/pricing-aurora-flow.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2460,
+      "path": "components/premium/pricing/animated-price.tsx",
+      "sha256": "64acf8469bf6aa1ed6653f7beec28f039bc95b24e47775eda37eee14de9b7b49",
+      "target": "@components/premium/pricing/animated-price.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4981,
+      "path": "components/premium/pricing/pricing-aurora-surface.tsx",
+      "sha256": "0526f7f9f71c0f496794de1d9002690476b6887bfee04a9c3cbdb5b385f7fafb",
+      "target": "@components/premium/pricing/pricing-aurora-surface.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 616,
+      "path": "lib/hooks/use-dark-theme.ts",
+      "sha256": "5a0d4688c8c6af9edcdc12bf2cda40c1403af9c85b27b67d7ed140dfeea624dc",
+      "target": "@lib/hooks/use-dark-theme.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/pricing-aurora-flow.json",
+  "title": "Aurora flow",
+  "type": "registry:block"
+}

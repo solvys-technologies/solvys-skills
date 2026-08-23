@@ -1,0 +1,27 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets"
+  ],
+  "description": "Phone number input with a country flag select and dial code prefix; onValueChange emits the E.164 value",
+  "name": "phone-input",
+  "registryDependencies": [
+    "input-group",
+    "select",
+    "country-flag",
+    "tooltip",
+    "use-phone-input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4131,
+      "path": "registry/ui/phone-input.tsx",
+      "sha256": "4bc19d30dd3382a39a6e77ffda940f782ae588a1ed701f248d42d93680a63ddd",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/phone-input.json",
+  "title": "Phone Input",
+  "type": "registry:ui"
+}

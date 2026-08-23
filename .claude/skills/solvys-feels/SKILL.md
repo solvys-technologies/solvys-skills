@@ -9,21 +9,38 @@ metadata:
 
 You are a design systems engineer. Every UI decision you make must pass through these filters. This is not optional -- these rules override your default aesthetic instincts.
 
+Follow the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) when
+applying the system to code: existing repo seam first, standard library or
+native platform, already-installed dependency or maintained OSS, then the
+minimum custom implementation. Never use the ladder to weaken the accessibility,
+motion, or visual-quality requirements below.
+
 ## Core Identity
 
-**Palette: Solvys Gold**
-- Background: `#050402` (near-black with warm undertone)
-- Accent: `#c79f4a` (muted gold -- not bright, not shiny)
-- Text: `#f0ead6` (warm off-white -- never pure white)
+**Palette: Solvys canonical pairs (default Forest Chartreuse)**
+
+Read `factory/canon/solvys-palette-themes.md` for the full spec. Every app ships four palette pairs with light and dark variants. Settings must expose palette cycling.
+
+| Pair | Light accent | Dark accent |
+|------|--------------|-------------|
+| **Forest Chartreuse (default)** | Sunlit Chartreuse `#DCD870` | Deep Forest Green `#223D22` |
+| Sunrise Gold | `#EDB964` | `#3B3D26` |
+| Misty Blue | `#83A7B4` | `#062635` |
+| Pale Harbor | `#C0C8CA` | `#2B4851` |
+
+**Surface rules**
+
+- Light: nardo-grey bases — never pure white canvases.
+- Dark: `#1f1f1f` or `#5C5858` on black or near-black.
 
 **Aesthetic: Industrial Luxe**
-Precise but not cold. Technical but not clinical. Monochrome canvas with a single warm accent. Every element earns its pixel.
+Precise but not cold. Technical but not clinical. Restrained grey canvases with a single palette accent per pair. Every element earns its pixel.
 
 ## Design Principles
 
 1. **Subtract, don't add.** If you can remove an element without losing meaning, remove it.
 2. **Structure is ornament.** The grid, the data, the hierarchy ARE the design. No decorative elements.
-3. **Monochrome is the canvas.** Color is an event, not a default. The gold accent is a signal, not a fill.
+3. **Grey is the canvas.** Color is an event, not a default. The active palette accent is a signal, not a fill.
 4. **Type does the heavy lifting.** Scale, weight, and spacing create hierarchy. Not color, not icons, not borders.
 5. **Flat is final.** No depth simulation. No shadows, no gradients, no blur. Layers are distinguished by opacity and tone.
 
@@ -40,10 +57,10 @@ These patterns are NEVER acceptable in Solvys applications:
 | AI sparkles / glitter / aurora effects | Immediate "AI slop" signal |
 | Colored icons / filled icons | Line icons only, stroke-width 1.5-2px |
 | Rounded-full on non-circular elements | Industrial, not bubbly |
-| Pure black (`#000000`) as background | Too harsh -- use warm near-black |
-| Pure white (`#ffffff`) as text | Too harsh -- use warm off-white |
+| Pure black (`#000000`) as background | Too harsh — use `#1f1f1f` / near-black |
+| Pure white (`#ffffff`) as a light canvas | Use nardo-grey family (`#C0C8CA` and steps) |
+| Pure white (`#ffffff`) as text on dark | Too harsh — use warm off-white |
 | M-dashes in text content | Use en-dashes or hyphens |
-| `border-left` or `border-right` > 1px on cards/alerts | Side-stripe borders are banned |
 | Gradient text (`background-clip: text`) | Never |
 | Skeleton loading screens | Use `[LOADING...]` text indicators |
 | Toast popups | Use inline status text: `[SAVED]`, `[ERROR: ...]` |
@@ -53,39 +70,34 @@ These patterns are NEVER acceptable in Solvys applications:
 
 Use OKLCH where possible. All custom properties should be defined in OKLCH with hex fallbacks.
 
-### Surface Layers (darkest to lightest)
+### Surface Layers
+
+Use the active palette pair. Default **Forest Chartreuse**:
+
+**Dark**
 ```
-Layer 0 (base):     #050402   oklch(0.06 0.01 70)
-Layer 1 (surface):  #0a0905   oklch(0.10 0.01 70)
-Layer 2 (elevated): #110f0a   oklch(0.13 0.01 70)
-Layer 3 (overlay):  #151310   oklch(0.15 0.01 70)
-Header:             #080604   oklch(0.08 0.01 70)
+Layer 0 (base):     #1f1f1f   oklch(0.24 0 0)
+Layer 1 (elevated): stepped b1–b4 with subtle green tint
+Text primary:       warm off-white on dark accent hue
 ```
 
-### Text Opacity Tiers
+**Light**
 ```
-Primary:    #f0ead6  100%     -- headings, primary content
-Secondary:  #f0ead6  72%      -- body text, descriptions
-Muted:      #f0ead6  40%      -- labels, timestamps, secondary info
-Disabled:   #f0ead6  20%      -- disabled states
-```
-
-### Accent Usage
-```
-Accent:         #c79f4a           -- links, active states, key indicators
-Accent hover:   rgba(199,159,74, 0.20)  -- hover backgrounds
-Accent active:  rgba(199,159,74, 0.10)  -- active/selected backgrounds
-Accent subtle:  rgba(199,159,74, 0.06)  -- subtle hover states
+Layer 0 (base):     #C0C8CA family (nardo grey) — never #ffffff
+Layer 1 (elevated): slightly darker grey steps
+Text primary:       dark ink on grey canvas
 ```
 
-### Severity Colors (for data, alerts, status)
+See `factory/canon/solvys-palette-themes.md` for all four pairs.
+
+### Accent Usage (Forest Chartreuse default)
+
 ```
-Severe:          #da0000    -- critical errors, stop signals
-Neutral-Severe:  #ac5318    -- warnings, caution
-Neutral:         #c79f4a    -- normal state (same as accent)
-Low-Neutral:     #526089    -- informational
-Low:             #073c00    -- success, safe, confirmed
+Light accent:   #DCD870   -- Sunlit Chartreuse
+Dark accent:    #223D22   -- Deep Forest Green (lift for interactive states)
 ```
+
+Derive hover/active/subtle accent backgrounds from the active pair accent at 6–20% opacity.
 
 ### Bullish / Bearish (for financial data)
 ```
@@ -120,9 +132,9 @@ All fonts self-hosted as WOFF2 with `font-display: swap`. See `reference/font-ki
 ## Borders
 
 ```
-Base:   rgba(199, 159, 74, 0.10)   -- 1px, default card/section borders
-Hover:  rgba(199, 159, 74, 0.20)   -- on hover
-Focus:  rgba(199, 159, 74, 0.40)   -- focused inputs, active elements
+Base:   accent at 10% opacity   -- 1px, default card/section borders
+Hover:  accent at 20% opacity   -- on hover
+Focus:  accent at 40% opacity   -- focused inputs, active elements
 ```
 
 Always 1px. Never thicker. Never solid accent color at full opacity for borders (too loud).

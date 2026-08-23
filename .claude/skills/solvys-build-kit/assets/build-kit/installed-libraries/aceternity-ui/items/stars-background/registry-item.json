@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "stars-background",
+  "shippedFiles": [
+    {
+      "bytes": 3402,
+      "path": "components/ui/stars-background.tsx",
+      "sha256": "82801c3eb4f966e6e31a6c24ab629137e7e6db14dfcc142553ccc33821fde3c6",
+      "target": "components/ui/stars-background.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/stars-background.json",
+  "title": "Stars Background",
+  "type": "registry:ui"
+}

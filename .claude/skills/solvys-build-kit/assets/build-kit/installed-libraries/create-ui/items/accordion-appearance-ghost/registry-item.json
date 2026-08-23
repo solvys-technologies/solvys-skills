@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "accordion-appearance-ghost",
+  "registryDependencies": [
+    "accordion"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5563,
+      "path": "registry/examples/accordion-appearance-ghost.tsx",
+      "sha256": "503805a85ec62fb67fe3725d966aba08f00dfdc1958236368dbec9ee799c42e1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/accordion-appearance-ghost.json",
+  "title": "Accordion Appearance Ghost",
+  "type": "registry:example"
+}

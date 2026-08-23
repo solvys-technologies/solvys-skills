@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Stacked weekly signups with only the best week in color",
+  "name": "peak-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2848,
+      "path": "src/registry/blocks/echarts/b-peak-echarts-bar-chart.tsx",
+      "sha256": "cfcade5884ee78865195ca02253eb6457866229553ca6e010e0a78306c8b975e",
+      "target": "components/evilcharts/blocks/peak-echarts-bar-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/peak-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

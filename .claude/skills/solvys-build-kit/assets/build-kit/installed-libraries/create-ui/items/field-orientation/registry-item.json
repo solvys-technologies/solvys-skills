@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "field-orientation",
+  "registryDependencies": [
+    "field",
+    "input",
+    "checkbox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1345,
+      "path": "registry/examples/field-orientation.tsx",
+      "sha256": "aee947d07ec9a312e5b3ae6a5e1e8e5a8b37dd06efb5ed9e0ee14b801755d970",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/field-orientation.json",
+  "title": "Field Orientation",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "accordion-disabled",
+  "registryDependencies": [
+    "accordion"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 953,
+      "path": "registry/examples/accordion-disabled.tsx",
+      "sha256": "948d52050d76a3ddc957023a69825813b1f1366d742fe548bc64958566872f62",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/accordion-disabled.json",
+  "title": "Accordion Disabled",
+  "type": "registry:example"
+}

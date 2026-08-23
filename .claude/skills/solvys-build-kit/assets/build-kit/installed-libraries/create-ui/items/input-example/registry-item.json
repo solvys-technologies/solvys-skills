@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-example",
+  "registryDependencies": [
+    "button",
+    "field",
+    "input",
+    "select",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6564,
+      "path": "registry/examples/input-example.tsx",
+      "sha256": "052a7f1ba09a57612c708a62ca43a1223ffb6163869f8b5845f78c5cba1c11ea",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-example.json",
+  "title": "Input",
+  "type": "registry:example"
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A centered developer CTA: a dark terminal that types an install command, streams a faux install log, and has a copy-to-clipboard button, with a blur-reveal headline and paired CTAs.",
+  "name": "cta-terminal",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9224,
+      "path": "components/premium/cta-sections/cta-terminal.tsx",
+      "sha256": "db609d3a17eef62a7112d11ac74e64298b63b4d144ddf0b4b937251c6c26321e",
+      "target": "@components/premium/cta-sections/cta-terminal.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/cta-terminal.json",
+  "title": "Terminal CTA",
+  "type": "registry:block"
+}

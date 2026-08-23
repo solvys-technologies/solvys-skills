@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "An asymmetric FAQ with a sticky introduction, independently opening rounded questions, and a restrained theme-native accent treatment.",
+  "name": "faq-stacked",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 6158,
+      "path": "components/premium/faq-blocks/faq-stacked.tsx",
+      "sha256": "c60f55d27380352286c13b488533e0ffdf4cfe6943598f6095787f875f5d1c7f",
+      "target": "@components/premium/faq-blocks/faq-stacked.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3272,
+      "path": "components/premium/faq-blocks/faq-data.ts",
+      "sha256": "0b8688c08cda5e796401fd18ab64140ebeacc5b3fa0eb71c730d8a43e61710d0",
+      "target": "@components/premium/faq-blocks/faq-data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 698,
+      "path": "components/premium/faq-blocks/faq-motion.ts",
+      "sha256": "c8fe411eeceddc7618589b69dd9aeb5efa6724551f34a3be229735675423d8c0",
+      "target": "@components/premium/faq-blocks/faq-motion.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/faq-stacked.json",
+  "title": "Stacked FAQ",
+  "type": "registry:block"
+}

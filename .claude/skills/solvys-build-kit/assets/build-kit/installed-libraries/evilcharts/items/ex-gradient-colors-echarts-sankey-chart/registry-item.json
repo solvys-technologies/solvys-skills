@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-colors-echarts-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-sankey-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3534,
+      "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-sankey-chart.tsx",
+      "sha256": "367b831261a2bb8eb4597186f7cf585bed1f3be0b5d220ca6580dfb935e73a6d",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-colors-echarts-sankey-chart.json?raw=1",
+  "type": "registry:block"
+}

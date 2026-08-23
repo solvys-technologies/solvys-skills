@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "password-strength-example",
+  "registryDependencies": [
+    "password-strength",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1707,
+      "path": "registry/examples/password-strength-example.tsx",
+      "sha256": "a87b0b84af764c8a2d4bb1a8537c6cda462de4293fd0e8ee39c6e3cbb5120c63",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/password-strength-example.json",
+  "title": "Password Strength",
+  "type": "registry:example"
+}

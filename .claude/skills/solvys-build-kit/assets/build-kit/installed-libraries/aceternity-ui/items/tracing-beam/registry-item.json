@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "tracing-beam",
+  "shippedFiles": [
+    {
+      "bytes": 3515,
+      "path": "components/ui/tracing-beam.tsx",
+      "sha256": "99378566d3354d734f4d7da530875e6e1746ce28a6bf819df971632990d4254f",
+      "target": "components/ui/tracing-beam.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/tracing-beam.json",
+  "title": "Tracing Beam",
+  "type": "registry:ui"
+}

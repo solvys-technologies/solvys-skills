@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "aspect-ratio-card",
+  "registryDependencies": [
+    "aspect-ratio",
+    "avatar",
+    "badge",
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2167,
+      "path": "registry/examples/aspect-ratio-card.tsx",
+      "sha256": "40af7b39da12b2362d4306fe734d2b2ba936662af6940ce153eba14371947e73",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/aspect-ratio-card.json",
+  "title": "Aspect Ratio Card",
+  "type": "registry:example"
+}

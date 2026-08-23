@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "close-button-sizes",
+  "registryDependencies": [
+    "close-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 488,
+      "path": "registry/examples/close-button-sizes.tsx",
+      "sha256": "928c9f9885a3d5e25955a01019ed053ca5fc536bfd74e7ec08ce0450cf15067d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/close-button-sizes.json",
+  "title": "Close Button Sizes",
+  "type": "registry:example"
+}

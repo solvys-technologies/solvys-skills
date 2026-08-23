@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-demo",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 578,
+      "path": "registry/examples/pagination-demo.tsx",
+      "sha256": "d8dbb213bf90402aefd5be154090650fd9ee473f9ad499a2d1780d6162fa238a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-demo.json",
+  "title": "Pagination Demo",
+  "type": "registry:example"
+}

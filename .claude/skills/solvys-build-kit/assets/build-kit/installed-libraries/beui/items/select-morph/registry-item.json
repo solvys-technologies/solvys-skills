@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Composable primitives (MorphSelect, MorphSelectTrigger, MorphSelectValue, MorphSelectContent, MorphSelectItem) where the trigger morphs into the panel via a shared layoutId \u2014 one continuous surface that grows open and shrinks back, never detaching.",
+  "name": "select-morph",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 11140,
+      "path": "components/motion/select-morph.tsx",
+      "sha256": "a628697f0cb5642d346f41c16248c4ebf39f09aba3c29ca9725a9f70433e2162",
+      "target": "@components/motion/select-morph.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/select-morph.json",
+  "title": "Select Morph Select",
+  "type": "registry:component"
+}

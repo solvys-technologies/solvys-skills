@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-states",
+  "registryDependencies": [
+    "select"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1954,
+      "path": "registry/examples/select-states.tsx",
+      "sha256": "99ea33fdc33a631b01c9f60c4be7cfca953958ae970b84b62c78272685da3394",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-states.json",
+  "title": "Select States",
+  "type": "registry:example"
+}

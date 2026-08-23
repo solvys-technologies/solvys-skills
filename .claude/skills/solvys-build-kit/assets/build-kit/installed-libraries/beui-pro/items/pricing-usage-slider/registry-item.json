@@ -1,0 +1,35 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "tailwind-merge"
+  ],
+  "description": "A usage-based pricing card with a snapping range slider that maps metered tiers to a live price, a billing toggle, an included-features list, and a CTA.",
+  "name": "pricing-usage-slider",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/number-ticker",
+    "@beui/range-slider",
+    "@beui/tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4770,
+      "path": "components/premium/pricing/usage-slider.tsx",
+      "sha256": "bb1d047bf67c9dddf0513c94ca69b190103f5862f8be9fc18a392b3662eb429e",
+      "target": "@components/premium/pricing/usage-slider.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/pricing-usage-slider.json",
+  "title": "Usage slider",
+  "type": "registry:block"
+}

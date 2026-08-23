@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "label-sizes",
+  "registryDependencies": [
+    "field",
+    "input",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 713,
+      "path": "registry/examples/label-sizes.tsx",
+      "sha256": "39203d08bd08761ae8994ed9a158bc1580b32728f82761b57a8e5ebaa7250dc0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label-sizes.json",
+  "title": "Label Sizes",
+  "type": "registry:example"
+}

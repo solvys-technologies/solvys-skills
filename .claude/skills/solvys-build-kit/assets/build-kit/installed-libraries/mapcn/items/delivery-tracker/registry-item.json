@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "categories": [
+    "tracking",
+    "delivery"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ],
+  "description": "Live order tracking with route progress, courier position, and order details.",
+  "meta": {
+    "iframeHeight": "720px"
+  },
+  "name": "delivery-tracker",
+  "registryDependencies": [
+    "@mapcn/map",
+    "card",
+    "badge",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 8347,
+      "path": "src/registry/blocks/delivery-tracker/page.tsx",
+      "sha256": "6d6eecaa4e5d030d3dad95dd343edf01f66fc4b1a26b6aa90cb44f565fa09160",
+      "target": "app/delivery/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 1667,
+      "path": "src/registry/blocks/delivery-tracker/data.ts",
+      "sha256": "c98f114edfbd83c3d33b03f9579307f25ef8595fe61cdc99a5c02992949e23a8",
+      "target": "app/delivery/data.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/delivery-tracker.json",
+  "title": "Delivery Tracker",
+  "type": "registry:block"
+}

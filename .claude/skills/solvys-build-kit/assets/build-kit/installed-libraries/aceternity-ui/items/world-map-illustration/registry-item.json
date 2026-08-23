@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "world-map-illustration",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/world-map-illustration.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

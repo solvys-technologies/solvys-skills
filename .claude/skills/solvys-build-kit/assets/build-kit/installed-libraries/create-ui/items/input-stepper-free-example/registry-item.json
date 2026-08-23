@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-stepper-free-example",
+  "registryDependencies": [
+    "field",
+    "input-stepper",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4574,
+      "path": "registry/examples/input-stepper-free-example.tsx",
+      "sha256": "ef1299241f6ba7d62ada3be6601ea0ca900e6d4b8a0dcb78b32dce86443108f4",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-stepper-free-example.json",
+  "title": "Input Stepper (Free)",
+  "type": "registry:example"
+}

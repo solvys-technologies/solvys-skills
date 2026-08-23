@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "chat-conversation",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/chat-conversation.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

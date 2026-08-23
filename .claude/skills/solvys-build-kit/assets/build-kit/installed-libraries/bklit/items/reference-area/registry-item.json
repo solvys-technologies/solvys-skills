@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "motion"
+  ],
+  "description": "Shaded data-coordinate band for target ranges and thresholds on time-series charts",
+  "name": "reference-area",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/background"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 8135,
+      "path": "src/charts/reference-area.tsx",
+      "sha256": "ead239e0a2c219a08686fa5a7b0a4c95009d2a55c3077f82608536ac1beaacc4",
+      "target": "components/charts/reference-area.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3175,
+      "path": "src/charts/reference-area-geometry.ts",
+      "sha256": "846c484c1a94faf0f0090783f408d586ba02e6c28dbe597c25241fad6fa9cda9",
+      "target": "components/charts/reference-area-geometry.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 590,
+      "path": "src/charts/reference-area-registration-context.tsx",
+      "sha256": "1bdf081f8d454f6e9b678d4b470aabbade8fb7b47d9bcf8a44e05887e11aa347",
+      "target": "components/charts/reference-area-registration-context.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/reference-area.json",
+  "status": "installed",
+  "title": "Reference Area",
+  "type": "registry:component"
+}

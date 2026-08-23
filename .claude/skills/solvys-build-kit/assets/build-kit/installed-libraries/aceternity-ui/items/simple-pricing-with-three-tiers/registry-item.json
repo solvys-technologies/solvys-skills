@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "simple-pricing-with-three-tiers",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/simple-pricing-with-three-tiers.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

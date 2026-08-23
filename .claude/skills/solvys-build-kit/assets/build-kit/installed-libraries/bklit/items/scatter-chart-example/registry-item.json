@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "d3-scale",
+    "d3-array",
+    "motion",
+    "react-use-measure"
+  ],
+  "description": "Composable scatter-chart demo for Open in v0",
+  "name": "scatter-chart-example",
+  "registryDependencies": [
+    "@bklit/scatter-chart",
+    "@bklit/grid",
+    "@bklit/x-axis",
+    "@bklit/chart-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1035,
+      "path": "registry/examples/scatter-chart.tsx",
+      "sha256": "6811241bf79d88e00e7d65f549c028cfe6bebd33cd914d0a4f862b0680c664e4",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 289,
+      "path": "registry/examples/scatter-chart-index.ts",
+      "sha256": "e8c7eb4a74af000fa24a6f058fcc1e533602a08d411e0694613bf346c41e297f",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/scatter-chart-example.json",
+  "status": "installed",
+  "title": "Scatter Chart Example",
+  "type": "registry:example"
+}

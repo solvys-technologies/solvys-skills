@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A link-rich footer with a brand column, live status pill, animated link columns, a stateful newsletter form, and a social bottom bar.",
+  "name": "footer-mega",
+  "registryDependencies": [
+    "@beui/button-stateful"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10334,
+      "path": "components/premium/footer-sections/footer-mega.tsx",
+      "sha256": "9eaba0202349e9c035d0473c642e94c098c556e2015e96c22739e746974f99d1",
+      "target": "@components/premium/footer-sections/footer-mega.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/footer-mega.json",
+  "title": "Mega footer",
+  "type": "registry:block"
+}

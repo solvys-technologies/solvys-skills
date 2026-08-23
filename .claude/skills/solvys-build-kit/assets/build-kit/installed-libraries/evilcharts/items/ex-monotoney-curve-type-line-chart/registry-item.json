@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-monotoney-curve-type-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1913,
+      "path": "src/registry/examples/recharts/ex-monotoney-curve-type-line-chart.tsx",
+      "sha256": "b7ba66cb71b4f35ba2ba402d6d539982521612b2183b6f577287306bb19af6f1",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-monotoney-curve-type-line-chart.json?raw=1",
+  "type": "registry:block"
+}

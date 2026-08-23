@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A left-aligned CTA set against broad layered blue shade bands, with deliberate negative space and one focused action.",
+  "name": "cta-shade-panel",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4920,
+      "path": "components/premium/cta-sections/cta-shade-panel.tsx",
+      "sha256": "5302a06503f48058559b42bd2990e2dc4e9d971626149a7909dbb1d6acdcdd6a",
+      "target": "@components/premium/cta-sections/cta-shade-panel.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/cta-shade-panel.json",
+  "title": "Shade panel CTA",
+  "type": "registry:block"
+}

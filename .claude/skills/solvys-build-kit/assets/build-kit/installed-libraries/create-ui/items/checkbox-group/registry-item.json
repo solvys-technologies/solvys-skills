@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Field wrapper that labels a Checkbox and cascades variant, size and shape via context; placement left or right",
+  "name": "checkbox-group",
+  "registryDependencies": [
+    "checkbox",
+    "field"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2381,
+      "path": "registry/ui/checkbox-group.tsx",
+      "sha256": "65e24f71442a1540c2391ac607a820cbb6985886ae3f307d912f60acb471790b",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-group.json",
+  "title": "Checkbox Group",
+  "type": "registry:ui"
+}

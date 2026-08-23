@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "meteors",
+  "shippedFiles": [
+    {
+      "bytes": 1534,
+      "path": "components/ui/meteors.tsx",
+      "sha256": "f5bacbd0e30396d56d0f14b08b48b33490095221f322a00ea68a6643c468eb92",
+      "target": "components/ui/meteors.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/meteors.json",
+  "title": "Meteors",
+  "type": "registry:ui"
+}

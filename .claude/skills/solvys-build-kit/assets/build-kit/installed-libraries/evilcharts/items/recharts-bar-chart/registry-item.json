@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion"
+  ],
+  "description": "Bar chart component",
+  "name": "recharts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart",
+    "@evilcharts/recharts-tooltip",
+    "@evilcharts/recharts-legend",
+    "@evilcharts/recharts-brush",
+    "@evilcharts/recharts-background"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 44337,
+      "path": "src/registry/charts/recharts-bar-chart.tsx",
+      "sha256": "660b0a63d43cfb14aaeabd7f1c6dc4ad6f30df387c2b6aca9497d5c417b14c53",
+      "target": "components/evilcharts/charts/recharts-bar-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-bar-chart.json?raw=1",
+  "type": "registry:component"
+}

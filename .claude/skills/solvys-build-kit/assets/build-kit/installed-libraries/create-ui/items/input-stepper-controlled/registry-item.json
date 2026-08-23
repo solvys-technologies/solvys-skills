@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-stepper-controlled",
+  "registryDependencies": [
+    "input-stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 597,
+      "path": "registry/examples/input-stepper-controlled.tsx",
+      "sha256": "bba71eae1bba109356a48cd68ca6427a606f77256987bfd20b6f7ef543f7df65",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-stepper-controlled.json",
+  "title": "Input Stepper Controlled",
+  "type": "registry:example"
+}

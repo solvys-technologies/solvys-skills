@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "label-info-tooltip",
+  "registryDependencies": [
+    "field",
+    "info-tooltip",
+    "input",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 883,
+      "path": "registry/examples/label-info-tooltip.tsx",
+      "sha256": "f722715795554c127d81b4aae72fcb9309214cd8becf2db35b2f5c6ee7c8dad3",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label-info-tooltip.json",
+  "title": "Label Info Tooltip",
+  "type": "registry:example"
+}

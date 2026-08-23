@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "stepper-icons",
+  "registryDependencies": [
+    "stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 664,
+      "path": "registry/examples/stepper-icons.tsx",
+      "sha256": "c510865c13465728a2d467a70e45c0e7587cf201252a7642e02903ed89097e13",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/stepper-icons.json",
+  "title": "Stepper Icons",
+  "type": "registry:example"
+}

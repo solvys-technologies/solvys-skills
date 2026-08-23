@@ -9,6 +9,12 @@ Use this skill when a Solvys plan needs independent planning or review sessions
 and repository implementation in Cloud. It replaces sub-agent routing with
 visible Codex sessions and a single local integration owner.
 
+Follow the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) when
+dispatching or assembling tracks: YAGNI, existing repo seam, standard library or
+native platform, already-installed dependency, maintained OSS with lower
+ownership cost, one line, then minimum custom code. Reuse the prepared Cloud
+branch or worktree before creating a new copy.
+
 ## Operating rule
 
 This skill never calls a Task tool, launches a `codex exec` child, creates a

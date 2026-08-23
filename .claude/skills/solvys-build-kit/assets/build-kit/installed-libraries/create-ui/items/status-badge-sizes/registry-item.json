@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "status-badge-sizes",
+  "registryDependencies": [
+    "status-badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 283,
+      "path": "registry/examples/status-badge-sizes.tsx",
+      "sha256": "740027c3a520333b2c6ea74a7f9643f99bd26ff6d3e86489dfc4558741d02ec3",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/status-badge-sizes.json",
+  "title": "Status Badge Sizes",
+  "type": "registry:example"
+}

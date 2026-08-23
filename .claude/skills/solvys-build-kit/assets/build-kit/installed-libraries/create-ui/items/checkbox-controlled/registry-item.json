@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-controlled",
+  "registryDependencies": [
+    "checkbox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 627,
+      "path": "registry/examples/checkbox-controlled.tsx",
+      "sha256": "41cb4f1129f54f11b4dc2853e600421a0a27bf9e9dbf7ae5a45079bef0860877",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-controlled.json",
+  "title": "Checkbox Controlled",
+  "type": "registry:example"
+}

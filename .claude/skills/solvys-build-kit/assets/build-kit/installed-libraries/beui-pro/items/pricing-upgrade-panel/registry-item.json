@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A two-column upgrade panel: a stacked card carousel that morphs as you switch plan tabs, a billing-cycle toggle, an order summary, and a primary CTA.",
+  "name": "pricing-upgrade-panel",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 11270,
+      "path": "components/premium/pricing/upgrade-panel.tsx",
+      "sha256": "f70461dc11c897ed29409533aacae8adff10a2515e3b554b881ba10b894dbb48",
+      "target": "@components/premium/pricing/upgrade-panel.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2460,
+      "path": "components/premium/pricing/animated-price.tsx",
+      "sha256": "64acf8469bf6aa1ed6653f7beec28f039bc95b24e47775eda37eee14de9b7b49",
+      "target": "@components/premium/pricing/animated-price.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/pricing-upgrade-panel.json",
+  "title": "Upgrade panel",
+  "type": "registry:block"
+}

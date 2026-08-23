@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "password-strength-levels",
+  "registryDependencies": [
+    "password-strength"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1920,
+      "path": "registry/examples/password-strength-levels.tsx",
+      "sha256": "1256f1f37cb8ba1b0c11fd3f758d3859fc022bec2642cdf7da3c34c9718d0175",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/password-strength-levels.json",
+  "title": "Password Strength Levels",
+  "type": "registry:example"
+}

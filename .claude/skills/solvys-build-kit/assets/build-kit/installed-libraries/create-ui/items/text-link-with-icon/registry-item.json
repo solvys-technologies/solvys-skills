@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "text-link-with-icon",
+  "registryDependencies": [
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 657,
+      "path": "registry/examples/text-link-with-icon.tsx",
+      "sha256": "0b23b1cf63228f0a8797b25840e500915dc5e663ee93c7781e607d8c083dac30",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/text-link-with-icon.json",
+  "title": "TextLink With Icon",
+  "type": "registry:example"
+}

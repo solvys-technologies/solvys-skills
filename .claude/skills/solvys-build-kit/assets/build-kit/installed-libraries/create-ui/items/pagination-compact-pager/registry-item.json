@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-compact-pager",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 405,
+      "path": "registry/examples/pagination-compact-pager.tsx",
+      "sha256": "c4bebd6046b22aac086ecc49b22418b8135b441f4adc5e77897475aa364bd9af",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-compact-pager.json",
+  "title": "Pagination Compact Pager (Pro)",
+  "type": "registry:example"
+}

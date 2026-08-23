@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "label-with-icon",
+  "registryDependencies": [
+    "field",
+    "input",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 533,
+      "path": "registry/examples/label-with-icon.tsx",
+      "sha256": "201c19963d9a32cc649999fcd2f3ab2f746c827a49ff44bda70415291e95daea",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label-with-icon.json",
+  "title": "Label With Icon",
+  "type": "registry:example"
+}

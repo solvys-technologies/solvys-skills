@@ -1,0 +1,60 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A collapsible agent task plan with morphing status marks, a completion count, compact metadata, and smooth list updates.",
+  "name": "todo-list",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 12639,
+      "path": "components/agents/todo-list.tsx",
+      "sha256": "12231e2c4a0c9c32faac7bd5a8a8ebb48e960a3300e29f51e733b2de15a38c60",
+      "target": "@components/agents/todo-list.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1353,
+      "path": "components/agents/agent-disclosure.tsx",
+      "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+      "target": "@components/agents/agent-disclosure.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 930,
+      "path": "components/motion/action-swap-roll.tsx",
+      "sha256": "271933ba92771ecb6ae5a7769d70cea3953e3c919ad51c324ee6290ce890a35f",
+      "target": "@components/motion/action-swap-roll.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 10329,
+      "path": "components/motion/action-swap.tsx",
+      "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+      "target": "@components/motion/action-swap.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/todo-list.json",
+  "title": "Todo List",
+  "type": "registry:component"
+}

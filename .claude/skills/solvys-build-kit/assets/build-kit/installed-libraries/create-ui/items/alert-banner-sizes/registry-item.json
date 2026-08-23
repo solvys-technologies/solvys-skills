@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "alert-banner-sizes",
+  "registryDependencies": [
+    "alert-banner",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3577,
+      "path": "registry/examples/alert-banner-sizes.tsx",
+      "sha256": "e9d25cf75714ba09d13ee37891621c08c125b3bd12ff0b2b4b1a699996c05c6e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/alert-banner-sizes.json",
+  "title": "Alert Banner Sizes",
+  "type": "registry:example"
+}

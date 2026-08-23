@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "motion"
+  ],
+  "description": "Composable sunburst-chart demo for Open in v0",
+  "name": "sunburst-chart-example",
+  "registryDependencies": [
+    "@bklit/sunburst-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1370,
+      "path": "registry/examples/sunburst-chart.tsx",
+      "sha256": "288e6d9b3209e0cce6c2ee0cb79e479b0a3922ac83348c203771ce72489ecfa9",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 534,
+      "path": "registry/examples/sunburst-chart-index.ts",
+      "sha256": "8f23adae546e1b51f05f9414a5f6bf23bd9ecee174efbcacbdac8aca524dc28a",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/sunburst-chart-example.json",
+  "status": "installed",
+  "title": "Sunburst Chart Example",
+  "type": "registry:example"
+}

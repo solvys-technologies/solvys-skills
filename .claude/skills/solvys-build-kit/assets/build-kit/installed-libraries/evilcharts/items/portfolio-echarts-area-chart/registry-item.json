@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Portfolio comparison card with hover-reveal, on the ECharts area chart",
+  "name": "portfolio-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4028,
+      "path": "src/registry/blocks/echarts/b-portfolio-echarts-area-chart.tsx",
+      "sha256": "f12bd8b9faef3a71ae85915fba93b65c0eed50356a0c6dbe9bc67363cc5024b6",
+      "target": "components/evilcharts/blocks/portfolio-echarts-area-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/portfolio-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

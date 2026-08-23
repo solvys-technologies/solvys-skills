@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion"
+  ],
+  "description": "Pie chart component with donut, gradient, and glow effects",
+  "name": "recharts-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart",
+    "@evilcharts/recharts-tooltip",
+    "@evilcharts/recharts-legend",
+    "@evilcharts/recharts-background"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 19657,
+      "path": "src/registry/charts/recharts-pie-chart.tsx",
+      "sha256": "12d68c0c60874f4b59a30d26f19c9f97f291e4a98df5a6b0f759bd4335b20497",
+      "target": "components/evilcharts/charts/recharts-pie-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-pie-chart.json?raw=1",
+  "type": "registry:component"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "layout-grid",
+  "shippedFiles": [
+    {
+      "bytes": 3149,
+      "path": "components/ui/layout-grid.tsx",
+      "sha256": "e354ed1870c324a9a665db35809b92cf3306f744c507722f5e67d8ab330448c2",
+      "target": "components/ui/layout-grid.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/layout-grid.json",
+  "title": "Layout Grid",
+  "type": "registry:ui"
+}

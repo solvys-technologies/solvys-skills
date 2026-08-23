@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "magnetic-button",
+  "shippedFiles": [
+    {
+      "bytes": 1718,
+      "path": "components/ui/magnetic-button.tsx",
+      "sha256": "92960c6a3390d4a74da91de2eeb506da2930a532783aa4c99c78fcee01758181",
+      "target": "components/ui/magnetic-button.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/magnetic-button.json",
+  "title": "Magnetic Button",
+  "type": "registry:ui"
+}

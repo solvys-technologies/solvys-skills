@@ -1,0 +1,3784 @@
+{
+  "accessGatedItemCount": 160,
+  "appBlockRegistry": {
+    "appBlockItemCount": 167,
+    "appBlockNames": [
+      "cards-demo-1",
+      "cards-demo-2",
+      "cards-demo-3",
+      "expandable-card-on-click",
+      "features-section-demo-1",
+      "features-section-demo-2",
+      "features-section-demo-3",
+      "features-with-sticky-scroll",
+      "hero-with-centered-image",
+      "modern-hero-with-gradients",
+      "two-column-with-image",
+      "full-background-image-with-text",
+      "centered-around-testimonials",
+      "hero-section-with-images-grid-and-navbar",
+      "hero-section-with-beams-and-grid",
+      "hero-section-with-noise-background",
+      "logo-cloud-marquee",
+      "logos-with-blur-flip",
+      "spotlight-logo-cloud",
+      "three-column-bento-grid",
+      "three-columns-with-images",
+      "bento-grid-example-three",
+      "simple-cta-with-images",
+      "cta-with-masonry-images",
+      "cta-centered-masonry-gallery",
+      "cta-with-background-noise",
+      "cta-with-centered-text",
+      "cta-with-dashed-grid-lines",
+      "testimonials-grid-with-centered-carousel",
+      "testimonials-marquee-grid",
+      "testimonials-marquee-grid-boxed",
+      "testimonials-masonry-grid",
+      "simple-pricing-with-three-tiers",
+      "pricing-with-switch",
+      "pricing-with-switch-and-add-on",
+      "pricing-minimal",
+      "simple-navbar-with-hover-effects",
+      "navbar-with-children",
+      "simple-footer-with-four-grids",
+      "footer-with-grid",
+      "footer-with-big-text",
+      "centered-with-logo",
+      "registration-form-with-images",
+      "login-with-socials-and-email",
+      "login-signup-minimal",
+      "premium-auth-split",
+      "contact-form-grid-with-details",
+      "simple-centered-contact-form",
+      "blog-with-search",
+      "blog-with-search-magazine",
+      "blog-with-categories",
+      "simple-blog-with-grid",
+      "playful-hero-section",
+      "frequently-asked-questions-accordion",
+      "simple-faqs-with-background",
+      "faqs-with-grid",
+      "simple-sidebar-with-hover",
+      "collapsible-sidebar",
+      "grouped-sidebar",
+      "blog-content-centered",
+      "blog-content-with-toc",
+      "stats-for-changelog",
+      "stats-with-number-ticker",
+      "stats-with-grid-background",
+      "stats-with-gradient",
+      "background-with-full-video",
+      "background-lines",
+      "background-with-shooting-stars",
+      "background-dots",
+      "background-dots-masked",
+      "background-dots-masked-vertical",
+      "background-grid-with-dots",
+      "background-grid-with-dots-and-animations",
+      "background-with-skewed-rectangles",
+      "background-with-skewed-lines",
+      "background-noise-grid",
+      "text-animation-flipping-words-demo",
+      "text-animation-typewriter-effect-demo",
+      "text-animation-blur-fade-in-demo",
+      "text-generate-typewriter",
+      "login-form-with-gradient",
+      "navbar-classic",
+      "navbar-mega",
+      "navbar-dark-shadow",
+      "navbar-pill",
+      "navbar-underline",
+      "masonry-bento-grid-with-images",
+      "minimal-hero-section-with-parallax-images",
+      "hero-with-image-and-scales",
+      "logo-cloud-with-blur-animation",
+      "logo-cloud-with-swap-animation",
+      "single-row-logo-cloud",
+      "features-grid-with-large-skeletons",
+      "pricing-page-with-featured-and-enterprise",
+      "bento-grid-with-skeletons",
+      "dot-distortion-shader",
+      "lines-gradient-shader",
+      "spotlight-shader",
+      "hero-with-background-and-navbar",
+      "hero-section-with-multi-color-background",
+      "hero-section-with-infinite-scroll-cards",
+      "testimonials-background-with-drag",
+      "hero-section-with-flickering-lights",
+      "hero-section-with-tabs",
+      "hero-section-with-mesh-gradient",
+      "hero-section-with-shadow-and-scales",
+      "hero-section-with-dither-background",
+      "hero-with-dither-shader",
+      "hero-with-framed-image-and-logos",
+      "hero-with-chat-input",
+      "testimonials-with-carousel",
+      "testimonials-with-centered-highlight",
+      "features-section-with-skeletons",
+      "chat-conversation",
+      "folder-with-files",
+      "collaborative-cursors",
+      "testimonials-hover-illustration",
+      "contact-section-with-shader",
+      "contact-with-dither-image",
+      "team-section-with-scales",
+      "team-section-with-light-background",
+      "team-section-with-small-avatars",
+      "team-section-with-timeline-cards",
+      "empty-state-vertical-grid",
+      "empty-state-with-cards",
+      "empty-state-with-pictures",
+      "empty-state-with-draggable-cards",
+      "empty-state-with-stacked-cards",
+      "feature-section-bento-skeletons",
+      "uptime-status-illustration",
+      "rotating-tabs-with-text",
+      "flipping-images-with-bar",
+      "isometric-box",
+      "features-with-isometric-blocks",
+      "features-with-stacked-isometric-boxes",
+      "macbook-illustration",
+      "iphone-illustration",
+      "dynamic-island",
+      "ipad-illustration",
+      "bento-grid-illustrations",
+      "world-map-illustration",
+      "keyboard-illustration",
+      "simple-login-with-grid-lines",
+      "animated-beam-path-illustration",
+      "multi-illustration-bento",
+      "feature-section-with-vertical-grids",
+      "feature-section-with-horizontal-skeletons",
+      "feature-section-with-centered-skeleton",
+      "feature-section-with-terminal",
+      "box-illustration",
+      "feature-with-inline-icons",
+      "features-with-hover-and-text-animation",
+      "pricing-with-header-and-icons",
+      "hero-section-with-mousemove",
+      "macbook-illustration-with-icons",
+      "text-highlight-illustration",
+      "meeting-illustration",
+      "inline-icon-illustration",
+      "slider-illustration",
+      "draggable-cards",
+      "faqs-with-dashed-lines",
+      "dither-features",
+      "multicolored-features",
+      "features-with-accordion-and-image",
+      "multi-level-features-with-illustrations",
+      "three-column-features-with-image",
+      "features-with-square-edges"
+    ],
+    "excludedWebsiteBlockCount": 0,
+    "excludedWebsiteBlockNames": [],
+    "path": "installed-registries/aceternity-ui/app-blocks.json"
+  },
+  "autoUpdate": false,
+  "catalogItemCount": 276,
+  "catalogUrl": "https://ui.aceternity.com/registry/registry.json",
+  "installedItemCount": 116,
+  "items": [
+    {
+      "fileCount": 1,
+      "name": "grid",
+      "sourceFiles": [
+        {
+          "bytes": 674,
+          "path": "components/ui/grid.tsx",
+          "sha256": "bebff9cd82d0d330a18f6e9fddbd570cd09006b5246823a375663b34cbd3d8c8",
+          "target": "components/ui/grid.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/grid.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "moving-line",
+      "sourceFiles": [
+        {
+          "bytes": 2646,
+          "path": "components/ui/moving-line.tsx",
+          "sha256": "f5126c9d36a4a9350903f32339cac8f70a19dbd6d652f35edaf012203cc8640c",
+          "target": "components/ui/moving-line.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/moving-line.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "sparkles",
+      "sourceFiles": [
+        {
+          "bytes": 11482,
+          "path": "components/ui/sparkles.tsx",
+          "sha256": "4b37534984e393929bc7af6ef292affc9a5b416fd3549fc4c4941ca568a7e03e",
+          "target": "components/ui/sparkles.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/sparkles.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "spotlight",
+      "sourceFiles": [
+        {
+          "bytes": 1450,
+          "path": "components/ui/spotlight.tsx",
+          "sha256": "5bf5e3c43a1dab43e6e0ac56c4783132608b91a2fabdc4a61b2b961ef519093d",
+          "target": "components/ui/spotlight.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/spotlight.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "glowing-stars",
+      "sourceFiles": [
+        {
+          "bytes": 3820,
+          "path": "components/ui/glowing-stars.tsx",
+          "sha256": "e69fe3e5d991a7ba96544db11afd92b8363526f4fa4f9b73f21c5fb527a938c5",
+          "target": "components/ui/glowing-stars.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/glowing-stars.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "text-reveal-card",
+      "sourceFiles": [
+        {
+          "bytes": 5287,
+          "path": "components/ui/text-reveal-card.tsx",
+          "sha256": "70db36b2988130c58486954b533147055cd6a6d2c022d0d341c2fb5a8f9266e2",
+          "target": "components/ui/text-reveal-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/text-reveal-card.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "animated-tooltip",
+      "sourceFiles": [
+        {
+          "bytes": 3126,
+          "path": "components/ui/animated-tooltip.tsx",
+          "sha256": "5ac351d14d3890b4af055f2a0588c1499d905d144abe4f47aa2fbd887c44a3ea",
+          "target": "components/ui/animated-tooltip.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/animated-tooltip.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "following-pointer",
+      "sourceFiles": [
+        {
+          "bytes": 3175,
+          "path": "components/ui/following-pointer.tsx",
+          "sha256": "ea4c418b3f3dbfc85be0f4ae6d0624b36a3c46aba1207515a8f7287198727dac",
+          "target": "components/ui/following-pointer.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/following-pointer.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "background-beams",
+      "sourceFiles": [
+        {
+          "bytes": 9812,
+          "path": "components/ui/background-beams.tsx",
+          "sha256": "a6cb4847ec4af2602d523b34eb1d3fd991f1b47b803635b114fc8313199f3682",
+          "target": "components/ui/background-beams.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-beams.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "svg-mask-effect",
+      "sourceFiles": [
+        {
+          "bytes": 2481,
+          "path": "components/ui/svg-mask-effect.tsx",
+          "sha256": "8ce6017e2f55eeb266ba459f7c5bb73f54678f9693a026fe2ec55bddbe902506",
+          "target": "components/ui/svg-mask-effect.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/svg-mask-effect.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "infinite-moving-cards",
+      "sourceFiles": [
+        {
+          "bytes": 3675,
+          "path": "components/ui/infinite-moving-cards.tsx",
+          "sha256": "428312dab8233d627625e1b27d34709ac603a5d13fa12bcb0928a801d11031fc",
+          "target": "components/ui/infinite-moving-cards.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/infinite-moving-cards.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "3d-pin",
+      "sourceFiles": [
+        {
+          "bytes": 5480,
+          "path": "components/ui/3d-pin.tsx",
+          "sha256": "3eab7bf90257ddf144e33021f759656aab51bf218ef7c1e486b0438763156dc7",
+          "target": "components/ui/3d-pin.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/3d-pin.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "evervault-card",
+      "sourceFiles": [
+        {
+          "bytes": 3427,
+          "path": "components/ui/evervault-card.tsx",
+          "sha256": "03478ab4a980e8dd6a998311a0f703037ea17d5023aaa74eb8394c10c6723489",
+          "target": "components/ui/evervault-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/evervault-card.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "parallax-scroll",
+      "sourceFiles": [
+        {
+          "bytes": 2731,
+          "path": "components/ui/parallax-scroll.tsx",
+          "sha256": "bb2239b61315bc147d95baa59fd78bc58201d2a8955ddcd58746d2d0427794b6",
+          "target": "components/ui/parallax-scroll.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/parallax-scroll.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "parallax-scroll-2",
+      "sourceFiles": [
+        {
+          "bytes": 3182,
+          "path": "components/ui/parallax-scroll-2.tsx",
+          "sha256": "508bacdeddb914de181fd5b7d91add8408ff8742ba062cfd9ddff9d7ac820bb1",
+          "target": "components/ui/parallax-scroll-2.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/parallax-scroll-2.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "parallax-hero-images",
+      "sourceFiles": [
+        {
+          "bytes": 4547,
+          "path": "components/ui/parallax-hero-images.tsx",
+          "sha256": "b93bea939241620dbec43ad61d78e3928c309e1934c500e3689c67a19287ce11",
+          "target": "components/ui/parallax-hero-images.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/parallax-hero-images.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "tracing-beam",
+      "sourceFiles": [
+        {
+          "bytes": 3515,
+          "path": "components/ui/tracing-beam.tsx",
+          "sha256": "99378566d3354d734f4d7da530875e6e1746ce28a6bf819df971632990d4254f",
+          "target": "components/ui/tracing-beam.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/tracing-beam.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "container-scroll-animation",
+      "sourceFiles": [
+        {
+          "bytes": 2555,
+          "path": "components/ui/container-scroll-animation.tsx",
+          "sha256": "dfcc37dc475073f28ed42cf5292622af47071a7bc32f7970073ef82594db4165",
+          "target": "components/ui/container-scroll-animation.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/container-scroll-animation.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "text-generate-effect",
+      "sourceFiles": [
+        {
+          "bytes": 1385,
+          "path": "components/ui/text-generate-effect.tsx",
+          "sha256": "f2a73f7adcb16395da2323b2485b2eed0c59caddcdb3b6ac2c0fadae81d1c22f",
+          "target": "components/ui/text-generate-effect.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/text-generate-effect.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "meteors",
+      "sourceFiles": [
+        {
+          "bytes": 1534,
+          "path": "components/ui/meteors.tsx",
+          "sha256": "f5bacbd0e30396d56d0f14b08b48b33490095221f322a00ea68a6643c468eb92",
+          "target": "components/ui/meteors.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/meteors.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "card-stack",
+      "sourceFiles": [
+        {
+          "bytes": 2143,
+          "path": "components/ui/card-stack.tsx",
+          "sha256": "7d38e4667f81ccef7e641d0ebf492f7ec5b4f3d9d154e04c9bf00a413320df9e",
+          "target": "components/ui/card-stack.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/card-stack.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "moving-border",
+      "sourceFiles": [
+        {
+          "bytes": 3085,
+          "path": "components/ui/moving-border.tsx",
+          "sha256": "b1cf4ffc66cc3c220383fb0904d7505265bf65ebfbec2e714763114599ea8b25",
+          "target": "components/ui/moving-border.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/moving-border.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "lamp",
+      "sourceFiles": [
+        {
+          "bytes": 4169,
+          "path": "components/ui/lamp.tsx",
+          "sha256": "dfbfe0609b4a9e48912ce44601e77a478b7b7b145de34a0163e124de4e86862f",
+          "target": "components/ui/lamp.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/lamp.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "sticky-scroll-reveal",
+      "sourceFiles": [
+        {
+          "bytes": 3463,
+          "path": "components/ui/sticky-scroll-reveal.tsx",
+          "sha256": "93dc4f8da9225f1df23bcf7e2567c1267062340ea00f91e0d8ed3573f711bce5",
+          "target": "components/ui/sticky-scroll-reveal.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/sticky-scroll-reveal.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "floating-navbar",
+      "sourceFiles": [
+        {
+          "bytes": 2748,
+          "path": "components/ui/floating-navbar.tsx",
+          "sha256": "9ab6f04dcc3bbf02d37db3478034af412e6166a3fb76f4889ca36e29cf4e558b",
+          "target": "components/ui/floating-navbar.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/floating-navbar.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "navbar-menu",
+      "sourceFiles": [
+        {
+          "bytes": 2909,
+          "path": "components/ui/navbar-menu.tsx",
+          "sha256": "6c9650ea81a0c364eb9cd06230ced52170de240518fb9426d5e495b9b5afb2cc",
+          "target": "components/ui/navbar-menu.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/navbar-menu.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "tailwindcss-buttons",
+      "sourceFiles": [
+        {
+          "bytes": 878,
+          "path": "components/ui/tailwindcss-buttons.tsx",
+          "sha256": "804df05a95ee6ff55dbbdfe7442fb39998ffa981437a23a2aebbfb913bd2fd27",
+          "target": "components/ui/tailwindcss-buttons.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/tailwindcss-buttons.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "bento-grid",
+      "sourceFiles": [
+        {
+          "bytes": 1318,
+          "path": "components/ui/bento-grid.tsx",
+          "sha256": "a3cdb12c2f3183385859da768cd5a66a4024dd017230fb278b8f2d2acf85c730",
+          "target": "components/ui/bento-grid.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/bento-grid.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "card-hover-effect",
+      "sourceFiles": [
+        {
+          "bytes": 2593,
+          "path": "components/ui/card-hover-effect.tsx",
+          "sha256": "af736705935d3cda78f5ec03d23c808ed52e881902f0d03180b194a9cf67c309",
+          "target": "components/ui/card-hover-effect.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/card-hover-effect.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "google-gemini-effect",
+      "sourceFiles": [
+        {
+          "bytes": 11208,
+          "path": "components/ui/google-gemini-effect.tsx",
+          "sha256": "168631363d80f7c7654391273753594bcf1eb735cc9ea37909a394f3193eafe4",
+          "target": "components/ui/google-gemini-effect.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/google-gemini-effect.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "gooey-input",
+      "sourceFiles": [
+        {
+          "bytes": 7266,
+          "path": "components/ui/gooey-input.tsx",
+          "sha256": "4e1a126cb6b621e911c99f0fafac2efc213d16802d145ed5f71cfa84131409e2",
+          "target": "components/ui/gooey-input.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/gooey-input.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "typewriter-effect",
+      "sourceFiles": [
+        {
+          "bytes": 4174,
+          "path": "components/ui/typewriter-effect.tsx",
+          "sha256": "9954fcc8d561014f650aeee24b1dc712bcd8da4292480e2c013dc47ebdb8d112",
+          "target": "components/ui/typewriter-effect.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/typewriter-effect.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "background-boxes",
+      "sourceFiles": [
+        {
+          "bytes": 2171,
+          "path": "components/ui/background-boxes.tsx",
+          "sha256": "d56f958318c245afa245ee8c0449d647cd824bbb2ccbbad93d9a44f7edfcda18",
+          "target": "components/ui/background-boxes.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-boxes.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "3d-card",
+      "sourceFiles": [
+        {
+          "bytes": 3916,
+          "path": "components/ui/3d-card.tsx",
+          "sha256": "ec2f994a294aa81bb10d8a4a8512e1d9d90acdccf2fb1c8eadf83874c5be34e8",
+          "target": "components/ui/3d-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/3d-card.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "images-slider",
+      "sourceFiles": [
+        {
+          "bytes": 3481,
+          "path": "components/ui/images-slider.tsx",
+          "sha256": "dbc41d3dee94c121daaf44c2c58e4578d125c95f040e4fd7a8f6518b9ca64a9a",
+          "target": "components/ui/images-slider.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/images-slider.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "direction-aware-hover",
+      "sourceFiles": [
+        {
+          "bytes": 3551,
+          "path": "components/ui/direction-aware-hover.tsx",
+          "sha256": "8667bdfa7fe1e7ae0683cea7c09ee695de84fe9632ed25ccfa85ca8801736d70",
+          "target": "components/ui/direction-aware-hover.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/direction-aware-hover.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "tabs",
+      "sourceFiles": [
+        {
+          "bytes": 3150,
+          "path": "components/ui/tabs.tsx",
+          "sha256": "0d34660aeb2d49d912b1216343bf7a86edf6dc2e0eb097ad53c30068e6950a71",
+          "target": "components/ui/tabs.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/tabs.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "hero-parallax",
+      "sourceFiles": [
+        {
+          "bytes": 4144,
+          "path": "components/ui/hero-parallax.tsx",
+          "sha256": "3e700ea48e38831f35fa7b3c7e61cc438af3ae8a6de585314a12291b4312e142",
+          "target": "components/ui/hero-parallax.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-parallax.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "wavy-background",
+      "sourceFiles": [
+        {
+          "bytes": 3073,
+          "path": "components/ui/wavy-background.tsx",
+          "sha256": "76b9dcfa2143c9d80c3e0c9d7f09c1dd5e3319be9e941d9192b28e0b78b2ea26",
+          "target": "components/ui/wavy-background.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/wavy-background.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "background-gradient",
+      "sourceFiles": [
+        {
+          "bytes": 2450,
+          "path": "components/ui/background-gradient.tsx",
+          "sha256": "b00bbd960069dac2740889af5bdffcc4eaa245b465de7433a145742e628799f4",
+          "target": "components/ui/background-gradient.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-gradient.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "layout-grid",
+      "sourceFiles": [
+        {
+          "bytes": 3149,
+          "path": "components/ui/layout-grid.tsx",
+          "sha256": "e354ed1870c324a9a665db35809b92cf3306f744c507722f5e67d8ab330448c2",
+          "target": "components/ui/layout-grid.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/layout-grid.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "background-gradient-animation",
+      "sourceFiles": [
+        {
+          "bytes": 6480,
+          "path": "components/ui/background-gradient-animation.tsx",
+          "sha256": "162bb2955384e56b221a375c42f8980569888e7d0bcdac5ebbc94450ce09004e",
+          "target": "components/ui/background-gradient-animation.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-gradient-animation.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "macbook-scroll",
+      "sourceFiles": [
+        {
+          "bytes": 19124,
+          "path": "components/ui/macbook-scroll.tsx",
+          "sha256": "49a5f5deef177892ca107052b8a3c07ed13731335c8a527cceaef5d976e08b99",
+          "target": "components/ui/macbook-scroll.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/macbook-scroll.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "input",
+      "sourceFiles": [
+        {
+          "bytes": 2015,
+          "path": "components/ui/input.tsx",
+          "sha256": "07d015c40c7ea00c108df95dc80d50c52c74aafe900ec48f7ed33058ade5fe6e",
+          "target": "components/ui/input.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/input.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "label",
+      "sourceFiles": [
+        {
+          "bytes": 620,
+          "path": "components/ui/label.tsx",
+          "sha256": "0e7dbd95b199d23704af5c4b5517fabc1595ef3dea448b9a0158654d1765ac4b",
+          "target": "components/ui/label.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/label.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "multi-step-loader",
+      "sourceFiles": [
+        {
+          "bytes": 4106,
+          "path": "components/ui/multi-step-loader.tsx",
+          "sha256": "12abf9ff2c8b8893c57e85e9bee90b8eb2850b512aa1a150cdf38b00149a3d27",
+          "target": "components/ui/multi-step-loader.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/multi-step-loader.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "globe",
+      "sourceFiles": [
+        {
+          "bytes": 8487,
+          "path": "components/ui/globe.tsx",
+          "sha256": "f1c4370796ff294abd9be6169a5642ed710347e5ecba121da498459ce4db7e2b",
+          "target": "components/ui/globe.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/globe.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "aurora-background",
+      "sourceFiles": [
+        {
+          "bytes": 2929,
+          "path": "components/ui/aurora-background.tsx",
+          "sha256": "6b40cb23961819bb3619e61cbf971990c797133a29e767814fb5d578d1d83f3c",
+          "target": "components/ui/aurora-background.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/aurora-background.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "canvas-reveal-effect",
+      "sourceFiles": [
+        {
+          "bytes": 8303,
+          "path": "components/ui/canvas-reveal-effect.tsx",
+          "sha256": "7d49ce5826dc2b9a20439778c62bb6cf15547fd7472baa4d57de25eea2d40692",
+          "target": "components/ui/canvas-reveal-effect.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/canvas-reveal-effect.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "hover-border-gradient",
+      "sourceFiles": [
+        {
+          "bytes": 3251,
+          "path": "components/ui/hover-border-gradient.tsx",
+          "sha256": "587453eb0ab551fe3ac444ea017d4e9620a212ef5dde20dd943619db5850d0a7",
+          "target": "components/ui/hover-border-gradient.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/hover-border-gradient.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "hero-highlight",
+      "sourceFiles": [
+        {
+          "bytes": 4505,
+          "path": "components/ui/hero-highlight.tsx",
+          "sha256": "22ba0ea6a206dfef79d266c296eac3d542df6cbfa1378a977d4986b00f575616",
+          "target": "components/ui/hero-highlight.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-highlight.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "vortex",
+      "sourceFiles": [
+        {
+          "bytes": 7135,
+          "path": "components/ui/vortex.tsx",
+          "sha256": "bcd5dbeee17f5124b3a07aa3de29c44e96188778c5a53d82e3523eb0495e38bf",
+          "target": "components/ui/vortex.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/vortex.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "wobble-card",
+      "sourceFiles": [
+        {
+          "bytes": 2572,
+          "path": "components/ui/wobble-card.tsx",
+          "sha256": "e044c7bc932752221b9e6c724cf304495a26376da27316c1a53fc0d207133516",
+          "target": "components/ui/wobble-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/wobble-card.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "placeholders-and-vanish-input",
+      "sourceFiles": [
+        {
+          "bytes": 8376,
+          "path": "components/ui/placeholders-and-vanish-input.tsx",
+          "sha256": "0decb6b2f53e2896b784c0e3fedeaf8fdec60aa5cd3d4bcdea72a6d6d6d27e3d",
+          "target": "components/ui/placeholders-and-vanish-input.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/placeholders-and-vanish-input.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "flip-words",
+      "sourceFiles": [
+        {
+          "bytes": 2770,
+          "path": "components/ui/flip-words.tsx",
+          "sha256": "5fccf682bd6e999104a2d52fcec126c5f1acc8097b4eab4e874d01ff93bfa635",
+          "target": "components/ui/flip-words.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/flip-words.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "link-preview",
+      "sourceFiles": [
+        {
+          "bytes": 3895,
+          "path": "components/ui/link-preview.tsx",
+          "sha256": "c140609b59685342ed3b62bf7d5d90ac5ca099ed90fbb7cda1fe6c2dedd46475",
+          "target": "components/ui/link-preview.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/link-preview.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "glare-card",
+      "sourceFiles": [
+        {
+          "bytes": 6486,
+          "path": "components/ui/glare-card.tsx",
+          "sha256": "264882cf22d8033675100a332faab0d7e71b318ee9fb9276112ca4df02bcfe19",
+          "target": "components/ui/glare-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/glare-card.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "animated-modal",
+      "sourceFiles": [
+        {
+          "bytes": 5637,
+          "path": "components/ui/animated-modal.tsx",
+          "sha256": "9d4166aa1229b45725c62bbde513a7198639df9365253c9e7be604b00bf1ea20",
+          "target": "components/ui/animated-modal.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/animated-modal.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "sidebar",
+      "sourceFiles": [
+        {
+          "bytes": 4724,
+          "path": "components/ui/sidebar.tsx",
+          "sha256": "0ff0812bd2e8ee8fb98d516004c46dfecd7d5bd2cf03b191c1a8d983d815d0ef",
+          "target": "components/ui/sidebar.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/sidebar.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 2,
+      "name": "apple-cards-carousel",
+      "sourceFiles": [
+        {
+          "bytes": 8851,
+          "path": "components/ui/apple-cards-carousel.tsx",
+          "sha256": "fa1b1a602acc90e231a6aa5aacbecbe27592a18363d84d1a7df0a2feb76e9a68",
+          "target": "components/ui/apple-cards-carousel.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "bytes": 692,
+          "path": "hooks/use-outside-click.tsx",
+          "sha256": "6c6bcad82c0fc7fc993935f651985ef4f6bd631c24ff5e87d25e5a31a60802e4",
+          "target": "hooks/use-outside-click.tsx",
+          "type": "registry:hook"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/apple-cards-carousel.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "shooting-stars",
+      "sourceFiles": [
+        {
+          "bytes": 3701,
+          "path": "components/ui/shooting-stars.tsx",
+          "sha256": "23da778568b618c0701b42f4b424335dfe7a0c82fe24c31a0e9ba16155fb1d38",
+          "target": "components/ui/shooting-stars.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/shooting-stars.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "stars-background",
+      "sourceFiles": [
+        {
+          "bytes": 3402,
+          "path": "components/ui/stars-background.tsx",
+          "sha256": "82801c3eb4f966e6e31a6c24ab629137e7e6db14dfcc142553ccc33821fde3c6",
+          "target": "components/ui/stars-background.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/stars-background.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "compare",
+      "sourceFiles": [
+        {
+          "bytes": 7381,
+          "path": "components/ui/compare.tsx",
+          "sha256": "fd0801ffcb425cf02693aa7c9db752050d3e2aac2766a2bd8a0f4cb64fc16c08",
+          "target": "components/ui/compare.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/compare.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 2,
+      "name": "card-spotlight",
+      "sourceFiles": [
+        {
+          "bytes": 2100,
+          "path": "components/ui/card-spotlight.tsx",
+          "sha256": "d1a4634badf0688668ad28471f032159c52dc3d32e7cc1d7d158812d24af3b56",
+          "target": "components/ui/card-spotlight.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "bytes": 8303,
+          "path": "components/ui/canvas-reveal-effect.tsx",
+          "sha256": "7d49ce5826dc2b9a20439778c62bb6cf15547fd7472baa4d57de25eea2d40692",
+          "target": "components/ui/canvas-reveal-effect.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/card-spotlight.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 2,
+      "name": "cover",
+      "sourceFiles": [
+        {
+          "bytes": 6282,
+          "path": "components/ui/cover.tsx",
+          "sha256": "9b983f47f290ec34633bc7bd457193a4fa8582c62e4ca5555bcadb35930ec6c4",
+          "target": "components/ui/cover.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "bytes": 11482,
+          "path": "components/ui/sparkles.tsx",
+          "sha256": "4b37534984e393929bc7af6ef292affc9a5b416fd3549fc4c4941ca568a7e03e",
+          "target": "components/ui/sparkles.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/cover.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "file-upload",
+      "sourceFiles": [
+        {
+          "bytes": 6809,
+          "path": "components/ui/file-upload.tsx",
+          "sha256": "04c24106950be495496e801ef5093529c935c5fa12d03d30f9a009f0d8adc622",
+          "target": "components/ui/file-upload.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/file-upload.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "floating-dock",
+      "sourceFiles": [
+        {
+          "bytes": 5433,
+          "path": "components/ui/floating-dock.tsx",
+          "sha256": "e6e4d163f11dd13135cf7ce08f3801ee91a81dbb75ccc9e0df51154cdd602919",
+          "target": "components/ui/floating-dock.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/floating-dock.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "focus-cards",
+      "sourceFiles": [
+        {
+          "bytes": 1732,
+          "path": "components/ui/focus-cards.tsx",
+          "sha256": "545e481dfd448b33508770ab661878382f45636cb1e0fe77e623d408bc35ebec",
+          "target": "components/ui/focus-cards.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/focus-cards.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "background-beams-with-collision",
+      "sourceFiles": [
+        {
+          "bytes": 7147,
+          "path": "components/ui/background-beams-with-collision.tsx",
+          "sha256": "ef1b5d0b32cae6f127773efd227938673d7df5dd10fb61381494b1bb5de0aa54",
+          "target": "components/ui/background-beams-with-collision.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-beams-with-collision.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "timeline",
+      "sourceFiles": [
+        {
+          "bytes": 3361,
+          "path": "components/ui/timeline.tsx",
+          "sha256": "1b003835c83d3a0480f958ba5634aaee9009a83d7227be549b5f5c79d05543af",
+          "target": "components/ui/timeline.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/timeline.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "text-hover-effect",
+      "sourceFiles": [
+        {
+          "bytes": 3804,
+          "path": "components/ui/text-hover-effect.tsx",
+          "sha256": "6921dc858bc64ac90e791720660ceac965df94986867e82d28a6eb2d8fe53518",
+          "target": "components/ui/text-hover-effect.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/text-hover-effect.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "lens",
+      "sourceFiles": [
+        {
+          "bytes": 3977,
+          "path": "components/ui/lens.tsx",
+          "sha256": "873148d3feed8f2241ab707d2a5a37d1f5ee1113f81b08919f1ff0e5dbf8e662",
+          "target": "components/ui/lens.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/lens.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "background-lines",
+      "sourceFiles": [
+        {
+          "bytes": 18469,
+          "path": "components/ui/background-lines.tsx",
+          "sha256": "72c900efcb60886d5824649bc129106d9bc36e645ca418aca771a7d9fe4d3a96",
+          "target": "components/ui/background-lines.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-lines.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "animated-testimonials",
+      "sourceFiles": [
+        {
+          "bytes": 5345,
+          "path": "components/ui/animated-testimonials.tsx",
+          "sha256": "0ebd8145a884493cc52f27b9fc73aaa35102fc4d12fb31b4e33d55818e330627",
+          "target": "components/ui/animated-testimonials.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/animated-testimonials.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "world-map",
+      "sourceFiles": [
+        {
+          "bytes": 5237,
+          "path": "components/ui/world-map.tsx",
+          "sha256": "a8cace90aee8b4fd3d2b14b74d4fca0583b10ac1b7112df9e5b9b6782948ef00",
+          "target": "components/ui/world-map.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/world-map.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "code-block",
+      "sourceFiles": [
+        {
+          "bytes": 3255,
+          "path": "components/ui/code-block.tsx",
+          "sha256": "3715eb017b80e5c019db8d60a22c1d0e72390cc6c17ec958bd9358548a19b076",
+          "target": "components/ui/code-block.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/code-block.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "carousel",
+      "sourceFiles": [
+        {
+          "bytes": 6257,
+          "path": "components/ui/carousel.tsx",
+          "sha256": "04759858e8dc938b453c77e152658fc6cb07d7f04eaabf7a49673d9f9a434c4e",
+          "target": "components/ui/carousel.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/carousel.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "colourful-text",
+      "sourceFiles": [
+        {
+          "bytes": 1375,
+          "path": "components/ui/colourful-text.tsx",
+          "sha256": "c3cdf9b013cc75b02855ef469b4a96da395e2c36396f6f7acd95b553c2e08ea5",
+          "target": "components/ui/colourful-text.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/colourful-text.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "squiggly-text",
+      "sourceFiles": [
+        {
+          "bytes": 3105,
+          "path": "components/ui/squiggly-text.tsx",
+          "sha256": "7e99133897d9970938a95d3b27966dd1c4dc714519e118c878895de8ed40f783",
+          "target": "components/ui/squiggly-text.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/squiggly-text.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "magnetic-button",
+      "sourceFiles": [
+        {
+          "bytes": 1718,
+          "path": "components/ui/magnetic-button.tsx",
+          "sha256": "92960c6a3390d4a74da91de2eeb506da2930a532783aa4c99c78fcee01758181",
+          "target": "components/ui/magnetic-button.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/magnetic-button.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "notch",
+      "sourceFiles": [
+        {
+          "bytes": 10121,
+          "path": "components/ui/notch.tsx",
+          "sha256": "c61d87255e4e1658ab8f19a47524283e3428974e1f58aa20980de71bdd3af26c",
+          "target": "components/ui/notch.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/notch.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "spotlight-new",
+      "sourceFiles": [
+        {
+          "bytes": 3581,
+          "path": "components/ui/spotlight-new.tsx",
+          "sha256": "7231f31ab0df6269dfcfce011af4a4b03860b7e157c1cda8c3d329e9a8f12b44",
+          "target": "components/ui/spotlight-new.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/spotlight-new.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "glowing-effect",
+      "sourceFiles": [
+        {
+          "bytes": 6557,
+          "path": "components/ui/glowing-effect.tsx",
+          "sha256": "9d987ef5daada143f84daa1b51261934e4462c14ffb77303b3063575864ba0af",
+          "target": "components/ui/glowing-effect.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/glowing-effect.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "3d-marquee",
+      "sourceFiles": [
+        {
+          "bytes": 4918,
+          "path": "components/ui/3d-marquee.tsx",
+          "sha256": "49265fb39272e876a3ff8ce5a1b4b8b5921ad5b266ad74bf270a74c6b8332886",
+          "target": "components/ui/3d-marquee.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/3d-marquee.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "container-text-flip",
+      "sourceFiles": [
+        {
+          "bytes": 3211,
+          "path": "components/ui/container-text-flip.tsx",
+          "sha256": "593026cdbc3ae45b0ac3e7a31525b33311e5bb10057538e24209f7cd1e460bad",
+          "target": "components/ui/container-text-flip.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/container-text-flip.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "resizable-navbar",
+      "sourceFiles": [
+        {
+          "bytes": 8134,
+          "path": "components/ui/resizable-navbar.tsx",
+          "sha256": "d4188bfc54caef986fe5a91ffd3ede454a2ce8773d5dffba01fa6615d5d8a5af",
+          "target": "components/ui/resizable-navbar.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/resizable-navbar.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "draggable-card",
+      "sourceFiles": [
+        {
+          "bytes": 4568,
+          "path": "components/ui/draggable-card.tsx",
+          "sha256": "a248f4cc3f94a08accb0a57117ad4748308867c19b01aade8331bc2eafb7a81a",
+          "target": "components/ui/draggable-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/draggable-card.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "sticky-banner",
+      "sourceFiles": [
+        {
+          "bytes": 1861,
+          "path": "components/ui/sticky-banner.tsx",
+          "sha256": "9708595c9af677b09f9260d0b0be5d1a11a5a6108269ceecdfa5d07e5348bb70",
+          "target": "components/ui/sticky-banner.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/sticky-banner.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "pointer-highlight",
+      "sourceFiles": [
+        {
+          "bytes": 3293,
+          "path": "components/ui/pointer-highlight.tsx",
+          "sha256": "e32a56b7eeb6dc4bfe8c05bc7c025310f26ab3d43aba6bbb22813b1a47960dc0",
+          "target": "components/ui/pointer-highlight.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/pointer-highlight.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "stateful-button",
+      "sourceFiles": [
+        {
+          "bytes": 3523,
+          "path": "components/ui/stateful-button.tsx",
+          "sha256": "b19e3cee5986e376b9bffb740b77747ffd3c149d150c9e36b73c395ba7cb2ef9",
+          "target": "components/ui/stateful-button.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/stateful-button.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "loader",
+      "sourceFiles": [
+        {
+          "bytes": 5852,
+          "path": "components/ui/loader.tsx",
+          "sha256": "571e40326045bd67d54a4aede52ca6a2db4bfd5685eca0d2ec9e193b2a0243bb",
+          "target": "components/ui/loader.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/loader.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "comet-card",
+      "sourceFiles": [
+        {
+          "bytes": 2949,
+          "path": "components/ui/comet-card.tsx",
+          "sha256": "43c862495a8c1c0a4f78d121d66b5837ca27afa5db6328895911497e7ed9b578",
+          "target": "components/ui/comet-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/comet-card.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "background-ripple-effect",
+      "sourceFiles": [
+        {
+          "bytes": 3909,
+          "path": "components/ui/background-ripple-effect.tsx",
+          "sha256": "bdb7622e70515843fcb52ec0574fccc19c513c35d60f730968ba8361b2a6d9b2",
+          "target": "components/ui/background-ripple-effect.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-ripple-effect.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "pixelated-canvas",
+      "sourceFiles": [
+        {
+          "bytes": 18171,
+          "path": "components/ui/pixelated-canvas.tsx",
+          "sha256": "3fb1d9ae52acfc02a126ec78e05d3aab75bf9d738287a6b634e657eebf5551d1",
+          "target": "components/ui/pixelated-canvas.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/pixelated-canvas.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "canvas-text",
+      "sourceFiles": [
+        {
+          "bytes": 5757,
+          "path": "components/ui/canvas-text.tsx",
+          "sha256": "cd60ebbddf3b08596c692f34eb5a7db35f65dd84bb1e7cdceebe1a40e693f6f1",
+          "target": "components/ui/canvas-text.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/canvas-text.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "layout-text-flip",
+      "sourceFiles": [
+        {
+          "bytes": 1786,
+          "path": "components/ui/layout-text-flip.tsx",
+          "sha256": "7eb45448a2815b4f86492cf6192ff5a9ae4c15cd995b9a70199b7f40ba5393d4",
+          "target": "components/ui/layout-text-flip.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/layout-text-flip.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "dotted-glow-background",
+      "sourceFiles": [
+        {
+          "bytes": 9381,
+          "path": "components/ui/dotted-glow-background.tsx",
+          "sha256": "12820db19fead2d91f374165389258f28ff45633cc893974e80eb65036e649f1",
+          "target": "components/ui/dotted-glow-background.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/dotted-glow-background.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "tooltip-card",
+      "sourceFiles": [
+        {
+          "bytes": 5878,
+          "path": "components/ui/tooltip-card.tsx",
+          "sha256": "aa43fee7024ea59de28e9a4ae5bf704e99b39109e478426f7fa116f6748334db",
+          "target": "components/ui/tooltip-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/tooltip-card.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "encrypted-text",
+      "sourceFiles": [
+        {
+          "bytes": 4513,
+          "path": "components/ui/encrypted-text.tsx",
+          "sha256": "90c8efe74118294f8ddf39ced79178182946e469eec88fd4d531efc5d8e0d76b",
+          "target": "components/ui/encrypted-text.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/encrypted-text.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "noise-background",
+      "sourceFiles": [
+        {
+          "bytes": 6791,
+          "path": "components/ui/noise-background.tsx",
+          "sha256": "fbedccf1bfdeaca7ddaa024948a791fcd7ff41364b11b6d854c10acdb28a54c8",
+          "target": "components/ui/noise-background.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/noise-background.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "dither-shader",
+      "sourceFiles": [
+        {
+          "bytes": 14850,
+          "path": "components/ui/dither-shader.tsx",
+          "sha256": "b3c1064c304d4c6648335febbb12a541f7c81905f1998e72202adb661ffc7503",
+          "target": "components/ui/dither-shader.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/dither-shader.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "webcam-pixel-grid",
+      "sourceFiles": [
+        {
+          "bytes": 17137,
+          "path": "components/ui/webcam-pixel-grid.tsx",
+          "sha256": "a1702ec46e566f8c32cbbf030a3df2599411e08a7fd251668668f2a2a777e5f1",
+          "target": "components/ui/webcam-pixel-grid.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/webcam-pixel-grid.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "images-badge",
+      "sourceFiles": [
+        {
+          "bytes": 5825,
+          "path": "components/ui/images-badge.tsx",
+          "sha256": "fff13566e4ab29c761de8fb4cee8dba311ce7a3a28ddfb80b217d84f7a3d4973",
+          "target": "components/ui/images-badge.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/images-badge.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "keyboard",
+      "sourceFiles": [
+        {
+          "bytes": 26211,
+          "path": "components/ui/keyboard.tsx",
+          "sha256": "1b8a8546be35573b305d94ccd75a6deefd79bdb4c6771ec9970a16307bfb5937",
+          "target": "components/ui/keyboard.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/keyboard.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "terminal",
+      "sourceFiles": [
+        {
+          "bytes": 12773,
+          "path": "components/ui/terminal.tsx",
+          "sha256": "42e922c2f5841406bfb0eeb3db47b6f70af3e4e029d01f99de7f9d32c736d7b2",
+          "target": "components/ui/terminal.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/terminal.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "3d-globe",
+      "sourceFiles": [
+        {
+          "bytes": 16415,
+          "path": "components/ui/3d-globe.tsx",
+          "sha256": "b017111cda6b02bc1c3996912150648b93d0d908da304698b0e2cac16e5b22e5",
+          "target": "components/ui/3d-globe.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/3d-globe.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "ascii-art",
+      "sourceFiles": [
+        {
+          "bytes": 14100,
+          "path": "components/ui/ascii-art.tsx",
+          "sha256": "6d5c526aafc3b87ce0447b91a7c73cd7bca0b4d3f5c652ab481c412653827baa",
+          "target": "components/ui/ascii-art.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/ascii-art.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "scales",
+      "sourceFiles": [
+        {
+          "bytes": 1886,
+          "path": "components/ui/scales.tsx",
+          "sha256": "0bc985c6bb477a5fda766bbe8747bbe6149aeb0409e7d507ac7bbe95c24ea691",
+          "target": "components/ui/scales.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/scales.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "text-flipping-board",
+      "sourceFiles": [
+        {
+          "bytes": 14771,
+          "path": "components/ui/text-flipping-board.tsx",
+          "sha256": "f33799e3ab6e0a407d26330853131d3332cf2c882e8bd406a8c60e0c3574830f",
+          "target": "components/ui/text-flipping-board.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/text-flipping-board.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:ui"
+    },
+    {
+      "fileCount": 1,
+      "name": "cards-demo-1",
+      "sourceFiles": [
+        {
+          "bytes": 1659,
+          "path": "components/cards-demo-1.tsx",
+          "sha256": "ebed18fbdcd38cafbced83049593c295ad1dbe51418416ab0559b4fd238a4120",
+          "target": "components/cards-demo-1.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/cards-demo-1.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "cards-demo-2",
+      "sourceFiles": [
+        {
+          "bytes": 1602,
+          "path": "components/cards-demo-2.tsx",
+          "sha256": "393fe41efb5e0c6aadeada17086f8d98162336908766934351fe19e125926af5",
+          "target": "components/cards-demo-2.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/cards-demo-2.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "cards-demo-3",
+      "sourceFiles": [
+        {
+          "bytes": 11857,
+          "path": "components/cards-demo-3.tsx",
+          "sha256": "0c99d9471b79706c098b433d11b5f997a7354026acd5e5d4614d162b1f157469",
+          "target": "components/cards-demo-3.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/cards-demo-3.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "expandable-card-on-click",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/expandable-card-on-click.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "features-section-demo-1",
+      "sourceFiles": [
+        {
+          "bytes": 4584,
+          "path": "components/features-section-demo-1.tsx",
+          "sha256": "90079fd3375f048bae2c8135d9e1b3d3f4fdef044be45ac1886fc56514075ed4",
+          "target": "components/features-section-demo-1.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-section-demo-1.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "features-section-demo-2",
+      "sourceFiles": [
+        {
+          "bytes": 3569,
+          "path": "components/features-section-demo-2.tsx",
+          "sha256": "209767bb9bc89e94d29f89c627d1d5e71b5e661dbca7fb29230dd11dda4a5e60",
+          "target": "components/features-section-demo-2.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-section-demo-2.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "features-section-demo-3",
+      "sourceFiles": [
+        {
+          "bytes": 9748,
+          "path": "components/features-section-demo-3.tsx",
+          "sha256": "3e75a06f4982fd8a1d150be861ac696eb7e53596c989214c2f385085c0541b55",
+          "target": "components/features-section-demo-3.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-section-demo-3.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "features-with-sticky-scroll",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-with-sticky-scroll.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-with-centered-image",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-with-centered-image.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "modern-hero-with-gradients",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/modern-hero-with-gradients.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "two-column-with-image",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/two-column-with-image.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "full-background-image-with-text",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/full-background-image-with-text.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "centered-around-testimonials",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/centered-around-testimonials.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-images-grid-and-navbar",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-images-grid-and-navbar.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-beams-and-grid",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-beams-and-grid.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-noise-background",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-noise-background.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "logo-cloud-marquee",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/logo-cloud-marquee.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "logos-with-blur-flip",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/logos-with-blur-flip.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "spotlight-logo-cloud",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/spotlight-logo-cloud.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "three-column-bento-grid",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/three-column-bento-grid.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "three-columns-with-images",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/three-columns-with-images.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "bento-grid-example-three",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/bento-grid-example-three.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "simple-cta-with-images",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/simple-cta-with-images.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "cta-with-masonry-images",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/cta-with-masonry-images.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "cta-centered-masonry-gallery",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/cta-centered-masonry-gallery.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "cta-with-background-noise",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/cta-with-background-noise.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "cta-with-centered-text",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/cta-with-centered-text.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "cta-with-dashed-grid-lines",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/cta-with-dashed-grid-lines.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "testimonials-grid-with-centered-carousel",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/testimonials-grid-with-centered-carousel.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "testimonials-marquee-grid",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/testimonials-marquee-grid.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "testimonials-marquee-grid-boxed",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/testimonials-marquee-grid-boxed.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "testimonials-masonry-grid",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/testimonials-masonry-grid.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "simple-pricing-with-three-tiers",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/simple-pricing-with-three-tiers.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "pricing-with-switch",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/pricing-with-switch.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "pricing-with-switch-and-add-on",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/pricing-with-switch-and-add-on.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "pricing-minimal",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/pricing-minimal.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "simple-navbar-with-hover-effects",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/simple-navbar-with-hover-effects.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "navbar-with-children",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/navbar-with-children.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "simple-footer-with-four-grids",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/simple-footer-with-four-grids.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "footer-with-grid",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/footer-with-grid.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "footer-with-big-text",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/footer-with-big-text.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "centered-with-logo",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/centered-with-logo.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "registration-form-with-images",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/registration-form-with-images.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "login-with-socials-and-email",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/login-with-socials-and-email.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "login-signup-minimal",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/login-signup-minimal.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "premium-auth-split",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/premium-auth-split.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "contact-form-grid-with-details",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/contact-form-grid-with-details.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "simple-centered-contact-form",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/simple-centered-contact-form.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "blog-with-search",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/blog-with-search.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "blog-with-search-magazine",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/blog-with-search-magazine.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "blog-with-categories",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/blog-with-categories.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "simple-blog-with-grid",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/simple-blog-with-grid.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "playful-hero-section",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/playful-hero-section.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "frequently-asked-questions-accordion",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/frequently-asked-questions-accordion.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "simple-faqs-with-background",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/simple-faqs-with-background.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "faqs-with-grid",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/faqs-with-grid.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "simple-sidebar-with-hover",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/simple-sidebar-with-hover.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "collapsible-sidebar",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/collapsible-sidebar.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "grouped-sidebar",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/grouped-sidebar.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "blog-content-centered",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/blog-content-centered.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "blog-content-with-toc",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/blog-content-with-toc.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "stats-for-changelog",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/stats-for-changelog.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "stats-with-number-ticker",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/stats-with-number-ticker.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "stats-with-grid-background",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/stats-with-grid-background.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "stats-with-gradient",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/stats-with-gradient.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "background-with-full-video",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-with-full-video.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 1,
+      "name": "background-lines",
+      "sourceFiles": [
+        {
+          "bytes": 18469,
+          "path": "components/ui/background-lines.tsx",
+          "sha256": "72c900efcb60886d5824649bc129106d9bc36e645ca418aca771a7d9fe4d3a96",
+          "target": "components/ui/background-lines.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-lines.json",
+      "status": "installed",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "background-with-shooting-stars",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-with-shooting-stars.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "background-dots",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-dots.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "background-dots-masked",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-dots-masked.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "background-dots-masked-vertical",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-dots-masked-vertical.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "background-grid-with-dots",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-grid-with-dots.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "background-grid-with-dots-and-animations",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-grid-with-dots-and-animations.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "background-with-skewed-rectangles",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-with-skewed-rectangles.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "background-with-skewed-lines",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-with-skewed-lines.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "background-noise-grid",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/background-noise-grid.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "text-animation-flipping-words-demo",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/text-animation-flipping-words-demo.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "text-animation-typewriter-effect-demo",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/text-animation-typewriter-effect-demo.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "text-animation-blur-fade-in-demo",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/text-animation-blur-fade-in-demo.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "text-generate-typewriter",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/text-generate-typewriter.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "login-form-with-gradient",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/login-form-with-gradient.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "navbar-classic",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/navbar-classic.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "navbar-mega",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/navbar-mega.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "navbar-dark-shadow",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/navbar-dark-shadow.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "navbar-pill",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/navbar-pill.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "navbar-underline",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/navbar-underline.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "masonry-bento-grid-with-images",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/masonry-bento-grid-with-images.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "minimal-hero-section-with-parallax-images",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/minimal-hero-section-with-parallax-images.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-with-image-and-scales",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-with-image-and-scales.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "logo-cloud-with-blur-animation",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/logo-cloud-with-blur-animation.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "logo-cloud-with-swap-animation",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/logo-cloud-with-swap-animation.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "single-row-logo-cloud",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/single-row-logo-cloud.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "features-grid-with-large-skeletons",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-grid-with-large-skeletons.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "pricing-page-with-featured-and-enterprise",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/pricing-page-with-featured-and-enterprise.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "bento-grid-with-skeletons",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/bento-grid-with-skeletons.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "dot-distortion-shader",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/dot-distortion-shader.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "lines-gradient-shader",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/lines-gradient-shader.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "spotlight-shader",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/spotlight-shader.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-with-background-and-navbar",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-with-background-and-navbar.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-multi-color-background",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-multi-color-background.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-infinite-scroll-cards",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-infinite-scroll-cards.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "testimonials-background-with-drag",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/testimonials-background-with-drag.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-flickering-lights",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-flickering-lights.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-tabs",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-tabs.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-mesh-gradient",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-mesh-gradient.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-shadow-and-scales",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-shadow-and-scales.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-dither-background",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-dither-background.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-with-dither-shader",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-with-dither-shader.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-with-framed-image-and-logos",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-with-framed-image-and-logos.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-with-chat-input",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-with-chat-input.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "testimonials-with-carousel",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/testimonials-with-carousel.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "testimonials-with-centered-highlight",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/testimonials-with-centered-highlight.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "features-section-with-skeletons",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-section-with-skeletons.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "chat-conversation",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/chat-conversation.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "folder-with-files",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/folder-with-files.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "collaborative-cursors",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/collaborative-cursors.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "testimonials-hover-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/testimonials-hover-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "contact-section-with-shader",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/contact-section-with-shader.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "contact-with-dither-image",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/contact-with-dither-image.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "team-section-with-scales",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/team-section-with-scales.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "team-section-with-light-background",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/team-section-with-light-background.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "team-section-with-small-avatars",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/team-section-with-small-avatars.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "team-section-with-timeline-cards",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/team-section-with-timeline-cards.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "empty-state-vertical-grid",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/empty-state-vertical-grid.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "empty-state-with-cards",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/empty-state-with-cards.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "empty-state-with-pictures",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/empty-state-with-pictures.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "empty-state-with-draggable-cards",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/empty-state-with-draggable-cards.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "empty-state-with-stacked-cards",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/empty-state-with-stacked-cards.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "feature-section-bento-skeletons",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/feature-section-bento-skeletons.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "uptime-status-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/uptime-status-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "rotating-tabs-with-text",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/rotating-tabs-with-text.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "flipping-images-with-bar",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/flipping-images-with-bar.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "isometric-box",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/isometric-box.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "features-with-isometric-blocks",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-with-isometric-blocks.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "features-with-stacked-isometric-boxes",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-with-stacked-isometric-boxes.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "macbook-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/macbook-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "iphone-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/iphone-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "dynamic-island",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/dynamic-island.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "ipad-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/ipad-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "bento-grid-illustrations",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/bento-grid-illustrations.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "world-map-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/world-map-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "keyboard-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/keyboard-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "simple-login-with-grid-lines",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/simple-login-with-grid-lines.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "animated-beam-path-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/animated-beam-path-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "multi-illustration-bento",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/multi-illustration-bento.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "feature-section-with-vertical-grids",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/feature-section-with-vertical-grids.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "feature-section-with-horizontal-skeletons",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/feature-section-with-horizontal-skeletons.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "feature-section-with-centered-skeleton",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/feature-section-with-centered-skeleton.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "feature-section-with-terminal",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/feature-section-with-terminal.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "box-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/box-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "feature-with-inline-icons",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/feature-with-inline-icons.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "features-with-hover-and-text-animation",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-with-hover-and-text-animation.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "pricing-with-header-and-icons",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/pricing-with-header-and-icons.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "hero-section-with-mousemove",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/hero-section-with-mousemove.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "macbook-illustration-with-icons",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/macbook-illustration-with-icons.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "text-highlight-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/text-highlight-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "meeting-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/meeting-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "inline-icon-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/inline-icon-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "slider-illustration",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/slider-illustration.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "draggable-cards",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/draggable-cards.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "faqs-with-dashed-lines",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/faqs-with-dashed-lines.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "dither-features",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/dither-features.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "multicolored-features",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/multicolored-features.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "features-with-accordion-and-image",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-with-accordion-and-image.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "multi-level-features-with-illustrations",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/multi-level-features-with-illustrations.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "three-column-features-with-image",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/three-column-features-with-image.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "fileCount": 0,
+      "name": "features-with-square-edges",
+      "sourceFiles": [],
+      "sourceUrl": "https://ui.aceternity.com/registry/features-with-square-edges.json",
+      "status": "access-gated",
+      "title": null,
+      "type": "registry:block"
+    }
+  ],
+  "library": "aceternity-ui",
+  "name": "Aceternity UI",
+  "schemaVersion": 1,
+  "snapshotMode": "full-registry-source",
+  "sourceUrl": "https://ui.aceternity.com/",
+  "status": "installed-with-access-gates",
+  "unavailableItemCount": 0
+}

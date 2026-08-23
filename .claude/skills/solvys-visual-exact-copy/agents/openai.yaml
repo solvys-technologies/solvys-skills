@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Exact Copy"
+  short_description: "Verify production, Site, and Wonder pixel parity"
+  default_prompt: "Create a visual exact copy of the approved production surface in Wonder and verify parity with the ChatGPT Site."

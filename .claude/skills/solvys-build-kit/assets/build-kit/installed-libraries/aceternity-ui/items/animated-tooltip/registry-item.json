@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "animated-tooltip",
+  "shippedFiles": [
+    {
+      "bytes": 3126,
+      "path": "components/ui/animated-tooltip.tsx",
+      "sha256": "5ac351d14d3890b4af055f2a0588c1499d905d144abe4f47aa2fbd887c44a3ea",
+      "target": "components/ui/animated-tooltip.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/animated-tooltip.json",
+  "title": "Animated Tooltip",
+  "type": "registry:ui"
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A compact mail envelope that opens, lifts the final message, and confirms inbox zero.",
+  "name": "empty-state-inbox",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5443,
+      "path": "components/premium/empty-states/empty-state-inbox.tsx",
+      "sha256": "40ca886dfafa16fdbbfeb1e775c02e9918eb165b4cdc1c0945e4c9a40995f4aa",
+      "target": "@components/premium/empty-states/empty-state-inbox.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 612,
+      "path": "components/premium/empty-states/use-empty-state-stage.ts",
+      "sha256": "9476ef5ba7b176bf60ebca2fe4554f6a077ce6ae354d1475f43be07e3876ec83",
+      "target": "@components/premium/empty-states/use-empty-state-stage.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/empty-state-inbox.json",
+  "title": "Inbox zero",
+  "type": "registry:block"
+}

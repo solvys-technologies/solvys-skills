@@ -4,9 +4,11 @@ handbook: ../Solvys Operations Handbook.md
 issueAuthority: Linear
 plannedIssueAuthority: Solvys-2/OpenProject after migration acceptance
 frontendProposalAuthority: Wonder
+uiAssemblySource: Solvys Build Kit
 frontendTestAuthority: ChatGPT Site
 documentationPublicationAuthority: Mintlify
 secretAuthority: Paste or an approved credential store
 projectRecordsDefault: ~/.config/solvys-factory/projects
+infractionLedgerDefault: ~/.config/solvys-factory/projects/<projectId>/infraction-ledger.json
 projects: []
 projectRegistrationRule: Copy the project templates into protected local custody. Do not commit live client or provider identifiers to the public suite.

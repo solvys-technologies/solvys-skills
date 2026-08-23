@@ -1,0 +1,85 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/curve@4.0.1-alpha.0",
+    "@visx/scale@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "@visx/responsive@4.0.1-alpha.0",
+    "d3-array",
+    "motion"
+  ],
+  "description": "Time-series chart composing Line, Area, and SeriesBar on one shared scale (Recharts ComposedChart-style)",
+  "name": "composed-chart",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/grid",
+    "@bklit/x-axis",
+    "@bklit/y-axis",
+    "@bklit/chart-tooltip",
+    "@bklit/utils",
+    "@bklit/line-chart",
+    "@bklit/area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 8992,
+      "path": "src/charts/composed-chart.tsx",
+      "sha256": "1dac2d6069a112656cb708451e75cb915a747a22cd931050c0931a3ca1917a42",
+      "target": "components/charts/composed-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7953,
+      "path": "src/charts/series-bar.tsx",
+      "sha256": "55458c21870ec92ddf71bd4da517f02def792209beccc698eef628e11b2e8567",
+      "target": "components/charts/series-bar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1622,
+      "path": "src/charts/series-bar-layout.ts",
+      "sha256": "3e834065bf086275b263b2f5a0737a544dc4dfbfc7aa533191fcd0365feefb2c",
+      "target": "components/charts/series-bar-layout.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 19324,
+      "path": "src/charts/time-series-chart-shell.tsx",
+      "sha256": "0ee4403be5142e24645e57b7f17471171f1f584ed260bd31fd7d1e416b9703a6",
+      "target": "components/charts/time-series-chart-shell.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 590,
+      "path": "src/charts/reference-area-registration-context.tsx",
+      "sha256": "1bdf081f8d454f6e9b678d4b470aabbade8fb7b47d9bcf8a44e05887e11aa347",
+      "target": "components/charts/reference-area-registration-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3379,
+      "path": "src/charts/projection-config.ts",
+      "sha256": "fb7e04bbaac83119bcbe5fcfea4c2c713d80ec3cf65dc8a427d506edeca4bf59",
+      "target": "components/charts/projection-config.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10400,
+      "path": "src/charts/projection-utils.ts",
+      "sha256": "a7d6c269220dcce466e2eaf620081d488fbef1a372ed3d9cff4fd76298232e0f",
+      "target": "components/charts/projection-utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3445,
+      "path": "src/charts/chart-child-passthrough.ts",
+      "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+      "target": "components/charts/chart-child-passthrough.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/composed-chart.json",
+  "status": "installed",
+  "title": "Composed Chart",
+  "type": "registry:component"
+}

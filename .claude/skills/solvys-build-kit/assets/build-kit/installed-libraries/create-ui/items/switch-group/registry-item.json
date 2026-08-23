@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Field wrapper that labels a Switch and cascades variant, size, shape, thumbType and ioTrigger; placement left or right",
+  "name": "switch-group",
+  "registryDependencies": [
+    "switch",
+    "field"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2049,
+      "path": "registry/ui/switch-group.tsx",
+      "sha256": "7e266efe5e6acb5ec29441a0aa7a02171d55dd4784bc10a6c8463bf4a29e8fdd",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-group.json",
+  "title": "Switch Group",
+  "type": "registry:ui"
+}

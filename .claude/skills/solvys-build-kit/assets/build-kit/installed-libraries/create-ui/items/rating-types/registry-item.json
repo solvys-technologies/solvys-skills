@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "rating-types",
+  "registryDependencies": [
+    "rating"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 402,
+      "path": "registry/examples/rating-types.tsx",
+      "sha256": "a6b52a20652564e7f74dd85bef4a1e002cfe5c5648d670508d455321ea60f003",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/rating-types.json",
+  "title": "Rating Types",
+  "type": "registry:example"
+}

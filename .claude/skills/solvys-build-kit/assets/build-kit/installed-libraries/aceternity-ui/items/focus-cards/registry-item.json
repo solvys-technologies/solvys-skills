@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "focus-cards",
+  "shippedFiles": [
+    {
+      "bytes": 1732,
+      "path": "components/ui/focus-cards.tsx",
+      "sha256": "545e481dfd448b33508770ab661878382f45636cb1e0fe77e623d408bc35ebec",
+      "target": "components/ui/focus-cards.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/focus-cards.json",
+  "title": "Focus Cards",
+  "type": "registry:ui"
+}

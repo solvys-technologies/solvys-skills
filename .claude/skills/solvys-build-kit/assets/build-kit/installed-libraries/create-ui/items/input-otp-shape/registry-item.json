@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-otp-shape",
+  "registryDependencies": [
+    "input-otp",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2491,
+      "path": "registry/examples/input-otp-shape.tsx",
+      "sha256": "da87ea75fdc0897a7b9a7ffa207ca1dfc88f2077f2e29c52acad15a186f83cc1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-otp-shape.json",
+  "title": "Input OTP Shape",
+  "type": "registry:example"
+}

@@ -1,0 +1,5785 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://pro.beui.dev",
+  "items": [
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "The production WebGL runtime for responsive animated backgrounds created in beUI Studio.",
+      "files": [
+        {
+          "path": "components/premium/studio-background.tsx",
+          "target": "@components/premium/studio-background.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/app/studio/studio-effect-defaults.ts",
+          "target": "@components/app/studio/studio-effect-defaults.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/app/studio/studio-renderer.tsx",
+          "target": "@components/app/studio/studio-renderer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/app/studio/studio-runtime-defaults.ts",
+          "target": "@components/app/studio/studio-runtime-defaults.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/app/studio/studio-types.ts",
+          "target": "@components/app/studio/studio-types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/app/studio/studio-render-performance.ts",
+          "target": "@components/app/studio/studio-render-performance.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/app/studio/studio-shader-source.ts",
+          "target": "@components/app/studio/studio-shader-source.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/app/studio/studio-webgl-renderer.ts",
+          "target": "@components/app/studio/studio-webgl-renderer.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/app/studio/studio-shader-base.ts",
+          "target": "@components/app/studio/studio-shader-base.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/app/studio/studio-shader-effects.ts",
+          "target": "@components/app/studio/studio-shader-effects.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/app/studio/studio-shader-generators.ts",
+          "target": "@components/app/studio/studio-shader-generators.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "studio-background",
+      "registryDependencies": [],
+      "title": "Studio Background",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Four dropdown compositions demonstrating the shared animated focus surface across pointer and keyboard navigation, controlled selection, text triggers, and nested states.",
+      "files": [
+        {
+          "path": "components/premium/animated-dropdown/index.tsx",
+          "target": "@components/premium/animated-dropdown/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "animated-dropdown",
+      "registryDependencies": [],
+      "title": "Animated dropdown",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Three image-led cards with independent front and back artwork, click or keyboard flipping, and an optional project link on the back.",
+      "files": [
+        {
+          "path": "components/premium/flip-card/flip-card.tsx",
+          "target": "@components/premium/flip-card/flip-card.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "flip-card",
+      "registryDependencies": [],
+      "title": "Image flip cards",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@headlessui/react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A compact card whose translation, scale, and 3D flip share one continuous motion into a focus-trapped modal, then reverse together on close.",
+      "files": [
+        {
+          "path": "components/premium/flip-card/flip-card-modal.tsx",
+          "target": "@components/premium/flip-card/flip-card-modal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "flip-card-modal",
+      "registryDependencies": [],
+      "title": "Modal flip card",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "One clear question at a time with configurable text and choice steps, animated progress, directional navigation, validation, and completion feedback.",
+      "files": [
+        {
+          "path": "components/premium/step-form/animated-step-form.tsx",
+          "target": "@components/premium/step-form/animated-step-form.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/step-form/step-field.tsx",
+          "target": "@components/premium/step-form/step-field.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/step-form/types.ts",
+          "target": "@components/premium/step-form/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "animated-step-form",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Focused step form",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A layered brief form where each question rises from a quiet card stack and exits with directional motion.",
+      "files": [
+        {
+          "path": "components/premium/step-form/step-form-stack.tsx",
+          "target": "@components/premium/step-form/step-form-stack.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/step-form/step-field.tsx",
+          "target": "@components/premium/step-form/step-field.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/step-form/types.ts",
+          "target": "@components/premium/step-form/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/step-form/use-step-form-flow.ts",
+          "target": "@components/premium/step-form/use-step-form-flow.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "step-form-stack",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Card stack",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A borderless compact brief with vertical prompt swaps, inline choice pills, and a quiet neutral surface.",
+      "files": [
+        {
+          "path": "components/premium/step-form/step-form-inline.tsx",
+          "target": "@components/premium/step-form/step-form-inline.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/step-form/types.ts",
+          "target": "@components/premium/step-form/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/step-form/use-step-form-flow.ts",
+          "target": "@components/premium/step-form/use-step-form-flow.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "step-form-inline",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Inline prompt",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A multi-field signup flow that groups profile, workspace, and goal details into compact animated onboarding steps.",
+      "files": [
+        {
+          "path": "components/premium/step-form/step-form-onboarding.tsx",
+          "target": "@components/premium/step-form/step-form-onboarding.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/step-form/types.ts",
+          "target": "@components/premium/step-form/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/select.tsx",
+          "target": "@components/motion/select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "step-form-onboarding",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Onboarding form",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A quiet isometric filing cabinet whose empty drawer springs open and extends on hover.",
+      "files": [
+        {
+          "path": "components/premium/empty-states/empty-state-archive.tsx",
+          "target": "@components/premium/empty-states/empty-state-archive.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/empty-states/use-empty-state-stage.ts",
+          "target": "@components/premium/empty-states/use-empty-state-stage.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "empty-state-archive",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Archive drawer",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A compact no-results state with a roaming search lens and separating result lines.",
+      "files": [
+        {
+          "path": "components/premium/empty-states/empty-state-search.tsx",
+          "target": "@components/premium/empty-states/empty-state-search.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/empty-states/use-empty-state-stage.ts",
+          "target": "@components/premium/empty-states/use-empty-state-stage.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "empty-state-search",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Search lens",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A compact mail envelope that opens, lifts the final message, and confirms inbox zero.",
+      "files": [
+        {
+          "path": "components/premium/empty-states/empty-state-inbox.tsx",
+          "target": "@components/premium/empty-states/empty-state-inbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/empty-states/use-empty-state-stage.ts",
+          "target": "@components/premium/empty-states/use-empty-state-stage.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "empty-state-inbox",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Inbox zero",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A sharp project board whose starter card and cursor move together across columns on hover.",
+      "files": [
+        {
+          "path": "components/premium/empty-states/empty-state-board.tsx",
+          "target": "@components/premium/empty-states/empty-state-board.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/empty-states/use-empty-state-stage.ts",
+          "target": "@components/premium/empty-states/use-empty-state-stage.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "empty-state-board",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Blank board",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@headlessui/react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A feature-rich agent composer with model selection, reasoning, skills, attachments, queued messages, and streaming stop state.",
+      "files": [
+        {
+          "path": "components/premium/agent-chat-input/agent-chat-input.tsx",
+          "target": "@components/premium/agent-chat-input/agent-chat-input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/attachments.tsx",
+          "target": "@components/premium/agent-chat-input/attachments.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/composer.tsx",
+          "target": "@components/premium/agent-chat-input/composer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/constants.ts",
+          "target": "@components/premium/agent-chat-input/constants.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/hooks.ts",
+          "target": "@components/premium/agent-chat-input/hooks.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/preview-dialog.tsx",
+          "target": "@components/premium/agent-chat-input/preview-dialog.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/queue.tsx",
+          "target": "@components/premium/agent-chat-input/queue.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/skills.tsx",
+          "target": "@components/premium/agent-chat-input/skills.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/toolbar.tsx",
+          "target": "@components/premium/agent-chat-input/toolbar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/tray.tsx",
+          "target": "@components/premium/agent-chat-input/tray.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/types.ts",
+          "target": "@components/premium/agent-chat-input/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/use-attachment-preview-urls.ts",
+          "target": "@components/premium/agent-chat-input/use-attachment-preview-urls.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/use-skill-command.ts",
+          "target": "@components/premium/agent-chat-input/use-skill-command.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/agent-chat-input/attachment-utils.tsx",
+          "target": "@components/premium/agent-chat-input/attachment-utils.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/image-hover-preview/index.ts",
+          "target": "@components/premium/image-hover-preview/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/morphic-tooltip/index.ts",
+          "target": "@components/premium/morphic-tooltip/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/toolbar-button.tsx",
+          "target": "@components/premium/agent-chat-input/toolbar-button.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/dropdown/index.ts",
+          "target": "@components/premium/dropdown/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/switch/index.ts",
+          "target": "@components/premium/switch/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/image-hover-preview/image-hover-preview.tsx",
+          "target": "@components/premium/image-hover-preview/image-hover-preview.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/morphic-tooltip/morphic-tooltip.tsx",
+          "target": "@components/premium/morphic-tooltip/morphic-tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/dropdown/dropdown.tsx",
+          "target": "@components/premium/dropdown/dropdown.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/switch/switch.tsx",
+          "target": "@components/premium/switch/switch.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "agent-chat-input",
+      "registryDependencies": [],
+      "title": "Studio composer",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A compact credits-aware composer with morphing slash-command skills, image and file attachments, web search, and animated send or stop state.",
+      "files": [
+        {
+          "path": "components/premium/agent-chat-input/agent-chat-credits.tsx",
+          "target": "@components/premium/agent-chat-input/agent-chat-credits.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/composer.tsx",
+          "target": "@components/premium/agent-chat-input/composer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/constants.ts",
+          "target": "@components/premium/agent-chat-input/constants.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/credits-attachment-tray.tsx",
+          "target": "@components/premium/agent-chat-input/credits-attachment-tray.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/credits-image-preview.tsx",
+          "target": "@components/premium/agent-chat-input/credits-image-preview.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/credits-toolbar.tsx",
+          "target": "@components/premium/agent-chat-input/credits-toolbar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/credits-top-layer.tsx",
+          "target": "@components/premium/agent-chat-input/credits-top-layer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/hooks.ts",
+          "target": "@components/premium/agent-chat-input/hooks.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/types.ts",
+          "target": "@components/premium/agent-chat-input/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/use-attachment-preview-urls.ts",
+          "target": "@components/premium/agent-chat-input/use-attachment-preview-urls.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/use-skill-command.ts",
+          "target": "@components/premium/agent-chat-input/use-skill-command.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/agent-chat-input/attachment-utils.tsx",
+          "target": "@components/premium/agent-chat-input/attachment-utils.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/agent-chat-input/credits-model-selector.tsx",
+          "target": "@components/premium/agent-chat-input/credits-model-selector.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/credits-search-toggle.tsx",
+          "target": "@components/premium/agent-chat-input/credits-search-toggle.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/skills.tsx",
+          "target": "@components/premium/agent-chat-input/skills.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/agent-chat-input/model-logo.tsx",
+          "target": "@components/premium/agent-chat-input/model-logo.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "agent-chat-credits",
+      "registryDependencies": [],
+      "title": "Credits composer",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A shared-layout tooltip primitive with one animated surface that morphs between triggers for polished hover and focus hints.",
+      "files": [
+        {
+          "path": "components/premium/morphic-tooltip/index.ts",
+          "target": "@components/premium/morphic-tooltip/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/morphic-tooltip/morphic-tooltip.tsx",
+          "target": "@components/premium/morphic-tooltip/morphic-tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "morphic-tooltip",
+      "registryDependencies": [],
+      "title": "Morphic Tooltip",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Apple-style card expansion modal. A card morphs into a full overlay using shared layout animation \u2014 no position hacks, just framer layoutId.",
+      "files": [
+        {
+          "path": "components/premium/morphic-card-modal/index.ts",
+          "target": "@components/premium/morphic-card-modal/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/morphic-card-modal/morphic-card-modal.tsx",
+          "target": "@components/premium/morphic-card-modal/morphic-card-modal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "morphic-card-modal",
+      "registryDependencies": [],
+      "title": "Morphic Card Modal",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A theme-aware AI marketplace hero with a compact responsive navbar, rising spectrum floor, staged headline reveal, rotating prompt composer, specialist shortcuts, and a functional matching state.",
+      "files": [
+        {
+          "path": "components/premium/hero-sections/hero-ai-marketplace.tsx",
+          "target": "@components/premium/hero-sections/hero-ai-marketplace.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/hero-sections/marketplace-composer.tsx",
+          "target": "@components/premium/hero-sections/marketplace-composer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/hero-sections/marketplace-gradient-floor.tsx",
+          "target": "@components/premium/hero-sections/marketplace-gradient-floor.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/hero-sections/marketplace-nav.tsx",
+          "target": "@components/premium/hero-sections/marketplace-nav.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-dark-theme.ts",
+          "target": "@lib/hooks/use-dark-theme.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "hero-ai-marketplace",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shared-layout-bg",
+        "@beui/text-reveal"
+      ],
+      "title": "AI marketplace",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@paper-design/shaders-react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An editorial product-intelligence hero with a globally theme-aware animated WebGL mesh aurora, compact navigation, restrained serif headline, focused CTA, and a marquee of real product-company marks.",
+      "files": [
+        {
+          "path": "components/premium/hero-sections/hero-signal-aurora.tsx",
+          "target": "@components/premium/hero-sections/hero-signal-aurora.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/hero-sections/signal-aurora.tsx",
+          "target": "@components/premium/hero-sections/signal-aurora.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/hero-sections/signal-logo-marquee.tsx",
+          "target": "@components/premium/hero-sections/signal-logo-marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-dark-theme.ts",
+          "target": "@lib/hooks/use-dark-theme.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "hero-signal-aurora",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shared-layout-bg"
+      ],
+      "title": "Signal aurora",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A copy column with an inline email capture and a trusted-by logo marquee beside a bleeding AI agent-ops dashboard mock with live stat tickers.",
+      "files": [
+        {
+          "path": "components/premium/hero-sections/hero-workflow-split.tsx",
+          "target": "@components/premium/hero-sections/hero-workflow-split.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "hero-workflow-split",
+      "registryDependencies": [
+        "@beui/button-stateful",
+        "@beui/number-ticker"
+      ],
+      "title": "Workflow split",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A centered hero with a two-tone headline and paired CTAs over an animated grainient demo stage: an agent incident timeline beside a live AI chat, both in frosted glass frames.",
+      "files": [
+        {
+          "path": "components/premium/hero-sections/hero-agent-centered.tsx",
+          "target": "@components/premium/hero-sections/hero-agent-centered.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "hero-agent-centered",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Agent centered",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A dark inference-API hero: a promo pill, a bold headline beside copy and amber/dark CTAs, over a scenic backdrop with a floating glass terminal that streams a curl request and JSON response.",
+      "files": [
+        {
+          "path": "components/premium/hero-sections/hero-code-demo.tsx",
+          "target": "@components/premium/hero-sections/hero-code-demo.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "hero-code-demo",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Code demo",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A centered hero with paired CTAs over a grainient demo stage: an AI knowledge-base answer that streams a cited, step-by-step response in a frosted glass card.",
+      "files": [
+        {
+          "path": "components/premium/hero-sections/hero-sections.tsx",
+          "target": "@components/premium/hero-sections/hero-sections.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "hero-centered-demo",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Centered demo",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "description": "A centered hero \u2014 eyebrow, headline, and paired CTAs \u2014 over a hover-pausing logo marquee of icon wordmarks.",
+      "files": [
+        {
+          "path": "components/premium/hero-sections/hero-split-demo.tsx",
+          "target": "@components/premium/hero-sections/hero-split-demo.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "hero-split-demo",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Centered marquee",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A compact two-plan pricing section with a responsive billing switch, aligned animated prices, transparent card shells, and a flowing WebGL aurora beneath the featured card.",
+      "files": [
+        {
+          "path": "components/premium/pricing/pricing-aurora-duo.tsx",
+          "target": "@components/premium/pricing/pricing-aurora-duo.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/pricing/animated-price.tsx",
+          "target": "@components/premium/pricing/animated-price.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/pricing/gradient-waves.tsx",
+          "target": "@components/premium/pricing/gradient-waves.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/pricing/types.ts",
+          "target": "@components/premium/pricing/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "pricing-aurora-duo",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "title": "Aurora duo",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A single-plan pricing section with a theme-aware WebGL aurora, staggered benefit reveal, lifetime price treatment, and high-contrast access CTA.",
+      "files": [
+        {
+          "path": "components/premium/pricing/pricing-aurora-flow.tsx",
+          "target": "@components/premium/pricing/pricing-aurora-flow.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/pricing/animated-price.tsx",
+          "target": "@components/premium/pricing/animated-price.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/pricing/pricing-aurora-surface.tsx",
+          "target": "@components/premium/pricing/pricing-aurora-surface.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-dark-theme.ts",
+          "target": "@lib/hooks/use-dark-theme.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "pricing-aurora-flow",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Aurora flow",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A gallery-style two-plan pricing section with animated artwork headers, concise outcome lists, distinct self-serve and guided paths, and theme-native actions.",
+      "files": [
+        {
+          "path": "components/premium/pricing/pricing-visual-plans.tsx",
+          "target": "@components/premium/pricing/pricing-visual-plans.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "pricing-visual-plans",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Visual plans",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A sharp three-plan pricing deck with bracket corners, mono detail copy, animated billing changes, restrained theme glow, and technical footer rails.",
+      "files": [
+        {
+          "path": "components/premium/pricing/pricing-command-deck.tsx",
+          "target": "@components/premium/pricing/pricing-command-deck.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/pricing/command-plan-card.tsx",
+          "target": "@components/premium/pricing/command-plan-card.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/pricing/animated-price.tsx",
+          "target": "@components/premium/pricing/animated-price.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "name": "pricing-command-deck",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Pricing command deck",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A sharp, zero-radius pricing calculator where plan, billing period, and team size update a line-item estimate and animated total in real time.",
+      "files": [
+        {
+          "path": "components/premium/pricing/pricing-ledger.tsx",
+          "target": "@components/premium/pricing/pricing-ledger.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "pricing-ledger",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/range-slider"
+      ],
+      "title": "Pricing ledger",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A two-column upgrade panel: a stacked card carousel that morphs as you switch plan tabs, a billing-cycle toggle, an order summary, and a primary CTA.",
+      "files": [
+        {
+          "path": "components/premium/pricing/upgrade-panel.tsx",
+          "target": "@components/premium/pricing/upgrade-panel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/pricing/animated-price.tsx",
+          "target": "@components/premium/pricing/animated-price.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "pricing-upgrade-panel",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "title": "Upgrade panel",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "description": "A usage-based pricing card with a snapping range slider that maps metered tiers to a live price, a billing toggle, an included-features list, and a CTA.",
+      "files": [
+        {
+          "path": "components/premium/pricing/usage-slider.tsx",
+          "target": "@components/premium/pricing/usage-slider.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "pricing-usage-slider",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/range-slider",
+        "@beui/tabs"
+      ],
+      "title": "Usage slider",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered plans grid with an animated monthly/annual billing toggle, odometer-style price rolls, and a featured plan with an accent hover reveal.",
+      "files": [
+        {
+          "path": "components/premium/pricing/pricing.tsx",
+          "target": "@components/premium/pricing/pricing.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/pricing/pricing-card.tsx",
+          "target": "@components/premium/pricing/pricing-card.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/pricing/types.ts",
+          "target": "@components/premium/pricing/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/pricing/animated-price.tsx",
+          "target": "@components/premium/pricing/animated-price.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/pricing/pricing-aurora-surface.tsx",
+          "target": "@components/premium/pricing/pricing-aurora-surface.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-dark-theme.ts",
+          "target": "@lib/hooks/use-dark-theme.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "name": "pricing",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "title": "Plans grid",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A footer with a brand and link-column grid over a giant outlined wordmark that fills under a cursor-following spotlight.",
+      "files": [
+        {
+          "path": "components/premium/footer-sections/footer-spotlight.tsx",
+          "target": "@components/premium/footer-sections/footer-spotlight.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "footer-spotlight",
+      "registryDependencies": [],
+      "title": "Spotlight footer",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A link-rich footer with a brand column, live status pill, animated link columns, a stateful newsletter form, and a social bottom bar.",
+      "files": [
+        {
+          "path": "components/premium/footer-sections/footer-mega.tsx",
+          "target": "@components/premium/footer-sections/footer-mega.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "footer-mega",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "title": "Mega footer",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered call-to-action footer with a blur-reveal headline, paired CTAs, and a giant drifting wordmark watermark.",
+      "files": [
+        {
+          "path": "components/premium/footer-sections/footer-cta.tsx",
+          "target": "@components/premium/footer-sections/footer-cta.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "footer-cta",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "CTA footer",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A split header over three gradient-stage cards, each framing a product screenshot with a title and description below.",
+      "files": [
+        {
+          "path": "components/premium/feature-sections/features-showcase.tsx",
+          "target": "@components/premium/feature-sections/features-showcase.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "features-showcase",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "title": "Feature showcase",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A left-aligned feature list where the active item brightens and drives a synced animated visual on the right.",
+      "files": [
+        {
+          "path": "components/premium/feature-sections/features-list.tsx",
+          "target": "@components/premium/feature-sections/features-list.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "features-list",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "title": "Feature list",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered header over a numbered three-step flow: the active step expands and drives a synced visual mock.",
+      "files": [
+        {
+          "path": "components/premium/feature-sections/features-steps.tsx",
+          "target": "@components/premium/feature-sections/features-steps.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "features-steps",
+      "registryDependencies": [],
+      "title": "Feature steps",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "An asymmetric bento grid of agent-platform features over animated Grainient WebGL backdrops, each cell with its own self-contained looping animation \u2014 a scripted agent conversation, a tool-connect terminal, a scrolling memory recall, a structured-output builder, and a human-in-the-loop approval gate. Backdrops and loops pause when off-screen.",
+      "files": [
+        {
+          "path": "components/premium/feature-sections/features-bento.tsx",
+          "target": "@components/premium/feature-sections/features-bento.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "features-bento",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "title": "Feature bento",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An interactive feature showcase: a shared-layout tab list drives an animated preview panel with a framed screenshot for each feature.",
+      "files": [
+        {
+          "path": "components/premium/feature-sections/features-tabs.tsx",
+          "target": "@components/premium/feature-sections/features-tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "features-tabs",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "title": "Feature tabs",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Four large horizontal tabs drive a shared product stage with coded workspace, automation, insights, and learning scenes, responsive snap scrolling, autoplay, and keyboard navigation.",
+      "files": [
+        {
+          "path": "components/premium/feature-sections/features-stage-tabs.tsx",
+          "target": "@components/premium/feature-sections/features-stage-tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "features-stage-tabs",
+      "registryDependencies": [],
+      "title": "Feature stage tabs",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A bold editorial headline over three atmospheric metric stories with warm animated shader artwork, responsive stacking, and restrained reveal motion.",
+      "files": [
+        {
+          "path": "components/premium/content-sections/content-metrics-gallery.tsx",
+          "target": "@components/premium/content-sections/content-metrics-gallery.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "content-metrics-gallery",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "title": "Editorial metrics gallery",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An asymmetric narrative and capability layout with a blur-revealed heading, concise proof points, and two atmospheric product cards.",
+      "files": [
+        {
+          "path": "components/premium/content-sections/content-capability-showcase.tsx",
+          "target": "@components/premium/content-sections/content-capability-showcase.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "content-capability-showcase",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "title": "Capability showcase",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered product manifesto with a blur-revealed statement, three illustrated value cards, paired calls to action, and subtle ambient motion.",
+      "files": [
+        {
+          "path": "components/premium/content-sections/content-value-grid.tsx",
+          "target": "@components/premium/content-sections/content-value-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "content-value-grid",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "title": "Value grid",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An editorial customer-engagement story with a large animated campaign canvas, timed selectable chapters, adaptive product scenes, and viewport-aware playback.",
+      "files": [
+        {
+          "path": "components/premium/content-sections/content-engagement-sequence.tsx",
+          "target": "@components/premium/content-sections/content-engagement-sequence.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "content-engagement-sequence",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "title": "Engagement sequence",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An editorial compliance wall with recognizable certification marks, plain-language explanations, practical commitments, and a direct trust-center action.",
+      "files": [
+        {
+          "path": "components/premium/trust-security/trust-compliance-marks.tsx",
+          "target": "@components/premium/trust-security/trust-compliance-marks.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/trust-security/trust-section-heading.tsx",
+          "target": "@components/premium/trust-security/trust-section-heading.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "trust-compliance-marks",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Compliance marks",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A calm split section with a softly animated protection visual and four plain-language safeguards for identity, encryption, privacy, and recovery.",
+      "files": [
+        {
+          "path": "components/premium/trust-security/trust-security-safeguards.tsx",
+          "target": "@components/premium/trust-security/trust-security-safeguards.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/trust-security/trust-section-heading.tsx",
+          "target": "@components/premium/trust-security/trust-section-heading.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "trust-security-safeguards",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Security safeguards",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered reliability statement with animated uptime, a drawn availability curve, clear support commitments, and a live-status action.",
+      "files": [
+        {
+          "path": "components/premium/trust-security/trust-reliability-summary.tsx",
+          "target": "@components/premium/trust-security/trust-reliability-summary.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/trust-security/trust-section-heading.tsx",
+          "target": "@components/premium/trust-security/trust-section-heading.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "trust-reliability-summary",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/text-reveal"
+      ],
+      "title": "Reliability and support",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "border-beam",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A compact edge-to-edge announcement strip with a warm gradient field, continuously moving message sequence, fixed action, accessible reduced-motion state, and dismissal.",
+      "files": [
+        {
+          "path": "components/premium/announcement-banners/announcement-gradient-marquee.tsx",
+          "target": "@components/premium/announcement-banners/announcement-gradient-marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/marquee.tsx",
+          "target": "@components/motion/marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "announcement-gradient-marquee",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Gradient marquee strip",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A compact modal-style launch announcement with an animated shader visual header, layered glass artwork, a Dia-inspired chromatic heading, paired actions, and a smooth dismiss transition.",
+      "files": [
+        {
+          "path": "components/premium/announcement-banners/announcement-shader-launch.tsx",
+          "target": "@components/premium/announcement-banners/announcement-shader-launch.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "announcement-shader-launch",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/chromatic-text-reveal",
+        "@beui/shader-background"
+      ],
+      "title": "Shader launch modal",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A compact site-wide ribbon that cycles through announcements with vertical blur transitions, a restrained light sweep, visibility-aware playback, and dismissal.",
+      "files": [
+        {
+          "path": "components/premium/announcement-banners/announcement-rotating-ribbon.tsx",
+          "target": "@components/premium/announcement-banners/announcement-rotating-ribbon.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/announcement-banners/use-announcement-cycle.ts",
+          "target": "@components/premium/announcement-banners/use-announcement-cycle.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "announcement-rotating-ribbon",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Rotating announcement ribbon",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A layered announcement stack that automatically brings each complete story forward with spring motion while keeping the next notices visibly within reach.",
+      "files": [
+        {
+          "path": "components/premium/announcement-banners/announcement-stacked-cards.tsx",
+          "target": "@components/premium/announcement-banners/announcement-stacked-cards.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/announcement-banners/use-announcement-cycle.ts",
+          "target": "@components/premium/announcement-banners/use-announcement-cycle.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "announcement-stacked-cards",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Stacked announcement cards",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A spring-layered editorial collage where three complete use-case stories move forward automatically or on selection with calm depth, rotation, and scale changes.",
+      "files": [
+        {
+          "path": "components/premium/use-cases/use-cases-story-collage.tsx",
+          "target": "@components/premium/use-cases/use-cases-story-collage.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "use-cases-story-collage",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Animated story collage",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An editorial role switcher that pairs audience-specific product value with a warm customer story, a clear outcome, and a focused next action.",
+      "files": [
+        {
+          "path": "components/premium/use-cases/use-cases-role-stories.tsx",
+          "target": "@components/premium/use-cases/use-cases-role-stories.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "use-cases-role-stories",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Role stories",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered outcome-led composition with three gently offset stories, calm abstract portraits, practical value, and lightweight calls to action.",
+      "files": [
+        {
+          "path": "components/premium/use-cases/use-cases-outcome-stories.tsx",
+          "target": "@components/premium/use-cases/use-cases-outcome-stories.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "use-cases-outcome-stories",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Outcome stories",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An expandable scenario rail that places product value inside familiar moments of the day, with spring layout changes and calm narrative reveals.",
+      "files": [
+        {
+          "path": "components/premium/use-cases/use-cases-scenario-rail.tsx",
+          "target": "@components/premium/use-cases/use-cases-scenario-rail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "use-cases-scenario-rail",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Everyday scenario rail",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A cinematic use-case selector with softly animated shader scenes, warm narrative cards, and audience stories that crossfade without losing context.",
+      "files": [
+        {
+          "path": "components/premium/use-cases/use-cases-shader-spotlight.tsx",
+          "target": "@components/premium/use-cases/use-cases-shader-spotlight.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "use-cases-shader-spotlight",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "title": "Cinematic shader spotlight",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered process introduction followed by three independent cards with compact animated product scenes and clear supporting copy.",
+      "files": [
+        {
+          "path": "components/premium/how-it-works/how-it-works-centered-cards.tsx",
+          "target": "@components/premium/how-it-works/how-it-works-centered-cards.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "how-it-works-centered-cards",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Centered process cards",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A sharp three-column process narrative with all steps visible, distinct capture-to-launch illustrations, direct selection, and motion contained inside each scene.",
+      "files": [
+        {
+          "path": "components/premium/how-it-works/how-it-works-process-grid.tsx",
+          "target": "@components/premium/how-it-works/how-it-works-process-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "how-it-works-process-grid",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Cinematic process grid",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A spacious alternating process story with large narrative typography, atmospheric shader scenes, glass interface details, and scroll-triggered editorial reveals.",
+      "files": [
+        {
+          "path": "components/premium/how-it-works/how-it-works-story-stack.tsx",
+          "target": "@components/premium/how-it-works/how-it-works-story-stack.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "how-it-works-story-stack",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "title": "Editorial story stack",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A focused interactive walkthrough with one atmospheric product canvas, three always-visible selectable steps, soft scene morphs, and viewport-aware autoplay.",
+      "files": [
+        {
+          "path": "components/premium/how-it-works/how-it-works-walkthrough.tsx",
+          "target": "@components/premium/how-it-works/how-it-works-walkthrough.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "how-it-works-walkthrough",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/shader-background",
+        "@beui/text-reveal"
+      ],
+      "title": "Guided walkthrough",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An interactive fixed-width process row that extends beyond the viewport, then pulls each full card into a layered stack as the next step takes focus.",
+      "files": [
+        {
+          "path": "components/premium/how-it-works/how-it-works-card-deck.tsx",
+          "target": "@components/premium/how-it-works/how-it-works-card-deck.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "how-it-works-card-deck",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Progressive card deck",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A single edge-masked row of monochrome logos scrolling seamlessly, paused on hover.",
+      "files": [
+        {
+          "path": "components/premium/logo-cloud/logo-cloud-marquee.tsx",
+          "target": "@components/premium/logo-cloud/logo-cloud-marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "logo-cloud-marquee",
+      "registryDependencies": [],
+      "title": "Logo marquee",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A hairline divider grid of logos with a scroll-reveal stagger and a hover brighten.",
+      "files": [
+        {
+          "path": "components/premium/logo-cloud/logo-cloud-grid.tsx",
+          "target": "@components/premium/logo-cloud/logo-cloud-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "logo-cloud-grid",
+      "registryDependencies": [],
+      "title": "Logo grid",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A split social-proof block with four edge-masked logo lanes moving in alternating directions and pausing independently on hover.",
+      "files": [
+        {
+          "path": "components/premium/logo-cloud/logo-cloud-columns.tsx",
+          "target": "@components/premium/logo-cloud/logo-cloud-columns.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/logo-cloud/logo-cloud-data.tsx",
+          "target": "@components/premium/logo-cloud/logo-cloud-data.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "logo-cloud-columns",
+      "registryDependencies": [],
+      "title": "Kinetic logo columns",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A fixed-slot logo band that cycles brands with staggered vertical entrances and exits, pausing while offscreen or when the page is hidden.",
+      "files": [
+        {
+          "path": "components/premium/logo-cloud/logo-cloud-carousel.tsx",
+          "target": "@components/premium/logo-cloud/logo-cloud-carousel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/logo-cloud/logo-cloud-data.tsx",
+          "target": "@components/premium/logo-cloud/logo-cloud-data.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "logo-cloud-carousel",
+      "registryDependencies": [],
+      "title": "Rolling logo carousel",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [],
+      "description": "A standalone table surface with 10,000 virtualized rows, sorting, selection, and custom cell rendering.",
+      "files": [
+        {
+          "path": "components/premium/data-table.tsx",
+          "target": "@components/premium/data-table.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "data-table",
+      "registryDependencies": [
+        "@beui/table"
+      ],
+      "title": "Data table",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A composable paginated table with global sorting, controlled or uncontrolled page state, page-size controls, accessible navigation, and stable row sizing.",
+      "files": [
+        {
+          "path": "components/premium/data-table-pagination.tsx",
+          "target": "@components/premium/data-table-pagination.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/animated-dropdown/index.tsx",
+          "target": "@components/premium/animated-dropdown/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/data-table.tsx",
+          "target": "@components/premium/data-table.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "data-table-pagination",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/table"
+      ],
+      "title": "Paginated data table",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A polished orders table with 5,000 virtualized purchases, soft status filters, deferred search, selection, sorting, and export controls.",
+      "files": [
+        {
+          "path": "components/premium/data-tables/data-table-operations.tsx",
+          "target": "@components/premium/data-tables/data-table-operations.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/data-tables/data.ts",
+          "target": "@components/premium/data-tables/data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "data-table-operations",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/table",
+        "@beui/tabs"
+      ],
+      "title": "Orders table",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A soft editorial directory with 1,200 virtualized people, responsive team filters, deferred search, presence, and sortable profile details.",
+      "files": [
+        {
+          "path": "components/premium/data-tables/data-table-directory.tsx",
+          "target": "@components/premium/data-tables/data-table-directory.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/data-tables/data.ts",
+          "target": "@components/premium/data-tables/data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "data-table-directory",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/table",
+        "@beui/tabs"
+      ],
+      "title": "People directory",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A polished portfolio table with soft summary cards, sortable market values, responsive trend sparklines, and period controls.",
+      "files": [
+        {
+          "path": "components/premium/data-tables/data-table-portfolio.tsx",
+          "target": "@components/premium/data-tables/data-table-portfolio.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/data-tables/data.ts",
+          "target": "@components/premium/data-tables/data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "data-table-portfolio",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/table",
+        "@beui/tabs"
+      ],
+      "title": "Portfolio table",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A full-width service operations table with ticket search, portalled status filters and row actions, selection, sortable ticket fields, and compact pagination.",
+      "files": [
+        {
+          "path": "components/premium/data-tables/data-table-sla.tsx",
+          "target": "@components/premium/data-tables/data-table-sla.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/data-tables/sla-data.ts",
+          "target": "@components/premium/data-tables/sla-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/animated-dropdown/index.tsx",
+          "target": "@components/premium/animated-dropdown/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/data-table-pagination.tsx",
+          "target": "@components/premium/data-table-pagination.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/data-table.tsx",
+          "target": "@components/premium/data-table.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "data-table-sla",
+      "registryDependencies": [
+        "@beui/animated-badge",
+        "@beui/button-base",
+        "@beui/table"
+      ],
+      "title": "SLA monitoring table",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An atmospheric feature introduction with a restrained theme gradient, animated headline outcomes, and an airy two-column editorial layout.",
+      "files": [
+        {
+          "path": "components/premium/stats/stats-feature-outcomes.tsx",
+          "target": "@components/premium/stats/stats-feature-outcomes.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stats-feature-outcomes",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "title": "Feature outcomes",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A data-forward impact overview with a dominant reach metric, animated target progress, and supporting KPI panels.",
+      "files": [
+        {
+          "path": "components/premium/stats/stats-impact-dashboard.tsx",
+          "target": "@components/premium/stats/stats-impact-dashboard.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stats-impact-dashboard",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "title": "Impact dashboard",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A live operations overview with a rotating regional feed, rolling totals, a responsive KPI stack, and transform-driven activity bars.",
+      "files": [
+        {
+          "path": "components/premium/stats/stats-telemetry.tsx",
+          "target": "@components/premium/stats/stats-telemetry.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stats-telemetry",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "title": "Telemetry console",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A sharp editorial metric band with oversized rolling figures, indexed columns, and a coordinated line-and-content reveal.",
+      "files": [
+        {
+          "path": "components/premium/stats/stats-band.tsx",
+          "target": "@components/premium/stats/stats-band.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stats-band",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "title": "Stats band",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A three-column editorial metric brief with muted folio shells, clean inset figures, concise context, and a staggered reveal.",
+      "files": [
+        {
+          "path": "components/premium/stats/stats-cards.tsx",
+          "target": "@components/premium/stats/stats-cards.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stats-cards",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "title": "Stats cards",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A metric-first editorial index with three oversized rolling figures, concise result statements, and coordinated rule reveals.",
+      "files": [
+        {
+          "path": "components/premium/stats/stats-outcome-index.tsx",
+          "target": "@components/premium/stats/stats-outcome-index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "stats-outcome-index",
+      "registryDependencies": [
+        "@beui/number-ticker"
+      ],
+      "title": "Outcome index",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Two rows of testimonial cards scrolling in opposite directions, edge-masked, that pause on hover.",
+      "files": [
+        {
+          "path": "components/premium/testimonials/testimonials-marquee.tsx",
+          "target": "@components/premium/testimonials/testimonials-marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "testimonials-marquee",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "title": "Marquee wall",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered featured quote that auto-rotates through testimonials, with a shared-layout selected ring on an avatar rail.",
+      "files": [
+        {
+          "path": "components/premium/testimonials/testimonials-spotlight.tsx",
+          "target": "@components/premium/testimonials/testimonials-spotlight.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "testimonials-spotlight",
+      "registryDependencies": [],
+      "title": "Spotlight",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A CSS-columns masonry wall with a featured accent card and a scroll-reveal stagger.",
+      "files": [
+        {
+          "path": "components/premium/testimonials/testimonials-grid.tsx",
+          "target": "@components/premium/testimonials/testimonials-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "testimonials-grid",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "title": "Masonry grid",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A 'hall of fame' wall of pinned index cards with polaroid portraits, REF codes, monospace notes, and a dashed 'join the archive' CTA.",
+      "files": [
+        {
+          "path": "components/premium/testimonials/testimonials-archive.tsx",
+          "target": "@components/premium/testimonials/testimonials-archive.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "testimonials-archive",
+      "registryDependencies": [],
+      "title": "Archive wall",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An editorial testimonial wall with three independently moving vertical columns, alternating direction, outcome-led cards, and per-column hover pause.",
+      "files": [
+        {
+          "path": "components/premium/testimonials/testimonials-vertical.tsx",
+          "target": "@components/premium/testimonials/testimonials-vertical.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "testimonials-vertical",
+      "registryDependencies": [],
+      "title": "Vertical dispatch",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An editorial image wall with configurable columns moving continuously in alternating directions, stable image crops, and responsive two- or multi-column layouts.",
+      "files": [
+        {
+          "path": "components/premium/image-galleries/image-gallery-vertical.tsx",
+          "target": "@components/premium/image-galleries/image-gallery-vertical.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/image-galleries/image-gallery-data.ts",
+          "target": "@components/premium/image-galleries/image-gallery-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "image-gallery-vertical",
+      "registryDependencies": [],
+      "title": "Vertical image gallery",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A five-image editorial mosaic whose active frame grows while every surrounding tile smoothly changes position and footprint.",
+      "files": [
+        {
+          "path": "components/premium/image-galleries/image-gallery-morphing-mosaic.tsx",
+          "target": "@components/premium/image-galleries/image-gallery-morphing-mosaic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/image-galleries/image-gallery-data.ts",
+          "target": "@components/premium/image-galleries/image-gallery-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/image-galleries/use-gallery-cycle.ts",
+          "target": "@components/premium/image-galleries/use-gallery-cycle.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "image-gallery-morphing-mosaic",
+      "registryDependencies": [],
+      "title": "Morphing mosaic",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A responsive image rail whose active panel expands with a restrained spring while the surrounding frames contract in place.",
+      "files": [
+        {
+          "path": "components/premium/image-galleries/image-gallery-focus-rail.tsx",
+          "target": "@components/premium/image-galleries/image-gallery-focus-rail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/image-galleries/image-gallery-data.ts",
+          "target": "@components/premium/image-galleries/image-gallery-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/image-galleries/use-gallery-cycle.ts",
+          "target": "@components/premium/image-galleries/use-gallery-cycle.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "image-gallery-focus-rail",
+      "registryDependencies": [],
+      "title": "Expanding focus rail",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered nav whose dropdown is one shared-layout panel that slides and resizes between triggers, plus a hamburger-to-sheet mobile morph.",
+      "files": [
+        {
+          "path": "components/premium/navbar/navbar-morph.tsx",
+          "target": "@components/premium/navbar/navbar-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "navbar-morph",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Morphing navbar",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A fixed-width centered pill with hover-open dropdown triggers that spring downward into a 2\u00d72 feature panel without shifting the surrounding page layout.",
+      "files": [
+        {
+          "path": "components/premium/navbar/navbar-feature-morph.tsx",
+          "target": "@components/premium/navbar/navbar-feature-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "navbar-feature-morph",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Feature morph",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A floating navbar whose width expands continuously with scroll, with a shared-layout hover and active pill plus a rounded overlay mobile menu.",
+      "files": [
+        {
+          "path": "components/premium/navbar/navbar-expand.tsx",
+          "target": "@components/premium/navbar/navbar-expand.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "navbar-expand",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Expanding pill",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A restrained full-width header that moves from transparent to lightly blurred on scroll, with simple links and a non-shifting overlay mobile menu.",
+      "files": [
+        {
+          "path": "components/premium/navbar/navbar-simple.tsx",
+          "target": "@components/premium/navbar/navbar-simple.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "navbar-simple",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Simple header",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A sharp two-column signup with an animated newspaper-style issue sheet, article reveals, and a form that morphs into a stamped confirmation.",
+      "files": [
+        {
+          "path": "components/premium/newsletter/newsletter-editorial.tsx",
+          "target": "@components/premium/newsletter/newsletter-editorial.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "newsletter-editorial",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "title": "Editorial dispatch",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A centered headline with an inline email field and stateful button that morphs to a confirmation on success.",
+      "files": [
+        {
+          "path": "components/premium/newsletter/newsletter-inline.tsx",
+          "target": "@components/premium/newsletter/newsletter-inline.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "newsletter-inline",
+      "registryDependencies": [
+        "@beui/button-stateful",
+        "@beui/number-ticker",
+        "@beui/text-reveal"
+      ],
+      "title": "Inline signup",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A two-column panel with copy and perks beside a stateful subscribe form that swaps to a success state.",
+      "files": [
+        {
+          "path": "components/premium/newsletter/newsletter-card.tsx",
+          "target": "@components/premium/newsletter/newsletter-card.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "newsletter-card",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "title": "Newsletter card",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A sharp support console where Sales, Support, and Partnership lanes morph the form context, response promise, accent, and final routed ticket.",
+      "files": [
+        {
+          "path": "components/premium/contact/contact-routing.tsx",
+          "target": "@components/premium/contact/contact-routing.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "contact-routing",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "title": "Routing desk",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A split panel with contact channels, team avatars, and a response-time badge beside a stateful form with segmented topic chips and a success morph.",
+      "files": [
+        {
+          "path": "components/premium/contact/contact-split.tsx",
+          "target": "@components/premium/contact/contact-split.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "contact-split",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "title": "Contact split",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An animated grid of contact-method cards (sales, support, community) with hover accents, plus a featured strip with team avatars and book-a-call CTAs.",
+      "files": [
+        {
+          "path": "components/premium/contact/contact-cards.tsx",
+          "target": "@components/premium/contact/contact-cards.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "contact-cards",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Contact cards",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@headlessui/react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A soft integration marketplace with rounded search and view controls, an animated two-row logo marquee, and a compact directory.",
+      "files": [
+        {
+          "path": "components/premium/integrations/integrations-directory.tsx",
+          "target": "@components/premium/integrations/integrations-directory.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-connect-dialog.tsx",
+          "target": "@components/premium/integrations/integration-connect-dialog.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-data.ts",
+          "target": "@components/premium/integrations/integration-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-mark.tsx",
+          "target": "@components/premium/integrations/integration-mark.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/marquee.tsx",
+          "target": "@components/motion/marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/animated-modal.tsx",
+          "target": "@components/motion/animated-modal.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "integrations-directory",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Integration directory",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@headlessui/react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A calm integration catalog with shared pill filters, responsive search, inset editorial cards, functional connection switches, and a shared configuration dialog.",
+      "files": [
+        {
+          "path": "components/premium/integrations/integrations-editorial.tsx",
+          "target": "@components/premium/integrations/integrations-editorial.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-connect-dialog.tsx",
+          "target": "@components/premium/integrations/integration-connect-dialog.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-data.ts",
+          "target": "@components/premium/integrations/integration-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-mark.tsx",
+          "target": "@components/premium/integrations/integration-mark.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/switch/index.ts",
+          "target": "@components/premium/switch/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/animated-modal.tsx",
+          "target": "@components/motion/animated-modal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/switch/switch.tsx",
+          "target": "@components/premium/switch/switch.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "integrations-editorial",
+      "registryDependencies": [
+        "@beui/animated-badge",
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "title": "Editorial integration grid",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@headlessui/react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A spacious connected-workspace composition with an interactive orbit, animated paths, and a focused app connection state.",
+      "files": [
+        {
+          "path": "components/premium/integrations/integrations-orbit.tsx",
+          "target": "@components/premium/integrations/integrations-orbit.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-connect-dialog.tsx",
+          "target": "@components/premium/integrations/integration-connect-dialog.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-data.ts",
+          "target": "@components/premium/integrations/integration-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-mark.tsx",
+          "target": "@components/premium/integrations/integration-mark.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/animated-modal.tsx",
+          "target": "@components/motion/animated-modal.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "integrations-orbit",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Integration orbit",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A sharp split layout pairing a calm integration spotlight with a compact, animated connection ledger.",
+      "files": [
+        {
+          "path": "components/premium/integrations/integrations-ledger.tsx",
+          "target": "@components/premium/integrations/integrations-ledger.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-data.ts",
+          "target": "@components/premium/integrations/integration-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/integrations/integration-mark.tsx",
+          "target": "@components/premium/integrations/integration-mark.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "integrations-ledger",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Integration ledger",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@react-three/fiber",
+        "@react-three/postprocessing",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "postprocessing",
+        "tailwind-merge",
+        "three"
+      ],
+      "description": "A clean editorial comparison with a focused recommendation, calm reveal motion, and a compact product switcher on mobile.",
+      "files": [
+        {
+          "path": "components/premium/comparison/feature-comparison.tsx",
+          "target": "@components/premium/comparison/feature-comparison.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/comparison/dither.tsx",
+          "target": "@components/premium/comparison/dither.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/comparison/dither.css",
+          "target": "@components/premium/comparison/dither.css",
+          "type": "registry:component"
+        }
+      ],
+      "name": "feature-comparison",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Feature comparison",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A full-height two-column auth layout: a clean form with social buttons and a sign-in/sign-up switch beside a flowing animated silk panel with an eyebrow and marketing headline.",
+      "files": [
+        {
+          "path": "components/premium/auth/auth-split.tsx",
+          "target": "@components/premium/auth/auth-split.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/auth/silk.tsx",
+          "target": "@components/premium/auth/silk.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/auth/social-icons.tsx",
+          "target": "@components/premium/auth/social-icons.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "auth-split",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "title": "Split showcase",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered glass auth card: a shared-layout sign-in/sign-up toggle, Google and GitHub buttons, icon inputs with a password reveal, inline field validation, and a stateful submit.",
+      "files": [
+        {
+          "path": "components/premium/auth/auth-centered.tsx",
+          "target": "@components/premium/auth/auth-centered.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/auth/social-icons.tsx",
+          "target": "@components/premium/auth/social-icons.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "auth-centered",
+      "registryDependencies": [
+        "@beui/button-stateful",
+        "@beui/tabs"
+      ],
+      "title": "Centered card",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A passwordless flow that slides from an email step to a six-digit code entry \u2014 a mail badge with the masked address, auto-advancing inputs with filled states, paste support, a resend countdown, and a spring success screen.",
+      "files": [
+        {
+          "path": "components/premium/auth/auth-otp.tsx",
+          "target": "@components/premium/auth/auth-otp.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "auth-otp",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "title": "Magic code",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "dotted-map",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An airy account creation page with a focused form, softly animated global activity map, responsive layout, validation, and a stateful email action.",
+      "files": [
+        {
+          "path": "components/premium/auth/auth-atlas.tsx",
+          "target": "@components/premium/auth/auth-atlas.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/auth/auth-atlas-shared.tsx",
+          "target": "@components/premium/auth/auth-atlas-shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/auth/auth-atlas-map.json",
+          "target": "@components/premium/auth/auth-atlas-map.json",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/auth/social-icons.tsx",
+          "target": "@components/premium/auth/social-icons.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "auth-atlas",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "title": "Atlas centered",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "dotted-map",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A refined split account page pairing a compact signup form with a light animated Grainient map, blue activity markers, and a responsive artwork panel.",
+      "files": [
+        {
+          "path": "components/premium/auth/auth-atlas-split.tsx",
+          "target": "@components/premium/auth/auth-atlas-split.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/auth/auth-atlas-shared.tsx",
+          "target": "@components/premium/auth/auth-atlas-shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/auth/auth-atlas-map.json",
+          "target": "@components/premium/auth/auth-atlas-map.json",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/auth/social-icons.tsx",
+          "target": "@components/premium/auth/social-icons.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "auth-atlas-split",
+      "registryDependencies": [
+        "@beui/button-stateful"
+      ],
+      "title": "Atlas split",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A numbered stepper (Interests \u2192 Skills \u2192 Documents) with connecting progress lines, multi-select emoji chips grouped under section dividers, a dashed upload step, sliding transitions, and a spring success state.",
+      "files": [
+        {
+          "path": "components/premium/onboarding/onboarding-steps.tsx",
+          "target": "@components/premium/onboarding/onboarding-steps.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "onboarding-steps",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Stepped onboarding",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A full-height split onboarding: a left form (name, company, perks) with a step counter and sliding transitions, beside a right app-preview mock that re-tints per step and live-binds the values you type into a floating card.",
+      "files": [
+        {
+          "path": "components/premium/onboarding/onboarding-split.tsx",
+          "target": "@components/premium/onboarding/onboarding-split.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "onboarding-split",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Split screen",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A 'finish onboarding' row with a circular progress ring that morphs (shared-layout) into a modal of check-off tasks; toggling tasks updates the ring live.",
+      "files": [
+        {
+          "path": "components/premium/onboarding/onboarding-modal.tsx",
+          "target": "@components/premium/onboarding/onboarding-modal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "onboarding-modal",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Morphing checklist",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A full about page: a TextReveal headline, a grainient + avatar collage, and a mission column with value cards, composed with the premium stat band, team grid, and split CTA blocks.",
+      "files": [
+        {
+          "path": "components/premium/about/about-story.tsx",
+          "target": "@components/premium/about/about-story.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/index.ts",
+          "target": "@components/premium/stats/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/index.ts",
+          "target": "@components/premium/team/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/stats/stats-band.tsx",
+          "target": "@components/premium/stats/stats-band.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-cards.tsx",
+          "target": "@components/premium/stats/stats-cards.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-feature-outcomes.tsx",
+          "target": "@components/premium/stats/stats-feature-outcomes.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-impact-dashboard.tsx",
+          "target": "@components/premium/stats/stats-impact-dashboard.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-outcome-index.tsx",
+          "target": "@components/premium/stats/stats-outcome-index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-telemetry.tsx",
+          "target": "@components/premium/stats/stats-telemetry.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-grid.tsx",
+          "target": "@components/premium/team/team-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-marquee.tsx",
+          "target": "@components/premium/team/team-marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-panels.tsx",
+          "target": "@components/premium/team/team-panels.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-spotlight.tsx",
+          "target": "@components/premium/team/team-spotlight.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "about-story",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/text-reveal"
+      ],
+      "title": "Story page",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "An editorial about page built around an animated milestone timeline, with a headline intro, metric cards, and a leadership grid.",
+      "files": [
+        {
+          "path": "components/premium/about/about-timeline.tsx",
+          "target": "@components/premium/about/about-timeline.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/index.ts",
+          "target": "@components/premium/stats/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/index.ts",
+          "target": "@components/premium/team/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/stats/stats-band.tsx",
+          "target": "@components/premium/stats/stats-band.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-cards.tsx",
+          "target": "@components/premium/stats/stats-cards.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-feature-outcomes.tsx",
+          "target": "@components/premium/stats/stats-feature-outcomes.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-impact-dashboard.tsx",
+          "target": "@components/premium/stats/stats-impact-dashboard.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-outcome-index.tsx",
+          "target": "@components/premium/stats/stats-outcome-index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-telemetry.tsx",
+          "target": "@components/premium/stats/stats-telemetry.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-grid.tsx",
+          "target": "@components/premium/team/team-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-marquee.tsx",
+          "target": "@components/premium/team/team-marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-panels.tsx",
+          "target": "@components/premium/team/team-panels.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-spotlight.tsx",
+          "target": "@components/premium/team/team-spotlight.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "about-timeline",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/text-reveal"
+      ],
+      "title": "Journey timeline",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "A functional careers page built around an animated open-roles list \u2014 a shared-layout department filter with live counts and rows that spring open in place to reveal responsibilities, composed with the premium stat band.",
+      "files": [
+        {
+          "path": "components/premium/careers/careers-board.tsx",
+          "target": "@components/premium/careers/careers-board.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/index.ts",
+          "target": "@components/premium/stats/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/stats/stats-band.tsx",
+          "target": "@components/premium/stats/stats-band.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-cards.tsx",
+          "target": "@components/premium/stats/stats-cards.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-feature-outcomes.tsx",
+          "target": "@components/premium/stats/stats-feature-outcomes.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-impact-dashboard.tsx",
+          "target": "@components/premium/stats/stats-impact-dashboard.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-outcome-index.tsx",
+          "target": "@components/premium/stats/stats-outcome-index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/stats/stats-telemetry.tsx",
+          "target": "@components/premium/stats/stats-telemetry.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "careers-board",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/number-ticker",
+        "@beui/text-reveal"
+      ],
+      "title": "Roles board",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "ogl",
+        "tailwind-merge"
+      ],
+      "description": "An editorial careers page: a TextReveal hero with a grainient culture banner, animated value cards, a gapless perks bento, a featured-role spotlight, and the premium team marquee and split CTA.",
+      "files": [
+        {
+          "path": "components/premium/careers/careers-culture.tsx",
+          "target": "@components/premium/careers/careers-culture.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/cta-sections/index.ts",
+          "target": "@components/premium/cta-sections/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/feature-sections/grainient.tsx",
+          "target": "@components/premium/feature-sections/grainient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/index.ts",
+          "target": "@components/premium/team/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/premium/cta-sections/cta-faq.tsx",
+          "target": "@components/premium/cta-sections/cta-faq.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/cta-sections/cta-glow.tsx",
+          "target": "@components/premium/cta-sections/cta-glow.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/cta-sections/cta-poster.tsx",
+          "target": "@components/premium/cta-sections/cta-poster.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/cta-sections/cta-proof-orbit.tsx",
+          "target": "@components/premium/cta-sections/cta-proof-orbit.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/cta-sections/cta-shade-panel.tsx",
+          "target": "@components/premium/cta-sections/cta-shade-panel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/cta-sections/cta-split.tsx",
+          "target": "@components/premium/cta-sections/cta-split.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/cta-sections/cta-terminal.tsx",
+          "target": "@components/premium/cta-sections/cta-terminal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-grid.tsx",
+          "target": "@components/premium/team/team-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-marquee.tsx",
+          "target": "@components/premium/team/team-marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-panels.tsx",
+          "target": "@components/premium/team/team-panels.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/team/team-spotlight.tsx",
+          "target": "@components/premium/team/team-spotlight.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/glow-button.tsx",
+          "target": "@components/motion/glow-button.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "careers-culture",
+      "registryDependencies": [
+        "@beui/bouncy-accordion",
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Culture page",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A friendly release archive with sticky left-side pill filters, a softly blurred gradient intro, plain-language update cards, and staged entrance motion.",
+      "files": [
+        {
+          "path": "components/premium/changelog/changelog-sidebar.tsx",
+          "target": "@components/premium/changelog/changelog-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/changelog/changelog-data.ts",
+          "target": "@components/premium/changelog/changelog-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "changelog-sidebar",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "title": "Sidebar updates",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A calm, filterable changelog with plain-language categories, spacious release cards, practical highlights, and a monthly subscription close.",
+      "files": [
+        {
+          "path": "components/premium/changelog/changelog-ledger.tsx",
+          "target": "@components/premium/changelog/changelog-ledger.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/changelog/changelog-data.ts",
+          "target": "@components/premium/changelog/changelog-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "changelog-ledger",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/tabs"
+      ],
+      "title": "Editorial updates",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A warm consumer update page with one featured improvement, a friendly memory illustration, layered update history, and plain-language copy.",
+      "files": [
+        {
+          "path": "components/premium/changelog/changelog-simple.tsx",
+          "target": "@components/premium/changelog/changelog-simple.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "changelog-simple",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Simple updates",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A simple publication home with an asymmetric featured story, working category filters, structured story cards, and a quiet newsletter close.",
+      "files": [
+        {
+          "path": "components/premium/blog/blog-index.tsx",
+          "target": "@components/premium/blog/blog-index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/blog/blog-data.ts",
+          "target": "@components/premium/blog/blog-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/blog/story-cover.tsx",
+          "target": "@components/premium/blog/story-cover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "blog-index",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Blog index",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A compact editorial publication home with real photography, a softly rounded featured story, denser image cards, and a restrained newsletter close.",
+      "files": [
+        {
+          "path": "components/premium/blog/blog-rounded-index.tsx",
+          "target": "@components/premium/blog/blog-rounded-index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "blog-rounded-index",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Rounded blog index",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A complete long-form reading page with a clear article header, responsive contents navigation, pull quote, related stories, and newsletter close.",
+      "files": [
+        {
+          "path": "components/premium/blog/blog-article.tsx",
+          "target": "@components/premium/blog/blog-article.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/blog/blog-data.ts",
+          "target": "@components/premium/blog/blog-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/blog/story-cover.tsx",
+          "target": "@components/premium/blog/story-cover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "blog-article",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Article page",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A tile-built 404 that continuously falls apart under the cursor, then snaps cleanly back into place.",
+      "files": [
+        {
+          "path": "components/premium/not-found-pages/not-found-falling-blocks.tsx",
+          "target": "@components/premium/not-found-pages/not-found-falling-blocks.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-falling-blocks",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Falling blocks",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Three restrained numeral panels with a staggered 3D entrance and responsive tilt feedback.",
+      "files": [
+        {
+          "path": "components/premium/not-found-pages/not-found-flip-panels.tsx",
+          "target": "@components/premium/not-found-pages/not-found-flip-panels.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/not-found-pages/use-page-stage.ts",
+          "target": "@components/premium/not-found-pages/use-page-stage.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-flip-panels",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Flip panels",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A minimal oversized 404 whose numerals compress and rebound independently under the cursor.",
+      "files": [
+        {
+          "path": "components/premium/not-found-pages/not-found-elastic.tsx",
+          "target": "@components/premium/not-found-pages/not-found-elastic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/not-found-pages/use-page-stage.ts",
+          "target": "@components/premium/not-found-pages/use-page-stage.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-elastic",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Elastic type",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A quiet layered 404 that fans repeated numeral echoes apart on hover.",
+      "files": [
+        {
+          "path": "components/premium/not-found-pages/not-found-echo.tsx",
+          "target": "@components/premium/not-found-pages/not-found-echo.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/not-found-pages/use-page-stage.ts",
+          "target": "@components/premium/not-found-pages/use-page-stage.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-echo",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Echo stack",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A dark typographic 404 revealed by a spring-smoothed cursor spotlight.",
+      "files": [
+        {
+          "path": "components/premium/not-found-pages/not-found-spotlight.tsx",
+          "target": "@components/premium/not-found-pages/not-found-spotlight.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-spotlight",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Spotlight reveal",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A cobalt 404 split into animated horizontal bands that continuously slip under the cursor.",
+      "files": [
+        {
+          "path": "components/premium/not-found-pages/not-found-sliced.tsx",
+          "target": "@components/premium/not-found-pages/not-found-sliced.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-sliced",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Sliced type",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A sharp publication-style error page pairing concise editorial copy with oversized staggered numerals on a vermilion field.",
+      "files": [
+        {
+          "path": "components/premium/not-found-pages/not-found-editorial.tsx",
+          "target": "@components/premium/not-found-pages/not-found-editorial.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/not-found-pages/use-page-stage.ts",
+          "target": "@components/premium/not-found-pages/use-page-stage.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-editorial",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Editorial issue",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A dense terminal error page with an animated request trace, scanning failure output, and command-line recovery actions.",
+      "files": [
+        {
+          "path": "components/premium/not-found-pages/not-found-terminal.tsx",
+          "target": "@components/premium/not-found-pages/not-found-terminal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/not-found-pages/use-page-stage.ts",
+          "target": "@components/premium/not-found-pages/use-page-stage.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-terminal",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Terminal trace",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A warm, playful 404 page with a route-drawing map illustration, animated waypoints, and a clear path back home.",
+      "files": [
+        {
+          "path": "components/premium/not-found-pages/not-found-wayfinder.tsx",
+          "target": "@components/premium/not-found-pages/not-found-wayfinder.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/not-found-pages/use-page-stage.ts",
+          "target": "@components/premium/not-found-pages/use-page-stage.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-wayfinder",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Wayfinder",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An interactive gallery where hovering a panel expands it to reveal the member's bio and links, while the others collapse.",
+      "files": [
+        {
+          "path": "components/premium/team/team-panels.tsx",
+          "target": "@components/premium/team/team-panels.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "team-panels",
+      "registryDependencies": [],
+      "title": "Expanding panels",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A featured profile card (avatar, role, bio, links) that crossfades as you pick a face from the avatar rail below.",
+      "files": [
+        {
+          "path": "components/premium/team/team-spotlight.tsx",
+          "target": "@components/premium/team/team-spotlight.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "team-spotlight",
+      "registryDependencies": [],
+      "title": "Spotlight",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A responsive grid of member cards with avatars, roles, a hover lift, and socials that slide up on hover.",
+      "files": [
+        {
+          "path": "components/premium/team/team-grid.tsx",
+          "target": "@components/premium/team/team-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "team-grid",
+      "registryDependencies": [],
+      "title": "Team grid",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Two infinite rows of member chips scrolling in opposite directions, pausing on hover.",
+      "files": [
+        {
+          "path": "components/premium/team/team-marquee.tsx",
+          "target": "@components/premium/team/team-marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "team-marquee",
+      "registryDependencies": [
+        "@beui/text-reveal"
+      ],
+      "title": "Team marquee",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A sharp two-column FAQ with a sticky introduction, direct support action, numbered questions, and responsive single-open disclosures.",
+      "files": [
+        {
+          "path": "components/premium/faq-blocks/faq-split.tsx",
+          "target": "@components/premium/faq-blocks/faq-split.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/faq-blocks/faq-data.ts",
+          "target": "@components/premium/faq-blocks/faq-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/faq-blocks/faq-disclosure-list.tsx",
+          "target": "@components/premium/faq-blocks/faq-disclosure-list.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/faq-blocks/faq-motion.ts",
+          "target": "@components/premium/faq-blocks/faq-motion.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "faq-split",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Split FAQ",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A functional help-center FAQ with text search, topic filters, animated result transitions, clear empty state, and bouncy disclosures.",
+      "files": [
+        {
+          "path": "components/premium/faq-blocks/faq-search.tsx",
+          "target": "@components/premium/faq-blocks/faq-search.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/faq-blocks/faq-data.ts",
+          "target": "@components/premium/faq-blocks/faq-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/faq-blocks/faq-motion.ts",
+          "target": "@components/premium/faq-blocks/faq-motion.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "faq-search",
+      "registryDependencies": [
+        "@beui/bouncy-accordion",
+        "@beui/tabs"
+      ],
+      "title": "Searchable FAQ",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An asymmetric FAQ with a sticky introduction, independently opening rounded questions, and a restrained theme-native accent treatment.",
+      "files": [
+        {
+          "path": "components/premium/faq-blocks/faq-stacked.tsx",
+          "target": "@components/premium/faq-blocks/faq-stacked.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/faq-blocks/faq-data.ts",
+          "target": "@components/premium/faq-blocks/faq-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/premium/faq-blocks/faq-motion.ts",
+          "target": "@components/premium/faq-blocks/faq-motion.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "faq-stacked",
+      "registryDependencies": [],
+      "title": "Stacked FAQ",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered proof-led CTA with an art-directed portrait orbit, one direct action, and a concise reassurance note.",
+      "files": [
+        {
+          "path": "components/premium/cta-sections/cta-proof-orbit.tsx",
+          "target": "@components/premium/cta-sections/cta-proof-orbit.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "cta-proof-orbit",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Proof orbit CTA",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A left-aligned CTA set against broad layered blue shade bands, with deliberate negative space and one focused action.",
+      "files": [
+        {
+          "path": "components/premium/cta-sections/cta-shade-panel.tsx",
+          "target": "@components/premium/cta-sections/cta-shade-panel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "cta-shade-panel",
+      "registryDependencies": [
+        "@beui/button-base"
+      ],
+      "title": "Shade panel CTA",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered CTA card over a flowing liquid backdrop \u2014 animated turbulence-warped color bands, blur-reveal headline, and paired CTAs.",
+      "files": [
+        {
+          "path": "components/premium/cta-sections/cta-glow.tsx",
+          "target": "@components/premium/cta-sections/cta-glow.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "cta-glow",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Liquid CTA",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A centered developer CTA: a dark terminal that types an install command, streams a faux install log, and has a copy-to-clipboard button, with a blur-reveal headline and paired CTAs.",
+      "files": [
+        {
+          "path": "components/premium/cta-sections/cta-terminal.tsx",
+          "target": "@components/premium/cta-sections/cta-terminal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "cta-terminal",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Terminal CTA",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A two-column block pairing a gradient CTA card with a bouncy FAQ accordion.",
+      "files": [
+        {
+          "path": "components/premium/cta-sections/cta-faq.tsx",
+          "target": "@components/premium/cta-sections/cta-faq.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "cta-faq",
+      "registryDependencies": [
+        "@beui/bouncy-accordion",
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "FAQ CTA",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A light, premium split CTA: the left column pairs a blur-reveal serif headline and subtext with a copyable install command chip; the right column stacks the primary and secondary buttons plus a muted docs link.",
+      "files": [
+        {
+          "path": "components/premium/cta-sections/cta-split.tsx",
+          "target": "@components/premium/cta-sections/cta-split.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/glow-button.tsx",
+          "target": "@components/motion/glow-button.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "cta-split",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Split CTA",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A rounded kinetic CTA with a moving message rail, soft orbiting geometry, and paired actions for a confident final invitation.",
+      "files": [
+        {
+          "path": "components/premium/cta-sections/cta-poster.tsx",
+          "target": "@components/premium/cta-sections/cta-poster.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "cta-poster",
+      "registryDependencies": [
+        "@beui/button-base",
+        "@beui/text-reveal"
+      ],
+      "title": "Kinetic poster",
+      "type": "registry:block"
+    }
+  ],
+  "name": "beui-pro"
+}

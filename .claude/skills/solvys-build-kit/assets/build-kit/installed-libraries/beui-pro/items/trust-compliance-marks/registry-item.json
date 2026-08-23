@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "An editorial compliance wall with recognizable certification marks, plain-language explanations, practical commitments, and a direct trust-center action.",
+  "name": "trust-compliance-marks",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5633,
+      "path": "components/premium/trust-security/trust-compliance-marks.tsx",
+      "sha256": "390cc5c59a57e5cad78aada6c1307620d6b52b45e870d1a44030259f586927a6",
+      "target": "@components/premium/trust-security/trust-compliance-marks.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2181,
+      "path": "components/premium/trust-security/trust-section-heading.tsx",
+      "sha256": "d567c501d692b4819abb63294b1db279f4704ef9f298e913429dd8489adfa0be",
+      "target": "@components/premium/trust-security/trust-section-heading.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/trust-compliance-marks.json",
+  "title": "Compliance marks",
+  "type": "registry:block"
+}

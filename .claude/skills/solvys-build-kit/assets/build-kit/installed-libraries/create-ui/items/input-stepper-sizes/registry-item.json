@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-stepper-sizes",
+  "registryDependencies": [
+    "input-stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 852,
+      "path": "registry/examples/input-stepper-sizes.tsx",
+      "sha256": "b0537f58351a09951a5f64080ba72d90e04c931d9ad9e642e0dcfd18c21ff932",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-stepper-sizes.json",
+  "title": "Input Stepper Sizes",
+  "type": "registry:example"
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "categories": [
+    "store-locator",
+    "locator"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ],
+  "description": "Searchable store list synced with map markers.",
+  "meta": {
+    "iframeHeight": "800px"
+  },
+  "name": "store-locator",
+  "registryDependencies": [
+    "@mapcn/map",
+    "input",
+    "sidebar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1330,
+      "path": "src/registry/blocks/store-locator/page.tsx",
+      "sha256": "a8eee344b393ae8143eacfdcc0544fd97de09cf2e9af491a9a0fb13c75adc967",
+      "target": "app/store-locator/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 2170,
+      "path": "src/registry/blocks/store-locator/data.ts",
+      "sha256": "4c348a325a592a9be461ad6d78c5f95e84d1601259d5bad8e90602cbf6a6faea",
+      "target": "app/store-locator/data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5033,
+      "path": "src/registry/blocks/store-locator/components/store-list.tsx",
+      "sha256": "98e6aeccf4c82a55818c7af680ec58d6f1746f96bce639d2f82690cc27a8a7cb",
+      "target": "app/store-locator/components/store-list.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3928,
+      "path": "src/registry/blocks/store-locator/components/locator-map.tsx",
+      "sha256": "2d26f58cfb1e5cde427ebfb35f0ab9a6d90470a42b4437b30619fab1e5a79af0",
+      "target": "app/store-locator/components/locator-map.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/store-locator.json",
+  "title": "Store Locator",
+  "type": "registry:block"
+}

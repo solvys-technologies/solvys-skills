@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://solvys.io/schemas/factory-hook-event.v1.schema.json",
+  "title": "Factory Hook Event v1",
+  "type": "object",
+  "required": ["version", "event", "runId", "occurredAt", "decision", "mechanisms", "evidence"],
+  "properties": {
+    "version": {"const": 1},
+    "event": {"enum": ["SessionStart", "UserPromptSubmit", "PreToolUse", "PostToolUse", "Stop"]},
+    "runId": {"type": "string", "minLength": 1},
+    "occurredAt": {"type": "string", "minLength": 1},
+    "decision": {"enum": ["allow", "warn", "deny"]},
+    "mechanisms": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "message": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

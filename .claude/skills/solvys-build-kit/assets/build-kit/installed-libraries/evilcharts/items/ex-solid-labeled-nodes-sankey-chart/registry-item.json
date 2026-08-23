@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-solid-labeled-nodes-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-sankey-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2932,
+      "path": "src/registry/examples/recharts/ex-solid-labeled-nodes-sankey-chart.tsx",
+      "sha256": "fc53557b14c5747f4b68f32a04e6edb71518ccb026b4104764f9963f7aa223d8",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-solid-labeled-nodes-sankey-chart.json?raw=1",
+  "type": "registry:block"
+}

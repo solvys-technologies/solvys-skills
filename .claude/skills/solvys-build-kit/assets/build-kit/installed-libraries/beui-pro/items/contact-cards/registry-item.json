@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "An animated grid of contact-method cards (sales, support, community) with hover accents, plus a featured strip with team avatars and book-a-call CTAs.",
+  "name": "contact-cards",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6283,
+      "path": "components/premium/contact/contact-cards.tsx",
+      "sha256": "f88c25ae14c4e1afaaf092d099224c423ddde48c304753750925e20138ea1177",
+      "target": "@components/premium/contact/contact-cards.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/contact-cards.json",
+  "title": "Contact cards",
+  "type": "registry:block"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-monotoney-curve-type-area-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1962,
+      "path": "src/registry/examples/recharts/ex-monotoney-curve-type-area-chart.tsx",
+      "sha256": "f50b90f2ba07079cba7452a30adee1a6586639f2206337129a1c3d95548cba9a",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-monotoney-curve-type-area-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Icon-only X dismiss button for modals, toasts and overlays; neutral/inverse variants, four appearances, xs to 2xl sizes",
+  "name": "close-button",
+  "shippedFiles": [
+    {
+      "bytes": 7604,
+      "path": "registry/ui/close-button.tsx",
+      "sha256": "45e8bd4f1be8db0e3dd0b3b4360ef58b2d60142ec382105c140a6f062e2e2a33",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/close-button.json",
+  "title": "Close Button",
+  "type": "registry:ui"
+}

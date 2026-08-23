@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-loading-state-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1341,
+      "path": "src/registry/examples/recharts/ex-loading-state-pie-chart.tsx",
+      "sha256": "b8a6aa6185f90bbb4bd923edb112673bc88e016df3d013c1d8449216a273fc9b",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-loading-state-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

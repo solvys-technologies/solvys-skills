@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-with-icon",
+  "registryDependencies": [
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 598,
+      "path": "registry/examples/button-with-icon.tsx",
+      "sha256": "69b1c899e39ea82e4e78b598fbb0a0902f9ffd7f1fab01604aca886ed1cf47e9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-with-icon.json",
+  "title": "Button With Icon",
+  "type": "registry:example"
+}

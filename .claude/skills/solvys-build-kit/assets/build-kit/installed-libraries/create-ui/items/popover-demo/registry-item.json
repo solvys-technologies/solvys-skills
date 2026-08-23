@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "popover-demo",
+  "registryDependencies": [
+    "popover",
+    "button",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1725,
+      "path": "registry/examples/popover-demo.tsx",
+      "sha256": "022df187927d629693fce5a880764728fcd34d4c7deb58ab5e0a23cb34a3f673",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/popover-demo.json",
+  "title": "Popover Demo",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "segmented-control-variants",
+  "registryDependencies": [
+    "segmented-control"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1237,
+      "path": "registry/examples/segmented-control-variants.tsx",
+      "sha256": "deb80dd92d1513a3f8e6c7888003fc58a7cffb45b9cebff241b5e2584f6ad618",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/segmented-control-variants.json",
+  "title": "SegmentedControl Variants",
+  "type": "registry:example"
+}

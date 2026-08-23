@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-duotone-variant-echarts-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1686,
+      "path": "src/registry/examples/echarts/ex-duotone-variant-echarts-composed-chart.tsx",
+      "sha256": "ed7dd804c17140a272d7e05ce9cf66d17166c3b53c3bbc6aa300e7c0f0dad6cd",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-duotone-variant-echarts-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

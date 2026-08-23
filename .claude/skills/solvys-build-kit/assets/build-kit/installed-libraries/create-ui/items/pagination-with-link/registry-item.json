@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-with-link",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 971,
+      "path": "registry/examples/pagination-with-link.tsx",
+      "sha256": "de641e70e6e019b09f6f3d0e750cb3e05b280afc4365c69b990f6c3c597b13a4",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-with-link.json",
+  "title": "Pagination With Link",
+  "type": "registry:example"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-group-variants",
+  "registryDependencies": [
+    "switch-group",
+    "switch",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2464,
+      "path": "registry/examples/switch-group-variants.tsx",
+      "sha256": "4f0ec7b1fb623ed5f26ddcd3d5cb5d5110adbbb5b4c50e6fe7ed5ad99c873d69",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-group-variants.json",
+  "title": "Switch Group Variants",
+  "type": "registry:example"
+}

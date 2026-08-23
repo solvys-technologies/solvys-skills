@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "file-format-list",
+  "registryDependencies": [
+    "file-format",
+    "badge",
+    "button",
+    "close-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3814,
+      "path": "registry/examples/file-format-list.tsx",
+      "sha256": "78a866caf5b1a784035d0acbaefc758bac19436b7dc67340ddeb5bb5b3775fa9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/file-format-list.json",
+  "title": "File Format List",
+  "type": "registry:example"
+}

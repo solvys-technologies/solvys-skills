@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "categories": [
+    "logistics",
+    "network"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ],
+  "description": "Domestic logistics map with a sidebar of stats.",
+  "meta": {
+    "iframeHeight": "800px"
+  },
+  "name": "logistics-network",
+  "registryDependencies": [
+    "@mapcn/map",
+    "sidebar",
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 486,
+      "path": "src/registry/blocks/logistics-network/page.tsx",
+      "sha256": "a48009a08fb3ee66d578b888ff3e825b5c53798fd592828816014500374427b8",
+      "target": "app/logistics/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 6237,
+      "path": "src/registry/blocks/logistics-network/data.ts",
+      "sha256": "e955aeeb348513058bb20979d849cec8f04bd99ca847278b30c858d061492efa",
+      "target": "app/logistics/data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7264,
+      "path": "src/registry/blocks/logistics-network/components/filter-sidebar.tsx",
+      "sha256": "28ed82bb805ca5dffdc0f5347978cb519c32003e5532d1a075ff8fa7de60b2d3",
+      "target": "app/logistics/components/filter-sidebar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3818,
+      "path": "src/registry/blocks/logistics-network/components/network-map.tsx",
+      "sha256": "6159b3577a2445eeee514e77aec8391084e10a57ce6ffc89199a2597cbd8677a",
+      "target": "app/logistics/components/network-map.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/logistics-network.json",
+  "title": "Logistics Network",
+  "type": "registry:block"
+}

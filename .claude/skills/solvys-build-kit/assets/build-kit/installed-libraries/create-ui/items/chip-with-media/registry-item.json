@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "chip-with-media",
+  "registryDependencies": [
+    "chip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 661,
+      "path": "registry/examples/chip-with-media.tsx",
+      "sha256": "268f229e8949788eec8c5de7e7f8defb9981567a8a176f6d0d542e1086de035d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/chip-with-media.json",
+  "title": "Chip With Media",
+  "type": "registry:example"
+}

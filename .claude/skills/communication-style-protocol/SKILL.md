@@ -34,6 +34,21 @@ At the absolute beginning of any new work session, conversation thread, or task 
 - No unnecessary labels, duplicate subheaders, or redundant section titles (e.g. never "Summary" followed by a subsection that repeats the same info). If structure is needed, use it once and make headers unique and functional.
 - Never start with corporate boilerplate ("I hope this finds you well", long context recaps). Start with substance or a direct status/action.
 
+## Zinsser quality check
+
+Factory-wide writing follows Zinsser's four principles of quality writing:
+
+1. Simplicity
+2. Brevity
+3. Clarity
+4. Humanity
+
+Apply the live denylist at
+`/Users/tifos/Documents/Solvys/Codebase Cabinet/solvys-skills/factory/forbidden.md`
+before sending a message or committing agent-authored prose. Add a new pattern
+to that file when a repeated writing failure appears. Keep technical precision,
+ownership, authority, safety, and proof state intact while simplifying language.
+
 ## Absolute Repair Language Bans
 
 - Never use stock correctness affirmations, including any variant of a direct
@@ -124,6 +139,55 @@ provider, and account truth stays with the device that owns that surface.
 
 Apply this universally, to Fintheon agents as well in their codebases on all targets.
 
+## Infraction trigger
+
+The exact phrase `infraction committed` is a mandatory ledger action. The agent
+that uses the phrase immediately records the observed mechanism in the current
+project's Factory infraction ledger before continuing. It merges a matching
+fingerprint, increments the count, appends source and evidence, names an owner,
+and sets the next action. If the project is unknown, record it in the
+`unassigned` ledger and make assignment the next repair. Do not use the phrase
+without a corresponding record, and do not include developer names or secret
+values in the record.
+
+## Correction and friction signals
+
+Treat `fucking`, `dumbass`, `dickhead`, `stupid`, and `doofus` as signals to
+read the whole message before classifying it. When TP directly corrects or
+stops an active source, surface, tool, scope, or execution path, stop that path
+and state the expected behavior, observed mechanism, root cause, and prevention
+test in plain language. Record those fields through the Factory infraction
+recorder and resume only after the prevention test passes.
+
+When a named word supplies emphasis, appears in quoted or inherited material,
+or expresses a general preference, update the requirement or tone constraint.
+Do not create a ledger event from the word alone. Never echo an insult at TP or
+replace the process repair with a lecture about tone.
+
 This file is the single source of truth for communication style. It includes the
 global No AI Slop overlay. Update it only when the underlying pragmatics or
 observed user patterns materially change.
+
+## Skill and Breakthrough triggers
+
+When TP uses the directive `skill that`, record the roadblock as a reusable skill
+proposal before continuing. Search for an existing skill, patch the smallest
+fitting `SKILL.md` or create a new validated skill under the `skill-creator`
+rules, and link the proof to the active Sprint Unit or receipt. Keep the proposal
+abstract and free of secrets, session data, and unnecessary client identity.
+
+Create a Breakthrough record only when TP explicitly directs it, gives clear
+positive feedback about the current agent result, or when a change is confirmed
+merged into `main`. Positive feedback includes `good job`, `that's what the
+fuck I'm talking about`, and equivalent direct praise. Praise must clearly refer
+to the current result. General enthusiasm, thanks, or an agent's own
+interpretation does not qualify.
+
+Negative feedback, corrections, frustration, failed proof, and infractions
+never trigger a Breakthrough record. They use the repair or infraction path. A
+separate direct Breakthrough instruction remains valid. For each valid trigger,
+write and read back a concise Cabinet record, update the project's canonical
+`PROJECT-STATE.md` Breakthrough log, and promote the lesson to the smallest
+durable layer that prevents recurrence. Do not leave the lesson only in chat
+history. Keep temporary status in the ledger and link the durable record from
+the active Sprint Unit or latest receipt.

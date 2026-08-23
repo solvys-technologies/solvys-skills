@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "description": "Shared Intl formatters, time-series decimation, and RAF tooltip scheduling for Bklit charts",
+  "name": "chart-utils",
+  "shippedFiles": [
+    {
+      "bytes": 514,
+      "path": "src/charts/chart-formatters.ts",
+      "sha256": "5044fb8e7e6cfaba51d4d3a1d961ecb53e95d3fdd733cb4b1666cb285bd96821",
+      "target": "components/charts/chart-formatters.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 3721,
+      "path": "src/charts/decimate-time-series.ts",
+      "sha256": "5b9cb92a94b34f4de5de550c87404833f0a215aceb1f28213cad0bdfb57ba47c",
+      "target": "components/charts/decimate-time-series.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 2596,
+      "path": "src/charts/use-scheduled-tooltip.ts",
+      "sha256": "197430cabf1f017a47f6f2262341b8355d55436876e19affcc8b46f2f35752d3",
+      "target": "components/charts/use-scheduled-tooltip.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/chart-utils.json",
+  "status": "installed",
+  "title": "Chart Utilities",
+  "type": "registry:lib"
+}

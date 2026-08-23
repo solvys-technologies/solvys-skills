@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-sizes",
+  "registryDependencies": [
+    "checkbox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 370,
+      "path": "registry/examples/checkbox-sizes.tsx",
+      "sha256": "074da7bf90089eb858ffffb55c09fe1ed4f2b3615b37e587e900bb7a7556a31f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-sizes.json",
+  "title": "Checkbox Sizes",
+  "type": "registry:example"
+}

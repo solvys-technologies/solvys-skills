@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "stepper-demo",
+  "registryDependencies": [
+    "stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 719,
+      "path": "registry/examples/stepper-demo.tsx",
+      "sha256": "96e81cb7f0bb001a97f2bde2563c1834996bd5827e112ff9310ec3b43f0ad28e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/stepper-demo.json",
+  "title": "Stepper Demo",
+  "type": "registry:example"
+}

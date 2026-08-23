@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "Composable gauge-chart demo for Open in v0",
+  "name": "gauge-chart-example",
+  "registryDependencies": [
+    "@bklit/gauge-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 473,
+      "path": "registry/examples/gauge-chart.tsx",
+      "sha256": "86b130bf68ada9bf39db0b37e39af71c9cff72ca2149e93ae05af5d9db55738b",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 130,
+      "path": "registry/examples/gauge-chart-index.ts",
+      "sha256": "71ecbf8a82cc872db3a05687faa957889a351c64cc70c3f044e502422bfba328",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/gauge-chart-example.json",
+  "status": "installed",
+  "title": "Gauge Chart Example",
+  "type": "registry:example"
+}

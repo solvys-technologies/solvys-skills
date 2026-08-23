@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-sizes-pro",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2337,
+      "path": "registry/examples/tabs-sizes-pro.tsx",
+      "sha256": "224e594e2a5b8f30b03a9a4344e664f1ba4e90a22a0cb63654d9bce893510e0a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-sizes-pro.json",
+  "title": "Tabs Sizes (Pro)",
+  "type": "registry:example"
+}

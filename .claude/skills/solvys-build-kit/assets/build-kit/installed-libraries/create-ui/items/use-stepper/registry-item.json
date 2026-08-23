@@ -1,0 +1,15 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "use-stepper",
+  "shippedFiles": [
+    {
+      "bytes": 10659,
+      "path": "registry/hooks/use-stepper.ts",
+      "sha256": "d4f2458dee8589a73f7e0da6693fe5831a0dcd649d342ab57bd780d14bfb2045",
+      "target": null,
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/use-stepper.json",
+  "type": "registry:hook"
+}

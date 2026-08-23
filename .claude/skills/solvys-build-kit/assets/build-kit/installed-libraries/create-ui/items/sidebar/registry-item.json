@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "sidebar",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/sidebar.json",
+  "status": "access-gated",
+  "title": "Sidebar",
+  "type": "registry:ui"
+}

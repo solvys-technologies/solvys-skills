@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "shiki",
+    "tailwind-merge"
+  ],
+  "description": "A syntax-highlighted file change disclosure with progressive rows, line numbers, live change counts, smooth following, and completion collapse.",
+  "name": "file-diff",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 9352,
+      "path": "components/agents/file-diff.tsx",
+      "sha256": "19febf8831fa15dc4cf2af93de9fdfcf5e3a2e1d258305f65ca5531a58d19c5b",
+      "target": "@components/agents/file-diff.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4170,
+      "path": "components/agents/agent-code.tsx",
+      "sha256": "22edfd4b2dbef2f61c5a629ad2f0d0b63dab3ec77c085ef05ea839c88c8a6c4f",
+      "target": "@components/agents/agent-code.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1353,
+      "path": "components/agents/agent-disclosure.tsx",
+      "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+      "target": "@components/agents/agent-disclosure.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/file-diff.json",
+  "title": "File Diff",
+  "type": "registry:component"
+}

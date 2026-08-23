@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "label-character-count",
+  "registryDependencies": [
+    "field",
+    "label",
+    "textarea"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 539,
+      "path": "registry/examples/label-character-count.tsx",
+      "sha256": "ef7f40abdb9efeb3013846c0d18ff50d6147c152858678743a8aa2ff8eb0b801",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label-character-count.json",
+  "title": "Label Character Count",
+  "type": "registry:example"
+}

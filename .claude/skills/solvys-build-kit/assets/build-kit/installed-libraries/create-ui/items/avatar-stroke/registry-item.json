@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-stroke",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1178,
+      "path": "registry/examples/avatar-stroke.tsx",
+      "sha256": "44efaefcaaef8714fa90c1a9661a6d0659895dbcfda8d7f1794be8b1544dd771",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-stroke.json",
+  "title": "Avatar Stroke",
+  "type": "registry:example"
+}

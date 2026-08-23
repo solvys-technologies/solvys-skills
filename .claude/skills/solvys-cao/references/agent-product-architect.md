@@ -10,7 +10,7 @@ System model, user and operator journeys, inputs/outputs, state ownership, domai
 2. Trace the current end-to-end path before proposing structure.
 3. Name owners for UI presentation, product state, persistence, external services, and proof.
 4. Define protected native behavior and migration exclusions.
-5. Use Ponytail to remove unnecessary layers and duplicate abstractions.
+5. Use the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`) to remove unnecessary layers and duplicate abstractions: YAGNI, repo reuse, stdlib/native, installed dependency, maintained OSS, one line, then minimum custom code.
 
 ## Must Not
 

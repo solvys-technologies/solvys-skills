@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "fab-button-variants",
+  "registryDependencies": [
+    "fab-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1666,
+      "path": "registry/examples/fab-button-variants.tsx",
+      "sha256": "d146ddf2ce75ee48c63032f495dd6cd8f8c92825ae9e11de3ed1b99e1f50f27b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/fab-button-variants.json",
+  "title": "FAB Button Variants",
+  "type": "registry:example"
+}

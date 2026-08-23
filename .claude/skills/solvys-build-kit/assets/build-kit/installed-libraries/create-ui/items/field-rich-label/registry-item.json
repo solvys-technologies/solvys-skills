@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "field-rich-label",
+  "registryDependencies": [
+    "field",
+    "input",
+    "label",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1251,
+      "path": "registry/examples/field-rich-label.tsx",
+      "sha256": "36f2788b537f22e91b0b75b03104c23d3de2695d8c76769b9632711ace7b93f9",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/field-rich-label.json",
+  "title": "Field Rich Label",
+  "type": "registry:example"
+}

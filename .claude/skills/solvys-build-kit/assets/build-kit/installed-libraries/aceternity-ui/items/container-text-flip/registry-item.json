@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "container-text-flip",
+  "shippedFiles": [
+    {
+      "bytes": 3211,
+      "path": "components/ui/container-text-flip.tsx",
+      "sha256": "593026cdbc3ae45b0ac3e7a31525b33311e5bb10057538e24209f7cd1e460bad",
+      "target": "components/ui/container-text-flip.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/container-text-flip.json",
+  "title": "Container Text Flip",
+  "type": "registry:ui"
+}

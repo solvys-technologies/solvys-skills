@@ -10,10 +10,13 @@
 | `WorkbenchDrawer` | Wide overlay workbench with controls and notes | Open state, control bar, content, note persistence | interview, all |
 | `ControlInventory` | Direct record of which control does what | Control IDs, routes, actions, feature and proof status | foundation, architecture, all |
 | `ArchitectureMap` | Interactive node map with working, warning, and blocked states | Nodes, edges, selection handler, engine/chassis metaphor | architecture, all |
+| `TanStackChartPanel` | Typed, accessible bar-chart adapter with loading, empty, ready, and error states | Rows, labels, state, focus/select handlers, chart copy | charting, all |
 
 ## Source model
 
 The kit provides Solvys-owned assemblies. Approved libraries can supply the lower-level control or motion body through a project adapter. They do not inherit product data, permissions, routing, provider state, or visual identity.
+
+The charting boundary is explicit. EvilCharts remains the design-first chart block source. TanStack Charts provides the installed typed chart grammar and React host when a project needs a product-owned definition or a lighter chart surface. A project selects one chart body per surface and records the choice in its adoption contract.
 
 `ArchitectureMap` uses a small stable node-and-edge contract. A project can map that contract to React Flow when the project already owns that dependency and needs zoom, pan, minimaps, or large-graph layout. The bundled renderer remains useful for small maps and keeps the default preset dependency-free beyond React.
 

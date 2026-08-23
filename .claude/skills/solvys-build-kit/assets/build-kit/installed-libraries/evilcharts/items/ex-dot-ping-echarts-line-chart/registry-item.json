@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-dot-ping-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1634,
+      "path": "src/registry/examples/echarts/ex-dot-ping-echarts-line-chart.tsx",
+      "sha256": "588144548e5f2ff3830c9b1bcacec84e464fadb3485bd5610b0412532e19d431",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-dot-ping-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

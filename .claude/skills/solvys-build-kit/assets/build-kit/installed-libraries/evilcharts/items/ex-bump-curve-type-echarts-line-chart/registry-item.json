@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bump-curve-type-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1908,
+      "path": "src/registry/examples/echarts/ex-bump-curve-type-echarts-line-chart.tsx",
+      "sha256": "4e1324638079110412e270de3cc532db8d52ee34a453dff716f8430c249a7cc2",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bump-curve-type-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "navbar-demo",
+  "registryDependencies": [
+    "navbar",
+    "button",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10171,
+      "path": "registry/examples/navbar-demo.tsx",
+      "sha256": "493fc31a6cca9e5ac15d7d5d40fd982168adacb0e4fe574a9164542921c0bb44",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/navbar-demo.json",
+  "title": "Navbar",
+  "type": "registry:example"
+}

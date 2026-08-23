@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-dot-border-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1645,
+      "path": "src/registry/examples/recharts/ex-dot-border-line-chart.tsx",
+      "sha256": "a923adfda28b357e8a3b6d08bdb6281032c51ac2b70b97662a7a5f2e3861a353",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-dot-border-line-chart.json?raw=1",
+  "type": "registry:block"
+}

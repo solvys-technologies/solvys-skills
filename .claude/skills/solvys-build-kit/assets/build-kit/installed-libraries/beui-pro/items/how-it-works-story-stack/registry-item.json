@@ -1,0 +1,43 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A spacious alternating process story with large narrative typography, atmospheric shader scenes, glass interface details, and scroll-triggered editorial reveals.",
+  "name": "how-it-works-story-stack",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/shader-background",
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 17014,
+      "path": "components/premium/how-it-works/how-it-works-story-stack.tsx",
+      "sha256": "881d1776920d472f9ef90029da3c7feb183cfa6f8d17b60d7364d923fc41b245",
+      "target": "@components/premium/how-it-works/how-it-works-story-stack.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/how-it-works-story-stack.json",
+  "title": "Editorial story stack",
+  "type": "registry:block"
+}

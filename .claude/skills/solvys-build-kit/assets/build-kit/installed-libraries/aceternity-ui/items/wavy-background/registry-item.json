@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "simplex-noise"
+  ],
+  "name": "wavy-background",
+  "shippedFiles": [
+    {
+      "bytes": 3073,
+      "path": "components/ui/wavy-background.tsx",
+      "sha256": "76b9dcfa2143c9d80c3e0c9d7f09c1dd5e3319be9e941d9192b28e0b78b2ea26",
+      "target": "components/ui/wavy-background.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/wavy-background.json",
+  "title": "Wavy Background",
+  "type": "registry:ui"
+}

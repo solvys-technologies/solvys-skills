@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "progress-upload",
+  "registryDependencies": [
+    "progress",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2114,
+      "path": "registry/examples/progress-upload.tsx",
+      "sha256": "391c72bd0cfbfe9b67eb8cc3fc29f5fefb320e5573401f288c3b9c0c467b8478",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/progress-upload.json",
+  "title": "Progress Upload",
+  "type": "registry:example"
+}

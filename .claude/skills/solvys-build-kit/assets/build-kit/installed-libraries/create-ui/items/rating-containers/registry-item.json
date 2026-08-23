@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "rating-containers",
+  "registryDependencies": [
+    "rating"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 396,
+      "path": "registry/examples/rating-containers.tsx",
+      "sha256": "8a7f1dd6d8e35af767a5b888d073808b1063d3ed240045c40ab508fc5083888f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/rating-containers.json",
+  "title": "Rating Containers",
+  "type": "registry:example"
+}

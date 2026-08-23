@@ -39,6 +39,9 @@ memory record and 30-day inactivity/non-reference gate pass.
 
 Do not expose, relocate, rotate, substitute, repair, or erase credential values.
 Opened worktree removal belongs to task archival and Codex-managed retention.
+The Storage Runner applies a mandatory four-day inactivity expiry after it sends
+the owner a commit-and-push closure notice and verifies the remote or checkpoint
+receipt. Protected or unknown-owned worktrees remain preserved and reported.
 
 ## Handoff
 

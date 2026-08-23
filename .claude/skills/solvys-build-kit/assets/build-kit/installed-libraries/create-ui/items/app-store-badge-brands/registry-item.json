@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "app-store-badge-brands",
+  "registryDependencies": [
+    "app-store-badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 850,
+      "path": "registry/examples/app-store-badge-brands.tsx",
+      "sha256": "1a4675beaecdeabcc53c0b37d752d0c7ea6c313b1b73483f0a824b84d2a70c6f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/app-store-badge-brands.json",
+  "title": "App Store Badge Brands",
+  "type": "registry:example"
+}

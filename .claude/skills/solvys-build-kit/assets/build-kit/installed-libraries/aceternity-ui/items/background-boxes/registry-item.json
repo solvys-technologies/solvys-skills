@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "mini-svg-data-uri",
+    "motion"
+  ],
+  "name": "background-boxes",
+  "shippedFiles": [
+    {
+      "bytes": 2171,
+      "path": "components/ui/background-boxes.tsx",
+      "sha256": "d56f958318c245afa245ee8c0449d647cd824bbb2ccbbad93d9a44f7edfcda18",
+      "target": "components/ui/background-boxes.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/background-boxes.json",
+  "title": "Background Boxes",
+  "type": "registry:ui"
+}

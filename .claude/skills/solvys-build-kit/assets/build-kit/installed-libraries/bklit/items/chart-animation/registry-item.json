@@ -1,0 +1,63 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "motion"
+  ],
+  "description": "Shared motion helpers for chart enter transitions, clip reveals, and staggered animations",
+  "name": "chart-animation",
+  "shippedFiles": [
+    {
+      "bytes": 1059,
+      "path": "src/charts/animation.ts",
+      "sha256": "bd91d889c06e719f74069ee7141cf69a51e4f238e6b37f762399d239f1ea4521",
+      "target": "components/charts/animation.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1701,
+      "path": "src/charts/motion-utils.ts",
+      "sha256": "42bee04facfc758f9a4b89607040a9e8bb40a5cfafe4bb4e363f1fcd1cb1f858",
+      "target": "components/charts/motion-utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 981,
+      "path": "src/charts/use-mount-progress.ts",
+      "sha256": "744cacfe71fba55e287bae655c7f51a2e8384268d0887ad81ed95967dd70fd94",
+      "target": "components/charts/use-mount-progress.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 745,
+      "path": "src/charts/use-enter-complete.ts",
+      "sha256": "267e864d7568b51a7df97bed28d34060918b38bacb1c7c6fb5488f33bbf786dd",
+      "target": "components/charts/use-enter-complete.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2530,
+      "path": "src/charts/chart-reveal-clip.tsx",
+      "sha256": "e63aa2b186ba797f1737f0a88d717bd0f07da10b2476598b7522924cac9f9d01",
+      "target": "components/charts/chart-reveal-clip.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 523,
+      "path": "src/charts/static-chart-preview-context.tsx",
+      "sha256": "231d750e55824c86c3f79fd18870bb43633cf47fae4c33f8c218fea7eab8f551",
+      "target": "components/charts/static-chart-preview-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1997,
+      "path": "src/charts/chart-defs.ts",
+      "sha256": "3450fd3a5b52169b6cbfb10ea87dc4ef8feafeefc5ace88ef45366051926d5d0",
+      "target": "components/charts/chart-defs.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/chart-animation.json",
+  "status": "installed",
+  "title": "Chart Animation",
+  "type": "registry:component"
+}

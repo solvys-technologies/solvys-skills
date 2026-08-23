@@ -48,7 +48,7 @@ REQUIRED_PHRASES = {
     "SKILL.md": [
         "Name the original problem",
         "Retrieve the best precedent",
-        "Run the Ponytail chain",
+        "Run the Solvys Ponytail Ladder",
         "Prove at the highest reality",
         "Select the execution and storage lane",
         "project-owned ChatGPT Site proves the frontend sandbox",
@@ -1286,6 +1286,25 @@ def main() -> int:
         for error in errors:
             print(f"- {error}")
         return 1
+
+    # The ladder coverage gate is part of the canon contract.
+    coverage_script = ROOT / "scripts" / "score_coverage.py"
+    if coverage_script.is_file():
+        import subprocess
+
+        coverage = subprocess.run(
+            [sys.executable, str(coverage_script)],
+            capture_output=True,
+            text=True,
+            cwd=coverage_script.parent,
+        )
+        if coverage.stdout:
+            print(coverage.stdout.rstrip())
+        if coverage.returncode != 0:
+            print("Solvys CAO canon validation: FAIL (ladder coverage)")
+            if coverage.stderr:
+                print(coverage.stderr.rstrip())
+            return 1
 
     print(f"Solvys CAO canon validation: PASS ({len(REQUIRED)} required files)")
     return 0

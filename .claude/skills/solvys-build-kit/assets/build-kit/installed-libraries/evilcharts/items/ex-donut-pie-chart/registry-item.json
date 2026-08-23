@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-donut-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1364,
+      "path": "src/registry/examples/recharts/ex-donut-pie-chart.tsx",
+      "sha256": "9d4801a51f073ad23060c3c9b101cedabce1fce5ae0d9585818ca66cdd5e53a1",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-donut-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "modal-header",
+  "registryDependencies": [
+    "modal",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1905,
+      "path": "registry/examples/modal-header.tsx",
+      "sha256": "4b7913341cedaa1f20d1254af3c5eada3493fa626ec87b905792cc46ed6c589b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/modal-header.json",
+  "title": "Modal Header",
+  "type": "registry:example"
+}

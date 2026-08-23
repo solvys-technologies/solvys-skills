@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-tag-autocomplete",
+  "registryDependencies": [
+    "input-tag"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 793,
+      "path": "registry/examples/input-tag-autocomplete.tsx",
+      "sha256": "be41e9650d1aadb7c8e2fad306ff263e0a4bcfd3ed6b70e3832b83a34746b172",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-tag-autocomplete.json",
+  "title": "Input Tag",
+  "type": "registry:example"
+}

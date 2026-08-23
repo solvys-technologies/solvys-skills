@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "popover-no-arrow",
+  "registryDependencies": [
+    "popover",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1031,
+      "path": "registry/examples/popover-no-arrow.tsx",
+      "sha256": "771329fd14ddd46ce7f840cbd42a577498adcd02d0180604046150b8543793ca",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/popover-no-arrow.json",
+  "title": "Popover No Arrow",
+  "type": "registry:example"
+}

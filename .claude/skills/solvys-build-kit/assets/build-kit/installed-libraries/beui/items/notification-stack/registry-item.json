@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Compact notification cards that spring from a stacked summary into a readable list on hover, focus or tap.",
+  "name": "notification-stack",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 9257,
+      "path": "components/motion/notification-stack.tsx",
+      "sha256": "5f10d4279360dc2d2cf6a01e8f72ab28069b0d3706d79b23996dbf227aee4d46",
+      "target": "@components/motion/notification-stack.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10329,
+      "path": "components/motion/action-swap.tsx",
+      "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+      "target": "@components/motion/action-swap.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/notification-stack.json",
+  "title": "Notification Stack",
+  "type": "registry:block"
+}

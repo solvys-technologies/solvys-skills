@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "modal",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/modal.json",
+  "status": "access-gated",
+  "title": "Modal",
+  "type": "registry:ui"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "sidebar-borderless",
+  "registryDependencies": [
+    "sidebar",
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7549,
+      "path": "registry/examples/sidebar-borderless.tsx",
+      "sha256": "ab8a9ab0d810e45b3951571ed685805eaedb9a8ac101f504834a9e831d2be5e4",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/sidebar-borderless.json",
+  "title": "Sidebar",
+  "type": "registry:example"
+}

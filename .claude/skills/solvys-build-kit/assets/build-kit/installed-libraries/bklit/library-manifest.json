@@ -1,0 +1,2547 @@
+{
+  "accessGatedItemCount": 0,
+  "appBlockRegistry": {
+    "appBlockItemCount": 3,
+    "appBlockNames": [
+      "stat-card-area-01",
+      "stat-card-line-01",
+      "stat-card-choropleth-01"
+    ],
+    "excludedWebsiteBlockCount": 0,
+    "excludedWebsiteBlockNames": [],
+    "path": "installed-registries/bklit/app-blocks.json"
+  },
+  "autoUpdate": false,
+  "catalogItemCount": 56,
+  "catalogUrl": "https://bklit.com/r/registry.json",
+  "installedItemCount": 56,
+  "items": [
+    {
+      "fileCount": 1,
+      "name": "utils",
+      "sourceFiles": [
+        {
+          "bytes": 169,
+          "path": "src/lib/utils.ts",
+          "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+          "target": "lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/utils.json",
+      "status": "installed",
+      "title": "Utilities",
+      "type": "registry:lib"
+    },
+    {
+      "fileCount": 1,
+      "name": "shimmering-text",
+      "sourceFiles": [
+        {
+          "bytes": 2332,
+          "path": "src/components/shimmering-text.tsx",
+          "sha256": "4e0b24ed003072e763b657c27bc0e183dc8bcb07e532cc3586d7112a9c2b1eaf",
+          "target": "components/shimmering-text.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/shimmering-text.json",
+      "status": "installed",
+      "title": "Shimmering Text",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "chart-utils",
+      "sourceFiles": [
+        {
+          "bytes": 514,
+          "path": "src/charts/chart-formatters.ts",
+          "sha256": "5044fb8e7e6cfaba51d4d3a1d961ecb53e95d3fdd733cb4b1666cb285bd96821",
+          "target": "components/charts/chart-formatters.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 3721,
+          "path": "src/charts/decimate-time-series.ts",
+          "sha256": "5b9cb92a94b34f4de5de550c87404833f0a215aceb1f28213cad0bdfb57ba47c",
+          "target": "components/charts/decimate-time-series.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 2596,
+          "path": "src/charts/use-scheduled-tooltip.ts",
+          "sha256": "197430cabf1f017a47f6f2262341b8355d55436876e19affcc8b46f2f35752d3",
+          "target": "components/charts/use-scheduled-tooltip.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/chart-utils.json",
+      "status": "installed",
+      "title": "Chart Utilities",
+      "type": "registry:lib"
+    },
+    {
+      "fileCount": 12,
+      "name": "chart-context",
+      "sourceFiles": [
+        {
+          "bytes": 14630,
+          "path": "src/charts/chart-context.tsx",
+          "sha256": "890e9f473dd105ed3bea286b6a668eadd8540641972acb902885e3f973264f65",
+          "target": "components/charts/chart-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1698,
+          "path": "src/charts/reference-area-config.ts",
+          "sha256": "6d5a08ea977f9181f78ebf7e32d5d1dd4f70fb4c645fa11006b9f62b45f223e5",
+          "target": "components/charts/reference-area-config.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 9515,
+          "path": "src/charts/use-chart-interaction.ts",
+          "sha256": "e84a3a4fd66b150e89b05e919189e5fcad0d63ca8b804120bf574a7491a0283e",
+          "target": "components/charts/use-chart-interaction.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2987,
+          "path": "src/charts/y-axis-scales.ts",
+          "sha256": "4bd7bfee4e0ef50e185ed96ed910af6236793663b5947f14778513b6e70a8fe1",
+          "target": "components/charts/y-axis-scales.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 898,
+          "path": "src/charts/y-axis-ticks.ts",
+          "sha256": "2b8b5eae899adca35419007248a863566626919e651d611ee431b9f68cc1ed62",
+          "target": "components/charts/y-axis-ticks.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 1747,
+          "path": "src/charts/chart-phase.ts",
+          "sha256": "1dd53632aa57857f0302c2f8376b1882da324451040f47b35fad50167a2f15a4",
+          "target": "components/charts/chart-phase.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3958,
+          "path": "src/charts/y-domain-utils.ts",
+          "sha256": "d3f67c8760a7ada2b6bdc05fe470900a49ab86ee70a13ec6686f2c64a64eeebb",
+          "target": "components/charts/y-domain-utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 1532,
+          "path": "src/charts/filter-data-by-x-domain.ts",
+          "sha256": "cd4262b0f5bb84c54d49efa4565ec6f3a64870b7d7c1349dfe685ec6e198fdf4",
+          "target": "components/charts/filter-data-by-x-domain.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 1452,
+          "path": "src/charts/generate-chart-skeleton-data.ts",
+          "sha256": "7673a08792a7623133660473663da5e94bf519ddc54689bb024b7a2b78f58393",
+          "target": "components/charts/generate-chart-skeleton-data.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 6422,
+          "path": "src/charts/use-animated-y-domains.ts",
+          "sha256": "f928c539e664b3688aa232904f35f51f0f3d34e51c938c47403cc08fa84404e0",
+          "target": "components/charts/use-animated-y-domains.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4973,
+          "path": "src/charts/use-chart-phase-orchestrator.ts",
+          "sha256": "e50da33ef9f6183fc63b074b718f92f3b0da4a72bf4bae142d9e38e58c81cc73",
+          "target": "components/charts/use-chart-phase-orchestrator.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 501,
+          "path": "src/charts/line-loading-timing.ts",
+          "sha256": "e2328b4a9502014022dd671c6086ede1b6bd4ce8da02f04a8d251634bee0e4f4",
+          "target": "components/charts/line-loading-timing.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/chart-context.json",
+      "status": "installed",
+      "title": "Chart Context",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 7,
+      "name": "chart-animation",
+      "sourceFiles": [
+        {
+          "bytes": 1059,
+          "path": "src/charts/animation.ts",
+          "sha256": "bd91d889c06e719f74069ee7141cf69a51e4f238e6b37f762399d239f1ea4521",
+          "target": "components/charts/animation.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1701,
+          "path": "src/charts/motion-utils.ts",
+          "sha256": "42bee04facfc758f9a4b89607040a9e8bb40a5cfafe4bb4e363f1fcd1cb1f858",
+          "target": "components/charts/motion-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 981,
+          "path": "src/charts/use-mount-progress.ts",
+          "sha256": "744cacfe71fba55e287bae655c7f51a2e8384268d0887ad81ed95967dd70fd94",
+          "target": "components/charts/use-mount-progress.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 745,
+          "path": "src/charts/use-enter-complete.ts",
+          "sha256": "267e864d7568b51a7df97bed28d34060918b38bacb1c7c6fb5488f33bbf786dd",
+          "target": "components/charts/use-enter-complete.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2530,
+          "path": "src/charts/chart-reveal-clip.tsx",
+          "sha256": "e63aa2b186ba797f1737f0a88d717bd0f07da10b2476598b7522924cac9f9d01",
+          "target": "components/charts/chart-reveal-clip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 523,
+          "path": "src/charts/static-chart-preview-context.tsx",
+          "sha256": "231d750e55824c86c3f79fd18870bb43633cf47fae4c33f8c218fea7eab8f551",
+          "target": "components/charts/static-chart-preview-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1997,
+          "path": "src/charts/chart-defs.ts",
+          "sha256": "3450fd3a5b52169b6cbfb10ea87dc4ef8feafeefc5ace88ef45366051926d5d0",
+          "target": "components/charts/chart-defs.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/chart-animation.json",
+      "status": "installed",
+      "title": "Chart Animation",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 15,
+      "name": "chart-series",
+      "sourceFiles": [
+        {
+          "bytes": 2433,
+          "path": "src/charts/path-stroke-utils.ts",
+          "sha256": "1c3cbb715eb143995dfec320a53524a60ef790db0fdafca1ebf3502fde223dc4",
+          "target": "components/charts/path-stroke-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2822,
+          "path": "src/charts/series-path-utils.ts",
+          "sha256": "cdc21b513a9789f33fa85335a791b49e389a6866b8397abe9eaaff59ef385fe4",
+          "target": "components/charts/series-path-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4210,
+          "path": "src/charts/use-animated-series-path.ts",
+          "sha256": "54bad56d9d3cdc02ca0433719059b1b1e595fc8169a16530798c320a76b8f0a6",
+          "target": "components/charts/use-animated-series-path.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2461,
+          "path": "src/charts/highlight-segment-bounds.ts",
+          "sha256": "b5a304c3b9907823f7c0762443304dc6fc16c5ec76c9c927742f7250465e97b3",
+          "target": "components/charts/highlight-segment-bounds.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1917,
+          "path": "src/charts/highlight-segment.tsx",
+          "sha256": "112a80a08a9d35b1babe66be7b03dfe0be8638cc2860982d6c7c049839769872",
+          "target": "components/charts/highlight-segment.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1901,
+          "path": "src/charts/dash-tail-stroke.tsx",
+          "sha256": "42e25bc552b9eab95f6960ae75a633c6c5dd515d38654ce954f2fcb1df6cee89",
+          "target": "components/charts/dash-tail-stroke.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2715,
+          "path": "src/charts/series-dash-tail-overlay.tsx",
+          "sha256": "62425aae177b81d3ee730d3d379ed2e43e6ec998bd2d17851f01de265b434582",
+          "target": "components/charts/series-dash-tail-overlay.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1441,
+          "path": "src/charts/series-highlight-layer.tsx",
+          "sha256": "c9d5d19fe7fb3e1cf6dd3d054ef89538920b523f4899ea78a37f63b976fa00ac",
+          "target": "components/charts/series-highlight-layer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1052,
+          "path": "src/charts/chart-legend-hover.tsx",
+          "sha256": "fb31f3648fed0aba2d92792ee943a6317b5051532d5738855bae24a496403882",
+          "target": "components/charts/chart-legend-hover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2001,
+          "path": "src/charts/series-hover-dim.tsx",
+          "sha256": "3eb2c82aa794c2b263bef2dba8bfe81ef9fb63b78891225d3cf951b0c89483ba",
+          "target": "components/charts/series-hover-dim.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5264,
+          "path": "src/charts/series-point-marker.tsx",
+          "sha256": "9775cb40e04639fafa29c675619e6ebbaf20984d353cf41fdc5d10fe1034ea04",
+          "target": "components/charts/series-point-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7305,
+          "path": "src/charts/series-markers.tsx",
+          "sha256": "c8c37a80c3760bbac0c0872830ca77fb51b49daaa644409e2f0855581b816dc6",
+          "target": "components/charts/series-markers.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2046,
+          "path": "src/charts/use-highlight-segment.ts",
+          "sha256": "f34fd027d2197976aa9ebab9b80727c2cd11e48242289901834d69a26ca01cb3",
+          "target": "components/charts/use-highlight-segment.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3093,
+          "path": "src/charts/area-gradient-defs.tsx",
+          "sha256": "4dd07b0a7fa5822f20a5287722c075aff0b9aa39411ad048f7a03b7dec4c7c42",
+          "target": "components/charts/area-gradient-defs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1676,
+          "path": "src/charts/fade-edges.ts",
+          "sha256": "74eebe91d37b5b5d4b4227c590edcf2cf8de7c68dc359827910e0bc0f25bb120",
+          "target": "components/charts/fade-edges.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/chart-series.json",
+      "status": "installed",
+      "title": "Chart Series Layer",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "grid",
+      "sourceFiles": [
+        {
+          "bytes": 11312,
+          "path": "src/charts/grid.tsx",
+          "sha256": "f2ad9cd94ba3b2df6cd4b15d6a7ea7bff4b2e577a5a18e820e3eb1684956717c",
+          "target": "components/charts/grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2698,
+          "path": "src/charts/use-grid-shimmer.ts",
+          "sha256": "cc3f402c8b6215fcaa7707a3181085b9e77e936a610575b08a0df4bea35141fb",
+          "target": "components/charts/use-grid-shimmer.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/grid.json",
+      "status": "installed",
+      "title": "Chart Grid",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "reference-area",
+      "sourceFiles": [
+        {
+          "bytes": 8135,
+          "path": "src/charts/reference-area.tsx",
+          "sha256": "ead239e0a2c219a08686fa5a7b0a4c95009d2a55c3077f82608536ac1beaacc4",
+          "target": "components/charts/reference-area.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3175,
+          "path": "src/charts/reference-area-geometry.ts",
+          "sha256": "846c484c1a94faf0f0090783f408d586ba02e6c28dbe597c25241fad6fa9cda9",
+          "target": "components/charts/reference-area-geometry.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 590,
+          "path": "src/charts/reference-area-registration-context.tsx",
+          "sha256": "1bdf081f8d454f6e9b678d4b470aabbade8fb7b47d9bcf8a44e05887e11aa347",
+          "target": "components/charts/reference-area-registration-context.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/reference-area.json",
+      "status": "installed",
+      "title": "Reference Area",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "projection-line",
+      "sourceFiles": [
+        {
+          "bytes": 6157,
+          "path": "src/charts/projection-line.tsx",
+          "sha256": "59e87c1a29f4463ad26c7d12c5d4260cc054dc5414f6fd35c8fe8d612c23dff4",
+          "target": "components/charts/projection-line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1635,
+          "path": "src/charts/projection-line-end-marker.tsx",
+          "sha256": "a30f9c2006f21ed673ac916efa69fcfc09e4260f7d98783683d646a52a47136c",
+          "target": "components/charts/projection-line-end-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10400,
+          "path": "src/charts/projection-utils.ts",
+          "sha256": "a7d6c269220dcce466e2eaf620081d488fbef1a372ed3d9cff4fd76298232e0f",
+          "target": "components/charts/projection-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2379,
+          "path": "src/charts/line-series-terminal-marker.tsx",
+          "sha256": "02e65354d92f02c52a67aa59220fb768070811bd900c2d424b3362f888b10d4c",
+          "target": "components/charts/line-series-terminal-marker.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/projection-line.json",
+      "status": "installed",
+      "title": "Projection Line",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "background",
+      "sourceFiles": [
+        {
+          "bytes": 6277,
+          "path": "src/charts/background.tsx",
+          "sha256": "de5422be53c88fadb5ef63b9bc4ecffbf2f1a3b28a3fd64f1fe0894384d2815b",
+          "target": "components/charts/background.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4574,
+          "path": "src/charts/pattern-preset.tsx",
+          "sha256": "b877d4479a805dd72d7daee5be4cc6b82243b9f4026f84e0085d0639dcb6e2d0",
+          "target": "components/charts/pattern-preset.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 948,
+          "path": "src/charts/visx-pattern.tsx",
+          "sha256": "987831a15796d47edc1e0a7783f239a78914f3e2e038ed082d66e8fcad12e016",
+          "target": "components/charts/visx-pattern.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/background.json",
+      "status": "installed",
+      "title": "Chart Background",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "x-axis",
+      "sourceFiles": [
+        {
+          "bytes": 16354,
+          "path": "src/charts/x-axis.tsx",
+          "sha256": "1ffbac7e1c381305c07c0022e148a9fccee98a67a9c46d569671e0e574f06d5f",
+          "target": "components/charts/x-axis.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/x-axis.json",
+      "status": "installed",
+      "title": "X Axis",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "y-axis",
+      "sourceFiles": [
+        {
+          "bytes": 4921,
+          "path": "src/charts/y-axis.tsx",
+          "sha256": "036735b344f439f932d466460ed5b649070b0723cf6de8e92b9d4f98217e8837",
+          "target": "components/charts/y-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3175,
+          "path": "src/charts/reference-area-geometry.ts",
+          "sha256": "846c484c1a94faf0f0090783f408d586ba02e6c28dbe597c25241fad6fa9cda9",
+          "target": "components/charts/reference-area-geometry.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/y-axis.json",
+      "status": "installed",
+      "title": "Y Axis",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 9,
+      "name": "chart-tooltip",
+      "sourceFiles": [
+        {
+          "bytes": 2401,
+          "path": "src/charts/chart-config-context.tsx",
+          "sha256": "65c9fae029556283adf951203679147f9708187df6ec62cbe961b4e250c0b210",
+          "target": "components/charts/chart-config-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1636,
+          "path": "src/charts/indicator-fade.ts",
+          "sha256": "e2d87a04e32b40e9452155d1ea841038f3d3bc3c55e4ec7bc26df18f9a28adf8",
+          "target": "components/charts/indicator-fade.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 13197,
+          "path": "src/charts/tooltip/chart-tooltip.tsx",
+          "sha256": "85f47eb4fd599979d9fe917b606c2658632d65eb210d0a1882d2f1f169ff576e",
+          "target": "components/charts/tooltip/chart-tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6773,
+          "path": "src/charts/tooltip/tooltip-box.tsx",
+          "sha256": "7f486a34b6b8e6098a01806a6260784c760f5539ee95c716444b48b4cba63646",
+          "target": "components/charts/tooltip/tooltip-box.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1762,
+          "path": "src/charts/tooltip/tooltip-content.tsx",
+          "sha256": "52a61f5bb477d8c439f8b2003846f8b47800bf23de47389c19a256efbd1efd8f",
+          "target": "components/charts/tooltip/tooltip-content.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4013,
+          "path": "src/charts/tooltip/tooltip-dot.tsx",
+          "sha256": "00d4dcadb37a1eaf005707e770b6ab0a0cfa410c7c327e86c8c35bde7043208e",
+          "target": "components/charts/tooltip/tooltip-dot.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5377,
+          "path": "src/charts/tooltip/tooltip-indicator.tsx",
+          "sha256": "66f49f2ba8ed7674a52b60e3de58066cb2afbf19d780e53f5b4f98ed57969df7",
+          "target": "components/charts/tooltip/tooltip-indicator.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4795,
+          "path": "src/charts/tooltip/date-ticker.tsx",
+          "sha256": "562553385a76c1c919efd729ed46e1bad142a1783a87c26d792adb22a4d95454",
+          "target": "components/charts/tooltip/date-ticker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 484,
+          "path": "src/charts/tooltip/index.ts",
+          "sha256": "53b24a2f5cb83018efaf5320040a448a468a3962b000a25e5bf1e6b04b3e23df",
+          "target": "components/charts/tooltip/index.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/chart-tooltip.json",
+      "status": "installed",
+      "title": "Chart Tooltip",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 8,
+      "name": "legend",
+      "sourceFiles": [
+        {
+          "bytes": 2597,
+          "path": "src/charts/legend/legend.tsx",
+          "sha256": "5ed7c89bb9fa5169c44633dc3f34b88adec45b777d8ccc37bd9a91f75ae4029b",
+          "target": "components/charts/legend/legend.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2244,
+          "path": "src/charts/legend/legend-context.tsx",
+          "sha256": "785bd323125e1411689f59a6eae0e4bc0410355c601f2d63b8be025cf437eeee",
+          "target": "components/charts/legend/legend-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1126,
+          "path": "src/charts/legend/legend-item.tsx",
+          "sha256": "73a127f0236f9e2d843f8005ccc2df8ca9a186cff10a7825645e7df622310312",
+          "target": "components/charts/legend/legend-item.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 500,
+          "path": "src/charts/legend/legend-label.tsx",
+          "sha256": "4975d53b4a599a9b9cfdfc7e8dd112dd4a7714a56e5aecd3833eeeff9d17c926",
+          "target": "components/charts/legend/legend-label.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 594,
+          "path": "src/charts/legend/legend-marker.tsx",
+          "sha256": "f91d8bf85aca881f96b9cb035505a84f499fa0fd1a594db16cd8b3a533651bc5",
+          "target": "components/charts/legend/legend-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1210,
+          "path": "src/charts/legend/legend-progress.tsx",
+          "sha256": "8e54a1f6b7cd866e634cb7757797aacb28949c85e697c11b9d2a368f5effcd6c",
+          "target": "components/charts/legend/legend-progress.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1373,
+          "path": "src/charts/legend/legend-value.tsx",
+          "sha256": "c391e602d34d73b592b228760ebf2bb45c0f17fa993402b74031f7e22e9276f8",
+          "target": "components/charts/legend/legend-value.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 621,
+          "path": "src/charts/legend/index.ts",
+          "sha256": "cde654610328d66e4c7263b343c7dd17a732999183530e1c319fb0089f63fb66",
+          "target": "components/charts/legend/index.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/legend.json",
+      "status": "installed",
+      "title": "Chart Legend",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 3,
+      "name": "markers",
+      "sourceFiles": [
+        {
+          "bytes": 6345,
+          "path": "src/charts/markers/chart-markers.tsx",
+          "sha256": "5066472fa60515a02b9e267c365ec31c030c6a446cf7564b4dd23d9e6c06fadb",
+          "target": "components/charts/markers/chart-markers.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 16021,
+          "path": "src/charts/markers/marker-group.tsx",
+          "sha256": "5acb6bfe2583d53f220c13010e379f3d2cc089acff1aea258a5dfeb47dd1ed2e",
+          "target": "components/charts/markers/marker-group.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 249,
+          "path": "src/charts/markers/index.ts",
+          "sha256": "45871037042c19e7aedb674c5cd8fd5e41b4775a085c751cdd64b7f5ea1ee774",
+          "target": "components/charts/markers/index.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/markers.json",
+      "status": "installed",
+      "title": "Chart Markers",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 14,
+      "name": "area-chart",
+      "sourceFiles": [
+        {
+          "bytes": 7901,
+          "path": "src/charts/area-chart.tsx",
+          "sha256": "41e71f6389b6cd1bc68ce0b59c1d5ab4c152215a1b65d06fe51ef5899c12fd0a",
+          "target": "components/charts/area-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 19324,
+          "path": "src/charts/time-series-chart-shell.tsx",
+          "sha256": "0ee4403be5142e24645e57b7f17471171f1f584ed260bd31fd7d1e416b9703a6",
+          "target": "components/charts/time-series-chart-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 590,
+          "path": "src/charts/reference-area-registration-context.tsx",
+          "sha256": "1bdf081f8d454f6e9b678d4b470aabbade8fb7b47d9bcf8a44e05887e11aa347",
+          "target": "components/charts/reference-area-registration-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3379,
+          "path": "src/charts/projection-config.ts",
+          "sha256": "fb7e04bbaac83119bcbe5fcfea4c2c713d80ec3cf65dc8a427d506edeca4bf59",
+          "target": "components/charts/projection-config.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10400,
+          "path": "src/charts/projection-utils.ts",
+          "sha256": "a7d6c269220dcce466e2eaf620081d488fbef1a372ed3d9cff4fd76298232e0f",
+          "target": "components/charts/projection-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3445,
+          "path": "src/charts/chart-child-passthrough.ts",
+          "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1622,
+          "path": "src/charts/series-bar-layout.ts",
+          "sha256": "3e834065bf086275b263b2f5a0737a544dc4dfbfc7aa533191fcd0365feefb2c",
+          "target": "components/charts/series-bar-layout.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 12174,
+          "path": "src/charts/area.tsx",
+          "sha256": "78d2a981a0638ebacd4a8eb212d016ef1a33a8994ec68738bc8fbd52e6b85d10",
+          "target": "components/charts/area.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3626,
+          "path": "src/charts/area-chart-loading.tsx",
+          "sha256": "f5338b2034e5972d7504817b9cfd10dc2ecbbdeb272ae057a186d4d258de808a",
+          "target": "components/charts/area-chart-loading.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5475,
+          "path": "src/charts/line-loading-pulse.tsx",
+          "sha256": "04ed94b7d657b8293ab8d56ce241b4cb73894d61fa5e9ca907d4a5fa80bedc4e",
+          "target": "components/charts/line-loading-pulse.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 14169,
+          "path": "src/charts/loading-sweep.tsx",
+          "sha256": "9e42ef6a860c770cd5bdef3cfee65843ad713155e27c3158f71c194fa1195b01",
+          "target": "components/charts/loading-sweep.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 501,
+          "path": "src/charts/line-loading-timing.ts",
+          "sha256": "e2328b4a9502014022dd671c6086ede1b6bd4ce8da02f04a8d251634bee0e4f4",
+          "target": "components/charts/line-loading-timing.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1399,
+          "path": "src/charts/chart-loading-label.tsx",
+          "sha256": "06f6b5dc09269f07b65afbd6a70559fa1d53c40e6c4ae0548a92d0664732a06e",
+          "target": "components/charts/chart-loading-label.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1302,
+          "path": "src/charts/pattern-area.tsx",
+          "sha256": "22f3b23edc02d8c63c38abec49a10427bb161e5e7b46748ff9ebf357f65fc7f2",
+          "target": "components/charts/pattern-area.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/area-chart.json",
+      "status": "installed",
+      "title": "Area Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 8,
+      "name": "composed-chart",
+      "sourceFiles": [
+        {
+          "bytes": 8992,
+          "path": "src/charts/composed-chart.tsx",
+          "sha256": "1dac2d6069a112656cb708451e75cb915a747a22cd931050c0931a3ca1917a42",
+          "target": "components/charts/composed-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7953,
+          "path": "src/charts/series-bar.tsx",
+          "sha256": "55458c21870ec92ddf71bd4da517f02def792209beccc698eef628e11b2e8567",
+          "target": "components/charts/series-bar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1622,
+          "path": "src/charts/series-bar-layout.ts",
+          "sha256": "3e834065bf086275b263b2f5a0737a544dc4dfbfc7aa533191fcd0365feefb2c",
+          "target": "components/charts/series-bar-layout.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 19324,
+          "path": "src/charts/time-series-chart-shell.tsx",
+          "sha256": "0ee4403be5142e24645e57b7f17471171f1f584ed260bd31fd7d1e416b9703a6",
+          "target": "components/charts/time-series-chart-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 590,
+          "path": "src/charts/reference-area-registration-context.tsx",
+          "sha256": "1bdf081f8d454f6e9b678d4b470aabbade8fb7b47d9bcf8a44e05887e11aa347",
+          "target": "components/charts/reference-area-registration-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3379,
+          "path": "src/charts/projection-config.ts",
+          "sha256": "fb7e04bbaac83119bcbe5fcfea4c2c713d80ec3cf65dc8a427d506edeca4bf59",
+          "target": "components/charts/projection-config.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10400,
+          "path": "src/charts/projection-utils.ts",
+          "sha256": "a7d6c269220dcce466e2eaf620081d488fbef1a372ed3d9cff4fd76298232e0f",
+          "target": "components/charts/projection-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3445,
+          "path": "src/charts/chart-child-passthrough.ts",
+          "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/composed-chart.json",
+      "status": "installed",
+      "title": "Composed Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 13,
+      "name": "bar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 22243,
+          "path": "src/charts/bar-chart.tsx",
+          "sha256": "252a46d22fcff1c1396f164abe6264b434f9392baa4294fdb4c2fb2b2af7d37f",
+          "target": "components/charts/bar-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3445,
+          "path": "src/charts/chart-child-passthrough.ts",
+          "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 1052,
+          "path": "src/charts/chart-legend-hover.tsx",
+          "sha256": "fb31f3648fed0aba2d92792ee943a6317b5051532d5738855bae24a496403882",
+          "target": "components/charts/chart-legend-hover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 14822,
+          "path": "src/charts/bar.tsx",
+          "sha256": "07f28d1e4efb081e7ae3c776d2a717ed04ab4041e44ba6449fc235acb69310d2",
+          "target": "components/charts/bar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 16027,
+          "path": "src/charts/bar-squares.tsx",
+          "sha256": "91d7940f5ee6a2278157aa8a9d2b305a393cb68398b4ba0226557642d61ff539",
+          "target": "components/charts/bar-squares.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2541,
+          "path": "src/charts/bar-squares-layout.ts",
+          "sha256": "eaea7f00696b5d1c600e00b4e47f7a7d4082315e1da8bce15485627282fc5274",
+          "target": "components/charts/bar-squares-layout.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 4574,
+          "path": "src/charts/pattern-preset.tsx",
+          "sha256": "b877d4479a805dd72d7daee5be4cc6b82243b9f4026f84e0085d0639dcb6e2d0",
+          "target": "components/charts/pattern-preset.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 948,
+          "path": "src/charts/visx-pattern.tsx",
+          "sha256": "987831a15796d47edc1e0a7783f239a78914f3e2e038ed082d66e8fcad12e016",
+          "target": "components/charts/visx-pattern.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1923,
+          "path": "src/charts/bar-depth-geometry.ts",
+          "sha256": "dce3598a113b676eec41da3addec2ff29137b452b9705b3abc7b5fef8b5cf66f",
+          "target": "components/charts/bar-depth-geometry.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 3816,
+          "path": "src/charts/bar-x-axis.tsx",
+          "sha256": "bfcec1d7ac3aac85b300e6dcf6980feb8dd08db14e8e738f29bd67db70e75663",
+          "target": "components/charts/bar-x-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3440,
+          "path": "src/charts/bar-y-axis.tsx",
+          "sha256": "7737bc7da56b3cfd6372010e61ea1877ba21d24d04a63bc99241d2a66662be45",
+          "target": "components/charts/bar-y-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 14169,
+          "path": "src/charts/loading-sweep.tsx",
+          "sha256": "9e42ef6a860c770cd5bdef3cfee65843ad713155e27c3158f71c194fa1195b01",
+          "target": "components/charts/loading-sweep.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 940,
+          "path": "src/charts/bar-chart-loading.tsx",
+          "sha256": "865783afebeb72fb930b9635144818b550af95fa6080470325b6b2dc66f299d8",
+          "target": "components/charts/bar-chart-loading.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/bar-chart.json",
+      "status": "installed",
+      "title": "Bar Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 16,
+      "name": "line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 8548,
+          "path": "src/charts/line-chart.tsx",
+          "sha256": "0b4ff9fde6e5f38bd58ef11b54b8764342156092d1bba07bdd73525e49fd2b8c",
+          "target": "components/charts/line-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 19324,
+          "path": "src/charts/time-series-chart-shell.tsx",
+          "sha256": "0ee4403be5142e24645e57b7f17471171f1f584ed260bd31fd7d1e416b9703a6",
+          "target": "components/charts/time-series-chart-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 590,
+          "path": "src/charts/reference-area-registration-context.tsx",
+          "sha256": "1bdf081f8d454f6e9b678d4b470aabbade8fb7b47d9bcf8a44e05887e11aa347",
+          "target": "components/charts/reference-area-registration-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3379,
+          "path": "src/charts/projection-config.ts",
+          "sha256": "fb7e04bbaac83119bcbe5fcfea4c2c713d80ec3cf65dc8a427d506edeca4bf59",
+          "target": "components/charts/projection-config.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10400,
+          "path": "src/charts/projection-utils.ts",
+          "sha256": "a7d6c269220dcce466e2eaf620081d488fbef1a372ed3d9cff4fd76298232e0f",
+          "target": "components/charts/projection-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6157,
+          "path": "src/charts/projection-line.tsx",
+          "sha256": "59e87c1a29f4463ad26c7d12c5d4260cc054dc5414f6fd35c8fe8d612c23dff4",
+          "target": "components/charts/projection-line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1635,
+          "path": "src/charts/projection-line-end-marker.tsx",
+          "sha256": "a30f9c2006f21ed673ac916efa69fcfc09e4260f7d98783683d646a52a47136c",
+          "target": "components/charts/projection-line-end-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2379,
+          "path": "src/charts/line-series-terminal-marker.tsx",
+          "sha256": "02e65354d92f02c52a67aa59220fb768070811bd900c2d424b3362f888b10d4c",
+          "target": "components/charts/line-series-terminal-marker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3445,
+          "path": "src/charts/chart-child-passthrough.ts",
+          "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1622,
+          "path": "src/charts/series-bar-layout.ts",
+          "sha256": "3e834065bf086275b263b2f5a0737a544dc4dfbfc7aa533191fcd0365feefb2c",
+          "target": "components/charts/series-bar-layout.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 11613,
+          "path": "src/charts/line.tsx",
+          "sha256": "66e15ba8e2fb406e2cfa66d6a26dde78084d2948fe96bed7c6dae7cd9cbd481e",
+          "target": "components/charts/line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3544,
+          "path": "src/charts/line-chart-loading.tsx",
+          "sha256": "0d2803b3b0e71e92afb3119aa0cbce19c08a932b948c9e4d0ba959e62dc138f1",
+          "target": "components/charts/line-chart-loading.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5475,
+          "path": "src/charts/line-loading-pulse.tsx",
+          "sha256": "04ed94b7d657b8293ab8d56ce241b4cb73894d61fa5e9ca907d4a5fa80bedc4e",
+          "target": "components/charts/line-loading-pulse.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 14169,
+          "path": "src/charts/loading-sweep.tsx",
+          "sha256": "9e42ef6a860c770cd5bdef3cfee65843ad713155e27c3158f71c194fa1195b01",
+          "target": "components/charts/loading-sweep.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 501,
+          "path": "src/charts/line-loading-timing.ts",
+          "sha256": "e2328b4a9502014022dd671c6086ede1b6bd4ce8da02f04a8d251634bee0e4f4",
+          "target": "components/charts/line-loading-timing.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1399,
+          "path": "src/charts/chart-loading-label.tsx",
+          "sha256": "06f6b5dc09269f07b65afbd6a70559fa1d53c40e6c4ae0548a92d0664732a06e",
+          "target": "components/charts/chart-loading-label.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/line-chart.json",
+      "status": "installed",
+      "title": "Line Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "profit-loss-line",
+      "sourceFiles": [
+        {
+          "bytes": 5531,
+          "path": "src/charts/profit-loss-line.tsx",
+          "sha256": "41dd75df1ff416a8317ee7bfdf338eaf5768485452fe02011b8a09a12351f652",
+          "target": "components/charts/profit-loss-line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2800,
+          "path": "src/charts/profit-loss-segments.ts",
+          "sha256": "8ef6808285715cceba4e429eb77bdcaffd655b2382797343a03ed1740310af8b",
+          "target": "lib/profit-loss-segments.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 742,
+          "path": "src/charts/profit-loss-legend-hover.tsx",
+          "sha256": "bb3f364e1354a3103cb8432b173b7cac1cdc0df0c96cd26fede6c9dc9276a153",
+          "target": "components/charts/profit-loss-legend-hover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1466,
+          "path": "src/charts/profit-loss-legend.tsx",
+          "sha256": "e462cd078f600e10e187516db49a5ecbac03bd0e527e2ad8b027f70588fcdd5f",
+          "target": "components/charts/profit-loss-legend.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/profit-loss-line.json",
+      "status": "installed",
+      "title": "Profit/Loss Line",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "bar-depth",
+      "sourceFiles": [
+        {
+          "bytes": 44970,
+          "path": "src/charts/bar-depth.tsx",
+          "sha256": "66462800679a9c6b3b53c25f25f697e1046ba4b118e07f5af2c16aba50ccb406",
+          "target": "components/charts/bar-depth.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/bar-depth.json",
+      "status": "installed",
+      "title": "Bar Depth",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 11,
+      "name": "scatter-chart",
+      "sourceFiles": [
+        {
+          "bytes": 5198,
+          "path": "src/charts/scatter-chart.tsx",
+          "sha256": "15fd3f314e4ff97a3548ad553d0b413b11599360c92bfcd9114e7da1ba745907",
+          "target": "components/charts/scatter-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7161,
+          "path": "src/charts/scatter-chart-shell.tsx",
+          "sha256": "97a1e7ef45470fe982a273ca1640a3d99e64b92f2e62cc32e36bd661f5870235",
+          "target": "components/charts/scatter-chart-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 19324,
+          "path": "src/charts/time-series-chart-shell.tsx",
+          "sha256": "0ee4403be5142e24645e57b7f17471171f1f584ed260bd31fd7d1e416b9703a6",
+          "target": "components/charts/time-series-chart-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 590,
+          "path": "src/charts/reference-area-registration-context.tsx",
+          "sha256": "1bdf081f8d454f6e9b678d4b470aabbade8fb7b47d9bcf8a44e05887e11aa347",
+          "target": "components/charts/reference-area-registration-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3379,
+          "path": "src/charts/projection-config.ts",
+          "sha256": "fb7e04bbaac83119bcbe5fcfea4c2c713d80ec3cf65dc8a427d506edeca4bf59",
+          "target": "components/charts/projection-config.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 10400,
+          "path": "src/charts/projection-utils.ts",
+          "sha256": "a7d6c269220dcce466e2eaf620081d488fbef1a372ed3d9cff4fd76298232e0f",
+          "target": "components/charts/projection-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3445,
+          "path": "src/charts/chart-child-passthrough.ts",
+          "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1622,
+          "path": "src/charts/series-bar-layout.ts",
+          "sha256": "3e834065bf086275b263b2f5a0737a544dc4dfbfc7aa533191fcd0365feefb2c",
+          "target": "components/charts/series-bar-layout.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2760,
+          "path": "src/charts/scatter.tsx",
+          "sha256": "bac1d0fe0636fc2f53861ca8ec86be0faf17b6257af9e4431c601ee4cfafdde7",
+          "target": "components/charts/scatter.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 8782,
+          "path": "src/charts/use-scatter-chart-interaction.ts",
+          "sha256": "c3b6368058f8b955d9b89de98cf29e67d5740ff85eaa545e433c7ec536d5d0ab",
+          "target": "components/charts/use-scatter-chart-interaction.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 513,
+          "path": "src/charts/scatter-svg.ts",
+          "sha256": "cdda3631bb00019156287e1aab1552626d0ab21a33f578afc10c6aed29a087b3",
+          "target": "components/charts/scatter-svg.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/scatter-chart.json",
+      "status": "installed",
+      "title": "Scatter Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 5,
+      "name": "live-line-chart",
+      "sourceFiles": [
+        {
+          "bytes": 17600,
+          "path": "src/charts/live-line-chart.tsx",
+          "sha256": "431f5fe91c8f3a23508ac308a70c271368d4365b166527c006b2daf391acf278",
+          "target": "components/charts/live-line-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3445,
+          "path": "src/charts/chart-child-passthrough.ts",
+          "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 8915,
+          "path": "src/charts/live-line.tsx",
+          "sha256": "4a7c7a7dd1b392315c37412640e9e88551983ea86c30c103b59ac09a1c379ed9",
+          "target": "components/charts/live-line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4328,
+          "path": "src/charts/live-x-axis.tsx",
+          "sha256": "6e9ccebd1f5324e71826a704b9d81e1b9959df76238217dea2648975fcc59796",
+          "target": "components/charts/live-x-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6843,
+          "path": "src/charts/live-y-axis.tsx",
+          "sha256": "dd9e2584a2ea8671c33c1637bc3e5d8cce7ce685874070151d464491c3a5d740",
+          "target": "components/charts/live-y-axis.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/live-line-chart.json",
+      "status": "installed",
+      "title": "Live Line Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 4,
+      "name": "candlestick-chart",
+      "sourceFiles": [
+        {
+          "bytes": 11768,
+          "path": "src/charts/candlestick-chart.tsx",
+          "sha256": "9f1404ea5ea30a2ebc4687f78f8668ecfca860ff155c5b041a6619918365be19",
+          "target": "components/charts/candlestick-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3445,
+          "path": "src/charts/chart-child-passthrough.ts",
+          "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 1052,
+          "path": "src/charts/chart-legend-hover.tsx",
+          "sha256": "fb31f3648fed0aba2d92792ee943a6317b5051532d5738855bae24a496403882",
+          "target": "components/charts/chart-legend-hover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 11325,
+          "path": "src/charts/candlestick.tsx",
+          "sha256": "c99d2ef19693e0306669b556ee57dc77ac5a8d76e18dab84835117157dd5c11f",
+          "target": "components/charts/candlestick.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/candlestick-chart.json",
+      "status": "installed",
+      "title": "Candlestick Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 7,
+      "name": "pie-chart",
+      "sourceFiles": [
+        {
+          "bytes": 14240,
+          "path": "src/charts/pie-chart.tsx",
+          "sha256": "d6e0516e1854379fe66489d0e1e9551d583302b8d6e0303560e11eaa8ab9f883",
+          "target": "components/charts/pie-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5087,
+          "path": "src/charts/pie-context.tsx",
+          "sha256": "c3ebffd2c228c5e3973e824c3442b368ada81396bad45d393fb7d1c2b8495df5",
+          "target": "components/charts/pie-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 12922,
+          "path": "src/charts/pie-slice.tsx",
+          "sha256": "2034d79ebd5701093ca9135ac306a7cdeb26439d0e150e208e92db59ecfb8120",
+          "target": "components/charts/pie-slice.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3126,
+          "path": "src/charts/chart-stat-flow.tsx",
+          "sha256": "687499a57c5e0493e710396badfe106f939a308dcda73e75966ea49b24819139",
+          "target": "components/charts/chart-stat-flow.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4371,
+          "path": "src/charts/pie-center-shell.tsx",
+          "sha256": "eecb866ba893aa6a3bba838c80b96a5799344e6bb8a2f40297b01059a8447f14",
+          "target": "components/charts/pie-center-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3909,
+          "path": "src/charts/pie-center.tsx",
+          "sha256": "ece9a83b9faaf34a45313fb9535482328f30b9b7521373f4b2140915709b7e4e",
+          "target": "components/charts/pie-center.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 720,
+          "path": "src/charts/chart-center-typography.ts",
+          "sha256": "5b76892ad167d83f58817f0d4af2d52283623a2501e810d2fc126872d2843dac",
+          "target": "components/charts/chart-center-typography.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/pie-chart.json",
+      "status": "installed",
+      "title": "Pie Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 6,
+      "name": "radar-chart",
+      "sourceFiles": [
+        {
+          "bytes": 6703,
+          "path": "src/charts/radar-chart.tsx",
+          "sha256": "1ed80f9ff8a8b8f98867683a5ab49810efa671ee32f753f4695eb161e4fe2f66",
+          "target": "components/charts/radar-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4602,
+          "path": "src/charts/radar-context.tsx",
+          "sha256": "bca47f7ad7a7cd2ee00bb9c6905d584054e2144998e1442d4918cb5869adab5e",
+          "target": "components/charts/radar-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6038,
+          "path": "src/charts/radar-area.tsx",
+          "sha256": "019e33cddc4dfd9352ca7a89e8dc3735039b76d885f50d1fb9d51628547fe7b1",
+          "target": "components/charts/radar-area.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1487,
+          "path": "src/charts/radar-axis.tsx",
+          "sha256": "5faa614970890294c417f4b372235362ef1ed222cb9d10c95695dd100c43ef88",
+          "target": "components/charts/radar-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3724,
+          "path": "src/charts/radar-grid.tsx",
+          "sha256": "154a070e850841d0a0529bb70899309459d7f5a10eca38672871c8005436b93c",
+          "target": "components/charts/radar-grid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2228,
+          "path": "src/charts/radar-labels.tsx",
+          "sha256": "7b175a31f07a26b6aa86f502107a668152e66ec783efe39d4c118c015998fa24",
+          "target": "components/charts/radar-labels.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/radar-chart.json",
+      "status": "installed",
+      "title": "Radar Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 6,
+      "name": "ring-chart",
+      "sourceFiles": [
+        {
+          "bytes": 13539,
+          "path": "src/charts/ring-chart.tsx",
+          "sha256": "8184c4893ff6dc8b8dbc19d52c62c4cc5f745fd60ef1a3de06bbd139d5361636",
+          "target": "components/charts/ring-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4668,
+          "path": "src/charts/ring-context.tsx",
+          "sha256": "181d147574420adbc2b51fd7f9670022e6b3dcfdc6f1f215ae82f9ffb96c7dac",
+          "target": "components/charts/ring-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5981,
+          "path": "src/charts/ring.tsx",
+          "sha256": "7071b8ef326c8c3ab39324de11c13a2880db37f40e801d04e201061deea00eaf",
+          "target": "components/charts/ring.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3126,
+          "path": "src/charts/chart-stat-flow.tsx",
+          "sha256": "687499a57c5e0493e710396badfe106f939a308dcda73e75966ea49b24819139",
+          "target": "components/charts/chart-stat-flow.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3700,
+          "path": "src/charts/ring-center.tsx",
+          "sha256": "93a9fe44d912041a77676d7e42a864d961485ea1a936fd9a245ff222ad2e16e2",
+          "target": "components/charts/ring-center.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 720,
+          "path": "src/charts/chart-center-typography.ts",
+          "sha256": "5b76892ad167d83f58817f0d4af2d52283623a2501e810d2fc126872d2843dac",
+          "target": "components/charts/chart-center-typography.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/ring-chart.json",
+      "status": "installed",
+      "title": "Ring Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 8,
+      "name": "gauge-chart",
+      "sourceFiles": [
+        {
+          "bytes": 3126,
+          "path": "src/charts/chart-stat-flow.tsx",
+          "sha256": "687499a57c5e0493e710396badfe106f939a308dcda73e75966ea49b24819139",
+          "target": "components/charts/chart-stat-flow.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5087,
+          "path": "src/charts/pie-context.tsx",
+          "sha256": "c3ebffd2c228c5e3973e824c3442b368ada81396bad45d393fb7d1c2b8495df5",
+          "target": "components/charts/pie-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4371,
+          "path": "src/charts/pie-center-shell.tsx",
+          "sha256": "eecb866ba893aa6a3bba838c80b96a5799344e6bb8a2f40297b01059a8447f14",
+          "target": "components/charts/pie-center-shell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3909,
+          "path": "src/charts/pie-center.tsx",
+          "sha256": "ece9a83b9faaf34a45313fb9535482328f30b9b7521373f4b2140915709b7e4e",
+          "target": "components/charts/pie-center.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 21676,
+          "path": "src/charts/gauge.tsx",
+          "sha256": "76436ad7b4c2b814cbe53eefa99b33850b622b2aa1eed65d9cb0aaf8d5798644",
+          "target": "components/charts/gauge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5607,
+          "path": "src/charts/notch-gauge-shared.ts",
+          "sha256": "7df18a61160ee78f90859bc0932f8d802ccc5fdab7a8b98199211c0e0963347b",
+          "target": "components/charts/notch-gauge-shared.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3697,
+          "path": "src/charts/gauge-label-layout.tsx",
+          "sha256": "afc360b12ccf4f44763914e24851a5b7d40f94d8a8e4a4aee29f40fc375b553a",
+          "target": "components/charts/gauge-label-layout.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 720,
+          "path": "src/charts/chart-center-typography.ts",
+          "sha256": "5b76892ad167d83f58817f0d4af2d52283623a2501e810d2fc126872d2843dac",
+          "target": "components/charts/chart-center-typography.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/gauge-chart.json",
+      "status": "installed",
+      "title": "Gauge",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 22,
+      "name": "heatmap-chart",
+      "sourceFiles": [
+        {
+          "bytes": 19231,
+          "path": "src/charts/heatmap/heatmap-chart.tsx",
+          "sha256": "3b04d1c84eb36c55920d1224a8e93557c2af9157fca65b72c90944e0da6e9d5f",
+          "target": "components/charts/heatmap/heatmap-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5749,
+          "path": "src/charts/heatmap/heatmap-context.tsx",
+          "sha256": "ef636bb494ff95e429d2d0f857096eba9dc72d544e047df199c23cf53e250235",
+          "target": "components/charts/heatmap/heatmap-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 15219,
+          "path": "src/charts/heatmap/heatmap-cells.tsx",
+          "sha256": "c1e29f557390300a8bcfd7b0ad8b5460eeac4f8869e4e6562b3c589990d4adb8",
+          "target": "components/charts/heatmap/heatmap-cells.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2181,
+          "path": "src/charts/heatmap/heatmap-x-axis.tsx",
+          "sha256": "63a0666d70f7321f7b24dbc34ed0fd527651d8779b97842feb8076431b3ff0d7",
+          "target": "components/charts/heatmap/heatmap-x-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2524,
+          "path": "src/charts/heatmap/heatmap-y-axis.tsx",
+          "sha256": "a673745ba7dd63a1e26bf635491351be9386334fb1a455b29c0829a0ab0a5389",
+          "target": "components/charts/heatmap/heatmap-y-axis.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 6915,
+          "path": "src/charts/heatmap/heatmap-legend.tsx",
+          "sha256": "6e2718b8e978734d91d3ff5eda10e17a3b6230a1dfd4b5d2e57acc791166d326",
+          "target": "components/charts/heatmap/heatmap-legend.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1814,
+          "path": "src/charts/heatmap/heatmap-legend-swatch.tsx",
+          "sha256": "6d2ed887829365202ed3b4dfbc7c239603afe854f46a73f554bc2e267834f149",
+          "target": "components/charts/heatmap/heatmap-legend-swatch.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2992,
+          "path": "src/charts/heatmap/heatmap-legend-gradient.tsx",
+          "sha256": "8b79c616360c3abbc7f44eef33a917aee37f9fd1e8ca692079a68cf400f11daf",
+          "target": "components/charts/heatmap/heatmap-legend-gradient.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2832,
+          "path": "src/charts/heatmap/heatmap-tooltip.tsx",
+          "sha256": "92f949744db8fa0c9c6dafe9cd88f58849c534d181308589dcfa5ad5d8b99f4a",
+          "target": "components/charts/heatmap/heatmap-tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1803,
+          "path": "src/charts/heatmap/use-delayed-tooltip-data.ts",
+          "sha256": "d078e68f74802f16193f9527584dab4bf37ecd9b7fa9c8d910d2a77d5f680611",
+          "target": "components/charts/heatmap/use-delayed-tooltip-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7461,
+          "path": "src/charts/heatmap/heatmap-separator.tsx",
+          "sha256": "6b852251e631cac90ce81ad48ab8e34d7c83fc3287c036e30969fb411cf0e34e",
+          "target": "components/charts/heatmap/heatmap-separator.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3446,
+          "path": "src/charts/heatmap/heatmap-resolve-separator.ts",
+          "sha256": "568a445ee445f7f8a8207aaaa2eafcf8cfc3f27a7430ab5be8137bd2afb2c7a0",
+          "target": "components/charts/heatmap/heatmap-resolve-separator.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4974,
+          "path": "src/charts/heatmap/heatmap-colors.ts",
+          "sha256": "78c794e40ef40aba49e63ab6b1130ea946e1153526770bc8b94ba4e92651664a",
+          "target": "components/charts/heatmap/heatmap-colors.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 606,
+          "path": "src/charts/chart-scale.ts",
+          "sha256": "50cf8193194aa05948a074030a7830a95f25af89c529e9c26fecbc08de3b133a",
+          "target": "components/charts/chart-scale.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 24362,
+          "path": "src/charts/heatmap/heatmap-utils.ts",
+          "sha256": "fda74631f2bce13c569d88ed23fba27d360f26619e8a7e9892703454ca8d0ac5",
+          "target": "components/charts/heatmap/heatmap-utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3980,
+          "path": "src/charts/heatmap/heatmap-animation.ts",
+          "sha256": "635152672f88e9329fc61c8311fb09034d8c64514560c75a8bfa44fa48e8a2d2",
+          "target": "components/charts/heatmap/heatmap-animation.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 964,
+          "path": "src/charts/heatmap/heatmap-pattern-defs.tsx",
+          "sha256": "d0f1e3e28bcd6475a74ccb34508219351ad36a504408ca86bdca45be2d7df1d5",
+          "target": "components/charts/heatmap/heatmap-pattern-defs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1655,
+          "path": "src/charts/heatmap/heatmap-chart-loading.tsx",
+          "sha256": "28e43ffed3fff820844c9ff51f237501da2909307afeb80945285cb55a17bc46",
+          "target": "components/charts/heatmap/heatmap-chart-loading.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 412,
+          "path": "src/charts/heatmap/generate-heatmap-skeleton-data.ts",
+          "sha256": "6ee598efab0ed6102d7d555930238bc31e2a04902a821f9c73b27f776e023c5a",
+          "target": "components/charts/heatmap/generate-heatmap-skeleton-data.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4131,
+          "path": "src/charts/heatmap/index.ts",
+          "sha256": "28275b522302247982869d1f629889149c7f8db4d04e20763b3f77e880fda02d",
+          "target": "components/charts/heatmap/index.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1399,
+          "path": "src/charts/chart-loading-label.tsx",
+          "sha256": "06f6b5dc09269f07b65afbd6a70559fa1d53c40e6c4ae0548a92d0664732a06e",
+          "target": "components/charts/chart-loading-label.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3445,
+          "path": "src/charts/chart-child-passthrough.ts",
+          "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+          "target": "components/charts/chart-child-passthrough.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/heatmap-chart.json",
+      "status": "installed",
+      "title": "Heatmap Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 7,
+      "name": "choropleth-chart",
+      "sourceFiles": [
+        {
+          "bytes": 13305,
+          "path": "src/charts/choropleth/choropleth-chart.tsx",
+          "sha256": "cf81dd395e771c140b2985e12e5a1bccc5205e46d81b808c6ff5beded16150d7",
+          "target": "components/charts/choropleth/choropleth-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 7035,
+          "path": "src/charts/choropleth/choropleth-context.tsx",
+          "sha256": "3f96fd031e35c7fc3d356f6db34f3bcc846df1a29b3fb0b3a1943acf9d084692",
+          "target": "components/charts/choropleth/choropleth-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 606,
+          "path": "src/charts/chart-scale.ts",
+          "sha256": "50cf8193194aa05948a074030a7830a95f25af89c529e9c26fecbc08de3b133a",
+          "target": "components/charts/chart-scale.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 8856,
+          "path": "src/charts/choropleth/choropleth-feature.tsx",
+          "sha256": "d00f6ecd233f86b5d246be803c10de9896e03e4b90ccc7dc3a7830222f31e810",
+          "target": "components/charts/choropleth/choropleth-feature.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 970,
+          "path": "src/charts/choropleth/choropleth-graticule.tsx",
+          "sha256": "3ebe4a3cf6357e1b00428dc6565b1ced3fbfcec2b859e564a1be12d2a4eb1236",
+          "target": "components/charts/choropleth/choropleth-graticule.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3482,
+          "path": "src/charts/choropleth/choropleth-tooltip.tsx",
+          "sha256": "fc3add2a26fdf74351d13b3ea9dedfbfba6d69dfa4b78c9c7ed9963ff74d2f27",
+          "target": "components/charts/choropleth/choropleth-tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 730,
+          "path": "src/charts/choropleth/index.ts",
+          "sha256": "e73771863581477e356e20ef419d4b690a307fcbd6ed0d31b1cd4c61302c85e9",
+          "target": "components/charts/choropleth/index.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/choropleth-chart.json",
+      "status": "installed",
+      "title": "Choropleth Map",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 1,
+      "name": "funnel-chart",
+      "sourceFiles": [
+        {
+          "bytes": 32191,
+          "path": "src/charts/funnel-chart.tsx",
+          "sha256": "2f1f5688542b3c525c9e8dce1435bdbe4e71c82e0a6cdb371934d8bb1bd60d27",
+          "target": "components/charts/funnel-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/funnel-chart.json",
+      "status": "installed",
+      "title": "Funnel Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 6,
+      "name": "sankey-chart",
+      "sourceFiles": [
+        {
+          "bytes": 7221,
+          "path": "src/charts/sankey/sankey-chart.tsx",
+          "sha256": "36d668a32b372d90666d8dce214f27f60050f45d1c4166db2570308d89ec60d2",
+          "target": "components/charts/sankey/sankey-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 2720,
+          "path": "src/charts/sankey/sankey-context.tsx",
+          "sha256": "b627559020594d453a29eac0cd92baef128698013e192195f591519322238493",
+          "target": "components/charts/sankey/sankey-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 11594,
+          "path": "src/charts/sankey/sankey-node.tsx",
+          "sha256": "19a23055364682eb8051c6bb9e261f0b8e540294d3efb679fc3c4f33a5691952",
+          "target": "components/charts/sankey/sankey-node.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 9792,
+          "path": "src/charts/sankey/sankey-link.tsx",
+          "sha256": "3490040783f0ac9d4ba2f538bc62491d8b8c03d9d61b0d79a2ce14a35be7dce5",
+          "target": "components/charts/sankey/sankey-link.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4322,
+          "path": "src/charts/sankey/sankey-tooltip.tsx",
+          "sha256": "a5f127dba026745be0475485d591e7c8c145953b875bdd74ebbae645a10f1089",
+          "target": "components/charts/sankey/sankey-tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 536,
+          "path": "src/charts/sankey/index.ts",
+          "sha256": "5a75d9c471b00a2200a991289a8bcadbcb53c7ab03c70fa87d1d4977cd8047f6",
+          "target": "components/charts/sankey/index.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/sankey-chart.json",
+      "status": "installed",
+      "title": "Sankey Diagram",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 9,
+      "name": "sunburst-chart",
+      "sourceFiles": [
+        {
+          "bytes": 13354,
+          "path": "src/charts/sunburst-chart.tsx",
+          "sha256": "d89833f0945999e2a7cf4f1e9b271d50356f629b2784a5b9180198d5dd4532b0",
+          "target": "components/charts/sunburst-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 5343,
+          "path": "src/charts/sunburst-context.tsx",
+          "sha256": "d38f367fc46814396ffae029297887672b8ed6199c35feb3cac2eadd34571b9a",
+          "target": "components/charts/sunburst-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 4406,
+          "path": "src/charts/sunburst-segment.tsx",
+          "sha256": "f80670aa050cc4bb19ac70b01086282b848ef8be3a55568f15440162240418ba",
+          "target": "components/charts/sunburst-segment.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1254,
+          "path": "src/charts/sunburst-center.tsx",
+          "sha256": "22cc718b096d4d88660fad0ce7d5727790026ca70d832e257ade44ee1659c05e",
+          "target": "components/charts/sunburst-center.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1266,
+          "path": "src/charts/sunburst-breadcrumb.tsx",
+          "sha256": "052e88d8f8f59b420d7b28465a116896e10df3743702171d67f2d6c4652e352a",
+          "target": "components/charts/sunburst-breadcrumb.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1412,
+          "path": "src/charts/sunburst-hint.tsx",
+          "sha256": "e736384fb06e9857ef63106345582acc93ff4b6dbb16b679f7234cedd1cc6c0e",
+          "target": "components/charts/sunburst-hint.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 3822,
+          "path": "src/charts/sunburst-labels.tsx",
+          "sha256": "c7e14265ed3da00b80e8b5b67a60642ec176d401d2e37eca7c8c3cb765b7b670",
+          "target": "components/charts/sunburst-labels.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 16933,
+          "path": "src/charts/sunburst.ts",
+          "sha256": "8813fb2162b1301bbaad96ea3cab0b858d63ad4fd30a4e6a44a0c454bfce80c5",
+          "target": "components/charts/sunburst.ts",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 213,
+          "path": "src/charts/sunburst-data.ts",
+          "sha256": "de11b830b769aa4fda0465f68213b39d0904f45fe72d2ad3d5cac54d274f4b5e",
+          "target": "components/charts/sunburst-data.ts",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/sunburst-chart.json",
+      "status": "installed",
+      "title": "Sunburst Chart",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 2,
+      "name": "area-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 995,
+          "path": "registry/examples/area-chart.tsx",
+          "sha256": "9291769c4b617513a6bc3da7045289e1fa53372990c0e7321edc9d1ba31e62ea",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 277,
+          "path": "registry/examples/area-chart-index.ts",
+          "sha256": "574925a15279901c1e6944ae7e31a066ede095c13c2dc3681531c538df7c7648",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/area-chart-example.json",
+      "status": "installed",
+      "title": "Area Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "bar-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 1005,
+          "path": "registry/examples/bar-chart.tsx",
+          "sha256": "54d5802728c3f2848c308a4f09ae8cb1f583b121fb29d05c2c7f45d740aa4021",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 280,
+          "path": "registry/examples/bar-chart-index.ts",
+          "sha256": "250ba6f017e08359223ea15dc15773204f6f193e82dec39ac1fec9b90239bc2a",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/bar-chart-example.json",
+      "status": "installed",
+      "title": "Bar Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "line-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 962,
+          "path": "registry/examples/line-chart.tsx",
+          "sha256": "b7405993c6f0b1d4d4a253e3ef6062d16d98cc98283cdefb32cb9f1f953e8248",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 277,
+          "path": "registry/examples/line-chart-index.ts",
+          "sha256": "8262e3bcd501d48ca612659d03c21df7e6d83eeefa34b1b8275e9a5c60a8046f",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/line-chart-example.json",
+      "status": "installed",
+      "title": "Line Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "scatter-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 1035,
+          "path": "registry/examples/scatter-chart.tsx",
+          "sha256": "6811241bf79d88e00e7d65f549c028cfe6bebd33cd914d0a4f862b0680c664e4",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 289,
+          "path": "registry/examples/scatter-chart-index.ts",
+          "sha256": "e8c7eb4a74af000fa24a6f058fcc1e533602a08d411e0694613bf346c41e297f",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/scatter-chart-example.json",
+      "status": "installed",
+      "title": "Scatter Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "pie-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 728,
+          "path": "registry/examples/pie-chart.tsx",
+          "sha256": "e2751b0a892e644349943a2ab3eda87eac6e7ec9c95de812f4ba720998af866b",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 219,
+          "path": "registry/examples/pie-chart-index.ts",
+          "sha256": "2ee8b4a0804fa0458133295e89c11cb996e0207a4b0106c5cbd8536d5d567147",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/pie-chart-example.json",
+      "status": "installed",
+      "title": "Pie Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "gauge-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 473,
+          "path": "registry/examples/gauge-chart.tsx",
+          "sha256": "86b130bf68ada9bf39db0b37e39af71c9cff72ca2149e93ae05af5d9db55738b",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 130,
+          "path": "registry/examples/gauge-chart-index.ts",
+          "sha256": "71ecbf8a82cc872db3a05687faa957889a351c64cc70c3f044e502422bfba328",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/gauge-chart-example.json",
+      "status": "installed",
+      "title": "Gauge Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "heatmap-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 1918,
+          "path": "registry/examples/heatmap-chart.tsx",
+          "sha256": "69299e3118c6d6a958d4a6b240363bda014e2fe00dd90a27aaddcdba083b2274",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 285,
+          "path": "registry/examples/heatmap-chart-index.ts",
+          "sha256": "3ff4b81c047ece6d7a88f0a17eb4ef2abf954a0be8b5d0f4ffce7593b25d4116",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/heatmap-chart-example.json",
+      "status": "installed",
+      "title": "Heatmap Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "ring-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 735,
+          "path": "registry/examples/ring-chart.tsx",
+          "sha256": "06f2b86a56d652d1565610fa57b0168653ab0b546684238a16105f4895b62530",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 214,
+          "path": "registry/examples/ring-chart-index.ts",
+          "sha256": "662a8aa9ad17c87a4eb25a7bc320c800e26dfc59fa8afc408e2a1ca0f5bd7ea2",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/ring-chart-example.json",
+      "status": "installed",
+      "title": "Ring Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "radar-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 1050,
+          "path": "registry/examples/radar-chart.tsx",
+          "sha256": "3f20a21299d27dc5f17c046805db41098586eb0780ac5cb745c646ea0dd20579",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 313,
+          "path": "registry/examples/radar-chart-index.ts",
+          "sha256": "7972ae7f6897ce1edd823541840db1f5f3d09035634f3b28586d0cfa760a4bf9",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/radar-chart-example.json",
+      "status": "installed",
+      "title": "Radar Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "composed-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 1120,
+          "path": "registry/examples/composed-chart.tsx",
+          "sha256": "7bd61a2597917c608a70f145d91f482172418e3c4147babae6f19eb61e33f05e",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 358,
+          "path": "registry/examples/composed-chart-index.ts",
+          "sha256": "97481c61e8acea3afcde5ea81a7a1e2a050958dbbd5077359921add8f3572055",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/composed-chart-example.json",
+      "status": "installed",
+      "title": "Composed Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "funnel-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 586,
+          "path": "registry/examples/funnel-chart.tsx",
+          "sha256": "813ca7551e9fa47c6c6584fb97f599a565ba6cbc6ccdc0512f93aec7a9d4df36",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 143,
+          "path": "registry/examples/funnel-chart-index.ts",
+          "sha256": "99c34a5550d5daf3db353d10fdbe2c9de9a2a411152dc6e0addda93970bccf9c",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/funnel-chart-example.json",
+      "status": "installed",
+      "title": "Funnel Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "sankey-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 890,
+          "path": "registry/examples/sankey-chart.tsx",
+          "sha256": "719abdd16cca1b12f3beedb0396a9dcc3ffffea03fa35bf5b259224cf7d31c7c",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 176,
+          "path": "registry/examples/sankey-chart-index.ts",
+          "sha256": "8728d1b4c13d099152e50a872d53f9fb66fba0f450d8f0e29d64b6cfa9041c24",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/sankey-chart-example.json",
+      "status": "installed",
+      "title": "Sankey Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "sunburst-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 1370,
+          "path": "registry/examples/sunburst-chart.tsx",
+          "sha256": "288e6d9b3209e0cce6c2ee0cb79e479b0a3922ac83348c203771ce72489ecfa9",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 534,
+          "path": "registry/examples/sunburst-chart-index.ts",
+          "sha256": "8f23adae546e1b51f05f9414a5f6bf23bd9ecee174efbcacbdac8aca524dc28a",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/sunburst-chart-example.json",
+      "status": "installed",
+      "title": "Sunburst Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "candlestick-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 952,
+          "path": "registry/examples/candlestick-chart.tsx",
+          "sha256": "530b0ba245bc5585e4e0ad5a298d7a7f36575b25c16ac10f357988c79181b34f",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 339,
+          "path": "registry/examples/candlestick-chart-index.ts",
+          "sha256": "2c70be9c5185803644187173487d35755a36eb8f343de64050e9bd8bedc48a2e",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/candlestick-chart-example.json",
+      "status": "installed",
+      "title": "Candlestick Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "choropleth-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 759,
+          "path": "registry/examples/choropleth-chart.tsx",
+          "sha256": "e18dbf095065c97b94ac4f174453d430ee9299a6745f2ec7c9cecdf4afb1f5b8",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 192,
+          "path": "registry/examples/choropleth-chart-index.ts",
+          "sha256": "e74a2e2050dc977887a19329999070730af922291bc28dee650e7ff919b8a71c",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/choropleth-chart-example.json",
+      "status": "installed",
+      "title": "Choropleth Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 2,
+      "name": "live-line-chart-example",
+      "sourceFiles": [
+        {
+          "bytes": 891,
+          "path": "registry/examples/live-line-chart.tsx",
+          "sha256": "cbb9fd3c20f15a35c6cf818ef99711b4c6bd4d840aa6a2542505df33b6abb05c",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 316,
+          "path": "registry/examples/live-line-chart-index.ts",
+          "sha256": "00958c108a4b1dacbde92a494548f47e76e44d2dde54464384ade4ed4763cf57",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/live-line-chart-example.json",
+      "status": "installed",
+      "title": "Live Line Chart Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 1,
+      "name": "chart-stat-flow",
+      "sourceFiles": [
+        {
+          "bytes": 3126,
+          "path": "src/charts/chart-stat-flow.tsx",
+          "sha256": "687499a57c5e0493e710396badfe106f939a308dcda73e75966ea49b24819139",
+          "target": "components/charts/chart-stat-flow.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/chart-stat-flow.json",
+      "status": "installed",
+      "title": "Chart Stat Flow",
+      "type": "registry:component"
+    },
+    {
+      "fileCount": 6,
+      "name": "stat-card-area-01",
+      "sourceFiles": [
+        {
+          "bytes": 2609,
+          "path": "registry/blocks/stat-card-area-01/components/stat-card-area.tsx",
+          "sha256": "5fada9beefead74d075dc49df97cd6fba976eae44bebe84b9af13a0e8758a222",
+          "target": "components/stat-card-area.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1042,
+          "path": "registry/blocks/stat-card-area-01/components/stat-card-chart.tsx",
+          "sha256": "0c38f7deabbeca8a26ae43889ee46056e7b7618c1f1d049a53efe58e4d72c844",
+          "target": "components/stat-card-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1984,
+          "path": "registry/blocks/stat-card-area-01/components/stat-card-hover-bridge.tsx",
+          "sha256": "e137849f568e2a44c54a1d8c90974b46164c9e8334c4ebd469489344ae86bd29",
+          "target": "components/stat-card-hover-bridge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 831,
+          "path": "registry/blocks/stat-card-area-01/components/trend-badge.tsx",
+          "sha256": "bb21aab2bd43b97520e3aabf508ee664ccf6d5af9d10cf2baf53c0c39a800a42",
+          "target": "components/trend-badge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 773,
+          "path": "registry/blocks/stat-card-area-01/data/revenue-series.ts",
+          "sha256": "e13b905e554b3f2c8d391f8461e24d0e730154b51dbf11f7c94556b3573a42e3",
+          "target": "data/revenue-series.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 318,
+          "path": "registry/examples/stat-card-area-01-index.ts",
+          "sha256": "f39e0936bd4f1482ad493f28c5abd458e814b19cce9325d3393b1c24955fd85b",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/stat-card-area-01.json",
+      "status": "installed",
+      "title": "Stat Card Area",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 2,
+      "name": "stat-card-area-01-example",
+      "sourceFiles": [
+        {
+          "bytes": 307,
+          "path": "registry/examples/stat-card-area-01.tsx",
+          "sha256": "92eb138360998e849bc4f16532301059baec7e32e6d536da6c8ced995dc44922",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 318,
+          "path": "registry/examples/stat-card-area-01-index.ts",
+          "sha256": "f39e0936bd4f1482ad493f28c5abd458e814b19cce9325d3393b1c24955fd85b",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/stat-card-area-01-example.json",
+      "status": "installed",
+      "title": "Stat Card Area Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 6,
+      "name": "stat-card-line-01",
+      "sourceFiles": [
+        {
+          "bytes": 2322,
+          "path": "registry/blocks/stat-card-line-01/components/stat-card-line.tsx",
+          "sha256": "5ee9cc84be7b11635b5080c0cea05bc42da3923f3c3487492349bed9546ea840",
+          "target": "components/stat-card-line.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1042,
+          "path": "registry/blocks/stat-card-line-01/components/stat-card-chart.tsx",
+          "sha256": "0c38f7deabbeca8a26ae43889ee46056e7b7618c1f1d049a53efe58e4d72c844",
+          "target": "components/stat-card-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1984,
+          "path": "registry/blocks/stat-card-line-01/components/stat-card-hover-bridge.tsx",
+          "sha256": "e137849f568e2a44c54a1d8c90974b46164c9e8334c4ebd469489344ae86bd29",
+          "target": "components/stat-card-hover-bridge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 831,
+          "path": "registry/blocks/stat-card-line-01/components/trend-badge.tsx",
+          "sha256": "bb21aab2bd43b97520e3aabf508ee664ccf6d5af9d10cf2baf53c0c39a800a42",
+          "target": "components/trend-badge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 530,
+          "path": "registry/blocks/stat-card-line-01/data/sessions-series.ts",
+          "sha256": "399ad66648838dd863040927415b43bfa0874db918fd378407784b0ab7196f5b",
+          "target": "data/sessions-series.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 269,
+          "path": "registry/examples/stat-card-line-01-index.ts",
+          "sha256": "3bb7c32f1325558fdb91e41efab11d2efd9757360ea14fd3fec0e9afeacc99fa",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/stat-card-line-01.json",
+      "status": "installed",
+      "title": "Stat Card Line",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 2,
+      "name": "stat-card-line-01-example",
+      "sourceFiles": [
+        {
+          "bytes": 307,
+          "path": "registry/examples/stat-card-line-01.tsx",
+          "sha256": "4a4b4ae2a42999da8f820e35aeadc408ae35f3ce4173b1f0c731fd058bd4d36b",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 269,
+          "path": "registry/examples/stat-card-line-01-index.ts",
+          "sha256": "3bb7c32f1325558fdb91e41efab11d2efd9757360ea14fd3fec0e9afeacc99fa",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/stat-card-line-01-example.json",
+      "status": "installed",
+      "title": "Stat Card Line Example",
+      "type": "registry:example"
+    },
+    {
+      "fileCount": 7,
+      "name": "stat-card-choropleth-01",
+      "sourceFiles": [
+        {
+          "bytes": 2960,
+          "path": "registry/blocks/stat-card-choropleth-01/components/stat-card-choropleth.tsx",
+          "sha256": "bbfed9812e9131506b6b9567efd8a5197711e1aa94a89a4d882c63247e3a5ab2",
+          "target": "components/stat-card-choropleth.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1014,
+          "path": "registry/blocks/stat-card-choropleth-01/components/stat-card-choropleth-hover-bridge.tsx",
+          "sha256": "8103bf6e9f546128b5777f28a47eb474c954c374ff0e82adef59f4b4e52d416e",
+          "target": "components/stat-card-choropleth-hover-bridge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1042,
+          "path": "registry/blocks/stat-card-choropleth-01/components/stat-card-chart.tsx",
+          "sha256": "0c38f7deabbeca8a26ae43889ee46056e7b7618c1f1d049a53efe58e4d72c844",
+          "target": "components/stat-card-chart.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 831,
+          "path": "registry/blocks/stat-card-choropleth-01/components/trend-badge.tsx",
+          "sha256": "bb21aab2bd43b97520e3aabf508ee664ccf6d5af9d10cf2baf53c0c39a800a42",
+          "target": "components/trend-badge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 1748,
+          "path": "registry/blocks/stat-card-choropleth-01/data/visitors.ts",
+          "sha256": "855fbb5ba098b3382735a4b785c9f7e08f1becdabed9a062209407a1834ce12f",
+          "target": "data/visitors.ts",
+          "type": "registry:lib"
+        },
+        {
+          "bytes": 3604,
+          "path": "registry/blocks/stat-card-choropleth-01/lib/use-world-data.tsx",
+          "sha256": "9340abb7654feb5bed4bc003d16fe383b18a174d83d68c5b67cd512443e3bfcd",
+          "target": "lib/use-world-data.tsx",
+          "type": "registry:component"
+        },
+        {
+          "bytes": 286,
+          "path": "registry/examples/stat-card-choropleth-01-index.ts",
+          "sha256": "21e642c36ba04f0461a6937066905956ee74ad39323554031f99fa6f828139cf",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/stat-card-choropleth-01.json",
+      "status": "installed",
+      "title": "Stat Card Choropleth",
+      "type": "registry:block"
+    },
+    {
+      "fileCount": 2,
+      "name": "stat-card-choropleth-01-example",
+      "sourceFiles": [
+        {
+          "bytes": 326,
+          "path": "registry/examples/stat-card-choropleth-01.tsx",
+          "sha256": "7b9a99eea4c7f220df2d7d6f1b79bf862f3b7761e4091b0e1c9b109230cf622e",
+          "target": "app/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "bytes": 286,
+          "path": "registry/examples/stat-card-choropleth-01-index.ts",
+          "sha256": "21e642c36ba04f0461a6937066905956ee74ad39323554031f99fa6f828139cf",
+          "target": "components/charts/index.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "sourceUrl": "https://bklit.com/r/stat-card-choropleth-01-example.json",
+      "status": "installed",
+      "title": "Stat Card Choropleth Example",
+      "type": "registry:example"
+    }
+  ],
+  "library": "bklit",
+  "name": "Bklit",
+  "schemaVersion": 1,
+  "snapshotMode": "full-registry-source",
+  "sourceUrl": "https://bklit.com/",
+  "status": "installed",
+  "unavailableItemCount": 0
+}

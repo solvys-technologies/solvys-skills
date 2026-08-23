@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-group-sizes",
+  "registryDependencies": [
+    "button-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1227,
+      "path": "registry/examples/button-group-sizes.tsx",
+      "sha256": "b4131b7517bb785ad76b300030ab6ec9e9134bba5109f438b932f49f80215ea0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-group-sizes.json",
+  "title": "Button Group Sizes",
+  "type": "registry:example"
+}

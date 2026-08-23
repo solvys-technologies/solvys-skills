@@ -1,0 +1,3832 @@
+{
+  "homepage": "https://evilcharts.com",
+  "items": [
+    {
+      "dependencies": [
+        "recharts"
+      ],
+      "files": [
+        {
+          "path": "src/registry/ui/recharts-chart.tsx",
+          "target": "components/evilcharts/ui/recharts-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts"
+      ],
+      "files": [
+        {
+          "path": "src/registry/ui/recharts-tooltip.tsx",
+          "target": "components/evilcharts/ui/recharts-tooltip.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-tooltip",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts"
+      ],
+      "files": [
+        {
+          "path": "src/registry/ui/recharts-legend.tsx",
+          "target": "components/evilcharts/ui/recharts-legend.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-legend",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts"
+      ],
+      "files": [
+        {
+          "path": "src/registry/ui/recharts-dot.tsx",
+          "target": "components/evilcharts/ui/recharts-dot.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-dot",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts"
+      ],
+      "files": [
+        {
+          "path": "src/registry/ui/recharts-brush.tsx",
+          "target": "components/evilcharts/ui/recharts-brush.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-brush",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts"
+      ],
+      "files": [
+        {
+          "path": "src/registry/ui/recharts-background.tsx",
+          "target": "components/evilcharts/ui/recharts-background.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-background",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts"
+      ],
+      "files": [
+        {
+          "path": "src/registry/ui/echarts-chart.tsx",
+          "target": "components/evilcharts/ui/echarts-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-chart",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts"
+      ],
+      "files": [
+        {
+          "path": "src/registry/ui/echarts-tooltip.tsx",
+          "target": "components/evilcharts/ui/echarts-tooltip.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-tooltip",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/ui/echarts-legend.tsx",
+          "target": "components/evilcharts/ui/echarts-legend.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-legend",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts"
+      ],
+      "files": [
+        {
+          "path": "src/registry/ui/echarts-dot.tsx",
+          "target": "components/evilcharts/ui/echarts-dot.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-dot",
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts"
+      ],
+      "files": [
+        {
+          "path": "src/registry/ui/echarts-brush.tsx",
+          "target": "components/evilcharts/ui/echarts-brush.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-brush",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Area chart component rendered with Apache ECharts",
+      "files": [
+        {
+          "path": "src/registry/charts/echarts-area-chart.tsx",
+          "target": "components/evilcharts/charts/echarts-area-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart",
+        "@evilcharts/echarts-tooltip",
+        "@evilcharts/echarts-legend",
+        "@evilcharts/echarts-dot",
+        "@evilcharts/echarts-brush"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Line chart component rendered with Apache ECharts",
+      "files": [
+        {
+          "path": "src/registry/charts/echarts-line-chart.tsx",
+          "target": "components/evilcharts/charts/echarts-line-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart",
+        "@evilcharts/echarts-dot",
+        "@evilcharts/echarts-tooltip",
+        "@evilcharts/echarts-legend",
+        "@evilcharts/echarts-brush"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Bar chart component rendered with Apache ECharts",
+      "files": [
+        {
+          "path": "src/registry/charts/echarts-bar-chart.tsx",
+          "target": "components/evilcharts/charts/echarts-bar-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart",
+        "@evilcharts/echarts-tooltip",
+        "@evilcharts/echarts-dot",
+        "@evilcharts/echarts-legend",
+        "@evilcharts/echarts-brush"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Composed chart component rendered with Apache ECharts",
+      "files": [
+        {
+          "path": "src/registry/charts/echarts-composed-chart.tsx",
+          "target": "components/evilcharts/charts/echarts-composed-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart",
+        "@evilcharts/echarts-tooltip",
+        "@evilcharts/echarts-dot",
+        "@evilcharts/echarts-legend",
+        "@evilcharts/echarts-brush"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Radar chart component rendered with Apache ECharts",
+      "files": [
+        {
+          "path": "src/registry/charts/echarts-radar-chart.tsx",
+          "target": "components/evilcharts/charts/echarts-radar-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart",
+        "@evilcharts/echarts-tooltip",
+        "@evilcharts/echarts-dot",
+        "@evilcharts/echarts-legend"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Pie chart component rendered with Apache ECharts",
+      "files": [
+        {
+          "path": "src/registry/charts/echarts-pie-chart.tsx",
+          "target": "components/evilcharts/charts/echarts-pie-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart",
+        "@evilcharts/echarts-tooltip",
+        "@evilcharts/echarts-legend"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Radial chart component rendered with Apache ECharts",
+      "files": [
+        {
+          "path": "src/registry/charts/echarts-radial-chart.tsx",
+          "target": "components/evilcharts/charts/echarts-radial-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart",
+        "@evilcharts/echarts-tooltip",
+        "@evilcharts/echarts-legend"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Sankey chart component rendered with Apache ECharts",
+      "files": [
+        {
+          "path": "src/registry/charts/echarts-sankey-chart.tsx",
+          "target": "components/evilcharts/charts/echarts-sankey-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-chart",
+        "@evilcharts/echarts-tooltip"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion"
+      ],
+      "description": "Area chart component",
+      "files": [
+        {
+          "path": "src/registry/charts/recharts-area-chart.tsx",
+          "target": "components/evilcharts/charts/recharts-area-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart",
+        "@evilcharts/recharts-tooltip",
+        "@evilcharts/recharts-legend",
+        "@evilcharts/recharts-dot",
+        "@evilcharts/recharts-brush",
+        "@evilcharts/recharts-background"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion"
+      ],
+      "description": "Line chart component",
+      "files": [
+        {
+          "path": "src/registry/charts/recharts-line-chart.tsx",
+          "target": "components/evilcharts/charts/recharts-line-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart",
+        "@evilcharts/recharts-tooltip",
+        "@evilcharts/recharts-legend",
+        "@evilcharts/recharts-dot",
+        "@evilcharts/recharts-brush",
+        "@evilcharts/recharts-background"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion"
+      ],
+      "description": "Bar chart component",
+      "files": [
+        {
+          "path": "src/registry/charts/recharts-bar-chart.tsx",
+          "target": "components/evilcharts/charts/recharts-bar-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart",
+        "@evilcharts/recharts-tooltip",
+        "@evilcharts/recharts-legend",
+        "@evilcharts/recharts-brush",
+        "@evilcharts/recharts-background"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion"
+      ],
+      "description": "Composed chart component combining bar and line charts",
+      "files": [
+        {
+          "path": "src/registry/charts/recharts-composed-chart.tsx",
+          "target": "components/evilcharts/charts/recharts-composed-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart",
+        "@evilcharts/recharts-tooltip",
+        "@evilcharts/recharts-legend",
+        "@evilcharts/recharts-dot",
+        "@evilcharts/recharts-brush",
+        "@evilcharts/recharts-background"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion"
+      ],
+      "description": "Pie chart component with donut, gradient, and glow effects",
+      "files": [
+        {
+          "path": "src/registry/charts/recharts-pie-chart.tsx",
+          "target": "components/evilcharts/charts/recharts-pie-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart",
+        "@evilcharts/recharts-tooltip",
+        "@evilcharts/recharts-legend",
+        "@evilcharts/recharts-background"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion"
+      ],
+      "description": "Radial bar chart component with full and semi-circle variants",
+      "files": [
+        {
+          "path": "src/registry/charts/recharts-radial-chart.tsx",
+          "target": "components/evilcharts/charts/recharts-radial-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart",
+        "@evilcharts/recharts-tooltip",
+        "@evilcharts/recharts-legend",
+        "@evilcharts/recharts-background"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion"
+      ],
+      "description": "Radar chart component with filled and lines variants",
+      "files": [
+        {
+          "path": "src/registry/charts/recharts-radar-chart.tsx",
+          "target": "components/evilcharts/charts/recharts-radar-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart",
+        "@evilcharts/recharts-tooltip",
+        "@evilcharts/recharts-legend",
+        "@evilcharts/recharts-dot",
+        "@evilcharts/recharts-background"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion"
+      ],
+      "description": "Sankey chart component for visualizing flow data with nodes and links",
+      "files": [
+        {
+          "path": "src/registry/charts/recharts-sankey-chart.tsx",
+          "target": "components/evilcharts/charts/recharts-sankey-chart.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "recharts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart",
+        "@evilcharts/recharts-tooltip",
+        "@evilcharts/recharts-background"
+      ],
+      "type": "registry:component"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-hover-highlight-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hover-highlight-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-brush-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-brush-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-buffer-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-buffer-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-hover-reveal-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hover-reveal-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-animated-dashed-stroke-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-animated-dashed-stroke-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-bump-curve-type-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bump-curve-type-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-dashed-stroke-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dashed-stroke-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-default-type-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-default-type-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-dotted-area-variant-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dotted-area-variant-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-expanded-type-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-expanded-type-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-area-variant-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-area-variant-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-colors-bump-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-bump-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-reverse-area-variant-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-reverse-area-variant-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-hatched-area-variant-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hatched-area-variant-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-lines-area-variant-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-lines-area-variant-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-monotoney-curve-type-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-monotoney-curve-type-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-solid-area-variant-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-solid-area-variant-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-solid-stroke-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-solid-stroke-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-stacked-type-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-stacked-type-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-step-curve-type-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-step-curve-type-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-colors-bump-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-bump-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-bump-curve-type-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bump-curve-type-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-step-curve-type-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-step-curve-type-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-monotoney-curve-type-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-monotoney-curve-type-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-solid-stroke-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-solid-stroke-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-dashed-stroke-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dashed-stroke-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-animated-dashed-stroke-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-animated-dashed-stroke-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-glowing-desktop-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-desktop-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-glowing-mobile-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-mobile-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-buffer-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-buffer-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-hover-reveal-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hover-reveal-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-dot-default-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dot-default-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-dot-border-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dot-border-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-dot-colored-border-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dot-colored-border-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-dot-ping-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dot-ping-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-legend-square-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-square-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-legend-circle-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-circle-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-legend-circle-outline-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-circle-outline-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-legend-rounded-square-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-rounded-square-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-legend-rounded-square-outline-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-rounded-square-outline-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-legend-vertical-bar-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-vertical-bar-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-legend-horizontal-bar-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-horizontal-bar-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-buffer-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-buffer-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-default-variant-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-default-variant-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-expandable-variant-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-expandable-variant-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-max-highlight-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-max-highlight-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-blocks-variant-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-blocks-variant-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-hatched-variant-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hatched-variant-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-duotone-variant-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-duotone-variant-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-duotone-reverse-variant-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-duotone-reverse-variant-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-variant-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-variant-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-stripped-variant-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-stripped-variant-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-stacked-type-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-stacked-type-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-percent-type-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-percent-type-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-horizontal-layout-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-horizontal-layout-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-hover-highlight-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hover-highlight-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-glowing-desktop-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-desktop-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-glowing-mobile-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-mobile-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-tooltip-default-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-tooltip-default-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-tooltip-frosted-glass-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-tooltip-frosted-glass-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-chart-config-default-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-chart-config-default-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-chart-config-icons-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-chart-config-icons-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-hatched-variant-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hatched-variant-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-duotone-variant-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-duotone-variant-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-variant-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-variant-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-stripped-variant-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-stripped-variant-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-dashed-stroke-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dashed-stroke-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-animated-dashed-stroke-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-animated-dashed-stroke-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-bump-curve-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bump-curve-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-dots-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dots-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-hover-highlight-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hover-highlight-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-glowing-echarts-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-echarts-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-echarts-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-echarts-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-lines-variant-echarts-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-lines-variant-echarts-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-circle-grid-echarts-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-circle-grid-echarts-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-echarts-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-echarts-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-donut-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-donut-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-padded-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-padded-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-overlapping-padded-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-overlapping-padded-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-labels-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-labels-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-outside-labels-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-outside-labels-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-echarts-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-echarts-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-semi-variant-echarts-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-semi-variant-echarts-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-echarts-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-echarts-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-gradient-colors-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-loading-state-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-solid-link-variant-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-solid-link-variant-echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-source-link-variant-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-source-link-variant-echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-labeled-nodes-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-labeled-nodes-echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-outside-labels-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-outside-labels-echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/echarts/ex-solid-labeled-nodes-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-solid-labeled-nodes-echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-brush-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-brush-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-colors-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-colors-bump-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-bump-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-loading-state-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-default-type-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-default-type-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-stacked-type-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-stacked-type-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-expanded-type-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-expanded-type-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bump-curve-type-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bump-curve-type-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-step-curve-type-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-step-curve-type-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-monotoney-curve-type-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-monotoney-curve-type-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-solid-stroke-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-solid-stroke-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-dashed-stroke-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dashed-stroke-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-animated-dashed-stroke-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-animated-dashed-stroke-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-area-variant-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-area-variant-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-reverse-area-variant-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-reverse-area-variant-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-solid-area-variant-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-solid-area-variant-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-dotted-area-variant-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dotted-area-variant-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-lines-area-variant-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-lines-area-variant-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-hatched-area-variant-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hatched-area-variant-area-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-dot-default-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dot-default-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-dot-border-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dot-border-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-dot-colored-border-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dot-colored-border-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-colors-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-colors-bump-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-bump-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-loading-state-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bump-curve-type-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bump-curve-type-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-step-curve-type-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-step-curve-type-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-monotoney-curve-type-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-monotoney-curve-type-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-solid-stroke-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-solid-stroke-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-dashed-stroke-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dashed-stroke-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-animated-dashed-stroke-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-animated-dashed-stroke-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-glowing-desktop-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-desktop-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-glowing-mobile-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-mobile-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-buffer-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-buffer-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-dots-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-dots-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-grid-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-grid-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-cross-hatch-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-cross-hatch-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-diagonal-lines-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-diagonal-lines-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-plus-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-plus-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-falling-triangles-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-falling-triangles-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-4-pointed-star-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-4-pointed-star-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-tiny-checkers-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-tiny-checkers-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-overlapping-circles-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-overlapping-circles-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-wiggle-lines-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-wiggle-lines-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bg-bubbles-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bg-bubbles-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-buffer-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-buffer-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-colors-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-loading-state-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-default-variant-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-default-variant-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-hatched-variant-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hatched-variant-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-duotone-variant-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-duotone-variant-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-duotone-reverse-variant-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-duotone-reverse-variant-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-variant-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-variant-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-stripped-variant-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-stripped-variant-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-stacked-type-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-stacked-type-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-percent-type-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-percent-type-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-horizontal-layout-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-horizontal-layout-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-hover-highlight-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hover-highlight-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-glowing-desktop-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-desktop-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-glowing-mobile-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-mobile-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-colors-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-loading-state-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-hatched-variant-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hatched-variant-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-duotone-variant-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-duotone-variant-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-variant-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-variant-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-stripped-variant-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-stripped-variant-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-dashed-stroke-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dashed-stroke-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-animated-dashed-stroke-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-animated-dashed-stroke-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-bump-curve-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-bump-curve-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-dots-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-dots-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-hover-highlight-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-hover-highlight-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-glowing-composed-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-composed-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-composed-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-colors-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-donut-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-donut-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-padded-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-padded-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-overlapping-padded-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-overlapping-padded-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-labels-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-labels-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-loading-state-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-glowing-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-semi-variant-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-semi-variant-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-colors-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-loading-state-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-lines-variant-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-lines-variant-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-circle-grid-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-circle-grid-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-colors-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-loading-state-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-glowing-radar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-glowing-radar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-radar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-gradient-colors-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-gradient-colors-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-loading-state-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-loading-state-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-solid-link-variant-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-solid-link-variant-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-source-link-variant-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-source-link-variant-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-labeled-nodes-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-labeled-nodes-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-outside-labels-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-outside-labels-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-solid-labeled-nodes-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-solid-labeled-nodes-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-tooltip-default-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-tooltip-default-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-tooltip-frosted-glass-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-tooltip-frosted-glass-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-legend-square-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-square-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-legend-circle-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-circle-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-legend-circle-outline-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-circle-outline-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-legend-rounded-square-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-rounded-square-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-legend-rounded-square-outline-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-rounded-square-outline-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-legend-vertical-bar-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-vertical-bar-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-legend-horizontal-bar-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-legend-horizontal-bar-line-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-chart-config-default-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-chart-config-default-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "files": [
+        {
+          "path": "src/registry/examples/recharts/ex-chart-config-icons-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ex-chart-config-icons-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion"
+      ],
+      "description": "Monospace bar chart component",
+      "files": [
+        {
+          "path": "src/registry/blocks/recharts/b-monospace-bar-chart.tsx",
+          "target": "components/evilcharts/blocks/monospace-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "monospace-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion",
+        "@number-flow/react"
+      ],
+      "description": "Bar chart with active value line and animated marker",
+      "files": [
+        {
+          "path": "src/registry/blocks/recharts/b-hover-trace-bar-chart.tsx",
+          "target": "components/evilcharts/blocks/hover-trace-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "hover-trace-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "recharts"
+      ],
+      "description": "Bar chart where each bar is composed of stacked 10x10px squares",
+      "files": [
+        {
+          "path": "src/registry/blocks/recharts/b-grid-bar-chart.tsx",
+          "target": "components/evilcharts/blocks/grid-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "grid-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "recharts",
+        "motion"
+      ],
+      "description": "Bar chart with isometric 3D-extruded bars and a highlighted max value",
+      "files": [
+        {
+          "path": "src/registry/blocks/recharts/b-isometric-bar-chart.tsx",
+          "target": "components/evilcharts/blocks/isometric-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "isometric-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/recharts-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Latency percentile monitor with an HTML stat row, on the ECharts area chart",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-latency-echarts-area-chart.tsx",
+          "target": "components/evilcharts/blocks/latency-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "latency-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Portfolio comparison card with hover-reveal, on the ECharts area chart",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-portfolio-echarts-area-chart.tsx",
+          "target": "components/evilcharts/blocks/portfolio-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "portfolio-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Growth against a dashed benchmark \u2014 hatched lead area, rounded step plateaus",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-benchmark-echarts-area-chart.tsx",
+          "target": "components/evilcharts/blocks/benchmark-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "benchmark-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Audience growth card with a multi-stop gradient line and faded wash",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-audience-echarts-area-chart.tsx",
+          "target": "components/evilcharts/blocks/audience-echarts-area-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "audience-echarts-area-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-area-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Grayscale donut with a center total and a two-column value legend",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-market-share-echarts-pie-chart.tsx",
+          "target": "components/evilcharts/blocks/market-share-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "market-share-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Dotted progress rings with a centered stat, built from per-dot pie sectors",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-progress-rings-echarts-pie-chart.tsx",
+          "target": "components/evilcharts/blocks/progress-rings-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "progress-rings-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Budget breakdown card with four gauges and a value list, on the radial chart",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-budget-echarts-radial-chart.tsx",
+          "target": "components/evilcharts/blocks/budget-echarts-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "budget-echarts-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Activity summary card with a distance goal bar and three metric gauges",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-ride-echarts-radial-chart.tsx",
+          "target": "components/evilcharts/blocks/ride-echarts-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "ride-echarts-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Semi-circle multi-ring gauge with a stat grid and a share legend",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-cache-tiers-echarts-radial-chart.tsx",
+          "target": "components/evilcharts/blocks/cache-tiers-echarts-radial-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "cache-tiers-echarts-radial-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-radial-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Gapped donut with a center total and a side legend of amounts",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-revenue-mix-echarts-pie-chart.tsx",
+          "target": "components/evilcharts/blocks/revenue-mix-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "revenue-mix-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Banded score arc with a range scale, built from pie sectors",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-reliability-score-echarts-pie-chart.tsx",
+          "target": "components/evilcharts/blocks/reliability-score-echarts-pie-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "reliability-score-echarts-pie-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-pie-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Payout trend card with a glowing gradient line and stat rows",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-payouts-echarts-line-chart.tsx",
+          "target": "components/evilcharts/blocks/payouts-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "payouts-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Week-over-week comparison with a solid and a dashed grayscale line",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-shipments-echarts-line-chart.tsx",
+          "target": "components/evilcharts/blocks/shipments-echarts-line-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "shipments-echarts-line-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-line-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Bar chart whose columns are stacks of blocks, on the ECharts blocks variant",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-grid-echarts-bar-chart.tsx",
+          "target": "components/evilcharts/blocks/grid-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "grid-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Monospace sales card whose hairline bars expand on hover, on the ECharts bar chart",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-monospace-echarts-bar-chart.tsx",
+          "target": "components/evilcharts/blocks/monospace-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "monospace-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Stacked weekly signups with only the best week in color",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-peak-echarts-bar-chart.tsx",
+          "target": "components/evilcharts/blocks/peak-echarts-bar-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "peak-echarts-bar-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-bar-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Fund allocation flow with labelled nodes and a stat row",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-allocation-echarts-sankey-chart.tsx",
+          "target": "components/evilcharts/blocks/allocation-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "allocation-echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-sankey-chart"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "dependencies": [
+        "echarts",
+        "motion"
+      ],
+      "description": "Revenue sources converging through a hub and fanning back out, with a centered total",
+      "files": [
+        {
+          "path": "src/registry/blocks/echarts/b-pipeline-echarts-sankey-chart.tsx",
+          "target": "components/evilcharts/blocks/pipeline-echarts-sankey-chart.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "name": "pipeline-echarts-sankey-chart",
+      "registryDependencies": [
+        "@evilcharts/echarts-sankey-chart"
+      ],
+      "type": "registry:block"
+    }
+  ],
+  "name": "EvilCharts"
+}

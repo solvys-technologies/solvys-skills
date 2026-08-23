@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-stepper-bounded",
+  "registryDependencies": [
+    "input-stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1051,
+      "path": "registry/examples/input-stepper-bounded.tsx",
+      "sha256": "0b7027d3f2b0d0d608e239e97b7277f77454f306cce87231c74a0e69f13cbd24",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-stepper-bounded.json",
+  "title": "Input Stepper Bounded",
+  "type": "registry:example"
+}

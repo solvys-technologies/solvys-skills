@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-buffer-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2115,
+      "path": "src/registry/examples/echarts/ex-buffer-echarts-area-chart.tsx",
+      "sha256": "95cd5d04c5c1fa9496d8abaf2871652a50488fa22876e1cdc61acd371f545798",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-buffer-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

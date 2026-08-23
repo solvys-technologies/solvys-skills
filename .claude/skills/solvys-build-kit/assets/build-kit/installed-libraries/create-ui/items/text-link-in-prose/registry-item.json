@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "text-link-in-prose",
+  "registryDependencies": [
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 520,
+      "path": "registry/examples/text-link-in-prose.tsx",
+      "sha256": "b8546c44bab60658c11d52588f24becc1f8943df6b2e79cfdaca09cbbaae2714",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/text-link-in-prose.json",
+  "title": "TextLink In Prose",
+  "type": "registry:example"
+}

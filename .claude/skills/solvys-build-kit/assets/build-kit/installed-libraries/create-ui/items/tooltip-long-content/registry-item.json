@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tooltip-long-content",
+  "registryDependencies": [
+    "button",
+    "tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 575,
+      "path": "registry/examples/tooltip-long-content.tsx",
+      "sha256": "cc4d87dd081ef9b30910646b32642ca3a28d9f09c894c0afffee6e3d7e41e252",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tooltip-long-content.json",
+  "title": "Tooltip Long Content",
+  "type": "registry:example"
+}

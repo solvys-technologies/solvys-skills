@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "direction-aware-hover",
+  "shippedFiles": [
+    {
+      "bytes": 3551,
+      "path": "components/ui/direction-aware-hover.tsx",
+      "sha256": "8667bdfa7fe1e7ae0683cea7c09ee695de84fe9632ed25ccfa85ca8801736d70",
+      "target": "components/ui/direction-aware-hover.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/direction-aware-hover.json",
+  "title": "Direction Aware Hover",
+  "type": "registry:ui"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "alert-banner-minimal",
+  "registryDependencies": [
+    "alert-banner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2246,
+      "path": "registry/examples/alert-banner-minimal.tsx",
+      "sha256": "845973135b06122a7f7fd5bc81f45af15bb823caf4e65b095c20221f46b3ed7e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/alert-banner-minimal.json",
+  "title": "Alert Banner Minimal",
+  "type": "registry:example"
+}

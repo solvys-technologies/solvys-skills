@@ -1,0 +1,16 @@
+{
+  "schema": "solvys-factory.repair-handoff.v1",
+  "projectId": "replace-me",
+  "taskId": "replace-me",
+  "createdAt": null,
+  "status": "open",
+  "originalProblem": "",
+  "evidence": [],
+  "earliestSharedCause": "",
+  "owner": "CAO",
+  "blockedAction": "",
+  "nextSafeAction": "",
+  "requiredAcceptanceProof": [],
+  "protectedZones": [],
+  "humanGate": null
+}

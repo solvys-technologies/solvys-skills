@@ -1,0 +1,102 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Cross-chain swap widget with chain + token selectors, morphing views, animated flip and quote.",
+  "name": "swap",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 5186,
+      "path": "components/motion/swap.tsx",
+      "sha256": "f0b028ea58941350a4720f72eb6467bb0b390933167dd7848e04c52462582598",
+      "target": "@components/motion/swap.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 146,
+      "path": "components/motion/swap/constants.ts",
+      "sha256": "e9ee54fbbbb9556ff003493de4f64b56d346e512b132ee9e6ad3e1b1b4a6799d",
+      "target": "@components/motion/swap/constants.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6738,
+      "path": "components/motion/swap/controls.tsx",
+      "sha256": "9f04da5aa49e17f80abc1c84610e1d7ae5213b3462d56ae15b79d3752efb8198",
+      "target": "@components/motion/swap/controls.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3580,
+      "path": "components/motion/swap/data.ts",
+      "sha256": "c0574cf9ca06a379bcdb3cbd479f5439aaae11d54cf4d2c3b48fb71c57225f66",
+      "target": "@components/motion/swap/data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4039,
+      "path": "components/motion/swap/field.tsx",
+      "sha256": "5ecec48841901c800bc70c646c49a5b686cfdbf71acf715e762afb9614318bf2",
+      "target": "@components/motion/swap/field.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1328,
+      "path": "components/motion/swap/quote-row.tsx",
+      "sha256": "95980cc7c9d97833be669bb0e007d9e139d697d12af929eabe8064d512ae7a89",
+      "target": "@components/motion/swap/quote-row.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 8364,
+      "path": "components/motion/swap/token-picker.tsx",
+      "sha256": "c004b998d91123bcd90697d8f00ff2ca6768e0a206d968e0256ebbab3876f92b",
+      "target": "@components/motion/swap/token-picker.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 321,
+      "path": "components/motion/swap/types.ts",
+      "sha256": "939dc3f945b20d6afda3b34af15556da381d63af0875d4d050efbd705c6961ab",
+      "target": "@components/motion/swap/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 837,
+      "path": "components/motion/swap/utils.ts",
+      "sha256": "d0b26d47307f7f1d60b09de05c513ee193faec99b6fc9fd5ceb98af0e9529dcf",
+      "target": "@components/motion/swap/utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 2054,
+      "path": "components/motion/swap/token-badges.tsx",
+      "sha256": "8b11c6e766581a0c777d1e4b7d63a3109b9c4f60598c0563f4356e15f4567f1d",
+      "target": "@components/motion/swap/token-badges.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/swap.json",
+  "title": "Multi-chain Swap",
+  "type": "registry:block"
+}

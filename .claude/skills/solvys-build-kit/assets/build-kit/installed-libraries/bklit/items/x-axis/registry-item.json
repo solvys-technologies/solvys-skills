@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "description": "X-axis component for time-series charts",
+  "name": "x-axis",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 16354,
+      "path": "src/charts/x-axis.tsx",
+      "sha256": "1ffbac7e1c381305c07c0022e148a9fccee98a67a9c46d569671e0e574f06d5f",
+      "target": "components/charts/x-axis.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/x-axis.json",
+  "status": "installed",
+  "title": "X Axis",
+  "type": "registry:component"
+}

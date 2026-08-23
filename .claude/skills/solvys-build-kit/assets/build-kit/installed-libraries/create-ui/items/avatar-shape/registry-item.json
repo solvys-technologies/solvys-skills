@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-shape",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 904,
+      "path": "registry/examples/avatar-shape.tsx",
+      "sha256": "9a11f2063a6985934028855fa70d41a33eaa95366436d39038088fd135b38e3f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-shape.json",
+  "title": "Avatar Shape",
+  "type": "registry:example"
+}

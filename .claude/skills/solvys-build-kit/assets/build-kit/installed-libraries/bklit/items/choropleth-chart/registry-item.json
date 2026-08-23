@@ -1,0 +1,75 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@types/geojson",
+    "@visx/geo@4.0.1-alpha.0",
+    "@visx/responsive@4.0.1-alpha.0",
+    "@visx/zoom@4.0.1-alpha.0",
+    "d3-geo",
+    "topojson-client",
+    "motion"
+  ],
+  "description": "A geographic map chart with zoom, pan, and data visualization",
+  "name": "choropleth-chart",
+  "registryDependencies": [
+    "@bklit/chart-animation",
+    "@bklit/utils",
+    "@bklit/chart-utils",
+    "@bklit/chart-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 13305,
+      "path": "src/charts/choropleth/choropleth-chart.tsx",
+      "sha256": "cf81dd395e771c140b2985e12e5a1bccc5205e46d81b808c6ff5beded16150d7",
+      "target": "components/charts/choropleth/choropleth-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7035,
+      "path": "src/charts/choropleth/choropleth-context.tsx",
+      "sha256": "3f96fd031e35c7fc3d356f6db34f3bcc846df1a29b3fb0b3a1943acf9d084692",
+      "target": "components/charts/choropleth/choropleth-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 606,
+      "path": "src/charts/chart-scale.ts",
+      "sha256": "50cf8193194aa05948a074030a7830a95f25af89c529e9c26fecbc08de3b133a",
+      "target": "components/charts/chart-scale.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 8856,
+      "path": "src/charts/choropleth/choropleth-feature.tsx",
+      "sha256": "d00f6ecd233f86b5d246be803c10de9896e03e4b90ccc7dc3a7830222f31e810",
+      "target": "components/charts/choropleth/choropleth-feature.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 970,
+      "path": "src/charts/choropleth/choropleth-graticule.tsx",
+      "sha256": "3ebe4a3cf6357e1b00428dc6565b1ced3fbfcec2b859e564a1be12d2a4eb1236",
+      "target": "components/charts/choropleth/choropleth-graticule.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3482,
+      "path": "src/charts/choropleth/choropleth-tooltip.tsx",
+      "sha256": "fc3add2a26fdf74351d13b3ea9dedfbfba6d69dfa4b78c9c7ed9963ff74d2f27",
+      "target": "components/charts/choropleth/choropleth-tooltip.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 730,
+      "path": "src/charts/choropleth/index.ts",
+      "sha256": "e73771863581477e356e20ef419d4b690a307fcbd6ed0d31b1cd4c61302c85e9",
+      "target": "components/charts/choropleth/index.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/choropleth-chart.json",
+  "status": "installed",
+  "title": "Choropleth Map",
+  "type": "registry:component"
+}

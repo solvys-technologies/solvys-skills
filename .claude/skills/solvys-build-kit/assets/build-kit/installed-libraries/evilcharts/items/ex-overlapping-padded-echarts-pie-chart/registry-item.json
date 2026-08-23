@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-overlapping-padded-echarts-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1319,
+      "path": "src/registry/examples/echarts/ex-overlapping-padded-echarts-pie-chart.tsx",
+      "sha256": "1ae2c70f0a1d11f1c4ac60100268a7773c7e1a9b05fad62946abeabe10b79218",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-overlapping-padded-echarts-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

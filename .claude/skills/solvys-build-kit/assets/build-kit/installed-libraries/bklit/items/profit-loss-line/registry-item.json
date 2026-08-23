@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/curve@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0"
+  ],
+  "description": "Sign-colored line segments for profit and loss on LineChart",
+  "name": "profit-loss-line",
+  "registryDependencies": [
+    "@bklit/line-chart",
+    "@bklit/grid",
+    "@bklit/x-axis",
+    "@bklit/chart-tooltip",
+    "@bklit/legend",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5531,
+      "path": "src/charts/profit-loss-line.tsx",
+      "sha256": "41dd75df1ff416a8317ee7bfdf338eaf5768485452fe02011b8a09a12351f652",
+      "target": "components/charts/profit-loss-line.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2800,
+      "path": "src/charts/profit-loss-segments.ts",
+      "sha256": "8ef6808285715cceba4e429eb77bdcaffd655b2382797343a03ed1740310af8b",
+      "target": "lib/profit-loss-segments.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 742,
+      "path": "src/charts/profit-loss-legend-hover.tsx",
+      "sha256": "bb3f364e1354a3103cb8432b173b7cac1cdc0df0c96cd26fede6c9dc9276a153",
+      "target": "components/charts/profit-loss-legend-hover.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1466,
+      "path": "src/charts/profit-loss-legend.tsx",
+      "sha256": "e462cd078f600e10e187516db49a5ecbac03bd0e527e2ad8b027f70588fcdd5f",
+      "target": "components/charts/profit-loss-legend.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/profit-loss-line.json",
+  "status": "installed",
+  "title": "Profit/Loss Line",
+  "type": "registry:component"
+}

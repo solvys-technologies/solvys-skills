@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "progress-example",
+  "registryDependencies": [
+    "field",
+    "progress",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 8076,
+      "path": "registry/examples/progress-example.tsx",
+      "sha256": "f7d2878c8611884931749bfe64d8089ac3d96ece00fd2123f669507bbebaff4d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/progress-example.json",
+  "title": "Progress",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "stepper-states",
+  "registryDependencies": [
+    "stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1733,
+      "path": "registry/examples/stepper-states.tsx",
+      "sha256": "035f47453a34c19b31b445c9f022a6a69cfa4be2e236d3a7be033133ae8ea3b1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/stepper-states.json",
+  "title": "Stepper States",
+  "type": "registry:example"
+}

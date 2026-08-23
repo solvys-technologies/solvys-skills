@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "placeholders-and-vanish-input",
+  "shippedFiles": [
+    {
+      "bytes": 8376,
+      "path": "components/ui/placeholders-and-vanish-input.tsx",
+      "sha256": "0decb6b2f53e2896b784c0e3fedeaf8fdec60aa5cd3d4bcdea72a6d6d6d27e3d",
+      "target": "components/ui/placeholders-and-vanish-input.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/placeholders-and-vanish-input.json",
+  "title": "Placeholders And Vanish Input",
+  "type": "registry:ui"
+}

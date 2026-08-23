@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-as-child",
+  "registryDependencies": [
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 637,
+      "path": "registry/examples/button-as-child.tsx",
+      "sha256": "48845d78a3fe80be46159a92863eb0f43a16d0fd46eb93272262b1c42f76ce8f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-as-child.json",
+  "title": "Button As Child",
+  "type": "registry:example"
+}

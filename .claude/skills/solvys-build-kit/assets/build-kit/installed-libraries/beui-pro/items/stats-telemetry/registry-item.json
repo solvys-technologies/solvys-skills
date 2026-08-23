@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A live operations overview with a rotating regional feed, rolling totals, a responsive KPI stack, and transform-driven activity bars.",
+  "name": "stats-telemetry",
+  "registryDependencies": [
+    "@beui/number-ticker"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 9727,
+      "path": "components/premium/stats/stats-telemetry.tsx",
+      "sha256": "010d4ba9f5cc2123919e180d6535b29d1fad11cc7106cca7c5ea1c07851bacb8",
+      "target": "@components/premium/stats/stats-telemetry.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/stats-telemetry.json",
+  "title": "Telemetry console",
+  "type": "registry:block"
+}

@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "blog-with-search",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/blog-with-search.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

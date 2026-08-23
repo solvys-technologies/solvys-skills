@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "background-gradient-animation",
+  "shippedFiles": [
+    {
+      "bytes": 6480,
+      "path": "components/ui/background-gradient-animation.tsx",
+      "sha256": "162bb2955384e56b221a375c42f8980569888e7d0bcdac5ebbc94450ce09004e",
+      "target": "components/ui/background-gradient-animation.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/background-gradient-animation.json",
+  "title": "Background Gradient Animation",
+  "type": "registry:ui"
+}

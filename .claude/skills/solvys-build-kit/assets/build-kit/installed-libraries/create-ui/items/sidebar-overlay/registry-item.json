@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "sidebar-overlay",
+  "registryDependencies": [
+    "sidebar",
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7625,
+      "path": "registry/examples/sidebar-overlay.tsx",
+      "sha256": "8296a785d7b45bc2ab521ed0558a4d19e2bf66d260035bcde0ae6c720def9f83",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/sidebar-overlay.json",
+  "title": "Sidebar",
+  "type": "registry:example"
+}

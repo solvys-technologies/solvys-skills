@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-expanded-type-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1836,
+      "path": "src/registry/examples/echarts/ex-expanded-type-echarts-area-chart.tsx",
+      "sha256": "3cbd06477e46c717716fbe3da7e54938559ab4bae4b7453c357b2c6d6f6c2cee",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-expanded-type-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

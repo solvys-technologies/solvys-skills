@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "ogl",
+    "tailwind-merge"
+  ],
+  "description": "A centered hero with paired CTAs over a grainient demo stage: an AI knowledge-base answer that streams a cited, step-by-step response in a frosted glass card.",
+  "name": "hero-centered-demo",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7028,
+      "path": "components/premium/hero-sections/hero-sections.tsx",
+      "sha256": "f23c806847bce89b7a5b1835cc112633829a9f2bbaa17294d708e81f33424451",
+      "target": "@components/premium/hero-sections/hero-sections.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10431,
+      "path": "components/premium/feature-sections/grainient.tsx",
+      "sha256": "577626ef2639316e0bd5e9beb936234537afc0ce28b394be62f0090ca6ef1eb5",
+      "target": "@components/premium/feature-sections/grainient.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/hero-centered-demo.json",
+  "title": "Centered demo",
+  "type": "registry:block"
+}

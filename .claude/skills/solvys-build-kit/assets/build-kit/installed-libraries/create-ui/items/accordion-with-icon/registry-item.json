@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "accordion-with-icon",
+  "registryDependencies": [
+    "accordion"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 650,
+      "path": "registry/examples/accordion-with-icon.tsx",
+      "sha256": "b5c0fa50d70781f5e65da0776dcc311f3eedc7ac8dcbdc6ad3cd49e3cf6e0376",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/accordion-with-icon.json",
+  "title": "Accordion With Icon",
+  "type": "registry:example"
+}

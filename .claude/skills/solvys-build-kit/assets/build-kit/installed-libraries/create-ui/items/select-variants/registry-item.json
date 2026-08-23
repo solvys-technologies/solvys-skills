@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-variants",
+  "registryDependencies": [
+    "select"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2226,
+      "path": "registry/examples/select-variants.tsx",
+      "sha256": "ee08f310c7491a494fb18d28536701facef78a931f3c3884a63537f0979b790d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-variants.json",
+  "title": "Select Variants",
+  "type": "registry:example"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-rich-items",
+  "registryDependencies": [
+    "select",
+    "@create-ui/assets"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1491,
+      "path": "registry/examples/select-rich-items.tsx",
+      "sha256": "ee975f7813d690be5a2d0c48f3613f535c3507e5edf12b13d16a37777b034317",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-rich-items.json",
+  "title": "Select Rich Items",
+  "type": "registry:example"
+}

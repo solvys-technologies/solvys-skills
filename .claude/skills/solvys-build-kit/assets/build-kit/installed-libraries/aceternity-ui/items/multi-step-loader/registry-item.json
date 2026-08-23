@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+  ],
+  "name": "multi-step-loader",
+  "shippedFiles": [
+    {
+      "bytes": 4106,
+      "path": "components/ui/multi-step-loader.tsx",
+      "sha256": "12abf9ff2c8b8893c57e85e9bee90b8eb2850b512aa1a150cdf38b00149a3d27",
+      "target": "components/ui/multi-step-loader.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/multi-step-loader.json",
+  "title": "Multi Step Loader",
+  "type": "registry:ui"
+}

@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "password-strength",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/password-strength.json",
+  "status": "access-gated",
+  "title": "Password Strength",
+  "type": "registry:ui"
+}

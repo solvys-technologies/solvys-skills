@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "evervault-card",
+  "shippedFiles": [
+    {
+      "bytes": 3427,
+      "path": "components/ui/evervault-card.tsx",
+      "sha256": "03478ab4a980e8dd6a998311a0f703037ea17d5023aaa74eb8394c10c6723489",
+      "target": "components/ui/evervault-card.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/evervault-card.json",
+  "title": "Evervault Card",
+  "type": "registry:ui"
+}

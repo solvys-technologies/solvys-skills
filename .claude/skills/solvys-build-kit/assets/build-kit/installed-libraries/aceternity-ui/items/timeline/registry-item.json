@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "timeline",
+  "shippedFiles": [
+    {
+      "bytes": 3361,
+      "path": "components/ui/timeline.tsx",
+      "sha256": "1b003835c83d3a0480f958ba5634aaee9009a83d7227be549b5f5c79d05543af",
+      "target": "components/ui/timeline.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/timeline.json",
+  "title": "Timeline",
+  "type": "registry:ui"
+}

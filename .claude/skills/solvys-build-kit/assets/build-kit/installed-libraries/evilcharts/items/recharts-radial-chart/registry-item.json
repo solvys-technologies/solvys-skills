@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion"
+  ],
+  "description": "Radial bar chart component with full and semi-circle variants",
+  "name": "recharts-radial-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart",
+    "@evilcharts/recharts-tooltip",
+    "@evilcharts/recharts-legend",
+    "@evilcharts/recharts-background"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 17079,
+      "path": "src/registry/charts/recharts-radial-chart.tsx",
+      "sha256": "1445226e0365c4b4747da16e17cd86e9d7bdf96bf1a90cfa9a95cd9b8e6e6d63",
+      "target": "components/evilcharts/charts/recharts-radial-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-radial-chart.json?raw=1",
+  "type": "registry:component"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "label-example",
+  "registryDependencies": [
+    "badge",
+    "checkbox",
+    "field",
+    "input",
+    "label",
+    "textarea",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 8758,
+      "path": "registry/examples/label-example.tsx",
+      "sha256": "acd336fa8be20f2d7fa6546942ba9bb82f9f09c7bffdc485612abb5b11eabc98",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/label-example.json",
+  "title": "Label",
+  "type": "registry:example"
+}

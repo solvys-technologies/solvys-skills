@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "segmented-control-appearance",
+  "registryDependencies": [
+    "segmented-control"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1116,
+      "path": "registry/examples/segmented-control-appearance.tsx",
+      "sha256": "c90d3ebfbdb93dcb14313de1cebe086ecffb77b2285b88140c36ff19247b7341",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/segmented-control-appearance.json",
+  "title": "SegmentedControl Appearance",
+  "type": "registry:example"
+}

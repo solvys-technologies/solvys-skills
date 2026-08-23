@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/curve@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "Composable line-chart demo for Open in v0",
+  "name": "line-chart-example",
+  "registryDependencies": [
+    "@bklit/line-chart",
+    "@bklit/grid",
+    "@bklit/x-axis",
+    "@bklit/chart-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 962,
+      "path": "registry/examples/line-chart.tsx",
+      "sha256": "b7405993c6f0b1d4d4a253e3ef6062d16d98cc98283cdefb32cb9f1f953e8248",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 277,
+      "path": "registry/examples/line-chart-index.ts",
+      "sha256": "8262e3bcd501d48ca612659d03c21df7e6d83eeefa34b1b8275e9a5c60a8046f",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/line-chart-example.json",
+  "status": "installed",
+  "title": "Line Chart Example",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "moving-border",
+  "shippedFiles": [
+    {
+      "bytes": 3085,
+      "path": "components/ui/moving-border.tsx",
+      "sha256": "b1cf4ffc66cc3c220383fb0904d7505265bf65ebfbec2e714763114599ea8b25",
+      "target": "components/ui/moving-border.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/moving-border.json",
+  "title": "Moving Border",
+  "type": "registry:ui"
+}

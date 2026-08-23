@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-default-type-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1835,
+      "path": "src/registry/examples/echarts/ex-default-type-echarts-area-chart.tsx",
+      "sha256": "e0e82fc07067217ab9a81811b43321ea54187cc51caae495e07a2dfd016a8a19",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-default-type-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

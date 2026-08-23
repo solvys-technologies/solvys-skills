@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "infinite-moving-cards",
+  "shippedFiles": [
+    {
+      "bytes": 3675,
+      "path": "components/ui/infinite-moving-cards.tsx",
+      "sha256": "428312dab8233d627625e1b27d34709ac603a5d13fa12bcb0928a801d11031fc",
+      "target": "components/ui/infinite-moving-cards.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/infinite-moving-cards.json",
+  "title": "Infinite Moving Cards",
+  "type": "registry:ui"
+}

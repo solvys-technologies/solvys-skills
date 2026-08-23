@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-solid-stroke-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1978,
+      "path": "src/registry/examples/echarts/ex-solid-stroke-echarts-area-chart.tsx",
+      "sha256": "fc426a80d34d9e1a4dabeb317cf4d787136dd5ffdb7800c4be00121646997a26",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-solid-stroke-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "social-login-button-sizes",
+  "registryDependencies": [
+    "social-login-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 603,
+      "path": "registry/examples/social-login-button-sizes.tsx",
+      "sha256": "3a2bd4aec90db7b9eee49fa59b9fb94bf641e551bb4d6652dba286d25c7b8a45",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/social-login-button-sizes.json",
+  "title": "Social Login Button Sizes",
+  "type": "registry:example"
+}

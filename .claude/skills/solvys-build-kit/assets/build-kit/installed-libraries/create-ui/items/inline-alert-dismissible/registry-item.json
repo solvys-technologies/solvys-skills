@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "inline-alert-dismissible",
+  "registryDependencies": [
+    "inline-alert",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1232,
+      "path": "registry/examples/inline-alert-dismissible.tsx",
+      "sha256": "0d7d8aab3cee2370c4f6d8670fb23ae136fd5a8202327a9aa35226dee0c98d54",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/inline-alert-dismissible.json",
+  "title": "Inline Alert Dismissible",
+  "type": "registry:example"
+}

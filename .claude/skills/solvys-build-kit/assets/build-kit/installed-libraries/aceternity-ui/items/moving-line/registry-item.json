@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "moving-line",
+  "shippedFiles": [
+    {
+      "bytes": 2646,
+      "path": "components/ui/moving-line.tsx",
+      "sha256": "f5126c9d36a4a9350903f32339cac8f70a19dbd6d652f35edaf012203cc8640c",
+      "target": "components/ui/moving-line.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/moving-line.json",
+  "title": "Moving Line",
+  "type": "registry:ui"
+}

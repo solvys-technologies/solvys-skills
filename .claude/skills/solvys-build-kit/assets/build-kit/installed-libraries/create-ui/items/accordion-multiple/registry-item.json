@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "accordion-multiple",
+  "registryDependencies": [
+    "accordion"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 763,
+      "path": "registry/examples/accordion-multiple.tsx",
+      "sha256": "e458bac70aeb8c3348777485e09190a4ef185d172b3cf50946690df24ba7f296",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/accordion-multiple.json",
+  "title": "Accordion Multiple",
+  "type": "registry:example"
+}

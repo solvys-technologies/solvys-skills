@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "fab-button-appearance",
+  "registryDependencies": [
+    "fab-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1424,
+      "path": "registry/examples/fab-button-appearance.tsx",
+      "sha256": "e65a7d90939333dab7ba101aff7cf7efda73157bd6929a6e8c3196f2c8e315a7",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/fab-button-appearance.json",
+  "title": "FAB Button Appearance",
+  "type": "registry:example"
+}

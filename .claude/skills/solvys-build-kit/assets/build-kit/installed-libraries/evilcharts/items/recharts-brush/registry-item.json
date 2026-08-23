@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts"
+  ],
+  "name": "recharts-brush",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 24659,
+      "path": "src/registry/ui/recharts-brush.tsx",
+      "sha256": "b7299eb13167fcb2b7786efcd630cf9273eb0e9c5660a34c2e919461a3d7ceb9",
+      "target": "components/evilcharts/ui/recharts-brush.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-brush.json?raw=1",
+  "type": "registry:component"
+}

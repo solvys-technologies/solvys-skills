@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "social-login-button-shape",
+  "registryDependencies": [
+    "social-login-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 383,
+      "path": "registry/examples/social-login-button-shape.tsx",
+      "sha256": "53cfac3d8daf300faf5e42169d53bce4ed5219a079d2e2878452ab0bcf38d5a3",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/social-login-button-shape.json",
+  "title": "Social Login Button Shape",
+  "type": "registry:example"
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/pattern@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "Pattern fill for the plot area when grid lines are hidden",
+  "name": "background",
+  "registryDependencies": [
+    "@bklit/chart-context"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6277,
+      "path": "src/charts/background.tsx",
+      "sha256": "de5422be53c88fadb5ef63b9bc4ecffbf2f1a3b28a3fd64f1fe0894384d2815b",
+      "target": "components/charts/background.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4574,
+      "path": "src/charts/pattern-preset.tsx",
+      "sha256": "b877d4479a805dd72d7daee5be4cc6b82243b9f4026f84e0085d0639dcb6e2d0",
+      "target": "components/charts/pattern-preset.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 948,
+      "path": "src/charts/visx-pattern.tsx",
+      "sha256": "987831a15796d47edc1e0a7783f239a78914f3e2e038ed082d66e8fcad12e016",
+      "target": "components/charts/visx-pattern.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/background.json",
+  "status": "installed",
+  "title": "Chart Background",
+  "type": "registry:component"
+}

@@ -1,0 +1,37 @@
+{
+  "fontVariant": {
+    "body": {
+      "family": "'Geist Variable', sans-serif",
+      "import": "Geist",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-body"
+    },
+    "display": {
+      "family": "'Geist Variable', sans-serif",
+      "import": "Geist",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-display"
+    },
+    "numeric": {
+      "family": "'Geist Mono Variable', monospace",
+      "import": "Geist_Mono",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-numeric"
+    }
+  },
+  "name": "font-variant-v1",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/font-variant-v1.json",
+  "status": "installed",
+  "title": "V1",
+  "type": "registry:font-variant"
+}

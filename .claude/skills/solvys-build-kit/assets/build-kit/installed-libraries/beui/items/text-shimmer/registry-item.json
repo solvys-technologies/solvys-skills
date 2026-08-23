@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "tailwind-merge"
+  ],
+  "description": "Gradient sweep across text for loading or emphasis.",
+  "name": "text-shimmer",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 784,
+      "path": "components/motion/text-shimmer.tsx",
+      "sha256": "9e616a70e5adb21ab503c1f080b2a9a7fd9ac6a1e236f424c825d85698ca0e04",
+      "target": "@components/motion/text-shimmer.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 538,
+      "path": "lib/text-shimmer.ts",
+      "sha256": "02fca8d4ae0c0c593eb2253e56c141c1731912861fbf20a0a0b728af38a6c0b9",
+      "target": "@lib/text-shimmer.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/text-shimmer.json",
+  "title": "Text Animation Text Shimmer",
+  "type": "registry:component"
+}

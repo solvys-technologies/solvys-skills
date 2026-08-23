@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "dither-shader",
+  "shippedFiles": [
+    {
+      "bytes": 14850,
+      "path": "components/ui/dither-shader.tsx",
+      "sha256": "b3c1064c304d4c6648335febbb12a541f7c81905f1998e72202adb661ffc7503",
+      "target": "components/ui/dither-shader.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/dither-shader.json",
+  "title": "Dither Shader",
+  "type": "registry:ui"
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@number-flow/react",
+    "@visx/group@4.0.1-alpha.0",
+    "@visx/responsive@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "d3-shape",
+    "motion"
+  ],
+  "description": "A composable pie chart with animations and customizable slices",
+  "name": "pie-chart",
+  "registryDependencies": [
+    "@bklit/chart-animation",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 14240,
+      "path": "src/charts/pie-chart.tsx",
+      "sha256": "d6e0516e1854379fe66489d0e1e9551d583302b8d6e0303560e11eaa8ab9f883",
+      "target": "components/charts/pie-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5087,
+      "path": "src/charts/pie-context.tsx",
+      "sha256": "c3ebffd2c228c5e3973e824c3442b368ada81396bad45d393fb7d1c2b8495df5",
+      "target": "components/charts/pie-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 12922,
+      "path": "src/charts/pie-slice.tsx",
+      "sha256": "2034d79ebd5701093ca9135ac306a7cdeb26439d0e150e208e92db59ecfb8120",
+      "target": "components/charts/pie-slice.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3126,
+      "path": "src/charts/chart-stat-flow.tsx",
+      "sha256": "687499a57c5e0493e710396badfe106f939a308dcda73e75966ea49b24819139",
+      "target": "components/charts/chart-stat-flow.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4371,
+      "path": "src/charts/pie-center-shell.tsx",
+      "sha256": "eecb866ba893aa6a3bba838c80b96a5799344e6bb8a2f40297b01059a8447f14",
+      "target": "components/charts/pie-center-shell.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3909,
+      "path": "src/charts/pie-center.tsx",
+      "sha256": "ece9a83b9faaf34a45313fb9535482328f30b9b7521373f4b2140915709b7e4e",
+      "target": "components/charts/pie-center.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 720,
+      "path": "src/charts/chart-center-typography.ts",
+      "sha256": "5b76892ad167d83f58817f0d4af2d52283623a2501e810d2fc126872d2843dac",
+      "target": "components/charts/chart-center-typography.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/pie-chart.json",
+  "status": "installed",
+  "title": "Pie Chart",
+  "type": "registry:component"
+}

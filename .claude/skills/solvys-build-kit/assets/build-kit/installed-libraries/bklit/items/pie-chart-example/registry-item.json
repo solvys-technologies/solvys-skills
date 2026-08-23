@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "Composable pie-chart demo for Open in v0",
+  "name": "pie-chart-example",
+  "registryDependencies": [
+    "@bklit/pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 728,
+      "path": "registry/examples/pie-chart.tsx",
+      "sha256": "e2751b0a892e644349943a2ab3eda87eac6e7ec9c95de812f4ba720998af866b",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 219,
+      "path": "registry/examples/pie-chart-index.ts",
+      "sha256": "2ee8b4a0804fa0458133295e89c11cb996e0207a4b0106c5cbd8536d5d567147",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/pie-chart-example.json",
+  "status": "installed",
+  "title": "Pie Chart Example",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "spinner-variants",
+  "registryDependencies": [
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 947,
+      "path": "registry/examples/spinner-variants.tsx",
+      "sha256": "3c38fb52a9c3787d9c90f857df2a26cd0ac90493f4e4ab7b9d5e23c44b43d514",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/spinner-variants.json",
+  "title": "Spinner Variants",
+  "type": "registry:example"
+}

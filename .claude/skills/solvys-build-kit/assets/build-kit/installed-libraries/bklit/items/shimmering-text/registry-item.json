@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "motion"
+  ],
+  "description": "Per-character shimmer animation for loading labels and badges",
+  "name": "shimmering-text",
+  "registryDependencies": [
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2332,
+      "path": "src/components/shimmering-text.tsx",
+      "sha256": "4e0b24ed003072e763b657c27bc0e183dc8bcb07e532cc3586d7112a9c2b1eaf",
+      "target": "components/shimmering-text.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/shimmering-text.json",
+  "status": "installed",
+  "title": "Shimmering Text",
+  "type": "registry:component"
+}

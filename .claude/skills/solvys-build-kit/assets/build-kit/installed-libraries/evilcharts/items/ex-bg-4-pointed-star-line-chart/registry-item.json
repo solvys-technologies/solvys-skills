@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bg-4-pointed-star-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1960,
+      "path": "src/registry/examples/recharts/ex-bg-4-pointed-star-line-chart.tsx",
+      "sha256": "55fff1a7a338b965c69acfc75d6b5e7a42cb424cd485d392fb8954194a1806e0",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bg-4-pointed-star-line-chart.json?raw=1",
+  "type": "registry:block"
+}

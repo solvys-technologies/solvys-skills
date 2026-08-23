@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "toast-without-icon",
+  "registryDependencies": [
+    "toast",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 501,
+      "path": "registry/examples/toast-without-icon.tsx",
+      "sha256": "fe1429d865d2906a0735009c46b4a6a2280303559f32e3c15dff6ad5d56a1e74",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/toast-without-icon.json",
+  "title": "Toast Without Icon",
+  "type": "registry:example"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "breadcrumb-sizes",
+  "registryDependencies": [
+    "breadcrumb",
+    "avatar",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2910,
+      "path": "registry/examples/breadcrumb-sizes.tsx",
+      "sha256": "109ed832a8e81dfb804c4bdf6d1935e24404f1e1eb63625d189c439d5a391dfb",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/breadcrumb-sizes.json",
+  "title": "Breadcrumb Sizes",
+  "type": "registry:example"
+}

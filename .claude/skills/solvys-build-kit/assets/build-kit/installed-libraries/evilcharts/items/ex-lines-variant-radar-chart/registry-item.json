@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-lines-variant-radar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-radar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1520,
+      "path": "src/registry/examples/recharts/ex-lines-variant-radar-chart.tsx",
+      "sha256": "9e04929a218a8762a3a7584196a5f63c2a26fe487ec29c5cb48d391e53535241",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-lines-variant-radar-chart.json?raw=1",
+  "type": "registry:block"
+}

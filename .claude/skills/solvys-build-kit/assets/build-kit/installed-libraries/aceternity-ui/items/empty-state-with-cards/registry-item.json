@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "empty-state-with-cards",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/empty-state-with-cards.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

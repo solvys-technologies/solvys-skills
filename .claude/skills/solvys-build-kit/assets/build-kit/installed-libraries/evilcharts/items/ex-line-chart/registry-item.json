@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1936,
+      "path": "src/registry/examples/recharts/ex-line-chart.tsx",
+      "sha256": "3d954380a83bfbcf041e0b0de627e0a0686e7a410f727d6228d86c475727701b",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-line-chart.json?raw=1",
+  "type": "registry:block"
+}

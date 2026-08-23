@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "alert-banner-appearance",
+  "registryDependencies": [
+    "alert-banner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2183,
+      "path": "registry/examples/alert-banner-appearance.tsx",
+      "sha256": "c0be8948e28d252e58d07dea264387cd89d7d704c9593e5bb590281b9aa7dac2",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/alert-banner-appearance.json",
+  "title": "Alert Banner Appearance",
+  "type": "registry:example"
+}

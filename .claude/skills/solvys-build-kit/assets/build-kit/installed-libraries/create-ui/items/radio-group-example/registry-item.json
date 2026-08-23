@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "radio-group-example",
+  "registryDependencies": [
+    "radio-group",
+    "radio",
+    "field",
+    "label",
+    "badge",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 15383,
+      "path": "registry/examples/radio-group-example.tsx",
+      "sha256": "71a7bd4fb7c9c6a0994b03ad5f9b712ca4e929c262bf62650cbd23660bc33e3f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/radio-group-example.json",
+  "title": "Radio Group",
+  "type": "registry:example"
+}

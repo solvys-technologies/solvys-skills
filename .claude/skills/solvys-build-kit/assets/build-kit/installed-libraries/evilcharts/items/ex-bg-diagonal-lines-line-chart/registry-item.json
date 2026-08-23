@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bg-diagonal-lines-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1960,
+      "path": "src/registry/examples/recharts/ex-bg-diagonal-lines-line-chart.tsx",
+      "sha256": "991b68a3c4f318ce36fbf4c96904af9f0975adae2c0897e5d1c7eab3e4f13c27",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bg-diagonal-lines-line-chart.json?raw=1",
+  "type": "registry:block"
+}

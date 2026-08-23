@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "iOS-style picker wheel: a 3D drum on native momentum scroll that snaps to the nearest notch, with wheel, drag and keyboard control. Composes side by side for date and time pickers, reduced-motion safe.",
+  "name": "wheel-picker",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 20817,
+      "path": "components/motion/wheel-picker.tsx",
+      "sha256": "76c161b63fa922824cb15041c40117d57efd25a62281244125ba14aff1520405",
+      "target": "@components/motion/wheel-picker.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5012,
+      "path": "lib/tick-sound.ts",
+      "sha256": "9abf7f8f710d5a9fe010ab77f89e6735ad065658c48043e67774506a4efcbaf0",
+      "target": "@lib/tick-sound.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/wheel-picker.json",
+  "title": "Wheel Picker",
+  "type": "registry:component"
+}

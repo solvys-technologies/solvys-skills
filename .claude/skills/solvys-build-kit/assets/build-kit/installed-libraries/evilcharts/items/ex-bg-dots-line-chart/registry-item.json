@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bg-dots-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1950,
+      "path": "src/registry/examples/recharts/ex-bg-dots-line-chart.tsx",
+      "sha256": "8905907fa1bde6cf27eab10bf62967bb362dab1558a20b2295559348334123ed",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bg-dots-line-chart.json?raw=1",
+  "type": "registry:block"
+}

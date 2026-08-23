@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-shapes",
+  "registryDependencies": [
+    "checkbox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 383,
+      "path": "registry/examples/checkbox-shapes.tsx",
+      "sha256": "4d7b09675da4e06a759df19f71ecbe3947a1453a2d02e44b12de44b4e410f9b4",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-shapes.json",
+  "title": "Checkbox Shapes",
+  "type": "registry:example"
+}

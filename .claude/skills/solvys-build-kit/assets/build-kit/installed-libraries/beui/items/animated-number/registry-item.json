@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Spring-driven count-up triggered when in view.",
+  "name": "animated-number",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 1327,
+      "path": "components/motion/animated-number.tsx",
+      "sha256": "d3b02b6b5718218c1f56ce7620b704436663173144b2ce3af8189897302ef7c2",
+      "target": "@components/motion/animated-number.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/animated-number.json",
+  "title": "Number Animation Animated Number",
+  "type": "registry:component"
+}

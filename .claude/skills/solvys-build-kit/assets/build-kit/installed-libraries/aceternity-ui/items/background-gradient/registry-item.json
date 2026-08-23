@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "background-gradient",
+  "shippedFiles": [
+    {
+      "bytes": 2450,
+      "path": "components/ui/background-gradient.tsx",
+      "sha256": "b00bbd960069dac2740889af5bdffcc4eaa245b465de7433a145742e628799f4",
+      "target": "components/ui/background-gradient.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/background-gradient.json",
+  "title": "Background Gradient",
+  "type": "registry:ui"
+}

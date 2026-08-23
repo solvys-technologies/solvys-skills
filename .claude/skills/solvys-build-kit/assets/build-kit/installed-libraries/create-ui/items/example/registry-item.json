@@ -1,0 +1,16 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "example",
+  "shippedFiles": [
+    {
+      "bytes": 1743,
+      "path": "registry/components/example.tsx",
+      "sha256": "30ae598dccade1d4216189359cf780989cded12c6b1cdc8dba3b81ac34ae1a1e",
+      "target": null,
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/example.json",
+  "title": "Example",
+  "type": "registry:component"
+}

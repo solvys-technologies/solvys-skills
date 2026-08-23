@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "combobox-sizes",
+  "registryDependencies": [
+    "combobox"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 966,
+      "path": "registry/examples/combobox-sizes.tsx",
+      "sha256": "a25d6c0a7335b749c3b7a1c679d4658984a279557c71ae6b85d110be1c3bbfcc",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/combobox-sizes.json",
+  "title": "Combobox Sizes",
+  "type": "registry:example"
+}

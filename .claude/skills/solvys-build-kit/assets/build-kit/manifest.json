@@ -1,24 +1,67 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "kit": "solvys-build-kit",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "designSource": {
+    "editor": "Pen.dev",
+    "canonicalFile": "solvys-build-kit.pen",
+    "sourceStatus": "candidate",
+    "penpotStatus": "retired-read-only"
+  },
+  "sourceRegistry": "library-sources.json",
   "runtime": {
     "required": {"react": ">=18"},
-    "optional": {"@xyflow/react": "Use through a project-owned adapter for large architecture graphs."}
+    "optional": {
+      "@xyflow/react": "Use through a project-owned adapter for large architecture graphs.",
+      "@tanstack/charts": "0.9.0; use the project-owned adapter and keep chart definitions in product code.",
+      "react": "Use the target project's React version for the TanStack React adapter.",
+      "react-dom": "Use the target project's React DOM version for the TanStack React adapter."
+    }
   },
-  "coreFiles": ["src/contracts.ts", "src/solvys-build-kit.css"],
+  "coreFiles": ["src/contracts.ts", "src/chart-contracts.ts", "src/solvys-build-kit.css"],
+  "approvedLibraries": [
+    {"id":"beui","role":"primary interface and motion blocks","appRegistry":"installed-registries/beui/app-blocks.json","autoUpdate":false,"promotion":"manual-snapshot"},
+    {"id":"beui-pro","role":"private premium interface and motion blocks","appRegistry":"installed-registries/beui-pro/app-blocks.json","autoUpdate":false,"promotion":"manual-snapshot"},
+    {"id":"evilcharts","role":"primary design-first chart blocks","autoUpdate":false,"promotion":"manual-snapshot"},
+    {"id":"tanstack-charts","role":"installed typed chart grammar and React adapter","autoUpdate":false,"promotion":"manifest-controlled"},
+    {"id":"mapcn","role":"map and geospatial registry blocks","autoUpdate":false,"promotion":"manual-snapshot"},
+    {"id":"aceternity-ui","role":"motion and interface registry blocks","autoUpdate":false,"promotion":"manual-snapshot"},
+    {"id":"create-ui","role":"copy-paste UI registry source","autoUpdate":false,"promotion":"manual-snapshot"},
+    {"id":"generative-loaders","role":"loading and progress motion library","autoUpdate":false,"promotion":"manifest-controlled"},
+    {"id":"thinking-orbs","role":"thinking and agent-state motion library","autoUpdate":false,"promotion":"manifest-controlled"},
+    {"id":"openui","role":"structured AI output component library","autoUpdate":false,"promotion":"manifest-controlled"},
+    {"id":"aicss","role":"AI interaction source registry","autoUpdate":false,"promotion":"manual-snapshot"}
+  ],
+  "installedLibraries": [
+    {"id":"generative-loaders","distribution":"npm","autoUpdate":false,"status":"installed"},
+    {"id":"thinking-orbs","distribution":"npm","autoUpdate":false,"status":"installed"},
+    {"id":"create-ui","distribution":"cli-registry","autoUpdate":false,"status":"installed"},
+    {"id":"mapcn","distribution":"github-shadcn-registry","autoUpdate":false,"status":"installed"},
+    {"id":"openui","distribution":"npm","autoUpdate":false,"status":"installed"},
+    {"id":"aceternity-ui","distribution":"shadcn-registry","autoUpdate":false,"status":"installed"},
+    {"id":"aicss","distribution":"source-registry","autoUpdate":false,"status":"installed"}
+  ],
   "components": [
     {"id": "state-gate", "export": "StateGate", "file": "src/components/StateGate.tsx"},
     {"id": "decision-card", "export": "DecisionCard", "file": "src/components/DecisionCard.tsx"},
     {"id": "outputs-sources-rail", "export": "OutputsSourcesRail", "file": "src/components/OutputsSourcesRail.tsx"},
     {"id": "workbench-drawer", "export": "WorkbenchDrawer", "file": "src/components/WorkbenchDrawer.tsx"},
     {"id": "control-inventory", "export": "ControlInventory", "file": "src/components/ControlInventory.tsx"},
-    {"id": "architecture-map", "export": "ArchitectureMap", "file": "src/components/ArchitectureMap.tsx"}
+    {"id": "architecture-map", "export": "ArchitectureMap", "file": "src/components/ArchitectureMap.tsx"},
+    {"id": "tanstack-chart-panel", "export": "TanStackChartPanel", "file": "src/components/TanStackChartPanel.tsx"}
   ],
   "presets": {
     "foundation": ["state-gate", "control-inventory"],
     "interview": ["state-gate", "decision-card", "outputs-sources-rail", "workbench-drawer"],
     "architecture": ["state-gate", "control-inventory", "architecture-map"],
-    "all": ["state-gate", "decision-card", "outputs-sources-rail", "workbench-drawer", "control-inventory", "architecture-map"]
+    "charting": ["state-gate", "tanstack-chart-panel"],
+    "all": ["state-gate", "decision-card", "outputs-sources-rail", "workbench-drawer", "control-inventory", "architecture-map", "tanstack-chart-panel"]
+  },
+  "updatePolicy": {
+    "scheduledDiscovery": "disabled",
+    "autoPromotion": "disabled; replace the full source snapshot only on an explicit install",
+    "productAdoption": "source-copied after project-owned Site, keyboard, reduced-motion, and human review",
+    "quarantine": "breaking, uncertain, unlicensed, or product-identity-changing blocks",
+    "productSync": "source-snapshot and project-owned after load"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-sizes",
+  "registryDependencies": [
+    "button",
+    "dropdown-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1237,
+      "path": "registry/examples/dropdown-menu-sizes.tsx",
+      "sha256": "1ae73d19105de70229f1702f2396a9a6a5ccb1a74ca05e2d77e74b1a762d6a53",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-sizes.json",
+  "title": "Dropdown Menu Sizes",
+  "type": "registry:example"
+}

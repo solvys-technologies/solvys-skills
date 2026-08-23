@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Gapped donut with a center total and a side legend of amounts",
+  "name": "revenue-mix-echarts-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3019,
+      "path": "src/registry/blocks/echarts/b-revenue-mix-echarts-pie-chart.tsx",
+      "sha256": "700876fe0fa3bbc0f72ef7dc52b847f701425f7f439e34b3cec8bf59ea047e83",
+      "target": "components/evilcharts/blocks/revenue-mix-echarts-pie-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/revenue-mix-echarts-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

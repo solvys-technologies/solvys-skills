@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "chip-colors",
+  "registryDependencies": [
+    "chip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 338,
+      "path": "registry/examples/chip-colors.tsx",
+      "sha256": "afe5cbca3e2388ca5bfd0b1218abf29a201544ddb206ad2ad9b12b492ca6cea5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/chip-colors.json",
+  "title": "Chip Colors",
+  "type": "registry:example"
+}

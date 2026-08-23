@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "sticky-banner",
+  "shippedFiles": [
+    {
+      "bytes": 1861,
+      "path": "components/ui/sticky-banner.tsx",
+      "sha256": "9708595c9af677b09f9260d0b0be5d1a11a5a6108269ceecdfa5d07e5348bb70",
+      "target": "components/ui/sticky-banner.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/sticky-banner.json",
+  "title": "Sticky Banner",
+  "type": "registry:ui"
+}

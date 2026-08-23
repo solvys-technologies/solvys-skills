@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "grouped-sidebar",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/grouped-sidebar.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

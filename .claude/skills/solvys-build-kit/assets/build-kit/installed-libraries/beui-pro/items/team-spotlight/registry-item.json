@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A featured profile card (avatar, role, bio, links) that crossfades as you pick a face from the avatar rail below.",
+  "name": "team-spotlight",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 7760,
+      "path": "components/premium/team/team-spotlight.tsx",
+      "sha256": "5ee5d4e67777abf3b97d3142a558071412aae19dce7cefb1d3bbf87fc0c1e31c",
+      "target": "@components/premium/team/team-spotlight.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/team-spotlight.json",
+  "title": "Spotlight",
+  "type": "registry:block"
+}

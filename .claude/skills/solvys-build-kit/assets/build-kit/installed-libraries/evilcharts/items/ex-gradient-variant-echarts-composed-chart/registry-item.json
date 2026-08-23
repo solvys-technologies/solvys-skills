@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-variant-echarts-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1687,
+      "path": "src/registry/examples/echarts/ex-gradient-variant-echarts-composed-chart.tsx",
+      "sha256": "111a8d8ae5251cededa1bd91db1d2d94a2bf4d7fa779fdbd8636ee85094c6962",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-variant-echarts-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

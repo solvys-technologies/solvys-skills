@@ -1,0 +1,53 @@
+{
+  "fontVariant": {
+    "body": {
+      "family": "'Poppins', sans-serif",
+      "import": "Poppins",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-body",
+      "weight": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ]
+    },
+    "display": {
+      "family": "'Poppins', sans-serif",
+      "import": "Poppins",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-display",
+      "weight": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ]
+    },
+    "numeric": {
+      "family": "'DM Mono', monospace",
+      "import": "DM_Mono",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-numeric",
+      "weight": [
+        "400",
+        "500"
+      ]
+    }
+  },
+  "name": "font-variant-v3",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/font-variant-v3.json",
+  "status": "installed",
+  "title": "V3",
+  "type": "registry:font-variant"
+}

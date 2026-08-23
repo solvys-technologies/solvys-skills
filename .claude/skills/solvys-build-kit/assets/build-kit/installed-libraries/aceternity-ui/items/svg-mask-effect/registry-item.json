@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "svg-mask-effect",
+  "shippedFiles": [
+    {
+      "bytes": 2481,
+      "path": "components/ui/svg-mask-effect.tsx",
+      "sha256": "8ce6017e2f55eeb266ba459f7c5bb73f54678f9693a026fe2ec55bddbe902506",
+      "target": "components/ui/svg-mask-effect.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/svg-mask-effect.json",
+  "title": "Svg Mask Effect",
+  "type": "registry:ui"
+}

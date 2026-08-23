@@ -7,6 +7,16 @@
   "acceptedCheckpoints": [],
   "working": [],
   "failedOrMissing": [],
+  "infractionSweep": {
+    "reviewed": false,
+    "openCount": 0,
+    "highestSeverity": null,
+    "selectedRepairs": []
+  },
+  "durableLearning": {
+    "skillProposals": [],
+    "breakthroughsPromoted": []
+  },
   "humanGates": [],
   "memoryAndCapacity": null,
   "nextAction": ""

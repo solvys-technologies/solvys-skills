@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropzone-example",
+  "registryDependencies": [
+    "dropzone"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5756,
+      "path": "registry/examples/dropzone-example.tsx",
+      "sha256": "291779d3d95fec4f75ffe4ac2dda72e01eb10e775488e4a43ddd28dffc6e3224",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropzone-example.json",
+  "title": "Dropzone",
+  "type": "registry:example"
+}

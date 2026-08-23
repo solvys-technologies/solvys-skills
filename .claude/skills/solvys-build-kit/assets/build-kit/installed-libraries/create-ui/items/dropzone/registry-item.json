@@ -1,0 +1,25 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority"
+  ],
+  "description": "Drag-and-drop (or click) file drop area with a built-in trigger; validates by accept and maxSize and emits accepted files via onFilesAccepted",
+  "name": "dropzone",
+  "registryDependencies": [
+    "button",
+    "use-dropzone"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 14857,
+      "path": "registry/ui/dropzone.tsx",
+      "sha256": "53f597bbe93b989bff08c1da8d3dfa07f77f7f0b0d222f337741a4d4dc0c809d",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropzone.json",
+  "title": "Dropzone",
+  "type": "registry:ui"
+}

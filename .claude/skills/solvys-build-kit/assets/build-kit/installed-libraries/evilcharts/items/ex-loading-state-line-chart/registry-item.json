@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-loading-state-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1284,
+      "path": "src/registry/examples/recharts/ex-loading-state-line-chart.tsx",
+      "sha256": "079a31e5c92a9171c7ce03d308d3246e66b021853ca2a5645ed5510f4976d27b",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-loading-state-line-chart.json?raw=1",
+  "type": "registry:block"
+}

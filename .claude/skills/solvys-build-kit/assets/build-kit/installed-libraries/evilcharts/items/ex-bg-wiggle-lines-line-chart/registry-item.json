@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bg-wiggle-lines-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1958,
+      "path": "src/registry/examples/recharts/ex-bg-wiggle-lines-line-chart.tsx",
+      "sha256": "66657952c89be121cbf739373cd6e10dbb57b48ce546f2a502dcb9a28c7dbaf8",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bg-wiggle-lines-line-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Three image-led cards with independent front and back artwork, click or keyboard flipping, and an optional project link on the back.",
+  "name": "flip-card",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 3620,
+      "path": "components/premium/flip-card/flip-card.tsx",
+      "sha256": "699ddf171260dc4a948f8cd3c4f12ac62654811da81f8d3023ccba6b00d923ee",
+      "target": "@components/premium/flip-card/flip-card.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/flip-card.json",
+  "title": "Image flip cards",
+  "type": "registry:block"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Bitwarden"
+  short_description: "Scoped Bitwarden access for Solvys login work"
+  default_prompt: "Use the Solvys Bitwarden lane for this authorized login task. Read the Factory entrance and the login Additional Options, resolve the repository-named project policy, then retrieve only the scoped credential needed for the exact target."

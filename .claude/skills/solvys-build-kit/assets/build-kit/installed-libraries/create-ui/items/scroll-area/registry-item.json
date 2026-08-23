@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Custom-scrollbar viewport; vertical, horizontal or both, filled/ghost scrollbar styles and optional edge fade",
+  "name": "scroll-area",
+  "shippedFiles": [
+    {
+      "bytes": 5495,
+      "path": "registry/ui/scroll-area.tsx",
+      "sha256": "ff60b37cdfb88d4abf2abe2cadd5f0446fdbe774e772bc7e8af9e8a16f009037",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/scroll-area.json",
+  "title": "Scroll Area",
+  "type": "registry:ui"
+}

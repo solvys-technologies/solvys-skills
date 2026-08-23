@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Single radio item for use inside RadioGroup; five variants and xs/sm/md sizes inherit from group context",
+  "name": "radio",
+  "shippedFiles": [
+    {
+      "bytes": 7266,
+      "path": "registry/ui/radio.tsx",
+      "sha256": "99b2e29b8fff83f1bca2613b7d9bd0e330ac0e571f738a0ccae14d249feb1c33",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/radio.json",
+  "title": "Radio",
+  "type": "registry:ui"
+}

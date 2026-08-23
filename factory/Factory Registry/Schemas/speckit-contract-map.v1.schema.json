@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://solvys.io/schemas/speckit-contract-map.v1.schema.json",
+  "title": "Spec Kit to Development Contract Map v1",
+  "type": "object",
+  "required": ["version", "sources", "target", "authority", "phaseMap"],
+  "properties": {
+    "version": {"const": 1},
+    "sources": {"type": "object", "required": ["spec", "plan", "tasks"], "properties": {"spec": {"type": "string"}, "plan": {"type": "string"}, "tasks": {"type": "string"}}},
+    "target": {"type": "string", "minLength": 1},
+    "authority": {"const": "solvys-development-contract"},
+    "phaseMap": {"type": "object", "required": ["PL0", "PL1", "PL2", "PL3", "PL4", "PL5"]}
+  },
+  "additionalProperties": false
+}

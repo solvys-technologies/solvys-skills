@@ -5,6 +5,8 @@ description: Single-agent sprint brief planner with design and development flow.
 
 # Solvys Brief -- Single-Agent Sprint Planner
 
+work freely, work with an open mind, and explore all possible options; never jump to conclusions at the second or third blocker. Be innovative, take inventory of your skills
+
 ## Refresh System Contract
 
 Plan mode auto-selects this skill for one bounded, single-owner sprint; TP does
@@ -29,9 +31,9 @@ The human integration branch is date-only `YYYY-MM-DD`; recovery uses an exact
 root `refs/sprints/S###/P#` preservation/sprint ref or
 `refs/sprints/S###/T#/P#` tranche/track ref.
 
-## Solvys Ponytail Chain
+## Solvys Ponytail Ladder
 
-- After reading repo truth and tracing the real flow, run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
+The Solvys Ponytail Ladder is mandatory before implementation. Read and enforce `factory/canon/ponytail-ladder.md`, then run the ladder: necessary at all, existing repo seam, stdlib/native platform, installed dependency or maintained OSS, one-line/minimal code.
 - Keep OSS-first pragmatic: adopt OSS only when license, maintenance, security, runtime fit, and integration cost beat owning custom code.
 - For backend bugs, grep sibling callers and fix the root shared seam once; a tiny patch in the wrong path is still wrong.
 - Never skip validation, auth/security, data-loss handling, accessibility, calibration knobs, explicit requirements, or proof.
@@ -67,7 +69,7 @@ Use `/solvys-orchestrate` when work is big enough to need 2+ agents running in p
 - Always `rm -rf dist` before any vite build (stale bundle prevention)
 - Backend is launchd-managed on port 8080 -- restart after backend changes
 - Check `src/lib/changelog.ts` before finalizing scope -- recent entries are intentional
-- Obey the Solvys design system: Fintheon app is the primary product-UI personality; source-backed Liquid Glass is allowed only with a professionally shipped/source-backed example, but decorative gradients/glow/blur, emojis, Kanban borders, generic box-shadows, decorative button borders/backplates, instant new surfaces, and pointed square borders are not. Accent = `#c79f4a`.
+- Obey the Solvys design system: use a canonical palette pair from `factory/canon/solvys-palette-themes.md` (default **Forest Chartreuse**). Fintheon app remains a legacy product personality where explicitly scoped; source-backed Liquid Glass is allowed only with a professionally shipped/source-backed example, but decorative gradients/glow/blur, emojis, Kanban borders, generic box-shadows, decorative button borders/backplates, instant new surfaces, and pointed square borders are not.
 - Read the CAO Refresh System and `storage-and-execution-lanes.md` before
   choosing a workspace. All repository implementation defaults to Cloud. Ext
   is recovery-only and never creates a local implementation exception.

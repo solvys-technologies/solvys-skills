@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "toast-example",
+  "registryDependencies": [
+    "toast",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7729,
+      "path": "registry/examples/toast-example.tsx",
+      "sha256": "260ba03fba5d41c6eec68439ff3d5939e548277b0c8b76d3d08c3df13000ad37",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/toast-example.json",
+  "title": "Toast",
+  "type": "registry:example"
+}

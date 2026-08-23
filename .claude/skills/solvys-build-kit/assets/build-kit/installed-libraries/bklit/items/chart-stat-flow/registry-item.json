@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@number-flow/react",
+    "motion"
+  ],
+  "description": "Animated stat value and label for chart overlays",
+  "name": "chart-stat-flow",
+  "registryDependencies": [
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3126,
+      "path": "src/charts/chart-stat-flow.tsx",
+      "sha256": "687499a57c5e0493e710396badfe106f939a308dcda73e75966ea49b24819139",
+      "target": "components/charts/chart-stat-flow.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/chart-stat-flow.json",
+  "status": "installed",
+  "title": "Chart Stat Flow",
+  "type": "registry:component"
+}

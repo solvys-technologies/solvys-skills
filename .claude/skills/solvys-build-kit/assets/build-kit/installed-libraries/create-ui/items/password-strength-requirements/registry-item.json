@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "password-strength-requirements",
+  "registryDependencies": [
+    "password-strength"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1087,
+      "path": "registry/examples/password-strength-requirements.tsx",
+      "sha256": "ba17b2cadf4c660c6ffc51f536bef6cc57bfdf33e9f2ba0d28e05c2d4c6c2d65",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/password-strength-requirements.json",
+  "title": "Password Strength Requirements",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-stepper-variants-free",
+  "registryDependencies": [
+    "input-stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 722,
+      "path": "registry/examples/input-stepper-variants-free.tsx",
+      "sha256": "bc6c04fe7a74eb2de38c3f4d7a87c9166d6e0a19460d8779df5319dd5e7e5fe3",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-stepper-variants-free.json",
+  "title": "Input Stepper Variants (Free)",
+  "type": "registry:example"
+}

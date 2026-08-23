@@ -1,0 +1,15 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "use-dropzone",
+  "shippedFiles": [
+    {
+      "bytes": 5648,
+      "path": "registry/hooks/use-dropzone.ts",
+      "sha256": "d17fa6342c2f63386338ff906f8736e600473a822519ecb08c1fd2da67a3b6a0",
+      "target": null,
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/use-dropzone.json",
+  "type": "registry:hook"
+}

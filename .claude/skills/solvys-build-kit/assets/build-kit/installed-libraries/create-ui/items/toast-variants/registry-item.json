@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "toast-variants",
+  "registryDependencies": [
+    "toast",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1900,
+      "path": "registry/examples/toast-variants.tsx",
+      "sha256": "f4b180bbf82af4edda23125216c1824d70231bf7681fb570c5b3e4aff5be867d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/toast-variants.json",
+  "title": "Toast Variants",
+  "type": "registry:example"
+}

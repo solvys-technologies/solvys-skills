@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "inline-alert-example",
+  "registryDependencies": [
+    "inline-alert",
+    "button",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 13074,
+      "path": "registry/examples/inline-alert-example.tsx",
+      "sha256": "b2b1fb31991f037b7c97b9be093413afa06f0c4bc36ca9e274a74650ca7dd156",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/inline-alert-example.json",
+  "title": "Inline Alert",
+  "type": "registry:example"
+}

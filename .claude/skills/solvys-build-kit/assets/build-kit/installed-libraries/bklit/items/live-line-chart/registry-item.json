@@ -1,0 +1,60 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/curve@4.0.1-alpha.0",
+    "@visx/scale@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "@visx/responsive@4.0.1-alpha.0",
+    "@visx/event@4.0.1-alpha.0",
+    "d3-array",
+    "motion"
+  ],
+  "description": "Real-time streaming line chart with smooth scrolling, crosshair, and animated axes",
+  "name": "live-line-chart",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/chart-tooltip",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 17600,
+      "path": "src/charts/live-line-chart.tsx",
+      "sha256": "431f5fe91c8f3a23508ac308a70c271368d4365b166527c006b2daf391acf278",
+      "target": "components/charts/live-line-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3445,
+      "path": "src/charts/chart-child-passthrough.ts",
+      "sha256": "7ed588788dd6b8d009928b0f6f2af64838ba9291f4690f2801d77586b7269790",
+      "target": "components/charts/chart-child-passthrough.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 8915,
+      "path": "src/charts/live-line.tsx",
+      "sha256": "4a7c7a7dd1b392315c37412640e9e88551983ea86c30c103b59ac09a1c379ed9",
+      "target": "components/charts/live-line.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4328,
+      "path": "src/charts/live-x-axis.tsx",
+      "sha256": "6e9ccebd1f5324e71826a704b9d81e1b9959df76238217dea2648975fcc59796",
+      "target": "components/charts/live-x-axis.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6843,
+      "path": "src/charts/live-y-axis.tsx",
+      "sha256": "dd9e2584a2ea8671c33c1637bc3e5d8cce7ce685874070151d464491c3a5d740",
+      "target": "components/charts/live-y-axis.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/live-line-chart.json",
+  "status": "installed",
+  "title": "Live Line Chart",
+  "type": "registry:component"
+}

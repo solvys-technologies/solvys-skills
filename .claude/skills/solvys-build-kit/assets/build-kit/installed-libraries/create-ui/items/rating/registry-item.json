@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "rating",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/rating.json",
+  "status": "access-gated",
+  "title": "Rating",
+  "type": "registry:ui"
+}

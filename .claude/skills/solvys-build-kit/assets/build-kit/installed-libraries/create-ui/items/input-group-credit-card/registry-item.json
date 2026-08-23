@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-credit-card",
+  "registryDependencies": [
+    "field",
+    "credit-card-input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 554,
+      "path": "registry/examples/input-group-credit-card.tsx",
+      "sha256": "bbafd1e23dfb1f78b2d93092e0ac69363c79bdf0295a32439701853fdb3c4310",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-credit-card.json",
+  "title": "Input Group Credit Card",
+  "type": "registry:example"
+}

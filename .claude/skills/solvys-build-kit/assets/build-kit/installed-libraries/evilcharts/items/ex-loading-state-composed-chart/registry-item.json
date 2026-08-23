@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-loading-state-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1318,
+      "path": "src/registry/examples/recharts/ex-loading-state-composed-chart.tsx",
+      "sha256": "76cc24aec2f2e809247ee051115a897bf89ddf2837b1ec6fd26586fef4800790",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-loading-state-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

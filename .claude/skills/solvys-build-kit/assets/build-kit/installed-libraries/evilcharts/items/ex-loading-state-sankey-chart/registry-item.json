@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-loading-state-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-sankey-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1992,
+      "path": "src/registry/examples/recharts/ex-loading-state-sankey-chart.tsx",
+      "sha256": "e6f55862f29fde7d14e0d8f88057b8165064f8b33d20c17c8089afa85c0e3d2e",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-loading-state-sankey-chart.json?raw=1",
+  "type": "registry:block"
+}

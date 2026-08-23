@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "stats-with-grid-background",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/stats-with-grid-background.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

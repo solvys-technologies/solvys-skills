@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-stripped-variant-echarts-composed-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-composed-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1687,
+      "path": "src/registry/examples/echarts/ex-stripped-variant-echarts-composed-chart.tsx",
+      "sha256": "31ecda52f291bb79128c024c2d4fd552705410dc4cb366ef0947436b21b09ce9",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-stripped-variant-echarts-composed-chart.json?raw=1",
+  "type": "registry:block"
+}

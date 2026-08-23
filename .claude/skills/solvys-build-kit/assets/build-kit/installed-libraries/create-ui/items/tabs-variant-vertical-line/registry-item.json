@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-variant-vertical-line",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1219,
+      "path": "registry/examples/tabs-variant-vertical-line.tsx",
+      "sha256": "a9b8b48803a324496c5dfbf49d65f9b367190552f0451817109becaae92604bf",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-variant-vertical-line.json",
+  "title": "Tabs Variant Vertical Line",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "sidebar-basic",
+  "registryDependencies": [
+    "sidebar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2272,
+      "path": "registry/examples/sidebar-basic.tsx",
+      "sha256": "3f83fabb16494d998b2214839718da1ed4f73323185ebcc2dee45a913d060f7f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/sidebar-basic.json",
+  "title": "Sidebar",
+  "type": "registry:example"
+}

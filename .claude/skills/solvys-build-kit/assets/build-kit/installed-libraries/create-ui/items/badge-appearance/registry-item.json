@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "badge-appearance",
+  "registryDependencies": [
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1925,
+      "path": "registry/examples/badge-appearance.tsx",
+      "sha256": "2b5bb04bdd2098c8ef7fb21557412343e3de39d07bce7c98dcf13003ee228cf8",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/badge-appearance.json",
+  "title": "Badge Appearance",
+  "type": "registry:example"
+}

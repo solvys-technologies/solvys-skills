@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "close-button-appearance",
+  "registryDependencies": [
+    "close-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 846,
+      "path": "registry/examples/close-button-appearance.tsx",
+      "sha256": "99e2b840038660c577e6c4a51295f92a1268325f425791a3307a9c08de98df4f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/close-button-appearance.json",
+  "title": "Close Button Appearance",
+  "type": "registry:example"
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Codex app-inspired navigation rail with compact ticks that form a hover pyramid and reveal a floating destination preview.",
+  "name": "preview-rail",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 10915,
+      "path": "components/motion/preview-rail.tsx",
+      "sha256": "9576e63717648e5b0f25fbfbe2e61c2c7c82e6c686fe93ade9728fd1b8fac9e8",
+      "target": "@components/motion/preview-rail.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/preview-rail.json",
+  "title": "Preview Rail",
+  "type": "registry:component"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-sizes",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 494,
+      "path": "registry/examples/avatar-sizes.tsx",
+      "sha256": "73657bbd76afc49bd163028f1040d05f8ce6a1e75c0e5c33ff3e4660d6badbc8",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-sizes.json",
+  "title": "Avatar Sizes",
+  "type": "registry:example"
+}

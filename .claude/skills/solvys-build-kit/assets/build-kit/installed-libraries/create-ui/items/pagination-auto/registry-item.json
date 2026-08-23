@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-auto",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 486,
+      "path": "registry/examples/pagination-auto.tsx",
+      "sha256": "11d98757c8533ae006ff83d43071f4cb2f3fee8e3f53871667db86c477de9869",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-auto.json",
+  "title": "Pagination Auto",
+  "type": "registry:example"
+}

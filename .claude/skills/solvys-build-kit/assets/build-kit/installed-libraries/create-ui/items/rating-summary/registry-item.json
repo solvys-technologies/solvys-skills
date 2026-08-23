@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "rating-summary",
+  "registryDependencies": [
+    "rating",
+    "avatar",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3686,
+      "path": "registry/examples/rating-summary.tsx",
+      "sha256": "acdfab05a7c4dfc775932042a2c51beb1666fc09eab7b149c842d32e1f019ad6",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/rating-summary.json",
+  "title": "Rating Summary",
+  "type": "registry:example"
+}

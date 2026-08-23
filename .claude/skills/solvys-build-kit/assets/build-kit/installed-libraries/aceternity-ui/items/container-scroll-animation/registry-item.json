@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "container-scroll-animation",
+  "shippedFiles": [
+    {
+      "bytes": 2555,
+      "path": "components/ui/container-scroll-animation.tsx",
+      "sha256": "dfcc37dc475073f28ed42cf5292622af47071a7bc32f7970073ef82594db4165",
+      "target": "components/ui/container-scroll-animation.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/container-scroll-animation.json",
+  "title": "Container Scroll Animation",
+  "type": "registry:ui"
+}

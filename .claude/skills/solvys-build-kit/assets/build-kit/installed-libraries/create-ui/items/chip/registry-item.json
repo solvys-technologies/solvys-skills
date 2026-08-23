@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority"
+  ],
+  "description": "Interactive removable tag with closable, onClose and selected props; icon or Avatar auto-slots as the first child",
+  "name": "chip",
+  "shippedFiles": [
+    {
+      "bytes": 10785,
+      "path": "registry/ui/chip.tsx",
+      "sha256": "6ff4930a86dfbdb36c8de3c2212f607bf56597095a94cf21615591b8c80eb2bc",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/chip.json",
+  "title": "Chip",
+  "type": "registry:ui"
+}

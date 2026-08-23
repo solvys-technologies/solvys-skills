@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "command-tabbed",
+  "registryDependencies": [
+    "command",
+    "tabs",
+    "avatar",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4635,
+      "path": "registry/examples/command-tabbed.tsx",
+      "sha256": "70e56697b27d50adf2e5208aef0e7d7f73a2a921c0b871bbd3f390699a8ee086",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/command-tabbed.json",
+  "title": "Command Tabbed",
+  "type": "registry:example"
+}

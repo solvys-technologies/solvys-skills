@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-radar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-radar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1566,
+      "path": "src/registry/examples/recharts/ex-radar-chart.tsx",
+      "sha256": "008948d6acae45a829d2e5525ce7c496e950b9232f5d2414e8af030418b9767d",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-radar-chart.json?raw=1",
+  "type": "registry:block"
+}

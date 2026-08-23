@@ -1,0 +1,64 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "@paper-design/shaders-react",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "An editorial product-intelligence hero with a globally theme-aware animated WebGL mesh aurora, compact navigation, restrained serif headline, focused CTA, and a marquee of real product-company marks.",
+  "name": "hero-signal-aurora",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/shared-layout-bg"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6019,
+      "path": "components/premium/hero-sections/hero-signal-aurora.tsx",
+      "sha256": "400d38b9203e2d12f47c8bd6c344b75f5f37c539dc3ec9ff6d29f30f5d97f099",
+      "target": "@components/premium/hero-sections/hero-signal-aurora.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1874,
+      "path": "components/premium/hero-sections/signal-aurora.tsx",
+      "sha256": "65d0762e8492e79d2c0aad2f34d657c793f0f2da387569fc708733f85a548005",
+      "target": "@components/premium/hero-sections/signal-aurora.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2093,
+      "path": "components/premium/hero-sections/signal-logo-marquee.tsx",
+      "sha256": "d5138d7670d0fc6ab006977c2f8df24b3b04edd4aa7510ba34d34996e2ab3c8f",
+      "target": "@components/premium/hero-sections/signal-logo-marquee.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 616,
+      "path": "lib/hooks/use-dark-theme.ts",
+      "sha256": "5a0d4688c8c6af9edcdc12bf2cda40c1403af9c85b27b67d7ed140dfeea624dc",
+      "target": "@lib/hooks/use-dark-theme.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/hero-signal-aurora.json",
+  "title": "Signal aurora",
+  "type": "registry:block"
+}

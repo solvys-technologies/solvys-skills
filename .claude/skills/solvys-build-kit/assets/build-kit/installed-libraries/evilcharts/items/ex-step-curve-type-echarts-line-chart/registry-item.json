@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-step-curve-type-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1908,
+      "path": "src/registry/examples/echarts/ex-step-curve-type-echarts-line-chart.tsx",
+      "sha256": "197d270a266dc8734cdb738ee2826e5f1ac7e15fe4b800e419f40ca3894bf05b",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-step-curve-type-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

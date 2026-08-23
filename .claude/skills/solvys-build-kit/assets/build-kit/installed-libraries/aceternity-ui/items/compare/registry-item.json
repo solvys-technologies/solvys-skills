@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+  ],
+  "name": "compare",
+  "shippedFiles": [
+    {
+      "bytes": 7381,
+      "path": "components/ui/compare.tsx",
+      "sha256": "fd0801ffcb425cf02693aa7c9db752050d3e2aac2766a2bd8a0f4cb64fc16c08",
+      "target": "components/ui/compare.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/compare.json",
+  "title": "Compare",
+  "type": "registry:ui"
+}

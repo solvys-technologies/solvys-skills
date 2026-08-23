@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Week-over-week comparison with a solid and a dashed grayscale line",
+  "name": "shipments-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3727,
+      "path": "src/registry/blocks/echarts/b-shipments-echarts-line-chart.tsx",
+      "sha256": "b32e830d4ee00503efcd80c4ffedc61e64deaeae0fade65ab129f609dbd47570",
+      "target": "components/evilcharts/blocks/shipments-echarts-line-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/shipments-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

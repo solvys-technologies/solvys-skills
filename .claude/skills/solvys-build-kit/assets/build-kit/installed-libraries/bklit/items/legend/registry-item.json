@@ -1,0 +1,91 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "cssVars": {
+    "dark": {
+      "--legend": "oklch(0.21 0.006 285.885)",
+      "--legend-foreground": "oklch(0.985 0 0)",
+      "--legend-muted": "oklch(0.274 0.006 286.033)",
+      "--legend-muted-foreground": "oklch(0.705 0.015 286.067)",
+      "--legend-track": "oklch(0.274 0.006 286.033)"
+    },
+    "light": {
+      "--legend": "oklch(1 0 0)",
+      "--legend-foreground": "oklch(0.141 0.005 285.823)",
+      "--legend-muted": "oklch(0.967 0.001 286.375)",
+      "--legend-muted-foreground": "oklch(0.552 0.016 285.938)",
+      "--legend-track": "oklch(0.92 0.004 286.32)"
+    }
+  },
+  "dependencies": [
+    "@base-ui/react",
+    "@number-flow/react"
+  ],
+  "description": "Composable legend components for charts",
+  "name": "legend",
+  "registryDependencies": [
+    "@bklit/utils",
+    "@bklit/chart-utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2597,
+      "path": "src/charts/legend/legend.tsx",
+      "sha256": "5ed7c89bb9fa5169c44633dc3f34b88adec45b777d8ccc37bd9a91f75ae4029b",
+      "target": "components/charts/legend/legend.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2244,
+      "path": "src/charts/legend/legend-context.tsx",
+      "sha256": "785bd323125e1411689f59a6eae0e4bc0410355c601f2d63b8be025cf437eeee",
+      "target": "components/charts/legend/legend-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1126,
+      "path": "src/charts/legend/legend-item.tsx",
+      "sha256": "73a127f0236f9e2d843f8005ccc2df8ca9a186cff10a7825645e7df622310312",
+      "target": "components/charts/legend/legend-item.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 500,
+      "path": "src/charts/legend/legend-label.tsx",
+      "sha256": "4975d53b4a599a9b9cfdfc7e8dd112dd4a7714a56e5aecd3833eeeff9d17c926",
+      "target": "components/charts/legend/legend-label.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 594,
+      "path": "src/charts/legend/legend-marker.tsx",
+      "sha256": "f91d8bf85aca881f96b9cb035505a84f499fa0fd1a594db16cd8b3a533651bc5",
+      "target": "components/charts/legend/legend-marker.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1210,
+      "path": "src/charts/legend/legend-progress.tsx",
+      "sha256": "8e54a1f6b7cd866e634cb7757797aacb28949c85e697c11b9d2a368f5effcd6c",
+      "target": "components/charts/legend/legend-progress.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1373,
+      "path": "src/charts/legend/legend-value.tsx",
+      "sha256": "c391e602d34d73b592b228760ebf2bb45c0f17fa993402b74031f7e22e9276f8",
+      "target": "components/charts/legend/legend-value.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 621,
+      "path": "src/charts/legend/index.ts",
+      "sha256": "cde654610328d66e4c7263b343c7dd17a732999183530e1c319fb0089f63fb66",
+      "target": "components/charts/legend/index.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/legend.json",
+  "status": "installed",
+  "title": "Chart Legend",
+  "type": "registry:component"
+}

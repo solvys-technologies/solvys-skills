@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-controlled",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1261,
+      "path": "registry/examples/tabs-controlled.tsx",
+      "sha256": "6da9e6bed7cffd72dee4a8a2322164ad002f8d849e72a573b78d146f53fac26a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-controlled.json",
+  "title": "Tabs Controlled",
+  "type": "registry:example"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Radial chart component rendered with Apache ECharts",
+  "name": "echarts-radial-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart",
+    "@evilcharts/echarts-tooltip",
+    "@evilcharts/echarts-legend"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 53953,
+      "path": "src/registry/charts/echarts-radial-chart.tsx",
+      "sha256": "c2b6f991f28748e81c107eae1db98b5d727b5016564eec271e79c440917347f0",
+      "target": "components/evilcharts/charts/echarts-radial-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-radial-chart.json?raw=1",
+  "type": "registry:component"
+}

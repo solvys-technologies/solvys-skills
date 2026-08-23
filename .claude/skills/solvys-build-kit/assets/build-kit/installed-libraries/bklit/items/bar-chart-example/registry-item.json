@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/gradient@4.0.1-alpha.0",
+    "@visx/pattern@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "motion"
+  ],
+  "description": "Composable bar-chart demo for Open in v0",
+  "name": "bar-chart-example",
+  "registryDependencies": [
+    "@bklit/bar-chart",
+    "@bklit/grid",
+    "@bklit/chart-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1005,
+      "path": "registry/examples/bar-chart.tsx",
+      "sha256": "54d5802728c3f2848c308a4f09ae8cb1f583b121fb29d05c2c7f45d740aa4021",
+      "target": "app/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 280,
+      "path": "registry/examples/bar-chart-index.ts",
+      "sha256": "250ba6f017e08359223ea15dc15773204f6f193e82dec39ac1fec9b90239bc2a",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/bar-chart-example.json",
+  "status": "installed",
+  "title": "Bar Chart Example",
+  "type": "registry:example"
+}

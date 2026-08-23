@@ -10,6 +10,17 @@
   "implementationDefaultModel": "Luna Max",
   "heavyImplementationModel": "Terra Extra High",
   "fullAccessRequired": true,
+  "integrationOwner": null,
+  "executionMode": "sequential-by-default",
+  "developmentContract": {
+    "path": null,
+    "maturity": null,
+    "revision": null,
+    "status": null,
+    "validatedAt": null,
+    "validatorReceipt": null,
+    "implementationAuthorized": false
+  },
   "baseRef": null,
   "baseSha": null,
   "checkpointRefs": [],

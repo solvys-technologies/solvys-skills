@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion"
+  ],
+  "description": "Radar chart component with filled and lines variants",
+  "name": "recharts-radar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart",
+    "@evilcharts/recharts-tooltip",
+    "@evilcharts/recharts-legend",
+    "@evilcharts/recharts-dot",
+    "@evilcharts/recharts-background"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 22205,
+      "path": "src/registry/charts/recharts-radar-chart.tsx",
+      "sha256": "fd30c1b5186ad2c1f6fd3e35b0e6a5a6c510c640861b406af1a6d3c9e89897c4",
+      "target": "components/evilcharts/charts/recharts-radar-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-radar-chart.json?raw=1",
+  "type": "registry:component"
+}

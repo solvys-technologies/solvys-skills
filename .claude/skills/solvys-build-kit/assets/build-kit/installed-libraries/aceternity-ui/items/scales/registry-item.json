@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "scales",
+  "shippedFiles": [
+    {
+      "bytes": 1886,
+      "path": "components/ui/scales.tsx",
+      "sha256": "0bc985c6bb477a5fda766bbe8747bbe6149aeb0409e7d507ac7bbe95c24ea691",
+      "target": "components/ui/scales.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/scales.json",
+  "title": "Scales",
+  "type": "registry:ui"
+}

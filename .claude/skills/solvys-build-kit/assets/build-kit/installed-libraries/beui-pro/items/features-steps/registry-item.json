@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A centered header over a numbered three-step flow: the active step expands and drives a synced visual mock.",
+  "name": "features-steps",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 10892,
+      "path": "components/premium/feature-sections/features-steps.tsx",
+      "sha256": "30969a2ca65b989c1bd62ee9949f88ac3eeee1b33eb563e0ee989d656583b9a6",
+      "target": "@components/premium/feature-sections/features-steps.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/features-steps.json",
+  "title": "Feature steps",
+  "type": "registry:block"
+}

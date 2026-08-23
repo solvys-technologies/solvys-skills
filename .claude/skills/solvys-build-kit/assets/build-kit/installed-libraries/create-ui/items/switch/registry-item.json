@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Toggle switch; variant primary/info/neutral/inverse/semantic, thumbType short/long, ioTrigger and thumbIcon options",
+  "name": "switch",
+  "shippedFiles": [
+    {
+      "bytes": 16416,
+      "path": "registry/ui/switch.tsx",
+      "sha256": "1fdbc2d6819bd848bb5a53321b5714ab327588cb3e74f3f8aa236b7b034556b8",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch.json",
+  "title": "Switch",
+  "type": "registry:ui"
+}

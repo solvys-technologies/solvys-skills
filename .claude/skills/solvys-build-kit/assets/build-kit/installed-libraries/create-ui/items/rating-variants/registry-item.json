@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "rating-variants",
+  "registryDependencies": [
+    "rating"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 394,
+      "path": "registry/examples/rating-variants.tsx",
+      "sha256": "e4512bef3493a24ded951f0dc4b080ae0532fd452634a195c3a590d8aa3707be",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/rating-variants.json",
+  "title": "Rating Variants",
+  "type": "registry:example"
+}

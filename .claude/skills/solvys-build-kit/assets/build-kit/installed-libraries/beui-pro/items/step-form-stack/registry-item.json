@@ -1,0 +1,62 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A layered brief form where each question rises from a quiet card stack and exits with directional motion.",
+  "name": "step-form-stack",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6388,
+      "path": "components/premium/step-form/step-form-stack.tsx",
+      "sha256": "3847e412a8be70de8103777fb3233350c9a0b53a01356b2d224f521e42820360",
+      "target": "@components/premium/step-form/step-form-stack.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4288,
+      "path": "components/premium/step-form/step-field.tsx",
+      "sha256": "b389c2dd8e9a7b6a5844779bb7115fe0864ea0966dca8e9e55316a81740f5b9a",
+      "target": "@components/premium/step-form/step-field.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 797,
+      "path": "components/premium/step-form/types.ts",
+      "sha256": "12914f4fde29c27415611e1a29eb339ccb0e39a996ed121007c4510e05ea64f4",
+      "target": "@components/premium/step-form/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1865,
+      "path": "components/premium/step-form/use-step-form-flow.ts",
+      "sha256": "67ed08155406a2e72c1755f027ec508895630a90028077fb3a641cdcb9aba350",
+      "target": "@components/premium/step-form/use-step-form-flow.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/step-form-stack.json",
+  "title": "Card stack",
+  "type": "registry:block"
+}

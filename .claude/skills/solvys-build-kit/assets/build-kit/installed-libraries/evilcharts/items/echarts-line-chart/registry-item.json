@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Line chart component rendered with Apache ECharts",
+  "name": "echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart",
+    "@evilcharts/echarts-dot",
+    "@evilcharts/echarts-tooltip",
+    "@evilcharts/echarts-legend",
+    "@evilcharts/echarts-brush"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 87840,
+      "path": "src/registry/charts/echarts-line-chart.tsx",
+      "sha256": "4f33757a7caa0004a3cd5bdb8201d7a40c87a7a9e69ffc91c742eac43bf0215c",
+      "target": "components/evilcharts/charts/echarts-line-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-line-chart.json?raw=1",
+  "type": "registry:component"
+}

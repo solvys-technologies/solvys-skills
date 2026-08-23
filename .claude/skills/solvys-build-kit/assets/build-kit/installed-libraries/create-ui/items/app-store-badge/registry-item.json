@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Marketplace download link badge covering 12 brands like App Store and Google Play; variant black/white, iconOnly option",
+  "name": "app-store-badge",
+  "shippedFiles": [
+    {
+      "bytes": 6439,
+      "path": "registry/ui/app-store-badge.tsx",
+      "sha256": "e9473a9607dbd5856cd076f279928f56d51e0ba4632acc62a5f25ed4d26e045a",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/app-store-badge.json",
+  "title": "App Store Badge",
+  "type": "registry:ui"
+}

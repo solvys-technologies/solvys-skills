@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-stepper-prefix",
+  "registryDependencies": [
+    "input-stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 464,
+      "path": "registry/examples/input-stepper-prefix.tsx",
+      "sha256": "4bb1b9d4848f6bf8e8b761a9624219b2ff017866a370f71117ee3716015df8bc",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-stepper-prefix.json",
+  "title": "Input Stepper Prefix",
+  "type": "registry:example"
+}

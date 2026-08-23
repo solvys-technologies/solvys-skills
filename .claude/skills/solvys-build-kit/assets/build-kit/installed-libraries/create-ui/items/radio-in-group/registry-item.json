@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "radio-in-group",
+  "registryDependencies": [
+    "radio",
+    "radio-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 665,
+      "path": "registry/examples/radio-in-group.tsx",
+      "sha256": "3bfb874bca01913b5fda84f5dcdcf16a9c2576b13df4ce2a580a6fec920a103f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/radio-in-group.json",
+  "title": "Radio In Group",
+  "type": "registry:example"
+}

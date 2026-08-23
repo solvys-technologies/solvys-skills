@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-with-label",
+  "registryDependencies": [
+    "field",
+    "input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 391,
+      "path": "registry/examples/input-with-label.tsx",
+      "sha256": "2edec4ef06bbc8d50cbb206ad5bf14bfe91e840b24c38f895dea718ab0f8bd6a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-with-label.json",
+  "title": "Input With Label",
+  "type": "registry:example"
+}

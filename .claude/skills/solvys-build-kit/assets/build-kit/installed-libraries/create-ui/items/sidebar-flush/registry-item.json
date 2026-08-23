@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "sidebar-flush",
+  "registryDependencies": [
+    "sidebar",
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7557,
+      "path": "registry/examples/sidebar-flush.tsx",
+      "sha256": "ae0be4e94694cf4eee74daf59a53c604a84420ab6c9531ae2de95430383e9442",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/sidebar-flush.json",
+  "title": "Sidebar",
+  "type": "registry:example"
+}

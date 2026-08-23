@@ -1,13 +1,56 @@
 # DEV Sign
 
+work freely, work with an open mind, and explore all possible options; never jump to conclusions at the second or third blocker. Be innovative, take inventory of your skills
+
 - Verify repo, branch, SHA, paths, Cloud, SSH, providers, accounts, and dirty ownership.
 - Search Paste and approved sources. Gather and install first.
+- **Paste custody.** If DEV work uses Paste MCP, keep the Paste app and MCP
+  connection open through the task and handoff. Never close it or terminate its
+  sync process.
+- Open Paste, search the exact project name, and open the project folder from
+  the search suggestion. Use the matching `Primary Project Password` or
+  `Secondary Project Password` item inside that folder. Do not search guessed
+  labels such as `CRED Gmail Password`. Copy the selected password only into
+  regular Chrome when Google requests it; never ask TP to type or reveal a
+  password that Paste already stores. Prefer SMS/text verification; use
+  Google's Tap Yes or Tap the number prompt when text is unavailable.
+- If a project has no literal `WELCOME.md`, read its documented onboarding
+  composite and record the substitution. Keep shared Solvys skills in the
+  installed suite; use a symlink for project discovery and never copy or commit
+  a stale mirror into the product repository.
 - Build backend contracts and provider resources before dependent frontend completion.
-- Build Wonder proposals in parallel and test the runnable result in the project ChatGPT Site.
+- For work above the Factory threshold, read
+  `factory/canon/structural-delivery-contract.md`. Work only in the assigned
+  Cloud task or visible session. Pass every Development Contract Gate Ledger
+  check with evidence before returning it to the integrator.
+- Read `factory/canon/frontend-wonder-source-of-truth.md` before frontend work.
+  Preserve the named Wonder source map and test the runnable result in the
+  project ChatGPT Site.
 - Record which button does what.
+- Write and validate the entrance receipt before any product, repository,
+  Wonder, provider, deployment, or credential mutation. Read-only diagnosis may
+  continue while the receipt is repaired.
 - Fix the earliest shared cause and show it on the node map.
 - Practice comrade care for active tasks with no unread TP message.
 - Use the authorization chain before escalating a login.
+- Use regular Chrome for Google Sign-In when the project password is required. Use Chrome Dev only after Google authentication for the authorized target session.
+- Treat regular Chrome as a one-time interactive bootstrap lane. For work that
+  must continue while the Mac is locked, use the project machine credential
+  lane: scoped API/CLI credentials, OAuth refresh tokens, service accounts,
+  OIDC federation, or provider secrets issued into Cloud or CI. Paste remains
+  the source reference and does not become the worker's runtime dependency.
+- A headless browser cannot replace Google password, MFA, risk, consent, or
+  device approval. If only a web UI exists, record a human gate and continue
+  safe API, repository, deployment, test, and receipt work in parallel.
+- **Sign-in execution gate.** Invoke `$solvys-sign-in` before any login, OAuth,
+  MFA, QR, provider consent, Paste credential, or CLI credential flow. Follow
+  its full chain before calling the work blocked.
 - Keep each proof rung separate.
+- When using the exact phrase `infraction committed`, immediately record or increment the current project's infraction ledger with evidence and a next action.
+- Stop a repeated no-progress action in the same work window and mark it `automation-death-loop` with `--death-loop`.
+- Stop the first proven custody, authority, or proof-gate breach, record the
+  infraction, preserve evidence, and create a repair handoff before retrying.
+- Treat `skill that` as a directive to write a skill proposal, patch the smallest fitting skill, and validate the guardrail.
+- Treat `Update the C-Cab with that Breakthrough` as a directive to write and read back a Cabinet record, then promote it to the correct durable layer.
 - Stop at 120 minutes and post the grounded rollover prompt.
 - Do not recommence a paused product session until TP gives the cue.

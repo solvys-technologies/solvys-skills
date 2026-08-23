@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-phone",
+  "registryDependencies": [
+    "field",
+    "phone-input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 471,
+      "path": "registry/examples/input-group-phone.tsx",
+      "sha256": "87676ec84a9b33746b1184b3ac0066dc322ce35b0ba0cdced97cfc6ff0f5ab0b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-phone.json",
+  "title": "Input Group Phone",
+  "type": "registry:example"
+}

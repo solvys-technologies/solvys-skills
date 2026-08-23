@@ -1,0 +1,34 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "modal-example",
+  "registryDependencies": [
+    "modal",
+    "button",
+    "badge",
+    "progress",
+    "field",
+    "input",
+    "label",
+    "info-tooltip",
+    "checkbox",
+    "checkbox-group",
+    "switch",
+    "switch-group",
+    "text-link",
+    "select",
+    "spinner",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 23382,
+      "path": "registry/examples/modal-example.tsx",
+      "sha256": "b93da1b71897e0538ce689d3327a69e2488e8aed3a97ef3afd7af7e0e9be16f0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/modal-example.json",
+  "title": "Modal",
+  "type": "registry:example"
+}

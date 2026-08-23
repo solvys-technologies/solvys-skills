@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "penFile": "solvys-build-kit.pen",
+  "canvasRule": "Top-level nodes are official registry:block preview imports only; no wrappers, docs panels, labels, or product references.",
+  "libraries": {
+    "beui": {
+      "sourceRegistryBlocks": 26,
+      "penPreviewBlocks": 26,
+      "namePrefix": "beUI /"
+    },
+    "beui-pro": {
+      "sourceRegistryBlocks": 141,
+      "penPreviewBlocks": 141,
+      "namePrefix": "beUI Pro /"
+    },
+    "evilcharts": {
+      "sourceRegistryBlocks": 244,
+      "penPreviewBlocks": 242,
+      "sourceOnlyRegistryBlocks": [
+        "ex-chart-config-default-echarts-bar-chart",
+        "ex-chart-config-icons-echarts-bar-chart"
+      ],
+      "namePrefix": "EvilCharts /"
+    },
+    "mapcn": {
+      "sourceRegistryBlocks": 8,
+      "penPreviewBlocks": 8,
+      "namePrefix": "mapcn /",
+      "previewSource": "Official direct /view/{slug} routes; iframe placeholders were removed and replaced with direct rendered block imports."
+    },
+    "aceternity-ui": {
+      "sourceRegistryBlocks": 167,
+      "penPreviewBlocks": 148,
+      "sourceOnlyRegistryBlocks": [
+        "cards-demo-1",
+        "cards-demo-2",
+        "cards-demo-3",
+        "features-section-demo-1",
+        "features-section-demo-2",
+        "features-section-demo-3",
+        "three-columns-with-images",
+        "bento-grid-example-three",
+        "footer-with-grid",
+        "blog-with-search-magazine",
+        "frequently-asked-questions-accordion",
+        "background-lines",
+        "background-dots",
+        "background-dots-masked",
+        "background-dots-masked-vertical",
+        "background-noise-grid",
+        "text-animation-flipping-words-demo",
+        "text-animation-typewriter-effect-demo",
+        "text-animation-blur-fade-in-demo"
+      ],
+      "namePrefix": "Aceternity UI /"
+    },
+    "create-ui": {
+      "sourceCatalogEntries": 650,
+      "sourceRegistryBlocks": 0,
+      "penPreviewBlocks": 0,
+      "reason": "The official catalog contains registry:ui, registry:example, registry:hook, registry:lib, registry:component, registry:internal, and font-variant entries, with no registry:block entries."
+    },
+    "aicss": {
+      "sourceCatalogEntries": 14,
+      "sourceRegistryBlocks": 0,
+      "penPreviewBlocks": 0,
+      "reason": "The official source registry contains component payloads and no registry:block entries."
+    },
+    "generative-loaders": {
+      "installedPackage": "generative-loaders@0.1.1",
+      "sourceRegistryBlocks": 0,
+      "penPreviewBlocks": 0,
+      "reason": "The approved source is an npm package with no registry:block catalog."
+    },
+    "thinking-orbs": {
+      "installedPackage": "thinking-orbs@0.2.0",
+      "sourceRegistryBlocks": 0,
+      "penPreviewBlocks": 0,
+      "reason": "The approved source is an npm package with no registry:block catalog."
+    },
+    "openui": {
+      "installedPackages": [
+        "@openuidev/lang-core@0.2.11",
+        "@openuidev/react-headless@0.9.7",
+        "@openuidev/react-lang@0.2.11",
+        "@openuidev/react-ui@0.13.6",
+        "@openuidev/cli@0.2.5"
+      ],
+      "sourceRegistryBlocks": 0,
+      "penPreviewBlocks": 0,
+      "reason": "The approved source is the OpenUI package and examples library with no registry:block catalog."
+    },
+    "tanstack-charts": {
+      "installedPackage": "@tanstack/charts@0.9.0",
+      "sourceRegistryBlocks": 0,
+      "penPreviewBlocks": 0,
+      "reason": "Package library has no registry:block catalog; no fabricated canvas block was created."
+    }
+  },
+  "sourceSnapshotGates": {
+    "aceternity-ui": {
+      "catalogEntries": 276,
+      "installedSourceEntries": 116,
+      "accessGatedSourceEntries": 160,
+      "status": "catalog-complete-source-partial"
+    },
+    "create-ui": {
+      "catalogEntries": 650,
+      "installedSourceEntries": 637,
+      "accessGatedSourceEntries": 13,
+      "status": "catalog-complete-source-partial"
+    }
+  },
+  "penTopLevelBlockCount": 565,
+  "penIntegrity": {
+    "officialRegistryBlockPrefixesOnly": true,
+    "nonLibraryTopLevelNodes": 0,
+    "reusableComponents": 0,
+    "sourceOnlyRegistryBlocks": 21
+  },
+  "penPersistence": {
+    "liveEditorTopLevelBlockCount": 565,
+    "localFileTopLevelBlockCount": 409,
+    "localFileWrite": "blocked",
+    "reason": "The Pen desktop save command could not run while the Mac was locked; the MCP live editor and exported HTML reflect the gallery, while the local file remains at its pre-import hash until it is saved.",
+    "localFileSha256": "6c8429d4ce6aac2cf32fba6f84303cfb6117d05b"
+  },
+  "wonder": {
+    "newFileCreated": false,
+    "status": "blocked",
+    "reason": "The existing Wonder workspace is authenticated in the same browser window, but the native connector still returns invalid_refresh_token. The mcp.wonder.so/mcp authorization URL was blocked by the browser client, so no Allow screen was exposed; existing Wonder files were left untouched."
+  },
+  "reviewArtifact": "solvys-build-kit-gallery-review.html",
+  "humanReview": {
+    "status": "blocked",
+    "reason": "The human-review executable is unavailable in this environment."
+  }
+}

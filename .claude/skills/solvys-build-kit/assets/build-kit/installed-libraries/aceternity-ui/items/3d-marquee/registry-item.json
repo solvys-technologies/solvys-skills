@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "3d-marquee",
+  "shippedFiles": [
+    {
+      "bytes": 4918,
+      "path": "components/ui/3d-marquee.tsx",
+      "sha256": "49265fb39272e876a3ff8ce5a1b4b8b5921ad5b266ad74bf270a74c6b8332886",
+      "target": "components/ui/3d-marquee.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/3d-marquee.json",
+  "title": "3d Marquee",
+  "type": "registry:ui"
+}

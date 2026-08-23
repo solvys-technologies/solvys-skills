@@ -1,0 +1,17 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "features-section-demo-1",
+  "shippedFiles": [
+    {
+      "bytes": 4584,
+      "path": "components/features-section-demo-1.tsx",
+      "sha256": "90079fd3375f048bae2c8135d9e1b3d3f4fdef044be45ac1886fc56514075ed4",
+      "target": "components/features-section-demo-1.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/features-section-demo-1.json",
+  "status": "installed",
+  "title": "Features Section Demo 1",
+  "type": "registry:block"
+}

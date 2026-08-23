@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+  ],
+  "name": "macbook-scroll",
+  "shippedFiles": [
+    {
+      "bytes": 19124,
+      "path": "components/ui/macbook-scroll.tsx",
+      "sha256": "49a5f5deef177892ca107052b8a3c07ed13731335c8a527cceaef5d976e08b99",
+      "target": "components/ui/macbook-scroll.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/macbook-scroll.json",
+  "title": "Macbook Scroll",
+  "type": "registry:ui"
+}

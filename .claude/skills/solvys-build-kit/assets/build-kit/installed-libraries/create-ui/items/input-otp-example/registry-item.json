@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-otp-example",
+  "registryDependencies": [
+    "button",
+    "field",
+    "input-otp",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 7827,
+      "path": "registry/examples/input-otp-example.tsx",
+      "sha256": "54d3195c4d17c17d72fe0a8054e041cd49832b4669dbb2af411b2457ad03f904",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-otp-example.json",
+  "title": "Input OTP",
+  "type": "registry:example"
+}

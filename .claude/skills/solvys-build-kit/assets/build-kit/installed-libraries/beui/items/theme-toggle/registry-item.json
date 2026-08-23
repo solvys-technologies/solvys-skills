@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "next-themes",
+    "tailwind-merge"
+  ],
+  "description": "Theme toggle button that repaints the whole page through the View Transition API \u2014 a rectangle or circle clip-path reveal, or slats that open across the screen like a shutter.",
+  "name": "theme-toggle",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 6774,
+      "path": "components/motion/theme-toggle.tsx",
+      "sha256": "c7e7edd22be7c64222eb4476b6054c8147299f83bf66af76d0580dd10698e923",
+      "target": "@components/motion/theme-toggle.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 10329,
+      "path": "components/motion/action-swap.tsx",
+      "sha256": "a511e69114465af7671072731dbe9aa613941d2b853d0eca91213c91c57d0199",
+      "target": "@components/motion/action-swap.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/theme-toggle.json",
+  "title": "Theme Toggle",
+  "type": "registry:component"
+}

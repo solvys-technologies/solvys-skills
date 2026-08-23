@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-example",
+  "registryDependencies": [
+    "checkbox",
+    "field",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6567,
+      "path": "registry/examples/checkbox-example.tsx",
+      "sha256": "ddc6be6820c411503f372fc4c733867a76af3512aeb85d676cd2abcf24957ba5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-example.json",
+  "title": "Checkbox",
+  "type": "registry:example"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Two rows of testimonial cards scrolling in opposite directions, edge-masked, that pause on hover.",
+  "name": "testimonials-marquee",
+  "registryDependencies": [
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6629,
+      "path": "components/premium/testimonials/testimonials-marquee.tsx",
+      "sha256": "3da89610c5d429a2a7f97b15bda7f14089625be71969fc6bcd9794cf3e85f8b6",
+      "target": "@components/premium/testimonials/testimonials-marquee.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/testimonials-marquee.json",
+  "title": "Marquee wall",
+  "type": "registry:block"
+}

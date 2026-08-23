@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-grouped",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 381,
+      "path": "registry/examples/pagination-grouped.tsx",
+      "sha256": "b77a566e0ea7d41b7de0e7e5b2cec8c1306bdfe4eab39deabce6b5b328a6de0b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-grouped.json",
+  "title": "Pagination Grouped (Pro)",
+  "type": "registry:example"
+}

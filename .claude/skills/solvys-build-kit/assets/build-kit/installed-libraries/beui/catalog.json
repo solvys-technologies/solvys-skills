@@ -1,0 +1,4250 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://beui.dev",
+  "items": [
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "3D perspective tilt on hover with cursor-tracked glare.",
+      "files": [
+        {
+          "path": "components/motion/tilt-card.tsx",
+          "target": "@components/motion/tilt-card.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "tilt-card",
+      "registryDependencies": [],
+      "title": "Tilt Card",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Press scale, hover lift, variants and sizes.",
+      "files": [
+        {
+          "path": "components/motion/button/base.tsx",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "button-base",
+      "registryDependencies": [],
+      "title": "Button Button",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Idle \u2192 loading \u2192 success / error with blur-swap slots and morphing width.",
+      "files": [
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "button-stateful",
+      "registryDependencies": [],
+      "title": "Button Stateful Button",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Button composed with the Magnetic wrapper for cursor-attracted pull.",
+      "files": [
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "button-magnetic",
+      "registryDependencies": [],
+      "title": "Button Magnetic Button",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Hold to complete with a vertical or horizontal liquid fill; release early to cancel.",
+      "files": [
+        {
+          "path": "components/motion/hold-action-button.tsx",
+          "target": "@components/motion/hold-action-button.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "hold-action-button",
+      "registryDependencies": [],
+      "title": "Animated CTA Buttons Hold Action Button",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Drag the thumb to the end to confirm an action; release early to spring back.",
+      "files": [
+        {
+          "path": "components/motion/slide-action-button.tsx",
+          "target": "@components/motion/slide-action-button.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "slide-action-button",
+      "registryDependencies": [],
+      "title": "Animated CTA Buttons Slide Action Button",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "description": "Infinite horizontal or vertical scroll with pause-on-hover.",
+      "files": [
+        {
+          "path": "components/motion/marquee.tsx",
+          "target": "@components/motion/marquee.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "marquee",
+      "registryDependencies": [],
+      "title": "Marquee",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Pill, segment or underline tabs with a spring layoutId indicator.",
+      "files": [
+        {
+          "path": "components/motion/tabs.tsx",
+          "target": "@components/motion/tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "tabs",
+      "registryDependencies": [],
+      "title": "Tabs",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Toggle with a spring-driven thumb and press feedback.",
+      "files": [
+        {
+          "path": "components/motion/switch.tsx",
+          "target": "@components/motion/switch.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "switch",
+      "registryDependencies": [],
+      "title": "Switch",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Text input with label, left/right icons, error shake and success check draw.",
+      "files": [
+        {
+          "path": "components/motion/input.tsx",
+          "target": "@components/motion/input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "input",
+      "registryDependencies": [],
+      "title": "Input",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Composable primitives (Select, SelectTrigger, SelectValue, SelectContent, SelectItem); the panel pinches off the trigger and separates, with staggered items. Position-aware (opens upward when needed).",
+      "files": [
+        {
+          "path": "components/motion/select.tsx",
+          "target": "@components/motion/select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "select",
+      "registryDependencies": [],
+      "title": "Select Select",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Composable primitives (MorphSelect, MorphSelectTrigger, MorphSelectValue, MorphSelectContent, MorphSelectItem) where the trigger morphs into the panel via a shared layoutId \u2014 one continuous surface that grows open and shrinks back, never detaching.",
+      "files": [
+        {
+          "path": "components/motion/select-morph.tsx",
+          "target": "@components/motion/select-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "select-morph",
+      "registryDependencies": [],
+      "title": "Select Morph Select",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Form choice control with a draw-on checkmark, spring press feedback and indeterminate state support.",
+      "files": [
+        {
+          "path": "components/motion/checkbox.tsx",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "checkbox",
+      "registryDependencies": [],
+      "title": "Checkbox",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Single-select choice control with a gliding layoutId indicator dot and spring press feedback.",
+      "files": [
+        {
+          "path": "components/motion/radio.tsx",
+          "target": "@components/motion/radio.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "radio",
+      "registryDependencies": [],
+      "title": "Radio Group",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Vaul-inspired draggable bottom sheet with snap points, inertia and glass surface.",
+      "files": [
+        {
+          "path": "components/motion/bottom-sheet.tsx",
+          "target": "@components/motion/bottom-sheet.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "bottom-sheet",
+      "registryDependencies": [],
+      "title": "Bottom Sheet",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Native-feeling pull-to-refresh container with drag resistance, threshold feedback and async refresh handling.",
+      "files": [
+        {
+          "path": "components/motion/pull-to-refresh.tsx",
+          "target": "@components/motion/pull-to-refresh.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "pull-to-refresh",
+      "registryDependencies": [],
+      "title": "Pull to Refresh",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A pill that glides between hovered items via motion's shared layout, with blur enter/exit.",
+      "files": [
+        {
+          "path": "components/motion/shared-layout-bg.tsx",
+          "target": "@components/motion/shared-layout-bg.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "shared-layout-bg",
+      "registryDependencies": [],
+      "title": "Shared Layout Background",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A vertical sidebar whose active dot jumps between destinations on a curved, spring-loaded path.",
+      "files": [
+        {
+          "path": "components/motion/bounce-sidebar.tsx",
+          "target": "@components/motion/bounce-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "bounce-sidebar",
+      "registryDependencies": [],
+      "title": "Bounce Sidebar",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A composable application sidebar with morphing nested navigation that folds into an animated icon rail on desktop and becomes a focus-managed sheet on mobile.",
+      "files": [
+        {
+          "path": "components/motion/animated-sidebar.tsx",
+          "target": "@components/motion/animated-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/shared-layout-bg.tsx",
+          "target": "@components/motion/shared-layout-bg.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "animated-sidebar",
+      "registryDependencies": [],
+      "title": "Animated Sidebar",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Codex app-inspired navigation rail with compact ticks that form a hover pyramid and reveal a floating destination preview.",
+      "files": [
+        {
+          "path": "components/motion/preview-rail.tsx",
+          "target": "@components/motion/preview-rail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "preview-rail",
+      "registryDependencies": [],
+      "title": "Preview Rail",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "macOS-style dock with grouped actions and a gliding active pill.",
+      "files": [
+        {
+          "path": "components/motion/dock.tsx",
+          "target": "@components/motion/dock.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "dock",
+      "registryDependencies": [],
+      "title": "Dock",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Hover or focus tooltip with blur enter/exit and spring spawn.",
+      "files": [
+        {
+          "path": "components/motion/tooltip.tsx",
+          "target": "@components/motion/tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "tooltip",
+      "registryDependencies": [],
+      "title": "Tooltip",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Composable context-menu primitives with a pointer-origin clip morph, a gliding active row, checkbox and radio choices, keyboard navigation, typeahead, and long-press support.",
+      "files": [
+        {
+          "path": "components/motion/context-menu.tsx",
+          "target": "@components/motion/context-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "context-menu",
+      "registryDependencies": [],
+      "title": "Animated Context Menu",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Composable Popover, PopoverTrigger, PopoverContent; the panel oozes out of the trigger through an SVG goo filter with a liquid neck, crisp content fading in on top. Click or hover, controlled or uncontrolled.",
+      "files": [
+        {
+          "path": "components/motion/popover.tsx",
+          "target": "@components/motion/popover.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "popover",
+      "registryDependencies": [],
+      "title": "Popover Gooey Popover",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Composable MorphPopover, MorphPopoverTrigger, MorphPopoverContent; the panel is laid out full size but clipped to the corner nearest the trigger, then unclips as one piece \u2014 a single-surface morph with a drop-shadow that hugs the shape. Side/align aware, controlled or uncontrolled.",
+      "files": [
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "popover-morph",
+      "registryDependencies": [],
+      "title": "Popover Morph Popover",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Family-app-style modal. A single panel that morphs its height as you navigate between inner views, with blur cross-fade on content.",
+      "files": [
+        {
+          "path": "components/motion/morphing-modal.tsx",
+          "target": "@components/motion/morphing-modal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "morphing-modal",
+      "registryDependencies": [],
+      "title": "Morphing Modal",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A composable modal whose full-size surface unfolds from its exact center toward every edge, then folds back the same way with an inset close control.",
+      "files": [
+        {
+          "path": "components/motion/center-morph-modal.tsx",
+          "target": "@components/motion/center-morph-modal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "center-morph-modal",
+      "registryDependencies": [],
+      "title": "Center Morph Modal",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A Dia-inspired text effect with a fixed sentence prefix and a cycling final word revealed by a colorful sweep.",
+      "files": [
+        {
+          "path": "components/motion/chromatic-text-reveal.tsx",
+          "target": "@components/motion/chromatic-text-reveal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "chromatic-text-reveal",
+      "registryDependencies": [],
+      "title": "Text Animation Dia Text Animation",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Word or character reveal with spring slide-up and blur.",
+      "files": [
+        {
+          "path": "components/motion/text-reveal.tsx",
+          "target": "@components/motion/text-reveal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "text-reveal",
+      "registryDependencies": [],
+      "title": "Text Animation Text Reveal",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "description": "Gradient sweep across text for loading or emphasis.",
+      "files": [
+        {
+          "path": "components/motion/text-shimmer.tsx",
+          "target": "@components/motion/text-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/text-shimmer.ts",
+          "target": "@lib/text-shimmer.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "text-shimmer",
+      "registryDependencies": [],
+      "title": "Text Animation Text Shimmer",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Letter-by-letter slot roll for standalone text \u2014 old letters drop away as new ones land, left to right.",
+      "files": [
+        {
+          "path": "components/motion/text-cascade.tsx",
+          "target": "@components/motion/text-cascade.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "text-cascade",
+      "registryDependencies": [],
+      "title": "Text Animation Text Cascade",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Slot-machine rolling digits with staggered entry.",
+      "files": [
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "target": "@components/motion/number-ticker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "number-ticker",
+      "registryDependencies": [],
+      "title": "Number Animation Number Ticker",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Spring-driven count-up triggered when in view.",
+      "files": [
+        {
+          "path": "components/motion/animated-number.tsx",
+          "target": "@components/motion/animated-number.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "animated-number",
+      "registryDependencies": [],
+      "title": "Number Animation Animated Number",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Status badge with animated state icons, pulse feedback and compact size variants.",
+      "files": [
+        {
+          "path": "components/motion/animated-badge.tsx",
+          "target": "@components/motion/animated-badge.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "animated-badge",
+      "registryDependencies": [],
+      "title": "Animated Badge",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Letter-by-letter slot roll \u2014 the old label's letters drop away as the new ones land, left to right.",
+      "files": [
+        {
+          "path": "components/motion/action-swap-cascade.tsx",
+          "target": "@components/motion/action-swap-cascade.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "action-swap-cascade",
+      "registryDependencies": [],
+      "title": "Action Swap Cascade",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Copy-button style swap with blur, opacity and scale.",
+      "files": [
+        {
+          "path": "components/motion/action-swap-blur.tsx",
+          "target": "@components/motion/action-swap-blur.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "action-swap-blur",
+      "registryDependencies": [],
+      "title": "Action Swap Blur",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "The next text or icon rolls in from below with blur.",
+      "files": [
+        {
+          "path": "components/motion/action-swap-roll.tsx",
+          "target": "@components/motion/action-swap-roll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "action-swap-roll",
+      "registryDependencies": [],
+      "title": "Action Swap Roll",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Stacked toasts with status morphs, swipe dismissal, actions and layout-aware motion.",
+      "files": [
+        {
+          "path": "components/motion/animated-toast-stack.tsx",
+          "target": "@components/motion/animated-toast-stack.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "animated-toast-stack",
+      "registryDependencies": [],
+      "title": "Animated Toast Stack",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "next-themes",
+        "tailwind-merge"
+      ],
+      "description": "Theme toggle button that repaints the whole page through the View Transition API \u2014 a rectangle or circle clip-path reveal, or slats that open across the screen like a shutter.",
+      "files": [
+        {
+          "path": "components/motion/theme-toggle.tsx",
+          "target": "@components/motion/theme-toggle.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "theme-toggle",
+      "registryDependencies": [],
+      "title": "Theme Toggle",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Single-open accordion with weighted spring layout, icon rows and reduced-motion-safe content reveals.",
+      "files": [
+        {
+          "path": "components/motion/bouncy-accordion.tsx",
+          "target": "@components/motion/bouncy-accordion.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "bouncy-accordion",
+      "registryDependencies": [],
+      "title": "Bouncy Accordion",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Side panel that slides in from the left or right with a spring, backdrop blur, body scroll lock and esc-to-close.",
+      "files": [
+        {
+          "path": "components/motion/drawer.tsx",
+          "target": "@components/motion/drawer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "drawer",
+      "registryDependencies": [],
+      "title": "Drawer",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "lenis",
+        "motion"
+      ],
+      "description": "Smooth-scroll provider over Lenis with a useSmoothScroll hook exposing scroll offset, progress and velocity. Reduced-motion safe.",
+      "files": [
+        {
+          "path": "components/motion/smooth-scroll.tsx",
+          "target": "@components/motion/smooth-scroll.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "smooth-scroll",
+      "registryDependencies": [],
+      "title": "Scroll Animation Smooth Scroll",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lenis",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Reading-progress indicator \u2014 fixed bar or circular ring \u2014 driven by scroll position via useSmoothScroll, with spring smoothing.",
+      "files": [
+        {
+          "path": "components/motion/scroll-progress.tsx",
+          "target": "@components/motion/scroll-progress.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/smooth-scroll.tsx",
+          "target": "@components/motion/smooth-scroll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "scroll-progress",
+      "registryDependencies": [],
+      "title": "Scroll Animation Scroll Progress",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Wrapper that drifts its children at a speed factor as they cross the viewport, on either axis. Reduced-motion safe.",
+      "files": [
+        {
+          "path": "components/motion/parallax.tsx",
+          "target": "@components/motion/parallax.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "parallax",
+      "registryDependencies": [],
+      "title": "Scroll Animation Parallax",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lenis",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Button that smooth-scrolls to a target (offset, selector or element) via the active SmoothScroll provider; reduced-motion jumps instantly.",
+      "files": [
+        {
+          "path": "components/motion/scroll-to.tsx",
+          "target": "@components/motion/scroll-to.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/smooth-scroll.tsx",
+          "target": "@components/motion/smooth-scroll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "scroll-to",
+      "registryDependencies": [],
+      "title": "Scroll Animation Scroll To",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Reveals its children with a spring slide and blur as they enter the viewport, once or every time. Reduced-motion keeps a fade.",
+      "files": [
+        {
+          "path": "components/motion/scroll-reveal.tsx",
+          "target": "@components/motion/scroll-reveal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "scroll-reveal",
+      "registryDependencies": [],
+      "title": "Scroll Animation Scroll Reveal",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Tick dots, and a vertical-bar thumb that bounces as it lands on each step.",
+      "files": [
+        {
+          "path": "components/motion/range-slider.tsx",
+          "target": "@components/motion/range-slider.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-slider.ts",
+          "target": "@lib/hooks/use-slider.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "range-slider",
+      "registryDependencies": [],
+      "title": "Range Slider Range Slider",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "No thumb. The fill slides behind a rounded liquid cap, and the label flips color wherever the fill covers it.",
+      "files": [
+        {
+          "path": "components/motion/range-slider-fluid.tsx",
+          "target": "@components/motion/range-slider-fluid.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-slider.ts",
+          "target": "@lib/hooks/use-slider.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "range-slider-fluid",
+      "registryDependencies": [],
+      "title": "Range Slider Fluid Slider",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Equalizer bars peak around the handle and drop back once it passes, so the value moves down the track as a wave.",
+      "files": [
+        {
+          "path": "components/motion/range-slider-wave.tsx",
+          "target": "@components/motion/range-slider-wave.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-slider.ts",
+          "target": "@lib/hooks/use-slider.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "range-slider-wave",
+      "registryDependencies": [],
+      "title": "Range Slider Wave Slider",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Grab the thumb and a value bubble pops out of it. The bubble tilts and squashes with how fast you drag, then settles upright.",
+      "files": [
+        {
+          "path": "components/motion/range-slider-bubble.tsx",
+          "target": "@components/motion/range-slider-bubble.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-slider.ts",
+          "target": "@lib/hooks/use-slider.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "range-slider-bubble",
+      "registryDependencies": [],
+      "title": "Range Slider Bubble Slider",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "The needle stays put and the scale scrolls under it. A flick keeps going and settles on the nearest tick. Fractional steps read at the step's own precision.",
+      "files": [
+        {
+          "path": "components/motion/range-slider-ruler.tsx",
+          "target": "@components/motion/range-slider-ruler.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-slider.ts",
+          "target": "@lib/hooks/use-slider.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "range-slider-ruler",
+      "registryDependencies": [],
+      "title": "Range Slider Ruler Slider",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "iOS-style picker wheel: a 3D drum on native momentum scroll that snaps to the nearest notch, with wheel, drag and keyboard control. Composes side by side for date and time pickers, reduced-motion safe.",
+      "files": [
+        {
+          "path": "components/motion/wheel-picker.tsx",
+          "target": "@components/motion/wheel-picker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/tick-sound.ts",
+          "target": "@lib/tick-sound.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "wheel-picker",
+      "registryDependencies": [],
+      "title": "Wheel Picker",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@tanstack/react-virtual",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "10k virtualized rows with sortable headers, row selection, column resize and reorder.",
+      "files": [
+        {
+          "path": "components/motion/table/index.tsx",
+          "target": "@components/motion/table/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/editable-cell.tsx",
+          "target": "@components/motion/table/editable-cell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/row-handle.tsx",
+          "target": "@components/motion/table/row-handle.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/skeleton-rows.tsx",
+          "target": "@components/motion/table/skeleton-rows.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/table-header.tsx",
+          "target": "@components/motion/table/table-header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/types.ts",
+          "target": "@components/motion/table/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-column-reorder.ts",
+          "target": "@components/motion/table/use-column-reorder.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-column-resize.ts",
+          "target": "@components/motion/table/use-column-resize.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-column-sort.ts",
+          "target": "@components/motion/table/use-column-sort.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-row-selection.ts",
+          "target": "@components/motion/table/use-row-selection.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/utils.ts",
+          "target": "@components/motion/table/utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/table/table-menu.tsx",
+          "target": "@components/motion/table/table-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "table",
+      "registryDependencies": [],
+      "title": "Table Data Table",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@tanstack/react-virtual",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Edit cells inline and insert or delete rows and columns via border handles; the table re-renders from the updated data and column defs.",
+      "files": [
+        {
+          "path": "components/motion/table/index.tsx",
+          "target": "@components/motion/table/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/editable-cell.tsx",
+          "target": "@components/motion/table/editable-cell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/row-handle.tsx",
+          "target": "@components/motion/table/row-handle.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/skeleton-rows.tsx",
+          "target": "@components/motion/table/skeleton-rows.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/table-header.tsx",
+          "target": "@components/motion/table/table-header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/types.ts",
+          "target": "@components/motion/table/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-column-reorder.ts",
+          "target": "@components/motion/table/use-column-reorder.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-column-resize.ts",
+          "target": "@components/motion/table/use-column-resize.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-column-sort.ts",
+          "target": "@components/motion/table/use-column-sort.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-row-selection.ts",
+          "target": "@components/motion/table/use-row-selection.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/utils.ts",
+          "target": "@components/motion/table/utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/table/table-menu.tsx",
+          "target": "@components/motion/table/table-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "table-editable",
+      "registryDependencies": [],
+      "title": "Table Editable Table",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@tanstack/react-virtual",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Loads pages on demand \u2014 skeleton rows on first load, then infinite scroll via onEndReached as the virtualized list nears the bottom.",
+      "files": [
+        {
+          "path": "components/motion/table/index.tsx",
+          "target": "@components/motion/table/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/editable-cell.tsx",
+          "target": "@components/motion/table/editable-cell.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/row-handle.tsx",
+          "target": "@components/motion/table/row-handle.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/skeleton-rows.tsx",
+          "target": "@components/motion/table/skeleton-rows.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/table-header.tsx",
+          "target": "@components/motion/table/table-header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/types.ts",
+          "target": "@components/motion/table/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-column-reorder.ts",
+          "target": "@components/motion/table/use-column-reorder.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-column-resize.ts",
+          "target": "@components/motion/table/use-column-resize.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-column-sort.ts",
+          "target": "@components/motion/table/use-column-sort.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/use-row-selection.ts",
+          "target": "@components/motion/table/use-row-selection.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/table/utils.ts",
+          "target": "@components/motion/table/utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/table/table-menu.tsx",
+          "target": "@components/motion/table/table-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "table-async",
+      "registryDependencies": [],
+      "title": "Table Async Table",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@paper-design/shaders-react",
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Canvas shader backgrounds (mesh gradient, grain, warp, waves, voronoi, dot orbit and more) with a single typed variant prop. Reduced-motion freezes animated variants.",
+      "files": [
+        {
+          "path": "components/motion/shader-background.tsx",
+          "target": "@components/motion/shader-background.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "shader-background",
+      "registryDependencies": [],
+      "title": "Shader Background",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A carousel whose items line the inside of a cylinder, receding into the center and growing toward the edges. Drag, scroll or arrow-key to roll it, with a springy glide and snap. Reduced-motion drops the glide.",
+      "files": [
+        {
+          "path": "components/motion/cylinder-carousel.tsx",
+          "target": "@components/motion/cylinder-carousel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "cylinder-carousel",
+      "registryDependencies": [],
+      "title": "Cylinder Carousel",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Loading indicator with seventeen variants: spinner, dots, bars, dot-matrix, dither, morph, comet, scramble, metaballs, newton, helix, percent, and five terminal-style ascii spinners. Scales from one size prop, uses currentColor, and reduced-motion swaps every transform for a calm opacity pulse.",
+      "files": [
+        {
+          "path": "components/motion/loader.tsx",
+          "target": "@components/motion/loader.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "loader",
+      "registryDependencies": [],
+      "title": "Loader",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A focused conversational surface with visual tones, independent alignment, grouped messages, expandable content, and interactive link or button support.",
+      "files": [
+        {
+          "path": "components/agents/message-bubble.tsx",
+          "target": "@components/agents/message-bubble.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/message-context.tsx",
+          "target": "@components/agents/message-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "message-bubble",
+      "registryDependencies": [],
+      "title": "Message Bubble",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Composable conversation primitives for message rows, grouped bubbles, avatars, metadata, live markers, and a mount-only trailing-edge pop-up for newly sent rows.",
+      "files": [
+        {
+          "path": "components/agents/message.tsx",
+          "target": "@components/agents/message.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/message-bubble.tsx",
+          "target": "@components/agents/message-bubble.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/message-context.tsx",
+          "target": "@components/agents/message-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/message-scroller.tsx",
+          "target": "@components/agents/message-scroller.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/preview-rail.tsx",
+          "target": "@components/motion/preview-rail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "name": "message",
+      "registryDependencies": [],
+      "title": "Message",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A reader-aware conversation viewport that follows streamed output at the live edge and releases control when the reader moves away.",
+      "files": [
+        {
+          "path": "components/agents/message-scroller.tsx",
+          "target": "@components/agents/message-scroller.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/preview-rail.tsx",
+          "target": "@components/motion/preview-rail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "name": "message-scroller",
+      "registryDependencies": [],
+      "title": "Message Scroller",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "An auto-growing agent composer with prompt actions, model selection, keyboard submission, and animated send and stop states.",
+      "files": [
+        {
+          "path": "components/agents/prompt-input.tsx",
+          "target": "@components/agents/prompt-input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/select.tsx",
+          "target": "@components/motion/select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "prompt-input",
+      "registryDependencies": [],
+      "title": "Prompt Input",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A collapsible agent task plan with morphing status marks, a completion count, compact metadata, and smooth list updates.",
+      "files": [
+        {
+          "path": "components/agents/todo-list.tsx",
+          "target": "@components/agents/todo-list.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap-roll.tsx",
+          "target": "@components/motion/action-swap-roll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "todo-list",
+      "registryDependencies": [],
+      "title": "Todo List",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "description": "A syntax-highlighted code surface with stable streaming updates, line numbers, focused lines, smooth following, and copy feedback.",
+      "files": [
+        {
+          "path": "components/agents/code-block.tsx",
+          "target": "@components/agents/code-block.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-code.tsx",
+          "target": "@components/agents/agent-code.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "code-block",
+      "registryDependencies": [],
+      "title": "Code Block",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A human-in-the-loop decision surface for approvals, single or multiple-choice questions, custom responses, and multi-step review flows.",
+      "files": [
+        {
+          "path": "components/agents/approval-card/index.tsx",
+          "target": "@components/agents/approval-card/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/approval-card/types.ts",
+          "target": "@components/agents/approval-card/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap-roll.tsx",
+          "target": "@components/motion/action-swap-roll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/input.tsx",
+          "target": "@components/motion/input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/radio.tsx",
+          "target": "@components/motion/radio.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "approval-card",
+      "registryDependencies": [],
+      "title": "Approval Card",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "description": "A syntax-highlighted file change disclosure with progressive rows, line numbers, live change counts, smooth following, and completion collapse.",
+      "files": [
+        {
+          "path": "components/agents/file-diff.tsx",
+          "target": "@components/agents/file-diff.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-code.tsx",
+          "target": "@components/agents/agent-code.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "file-diff",
+      "registryDependencies": [],
+      "title": "File Diff",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "description": "A lightweight execution disclosure for syntax-highlighted terminal output and request responses that collapses into a compact completed state.",
+      "files": [
+        {
+          "path": "components/agents/tool-result.tsx",
+          "target": "@components/agents/tool-result.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-code.tsx",
+          "target": "@components/agents/agent-code.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap-roll.tsx",
+          "target": "@components/motion/action-swap-roll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "tool-result",
+      "registryDependencies": [],
+      "title": "Tool Result",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A stable response surface with completion actions, rendered content, and an expandable source summary.",
+      "files": [
+        {
+          "path": "components/agents/streaming-response.tsx",
+          "target": "@components/agents/streaming-response.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/citations.tsx",
+          "target": "@components/agents/citations.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/favicon.ts",
+          "target": "@lib/favicon.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "streaming-response",
+      "registryDependencies": [],
+      "title": "Streaming Response",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A stable generated-image surface that moves from queued work through progressive refinement to a completed result without layout shift.",
+      "files": [
+        {
+          "path": "components/agents/image-generation.tsx",
+          "target": "@components/agents/image-generation.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "image-generation",
+      "registryDependencies": [],
+      "title": "Image Generation",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "description": "A human-in-the-loop permission card for reviewing tool details, allowing once, remembering access, or denying execution.",
+      "files": [
+        {
+          "path": "components/agents/tool-approval.tsx",
+          "target": "@components/agents/tool-approval.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-code.tsx",
+          "target": "@components/agents/agent-code.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "tool-approval",
+      "registryDependencies": [],
+      "title": "Tool Approval",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Inline citation markers paired with a collapsible, progressively rendered reference collection for grounded agent responses.",
+      "files": [
+        {
+          "path": "components/agents/citations.tsx",
+          "target": "@components/agents/citations.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/favicon.ts",
+          "target": "@lib/favicon.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "citations",
+      "registryDependencies": [],
+      "title": "Citations",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "One adaptive activity stream for reasoning, searches, tool calls, structured execution traces, or a chronological mix.",
+      "files": [
+        {
+          "path": "components/agents/agent-activity/index.tsx",
+          "target": "@components/agents/agent-activity/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-activity/activity-row.tsx",
+          "target": "@components/agents/agent-activity/activity-row.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-activity/types.ts",
+          "target": "@components/agents/agent-activity/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/loading-states/thinking-shimmer.tsx",
+          "target": "@components/agents/loading-states/thinking-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/text-shimmer.tsx",
+          "target": "@components/motion/text-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/text-shimmer.ts",
+          "target": "@lib/text-shimmer.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "agent-activity",
+      "registryDependencies": [],
+      "title": "Agent Activity",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Shimmering reasoning copy with an ASCII loader and cascade, phrase-swap, or per-letter scramble transitions.",
+      "files": [
+        {
+          "path": "components/agents/loading-states/reasoning-text.tsx",
+          "target": "@components/agents/loading-states/reasoning-text.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/loader.tsx",
+          "target": "@components/motion/loader.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/text-shimmer.ts",
+          "target": "@lib/text-shimmer.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "reasoning-text",
+      "registryDependencies": [],
+      "title": "Agent Loading States Reasoning Text",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "description": "A quiet shimmer that keeps the agent's current status readable while work continues.",
+      "files": [
+        {
+          "path": "components/agents/loading-states/thinking-shimmer.tsx",
+          "target": "@components/agents/loading-states/thinking-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/text-shimmer.tsx",
+          "target": "@components/motion/text-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/text-shimmer.ts",
+          "target": "@lib/text-shimmer.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "thinking-shimmer",
+      "registryDependencies": [],
+      "title": "Agent Loading States Thinking Shimmer",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A compact activity glyph, action verb, and live tabular timer for longer-running agent work.",
+      "files": [
+        {
+          "path": "components/agents/loading-states/agent-progress.tsx",
+          "target": "@components/agents/loading-states/agent-progress.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "agent-progress",
+      "registryDependencies": [],
+      "title": "Agent Loading States Agent Progress",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A collapsible AI workspace sidebar for folders, projects, files, and bookmarks with keyboard navigation, optimistic moves, inline rename, and overflow-aware labels.",
+      "files": [
+        {
+          "path": "components/agents/ai-sidebar.tsx",
+          "target": "@components/agents/ai-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "ai-sidebar",
+      "registryDependencies": [],
+      "title": "AI Sidebar",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "description": "A complete agent conversation workspace composing navigation, messages, streaming, planning, approvals, tools, code, diffs, generated media, sources, and prompt input.",
+      "files": [
+        {
+          "path": "components/agents/chat-app.tsx",
+          "target": "@components/agents/chat-app.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-activity/index.tsx",
+          "target": "@components/agents/agent-activity/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/ai-sidebar.tsx",
+          "target": "@components/agents/ai-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/approval-card/index.tsx",
+          "target": "@components/agents/approval-card/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/code-block.tsx",
+          "target": "@components/agents/code-block.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/file-diff.tsx",
+          "target": "@components/agents/file-diff.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/image-generation.tsx",
+          "target": "@components/agents/image-generation.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/loading-states/thinking-shimmer.tsx",
+          "target": "@components/agents/loading-states/thinking-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/message.tsx",
+          "target": "@components/agents/message.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/message-bubble.tsx",
+          "target": "@components/agents/message-bubble.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/message-scroller.tsx",
+          "target": "@components/agents/message-scroller.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/prompt-input.tsx",
+          "target": "@components/agents/prompt-input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/streaming-response.tsx",
+          "target": "@components/agents/streaming-response.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/todo-list.tsx",
+          "target": "@components/agents/todo-list.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/tool-approval.tsx",
+          "target": "@components/agents/tool-approval.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/tool-result.tsx",
+          "target": "@components/agents/tool-result.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/animated-sidebar.tsx",
+          "target": "@components/motion/animated-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/agents/agent-activity/activity-row.tsx",
+          "target": "@components/agents/agent-activity/activity-row.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-activity/types.ts",
+          "target": "@components/agents/agent-activity/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "target": "@components/agents/agent-disclosure.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/approval-card/types.ts",
+          "target": "@components/agents/approval-card/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap-roll.tsx",
+          "target": "@components/motion/action-swap-roll.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/input.tsx",
+          "target": "@components/motion/input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/radio.tsx",
+          "target": "@components/motion/radio.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/agent-code.tsx",
+          "target": "@components/agents/agent-code.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/motion/text-shimmer.tsx",
+          "target": "@components/motion/text-shimmer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/message-context.tsx",
+          "target": "@components/agents/message-context.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/preview-rail.tsx",
+          "target": "@components/motion/preview-rail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/select.tsx",
+          "target": "@components/motion/select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/agents/citations.tsx",
+          "target": "@components/agents/citations.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/shared-layout-bg.tsx",
+          "target": "@components/motion/shared-layout-bg.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/text-shimmer.ts",
+          "target": "@lib/text-shimmer.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/favicon.ts",
+          "target": "@lib/favicon.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "chat-app",
+      "registryDependencies": [],
+      "title": "Chat App",
+      "type": "registry:component"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "@tanstack/react-virtual",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Responsive virtualized masonry that measures variable-height cards and loads more data as the user nears the end.",
+      "files": [
+        {
+          "path": "components/motion/infinite-masonry.tsx",
+          "target": "@components/motion/infinite-masonry.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "infinite-masonry",
+      "registryDependencies": [],
+      "title": "Infinite Masonry",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Compact notification cards that spring from a stacked summary into a readable list on hover, focus or tap.",
+      "files": [
+        {
+          "path": "components/motion/notification-stack.tsx",
+          "target": "@components/motion/notification-stack.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "notification-stack",
+      "registryDependencies": [],
+      "title": "Notification Stack",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "The tournament drawn radially. The champion holds the hub, each round is a ring further out, and the teams themselves form the rim. Nodes spring in ring by ring, and hovering one isolates that team while the rest recede. Teams show a flag, a logo or their initials, and a deeper draw grows another ring.",
+      "files": [
+        {
+          "path": "components/motion/knockout-wheel.tsx",
+          "target": "@components/motion/knockout-wheel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "target": "@components/motion/tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "knockout-wheel",
+      "registryDependencies": [],
+      "title": "Fixtures Knockout Wheel",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Pages one round at a time. The leftmost round stacks at a fixed rhythm, each later round centers between its two feeder matches, and cards, elbow connectors, headers and stage height animate into every new layout. A third place play-off sits below the tree under its own rule. Round names, team artwork, dates and result chips all come from the data you pass.",
+      "files": [
+        {
+          "path": "components/motion/knockout-bracket.tsx",
+          "target": "@components/motion/knockout-bracket.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "knockout-bracket",
+      "registryDependencies": [],
+      "title": "Fixtures Knockout Bracket",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Weekly availability editor where each day springs between available and unavailable, time ranges add and remove with blur-slide motion, times pick from a scrollable dropdown, and a copy menu clones hours to other days.",
+      "files": [
+        {
+          "path": "components/motion/availability-scheduler/index.tsx",
+          "target": "@components/motion/availability-scheduler/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/availability-scheduler/day-row.tsx",
+          "target": "@components/motion/availability-scheduler/day-row.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/availability-scheduler/types.ts",
+          "target": "@components/motion/availability-scheduler/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/availability-scheduler/copy-menu.tsx",
+          "target": "@components/motion/availability-scheduler/copy-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/availability-scheduler/icon-button.tsx",
+          "target": "@components/motion/availability-scheduler/icon-button.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/availability-scheduler/time-select.tsx",
+          "target": "@components/motion/availability-scheduler/time-select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/switch.tsx",
+          "target": "@components/motion/switch.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "target": "@components/motion/tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "target": "@components/motion/popover-morph.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/select.tsx",
+          "target": "@components/motion/select.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "target": "@components/motion/popover-position.ts",
+          "type": "registry:component"
+        }
+      ],
+      "name": "availability-scheduler",
+      "registryDependencies": [],
+      "title": "Availability Scheduler",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Cross-chain swap widget with chain + token selectors, morphing views, animated flip and quote.",
+      "files": [
+        {
+          "path": "components/motion/swap.tsx",
+          "target": "@components/motion/swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/swap/constants.ts",
+          "target": "@components/motion/swap/constants.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/swap/controls.tsx",
+          "target": "@components/motion/swap/controls.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/swap/data.ts",
+          "target": "@components/motion/swap/data.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/swap/field.tsx",
+          "target": "@components/motion/swap/field.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/swap/quote-row.tsx",
+          "target": "@components/motion/swap/quote-row.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/swap/token-picker.tsx",
+          "target": "@components/motion/swap/token-picker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/swap/types.ts",
+          "target": "@components/motion/swap/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/swap/utils.ts",
+          "target": "@components/motion/swap/utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/swap/token-badges.tsx",
+          "target": "@components/motion/swap/token-badges.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "swap",
+      "registryDependencies": [],
+      "title": "Multi-chain Swap",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "iOS-style island pill that morphs between live activity views with bouncy shell resize and blur crossfades.",
+      "files": [
+        {
+          "path": "components/motion/dynamic-island.tsx",
+          "target": "@components/motion/dynamic-island.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "dynamic-island",
+      "registryDependencies": [],
+      "title": "Dynamic Island",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "\u2318K palette with fuzzy filter, spring-animated active row and glass surface.",
+      "files": [
+        {
+          "path": "components/motion/command-palette.tsx",
+          "target": "@components/motion/command-palette.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "command-palette",
+      "registryDependencies": [],
+      "title": "Command Palette",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Compact icon actions that expand into labeled controls on hover or focus with shared layout motion.",
+      "files": [
+        {
+          "path": "components/motion/expandable-action-bar.tsx",
+          "target": "@components/motion/expandable-action-bar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "expandable-action-bar",
+      "registryDependencies": [],
+      "title": "Expandable Action Bar",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Connected pill rail for primary actions that springs open to reveal extra controls.",
+      "files": [
+        {
+          "path": "components/motion/overflow-actions.tsx",
+          "target": "@components/motion/overflow-actions.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "overflow-actions",
+      "registryDependencies": [],
+      "title": "Overflow Actions",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Icon tab bar where the active tab expands to a labelled pill, with a panel above that morphs height and slides content direction-aware on switch.",
+      "files": [
+        {
+          "path": "components/motion/expandable-tabs.tsx",
+          "target": "@components/motion/expandable-tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "expandable-tabs",
+      "registryDependencies": [],
+      "title": "Expandable Tabs",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Reorderable tabs whose selected item grows into a white content surface, with the active shape gliding as tabs move and a shared morph between rooms.",
+      "files": [
+        {
+          "path": "components/motion/morphing-tabs.tsx",
+          "target": "@components/motion/morphing-tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "morphing-tabs",
+      "registryDependencies": [],
+      "title": "Morphing Tabs",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Mobile-style list rows that swipe left or right to reveal contextual action buttons.",
+      "files": [
+        {
+          "path": "components/motion/swipeable-list.tsx",
+          "target": "@components/motion/swipeable-list.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "swipeable-list",
+      "registryDependencies": [],
+      "title": "Swipeable List",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A mixed attachment workspace with a dropzone, staggered file and image rows, animated upload, success, failure, retry and removal feedback, shared-layout image previews, and an audio waveform.",
+      "files": [
+        {
+          "path": "components/motion/attachment-upload.tsx",
+          "target": "@components/motion/attachment-upload.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "target": "@components/motion/tooltip.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "name": "attachment-upload",
+      "registryDependencies": [],
+      "title": "File Upload Attachment Upload",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A drag-and-drop upload queue with progress rows, upload states, retry, and removal.",
+      "files": [
+        {
+          "path": "components/motion/file-upload.tsx",
+          "target": "@components/motion/file-upload.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "file-upload",
+      "registryDependencies": [],
+      "title": "File Upload Upload Queue",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Prediction market trade ticket with buy/sell modes, outcome prices, rolling amount entry, quick add chips and trade states.",
+      "files": [
+        {
+          "path": "components/motion/prediction-market.tsx",
+          "target": "@components/motion/prediction-market.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "target": "@components/motion/number-ticker.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/tabs.tsx",
+          "target": "@components/motion/tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "name": "prediction-market",
+      "registryDependencies": [],
+      "title": "Prediction Market",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Wallet overview card with an account switcher and search that morph open from their triggers, a cascading balance with a live change pill and privacy toggle, copy-address, and Send / Deposit / Swap / Buy actions.",
+      "files": [
+        {
+          "path": "components/motion/wallet-card/index.tsx",
+          "target": "@components/motion/wallet-card/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/wallet-card/account-switcher.tsx",
+          "target": "@components/motion/wallet-card/account-switcher.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/wallet-card/actions.tsx",
+          "target": "@components/motion/wallet-card/actions.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/wallet-card/balance-delta.tsx",
+          "target": "@components/motion/wallet-card/balance-delta.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/wallet-card/search-bar.tsx",
+          "target": "@components/motion/wallet-card/search-bar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/wallet-card/types.ts",
+          "target": "@components/motion/wallet-card/types.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "target": "@components/motion/action-swap.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/wallet-card/account-avatar.tsx",
+          "target": "@components/motion/wallet-card/account-avatar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/wallet-card/constants.ts",
+          "target": "@components/motion/wallet-card/constants.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/wallet-card/copy-button.tsx",
+          "target": "@components/motion/wallet-card/copy-button.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/wallet-card/use-dismiss.ts",
+          "target": "@components/motion/wallet-card/use-dismiss.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/wallet-card/utils.ts",
+          "target": "@components/motion/wallet-card/utils.ts",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "wallet-card",
+      "registryDependencies": [],
+      "title": "Wallet Card",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "One-time-code input with a gliding focus ring, digits that roll in per slot, error shake and a success check draw.",
+      "files": [
+        {
+          "path": "components/motion/otp-input.tsx",
+          "target": "@components/motion/otp-input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "otp-input",
+      "registryDependencies": [],
+      "title": "OTP Input",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Composed sign-up form that flags a field only once it is left, then clears the moment it is fixed, with a length-weighted strength meter, password reveal and an animated submit lifecycle.",
+      "files": [
+        {
+          "path": "components/motion/signup-form.tsx",
+          "target": "@components/motion/signup-form.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "target": "@components/motion/checkbox.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/input.tsx",
+          "target": "@components/motion/input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "signup-form",
+      "registryDependencies": [],
+      "title": "Sign Up Form",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A button that morphs open into a menu and blooms iris-out from the center, the grid revealing in every direction with radially staggered items.",
+      "files": [
+        {
+          "path": "components/motion/bloom-menu.tsx",
+          "target": "@components/motion/bloom-menu.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "bloom-menu",
+      "registryDependencies": [],
+      "title": "Bloom Menu",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Corner trigger that morphs open into a feedback popup with message entry and animated sending, success and retry states.",
+      "files": [
+        {
+          "path": "components/motion/feedback-widget.tsx",
+          "target": "@components/motion/feedback-widget.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "target": "@components/motion/button/index.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "target": "@components/motion/button/base.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "target": "@components/motion/button/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "target": "@components/motion/button/stateful.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "name": "feedback-widget",
+      "registryDependencies": [],
+      "title": "Feedback Widget",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Digits scramble through random glyphs before resolving, with a chromatic split on hover.",
+      "files": [
+        {
+          "path": "components/motion/not-found/glitch.tsx",
+          "target": "@components/motion/not-found/glitch.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/not-found/shared.tsx",
+          "target": "@components/motion/not-found/shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-glitch",
+      "registryDependencies": [],
+      "title": "404 / Not Found Glitch",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "Each digit is cursor-attracted via the Magnetic wrapper and springs back on leave.",
+      "files": [
+        {
+          "path": "components/motion/not-found/magnetic.tsx",
+          "target": "@components/motion/not-found/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/not-found/shared.tsx",
+          "target": "@components/motion/not-found/shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "target": "@components/motion/magnetic.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "name": "not-found-magnetic",
+      "registryDependencies": [],
+      "title": "404 / Not Found Magnetic",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A dark panel where a cursor-tracked spotlight reveals the bright code from a dim base.",
+      "files": [
+        {
+          "path": "components/motion/not-found/spotlight.tsx",
+          "target": "@components/motion/not-found/spotlight.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/not-found/shared.tsx",
+          "target": "@components/motion/not-found/shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-spotlight",
+      "registryDependencies": [],
+      "title": "404 / Not Found Spotlight",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A code card over a hidden stack that fans out with a spring on hover.",
+      "files": [
+        {
+          "path": "components/motion/not-found/stacked.tsx",
+          "target": "@components/motion/not-found/stacked.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/not-found/shared.tsx",
+          "target": "@components/motion/not-found/shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-stacked",
+      "registryDependencies": [],
+      "title": "404 / Not Found Stacked",
+      "type": "registry:block"
+    },
+    {
+      "author": "Saurabh <saurabh10102@gmail.com>",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "tailwind-merge"
+      ],
+      "description": "A terminal window that types a failed cd command and a 404 status, with a blinking caret.",
+      "files": [
+        {
+          "path": "components/motion/not-found/terminal.tsx",
+          "target": "@components/motion/not-found/terminal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/not-found/shared.tsx",
+          "target": "@components/motion/not-found/shared.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/motion/text-reveal.tsx",
+          "target": "@components/motion/text-reveal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "target": "@lib/ease.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "target": "@lib/hooks/use-hover-capable.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "lib/utils.ts",
+          "target": "@lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "name": "not-found-terminal",
+      "registryDependencies": [],
+      "title": "404 / Not Found Terminal",
+      "type": "registry:block"
+    }
+  ],
+  "name": "beui"
+}

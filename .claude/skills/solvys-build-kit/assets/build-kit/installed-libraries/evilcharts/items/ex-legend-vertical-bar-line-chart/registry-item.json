@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-legend-vertical-bar-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1576,
+      "path": "src/registry/examples/recharts/ex-legend-vertical-bar-line-chart.tsx",
+      "sha256": "4726bdc9dd43fe3ba5a826468c7c2ffb80789c0460d5dbbbc62331c2ff804f60",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-legend-vertical-bar-line-chart.json?raw=1",
+  "type": "registry:block"
+}

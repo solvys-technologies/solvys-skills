@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-variants-pro",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 680,
+      "path": "registry/examples/pagination-variants-pro.tsx",
+      "sha256": "0c782edbf564c033220e3ed6cad54ec287b8543bc8283fdc61de5d3604439371",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-variants-pro.json",
+  "title": "Pagination Variants (Pro)",
+  "type": "registry:example"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-stacked-type-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1835,
+      "path": "src/registry/examples/echarts/ex-stacked-type-echarts-area-chart.tsx",
+      "sha256": "ccdfb8ab05ec1102febe2c18771ed82eef18adf61e30a5fd624dfa20d80f5afc",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-stacked-type-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

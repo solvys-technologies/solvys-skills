@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "slider-composition",
+  "registryDependencies": [
+    "slider",
+    "badge",
+    "label",
+    "tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1690,
+      "path": "registry/examples/slider-composition.tsx",
+      "sha256": "d827d71cc75129590752ce0a9ced2d2b92350340069ba0043f78df867b25abd0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider-composition.json",
+  "title": "Slider Composition",
+  "type": "registry:example"
+}

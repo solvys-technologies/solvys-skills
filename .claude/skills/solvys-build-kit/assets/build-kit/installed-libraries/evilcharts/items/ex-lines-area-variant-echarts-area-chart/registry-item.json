@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-lines-area-variant-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1912,
+      "path": "src/registry/examples/echarts/ex-lines-area-variant-echarts-area-chart.tsx",
+      "sha256": "52213387617d6f28e5876e6a0382742b5aea41aba220d30a3a569d920bb54bbf",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-lines-area-variant-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

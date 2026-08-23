@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-states",
+  "registryDependencies": [
+    "field",
+    "input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1163,
+      "path": "registry/examples/input-states.tsx",
+      "sha256": "949ca11584ed5d11565d9f088026fb809fb9ba6d24b16bf345ccb119d1aaaa39",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-states.json",
+  "title": "Input States",
+  "type": "registry:example"
+}

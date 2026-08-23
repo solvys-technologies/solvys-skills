@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tooltip-without-arrow",
+  "registryDependencies": [
+    "button",
+    "tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 794,
+      "path": "registry/examples/tooltip-without-arrow.tsx",
+      "sha256": "70a34b49c6ec4d499c15a6c2acde112c12fa1d32f3e2e752c95176c20eacf920",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tooltip-without-arrow.json",
+  "title": "Tooltip Without Arrow",
+  "type": "registry:example"
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Tick dots, and a vertical-bar thumb that bounces as it lands on each step.",
+  "name": "range-slider",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 3442,
+      "path": "components/motion/range-slider.tsx",
+      "sha256": "2d371915eb7169b38279d3702cf7f813814e5161f410713f3ade0d873c6c72f7",
+      "target": "@components/motion/range-slider.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 5975,
+      "path": "lib/hooks/use-slider.ts",
+      "sha256": "634c573bf203e34a65b9231b6298cd30d968cc23a9acb345998573a874a32924",
+      "target": "@lib/hooks/use-slider.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/range-slider.json",
+  "title": "Range Slider Range Slider",
+  "type": "registry:component"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "context-menu-files",
+  "registryDependencies": [
+    "context-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3602,
+      "path": "registry/examples/context-menu-files.tsx",
+      "sha256": "c71266f3acadfa7785683f42c69c06adc8fb4261dce1bada1efffa9b1c1ba278",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/context-menu-files.json",
+  "title": "Context Menu File List",
+  "type": "registry:example"
+}

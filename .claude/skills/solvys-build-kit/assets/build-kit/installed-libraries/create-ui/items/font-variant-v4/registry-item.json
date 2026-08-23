@@ -1,0 +1,37 @@
+{
+  "fontVariant": {
+    "body": {
+      "family": "'Noto Sans', sans-serif",
+      "import": "Noto_Sans",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-body"
+    },
+    "display": {
+      "family": "'Space Grotesk', sans-serif",
+      "import": "Space_Grotesk",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-display"
+    },
+    "numeric": {
+      "family": "'JetBrains Mono Variable', monospace",
+      "import": "JetBrains_Mono",
+      "provider": "google",
+      "subsets": [
+        "latin"
+      ],
+      "variable": "--font-numeric"
+    }
+  },
+  "name": "font-variant-v4",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/font-variant-v4.json",
+  "status": "installed",
+  "title": "V4",
+  "type": "registry:font-variant"
+}

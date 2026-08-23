@@ -1,0 +1,27 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "react-aria-components"
+  ],
+  "description": "React Aria combobox: a text input that filters a list as you type and commits one value; reuses the Dropdown/Select item surface, supports allowsCustomValue, sections and smart items; size xs/sm/md cascades from Field",
+  "name": "combobox",
+  "registryDependencies": [
+    "field",
+    "input",
+    "spinner",
+    "dropdown-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 12688,
+      "path": "registry/ui/combobox.tsx",
+      "sha256": "b307001e1b2632cbcab31043838393a8b536081db054bbfdde97feb19fb3e4f4",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/combobox.json",
+  "title": "Combobox",
+  "type": "registry:ui"
+}

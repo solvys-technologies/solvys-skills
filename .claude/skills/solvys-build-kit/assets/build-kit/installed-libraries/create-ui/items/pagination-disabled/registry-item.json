@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-disabled",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 692,
+      "path": "registry/examples/pagination-disabled.tsx",
+      "sha256": "23ae3b75956b30ad351bfdadd706f0f1a389c686f3af657be6e2b9c54fb162df",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-disabled.json",
+  "title": "Pagination Disabled",
+  "type": "registry:example"
+}

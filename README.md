@@ -47,6 +47,10 @@ needed, create a Site-derived local HTML artifact and open it with
 Site. Wonder is the proposal source for new frontend changes and must hold the
 diff before Site deployment. Existing Builder and Plasmic artifacts are
 protected legacy inputs unless TP explicitly selects a source transfer.
+Shared interactive assemblies come from the source-copied Solvys Build Kit.
+The Factory ships no runtime dependency on a visual editor or design canvas;
+legacy exports stay outside the suite until TP records an explicit source
+transfer.
 
 Every Site prototype must be a 1:1 runnable representation of the accepted
 source or product specification at the requested scope. Match copy, geometry,
@@ -61,6 +65,7 @@ fixture provenance, and Site interaction receipt before acceptance.
 |-------|--------|---------|
 | CAO | `/solvys-cao` | Universal operating doctrine for authority, Cloud execution, Site review, safety, and proof |
 | Factory | `/solvys-factory` | Mandatory orientation, Welcome Mat entrance, operating lanes, architecture maps, proof, and handoff |
+| Sign-In | `/solvys-sign-in` | Complete authorized Google, provider, CLI, MFA, QR, and Wonder sign-ins without dead loops |
 | Build Kit | `/solvys-build-kit` | Load runnable Solvys interview, architecture, control-inventory, state, rail, and workbench assemblies into a React project |
 | Orchestrate | `/solvys-orchestrate` | Multi-track sprint planning with parallel agent briefings |
 | Audit | `/solvys-audit` | Pre-flight checks, debugging, environment audit, security scan |
@@ -69,7 +74,7 @@ fixture provenance, and Site interaction receipt before acceptance.
 | Beta | `/solvys-beta` | Local build, test, and DMG publish to desktop |
 | Feels | `/solvys-feels` | Visual architecture -- Solvys Gold palette, flat design, industrial warmth |
 | Kirby Interface Inventory | `/solvys-kirby` (`Solvys-admiration-report`) | Reverse-engineer an authorized live benchmark into evidence-backed tokens, components, states, layout, motion, and a PL0 contract |
-| Prototype | `/solvys-prototype` | Build an Alpha prototype only from a validated Interface Inventory and accepted PL0 contract |
+| Prototype-to-alpha | `/solvys-pta` | Build an Alpha surface only from a validated Interface Inventory and accepted PL0 contract |
 | Communication Style | `communication-style-protocol` | Universal direct, high-trust communication protocol with the No AI Slop overlay |
 | No AI Slop | `/no-ai-slop` | Remove AI writing patterns while preserving the writer's voice |
 | Human Review | `/human-review` | Direct text edits and anchored comments on the Site-derived local review artifact |

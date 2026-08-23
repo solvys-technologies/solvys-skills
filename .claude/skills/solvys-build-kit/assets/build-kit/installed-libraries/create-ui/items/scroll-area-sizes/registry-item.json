@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "scroll-area-sizes",
+  "registryDependencies": [
+    "scroll-area",
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2113,
+      "path": "registry/examples/scroll-area-sizes.tsx",
+      "sha256": "d77d6bf3075d74be9d43a88cccf17712736eaf87cf505d6461c0bb01687151ce",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/scroll-area-sizes.json",
+  "title": "Scroll Area Sizes",
+  "type": "registry:example"
+}

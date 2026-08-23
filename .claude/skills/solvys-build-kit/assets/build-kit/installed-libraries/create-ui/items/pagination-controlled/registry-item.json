@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-controlled",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1976,
+      "path": "registry/examples/pagination-controlled.tsx",
+      "sha256": "60f1f1e97353320c0b95790ff5899ffcff1978b134f01eeeb7604e55e450ccc4",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-controlled.json",
+  "title": "Pagination Controlled",
+  "type": "registry:example"
+}

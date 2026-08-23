@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "stateful-button",
+  "shippedFiles": [
+    {
+      "bytes": 3523,
+      "path": "components/ui/stateful-button.tsx",
+      "sha256": "b19e3cee5986e376b9bffb740b77747ffd3c149d150c9e36b73c395ba7cb2ef9",
+      "target": "components/ui/stateful-button.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/stateful-button.json",
+  "title": "Stateful Button",
+  "type": "registry:ui"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-glowing-mobile-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1873,
+      "path": "src/registry/examples/recharts/ex-glowing-mobile-line-chart.tsx",
+      "sha256": "8972ea1d246e56162acf1caa42113ab3121470e0cca93885355c137e7c9bff33",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-glowing-mobile-line-chart.json?raw=1",
+  "type": "registry:block"
+}

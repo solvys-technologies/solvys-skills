@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-pie-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-pie-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1304,
+      "path": "src/registry/examples/recharts/ex-pie-chart.tsx",
+      "sha256": "3f74b33b28e5cbacd59ee4fe0be126c80c343933a58eb3eb74b48908b29f47bc",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-pie-chart.json?raw=1",
+  "type": "registry:block"
+}

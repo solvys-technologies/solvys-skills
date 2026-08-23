@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-chart-config-icons-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1651,
+      "path": "src/registry/examples/echarts/ex-chart-config-icons-echarts-bar-chart.tsx",
+      "sha256": "5715f5e8b4cdd12c5628fcb5c0bace04d7fdd96a0db70cafa26b8b50034cf139",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-chart-config-icons-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

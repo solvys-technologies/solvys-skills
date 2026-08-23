@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "text-flipping-board",
+  "shippedFiles": [
+    {
+      "bytes": 14771,
+      "path": "components/ui/text-flipping-board.tsx",
+      "sha256": "f33799e3ab6e0a407d26330853131d3332cf2c882e8bd406a8c60e0c3574830f",
+      "target": "components/ui/text-flipping-board.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/text-flipping-board.json",
+  "title": "Text Flipping Board",
+  "type": "registry:ui"
+}

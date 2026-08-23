@@ -1,0 +1,25 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "modal-form",
+  "registryDependencies": [
+    "modal",
+    "button",
+    "field",
+    "input",
+    "label",
+    "info-tooltip",
+    "progress"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3098,
+      "path": "registry/examples/modal-form.tsx",
+      "sha256": "40ca8fd7a0fb7bbf01c2f994f7b298104c92c5552993fb0534574e35d8d6b9dc",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/modal-form.json",
+  "title": "Modal Form",
+  "type": "registry:example"
+}

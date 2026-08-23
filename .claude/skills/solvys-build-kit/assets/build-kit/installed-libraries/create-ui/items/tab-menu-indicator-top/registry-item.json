@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-indicator-top",
+  "registryDependencies": [
+    "tab-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 671,
+      "path": "registry/examples/tab-menu-indicator-top.tsx",
+      "sha256": "5fb11006873811e9f7925fa4e1806c2a910b3109b046f594b7043cdf45d8c663",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-indicator-top.json",
+  "title": "TabMenu Indicator Top",
+  "type": "registry:example"
+}

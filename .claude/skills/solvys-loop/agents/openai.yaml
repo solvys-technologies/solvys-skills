@@ -1,0 +1,4 @@
+interface:
+  display_name: Solvys Loop
+  short_description: Run durable sprint loops with retries and proof
+  default_prompt: Operate this sprint from its Factory loop records, retry budget, and Development Contract.

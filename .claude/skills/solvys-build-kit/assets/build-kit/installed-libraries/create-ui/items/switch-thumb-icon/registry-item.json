@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-thumb-icon",
+  "registryDependencies": [
+    "switch"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 234,
+      "path": "registry/examples/switch-thumb-icon.tsx",
+      "sha256": "59c3c564c7b336ee76fd32be47d90db22352bb91d2039ae25fcb7a02acbc8b6f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-thumb-icon.json",
+  "title": "Switch Thumb Icon",
+  "type": "registry:example"
+}

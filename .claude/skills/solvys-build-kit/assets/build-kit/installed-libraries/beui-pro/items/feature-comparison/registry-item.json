@@ -1,0 +1,59 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "@react-three/fiber",
+    "@react-three/postprocessing",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "postprocessing",
+    "tailwind-merge",
+    "three"
+  ],
+  "description": "A clean editorial comparison with a focused recommendation, calm reveal motion, and a compact product switcher on mobile.",
+  "name": "feature-comparison",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 14517,
+      "path": "components/premium/comparison/feature-comparison.tsx",
+      "sha256": "34639c929bdc564a623ff94c7cef15217c231bd30461452e4637988f3ca01684",
+      "target": "@components/premium/comparison/feature-comparison.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 9798,
+      "path": "components/premium/comparison/dither.tsx",
+      "sha256": "9a5bd9a52112e80baf27b93656a1812064301f99204e7ee00f23ea30453cb918",
+      "target": "@components/premium/comparison/dither.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 75,
+      "path": "components/premium/comparison/dither.css",
+      "sha256": "ebf979696561845e244bf31c1e35237832decebc3e714e4c22f72cc25694ead7",
+      "target": "@components/premium/comparison/dither.css",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/feature-comparison.json",
+  "title": "Feature comparison",
+  "type": "registry:block"
+}

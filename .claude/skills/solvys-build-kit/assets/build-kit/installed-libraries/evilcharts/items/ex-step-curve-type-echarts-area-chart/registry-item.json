@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-step-curve-type-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1960,
+      "path": "src/registry/examples/echarts/ex-step-curve-type-echarts-area-chart.tsx",
+      "sha256": "09035c96ac1ea43c2a39637cae393cedcc8bcac3ee9fe7ffe047e0a9bd0762be",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-step-curve-type-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

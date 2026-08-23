@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "projectId": "project-slug",
+  "backend": "bw",
+  "readOnly": true,
+  "allowedOrigins": [
+    "https://login.example.com"
+  ],
+  "clipboard": {
+    "enabled": true,
+    "ttlSeconds": 30,
+    "allowedCredentials": [
+      "primary"
+    ]
+  },
+  "bws": {
+    "projectId": "40000000-0000-4000-8000-000000000000",
+    "secretIds": {
+      "username": "40000000-0000-4000-8000-000000000001",
+      "password": "40000000-0000-4000-8000-000000000002",
+      "totp": "40000000-0000-4000-8000-000000000003"
+    },
+    "accessTokenEnv": "BWS_ACCESS_TOKEN"
+  },
+  "bw": {
+    "itemId": "40000000-0000-4000-8000-000000000004",
+    "itemName": "project-repository-name",
+    "keychainAccount": "solvys-project",
+    "keychainService": "com.solvys.bitwarden.project",
+    "appDataDir": "/Users/user/.config/solvys-factory/bitwarden/project",
+    "syncOnRead": false
+  },
+  "metadata": {
+    "repositoryName": "project-repository-name",
+    "accountLabel": "project Google identity",
+    "rotationOwner": "Solvys Factory",
+    "expiry": "2026-12-31"
+  },
+  "solvysOverride": {
+    "itemId": "40000000-0000-4000-8000-000000000005",
+    "itemName": "Solvys Override",
+    "providers": [
+      "provider-name"
+    ],
+    "allowedOrigins": [
+      "https://provider.example.com"
+    ],
+    "trigger": "primary-resource-absent"
+  }
+}

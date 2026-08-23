@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "separator-alignment",
+  "registryDependencies": [
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 336,
+      "path": "registry/examples/separator-alignment.tsx",
+      "sha256": "d018d39f285305309d7853083ec55d198811e3ee0b7f9a4ca39e13aeebd1fe37",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/separator-alignment.json",
+  "title": "Separator Alignment",
+  "type": "registry:example"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "navbar-bordered",
+  "registryDependencies": [
+    "navbar",
+    "button",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10184,
+      "path": "registry/examples/navbar-bordered.tsx",
+      "sha256": "87a2f3e255d52a85afefc357ff4c6bf22547ad109344f0647d5fbfcee7ec1ceb",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/navbar-bordered.json",
+  "title": "Navbar",
+  "type": "registry:example"
+}

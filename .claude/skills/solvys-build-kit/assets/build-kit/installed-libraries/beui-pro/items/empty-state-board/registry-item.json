@@ -1,0 +1,55 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A sharp project board whose starter card and cursor move together across columns on hover.",
+  "name": "empty-state-board",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4943,
+      "path": "components/premium/empty-states/empty-state-board.tsx",
+      "sha256": "51cad77ecb6613216c93a0d7e0e9d176bbad70bb483f46ce51e044c090e3d367",
+      "target": "@components/premium/empty-states/empty-state-board.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 612,
+      "path": "components/premium/empty-states/use-empty-state-stage.ts",
+      "sha256": "9476ef5ba7b176bf60ebca2fe4554f6a077ce6ae354d1475f43be07e3876ec83",
+      "target": "@components/premium/empty-states/use-empty-state-stage.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 512,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "f8e4b636902c6e5d8baa31ea4bfbcebd23f5f4c2590a8264785642395a2a9419",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/empty-state-board.json",
+  "title": "Blank board",
+  "type": "registry:block"
+}

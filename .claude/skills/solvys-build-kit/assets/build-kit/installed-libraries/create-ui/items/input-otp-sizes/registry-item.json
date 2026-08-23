@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-otp-sizes",
+  "registryDependencies": [
+    "input-otp",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1950,
+      "path": "registry/examples/input-otp-sizes.tsx",
+      "sha256": "c0183e50d8a95037324b3a377685c5bad34726f0281aa149bf9373a3f7c61644",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-otp-sizes.json",
+  "title": "Input OTP Sizes",
+  "type": "registry:example"
+}

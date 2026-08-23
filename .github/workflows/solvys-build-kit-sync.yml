@@ -1,0 +1,38 @@
+name: Solvys Build Kit upstream sync
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  discover-and-stage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Discover approved library changes
+        env:
+          SOLVYS_BEUI_CATALOG_URL: ${{ secrets.SOLVYS_BEUI_CATALOG_URL }}
+          SOLVYS_BEUI_PRO_CATALOG_URL: ${{ secrets.SOLVYS_BEUI_PRO_CATALOG_URL }}
+          SOLVYS_BEUI_PRO_TOKEN: ${{ secrets.SOLVYS_BEUI_PRO_TOKEN }}
+          SOLVYS_EVILCHARTS_CATALOG_URL: ${{ secrets.SOLVYS_EVILCHARTS_CATALOG_URL }}
+        run: python3 .claude/skills/solvys-build-kit/scripts/sync_build_kit.py --apply
+      - name: Validate the Build Kit
+        run: python3 .claude/skills/solvys-build-kit/scripts/validate_build_kit.py
+      - name: Promote compatible additive blocks
+        run: python3 .claude/skills/solvys-build-kit/scripts/promote_build_kit.py --apply --strict
+      - name: Commit green candidate receipts
+        run: |
+          git config user.name "solvys-build-kit-sync"
+          git config user.email "solvys-build-kit-sync@users.noreply.github.com"
+          git add .claude/skills/solvys-build-kit/assets/build-kit/updates
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(build-kit): sync approved upstream catalogs"
+            git push
+          fi

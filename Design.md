@@ -39,8 +39,10 @@ the repo-local design file before product-wide migration work continues.
 
 A project-owned ChatGPT Site is the design and implementation-check surface.
 Open `human-review` automatically on a Site-derived local HTML review artifact
-when the Site needs visual or content review. Wonder owns new frontend proposals
-and their diffs before Site deployment. Existing Builder and Plasmic artifacts
+when the Site needs visual or content review. Wonder owns the human-editable
+frontend source and its recorded code mapping. Read
+`factory/canon/frontend-wonder-source-of-truth.md` before a frontend change.
+Existing Builder and Plasmic artifacts
 are protected legacy inputs until TP selects a source transfer. Localhost, port 7777,
 a screenshot, or a legacy-editor preview cannot be promoted into source,
 deployed, live, or installed proof.

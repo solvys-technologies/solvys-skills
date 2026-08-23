@@ -8,7 +8,7 @@ Backend contracts, data models, persistence, auth, provider adapters, queues, sc
 
 1. Trace the live request/data path and current operating model.
 2. Define input/output schemas and ownership before implementation.
-3. Reuse current services or maintained primitives through Ponytail.
+3. Reuse current services or maintained primitives through the Solvys Ponytail Ladder (`factory/canon/ponytail-ladder.md`): prefer the repo seam, installed dependency, or maintained OSS over writing a new primitive, and record the tradeoff when OSS is rejected.
 4. Make degraded states explicit; do not let `overall: ok` hide required failures.
 5. Prove real external/provider behavior when authorized, with safe deterministic fallback.
 

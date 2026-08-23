@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-otp-with-field",
+  "registryDependencies": [
+    "input-otp",
+    "field"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1353,
+      "path": "registry/examples/input-otp-with-field.tsx",
+      "sha256": "d752635a6b22aa4287b5cfde4f31bc41be6880b561bb921f18e91270fec1e462",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-otp-with-field.json",
+  "title": "Input OTP With Field",
+  "type": "registry:example"
+}

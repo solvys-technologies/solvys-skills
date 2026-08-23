@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "info-tooltip-variants",
+  "registryDependencies": [
+    "info-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 700,
+      "path": "registry/examples/info-tooltip-variants.tsx",
+      "sha256": "e22dfd45e26301ff51269f7200b660decb183471d887fa8af8d644c18e2c038f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/info-tooltip-variants.json",
+  "title": "Info Tooltip Variants",
+  "type": "registry:example"
+}

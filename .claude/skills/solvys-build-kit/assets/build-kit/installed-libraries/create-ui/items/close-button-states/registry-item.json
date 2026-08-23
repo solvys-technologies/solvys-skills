@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "close-button-states",
+  "registryDependencies": [
+    "close-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 554,
+      "path": "registry/examples/close-button-states.tsx",
+      "sha256": "0ba6ff12e5f4f8ff1e66667ba92290a2769cf46edc338593a70f66c5aad4b2c7",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/close-button-states.json",
+  "title": "Close Button States",
+  "type": "registry:example"
+}

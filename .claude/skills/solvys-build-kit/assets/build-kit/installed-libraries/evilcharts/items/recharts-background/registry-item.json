@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts"
+  ],
+  "name": "recharts-background",
+  "shippedFiles": [
+    {
+      "bytes": 8312,
+      "path": "src/registry/ui/recharts-background.tsx",
+      "sha256": "eb71bf98cc051f1638a91f1a50fc0b27b36d48502b8db5da420bf34b14b689cd",
+      "target": "components/evilcharts/ui/recharts-background.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-background.json?raw=1",
+  "type": "registry:component"
+}

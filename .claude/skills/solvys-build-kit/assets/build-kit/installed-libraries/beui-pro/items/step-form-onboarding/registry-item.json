@@ -1,0 +1,55 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A multi-field signup flow that groups profile, workspace, and goal details into compact animated onboarding steps.",
+  "name": "step-form-onboarding",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 16822,
+      "path": "components/premium/step-form/step-form-onboarding.tsx",
+      "sha256": "fd79b5cebb4c4a48e0e94f029b314ca786514d246c2df546449e8d7dac0869d6",
+      "target": "@components/premium/step-form/step-form-onboarding.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 797,
+      "path": "components/premium/step-form/types.ts",
+      "sha256": "12914f4fde29c27415611e1a29eb339ccb0e39a996ed121007c4510e05ea64f4",
+      "target": "@components/premium/step-form/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 11981,
+      "path": "components/motion/select.tsx",
+      "sha256": "b0ece9f40d1db9b91cdc1109d9dc247e0d2361a9f24138bb4909d880d768010e",
+      "target": "@components/motion/select.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/step-form-onboarding.json",
+  "title": "Onboarding form",
+  "type": "registry:block"
+}

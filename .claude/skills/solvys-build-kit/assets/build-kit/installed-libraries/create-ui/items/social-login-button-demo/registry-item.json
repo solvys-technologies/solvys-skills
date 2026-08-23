@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "social-login-button-demo",
+  "registryDependencies": [
+    "social-login-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2553,
+      "path": "registry/examples/social-login-button-demo.tsx",
+      "sha256": "07e548f431aa3f0b931ac5f8d706e6e3e861248276a1fbf44c9f1328479bf909",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/social-login-button-demo.json",
+  "title": "Social Login Button Demo",
+  "type": "registry:example"
+}

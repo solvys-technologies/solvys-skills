@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-buffer-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1683,
+      "path": "src/registry/examples/recharts/ex-buffer-bar-chart.tsx",
+      "sha256": "434d15bd8f7ac4cf4f94b4484fd2c3a6f1ec790ae15bd6821bad16a7c8b7233d",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-buffer-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "social-login-button-appearance",
+  "registryDependencies": [
+    "social-login-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 402,
+      "path": "registry/examples/social-login-button-appearance.tsx",
+      "sha256": "0df0774102f5248cba70412a700973f1cef6514fc0882ca83b05956f1ba62bb5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/social-login-button-appearance.json",
+  "title": "Social Login Button Appearance",
+  "type": "registry:example"
+}

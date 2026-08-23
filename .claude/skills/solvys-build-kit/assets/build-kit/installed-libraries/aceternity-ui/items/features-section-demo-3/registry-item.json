@@ -1,0 +1,21 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "cobe"
+  ],
+  "name": "features-section-demo-3",
+  "shippedFiles": [
+    {
+      "bytes": 9748,
+      "path": "components/features-section-demo-3.tsx",
+      "sha256": "3e75a06f4982fd8a1d150be861ac696eb7e53596c989214c2f385085c0541b55",
+      "target": "components/features-section-demo-3.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/features-section-demo-3.json",
+  "status": "installed",
+  "title": "Features Section Demo 3",
+  "type": "registry:block"
+}

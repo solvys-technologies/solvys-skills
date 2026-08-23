@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-legend-rounded-square-outline-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1566,
+      "path": "src/registry/examples/echarts/ex-legend-rounded-square-outline-echarts-line-chart.tsx",
+      "sha256": "f67c3c6fc5f940272fef62b10c64f85513c4ada26ba6258514253cfe4c7ee88f",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-legend-rounded-square-outline-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

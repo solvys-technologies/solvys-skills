@@ -10,7 +10,8 @@ Current operation state: `<state>`
 3. `project-manifest.yaml`
 4. Active `sprint-unit.json`
 5. Latest accepted receipt
-6. Exact source records needed for the task
+6. Project `infraction-ledger.json`
+7. Exact source records needed for the task
 
 ## Verify before change
 

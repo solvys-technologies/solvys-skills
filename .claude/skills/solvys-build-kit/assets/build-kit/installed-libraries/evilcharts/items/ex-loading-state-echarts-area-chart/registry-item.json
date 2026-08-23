@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-loading-state-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1404,
+      "path": "src/registry/examples/echarts/ex-loading-state-echarts-area-chart.tsx",
+      "sha256": "d5b4eb0f36160e49cf68368d971a2b3e08157f8130e90947295eba1385c9d4ea",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-loading-state-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

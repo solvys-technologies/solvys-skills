@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "badge-shape",
+  "registryDependencies": [
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 252,
+      "path": "registry/examples/badge-shape.tsx",
+      "sha256": "58134c1cb6bcbbdc689d0430fb0dbc189aa2b29688509295b96ec3a2c0e7c8b4",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/badge-shape.json",
+  "title": "Badge Shape",
+  "type": "registry:example"
+}

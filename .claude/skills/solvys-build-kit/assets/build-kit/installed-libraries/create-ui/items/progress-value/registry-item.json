@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "progress-value",
+  "registryDependencies": [
+    "progress"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 295,
+      "path": "registry/examples/progress-value.tsx",
+      "sha256": "5dedf98bdfd8bec3bca5bbea32baae0be59e235583199003b9d3ed40de3f58e5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/progress-value.json",
+  "title": "Progress Value",
+  "type": "registry:example"
+}

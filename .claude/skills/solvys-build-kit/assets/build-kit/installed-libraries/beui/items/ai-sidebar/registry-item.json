@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A collapsible AI workspace sidebar for folders, projects, files, and bookmarks with keyboard navigation, optimistic moves, inline rename, and overflow-aware labels.",
+  "name": "ai-sidebar",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 26988,
+      "path": "components/agents/ai-sidebar.tsx",
+      "sha256": "8e29d4334a14a56c08d92627d5c2aa9e7fba9f8eb2124ffdc3d89d5e393b9220",
+      "target": "@components/agents/ai-sidebar.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 8706,
+      "path": "components/motion/popover-morph.tsx",
+      "sha256": "ea30a042cf2f3bc31c20600a91bbc0a74790d73b7a91766e0fa34075b629f28d",
+      "target": "@components/motion/popover-morph.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 2223,
+      "path": "components/motion/popover-position.ts",
+      "sha256": "a31a9dc602243c3966aa1043cfd41dec5c13df1a52c847e745c88cbf00cb1f2e",
+      "target": "@components/motion/popover-position.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/ai-sidebar.json",
+  "title": "AI Sidebar",
+  "type": "registry:component"
+}

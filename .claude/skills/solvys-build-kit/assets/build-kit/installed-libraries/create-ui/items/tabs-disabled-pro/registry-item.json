@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tabs-disabled-pro",
+  "registryDependencies": [
+    "tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1266,
+      "path": "registry/examples/tabs-disabled-pro.tsx",
+      "sha256": "1449e8fa861580c71aafe1036e1f0580e09b3db16547205d7d823c41e96b2e7a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tabs-disabled-pro.json",
+  "title": "Tabs Disabled (Pro)",
+  "type": "registry:example"
+}

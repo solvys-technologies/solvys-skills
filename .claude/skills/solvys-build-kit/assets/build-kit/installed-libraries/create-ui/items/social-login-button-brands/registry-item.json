@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "social-login-button-brands",
+  "registryDependencies": [
+    "social-login-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 769,
+      "path": "registry/examples/social-login-button-brands.tsx",
+      "sha256": "5e5017700e79e6ed1a871f958b37d22c2a1cac7c960cdcd1ad3a3ac594701b65",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/social-login-button-brands.json",
+  "title": "Social Login Button Brands",
+  "type": "registry:example"
+}

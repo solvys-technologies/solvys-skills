@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A centered reliability statement with animated uptime, a drawn availability curve, clear support commitments, and a live-status action.",
+  "name": "trust-reliability-summary",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/number-ticker",
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 8344,
+      "path": "components/premium/trust-security/trust-reliability-summary.tsx",
+      "sha256": "f36a157f9c8465e4d84f33d537aac8560435d97a5fd6d2e14a0b32ad9fe5bbcb",
+      "target": "@components/premium/trust-security/trust-reliability-summary.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2181,
+      "path": "components/premium/trust-security/trust-section-heading.tsx",
+      "sha256": "d567c501d692b4819abb63294b1db279f4704ef9f298e913429dd8489adfa0be",
+      "target": "@components/premium/trust-security/trust-section-heading.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/trust-reliability-summary.json",
+  "title": "Reliability and support",
+  "type": "registry:block"
+}

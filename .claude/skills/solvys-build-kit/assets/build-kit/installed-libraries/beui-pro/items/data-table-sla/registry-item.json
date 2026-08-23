@@ -1,0 +1,72 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "@radix-ui/react-dropdown-menu",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A full-width service operations table with ticket search, portalled status filters and row actions, selection, sortable ticket fields, and compact pagination.",
+  "name": "data-table-sla",
+  "registryDependencies": [
+    "@beui/animated-badge",
+    "@beui/button-base",
+    "@beui/table"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 11550,
+      "path": "components/premium/data-tables/data-table-sla.tsx",
+      "sha256": "67f3e8eaf77737d2b93f4baaccfe1bdcc20c6c892116ec8f6c19b52a15bb94b3",
+      "target": "@components/premium/data-tables/data-table-sla.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1865,
+      "path": "components/premium/data-tables/sla-data.ts",
+      "sha256": "df0219a40a6ecf2e3cb0e30b2a02fc9ba380f80c212ff3edf9e486dd95aa3a46",
+      "target": "@components/premium/data-tables/sla-data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 21788,
+      "path": "components/premium/animated-dropdown/index.tsx",
+      "sha256": "cd8cf39eb6bd2c5d48f7f7e6f23a0cca7d52c75b8d2b1b2ecd9647d3c3c559dd",
+      "target": "@components/premium/animated-dropdown/index.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 9663,
+      "path": "components/premium/data-table-pagination.tsx",
+      "sha256": "03b881fd8117dd07a4d85370d54571d4376efc5d82146bede1282841aa187a48",
+      "target": "@components/premium/data-table-pagination.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 158,
+      "path": "components/premium/data-table.tsx",
+      "sha256": "d692919b4433a1fd705c05ed54974cd4f534c45f418e84b3f2ae569d5d7a5f7c",
+      "target": "@components/premium/data-table.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/data-table-sla.json",
+  "title": "SLA monitoring table",
+  "type": "registry:block"
+}

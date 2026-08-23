@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-with-kbd",
+  "registryDependencies": [
+    "field",
+    "input",
+    "input-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 472,
+      "path": "registry/examples/input-group-with-kbd.tsx",
+      "sha256": "dc6545f29669210245b635fa8236d184dd2e0cd9e05a97536d2fc19ce96f669a",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-with-kbd.json",
+  "title": "Input Group With Kbd",
+  "type": "registry:example"
+}

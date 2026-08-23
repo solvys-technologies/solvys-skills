@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "chip-states",
+  "registryDependencies": [
+    "chip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 798,
+      "path": "registry/examples/chip-states.tsx",
+      "sha256": "b91cb7a29f07b22afd425195359434912e8a962009b8df0d5563aa50ff33699c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/chip-states.json",
+  "title": "Chip States",
+  "type": "registry:example"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-solid-link-variant-echarts-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-sankey-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2372,
+      "path": "src/registry/examples/echarts/ex-solid-link-variant-echarts-sankey-chart.tsx",
+      "sha256": "e42dbf7002f2fef6cf7e38700662967181edf2b1d8c9defc3be313ac28851a12",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-solid-link-variant-echarts-sankey-chart.json?raw=1",
+  "type": "registry:block"
+}

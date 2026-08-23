@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "app-store-badge-icon-only",
+  "registryDependencies": [
+    "app-store-badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 621,
+      "path": "registry/examples/app-store-badge-icon-only.tsx",
+      "sha256": "46408f0602a31ac159d1f1979762236411819283f2c2d652c66eca64e5212524",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/app-store-badge-icon-only.json",
+  "title": "App Store Badge Icon Only",
+  "type": "registry:example"
+}

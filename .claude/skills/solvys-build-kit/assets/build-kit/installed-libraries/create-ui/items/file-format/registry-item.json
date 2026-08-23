@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "file-format",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/file-format.json",
+  "status": "access-gated",
+  "title": "File Format",
+  "type": "registry:ui"
+}

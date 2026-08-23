@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-token-picker",
+  "registryDependencies": [
+    "select",
+    "field",
+    "badge",
+    "text-link",
+    "@create-ui/assets"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3917,
+      "path": "registry/examples/select-token-picker.tsx",
+      "sha256": "f32863bf94f0bc9db2e1611070f57c0a978d3de6faf6fee6abe9a42f4980820e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-token-picker.json",
+  "title": "Select Token Picker",
+  "type": "registry:example"
+}

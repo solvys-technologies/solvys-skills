@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-insert",
+  "registryDependencies": [
+    "select",
+    "badge",
+    "button",
+    "@create-ui/assets"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2529,
+      "path": "registry/examples/select-insert.tsx",
+      "sha256": "ad8869237e388bae704511212fbb6729b6afb02308759ffb8f1e666dbc0a942b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-insert.json",
+  "title": "Select Insert",
+  "type": "registry:example"
+}

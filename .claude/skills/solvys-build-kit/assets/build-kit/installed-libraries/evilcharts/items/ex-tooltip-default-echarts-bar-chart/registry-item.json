@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-tooltip-default-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1577,
+      "path": "src/registry/examples/echarts/ex-tooltip-default-echarts-bar-chart.tsx",
+      "sha256": "e249d644b73fa799fc4ef71cbc02c76390adbcb03e274a0fc705f0cd49a63469",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-tooltip-default-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "command-custom",
+  "registryDependencies": [
+    "command",
+    "button",
+    "progress",
+    "status-badge",
+    "country-flag",
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5757,
+      "path": "registry/examples/command-custom.tsx",
+      "sha256": "4367cf7079a07cfc693455c95b09bdb01cb7ed98cfc6002e44dd5788dc5d7db0",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/command-custom.json",
+  "title": "Command Custom Content",
+  "type": "registry:example"
+}

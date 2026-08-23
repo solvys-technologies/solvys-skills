@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-gradient-area-variant-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1918,
+      "path": "src/registry/examples/echarts/ex-gradient-area-variant-echarts-area-chart.tsx",
+      "sha256": "870cd92511c8ae348c568d6bbf0e80af37c8f97d2c19e9b9859187d17b036c96",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-gradient-area-variant-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "categories": [
+    "visualization",
+    "choropleth"
+  ],
+  "dependencies": [
+    "maplibre-gl",
+    "next-themes"
+  ],
+  "description": "World choropleth map shading countries by a metric, with a hover tooltip and legend.",
+  "meta": {
+    "iframeHeight": "720px"
+  },
+  "name": "choropleth",
+  "registryDependencies": [
+    "@mapcn/map"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5075,
+      "path": "src/registry/blocks/choropleth/page.tsx",
+      "sha256": "db07726746c4344ceb24d06c691b76eb7f40d83c29c167ab6dd29989b890113b",
+      "target": "app/choropleth/page.tsx",
+      "type": "registry:page"
+    },
+    {
+      "bytes": 1404,
+      "path": "src/registry/blocks/choropleth/data.ts",
+      "sha256": "b376bec00cc573c62aef64c7c54f86257249a3d84626f9daedf331415f7150b8",
+      "target": "app/choropleth/data.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 770,
+      "path": "src/lib/use-world-data.ts",
+      "sha256": "c23fc8a66be2d8ed199810086606a309ea90a78784d2809f9fa92599180b3f86",
+      "target": "@lib/use-world-data.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/main/public/r/choropleth.json",
+  "title": "Choropleth",
+  "type": "registry:block"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "status-badge-in-avatar",
+  "registryDependencies": [
+    "status-badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 823,
+      "path": "registry/examples/status-badge-in-avatar.tsx",
+      "sha256": "e94ffe2c2db8172e591525b3990b5aeb5701cc6289a9f13730e6858d179d3ada",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/status-badge-in-avatar.json",
+  "title": "Status Badge In Avatar",
+  "type": "registry:example"
+}

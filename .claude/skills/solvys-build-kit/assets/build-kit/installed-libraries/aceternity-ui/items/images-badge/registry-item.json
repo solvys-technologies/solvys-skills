@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "images-badge",
+  "shippedFiles": [
+    {
+      "bytes": 5825,
+      "path": "components/ui/images-badge.tsx",
+      "sha256": "fff13566e4ab29c761de8fb4cee8dba311ce7a3a28ddfb80b217d84f7a3d4973",
+      "target": "components/ui/images-badge.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/images-badge.json",
+  "title": "Images Badge",
+  "type": "registry:ui"
+}

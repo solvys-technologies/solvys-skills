@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "card-stack",
+  "shippedFiles": [
+    {
+      "bytes": 2143,
+      "path": "components/ui/card-stack.tsx",
+      "sha256": "7d38e4667f81ccef7e641d0ebf492f7ec5b4f3d9d154e04c9bf00a413320df9e",
+      "target": "components/ui/card-stack.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/card-stack.json",
+  "title": "Card Stack",
+  "type": "registry:ui"
+}

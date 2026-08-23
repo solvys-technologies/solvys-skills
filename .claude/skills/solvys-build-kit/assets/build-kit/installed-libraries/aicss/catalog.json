@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "category": "Thinking & Reasoning",
+      "name": "Thinking State",
+      "page": "http://localhost:3000/components/thinking-state",
+      "registry": "http://localhost:3000/r/thinking-state",
+      "slug": "thinking-state",
+      "tier": "free"
+    },
+    {
+      "category": "Thinking & Reasoning",
+      "name": "Thinking + Reasoning",
+      "page": "http://localhost:3000/components/thinking-reasoning",
+      "registry": "http://localhost:3000/r/thinking-reasoning",
+      "slug": "thinking-reasoning",
+      "tier": "free"
+    },
+    {
+      "category": "Thinking & Reasoning",
+      "name": "Orbs",
+      "page": "http://localhost:3000/components/orbs",
+      "registry": "http://localhost:3000/r/orbs",
+      "slug": "orbs",
+      "tier": "free"
+    },
+    {
+      "category": "Tool & Action States",
+      "name": "Web Search",
+      "page": "http://localhost:3000/components/web-search",
+      "registry": "http://localhost:3000/r/web-search",
+      "slug": "web-search",
+      "tier": "locked"
+    },
+    {
+      "category": "Tool & Action States",
+      "name": "File Diff",
+      "page": "http://localhost:3000/components/file-diff",
+      "registry": "http://localhost:3000/r/file-diff",
+      "slug": "file-diff",
+      "tier": "locked"
+    },
+    {
+      "category": "Tool & Action States",
+      "name": "Image Generation",
+      "page": "http://localhost:3000/components/image-generation",
+      "registry": "http://localhost:3000/r/image-generation",
+      "slug": "image-generation",
+      "tier": "locked"
+    },
+    {
+      "category": "Text Outputs",
+      "name": "Text Response",
+      "page": "http://localhost:3000/components/text-response",
+      "registry": "http://localhost:3000/r/text-response",
+      "slug": "text-response",
+      "tier": "free"
+    },
+    {
+      "category": "Text Outputs",
+      "name": "Streaming Text",
+      "page": "http://localhost:3000/components/streaming-text",
+      "registry": "http://localhost:3000/r/streaming-text",
+      "slug": "streaming-text",
+      "tier": "free"
+    },
+    {
+      "category": "Text Outputs",
+      "name": "Inline Citations",
+      "page": "http://localhost:3000/components/inline-citations",
+      "registry": "http://localhost:3000/r/inline-citations",
+      "slug": "inline-citations",
+      "tier": "locked"
+    },
+    {
+      "category": "Text Outputs",
+      "name": "Code Block",
+      "page": "http://localhost:3000/components/code-block",
+      "registry": "http://localhost:3000/r/code-block",
+      "slug": "code-block",
+      "tier": "free"
+    },
+    {
+      "category": "Structured Outputs",
+      "name": "To-do List",
+      "page": "http://localhost:3000/components/task-list",
+      "registry": "http://localhost:3000/r/task-list",
+      "slug": "task-list",
+      "tier": "free"
+    },
+    {
+      "category": "Structured Outputs",
+      "name": "Data Table",
+      "page": "http://localhost:3000/components/data-table",
+      "registry": "http://localhost:3000/r/data-table",
+      "slug": "data-table",
+      "tier": "free"
+    },
+    {
+      "category": "Structured Outputs",
+      "name": "Comparison Table",
+      "page": "http://localhost:3000/components/comparison-table",
+      "registry": "http://localhost:3000/r/comparison-table",
+      "slug": "comparison-table",
+      "tier": "locked"
+    },
+    {
+      "category": "Rich & Interactive",
+      "name": "AI Agent Input",
+      "page": "http://localhost:3000/components/ai-agent-input",
+      "registry": "http://localhost:3000/r/ai-agent-input",
+      "slug": "ai-agent-input",
+      "tier": "free"
+    }
+  ],
+  "description": "Machine-readable index of AIcss components. Fetch /r/{slug} for a single component. Locked components require an API token (Authorization: Bearer <token>) available at /account.",
+  "free": 9,
+  "name": "AIcss Registry",
+  "total": 14
+}

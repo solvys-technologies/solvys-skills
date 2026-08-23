@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Fund allocation flow with labelled nodes and a stat row",
+  "name": "allocation-echarts-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-sankey-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3398,
+      "path": "src/registry/blocks/echarts/b-allocation-echarts-sankey-chart.tsx",
+      "sha256": "582a49da9044f3678043db85276a5b658e3aabc440f26839fadc6bfc5d0b8e10",
+      "target": "components/evilcharts/blocks/allocation-echarts-sankey-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/allocation-echarts-sankey-chart.json?raw=1",
+  "type": "registry:block"
+}

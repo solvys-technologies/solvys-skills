@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "features-grid-with-large-skeletons",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/features-grid-with-large-skeletons.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

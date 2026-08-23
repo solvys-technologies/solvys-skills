@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "faqs-with-dashed-lines",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/faqs-with-dashed-lines.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

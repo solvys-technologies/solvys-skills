@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "terminal",
+  "shippedFiles": [
+    {
+      "bytes": 12773,
+      "path": "components/ui/terminal.tsx",
+      "sha256": "42e922c2f5841406bfb0eeb3db47b6f70af3e4e029d01f99de7f9d32c736d7b2",
+      "target": "components/ui/terminal.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/terminal.json",
+  "title": "Terminal",
+  "type": "registry:ui"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "separator-variants",
+  "registryDependencies": [
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 267,
+      "path": "registry/examples/separator-variants.tsx",
+      "sha256": "c9518ef2a8251f5cf4ace120527ccc14aae8653fec9531f36729bf51c9fd4661",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/separator-variants.json",
+  "title": "Separator Variants",
+  "type": "registry:example"
+}

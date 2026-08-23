@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "react-aria-components"
+  ],
+  "description": "Right-click menu that reuses the Dropdown Menu surface; opens at the cursor via a virtual anchor. ContextMenu.* parts mirror Dropdown.*; size xs/sm/md.",
+  "name": "context-menu",
+  "registryDependencies": [
+    "dropdown-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4752,
+      "path": "registry/ui/context-menu.tsx",
+      "sha256": "b9148a73d3c257c513b9f2c67f0bd9152b74463947b79bed77a5f4e9dcddff07",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/context-menu.json",
+  "title": "Context Menu",
+  "type": "registry:ui"
+}

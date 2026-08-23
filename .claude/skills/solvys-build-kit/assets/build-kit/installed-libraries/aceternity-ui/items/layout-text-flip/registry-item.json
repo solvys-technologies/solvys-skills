@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "layout-text-flip",
+  "shippedFiles": [
+    {
+      "bytes": 1786,
+      "path": "components/ui/layout-text-flip.tsx",
+      "sha256": "7eb45448a2815b4f86492cf6192ff5a9ae4c15cd995b9a70199b7f40ba5393d4",
+      "target": "components/ui/layout-text-flip.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/layout-text-flip.json",
+  "title": "Layout Text Flip",
+  "type": "registry:ui"
+}

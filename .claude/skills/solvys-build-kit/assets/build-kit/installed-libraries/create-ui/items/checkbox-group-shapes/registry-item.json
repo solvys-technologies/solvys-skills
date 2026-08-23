@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "checkbox-group-shapes",
+  "registryDependencies": [
+    "checkbox-group",
+    "checkbox",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 922,
+      "path": "registry/examples/checkbox-group-shapes.tsx",
+      "sha256": "53b968d0469eaa2b745cd0f17d1a0caa620fc309e616c8a26351c524e6b818b6",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/checkbox-group-shapes.json",
+  "title": "Checkbox Group Shapes",
+  "type": "registry:example"
+}

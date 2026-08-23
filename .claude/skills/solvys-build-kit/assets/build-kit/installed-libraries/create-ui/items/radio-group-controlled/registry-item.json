@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "radio-group-controlled",
+  "registryDependencies": [
+    "radio-group",
+    "radio",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1318,
+      "path": "registry/examples/radio-group-controlled.tsx",
+      "sha256": "32ce448227f2841ea7d404b4f787259f29e2733d604ab6a66a65b1e0500656ee",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/radio-group-controlled.json",
+  "title": "Radio Group Controlled",
+  "type": "registry:example"
+}

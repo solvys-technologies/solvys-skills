@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "fab-button-shapes",
+  "registryDependencies": [
+    "fab-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 356,
+      "path": "registry/examples/fab-button-shapes.tsx",
+      "sha256": "d17e422e00e1a478f193ad070c8c37953d4a84e412d9948b779f1a7d491fe01f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/fab-button-shapes.json",
+  "title": "FAB Button Shapes",
+  "type": "registry:example"
+}

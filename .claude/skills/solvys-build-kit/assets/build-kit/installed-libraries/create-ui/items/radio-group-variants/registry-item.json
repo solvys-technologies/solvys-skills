@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "radio-group-variants",
+  "registryDependencies": [
+    "radio-group",
+    "radio",
+    "field",
+    "label"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1464,
+      "path": "registry/examples/radio-group-variants.tsx",
+      "sha256": "b4b28fe274a32dbbd03eb1caefe83819ad297e7c67dcd9cd69bbde5a436faf6e",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/radio-group-variants.json",
+  "title": "Radio Group Variants",
+  "type": "registry:example"
+}

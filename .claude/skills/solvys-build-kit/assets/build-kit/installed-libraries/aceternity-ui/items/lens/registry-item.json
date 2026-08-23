@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "lens",
+  "shippedFiles": [
+    {
+      "bytes": 3977,
+      "path": "components/ui/lens.tsx",
+      "sha256": "873148d3feed8f2241ab707d2a5a37d1f5ee1113f81b08919f1ff0e5dbf8e662",
+      "target": "components/ui/lens.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/lens.json",
+  "title": "Lens",
+  "type": "registry:ui"
+}

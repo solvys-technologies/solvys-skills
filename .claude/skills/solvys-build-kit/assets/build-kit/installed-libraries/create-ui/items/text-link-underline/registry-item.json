@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "text-link-underline",
+  "registryDependencies": [
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 313,
+      "path": "registry/examples/text-link-underline.tsx",
+      "sha256": "e93284e8aac6516bf0ecc73888f170e17a6aefd5b3e5da3dceb685e553fb45bb",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/text-link-underline.json",
+  "title": "TextLink Underline",
+  "type": "registry:example"
+}

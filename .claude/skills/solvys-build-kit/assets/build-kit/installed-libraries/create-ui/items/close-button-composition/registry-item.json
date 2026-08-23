@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "close-button-composition",
+  "registryDependencies": [
+    "close-button",
+    "inline-alert"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 621,
+      "path": "registry/examples/close-button-composition.tsx",
+      "sha256": "dd4f63ea7cbafdf59b3c5a5edff5f7c7860452e6d46522704581f3edab96705c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/close-button-composition.json",
+  "title": "Close Button Composition",
+  "type": "registry:example"
+}

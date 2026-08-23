@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "modal-sizes",
+  "registryDependencies": [
+    "modal",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3649,
+      "path": "registry/examples/modal-sizes.tsx",
+      "sha256": "ca68b3cbab2df7ca24ca138a33d78b0ddaeb217e87ed01776e7f2d620b5d4f84",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/modal-sizes.json",
+  "title": "Modal Sizes",
+  "type": "registry:example"
+}

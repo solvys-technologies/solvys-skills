@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "bento-grid-example-three",
+  "shippedFiles": [],
+  "sourceUrl": "https://ui.aceternity.com/registry/bento-grid-example-three.json",
+  "status": "access-gated",
+  "title": null,
+  "type": "registry:block"
+}

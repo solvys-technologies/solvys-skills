@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "card-hover-effect",
+  "shippedFiles": [
+    {
+      "bytes": 2593,
+      "path": "components/ui/card-hover-effect.tsx",
+      "sha256": "af736705935d3cda78f5ec03d23c808ed52e881902f0d03180b194a9cf67c309",
+      "target": "components/ui/card-hover-effect.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/card-hover-effect.json",
+  "title": "Card Hover Effect",
+  "type": "registry:ui"
+}

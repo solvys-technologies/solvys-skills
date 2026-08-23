@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "cards-demo-2",
+  "shippedFiles": [
+    {
+      "bytes": 1602,
+      "path": "components/cards-demo-2.tsx",
+      "sha256": "393fe41efb5e0c6aadeada17086f8d98162336908766934351fe19e125926af5",
+      "target": "components/cards-demo-2.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/cards-demo-2.json",
+  "title": "Cards Demo 2",
+  "type": "registry:block"
+}

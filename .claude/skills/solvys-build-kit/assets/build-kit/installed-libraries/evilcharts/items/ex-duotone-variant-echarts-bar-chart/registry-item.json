@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-duotone-variant-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1629,
+      "path": "src/registry/examples/echarts/ex-duotone-variant-echarts-bar-chart.tsx",
+      "sha256": "04c84061ade92c9c144473ecada21bcd04853e5007c66760dc0ce09a314d3ea8",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-duotone-variant-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

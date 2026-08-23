@@ -8,6 +8,35 @@
     "version": { "const": 1 },
     "projectId": { "type": "string", "minLength": 1 },
     "sprintId": { "type": "string", "pattern": "^S[0-9]{3,}$" },
+    "specMaturity": {
+      "enum": ["micro", "spec-first", "spec-anchored", "spec-as-source"]
+    },
+    "developmentContract": {
+      "type": "object",
+      "required": [
+        "path",
+        "maturity",
+        "revision",
+        "status",
+        "implementationAuthorized"
+      ],
+      "properties": {
+        "path": { "type": ["string", "null"] },
+        "maturity": {
+          "type": ["string", "null"],
+          "enum": [null, "micro", "spec-first", "spec-anchored", "spec-as-source"]
+        },
+        "revision": { "type": ["integer", "null"], "minimum": 1 },
+        "status": {
+          "type": ["string", "null"],
+          "enum": [null, "draft", "approved", "implemented", "verified"]
+        },
+        "validatedAt": { "type": ["string", "null"] },
+        "validatorReceipt": { "type": ["string", "null"] },
+        "implementationAuthorized": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
     "status": {
       "enum": [
         "planned",

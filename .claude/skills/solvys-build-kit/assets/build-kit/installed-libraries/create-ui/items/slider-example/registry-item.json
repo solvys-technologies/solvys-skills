@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "slider-example",
+  "registryDependencies": [
+    "slider",
+    "label",
+    "badge",
+    "tooltip",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 8792,
+      "path": "registry/examples/slider-example.tsx",
+      "sha256": "fddb295e57fc941fb5dd65c7e06dac598e71a48b485dfd02d329d0ba0ed178cc",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/slider-example.json",
+  "title": "Slider",
+  "type": "registry:example"
+}

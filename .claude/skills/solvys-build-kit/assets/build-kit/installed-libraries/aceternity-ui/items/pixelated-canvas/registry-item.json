@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "pixelated-canvas",
+  "shippedFiles": [
+    {
+      "bytes": 18171,
+      "path": "components/ui/pixelated-canvas.tsx",
+      "sha256": "3fb1d9ae52acfc02a126ec78e05d3aab75bf9d738287a6b634e657eebf5551d1",
+      "target": "components/ui/pixelated-canvas.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/pixelated-canvas.json",
+  "title": "Pixelated Canvas",
+  "type": "registry:ui"
+}

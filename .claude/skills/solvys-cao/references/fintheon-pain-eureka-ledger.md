@@ -32,7 +32,7 @@ Use [fintheon-checkpoint-index.md](fintheon-checkpoint-index.md) to recover the 
 ## 5. “sup” exposed the cost of routing everything through the full agent machine
 
 - **Pain:** a trivial greeting could take tens of seconds because it traversed the same runtime as deep work.
-- **Eureka:** the Ponytail path exists for the common, obvious, low-risk case; intelligence includes knowing when not to invoke the whole stack.
+- **Eureka:** the Solvys Ponytail Ladder path exists for the common, obvious, low-risk case; intelligence includes knowing when not to invoke the whole stack.
 - **Law:** use the first rung that solves the problem and reserve expensive orchestration for work that needs it.
 
 ## 6. TP's fractal market metaphor repaired RiskFlow relevance

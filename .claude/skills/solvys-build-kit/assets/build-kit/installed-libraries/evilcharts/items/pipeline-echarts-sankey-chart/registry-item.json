@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Revenue sources converging through a hub and fanning back out, with a centered total",
+  "name": "pipeline-echarts-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-sankey-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3280,
+      "path": "src/registry/blocks/echarts/b-pipeline-echarts-sankey-chart.tsx",
+      "sha256": "0acfe4f2af8497142197b44251a301659606cd0038169db63fd0635155e1e66a",
+      "target": "components/evilcharts/blocks/pipeline-echarts-sankey-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/pipeline-echarts-sankey-chart.json?raw=1",
+  "type": "registry:block"
+}

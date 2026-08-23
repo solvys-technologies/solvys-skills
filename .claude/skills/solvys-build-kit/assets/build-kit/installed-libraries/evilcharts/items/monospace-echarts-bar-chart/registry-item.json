@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Monospace sales card whose hairline bars expand on hover, on the ECharts bar chart",
+  "name": "monospace-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3240,
+      "path": "src/registry/blocks/echarts/b-monospace-echarts-bar-chart.tsx",
+      "sha256": "246a8fb09aae6fd7eb7dff930f837b249fc1ea5eef1896eb4fa26afd4026fb1a",
+      "target": "components/evilcharts/blocks/monospace-echarts-bar-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/monospace-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

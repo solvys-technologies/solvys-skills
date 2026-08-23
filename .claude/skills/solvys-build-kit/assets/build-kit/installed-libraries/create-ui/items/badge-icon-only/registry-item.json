@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "badge-icon-only",
+  "registryDependencies": [
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 521,
+      "path": "registry/examples/badge-icon-only.tsx",
+      "sha256": "678a230ff195bd920452f17d6fc8e8e7878dbc0fc45d2033498e96af31d1deb1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/badge-icon-only.json",
+  "title": "Badge Icon Only",
+  "type": "registry:example"
+}

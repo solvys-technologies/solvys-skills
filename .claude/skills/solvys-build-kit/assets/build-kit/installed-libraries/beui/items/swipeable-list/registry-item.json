@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Mobile-style list rows that swipe left or right to reveal contextual action buttons.",
+  "name": "swipeable-list",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 12626,
+      "path": "components/motion/swipeable-list.tsx",
+      "sha256": "79a1cf5513391b18241bb26c4524b8fc98f5f2ef91d69060d1562f56f6dee497",
+      "target": "@components/motion/swipeable-list.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/swipeable-list.json",
+  "title": "Swipeable List",
+  "type": "registry:block"
+}

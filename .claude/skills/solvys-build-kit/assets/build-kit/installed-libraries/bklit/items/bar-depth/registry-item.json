@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "motion"
+  ],
+  "description": "3D depth and glossy glass surfaces for BarChart bars",
+  "name": "bar-depth",
+  "registryDependencies": [
+    "@bklit/bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 44970,
+      "path": "src/charts/bar-depth.tsx",
+      "sha256": "66462800679a9c6b3b53c25f25f697e1046ba4b118e07f5af2c16aba50ccb406",
+      "target": "components/charts/bar-depth.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/bar-depth.json",
+  "status": "installed",
+  "title": "Bar Depth",
+  "type": "registry:component"
+}

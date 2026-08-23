@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Status badge with animated state icons, pulse feedback and compact size variants.",
+  "name": "animated-badge",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 5914,
+      "path": "components/motion/animated-badge.tsx",
+      "sha256": "d4ef79f4ebed61965a3cca66a72df5e884db03a074bd710adf94b5f9777239ca",
+      "target": "@components/motion/animated-badge.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/animated-badge.json",
+  "title": "Animated Badge",
+  "type": "registry:component"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-shape",
+  "registryDependencies": [
+    "switch"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 317,
+      "path": "registry/examples/switch-shape.tsx",
+      "sha256": "77a0c7321db462d16b0195a1f35818a1114d2ddbd000c2dcea8653ea0405f577",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-shape.json",
+  "title": "Switch Shape",
+  "type": "registry:example"
+}

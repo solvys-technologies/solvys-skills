@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-expandable-variant-echarts-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1142,
+      "path": "src/registry/examples/echarts/ex-expandable-variant-echarts-bar-chart.tsx",
+      "sha256": "9f962ae0146bf0ec6fb87083d50695de67328530dea74512e6e73114030cd956",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-expandable-variant-echarts-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

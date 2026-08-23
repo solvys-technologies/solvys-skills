@@ -1,0 +1,26 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "component-example",
+  "registryDependencies": [
+    "badge",
+    "button",
+    "dropdown-menu",
+    "field",
+    "input",
+    "select",
+    "textarea",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6093,
+      "path": "registry/examples/component-example.tsx",
+      "sha256": "9a0a0a1d97d30411a290e4ec039764526ac28eed307b8863aa4ec0d0a9501123",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/component-example.json",
+  "title": "Example",
+  "type": "registry:example"
+}

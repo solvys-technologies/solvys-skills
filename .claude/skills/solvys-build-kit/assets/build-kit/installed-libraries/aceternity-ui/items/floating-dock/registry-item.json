@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+  ],
+  "name": "floating-dock",
+  "shippedFiles": [
+    {
+      "bytes": 5433,
+      "path": "components/ui/floating-dock.tsx",
+      "sha256": "e6e4d163f11dd13135cf7ce08f3801ee91a81dbb75ccc9e0df51154cdd602919",
+      "target": "components/ui/floating-dock.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/floating-dock.json",
+  "title": "Floating Dock",
+  "type": "registry:ui"
+}

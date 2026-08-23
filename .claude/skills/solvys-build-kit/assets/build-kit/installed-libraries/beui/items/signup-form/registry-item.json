@@ -1,0 +1,95 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Composed sign-up form that flags a field only once it is left, then clears the moment it is fixed, with a length-weighted strength meter, password reveal and an animated submit lifecycle.",
+  "name": "signup-form",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 14715,
+      "path": "components/motion/signup-form.tsx",
+      "sha256": "8dfb6e62ab66644b5a37548cc100b93e5981b7ffa0f8bba413150a19a3969719",
+      "target": "@components/motion/signup-form.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 354,
+      "path": "components/motion/button/index.tsx",
+      "sha256": "b8d49238c0ae62972a38961d43be11655440090229074aead8dc613a6256321a",
+      "target": "@components/motion/button/index.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4006,
+      "path": "components/motion/checkbox.tsx",
+      "sha256": "a1699740e6db8455026138f595d9e03b99ec81fc2606b36d9dfc20024c84bf03",
+      "target": "@components/motion/checkbox.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6312,
+      "path": "components/motion/input.tsx",
+      "sha256": "27f6298c4b4c4b55de361fe500749d5abbfd4aaf3cd3816517b3a4c5a2a238fb",
+      "target": "@components/motion/input.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 5274,
+      "path": "components/motion/button/base.tsx",
+      "sha256": "891588387678c8d8a2759860e2e36c415845b851734fbf5460a841cb371510a7",
+      "target": "@components/motion/button/base.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 700,
+      "path": "components/motion/button/magnetic.tsx",
+      "sha256": "864dc7db0cda2d8ee9bff7127706c546632d00f554595c9ce1816e283acb2a1f",
+      "target": "@components/motion/button/magnetic.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6983,
+      "path": "components/motion/button/stateful.tsx",
+      "sha256": "4e5805735deba5583a2005c6bb1445ed31f9a6055725bbaf29a6693284540379",
+      "target": "@components/motion/button/stateful.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 747,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "b5b9397bfa03859e04673c8f1817cf13ff55d2a9688955d6e0459ae70db90d06",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 1446,
+      "path": "components/motion/magnetic.tsx",
+      "sha256": "f7802af9bbe57998575f6d9846ecfccc842f3c682e8fb0958957581dfd9873a3",
+      "target": "@components/motion/magnetic.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/signup-form.json",
+  "title": "Sign Up Form",
+  "type": "registry:block"
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "One adaptive activity stream for reasoning, searches, tool calls, structured execution traces, or a chronological mix.",
+  "name": "agent-activity",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 8628,
+      "path": "components/agents/agent-activity/index.tsx",
+      "sha256": "0f2ed33ac7b8e0835b011827deea029a534c8ccf16c5e1c6e177da7740e2af8c",
+      "target": "@components/agents/agent-activity/index.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 7751,
+      "path": "components/agents/agent-activity/activity-row.tsx",
+      "sha256": "81eca79e4a921ab1862ff930a4177ba9098bb9f83b7356196cc1094dca2fa511",
+      "target": "@components/agents/agent-activity/activity-row.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2529,
+      "path": "components/agents/agent-activity/types.ts",
+      "sha256": "3f47a360b58da4943d5eb9cb756af9be4526445963bf095afa56f60012414821",
+      "target": "@components/agents/agent-activity/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1353,
+      "path": "components/agents/agent-disclosure.tsx",
+      "sha256": "5113ab48b4ff542edda92ace14d0c4de89e3e3f06fca9e354b133fec93ce4265",
+      "target": "@components/agents/agent-disclosure.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 624,
+      "path": "components/agents/loading-states/thinking-shimmer.tsx",
+      "sha256": "2879bd5fd406c014610be6f304bb4b71e1aac0ac6eec531de4cd3eba4827b7bf",
+      "target": "@components/agents/loading-states/thinking-shimmer.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 739,
+      "path": "components/motion/text-shimmer.tsx",
+      "sha256": "a8ae8ca2966009a4c9d14085985cb2e571af1b5c75e8e64cb1f4dd99f3fb3236",
+      "target": "@components/motion/text-shimmer.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 538,
+      "path": "lib/text-shimmer.ts",
+      "sha256": "02fca8d4ae0c0c593eb2253e56c141c1731912861fbf20a0a0b728af38a6c0b9",
+      "target": "@lib/text-shimmer.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/agent-activity.json",
+  "title": "Agent Activity",
+  "type": "registry:component"
+}

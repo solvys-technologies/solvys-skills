@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "chip-appearance",
+  "registryDependencies": [
+    "chip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 964,
+      "path": "registry/examples/chip-appearance.tsx",
+      "sha256": "bbc8c021d27283678d37fc2137440299b34875fe2549c86e511e5410b6bacfc4",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/chip-appearance.json",
+  "title": "Chip Appearance",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "text-link-variants",
+  "registryDependencies": [
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 836,
+      "path": "registry/examples/text-link-variants.tsx",
+      "sha256": "b0b8dcca89e2a00445727c023086cf741b499b3a805537f994f0e24cc03e64b1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/text-link-variants.json",
+  "title": "TextLink Variants",
+  "type": "registry:example"
+}

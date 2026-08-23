@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-controlled",
+  "registryDependencies": [
+    "select"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1048,
+      "path": "registry/examples/select-controlled.tsx",
+      "sha256": "fbc81fc378fae7b301ba09c90d3ff8a08ca15bb5dfd3fd469aad4f704f10104d",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-controlled.json",
+  "title": "Select Controlled",
+  "type": "registry:example"
+}

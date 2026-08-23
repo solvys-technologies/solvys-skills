@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Payout trend card with a glowing gradient line and stat rows",
+  "name": "payouts-echarts-line-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3922,
+      "path": "src/registry/blocks/echarts/b-payouts-echarts-line-chart.tsx",
+      "sha256": "9ec5eed4b891029d5c9b59577f334390611ebfad5af182d93e57a7ee51e0fa3d",
+      "target": "components/evilcharts/blocks/payouts-echarts-line-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/payouts-echarts-line-chart.json?raw=1",
+  "type": "registry:block"
+}

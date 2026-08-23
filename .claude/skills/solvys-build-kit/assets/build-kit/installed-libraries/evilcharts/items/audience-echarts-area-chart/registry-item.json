@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Audience growth card with a multi-stop gradient line and faded wash",
+  "name": "audience-echarts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-area-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2653,
+      "path": "src/registry/blocks/echarts/b-audience-echarts-area-chart.tsx",
+      "sha256": "b6e988e26fffd5c3a9a1cbb8ec9d411e802fdd9d880f43664369dfd3308f92d3",
+      "target": "components/evilcharts/blocks/audience-echarts-area-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/audience-echarts-area-chart.json?raw=1",
+  "type": "registry:block"
+}

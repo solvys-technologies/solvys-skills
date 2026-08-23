@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys User Testing"
+  short_description: "Prove inherited user journeys before acceptance."
+  default_prompt: "Use $solvys-user-testing to validate this task against its inherited project objective, sub-journey, acceptance gates, resources, and regressions."

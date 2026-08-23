@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "command-states",
+  "registryDependencies": [
+    "command",
+    "button",
+    "spinner"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2797,
+      "path": "registry/examples/command-states.tsx",
+      "sha256": "e2e34af39ab6637167a26010b0f71e4b88f152c44e97cfffb225796816b3c1a5",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/command-states.json",
+  "title": "Command States",
+  "type": "registry:example"
+}

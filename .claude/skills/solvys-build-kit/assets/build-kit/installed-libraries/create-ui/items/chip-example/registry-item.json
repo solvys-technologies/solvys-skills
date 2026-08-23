@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "chip-example",
+  "registryDependencies": [
+    "chip",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4293,
+      "path": "registry/examples/chip-example.tsx",
+      "sha256": "9fe2895f69c126d0b6790cf22e4e65299222909693b4420144f9c9eb739348aa",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/chip-example.json",
+  "title": "Chip",
+  "type": "registry:example"
+}

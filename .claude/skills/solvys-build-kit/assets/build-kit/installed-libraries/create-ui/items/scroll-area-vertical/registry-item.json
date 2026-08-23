@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "scroll-area-vertical",
+  "registryDependencies": [
+    "scroll-area",
+    "separator"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1426,
+      "path": "registry/examples/scroll-area-vertical.tsx",
+      "sha256": "54282ece9cc8955b2371e7d9202a0826296f967d753e2a49d91b838d9d13ca17",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/scroll-area-vertical.json",
+  "title": "Scroll Area Vertical",
+  "type": "registry:example"
+}

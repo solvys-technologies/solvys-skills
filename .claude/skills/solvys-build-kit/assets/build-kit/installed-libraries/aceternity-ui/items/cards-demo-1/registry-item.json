@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "react-icons"
+  ],
+  "name": "cards-demo-1",
+  "shippedFiles": [
+    {
+      "bytes": 1659,
+      "path": "components/cards-demo-1.tsx",
+      "sha256": "ebed18fbdcd38cafbced83049593c295ad1dbe51418416ab0559b4fd238a4120",
+      "target": "components/cards-demo-1.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/cards-demo-1.json",
+  "title": "Cards Demo 1",
+  "type": "registry:block"
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "@tanstack/react-virtual",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Loads pages on demand \u2014 skeleton rows on first load, then infinite scroll via onEndReached as the virtualized list nears the bottom.",
+  "name": "table-async",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 12013,
+      "path": "components/motion/table/index.tsx",
+      "sha256": "35813843726346690b2376119a7a23eba30e9f1fd4a03aaf186226ca5512f52a",
+      "target": "@components/motion/table/index.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 555,
+      "path": "components/motion/table/editable-cell.tsx",
+      "sha256": "6e010b990dafee7d908bdb101b547bfd9580883a6d732fb48c71d9e8ae09b817",
+      "target": "@components/motion/table/editable-cell.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2372,
+      "path": "components/motion/table/row-handle.tsx",
+      "sha256": "3934e553142a6beec7f4a370b9f6f57a07b3aea22657d23e30bf5f6371d6e58a",
+      "target": "@components/motion/table/row-handle.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1025,
+      "path": "components/motion/table/skeleton-rows.tsx",
+      "sha256": "bad1dea521f4bc9248e7d8608f6066d134fe8714463b44b5cb2336ff009e104e",
+      "target": "@components/motion/table/skeleton-rows.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 11452,
+      "path": "components/motion/table/table-header.tsx",
+      "sha256": "75be19ffc67e6bd844c4c479afea2272ae0eead757c2383d944057d4fc3c0dfc",
+      "target": "@components/motion/table/table-header.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3504,
+      "path": "components/motion/table/types.ts",
+      "sha256": "6f78aadfd4149c53f8e5bda06dc4fbcbf8196ffdec36e4da799c7d0f0a673ef6",
+      "target": "@components/motion/table/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3129,
+      "path": "components/motion/table/use-column-reorder.ts",
+      "sha256": "ddbfbdc7f155f892fef9b6b636568ff8f632fae75d1907f664c36006976e3bb6",
+      "target": "@components/motion/table/use-column-reorder.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2296,
+      "path": "components/motion/table/use-column-resize.ts",
+      "sha256": "b77100bb566fefa5a792cee9ee5433d30f661ff27323c53fefc4f9e145af563e",
+      "target": "@components/motion/table/use-column-resize.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1741,
+      "path": "components/motion/table/use-column-sort.ts",
+      "sha256": "82ed0e6b68437d9c7295016212b75f9f194c1ab86959f8c7ecd1845453b1186b",
+      "target": "@components/motion/table/use-column-sort.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1628,
+      "path": "components/motion/table/use-row-selection.ts",
+      "sha256": "b160e0e9083da2df2d230fc553364e24bdeceab0ae04a7cac598b2a009aa9c92",
+      "target": "@components/motion/table/use-row-selection.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1074,
+      "path": "components/motion/table/utils.ts",
+      "sha256": "0d88d78dd533c6d55ce6ba888f4efc87d8a90f0aa9cdd4149c6e4b506f47b369",
+      "target": "@components/motion/table/utils.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4006,
+      "path": "components/motion/checkbox.tsx",
+      "sha256": "a1699740e6db8455026138f595d9e03b99ec81fc2606b36d9dfc20024c84bf03",
+      "target": "@components/motion/checkbox.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 3752,
+      "path": "components/motion/table/table-menu.tsx",
+      "sha256": "358acf804b343dab15c6792823a643ea6e3eeedc6de4e65d3eb36353cc4f42f4",
+      "target": "@components/motion/table/table-menu.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1670,
+      "path": "lib/ease.ts",
+      "sha256": "bdfa2814cffaa4d974a5fc8614868ddb89e0310a0ead9e7105f2e8132b219ff3",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/table-async.json",
+  "title": "Table Async Table",
+  "type": "registry:component"
+}

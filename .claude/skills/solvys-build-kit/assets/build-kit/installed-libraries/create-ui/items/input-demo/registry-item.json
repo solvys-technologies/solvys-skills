@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-demo",
+  "registryDependencies": [
+    "input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 343,
+      "path": "registry/examples/input-demo.tsx",
+      "sha256": "3a8dd459366d528f4ec2adb162925968667c0b3fc8aa9a52a7a294a1e7032d30",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-demo.json",
+  "title": "Input Demo",
+  "type": "registry:example"
+}

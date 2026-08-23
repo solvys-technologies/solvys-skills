@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "accordion-example",
+  "registryDependencies": [
+    "accordion",
+    "button",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 14537,
+      "path": "registry/examples/accordion-example.tsx",
+      "sha256": "5231bb4f63a740222566d5693b7a4d8fdf567ac48ae4382d808805a8ed89e0a1",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/accordion-example.json",
+  "title": "Accordion",
+  "type": "registry:example"
+}

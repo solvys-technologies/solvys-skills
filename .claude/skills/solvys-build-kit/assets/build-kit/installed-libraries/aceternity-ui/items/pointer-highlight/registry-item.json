@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "pointer-highlight",
+  "shippedFiles": [
+    {
+      "bytes": 3293,
+      "path": "components/ui/pointer-highlight.tsx",
+      "sha256": "e32a56b7eeb6dc4bfe8c05bc7c025310f26ab3d43aba6bbb22813b1a47960dc0",
+      "target": "components/ui/pointer-highlight.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/pointer-highlight.json",
+  "title": "Pointer Highlight",
+  "type": "registry:ui"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority",
+    "input-otp"
+  ],
+  "description": "One-time passcode input with per-character slots; outline/filled variants and rounded/pill/square/underline shapes",
+  "name": "input-otp",
+  "registryDependencies": [
+    "field"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10352,
+      "path": "registry/ui/input-otp.tsx",
+      "sha256": "0bfe872b0d9a619708e53e75be5b58c1a0da0e6635f976534cc49d425932ac05",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-otp.json",
+  "title": "Input OTP",
+  "type": "registry:ui"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion"
+  ],
+  "description": "Monospace bar chart component",
+  "name": "monospace-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5343,
+      "path": "src/registry/blocks/recharts/b-monospace-bar-chart.tsx",
+      "sha256": "dedcf5fb6ef755392486d5e81bda231908027e7d99f84983fe37ab0c3292fabb",
+      "target": "components/evilcharts/blocks/monospace-bar-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/monospace-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

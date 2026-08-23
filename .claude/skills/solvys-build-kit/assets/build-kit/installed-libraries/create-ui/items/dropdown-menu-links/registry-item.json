@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-links",
+  "registryDependencies": [
+    "button",
+    "dropdown-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 963,
+      "path": "registry/examples/dropdown-menu-links.tsx",
+      "sha256": "2832c01bce6d2880d35af31a69cede51bff37116a5d569a3a6d0708fc0164bf7",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-links.json",
+  "title": "Dropdown Menu Links",
+  "type": "registry:example"
+}

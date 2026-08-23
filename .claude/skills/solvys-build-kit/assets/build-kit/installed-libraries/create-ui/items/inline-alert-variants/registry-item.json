@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "inline-alert-variants",
+  "registryDependencies": [
+    "inline-alert"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1990,
+      "path": "registry/examples/inline-alert-variants.tsx",
+      "sha256": "92ba69286acc56211d6b2f9a0051afaab0b30990ff4cecad439df427ba38cebd",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/inline-alert-variants.json",
+  "title": "Inline Alert Variants",
+  "type": "registry:example"
+}

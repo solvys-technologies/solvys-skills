@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "fab-button-demo",
+  "registryDependencies": [
+    "fab-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1687,
+      "path": "registry/examples/fab-button-demo.tsx",
+      "sha256": "d5378d60fff1f26c828382094cfec5d12989e638e0e347b15f2d98eb76867045",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/fab-button-demo.json",
+  "title": "FAB Button",
+  "type": "registry:example"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "select-multi",
+  "registryDependencies": [
+    "select",
+    "chip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1816,
+      "path": "registry/examples/select-multi.tsx",
+      "sha256": "cb07130a271e6658266f09b1754792abc4e2deae8753800dac0b712696538f3f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/select-multi.json",
+  "title": "Select Multi",
+  "type": "registry:example"
+}

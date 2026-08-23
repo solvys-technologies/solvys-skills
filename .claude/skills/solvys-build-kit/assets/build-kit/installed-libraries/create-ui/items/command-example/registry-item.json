@@ -1,0 +1,31 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "command-example",
+  "registryDependencies": [
+    "command",
+    "button",
+    "badge",
+    "avatar",
+    "chip",
+    "tabs",
+    "file-format",
+    "featured-icon",
+    "country-flag",
+    "progress",
+    "spinner",
+    "status-badge",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 26469,
+      "path": "registry/examples/command-example.tsx",
+      "sha256": "5f8847ceb27cebe1e5d5e271b5c5f4ff53782f2e1b773964132e2b0b9f9f847b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/command-example.json",
+  "title": "Command",
+  "type": "registry:example"
+}

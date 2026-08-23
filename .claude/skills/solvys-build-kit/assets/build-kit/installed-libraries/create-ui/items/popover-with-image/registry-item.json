@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "popover-with-image",
+  "registryDependencies": [
+    "popover",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1093,
+      "path": "registry/examples/popover-with-image.tsx",
+      "sha256": "8c7a4ff7bc475bb978c78de4d829852d611a351aa3cde0358c043dff97007762",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/popover-with-image.json",
+  "title": "Popover With Image",
+  "type": "registry:example"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-stripped-variant-bar-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-bar-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1649,
+      "path": "src/registry/examples/recharts/ex-stripped-variant-bar-chart.tsx",
+      "sha256": "1697a769cede5021ee32c9edc58eb29a9a1b36514af39bb3a60f79523bf28594",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-stripped-variant-bar-chart.json?raw=1",
+  "type": "registry:block"
+}

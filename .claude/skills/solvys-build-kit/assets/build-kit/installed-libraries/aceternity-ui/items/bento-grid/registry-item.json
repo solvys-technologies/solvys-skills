@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "@tabler/icons-react"
+  ],
+  "name": "bento-grid",
+  "shippedFiles": [
+    {
+      "bytes": 1318,
+      "path": "components/ui/bento-grid.tsx",
+      "sha256": "a3cdb12c2f3183385859da768cd5a66a4024dd017230fb278b8f2d2acf85c730",
+      "target": "components/ui/bento-grid.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/bento-grid.json",
+  "title": "Bento Grid",
+  "type": "registry:ui"
+}

@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "popover",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/popover.json",
+  "status": "access-gated",
+  "title": "Popover",
+  "type": "registry:ui"
+}

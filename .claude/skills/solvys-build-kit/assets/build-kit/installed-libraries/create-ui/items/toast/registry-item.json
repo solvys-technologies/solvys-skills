@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Notification card with icon, action and close slots plus ToastProgress countdown; seven variants by four appearances",
+  "name": "toast",
+  "registryDependencies": [
+    "button",
+    "close-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 31108,
+      "path": "registry/ui/toast.tsx",
+      "sha256": "63cd7afb719aeccf2c8501541c17c2a4a9ed489891a55ac4412f8daf5f2535a8",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/toast.json",
+  "title": "Toast",
+  "type": "registry:ui"
+}

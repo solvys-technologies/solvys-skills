@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "echarts-legend",
+  "registryDependencies": [
+    "@evilcharts/echarts-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 5339,
+      "path": "src/registry/ui/echarts-legend.tsx",
+      "sha256": "2f649c97b1c81ad36294eb281629b01c947a2033e278fe0ee1f62eaa656738e4",
+      "target": "components/evilcharts/ui/echarts-legend.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/echarts-legend.json?raw=1",
+  "type": "registry:component"
+}

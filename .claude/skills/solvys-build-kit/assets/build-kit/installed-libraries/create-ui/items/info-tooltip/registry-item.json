@@ -1,0 +1,9 @@
+{
+  "detail": "HTTP Error 401: Unauthorized",
+  "name": "info-tooltip",
+  "shippedFiles": [],
+  "sourceUrl": "https://createui.co/r/info-tooltip.json",
+  "status": "access-gated",
+  "title": "Info Tooltip",
+  "type": "registry:ui"
+}

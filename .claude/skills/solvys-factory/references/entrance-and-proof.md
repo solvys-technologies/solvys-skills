@@ -25,6 +25,7 @@
 - `sprint-unit.json`
 - `work-window.json`
 - `daily-sitrep.json`
+- `infraction-ledger.json`
 - `comrade-care-request.json`
 - `custody-receipt.json`
 
@@ -43,12 +44,20 @@
 | Published docs | Mintlify |
 | Large evidence | Optional Google Drive Solvys Custody |
 
+### Paste MCP custody
+
+When an active skill uses Paste MCP or opens a Paste folder or pinboard, keep
+the Paste app and MCP connection open through the task and handoff. Never close
+it, sign out, or terminate its sync process as cleanup; this can interrupt the
+iCloud sync that TP relies on. Leave the exact project folder or pinboard open
+at closeout and record references only, never secret values.
+
 ## Control inventory fields
 
 Record control label, surface, route, state, Wonder node, Site route, client event, API route, backend handler, permission gate, provider resources, state change, user feedback, failure states, Linear issue, owner, required proof rung, current proof rung, and status.
 
 ## Authorization recovery
 
-Use `Paste project folder -> project Google identity -> Codex in-app browser -> project Chrome profile fallback -> local CLI or credential store -> TP MFA approval`.
+Use `Paste project folder -> regular Chrome for Google Sign-In and project password -> Google Continue -> provider Allow access -> Codex in-app browser or Chrome Dev for the authorized target -> local CLI or credential store -> TP MFA approval`.
 
 Continue safe work while TP handles the final MFA action.

@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "webcam-pixel-grid",
+  "shippedFiles": [
+    {
+      "bytes": 17137,
+      "path": "components/ui/webcam-pixel-grid.tsx",
+      "sha256": "a1702ec46e566f8c32cbbf030a3df2599411e08a7fd251668668f2a2a777e5f1",
+      "target": "components/ui/webcam-pixel-grid.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/webcam-pixel-grid.json",
+  "title": "Webcam Pixel Grid",
+  "type": "registry:ui"
+}

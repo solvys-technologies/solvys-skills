@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "progress-shape",
+  "registryDependencies": [
+    "progress"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 567,
+      "path": "registry/examples/progress-shape.tsx",
+      "sha256": "f4155a6f48fca6a250cefe2cddb9cbcc5feb17135a1fb78a77aed00e9b0f8424",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/progress-shape.json",
+  "title": "Progress Shape",
+  "type": "registry:example"
+}

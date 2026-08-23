@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "recharts",
+    "motion"
+  ],
+  "description": "Area chart component",
+  "name": "recharts-area-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-chart",
+    "@evilcharts/recharts-tooltip",
+    "@evilcharts/recharts-legend",
+    "@evilcharts/recharts-dot",
+    "@evilcharts/recharts-brush",
+    "@evilcharts/recharts-background"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 38602,
+      "path": "src/registry/charts/recharts-area-chart.tsx",
+      "sha256": "298384a5104af8006aa27fd4014a5b48587f2775f7ff87d20110be73a7a07b00",
+      "target": "components/evilcharts/charts/recharts-area-chart.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/recharts-area-chart.json?raw=1",
+  "type": "registry:component"
+}

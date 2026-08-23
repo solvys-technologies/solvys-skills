@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "mini-svg-data-uri",
+    "motion"
+  ],
+  "name": "hero-highlight",
+  "shippedFiles": [
+    {
+      "bytes": 4505,
+      "path": "components/ui/hero-highlight.tsx",
+      "sha256": "22ba0ea6a206dfef79d266c296eac3d542df6cbfa1378a977d4986b00f575616",
+      "target": "components/ui/hero-highlight.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/hero-highlight.json",
+  "title": "Hero Highlight",
+  "type": "registry:ui"
+}

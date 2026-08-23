@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "flip-words",
+  "shippedFiles": [
+    {
+      "bytes": 2770,
+      "path": "components/ui/flip-words.tsx",
+      "sha256": "5fccf682bd6e999104a2d52fcec126c5f1acc8097b4eab4e874d01ff93bfa635",
+      "target": "components/ui/flip-words.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/flip-words.json",
+  "title": "Flip Words",
+  "type": "registry:ui"
+}

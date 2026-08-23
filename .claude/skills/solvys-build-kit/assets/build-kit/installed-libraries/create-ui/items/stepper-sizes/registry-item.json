@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "stepper-sizes",
+  "registryDependencies": [
+    "stepper"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 825,
+      "path": "registry/examples/stepper-sizes.tsx",
+      "sha256": "7f9c8538042a2ccc73152042d8b6d6a549e4c054914110319d514f40cab113d8",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/stepper-sizes.json",
+  "title": "Stepper Sizes",
+  "type": "registry:example"
+}

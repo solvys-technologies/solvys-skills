@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "echarts",
+    "motion"
+  ],
+  "description": "Semi-circle multi-ring gauge with a stat grid and a share legend",
+  "name": "cache-tiers-echarts-radial-chart",
+  "registryDependencies": [
+    "@evilcharts/echarts-radial-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3908,
+      "path": "src/registry/blocks/echarts/b-cache-tiers-echarts-radial-chart.tsx",
+      "sha256": "1445da7a5bdfbbfd1802a4b8653e746c42a766e045bec2cdd0aa17d1bf8b2f61",
+      "target": "components/evilcharts/blocks/cache-tiers-echarts-radial-chart.tsx",
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/cache-tiers-echarts-radial-chart.json?raw=1",
+  "type": "registry:block"
+}

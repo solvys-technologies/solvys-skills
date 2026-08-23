@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "segmented-control-icon-only",
+  "registryDependencies": [
+    "segmented-control"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1469,
+      "path": "registry/examples/segmented-control-icon-only.tsx",
+      "sha256": "57d6eebb8fc83af38da1e50f4fffde0a72eb320e0cd9fb67f6c2eca0404e5792",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/segmented-control-icon-only.json",
+  "title": "SegmentedControl Icon Only",
+  "type": "registry:example"
+}

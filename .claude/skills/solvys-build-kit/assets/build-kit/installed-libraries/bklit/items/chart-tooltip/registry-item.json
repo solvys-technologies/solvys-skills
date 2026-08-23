@@ -1,0 +1,82 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@number-flow/react",
+    "motion"
+  ],
+  "description": "Composable tooltip components for charts",
+  "name": "chart-tooltip",
+  "registryDependencies": [
+    "@bklit/chart-context",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2401,
+      "path": "src/charts/chart-config-context.tsx",
+      "sha256": "65c9fae029556283adf951203679147f9708187df6ec62cbe961b4e250c0b210",
+      "target": "components/charts/chart-config-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1636,
+      "path": "src/charts/indicator-fade.ts",
+      "sha256": "e2d87a04e32b40e9452155d1ea841038f3d3bc3c55e4ec7bc26df18f9a28adf8",
+      "target": "components/charts/indicator-fade.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 13197,
+      "path": "src/charts/tooltip/chart-tooltip.tsx",
+      "sha256": "85f47eb4fd599979d9fe917b606c2658632d65eb210d0a1882d2f1f169ff576e",
+      "target": "components/charts/tooltip/chart-tooltip.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6773,
+      "path": "src/charts/tooltip/tooltip-box.tsx",
+      "sha256": "7f486a34b6b8e6098a01806a6260784c760f5539ee95c716444b48b4cba63646",
+      "target": "components/charts/tooltip/tooltip-box.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1762,
+      "path": "src/charts/tooltip/tooltip-content.tsx",
+      "sha256": "52a61f5bb477d8c439f8b2003846f8b47800bf23de47389c19a256efbd1efd8f",
+      "target": "components/charts/tooltip/tooltip-content.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4013,
+      "path": "src/charts/tooltip/tooltip-dot.tsx",
+      "sha256": "00d4dcadb37a1eaf005707e770b6ab0a0cfa410c7c327e86c8c35bde7043208e",
+      "target": "components/charts/tooltip/tooltip-dot.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 5377,
+      "path": "src/charts/tooltip/tooltip-indicator.tsx",
+      "sha256": "66f49f2ba8ed7674a52b60e3de58066cb2afbf19d780e53f5b4f98ed57969df7",
+      "target": "components/charts/tooltip/tooltip-indicator.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4795,
+      "path": "src/charts/tooltip/date-ticker.tsx",
+      "sha256": "562553385a76c1c919efd729ed46e1bad142a1783a87c26d792adb22a4d95454",
+      "target": "components/charts/tooltip/date-ticker.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 484,
+      "path": "src/charts/tooltip/index.ts",
+      "sha256": "53b24a2f5cb83018efaf5320040a448a468a3962b000a25e5bf1e6b04b3e23df",
+      "target": "components/charts/tooltip/index.ts",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/chart-tooltip.json",
+  "status": "installed",
+  "title": "Chart Tooltip",
+  "type": "registry:component"
+}

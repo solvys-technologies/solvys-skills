@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "aspect-ratio-landscape",
+  "registryDependencies": [
+    "aspect-ratio"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 297,
+      "path": "registry/examples/aspect-ratio-landscape.tsx",
+      "sha256": "9c27821b766f406cd31ab5ed6a6c43f0989ae120f493a5dfd590e5f57a6cdd26",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/aspect-ratio-landscape.json",
+  "title": "Aspect Ratio Landscape",
+  "type": "registry:example"
+}

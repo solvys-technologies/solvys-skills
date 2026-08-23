@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "clsx",
+    "tailwind-merge"
+  ],
+  "name": "utils",
+  "shippedFiles": [
+    {
+      "bytes": 764,
+      "path": "registry/lib/utils.ts",
+      "sha256": "b828e73e9e316333efca016b18b89dbc15086fd59bf170d7c85873de1cee8ae3",
+      "target": null,
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/utils.json",
+  "type": "registry:lib"
+}

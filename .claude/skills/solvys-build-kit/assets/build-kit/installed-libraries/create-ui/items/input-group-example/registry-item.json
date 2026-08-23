@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "input-group-example",
+  "registryDependencies": [
+    "field",
+    "input",
+    "input-group",
+    "label",
+    "password-strength",
+    "example"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 22381,
+      "path": "registry/examples/input-group-example.tsx",
+      "sha256": "df64ce07182bcaea2bb4f0b83cbc5d4a41421cc9dbfbd410f80ca72f58c64f54",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/input-group-example.json",
+  "title": "Text Input Group",
+  "type": "registry:example"
+}

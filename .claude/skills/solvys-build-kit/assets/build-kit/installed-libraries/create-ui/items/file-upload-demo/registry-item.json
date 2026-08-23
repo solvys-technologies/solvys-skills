@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "file-upload-demo",
+  "registryDependencies": [
+    "file-upload",
+    "dropzone"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3188,
+      "path": "registry/examples/file-upload-demo.tsx",
+      "sha256": "b5d2fa24fa3c364e5e1c7ed8da0c2df72c2f6d66e50bacb302f57896cfc51c97",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/file-upload-demo.json",
+  "title": "File Upload",
+  "type": "registry:example"
+}

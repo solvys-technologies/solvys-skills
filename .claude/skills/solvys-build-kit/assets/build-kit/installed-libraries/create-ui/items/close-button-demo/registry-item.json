@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "close-button-demo",
+  "registryDependencies": [
+    "close-button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1363,
+      "path": "registry/examples/close-button-demo.tsx",
+      "sha256": "023b42af2b401d7d97fd32b557a40edbf83f6271b42a7389b2cf0b62a51b3e4c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/close-button-demo.json",
+  "title": "Close Button Demo",
+  "type": "registry:example"
+}

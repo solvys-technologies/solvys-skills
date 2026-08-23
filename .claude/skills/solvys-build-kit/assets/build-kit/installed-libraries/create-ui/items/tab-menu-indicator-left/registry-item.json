@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-indicator-left",
+  "registryDependencies": [
+    "tab-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 724,
+      "path": "registry/examples/tab-menu-indicator-left.tsx",
+      "sha256": "200a2863dc478c2565e1511d2e09e16ef47a54c0d1373c8b62192ecfc3d6f3ae",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-indicator-left.json",
+  "title": "TabMenu Indicator Left",
+  "type": "registry:example"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bg-overlapping-circles-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1965,
+      "path": "src/registry/examples/recharts/ex-bg-overlapping-circles-line-chart.tsx",
+      "sha256": "5a1156ccbddb37edee7c58e9cb8792c3dc06927290a9068ca0ff0e4bab0637e9",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bg-overlapping-circles-line-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "avatar-demo",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3265,
+      "path": "registry/examples/avatar-demo.tsx",
+      "sha256": "0f9911fe06d99468d49a9d73d11ab50a061e81880d2d24e325c9f9551a86c37c",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/avatar-demo.json",
+  "title": "Avatar Demo",
+  "type": "registry:example"
+}

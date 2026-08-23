@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "file-upload-list-sizes",
+  "registryDependencies": [
+    "file-upload"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1042,
+      "path": "registry/examples/file-upload-list-sizes.tsx",
+      "sha256": "addce5112256cce8608380de40f917b70d36064925d2d24b567db58beeaf3c4f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/file-upload-list-sizes.json",
+  "title": "File Upload",
+  "type": "registry:example"
+}

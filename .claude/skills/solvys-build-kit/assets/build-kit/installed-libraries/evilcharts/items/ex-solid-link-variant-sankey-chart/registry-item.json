@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-solid-link-variant-sankey-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-sankey-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2419,
+      "path": "src/registry/examples/recharts/ex-solid-link-variant-sankey-chart.tsx",
+      "sha256": "c68327f70a46b174d06278245cfcb7d33aacb1a5c47b866190c4064b5c8f5492",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-solid-link-variant-sankey-chart.json?raw=1",
+  "type": "registry:block"
+}

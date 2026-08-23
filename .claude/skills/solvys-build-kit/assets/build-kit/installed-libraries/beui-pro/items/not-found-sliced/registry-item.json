@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A cobalt 404 split into animated horizontal bands that continuously slip under the cursor.",
+  "name": "not-found-sliced",
+  "registryDependencies": [
+    "@beui/button-base"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4354,
+      "path": "components/premium/not-found-pages/not-found-sliced.tsx",
+      "sha256": "3c576c55ecc7e20390718bfe6abe9b27f9629b9c98739e762651be56300eba0d",
+      "target": "@components/premium/not-found-pages/not-found-sliced.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 512,
+      "path": "lib/hooks/use-hover-capable.ts",
+      "sha256": "f8e4b636902c6e5d8baa31ea4bfbcebd23f5f4c2590a8264785642395a2a9419",
+      "target": "@lib/hooks/use-hover-capable.ts",
+      "type": "registry:hook"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/not-found-sliced.json",
+  "title": "Sliced type",
+  "type": "registry:block"
+}

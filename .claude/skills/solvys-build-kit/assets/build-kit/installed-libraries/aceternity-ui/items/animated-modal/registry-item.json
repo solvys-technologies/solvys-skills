@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "animated-modal",
+  "shippedFiles": [
+    {
+      "bytes": 5637,
+      "path": "components/ui/animated-modal.tsx",
+      "sha256": "9d4166aa1229b45725c62bbde513a7198639df9365253c9e7be604b00bf1ea20",
+      "target": "components/ui/animated-modal.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/animated-modal.json",
+  "title": "Animated Modal",
+  "type": "registry:ui"
+}

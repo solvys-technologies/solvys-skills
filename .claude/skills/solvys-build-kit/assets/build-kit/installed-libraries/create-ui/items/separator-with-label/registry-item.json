@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "separator-with-label",
+  "registryDependencies": [
+    "separator",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 460,
+      "path": "registry/examples/separator-with-label.tsx",
+      "sha256": "6100b7f4e960ab2bebdf093fcfe4e3b351e58d23eff7f854ced0690e864f8863",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/separator-with-label.json",
+  "title": "Separator With Label",
+  "type": "registry:example"
+}

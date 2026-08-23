@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "navbar-sticky",
+  "registryDependencies": [
+    "navbar",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 10390,
+      "path": "registry/examples/navbar-sticky.tsx",
+      "sha256": "b137f9dddbc0420a0ca78432f12d8cfff5223c69993d730370f6f0b7b1ab932f",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/navbar-sticky.json",
+  "title": "Navbar",
+  "type": "registry:example"
+}

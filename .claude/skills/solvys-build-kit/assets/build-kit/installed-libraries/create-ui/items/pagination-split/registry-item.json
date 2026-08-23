@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-split",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 377,
+      "path": "registry/examples/pagination-split.tsx",
+      "sha256": "452af18f11e0d96ea4b0398e061ff3d3457908a192f1dbd21bcef6b321957037",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-split.json",
+  "title": "Pagination Split (Pro)",
+  "type": "registry:example"
+}

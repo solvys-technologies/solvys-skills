@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "alert-banner-example",
+  "registryDependencies": [
+    "alert-banner",
+    "badge",
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 15923,
+      "path": "registry/examples/alert-banner-example.tsx",
+      "sha256": "aadb52f761eb169d430e11536b12b2a34dd8a116b00dcdea5eb44d96c110a681",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/alert-banner-example.json",
+  "title": "Alert Banner",
+  "type": "registry:example"
+}

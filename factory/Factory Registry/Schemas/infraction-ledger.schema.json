@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://solvys.io/schemas/infraction-ledger.schema.json",
+  "title": "Solvys Factory Infraction Ledger",
+  "type": "object",
+  "required": ["version", "projectId", "updatedAt", "entries"],
+  "properties": {
+    "version": { "const": 1 },
+    "projectId": { "type": "string", "minLength": 1 },
+    "updatedAt": { "type": ["string", "null"] },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "event": {
+      "type": "object",
+      "required": ["eventId", "occurredAt", "sourceType", "sourceId", "description", "evidence"],
+      "properties": {
+        "eventId": { "type": "string", "minLength": 1 },
+        "occurredAt": { "type": "string", "minLength": 1 },
+        "sourceType": { "type": "string", "minLength": 1 },
+        "sourceId": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "evidence": { "type": "array", "items": { "type": "string" } },
+        "triggerKind": {
+          "enum": ["manual", "explicit-infraction", "direct-correction", "stop-command", "quality-friction"]
+        },
+        "failedContract": { "type": ["string", "null"] },
+        "rootCause": { "type": ["string", "null"] },
+        "preventionTest": { "type": ["string", "null"] },
+        "stopRequired": { "type": "boolean" },
+        "repairVerified": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "entry": {
+      "type": "object",
+      "required": [
+        "id",
+        "fingerprint",
+        "title",
+        "category",
+        "severity",
+        "count",
+        "status",
+        "deathLoop",
+        "firstSeenAt",
+        "lastSeenAt",
+        "owner",
+        "nextAction",
+        "events"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "fingerprint": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "category": {
+          "enum": [
+            "automation-death-loop",
+            "auth",
+            "context",
+            "delegation",
+            "execution-lane",
+            "handoff",
+            "maintainability",
+            "proof",
+            "provider",
+            "simplicity",
+            "source-selection",
+            "storage",
+            "scope",
+            "communication",
+            "security",
+            "tool-lane",
+            "other"
+          ]
+        },
+        "severity": { "enum": ["low", "medium", "high", "critical"] },
+        "count": { "type": "integer", "minimum": 1 },
+        "status": { "enum": ["open", "in-progress", "resolved", "accepted-risk"] },
+        "deathLoop": { "type": "boolean" },
+        "triggerKinds": {
+          "type": "array",
+          "items": {
+            "enum": ["manual", "explicit-infraction", "direct-correction", "stop-command", "quality-friction"]
+          },
+          "uniqueItems": true
+        },
+        "failedContracts": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "rootCauses": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "preventionTests": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "stopRequired": { "type": "boolean" },
+        "repairVerified": { "type": "boolean" },
+        "firstSeenAt": { "type": "string", "minLength": 1 },
+        "lastSeenAt": { "type": "string", "minLength": 1 },
+        "owner": { "type": "string", "minLength": 1 },
+        "nextAction": { "type": "string", "minLength": 1 },
+        "resolution": { "type": ["string", "null"] },
+        "events": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/event" },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

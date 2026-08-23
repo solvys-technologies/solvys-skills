@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ex-bg-bubbles-line-chart",
+  "registryDependencies": [
+    "@evilcharts/recharts-line-chart"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1953,
+      "path": "src/registry/examples/recharts/ex-bg-bubbles-line-chart.tsx",
+      "sha256": "777e59d718a4b5d7367b584867ea303377d70f8d076c1c4a72b6837ae702f28e",
+      "target": null,
+      "type": "registry:block"
+    }
+  ],
+  "sourceUrl": "https://evilcharts.com/r/ex-bg-bubbles-line-chart.json?raw=1",
+  "type": "registry:block"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "motion"
+  ],
+  "name": "lamp",
+  "shippedFiles": [
+    {
+      "bytes": 4169,
+      "path": "components/ui/lamp.tsx",
+      "sha256": "dfbfe0609b4a9e48912ce44601e77a478b7b7b145de34a0163e124de4e86862f",
+      "target": "components/ui/lamp.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/lamp.json",
+  "title": "Lamp",
+  "type": "registry:ui"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "dropdown-menu-assignee",
+  "registryDependencies": [
+    "avatar",
+    "button",
+    "checkbox",
+    "dropdown-menu",
+    "input-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 3886,
+      "path": "registry/examples/dropdown-menu-assignee.tsx",
+      "sha256": "73d05e339d6ed921fd82d3b09c25cb4a80cd6559f984e8c9bdc9493790ea3e31",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/dropdown-menu-assignee.json",
+  "title": "Dropdown Menu Assignee",
+  "type": "registry:example"
+}

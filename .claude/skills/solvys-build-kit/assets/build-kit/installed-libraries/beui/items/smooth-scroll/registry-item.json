@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "lenis",
+    "motion"
+  ],
+  "description": "Smooth-scroll provider over Lenis with a useSmoothScroll hook exposing scroll offset, progress and velocity. Reduced-motion safe.",
+  "name": "smooth-scroll",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 7908,
+      "path": "components/motion/smooth-scroll.tsx",
+      "sha256": "be7b791141b6b3208d54a43776e5dd3a21387c8db6d0f4873f32274ca4b93426",
+      "target": "@components/motion/smooth-scroll.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/smooth-scroll.json",
+  "title": "Scroll Animation Smooth Scroll",
+  "type": "registry:component"
+}

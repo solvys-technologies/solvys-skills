@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "tab-menu-variants-free",
+  "registryDependencies": [
+    "tab-menu"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 689,
+      "path": "registry/examples/tab-menu-variants-free.tsx",
+      "sha256": "00e665258d1e824b05bcf41d958af3ced7e73837f9156cdfd2a4c4eacc41bc44",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tab-menu-variants-free.json",
+  "title": "TabMenu Variants (Free)",
+  "type": "registry:example"
+}

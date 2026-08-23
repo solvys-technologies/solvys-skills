@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-group-icon-only",
+  "registryDependencies": [
+    "button-group"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 695,
+      "path": "registry/examples/button-group-icon-only.tsx",
+      "sha256": "782a128f4340d5fac447455d37c85cd7b110a009154ca4cefd24ac973f7b1a77",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-group-icon-only.json",
+  "title": "Button Group Icon Only",
+  "type": "registry:example"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "pagination-modes",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1205,
+      "path": "registry/examples/pagination-modes.tsx",
+      "sha256": "fa83f77f0bdceb79f1335fe3977215f4af6e4deaa54df2293a62371148089591",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/pagination-modes.json",
+  "title": "Pagination Modes",
+  "type": "registry:example"
+}

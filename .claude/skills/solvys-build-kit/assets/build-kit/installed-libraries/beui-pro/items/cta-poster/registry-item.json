@@ -1,0 +1,42 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A rounded kinetic CTA with a moving message rail, soft orbiting geometry, and paired actions for a confident final invitation.",
+  "name": "cta-poster",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/text-reveal"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6972,
+      "path": "components/premium/cta-sections/cta-poster.tsx",
+      "sha256": "e8dff1db8bfa5b5215c9962838980422d4f92a55f4097d06d882e08137e93693",
+      "target": "@components/premium/cta-sections/cta-poster.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/cta-poster.json",
+  "title": "Kinetic poster",
+  "type": "registry:block"
+}

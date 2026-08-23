@@ -1,0 +1,77 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "A centered plans grid with an animated monthly/annual billing toggle, odometer-style price rolls, and a featured plan with an accent hover reveal.",
+  "name": "pricing",
+  "registryDependencies": [
+    "@beui/button-base",
+    "@beui/tabs"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 4707,
+      "path": "components/premium/pricing/pricing.tsx",
+      "sha256": "f6caf3e6b4909d5b842982a640e1b3f7d47488a669bee401c809dedf7148e0d5",
+      "target": "@components/premium/pricing/pricing.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4256,
+      "path": "components/premium/pricing/pricing-card.tsx",
+      "sha256": "8b1e5b5c2d91ba15240d108a55c00fb2c38154075d8cf899891b3873c1f931b8",
+      "target": "@components/premium/pricing/pricing-card.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1662,
+      "path": "components/premium/pricing/types.ts",
+      "sha256": "10b6d2b08efddf4f4e557943b9c6f54676aae5478739b2b26bc579bfabf97e51",
+      "target": "@components/premium/pricing/types.ts",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 901,
+      "path": "lib/ease.ts",
+      "sha256": "5e82eaaa84fb0464511a01304cf547de605af6be34ed99591b108afd309c8110",
+      "target": "@lib/ease.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 169,
+      "path": "lib/utils.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 2460,
+      "path": "components/premium/pricing/animated-price.tsx",
+      "sha256": "64acf8469bf6aa1ed6653f7beec28f039bc95b24e47775eda37eee14de9b7b49",
+      "target": "@components/premium/pricing/animated-price.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4981,
+      "path": "components/premium/pricing/pricing-aurora-surface.tsx",
+      "sha256": "0526f7f9f71c0f496794de1d9002690476b6887bfee04a9c3cbdb5b385f7fafb",
+      "target": "@components/premium/pricing/pricing-aurora-surface.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 616,
+      "path": "lib/hooks/use-dark-theme.ts",
+      "sha256": "5a0d4688c8c6af9edcdc12bf2cda40c1403af9c85b27b67d7ed140dfeea624dc",
+      "target": "@lib/hooks/use-dark-theme.ts",
+      "type": "registry:hook"
+    }
+  ],
+  "sourceUrl": "https://pro.beui.dev/r/pricing.json",
+  "title": "Plans grid",
+  "type": "registry:block"
+}

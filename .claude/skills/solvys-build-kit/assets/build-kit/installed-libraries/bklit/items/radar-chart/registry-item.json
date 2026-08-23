@@ -1,0 +1,65 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/group@4.0.1-alpha.0",
+    "@visx/responsive@4.0.1-alpha.0",
+    "@visx/scale@4.0.1-alpha.0",
+    "@visx/shape@4.0.1-alpha.0",
+    "d3-shape",
+    "motion"
+  ],
+  "description": "A composable radar/spider chart with multiple data series",
+  "name": "radar-chart",
+  "registryDependencies": [
+    "@bklit/chart-animation",
+    "@bklit/utils"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 6703,
+      "path": "src/charts/radar-chart.tsx",
+      "sha256": "1ed80f9ff8a8b8f98867683a5ab49810efa671ee32f753f4695eb161e4fe2f66",
+      "target": "components/charts/radar-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 4602,
+      "path": "src/charts/radar-context.tsx",
+      "sha256": "bca47f7ad7a7cd2ee00bb9c6905d584054e2144998e1442d4918cb5869adab5e",
+      "target": "components/charts/radar-context.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 6038,
+      "path": "src/charts/radar-area.tsx",
+      "sha256": "019e33cddc4dfd9352ca7a89e8dc3735039b76d885f50d1fb9d51628547fe7b1",
+      "target": "components/charts/radar-area.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1487,
+      "path": "src/charts/radar-axis.tsx",
+      "sha256": "5faa614970890294c417f4b372235362ef1ed222cb9d10c95695dd100c43ef88",
+      "target": "components/charts/radar-axis.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 3724,
+      "path": "src/charts/radar-grid.tsx",
+      "sha256": "154a070e850841d0a0529bb70899309459d7f5a10eca38672871c8005436b93c",
+      "target": "components/charts/radar-grid.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 2228,
+      "path": "src/charts/radar-labels.tsx",
+      "sha256": "7b175a31f07a26b6aa86f502107a668152e66ec783efe39d4c118c015998fa24",
+      "target": "components/charts/radar-labels.tsx",
+      "type": "registry:component"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/radar-chart.json",
+  "status": "installed",
+  "title": "Radar Chart",
+  "type": "registry:component"
+}

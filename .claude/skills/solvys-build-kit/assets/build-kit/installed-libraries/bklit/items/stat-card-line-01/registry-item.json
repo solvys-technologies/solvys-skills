@@ -1,0 +1,64 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "dependencies": [
+    "@visx/curve@4.0.1-alpha.0",
+    "@number-flow/react",
+    "@central-icons-react/all"
+  ],
+  "description": "Sessions stat card with line sparkline, overlaid NumberFlow, and trend badge",
+  "name": "stat-card-line-01",
+  "registryDependencies": [
+    "@bklit/line-chart",
+    "@bklit/chart-stat-flow",
+    "card",
+    "badge"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2322,
+      "path": "registry/blocks/stat-card-line-01/components/stat-card-line.tsx",
+      "sha256": "5ee9cc84be7b11635b5080c0cea05bc42da3923f3c3487492349bed9546ea840",
+      "target": "components/stat-card-line.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1042,
+      "path": "registry/blocks/stat-card-line-01/components/stat-card-chart.tsx",
+      "sha256": "0c38f7deabbeca8a26ae43889ee46056e7b7618c1f1d049a53efe58e4d72c844",
+      "target": "components/stat-card-chart.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 1984,
+      "path": "registry/blocks/stat-card-line-01/components/stat-card-hover-bridge.tsx",
+      "sha256": "e137849f568e2a44c54a1d8c90974b46164c9e8334c4ebd469489344ae86bd29",
+      "target": "components/stat-card-hover-bridge.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 831,
+      "path": "registry/blocks/stat-card-line-01/components/trend-badge.tsx",
+      "sha256": "bb21aab2bd43b97520e3aabf508ee664ccf6d5af9d10cf2baf53c0c39a800a42",
+      "target": "components/trend-badge.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 530,
+      "path": "registry/blocks/stat-card-line-01/data/sessions-series.ts",
+      "sha256": "399ad66648838dd863040927415b43bfa0874db918fd378407784b0ab7196f5b",
+      "target": "data/sessions-series.ts",
+      "type": "registry:lib"
+    },
+    {
+      "bytes": 269,
+      "path": "registry/examples/stat-card-line-01-index.ts",
+      "sha256": "3bb7c32f1325558fdb91e41efab11d2efd9757360ea14fd3fec0e9afeacc99fa",
+      "target": "components/charts/index.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://bklit.com/r/stat-card-line-01.json",
+  "status": "installed",
+  "title": "Stat Card Line",
+  "type": "registry:block"
+}

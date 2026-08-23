@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "switch-controlled",
+  "registryDependencies": [
+    "switch"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 500,
+      "path": "registry/examples/switch-controlled.tsx",
+      "sha256": "b305918c9d5a61eddcbfa38a671320b9c4452d78d5e9bb693fa8421d5b602877",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/switch-controlled.json",
+  "title": "Switch Controlled",
+  "type": "registry:example"
+}

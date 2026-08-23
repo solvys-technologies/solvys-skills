@@ -1,0 +1,24 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets"
+  ],
+  "description": "Masked date field with configurable order (DMY/MDY/YMD); onValueChange emits the ISO string and a Date object",
+  "name": "date-input",
+  "registryDependencies": [
+    "input-group",
+    "use-date-input"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 2097,
+      "path": "registry/ui/date-input.tsx",
+      "sha256": "c13610c14c00655a4f6a94422179910384a44b1ede68f691b0bd1017dc93cc25",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/date-input.json",
+  "title": "Date Input",
+  "type": "registry:ui"
+}

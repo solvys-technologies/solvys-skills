@@ -1,0 +1,20 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "dependencies": [
+    "simplex-noise",
+    "motion"
+  ],
+  "name": "vortex",
+  "shippedFiles": [
+    {
+      "bytes": 7135,
+      "path": "components/ui/vortex.tsx",
+      "sha256": "bcd5dbeee17f5124b3a07aa3de29c44e96188778c5a53d82e3523eb0495e38bf",
+      "target": "components/ui/vortex.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/vortex.json",
+  "title": "Vortex",
+  "type": "registry:ui"
+}

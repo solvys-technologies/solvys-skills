@@ -1,0 +1,21 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Radix hover tooltip for any trigger element; five color variants, optional arrow, side and offset control",
+  "name": "tooltip",
+  "shippedFiles": [
+    {
+      "bytes": 4193,
+      "path": "registry/ui/tooltip.tsx",
+      "sha256": "68793caa0438e1f0a4f138498c3613fc943f813afbf6e19313615e5a0484c3c8",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/tooltip.json",
+  "title": "Tooltip",
+  "type": "registry:ui"
+}

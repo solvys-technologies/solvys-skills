@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "info-tooltip-no-arrow",
+  "registryDependencies": [
+    "info-tooltip"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 490,
+      "path": "registry/examples/info-tooltip-no-arrow.tsx",
+      "sha256": "e1e84bcf2519406082d3ecb6691b80a0bd636720d7f892cc1f3ee5ffa96f272b",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/info-tooltip-no-arrow.json",
+  "title": "Info Tooltip No Arrow",
+  "type": "registry:example"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "description": "Tiny presence dot only, no built-in label; 12 status colors and xs/sm/md sizes, place text beside it yourself",
+  "name": "status-badge",
+  "shippedFiles": [
+    {
+      "bytes": 1284,
+      "path": "registry/ui/status-badge.tsx",
+      "sha256": "038a272de3cf806c1661497beaa8aae47c20592e0094565f54ffdb2a61e5f285",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/status-badge.json",
+  "title": "Status Badge",
+  "type": "registry:ui"
+}

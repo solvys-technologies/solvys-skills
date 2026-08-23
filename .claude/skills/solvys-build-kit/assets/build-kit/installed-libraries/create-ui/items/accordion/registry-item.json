@@ -1,0 +1,22 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "dependencies": [
+    "@create-ui/assets",
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "description": "Vertically stacked disclosure panels for FAQs and settings; six appearances from ghost-default to filled-rounded",
+  "name": "accordion",
+  "shippedFiles": [
+    {
+      "bytes": 7584,
+      "path": "registry/ui/accordion.tsx",
+      "sha256": "b0e478208f888f0ac34cd72c65e7e34af193df7d1fa4435969b9e4215ef1a559",
+      "target": null,
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/accordion.json",
+  "title": "Accordion",
+  "type": "registry:ui"
+}

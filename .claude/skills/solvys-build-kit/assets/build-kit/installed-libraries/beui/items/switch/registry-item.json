@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "author": "Saurabh <saurabh10102@gmail.com>",
+  "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+  ],
+  "description": "Toggle with a spring-driven thumb and press feedback.",
+  "name": "switch",
+  "registryDependencies": [],
+  "shippedFiles": [
+    {
+      "bytes": 3187,
+      "path": "components/motion/switch.tsx",
+      "sha256": "932a3db6cd4b867a4a6e5c3d90574b9c58f0c4ac953aa808ab04c8647e3f3dac",
+      "target": "@components/motion/switch.tsx",
+      "type": "registry:component"
+    },
+    {
+      "bytes": 166,
+      "path": "lib/utils.ts",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "target": "@lib/utils.ts",
+      "type": "registry:lib"
+    }
+  ],
+  "sourceUrl": "https://beui.dev/r/switch.json",
+  "title": "Switch",
+  "type": "registry:component"
+}

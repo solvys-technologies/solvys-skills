@@ -1,0 +1,16 @@
+{
+  "author": "Manu Arora <hi@manuarora.in>",
+  "name": "squiggly-text",
+  "shippedFiles": [
+    {
+      "bytes": 3105,
+      "path": "components/ui/squiggly-text.tsx",
+      "sha256": "7e99133897d9970938a95d3b27966dd1c4dc714519e118c878895de8ed40f783",
+      "target": "components/ui/squiggly-text.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "sourceUrl": "https://ui.aceternity.com/registry/squiggly-text.json",
+  "title": "Squiggly Text",
+  "type": "registry:ui"
+}

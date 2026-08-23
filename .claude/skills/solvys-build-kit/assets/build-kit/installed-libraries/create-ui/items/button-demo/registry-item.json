@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "button-demo",
+  "registryDependencies": [
+    "button"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 1667,
+      "path": "registry/examples/button-demo.tsx",
+      "sha256": "f160dd1d657c18066b1c241fbbccff27c555f9d1056249a27b4dfc95b0fac2fb",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/button-demo.json",
+  "title": "Button Demo",
+  "type": "registry:example"
+}

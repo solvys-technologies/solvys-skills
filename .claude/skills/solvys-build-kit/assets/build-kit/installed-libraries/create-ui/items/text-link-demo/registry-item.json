@@ -1,0 +1,19 @@
+{
+  "$schema": "https://createui.co/schema/registry-item.json",
+  "name": "text-link-demo",
+  "registryDependencies": [
+    "text-link"
+  ],
+  "shippedFiles": [
+    {
+      "bytes": 968,
+      "path": "registry/examples/text-link-demo.tsx",
+      "sha256": "d711c6223109993e6e39b1108e57d132825c2f797f0ab6166f002573ff0d6ceb",
+      "target": null,
+      "type": "registry:example"
+    }
+  ],
+  "sourceUrl": "https://createui.co/r/text-link-demo.json",
+  "title": "TextLink Demo",
+  "type": "registry:example"
+}
