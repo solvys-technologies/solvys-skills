@@ -21,7 +21,7 @@ Do not start implementation in the same turn unless the user already approved a 
 ## Order
 
 1. Collect the contract, proposal, and the human's spoken P0. If the signed document is missing, say so in the Sources line and encode only what the human named.
-2. Name the person who is in pain and the observable change that would mean rent is earned.
+2. Name the person who is in pain and the observable change that would mean the paid outcome is true.
 3. Fill every required heading in `factory/Factory Registry/Templates/project-manifesto.md`. Do not skip Access, Deployment, or Unattended work.
 4. Write customer intuition as the thought an agent should have in the field, not as a passing check.
 5. Put `MANIFESTO.md` at the root of every family repo named in the project map. Identical file. If a remote is missing, keep the portable copy under this skill's `examples/` and in the reachable repo.
@@ -52,7 +52,7 @@ The validator requires these headings, in this order:
 
 **The job.** One operating path. Input. Output. Who sees it. How fast it had to ship.
 
-**Who pays.** Client, operator, FDE. Why the outcome is rent. What Solvys owns versus what the client owns.
+**Who pays.** Client, operator, FDE. Why this is the paid job. What Solvys owns versus what the client owns.
 
 **Priority stack.** Numbered. P0 is the paid real-world event. Later items wait until P0 is true in the world.
 

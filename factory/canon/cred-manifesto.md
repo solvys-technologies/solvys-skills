@@ -30,7 +30,7 @@ Phase 2 is exception-driven. Healthy automation does not need a 34-hour build. N
 
 Do the next item only after the one above it is true in the real world.
 
-1. **P0. Rent.** A Promotions listing is in the destination WhatsApp group. Today that destination is Test Group until Sam switches it back to Creative Deals. Duplicate scan still covers every membership group.
+1. **P0. Listing.** A Promotions listing is in the destination WhatsApp group. Today that destination is Test Group until Sam switches it back to Creative Deals. Duplicate scan still covers every membership group.
 2. **P1. Speed.** Ingest to send is short. Semi-Auto Send and drop-to-Queued fire. Auto sends when the gate passes. A trigger that replaces a working heartbeat is a regression.
 3. **P2. Sight and hands.** WAAM is a visual look at that pipe with the option to turn it: power, Hold, Send, Enrich, Select, Reject. Humans can tell whether the worker should be rebuilt because the board shows whether listings are landing.
 4. **P3. Stay up.** IMAP stays connected. Secrets stay in every environment that runs. Power stays honest. Exception review per the Phase 2 schedule.

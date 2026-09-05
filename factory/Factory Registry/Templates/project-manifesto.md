@@ -20,7 +20,7 @@ Ship that path fast. Leave it running.
 
 Client: `<client>`. Operator: `<operator>`. FDE: `<name and email>`.
 
-`<why this outcome is rent>`.
+`<why this outcome is the paid job>`.
 
 Solvys is a forward-deployed engineering team. We solve that operating problem.
 
@@ -28,7 +28,7 @@ Solvys is a forward-deployed engineering team. We solve that operating problem.
 
 Do the next item only after the one above it is true in the real world.
 
-1. **P0. Rent.** `<paid real-world event>`.
+1. **P0.** `<short name for the paid real-world event>`. `<paid real-world event>`.
 2. **P1. Speed.** `<latency or fire-path>`.
 3. **P2. Sight and hands.** `<diagnostic surface and the verbs that turn the pipe>`.
 4. **P3. Stay up.** `<access, secrets, power, exception review>`.
