@@ -14,6 +14,10 @@ Intake mailbox: Promotions on `sam@creativerealestatedeals.com`. Peek only. Do n
 
 The card in the group is an InvestorPost. Address with city/ST/ZIP when the source had them. Beds, baths, living sqft, price. ARV optional, at most once. A photo a buyer can use to recognize the house from the curb.
 
+The group card is CRED's post, not a forward of the source email. Never include the original sender. No brokerage name. No source "call or text". No leftover first name. No "More Pictures" scrape. Additional information is never all caps. Pitch lines, ARV notes, and city names use proper capitalization. The only all-caps exception is cardinal directions in the address: N, S, E, W, NE, NW, SE, SW. The card must be easy to read. Strip run-on source dumps that repeat sqft, lot size, and a CTA on one line.
+
+Keep InvestorPost fields. The exact layout follows the CRED example Sam is sending next. Do not invent a new format while that sample is still incoming.
+
 Ship that path fast. Leave it running. Imperfect listings that land in the group beat a perfect board that never posts.
 
 ## Who pays
@@ -49,6 +53,10 @@ The original ship target was about three days, then leave the path alone. Months
 
 Ask what the person in the group sees. Then fix that.
 
+Original sender or brokerage on the card: the group sees the wholesaler, not CRED. Strip it.
+
+All-caps extra copy: the card looks like a shout. Rewrite in proper capitalization. Cardinal directions in the address may stay caps.
+
 Aerial or satellite on the card: the customer cannot see the property. Fix the image. Prefer source Drive photos. Then street-level house imagery. Overhead is last resort and still a fail if a house photo was possible.
 
 Google mark on the frame: the card looks unfinished. Fix the image.
@@ -78,7 +86,7 @@ Wonder may exist as cockpit chrome. It is not the product. Listings into WhatsAp
 | ID | Milestone | Proof |
 | --- | --- | --- |
 | M0 | Access | 1Password session alive. Service accounts for Production and Preview. Named secrets present on Vercel project `waam` in both. Promotions LOGIN true. WhatsApp dest named. |
-| M1 | First live send | One real Promotions listing lands in Test Group as InvestorPost, house-recognizable photo, no Google mark. |
+| M1 | First live send | One real Promotions listing lands in Test Group as InvestorPost, house-recognizable photo, no Google mark, no original sender, no all-caps extra copy. |
 | M2 | Repeatable pipe | Auto or Semi-Auto works without replacing heartbeat. Duplicate scan covers membership groups. Fail one, skip, continue. |
 | M3 | Honest cockpit | WAAM shows power, mode, last send, and failures in customer copy. No env var names, JSON, or API paths in the UI. |
 | M4 | Chrome | Only after M1 is true. Hub, sidebar, island, Wonder parity. Never at the expense of M1. |
@@ -143,6 +151,8 @@ Do not retarget P0 because IMAP is messy, because the board shows cards, because
 Stop and report when:
 
 - The group is not receiving listings and the next action is another UI feature
+- The card posts the original sender, a brokerage name, or source CTA
+- Additional information is in all caps, except cardinal directions in the address
 - Aerial imagery is shipping as the listing photo
 - 1Password is logged out and the next action is another IMAP probe
 - A goal has been running for hours with no message in the group
@@ -156,6 +166,6 @@ WAAM AI is the cockpit. GoalBot is the hub. Kernel is the browser session. Bende
 
 ## Proof that counts
 
-Counts: a listing visible in the destination WhatsApp group, house-recognizable photo, InvestorPost body, Promotions LOGIN true, secrets present in Production and Preview.
+Counts: a listing visible in the destination WhatsApp group, house-recognizable photo, InvestorPost body with no original sender and proper capitalization, Promotions LOGIN true, secrets present in Production and Preview.
 
 Does not count: `tsc`, unit tests, Maps 200, Kanban counts, Wonder screenshot, Situation JSON, a green Vercel deploy of chrome that still cannot send.
