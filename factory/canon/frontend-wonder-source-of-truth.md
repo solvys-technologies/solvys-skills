@@ -10,8 +10,11 @@ Site remains the runnable test and acceptance surface.
 
 ## Rules
 
-1. Do not invent, regenerate, rewrite, or create a new frontend UI, page,
-   component library, or layout from scratch.
+1. Do not invent a parallel UI, page, component library, or layout. Copy the
+   named Wonder frame. A greenfield **shell** is allowed when the current
+   chrome is the wrong IA (Goalpost Code: leftover Circle/C-Cab map vs `wush`
+   Greenfield, Goalpost v2.3). Still do not invent chrome the lock does not
+   show. Every **tab surface** still maps 1:1 to a Wonder frame.
 2. Work only with the existing frontend that is already imported into Wonder or
    is ready for a recorded Wonder import.
 3. Before a frontend change, locate the existing Wonder-compatible source and
