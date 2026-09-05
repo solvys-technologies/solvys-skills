@@ -98,9 +98,9 @@ Secret names only (values stay in 1Password / Vercel):
 
 - `IMAP_USER` = `sam@creativerealestatedeals.com`
 - `IMAP_PASSWORD` = Google Workspace App Password for that mailbox. Account password plus TOTP is not IMAP LOGIN. If Workspace blocks App Passwords, stop and ask the domain admin. Do not invent a password.
-- `GOALBOT_SERVICE_TOKEN` = 1Password `waam.vercel — Goalbot service`
+- `GOALBOT_SERVICE_TOKEN` = 1Password item `waam.vercel - Goalbot service`
 - `GOALBOT_API_URL` = `https://goalbots.solvys.io`
-- `WAAM_CONTROL_TOKEN` = 1Password `waam.vercel — WAAM control token`
+- `WAAM_CONTROL_TOKEN` = 1Password item `waam.vercel - WAAM control token`
 
 Never print tokens, E.164 numbers, listing bodies, WhatsApp bodies, or `live_view_url`.
 
