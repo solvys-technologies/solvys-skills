@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Website"
+  short_description: "One-shot client websites to a verified Vercel preview"
+  default_prompt: "Use $solvys-website to build this client's site end to end: intake and research, the Solvys website visual system, the scroll narrative, a Vercel preview, and the full format matrix verified before you report the URL."
