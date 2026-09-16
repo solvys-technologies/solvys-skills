@@ -20,7 +20,7 @@ them.
 | --- | --- |
 | Product policy, protected zones, proof state | `/solvys-cao` |
 | Project entrance, lanes, receipts | `/solvys-factory` |
-| Design canon, material and control rules | `Design.md`, `/solvys-feels` is product-app UI only |
+| Design canon, material and control rules | `Design.md` (note: `/solvys-feels` governs product-app UI only) |
 | Visual benchmark teardown | `/solvys-kirby` when a reference site must be reverse-engineered |
 | Visual review artifact | `/human-review` |
 | Deploy pre-flight and release | `/solvys-deploy` for a client-owned production release |
