@@ -23,6 +23,7 @@ jobs:
             git ls-files | grep -E '^\.claude/skills/solvys-build-kit/assets/build-kit/(solvys-build-kit\.pen|.*gallery-review\.html)$' || true
             git ls-files | grep -E '^\.claude/skills/solvys-build-kit/assets/build-kit/installed-(libraries|registries)/(beui-pro|aceternity-ui)/' || true
             git ls-files | grep -E '^\.claude/skills/solvys-build-kit/assets/build-kit/images/(pro\.beui\.dev|ui\.aceternity\.com)/' || true
+            git ls-files | grep -E '^\.claude/skills/solvys-build-kit/assets/build-kit/fonts/(pro\.beui\.dev|ui\.aceternity\.com)/' || true
             git ls-files | grep -E '^solvys-build-kit(\.zip|/)' || true
           } | sort -u)"
 

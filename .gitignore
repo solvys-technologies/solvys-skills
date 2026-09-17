@@ -20,3 +20,5 @@ node_modules/
 # Local packaged mirrors do not belong in the public skills repository.
 /solvys-build-kit/
 /solvys-build-kit.zip
+.claude/skills/solvys-build-kit/assets/build-kit/fonts/pro.beui.dev/
+.claude/skills/solvys-build-kit/assets/build-kit/fonts/ui.aceternity.com/
