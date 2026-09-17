@@ -14,6 +14,7 @@ ASSET_ROOT = SKILL_ROOT / "assets" / "build-kit"
 MANIFEST_PATH = ASSET_ROOT / "manifest.json"
 COMPONENT_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 DISALLOWED_CSS = ("linear-gradient", "radial-gradient", "backdrop-filter", "filter: blur", "text-shadow", "box-shadow")
+LICENSE_GATED_SOURCES = {"beui-pro", "aceternity-ui"}
 WEBSITE_BLOCK_PREFIXES = (
     "hero-", "pricing", "footer-", "features-", "content-", "trust-",
     "announcement-", "use-cases-", "how-it-works-", "logo-cloud-",
@@ -71,7 +72,8 @@ def main() -> int:
                     errors.append(f"approved library missing from source registry: {approved.get('id')}")
                 app_registry = approved.get("appRegistry")
                 if app_registry and not (ASSET_ROOT / app_registry).is_file():
-                    errors.append(f"approved app registry missing: {app_registry}")
+                    if approved.get("id") not in LICENSE_GATED_SOURCES:
+                        errors.append(f"approved app registry missing: {app_registry}")
             manifest_auto_update_ids = {library.get("id") for library in manifest.get("approvedLibraries", []) if library.get("autoUpdate")}
             if manifest_auto_update_ids:
                 errors.append("manifest automatic updates must be disabled for the approved library snapshots")
@@ -79,7 +81,8 @@ def main() -> int:
             for source_id in ("beui", "beui-pro", "evilcharts"):
                 snapshot_manifest = snapshot_root / source_id / "library-manifest.json"
                 if not snapshot_manifest.is_file():
-                    errors.append(f"missing full library snapshot: {source_id}")
+                    if source_id not in LICENSE_GATED_SOURCES:
+                        errors.append(f"missing full library snapshot: {source_id}")
                     continue
                 try:
                     snapshot = json.loads(snapshot_manifest.read_text(encoding="utf-8"))
@@ -95,7 +98,8 @@ def main() -> int:
                 app_registry_path = ASSET_ROOT / "installed-registries" / source_id / "app-blocks.json"
                 snapshot_manifest_path = snapshot_root / source_id / "library-manifest.json"
                 if not full_registry_path.is_file() or not app_registry_path.is_file():
-                    errors.append(f"missing app-block registry: {source_id}")
+                    if source_id not in LICENSE_GATED_SOURCES:
+                        errors.append(f"missing app-block registry: {source_id}")
                     continue
                 try:
                     full_registry = json.loads(full_registry_path.read_text(encoding="utf-8"))
