@@ -57,7 +57,8 @@ python3 -m py_compile \
   "$repo_root/.claude/skills/solvys-user-testing/scripts/validate_user_testing.py" \
   "$repo_root/.claude/skills/solvys-factory/scripts/orient.py" \
   "$repo_root/.claude/skills/solvys-build-kit/scripts/load_build_kit.py" \
-  "$repo_root/.claude/skills/solvys-build-kit/scripts/validate_build_kit.py"
+  "$repo_root/.claude/skills/solvys-build-kit/scripts/validate_build_kit.py" \
+  "$repo_root/.claude/skills/solvys-website/scripts/verify_site.py"
 
 python3 -m unittest discover -s "$repo_root/scripts/tests" -p 'test_*.py'
 
