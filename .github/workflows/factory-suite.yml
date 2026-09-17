@@ -18,6 +18,7 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
+      - uses: astral-sh/setup-uv@v6
       - name: Install pinned Loop toolchain
         run: ./scripts/install_s015_toolchains.sh
       - name: Validate Factory suite
