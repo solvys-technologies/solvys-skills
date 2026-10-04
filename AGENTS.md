@@ -1,3 +1,14 @@
+> **Retired standalone skills bank, 2026-10-04.**
+>
+> The canonical bank now lives directly in [Solvys Factory](https://github.com/solvys-technologies/solvys-factory/tree/main/Skills).
+> Each skill has its own `Skills/<original-author>/<skill>/SKILL.md` folder.
+> Attach Solvys Factory alongside your product repository and start with its root `AGENTS.md`.
+> New skills, updates, hooks and operational sequences belong in that monorepo.
+> This repository is archived for history and provenance. The instructions below are historical;
+> do not use its old installers or treat it as an active runtime bank.
+>
+> Factory consolidation: [PR #16](https://github.com/solvys-technologies/solvys-factory/pull/16).
+
 # Solvys skills repository instructions
 
 work freely, work with an open mind, and explore all possible options; never jump to conclusions at the second or third blocker. Be innovative, take inventory of your skills
