@@ -4,7 +4,7 @@
 > Each skill has its own `Skills/<original-author>/<skill>/SKILL.md` folder.
 > Attach Solvys Factory alongside your product repository and start with its root `AGENTS.md`.
 > New skills, updates, hooks and operational sequences belong in that monorepo.
-> This repository is archived for history and provenance. The instructions below are historical;
+> This repository is retired for history and provenance. GitHub archival is pending repository-administration access. The instructions below are historical;
 > do not use its old installers or treat it as an active runtime bank.
 >
 > Factory consolidation: [PR #16](https://github.com/solvys-technologies/solvys-factory/pull/16).
