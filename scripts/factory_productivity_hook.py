@@ -19,6 +19,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from wonder_ui_routing import route_ui
+
 
 DIRECTIVE = (
     "work freely, work with an open mind, and explore all possible options; "
@@ -68,7 +70,7 @@ PREVENTION_MAP = {
     "context-overload": "Bounded context pointers and role summary",
     "overcomplicated-status": "Communication validator and concise receipt schema",
     "asked-before-inventory": "Stop gate for source and skill inventory",
-    "ui-before-process": "PL2 contract dependency before PL4 work",
+    "ui-before-process": "Wonder source guidance with browser fallback",
     "taxonomy-drift": "Canonical vocabulary validator",
     "missing-or-stale-user-testing-lineage": "Dual physical specification maps and inherited task-context validation",
     "incomplete-user-testing": "Inherited sub-journey and regression evidence with orchestrator acceptance",
@@ -211,11 +213,6 @@ def detect_pretool_mechanisms(payload: dict[str, Any], state: dict[str, Any]) ->
         found.add("wrong-review-surface")
     if any(token in text for token in ("create_thread", "spawn_agent", "subagent", "sub-agent")):
         found.add("delegation-sprawl")
-    if phase in {"PL0", "PL1", "PL2"} and any(
-        token in text
-        for token in ("app/page.tsx", "src/components", "frontend/", "create ui", "build ui")
-    ):
-        found.add("ui-before-process")
     if state.get("correctionLatch", {}).get("active") and not state.get(
         "correctionLatch", {}
     ).get("preventionTestPassed"):
@@ -358,6 +355,8 @@ def response(event: str, decision: str, message: str | None, mechanisms: list[st
     }
     if event in {"SessionStart", "UserPromptSubmit", "PostToolUse"}:
         result["additionalContext"] = message or DIRECTIVE
+    if event == "PreToolUse" and decision == "allow" and message:
+        result["hookSpecificOutput"] = {"hookEventName": event, "additionalContext": message}
     return result
 
 
@@ -405,6 +404,8 @@ def main() -> int:
         if mechanisms:
             decision = "deny"
             message = message or f"Factory prevention stopped this action. Mechanism: {', '.join(mechanisms)}."
+        if decision == "allow":
+            _, message = route_ui(payload)
     elif event == "PostToolUse":
         mechanisms = update_failure_state(payload, state)
         if mechanisms:
