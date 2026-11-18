@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys PR Sweeper"
+  short_description: "Review and reconcile PRs while protecting production"
+  default_prompt: "Use $solvys-pr-sweeper to review open PRs against current approved operations and propose evidence-backed dispositions."

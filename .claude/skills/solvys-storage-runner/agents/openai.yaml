@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solvys Storage Runner"
+  short_description: "Reclaim storage and enforce safe 30-day retention"
+  default_prompt: "Use $solvys-storage-runner to measure storage, clean verified disposable data, and apply approved archive and repository retention."

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "repository": "solvys-technologies/solvys-factory",
+  "factoryRevision": "55dad0b76ffcebcda8bdbfc47c15514e59a05c7a",
+  "localPath": "../../../Codebase Cabinet/Internal Codebases/solvys-factory",
+  "sourceState": "uncommitted-preview",
+  "entrypoint": "AGENTS.md",
+  "workflow": "workflow/hooks.json",
+  "skillsRoot": "Skills",
+  "skillInventory": "Skills/inventory.json",
+  "skillBindings": "Skills/workflow-bindings.json",
+  "uiLibraryReview": "design/ui-library-review.json",
+  "canvasSkill": "Skills/Solvys/goalpost-canvas/SKILL.md",
+  "canvasContract": "design/canvas/contract.md",
+  "nativeFactoryId": null,
+  "nativeFactoryName": null,
+  "canonicalProjectPath": "/Users/tifos/Documents/Solvys/Factory/Skills/solvys-skills",
+  "sharedContextReceipt": "/Users/tifos/Documents/Solvys/Codebase Cabinet/Spare Files/Agent Clutter/factory/2026-10-07-routing/attachment-receipt.json",
+  "manifestoCheckpoints": [
+    "before-project-work",
+    "after-tests-before-final-acceptance"
+  ]
+}

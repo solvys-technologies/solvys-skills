@@ -23,3 +23,15 @@ no Wonder-imported source, create or import it before new UI code begins.
 Validate every skill with the skill-creator validator. Test the installer in an isolated target home before publication.
 
 Use the daily `YYYY-MM-DD` integration branch, an `S### - concise context` PR title, green checks, and a squash merge into clean `main`.
+
+<!-- SOLVYS_MONOREPO_BEGIN -->
+## Solvys monorepo context
+
+Read `../../../Codebase Cabinet/Internal Codebases/solvys-factory/AGENTS.md`, the current working canon, and this repository's state before planning. Read the current company/team manifesto and this project's manifesto from their authoritative paths or URLs before project work; record their revisions in the existing receipt. Missing sources block product implementation. After tests pass, reread both manifestos and the original request, then run a second acceptance pass over the complete user journey and integration boundaries before claiming completion. `.solvys/factory.json` records the factory revision and relative checkout. If this checkout layout changes, locate the attached `solvys-factory` repository and rerun its `workflow/attach.py`.
+
+Run `python3 ../../../Codebase Cabinet/Internal Codebases/solvys-factory/workflow/route.py --event before-plan` and the matching phase events. Read only the returned existing skill sources from `../../../Codebase Cabinet/Internal Codebases/solvys-factory/Skills/<original-author>/`. All general operations, setup, authentication and design skills belong to this factory. Only specialized application E2E skills may remain in this product. Do not install a personal or external skill bank. Current user instructions override historical source material. Manual checkpoints are not installed harness hooks.
+
+In native Warp use the attached factory's `workflow/warp.py` and actual task/plan evidence; no second operations ledger is required. Only a product opting into the legacy portable contract uses `python3 .solvys/workflow.py --event before-implementation` for implementation admission. The repository-local launcher binds this checkout automatically; the factory checks the exact plan and runs environment preflight. Source inspection uses `--resolve-only` and does not authorize implementation.
+
+For canvas/PR-map work run `python3 .solvys/workflow.py --event canvas-request` and read the canonical Solvys-owned `../../../Codebase Cabinet/Internal Codebases/solvys-factory/Skills/Solvys/goalpost-canvas/SKILL.md`. Its attributed PR Lens adaptation uses the shared `../../../Codebase Cabinet/Internal Codebases/solvys-factory/design/canvas/` ReUI/BeUI/OpenUI contract. Product-local discovery links are projections into the attached monorepo, not separate skill bodies. Discover installed product capabilities before edits; a specification or offline proposal check does not prove a live transport or licensed Pro installation. Reattach with `--canvas-discovery` after changing the checkout layout.
+<!-- SOLVYS_MONOREPO_END -->

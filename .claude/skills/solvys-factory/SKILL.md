@@ -5,6 +5,10 @@ description: Operate the Solvys Factory for project orientation, PL and PM plann
 
 # Solvys Factory
 
+## Current tracking authority, October 14, 2026
+
+Goalpost-in-gpt connectors own project and issue tracking. Match the actual repository, reuse project/issue IDs and current revisions, preserve native execution-session identity and read back writes. Use workflow/goalpost.md. Native ChatGPT-subscription sessions execute authorized work. Read the private solvys-technologies/solvys-factory AGENTS.md, PROJECT-STATE.md and workflow/execution-routing.json before work. Preserve historical records and owner pauses.
+
 work freely, work with an open mind, and explore all possible options; never jump to conclusions at the second or third blocker. Be innovative, take inventory of your skills
 
 Read the project Welcome Mat and read your assigned PL, PM, DEV, or CAO lane
@@ -286,3 +290,11 @@ Do not recommence a task that TP explicitly paused for a Factory entrance until 
 ## Full Handbook
 
 Read the canonical Handbook at `factory/Solvys Operations Handbook.md` in the `solvys-skills` repository when policy detail is needed. The installer registers the repository at `~/.codex/tools/solvys-skills`.
+
+## Frontend and recovery roles
+
+Read the shared Factory workflow/roles.md. Frontend Wonderer is the sole agent visual authority after the owner receives the base for polish and second pass. Every frontend agent must read solvys-wonder and follow the Wonderer compilation/import brief. Solver owns login and key-generation recovery. Three unsuccessful attempts require escalation: workers to Foreman or Reviewer, Foreman to Solver, Solver to the human Super. Respect goal pauses while reviewing earlier requests for separately authorized work.
+
+## Local Foreman setup exception
+
+A local Foreman may complete authorized key-generation and configuration tasks directly when its existing connections permit them. Verify the account, project, scopes and actual result; use approved credential handling. This exception does not grant new access, spending or approval authority. Escalate to Solver when the connection is insufficient or after three unsuccessful attempts; Solver contacts the human Super when needed.

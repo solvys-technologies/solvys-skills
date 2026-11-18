@@ -148,7 +148,7 @@ Fire a second `AskUserQuestion` batch covering:
   condition for each track. A local exception requires a recorded reason and
   capacity admission.
 - **Linear home:** which Linear cycle, project, and initiative own this sprint? If discoverable from Linear, present the concrete candidates and recommend the active beta cycle/project/initiative.
-- **Owner split:** which tracks belong to TP, which belong to Shashank, and which are agent-only implementation tracks? Default: TP owns ORCH/product acceptance/unification validation; Shashank owns human-dev implementation tracks; local/cloud agent sessions own explicitly delegated implementation tracks.
+- **Owner split:** which tracks belong to TP, an explicitly selected developer, or agent-only implementation sessions? TP owns ORCH/product acceptance/unification validation. Human developer tracks require TP to select the owner; local/cloud agent sessions own explicitly delegated implementation tracks. Never assume a named developer is assigned.
 - **Ownership conflicts:** which existing agent-owned files must stay off-limits? Start from `src/lib/changelog.ts` recent entries and list the top 2-3 candidates.
 - **Breakage tolerance:** what must NOT regress? (multi-select: CAO chat, RiskFlow feed, MDB/ADB/PMDB/TWT briefs, Sanctum, Mobile PWA, Desktop install flow, Supabase RLS)
 - **Unification owner:** does the orchestrator agent merge, or does a dedicated unification track? (single-select)
@@ -184,7 +184,7 @@ Scope: [What this track builds/changes]
 File Ownership: [Exact file paths this track may modify]
 Excluded Files: [Files explicitly off-limits to this track]
 Dependencies: [Which tracks must complete before this one starts]
-Assigned Owner: [TP / Shashank / Codex Cloud / local Solvys Agent / other named developer]
+Assigned Owner: [TP / Codex Cloud / local Solvys Agent / developer explicitly selected by TP]
 Execution Lane: [repository-backed Codex Cloud / internal-control / approved local exception]
 Environment ID And Label: [exact values]
 Repository Attachment Proof: [exact repository slug and attachment evidence]
@@ -263,7 +263,7 @@ Every brief MUST preserve searchable identity. Issue titles become
 - **Linear Initiative**: {initiative name/id or "not available"}
 - **Cycle**: {cycle number if known}
 - **Due date**: {same-week Saturday}
-- **Assigned owner**: {TP / Shashank / Codex Cloud / local Solvys Agent / other named developer}
+- **Assigned owner**: {TP / Codex Cloud / local Solvys Agent / developer explicitly selected by TP}
 
 ## Branch Target
 
@@ -454,15 +454,15 @@ Every ORCH and track issue must include:
 - Project assignment when Linear exposes one.
 - Initiative assignment or explicit initiative reference in the description when
   the API cannot set it directly.
-- Assigned owner: `TP`, `Shashank`, `Codex Cloud`, `local Solvys Agent`, or the
+- Assigned owner: `TP`, `Codex Cloud`, `local Solvys Agent`, or the
   specific named developer TP chose.
 
 Default owner split unless TP says otherwise:
 
 - **TP**: ORCH/runbook ownership, product decisions, validator acceptance, and
   final completion authority.
-- **Shashank**: human developer tracks, ambiguous product/architecture tracks,
-  and work TP explicitly wants off-agent.
+- **Developer explicitly selected by TP**: human developer tracks and work TP
+  explicitly wants off-agent. Keep ownership unassigned until TP selects a developer.
 - **Codex Cloud**: default implementation owner for backend, frontend, and
   combined tracks with an exact repository-backed receipt.
 - **Local Solvys Agent**: planning, coordination, and a documented
@@ -478,7 +478,7 @@ Add an `## Assignment Matrix` section to the orchestration doc:
 | Issue | Brief | Owner | Execution path | Cycle | Project | Initiative |
 | --- | --- | --- | --- | --- | --- | --- |
 | S{N} - context / ORCH | @sprint-md/... | TP | planning/runbook | Cycle X | Project | Initiative |
-| S{N} - context / T1 | @sprint-md/... | Shashank | human dev | Cycle X | Project | Initiative |
+| S{N} - context / T1 | @sprint-md/... | Developer explicitly selected by TP | human dev | Cycle X | Project | Initiative |
 | S{N} - context / T2 | @sprint-md/... | Codex Cloud | Linear delegate | Cycle X | Project | Initiative |
 ```
 
@@ -534,7 +534,7 @@ organization:
 - cycle names and phase mapping, especially Beta Pre-Release / Closed / Open;
 - project initiative links, or explicit issue-description initiative references
   when Linear will not accept another project-initiative relation;
-- assignment/delegation split between TP, Shashank, Codex Cloud, and local
+- assignment/delegation split between TP, explicitly selected developers, Codex Cloud, and local
   Solvys Agent;
 - issue descriptions contain `@sprint-md/...` references, cloud pickup blocks
   when relevant, and a `## Linear Organization` block when taxonomy would
@@ -544,7 +544,7 @@ Then capture:
 
 - sprint number and branch;
 - Linear cycle, project, initiative, and phase;
-- owner split between TP, Shashank, Codex Cloud, and/or local Solvys Agent;
+- owner split between TP, explicitly selected developers, Codex Cloud, and/or local Solvys Agent;
 - issue range and wave order;
 - whether the branch was pushed for cloud delegation;
 - Linear taxonomy audit result and any cleanup performed;

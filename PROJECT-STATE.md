@@ -1,17 +1,24 @@
 ---
 version: 1
 projectId: solvys-factory
-stateRevision: 2
+stateRevision: 3
 activeSprint: S016-anti-slop-audit
-sourceRef: 2026-08-09
-sourceCommit: 98dcc7d794f18b4140804b5dcaabb1325f4e9673
+sourceRef: main
+sourceCommit: 268e12c966edbad47bcc4368174ea36ab60cddaf
 authorityEnvironment: development-mac-canonical-suite
 syncStatus: aligned
-lastVerifiedAt: 2026-08-16T10:22:00-04:00
-latestReceipt: factory/receipts/S015-entrance-receipt.json
+lastVerifiedAt: 2026-10-13T13:02:07.046664+00:00
+latestReceipt: /Volumes/Ext./Solvys-Temp/storage-runner-20261013-deep/skill-update.json
 ---
 
 # Project state
+
+## October 13 Storage Runner continuation
+
+Owner requested deeper storage cleanup, incorporation of verified cleanup discoveries into the canonical Storage Runner skill, and explicit reporting of ACTIVE workspaces requiring sandbox infrastructure reassignment. The skill entrypoint now routes to references/deep-cleanup.md and requires an ownership, activity, capacity and reassignment report. Installed skill validation passes. This is a local source update, not a scheduler reload, publication or completed infrastructure migration.
+
+Current source is main at268e12c966edbad47bcc4368174ea36ab60cddaf. All pre-existing dirty and untracked work is preserved; this task changes only the Storage Runner skill/reference and this scoped progress record. Historical S016 state below remains historical. Exact evidence is in the latest receipt.
+
 
 ## Current intent
 
