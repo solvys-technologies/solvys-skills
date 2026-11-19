@@ -21,6 +21,8 @@ from typing import Any
 
 from wonder_ui_routing import route_ui
 
+from solvys_shell_guard import destructive_shell_reason
+
 
 DIRECTIVE = (
     "work freely, work with an open mind, and explore all possible options; "
@@ -70,7 +72,7 @@ PREVENTION_MAP = {
     "context-overload": "Bounded context pointers and role summary",
     "overcomplicated-status": "Communication validator and concise receipt schema",
     "asked-before-inventory": "Stop gate for source and skill inventory",
-    "ui-before-process": "Wonder source guidance with browser fallback",
+    "ui-before-process": "Wonder named-source and design-system guidance with browser fallback",
     "taxonomy-drift": "Canonical vocabulary validator",
     "missing-or-stale-user-testing-lineage": "Dual physical specification maps and inherited task-context validation",
     "incomplete-user-testing": "Inherited sub-journey and regression evidence with orchestrator acceptance",
@@ -204,6 +206,8 @@ def input_text(payload: dict[str, Any]) -> str:
 def detect_pretool_mechanisms(payload: dict[str, Any], state: dict[str, Any]) -> list[str]:
     text = input_text(payload).lower()
     found: set[str] = set()
+    if destructive_shell_reason(payload):
+        found.add("destructive-shell-operation")
     phase = str(state.get("phase", "PL0"))
     allowed_surfaces = {str(item).lower() for item in state.get("allowedSurfaces", [])}
 
@@ -211,7 +215,9 @@ def detect_pretool_mechanisms(payload: dict[str, Any], state: dict[str, Any]) ->
         "chatgpt-site" in allowed_surfaces or "codex-in-app-browser" in allowed_surfaces
     ):
         found.add("wrong-review-surface")
-    if any(token in text for token in ("create_thread", "spawn_agent", "subagent", "sub-agent")):
+    action_name = str(payload.get("tool_name") or payload.get("toolName") or "").lower()
+    # UI copy and documentation are data, not agent-launch commands.
+    if any(token in action_name or re.search(r"\b" + re.escape(token) + r"\s*\(", text) for token in ("create_thread", "spawn_agent", "subagent", "sub-agent")):
         found.add("delegation-sprawl")
     if state.get("correctionLatch", {}).get("active") and not state.get(
         "correctionLatch", {}
@@ -302,9 +308,9 @@ def stop_decision(payload: dict[str, Any], state: dict[str, Any]) -> tuple[str, 
     if valid_human_gate(state):
         return "allow", [], None
     mechanisms: list[str] = []
-    if not state.get("skillInventory"):
+    if state.get("blockers") and not state.get("skillInventory"):
         mechanisms.append("asked-before-inventory")
-    if len(set(state.get("exploredPaths", []))) < 3:
+    if state.get("blockers") and len(set(state.get("exploredPaths", []))) < 3:
         mechanisms.append("stale-external-state")
     latch = state.get("correctionLatch", {})
     if latch.get("active") and not latch.get("preventionTestPassed"):
@@ -348,15 +354,23 @@ def update_failure_state(payload: dict[str, Any], state: dict[str, Any]) -> list
 
 
 def response(event: str, decision: str, message: str | None, mechanisms: list[str]) -> dict[str, Any]:
-    result: dict[str, Any] = {
-        "decision": decision,
-        "reason": message,
-        "mechanisms": mechanisms,
-    }
-    if event in {"SessionStart", "UserPromptSubmit", "PostToolUse"}:
-        result["additionalContext"] = message or DIRECTIVE
-    if event == "PreToolUse" and decision == "allow" and message:
+    result: dict[str, Any] = {}
+    if event == "PreToolUse" and decision == "deny":
+        result["hookSpecificOutput"] = {
+            "hookEventName": event,
+            "permissionDecision": "deny",
+            "permissionDecisionReason": message,
+        }
+    elif event == "PreToolUse" and message:
         result["hookSpecificOutput"] = {"hookEventName": event, "additionalContext": message}
+    elif event == "Stop" and decision == "deny":
+        result.update(decision="block", reason=message)
+    elif event in {"SessionStart", "UserPromptSubmit", "PostToolUse"}:
+        result["hookSpecificOutput"] = {
+            "hookEventName": event,
+            "additionalContext": message or DIRECTIVE,
+        }
+
     return result
 
 
@@ -417,6 +431,8 @@ def main() -> int:
     if not args.no_write:
         save_state(state_path, state)
         append_event(state_path, event, decision, mechanisms, message)
+    if decision == "deny" and message:
+        print(message, file=sys.stderr)
     print(json.dumps(response(event, decision, message, mechanisms), ensure_ascii=False))
     return 2 if decision == "deny" else 0
 
